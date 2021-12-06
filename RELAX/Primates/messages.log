@@ -1,0 +1,1548 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/models/codon/MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Already loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Loaded 'libv3/tasks/mpi.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../models/parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'DbJHQgi_.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'XUKdonBG.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Rooted topology. Removing one branch - the left root child has been promoted to be the new root
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Loaded 'modules/grid_compute.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/grid_compute.ibf
+Variable 'QFRcOCEr.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'PiZXJoPi.model_pi' was not initialized prior to being used
+Model PiZXJoPi.model assigned to Otolemur_garnettii
+Model PiZXJoPi.model assigned to Propithecus_coquereli
+Model PiZXJoPi.model assigned to Microcebus_murinus
+Model PiZXJoPi.model assigned to 14
+Model PiZXJoPi.model assigned to Prolemur_simus
+Model PiZXJoPi.model assigned to 13
+Model PiZXJoPi.model assigned to Callithrix_jacchus
+Model PiZXJoPi.model assigned to Aotus_nancymaae
+Model PiZXJoPi.model assigned to 10
+Model PiZXJoPi.model assigned to Saimiri_boliviensis
+Model PiZXJoPi.model assigned to Cebus_capucinus
+Model PiZXJoPi.model assigned to Sapajus_apella
+Model PiZXJoPi.model assigned to 19
+Model PiZXJoPi.model assigned to 9
+Model PiZXJoPi.model assigned to 22
+Model PiZXJoPi.model assigned to Mandrillus_leucophaeus
+Model PiZXJoPi.model assigned to Cercocebus_atys
+Model PiZXJoPi.model assigned to 8
+Model PiZXJoPi.model assigned to Papio_anubis
+Model PiZXJoPi.model assigned to Theropithecus_gelada
+Model PiZXJoPi.model assigned to 6
+Model PiZXJoPi.model assigned to 30
+Model PiZXJoPi.model assigned to Macaca_mulatta
+Model PiZXJoPi.model assigned to Macaca_fascicularis
+Model PiZXJoPi.model assigned to 29
+Model PiZXJoPi.model assigned to Macaca_nemestrina
+Model PiZXJoPi.model assigned to 27
+Model PiZXJoPi.model assigned to 35
+Model PiZXJoPi.model assigned to Chlorocebus_sabaeus
+Model PiZXJoPi.model assigned to 43
+Model PiZXJoPi.model assigned to Rhinopithecus_roxellana
+Model PiZXJoPi.model assigned to Rhinopithecus_bieti
+Model PiZXJoPi.model assigned to 42
+Model PiZXJoPi.model assigned to Trachypithecus_francoisi
+Model PiZXJoPi.model assigned to 40
+Model PiZXJoPi.model assigned to Piliocolobus_tephrosceles
+Model PiZXJoPi.model assigned to 48
+Model PiZXJoPi.model assigned to 51
+Model PiZXJoPi.model assigned to Hylobates_moloch
+Model PiZXJoPi.model assigned to Nomascus_leucogenys
+Model PiZXJoPi.model assigned to 47
+Model PiZXJoPi.model assigned to Gorilla_gorilla
+Model PiZXJoPi.model assigned to Pan_troglodytes
+Model PiZXJoPi.model assigned to Pan_paniscus
+Model PiZXJoPi.model assigned to 39
+Model PiZXJoPi.model assigned to Homo_sapiens
+Model PiZXJoPi.model assigned to 56
+Model PiZXJoPi.model assigned to 55
+Model PiZXJoPi.model assigned to Pongo_abelii
+Model PiZXJoPi.model assigned to 61
+Model PiZXJoPi.model assigned to 60
+Model PiZXJoPi.model assigned to 54
+Model PiZXJoPi.model assigned to 38
+Model PiZXJoPi.model assigned to Carlito_syrichta
+Model PiZXJoPi.model assigned to 34
+The tips of the tree:PiZXJoPi.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,2,1,3,28,24,27,25,26,9,8,10,11,7,5,6,12,14,15,16,13,21,22,17,19,18,20,23,0}
+
+Pseudo-optimal path's cost 7476 vs 21246 for 1..k=> a 2.84189 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'PiZXJoPi.tree_0.Otolemur_garnettii.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Otolemur_garnettii.t=160.7522421077803
+Variable 'PiZXJoPi.tree_0.Propithecus_coquereli.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Propithecus_coquereli.t=102.3802523152837
+Variable 'PiZXJoPi.tree_0.Microcebus_murinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Microcebus_murinus.t=102.3802523152837
+Variable 'PiZXJoPi.tree_0.14.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.14.t=1.575287517892599
+Variable 'PiZXJoPi.tree_0.Prolemur_simus.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Prolemur_simus.t=103.9555398331763
+Variable 'PiZXJoPi.tree_0.13.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.13.t=56.79670227460407
+Variable 'PiZXJoPi.tree_0.Callithrix_jacchus.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Callithrix_jacchus.t=49.81504548598434
+Variable 'PiZXJoPi.tree_0.Aotus_nancymaae.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Aotus_nancymaae.t=49.81504548598434
+Variable 'PiZXJoPi.tree_0.10.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.10.t=3.515044822103702
+Variable 'PiZXJoPi.tree_0.Saimiri_boliviensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Saimiri_boliviensis.t=43.54640063569958
+Variable 'PiZXJoPi.tree_0.Cebus_capucinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Cebus_capucinus.t=15.36440610797273
+Variable 'PiZXJoPi.tree_0.Sapajus_apella.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Sapajus_apella.t=15.36440610797273
+Variable 'PiZXJoPi.tree_0.19.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.19.t=28.18199452772684
+Variable 'PiZXJoPi.tree_0.9.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.9.t=9.783689699485629
+Variable 'PiZXJoPi.tree_0.22.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.22.t=63.59770411111465
+Variable 'PiZXJoPi.tree_0.Mandrillus_leucophaeus.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Mandrillus_leucophaeus.t=12.43860782877841
+Variable 'PiZXJoPi.tree_0.Cercocebus_atys.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Cercocebus_atys.t=12.43860782877841
+Variable 'PiZXJoPi.tree_0.8.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.8.t=21.16188100413977
+Variable 'PiZXJoPi.tree_0.Papio_anubis.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Papio_anubis.t=13.76614165451246
+Variable 'PiZXJoPi.tree_0.Theropithecus_gelada.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Theropithecus_gelada.t=13.76614165451246
+Variable 'PiZXJoPi.tree_0.6.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.6.t=19.83434717840573
+Variable 'PiZXJoPi.tree_0.30.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.30.t=2.70971684136437e-10
+Variable 'PiZXJoPi.tree_0.Macaca_mulatta.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Macaca_mulatta.t=9.988112336731092
+Variable 'PiZXJoPi.tree_0.Macaca_fascicularis.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Macaca_fascicularis.t=9.988112336731092
+Variable 'PiZXJoPi.tree_0.29.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.29.t=4.314214835835193
+Variable 'PiZXJoPi.tree_0.Macaca_nemestrina.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Macaca_nemestrina.t=14.30232717256628
+Variable 'PiZXJoPi.tree_0.27.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.27.t=19.2981616603519
+Variable 'PiZXJoPi.tree_0.35.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.35.t=3.656954806665091
+Variable 'PiZXJoPi.tree_0.Chlorocebus_sabaeus.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Chlorocebus_sabaeus.t=37.25744363958328
+Variable 'PiZXJoPi.tree_0.43.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.43.t=15.37150272089442
+Variable 'PiZXJoPi.tree_0.Rhinopithecus_roxellana.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Rhinopithecus_roxellana.t=7.25779590277265
+Variable 'PiZXJoPi.tree_0.Rhinopithecus_bieti.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Rhinopithecus_bieti.t=7.25779590277265
+Variable 'PiZXJoPi.tree_0.42.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.42.t=20.14559251684597
+Variable 'PiZXJoPi.tree_0.Trachypithecus_francoisi.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Trachypithecus_francoisi.t=27.40338844671579
+Variable 'PiZXJoPi.tree_0.40.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.40.t=10.59415145555827
+Variable 'PiZXJoPi.tree_0.Piliocolobus_tephrosceles.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Piliocolobus_tephrosceles.t=37.99753990227407
+Variable 'PiZXJoPi.tree_0.48.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.48.t=14.63140645820364
+Variable 'PiZXJoPi.tree_0.51.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.51.t=27.14930886639673
+Variable 'PiZXJoPi.tree_0.Hylobates_moloch.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Hylobates_moloch.t=27.84407863869245
+Variable 'PiZXJoPi.tree_0.Nomascus_leucogenys.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Nomascus_leucogenys.t=27.84407863869245
+Variable 'PiZXJoPi.tree_0.47.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.47.t=26.86297330454711
+Variable 'PiZXJoPi.tree_0.Gorilla_gorilla.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Gorilla_gorilla.t=24.55842256543797
+Variable 'PiZXJoPi.tree_0.Pan_troglodytes.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Pan_troglodytes.t=7.641562531119405
+Variable 'PiZXJoPi.tree_0.Pan_paniscus.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Pan_paniscus.t=7.641562531119405
+Variable 'PiZXJoPi.tree_0.39.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.39.t=10.38050675769509
+Variable 'PiZXJoPi.tree_0.Homo_sapiens.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Homo_sapiens.t=18.02206928881449
+Variable 'PiZXJoPi.tree_0.56.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.56.t=6.536353276623475
+Variable 'PiZXJoPi.tree_0.55.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.55.t=18.15258285467315
+Variable 'PiZXJoPi.tree_0.Pongo_abelii.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Pongo_abelii.t=42.71100542011111
+Variable 'PiZXJoPi.tree_0.61.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.61.t=11.99604655022562
+Variable 'PiZXJoPi.tree_0.60.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.60.t=25.07120328363487
+Variable 'PiZXJoPi.tree_0.54.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.54.t=37.14953919232825
+Variable 'PiZXJoPi.tree_0.38.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.38.t=64.78866864159862
+Variable 'PiZXJoPi.tree_0.Carlito_syrichta.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.Carlito_syrichta.t=181.7164630878985
+Variable 'PiZXJoPi.tree_0.34.t' was not initialized prior to being used
+models.generic.SetBranchLength: PiZXJoPi.tree_0.34.t=18.36061304633819
+Variable 'PiZXJoPi.PiZXJoPi.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 2475-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+PiZXJoPi.model.theta_CT = 1
+PiZXJoPi.model.theta_GT = 0.25
+PiZXJoPi.model.theta_CG = 0.25
+PiZXJoPi.model.theta_AC = 0.25
+PiZXJoPi.model.theta_AT = 0.25
+PiZXJoPi.tree_0.Otolemur_garnettii.t = 160.752
+PiZXJoPi.tree_0.Propithecus_coquereli.t = 102.38
+PiZXJoPi.tree_0.Microcebus_murinus.t = 102.38
+PiZXJoPi.tree_0.14.t = 1.57529
+PiZXJoPi.tree_0.Prolemur_simus.t = 103.956
+PiZXJoPi.tree_0.13.t = 56.7967
+PiZXJoPi.tree_0.Callithrix_jacchus.t = 49.815
+PiZXJoPi.tree_0.Aotus_nancymaae.t = 49.815
+PiZXJoPi.tree_0.10.t = 3.51504
+PiZXJoPi.tree_0.Saimiri_boliviensis.t = 43.5464
+PiZXJoPi.tree_0.Cebus_capucinus.t = 15.3644
+PiZXJoPi.tree_0.Sapajus_apella.t = 15.3644
+PiZXJoPi.tree_0.19.t = 28.182
+PiZXJoPi.tree_0.9.t = 9.78369
+PiZXJoPi.tree_0.22.t = 63.5977
+PiZXJoPi.tree_0.Mandrillus_leucophaeus.t = 12.4386
+PiZXJoPi.tree_0.Cercocebus_atys.t = 12.4386
+PiZXJoPi.tree_0.8.t = 21.1619
+PiZXJoPi.tree_0.Papio_anubis.t = 13.7661
+PiZXJoPi.tree_0.Theropithecus_gelada.t = 13.7661
+PiZXJoPi.tree_0.6.t = 19.8343
+PiZXJoPi.tree_0.30.t = 2.70972e-10
+PiZXJoPi.tree_0.Macaca_mulatta.t = 9.98811
+PiZXJoPi.tree_0.Macaca_fascicularis.t = 9.98811
+PiZXJoPi.tree_0.29.t = 4.31421
+PiZXJoPi.tree_0.Macaca_nemestrina.t = 14.3023
+PiZXJoPi.tree_0.27.t = 19.2982
+PiZXJoPi.tree_0.35.t = 3.65695
+PiZXJoPi.tree_0.Chlorocebus_sabaeus.t = 37.2574
+PiZXJoPi.tree_0.43.t = 15.3715
+PiZXJoPi.tree_0.Rhinopithecus_roxellana.t = 7.2578
+PiZXJoPi.tree_0.Rhinopithecus_bieti.t = 7.2578
+PiZXJoPi.tree_0.42.t = 20.1456
+PiZXJoPi.tree_0.Trachypithecus_francoisi.t = 27.4034
+PiZXJoPi.tree_0.40.t = 10.5942
+PiZXJoPi.tree_0.Piliocolobus_tephrosceles.t = 37.9975
+PiZXJoPi.tree_0.48.t = 14.6314
+PiZXJoPi.tree_0.51.t = 27.1493
+PiZXJoPi.tree_0.Hylobates_moloch.t = 27.8441
+PiZXJoPi.tree_0.Nomascus_leucogenys.t = 27.8441
+PiZXJoPi.tree_0.47.t = 26.863
+PiZXJoPi.tree_0.Gorilla_gorilla.t = 24.5584
+PiZXJoPi.tree_0.Pan_troglodytes.t = 7.64156
+PiZXJoPi.tree_0.Pan_paniscus.t = 7.64156
+PiZXJoPi.tree_0.39.t = 10.3805
+PiZXJoPi.tree_0.Homo_sapiens.t = 18.0221
+PiZXJoPi.tree_0.56.t = 6.53635
+PiZXJoPi.tree_0.55.t = 18.1526
+PiZXJoPi.tree_0.Pongo_abelii.t = 42.711
+PiZXJoPi.tree_0.61.t = 11.996
+PiZXJoPi.tree_0.60.t = 25.0712
+PiZXJoPi.tree_0.54.t = 37.1495
+PiZXJoPi.tree_0.38.t = 64.7887
+PiZXJoPi.tree_0.Carlito_syrichta.t = 181.716
+PiZXJoPi.tree_0.34.t = 18.3606
+Optimization finished in 38 loop passes.
+7304 likelihood evaluation calls and 62036 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'PiZXJoPi.option' was not initialized prior to being used
+Variable 'relax.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'hWAXnznZ.initial_value' was not initialized prior to being used
+Variable 'zgMPAGAn.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 6172-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.312051
+frequencies._aux.CF3x4.p0_1 = 0.232465
+frequencies._aux.CF3x4.p0_2 = 0.597323
+frequencies._aux.CF3x4.p1_0 = 0.344218
+frequencies._aux.CF3x4.p1_1 = 0.301003
+frequencies._aux.CF3x4.p1_2 = 0.458533
+frequencies._aux.CF3x4.p2_0 = 0.318448
+frequencies._aux.CF3x4.p2_1 = 0.312237
+frequencies._aux.CF3x4.p2_2 = 0.325708
+Optimization finished in 5 loop passes.
+191 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'zgMPAGAn.model_MGREV_pi' was not initialized prior to being used
+Model zgMPAGAn.model_MGREV assigned to Otolemur_garnettii
+Model zgMPAGAn.model_MGREV assigned to Propithecus_coquereli
+Model zgMPAGAn.model_MGREV assigned to Microcebus_murinus
+Model zgMPAGAn.model_MGREV assigned to 14
+Model zgMPAGAn.model_MGREV assigned to Prolemur_simus
+Model zgMPAGAn.model_MGREV assigned to 13
+Model zgMPAGAn.model_MGREV assigned to Callithrix_jacchus
+Model zgMPAGAn.model_MGREV assigned to Aotus_nancymaae
+Model zgMPAGAn.model_MGREV assigned to 10
+Model zgMPAGAn.model_MGREV assigned to Saimiri_boliviensis
+Model zgMPAGAn.model_MGREV assigned to Cebus_capucinus
+Model zgMPAGAn.model_MGREV assigned to Sapajus_apella
+Model zgMPAGAn.model_MGREV assigned to 19
+Model zgMPAGAn.model_MGREV assigned to 9
+Model zgMPAGAn.model_MGREV assigned to 22
+Model zgMPAGAn.model_MGREV assigned to Mandrillus_leucophaeus
+Model zgMPAGAn.model_MGREV assigned to Cercocebus_atys
+Model zgMPAGAn.model_MGREV assigned to 8
+Model zgMPAGAn.model_MGREV assigned to Papio_anubis
+Model zgMPAGAn.model_MGREV assigned to Theropithecus_gelada
+Model zgMPAGAn.model_MGREV assigned to 6
+Model zgMPAGAn.model_MGREV assigned to 30
+Model zgMPAGAn.model_MGREV assigned to Macaca_mulatta
+Model zgMPAGAn.model_MGREV assigned to Macaca_fascicularis
+Model zgMPAGAn.model_MGREV assigned to 29
+Model zgMPAGAn.model_MGREV assigned to Macaca_nemestrina
+Model zgMPAGAn.model_MGREV assigned to 27
+Model zgMPAGAn.model_MGREV assigned to 35
+Model zgMPAGAn.model_MGREV assigned to Chlorocebus_sabaeus
+Model zgMPAGAn.model_MGREV assigned to 43
+Model zgMPAGAn.model_MGREV assigned to Rhinopithecus_roxellana
+Model zgMPAGAn.model_MGREV assigned to Rhinopithecus_bieti
+Model zgMPAGAn.model_MGREV assigned to 42
+Model zgMPAGAn.model_MGREV assigned to Trachypithecus_francoisi
+Model zgMPAGAn.model_MGREV assigned to 40
+Model zgMPAGAn.model_MGREV assigned to Piliocolobus_tephrosceles
+Model zgMPAGAn.model_MGREV assigned to 48
+Model zgMPAGAn.model_MGREV assigned to 51
+Model zgMPAGAn.model_MGREV assigned to Hylobates_moloch
+Model zgMPAGAn.model_MGREV assigned to Nomascus_leucogenys
+Model zgMPAGAn.model_MGREV assigned to 47
+Model zgMPAGAn.model_MGREV assigned to Gorilla_gorilla
+Model zgMPAGAn.model_MGREV assigned to Pan_troglodytes
+Model zgMPAGAn.model_MGREV assigned to Pan_paniscus
+Model zgMPAGAn.model_MGREV assigned to 39
+Model zgMPAGAn.model_MGREV assigned to Homo_sapiens
+Model zgMPAGAn.model_MGREV assigned to 56
+Model zgMPAGAn.model_MGREV assigned to 55
+Model zgMPAGAn.model_MGREV assigned to Pongo_abelii
+Model zgMPAGAn.model_MGREV assigned to 61
+Model zgMPAGAn.model_MGREV assigned to 60
+Model zgMPAGAn.model_MGREV assigned to 54
+Model zgMPAGAn.model_MGREV assigned to 38
+Model zgMPAGAn.model_MGREV assigned to Carlito_syrichta
+Model zgMPAGAn.model_MGREV assigned to 34
+The tips of the tree:zgMPAGAn.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,2,1,3,28,24,27,25,26,9,8,10,11,7,5,6,12,14,15,16,13,21,22,17,19,18,20,23,0}
+
+Pseudo-optimal path's cost 12090 vs 24130 for 1..k=> a 1.99586 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'zgMPAGAn.zgMPAGAn.likelihoodFunction' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Otolemur_garnettii.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Propithecus_coquereli.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Microcebus_murinus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.14.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Prolemur_simus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.13.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Callithrix_jacchus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Aotus_nancymaae.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.10.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Saimiri_boliviensis.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Cebus_capucinus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Sapajus_apella.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.19.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.9.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.22.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Mandrillus_leucophaeus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Cercocebus_atys.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.8.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Papio_anubis.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Theropithecus_gelada.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.6.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.30.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Macaca_mulatta.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Macaca_fascicularis.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.29.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Macaca_nemestrina.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.27.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.35.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Chlorocebus_sabaeus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.43.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Rhinopithecus_roxellana.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Rhinopithecus_bieti.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.42.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Trachypithecus_francoisi.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.40.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Piliocolobus_tephrosceles.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.48.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.51.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Hylobates_moloch.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Nomascus_leucogenys.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.47.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Gorilla_gorilla.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Pan_troglodytes.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Pan_paniscus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.39.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Homo_sapiens.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.56.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.55.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Pongo_abelii.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.61.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.60.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.54.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.38.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Carlito_syrichta.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.34.alpha' was not initialized prior to being used
+Site 266 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 266 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 340 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 189 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 266 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 390 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 153 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 312 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 114 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 266 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 253 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 266 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 142 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 404 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 228 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 159-th LF evaluation.
+Initial guess for zgMPAGAn.tree_0.13.alpha is 9.42934e-06
+Initial guess for zgMPAGAn.tree_0.14.alpha is 2.85347e-06
+Initial guess for zgMPAGAn.tree_0.Propithecus_coquereli.alpha is 2.97429e-05
+Initial guess for zgMPAGAn.tree_0.Microcebus_murinus.alpha is 8.61064e-06
+Initial guess for zgMPAGAn.tree_0.Prolemur_simus.alpha is 1.15064e-05
+Initial guess for zgMPAGAn.tree_0.34.alpha is 3.2341e-06
+Initial guess for zgMPAGAn.tree_0.38.alpha is 1.44481e-05
+Initial guess for zgMPAGAn.tree_0.22.alpha is 1.42688e-05
+Initial guess for zgMPAGAn.tree_0.10.alpha is 5.61992e-07
+Initial guess for zgMPAGAn.tree_0.Callithrix_jacchus.alpha is 8.2701e-06
+Initial guess for zgMPAGAn.tree_0.Aotus_nancymaae.alpha is 9.58336e-06
+Initial guess for zgMPAGAn.tree_0.9.alpha is 2.60074e-06
+Initial guess for zgMPAGAn.tree_0.Saimiri_boliviensis.alpha is 7.71046e-06
+Initial guess for zgMPAGAn.tree_0.19.alpha is 5.86741e-06
+Initial guess for zgMPAGAn.tree_0.Cebus_capucinus.alpha is 7.52572e-06
+Initial guess for zgMPAGAn.tree_0.Sapajus_apella.alpha is 1.79956e-06
+Initial guess for zgMPAGAn.tree_0.54.alpha is 4.62848e-06
+Initial guess for zgMPAGAn.tree_0.51.alpha is 4.65545e-06
+Initial guess for zgMPAGAn.tree_0.43.alpha is 1.33708e-06
+Initial guess for zgMPAGAn.tree_0.35.alpha is 7.65347e-07
+Initial guess for zgMPAGAn.tree_0.30.alpha is 2.73878e-07
+Initial guess for zgMPAGAn.tree_0.8.alpha is 6.13554e-07
+Initial guess for zgMPAGAn.tree_0.Mandrillus_leucophaeus.alpha is 1.66884e-06
+Initial guess for zgMPAGAn.tree_0.Cercocebus_atys.alpha is 1.70979e-06
+Initial guess for zgMPAGAn.tree_0.6.alpha is 1.00504e-06
+Initial guess for zgMPAGAn.tree_0.Papio_anubis.alpha is 8.33693e-07
+Initial guess for zgMPAGAn.tree_0.Theropithecus_gelada.alpha is 1.51373e-06
+Initial guess for zgMPAGAn.tree_0.27.alpha is 1.80152e-06
+Initial guess for zgMPAGAn.tree_0.29.alpha is -9.86812e-08
+Initial guess for zgMPAGAn.tree_0.Macaca_mulatta.alpha is 7.98532e-07
+Initial guess for zgMPAGAn.tree_0.Macaca_fascicularis.alpha is 3.62499e-07
+Initial guess for zgMPAGAn.tree_0.Macaca_nemestrina.alpha is 5.62404e-07
+Initial guess for zgMPAGAn.tree_0.Chlorocebus_sabaeus.alpha is 9.8681e-08
+Initial guess for zgMPAGAn.tree_0.48.alpha is 1.20512e-06
+Initial guess for zgMPAGAn.tree_0.40.alpha is 1.36436e-06
+Initial guess for zgMPAGAn.tree_0.42.alpha is 1.4447e-06
+Initial guess for zgMPAGAn.tree_0.Rhinopithecus_roxellana.alpha is 2.91168e-06
+Initial guess for zgMPAGAn.tree_0.Rhinopithecus_bieti.alpha is 1.21842e-06
+Initial guess for zgMPAGAn.tree_0.Trachypithecus_francoisi.alpha is 6.3139e-07
+Initial guess for zgMPAGAn.tree_0.Piliocolobus_tephrosceles.alpha is 6.36333e-07
+Initial guess for zgMPAGAn.tree_0.60.alpha is 2.13351e-06
+Initial guess for zgMPAGAn.tree_0.47.alpha is 3.86838e-06
+Initial guess for zgMPAGAn.tree_0.Hylobates_moloch.alpha is 3.54937e-06
+Initial guess for zgMPAGAn.tree_0.Nomascus_leucogenys.alpha is 3.68177e-06
+Initial guess for zgMPAGAn.tree_0.61.alpha is 4.4163e-07
+Initial guess for zgMPAGAn.tree_0.55.alpha is 5.03902e-06
+Initial guess for zgMPAGAn.tree_0.Gorilla_gorilla.alpha is 2.56136e-06
+Initial guess for zgMPAGAn.tree_0.56.alpha is -7.68288e-09
+Initial guess for zgMPAGAn.tree_0.39.alpha is 1.08024e-06
+Initial guess for zgMPAGAn.tree_0.Pan_troglodytes.alpha is 2.42232e-06
+Initial guess for zgMPAGAn.tree_0.Pan_paniscus.alpha is 2.03977e-07
+Initial guess for zgMPAGAn.tree_0.Homo_sapiens.alpha is 2.58474e-07
+Initial guess for zgMPAGAn.tree_0.Pongo_abelii.alpha is 7.69567e-07
+Initial guess for zgMPAGAn.tree_0.Carlito_syrichta.alpha is 5.54854e-06
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+zgMPAGAn.model_MGREV.theta_GT = 1
+zgMPAGAn.model_MGREV.theta_CT = 1
+zgMPAGAn.model_MGREV.theta_AC = 1
+zgMPAGAn.model_MGREV.theta_CG = 1
+zgMPAGAn.model_MGREV.theta_AT = 1
+zgMPAGAn.model_MGREV.omega_0 = 1
+zgMPAGAn.tree_0.Otolemur_garnettii.alpha = 0.1
+zgMPAGAn.tree_0.Propithecus_coquereli.alpha = 2.97429e-05
+zgMPAGAn.tree_0.Microcebus_murinus.alpha = 8.61064e-06
+zgMPAGAn.tree_0.14.alpha = 2.85347e-06
+zgMPAGAn.tree_0.Prolemur_simus.alpha = 1.15064e-05
+zgMPAGAn.tree_0.13.alpha = 9.42934e-06
+zgMPAGAn.tree_0.Callithrix_jacchus.alpha = 8.2701e-06
+zgMPAGAn.tree_0.Aotus_nancymaae.alpha = 9.58336e-06
+zgMPAGAn.tree_0.10.alpha = 5.61992e-07
+zgMPAGAn.tree_0.Saimiri_boliviensis.alpha = 7.71046e-06
+zgMPAGAn.tree_0.Cebus_capucinus.alpha = 7.52572e-06
+zgMPAGAn.tree_0.Sapajus_apella.alpha = 1.79956e-06
+zgMPAGAn.tree_0.19.alpha = 5.86741e-06
+zgMPAGAn.tree_0.9.alpha = 2.60074e-06
+zgMPAGAn.tree_0.22.alpha = 1.42688e-05
+zgMPAGAn.tree_0.Mandrillus_leucophaeus.alpha = 1.66884e-06
+zgMPAGAn.tree_0.Cercocebus_atys.alpha = 1.70979e-06
+zgMPAGAn.tree_0.8.alpha = 6.13554e-07
+zgMPAGAn.tree_0.Papio_anubis.alpha = 8.33693e-07
+zgMPAGAn.tree_0.Theropithecus_gelada.alpha = 1.51373e-06
+zgMPAGAn.tree_0.6.alpha = 1.00504e-06
+zgMPAGAn.tree_0.30.alpha = 2.73878e-07
+zgMPAGAn.tree_0.Macaca_mulatta.alpha = 7.98532e-07
+zgMPAGAn.tree_0.Macaca_fascicularis.alpha = 3.62499e-07
+zgMPAGAn.tree_0.29.alpha = 0
+zgMPAGAn.tree_0.Macaca_nemestrina.alpha = 5.62404e-07
+zgMPAGAn.tree_0.27.alpha = 1.80152e-06
+zgMPAGAn.tree_0.35.alpha = 7.65347e-07
+zgMPAGAn.tree_0.Chlorocebus_sabaeus.alpha = 9.8681e-08
+zgMPAGAn.tree_0.43.alpha = 1.33708e-06
+zgMPAGAn.tree_0.Rhinopithecus_roxellana.alpha = 2.91168e-06
+zgMPAGAn.tree_0.Rhinopithecus_bieti.alpha = 1.21842e-06
+zgMPAGAn.tree_0.42.alpha = 1.4447e-06
+zgMPAGAn.tree_0.Trachypithecus_francoisi.alpha = 6.3139e-07
+zgMPAGAn.tree_0.40.alpha = 1.36436e-06
+zgMPAGAn.tree_0.Piliocolobus_tephrosceles.alpha = 6.36333e-07
+zgMPAGAn.tree_0.48.alpha = 1.20512e-06
+zgMPAGAn.tree_0.51.alpha = 4.65545e-06
+zgMPAGAn.tree_0.Hylobates_moloch.alpha = 3.54937e-06
+zgMPAGAn.tree_0.Nomascus_leucogenys.alpha = 3.68177e-06
+zgMPAGAn.tree_0.47.alpha = 3.86838e-06
+zgMPAGAn.tree_0.Gorilla_gorilla.alpha = 2.56136e-06
+zgMPAGAn.tree_0.Pan_troglodytes.alpha = 2.42232e-06
+zgMPAGAn.tree_0.Pan_paniscus.alpha = 2.03977e-07
+zgMPAGAn.tree_0.39.alpha = 1.08024e-06
+zgMPAGAn.tree_0.Homo_sapiens.alpha = 2.58474e-07
+zgMPAGAn.tree_0.56.alpha = 0
+zgMPAGAn.tree_0.55.alpha = 5.03902e-06
+zgMPAGAn.tree_0.Pongo_abelii.alpha = 7.69567e-07
+zgMPAGAn.tree_0.61.alpha = 4.4163e-07
+zgMPAGAn.tree_0.60.alpha = 2.13351e-06
+zgMPAGAn.tree_0.54.alpha = 4.62848e-06
+zgMPAGAn.tree_0.38.alpha = 1.44481e-05
+zgMPAGAn.tree_0.Carlito_syrichta.alpha = 5.54854e-06
+zgMPAGAn.tree_0.34.alpha = 3.2341e-06
+zgMPAGAn.model_MGREV.omega_1 = 1
+Failing bound checks on zgMPAGAn.tree_0.Chlorocebus_sabaeus.beta =         10005.21488447604
+Optimization finished in 31 loop passes.
+8087 likelihood evaluation calls and 61135 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6410-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.312051
+frequencies._aux.CF3x4.p0_1 = 0.232465
+frequencies._aux.CF3x4.p0_2 = 0.597323
+frequencies._aux.CF3x4.p1_0 = 0.344218
+frequencies._aux.CF3x4.p1_1 = 0.301003
+frequencies._aux.CF3x4.p1_2 = 0.458533
+frequencies._aux.CF3x4.p2_0 = 0.318448
+frequencies._aux.CF3x4.p2_1 = 0.312237
+frequencies._aux.CF3x4.p2_2 = 0.325708
+Optimization finished in 5 loop passes.
+193 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'zgMPAGAn.model_MGREV_pi' was not initialized prior to being used
+Model zgMPAGAn.model_MGREV assigned to Otolemur_garnettii
+Model zgMPAGAn.model_MGREV assigned to Propithecus_coquereli
+Model zgMPAGAn.model_MGREV assigned to Microcebus_murinus
+Model zgMPAGAn.model_MGREV assigned to 14
+Model zgMPAGAn.model_MGREV assigned to Prolemur_simus
+Model zgMPAGAn.model_MGREV assigned to 13
+Model zgMPAGAn.model_MGREV assigned to Callithrix_jacchus
+Model zgMPAGAn.model_MGREV assigned to Aotus_nancymaae
+Model zgMPAGAn.model_MGREV assigned to 10
+Model zgMPAGAn.model_MGREV assigned to Saimiri_boliviensis
+Model zgMPAGAn.model_MGREV assigned to Cebus_capucinus
+Model zgMPAGAn.model_MGREV assigned to Sapajus_apella
+Model zgMPAGAn.model_MGREV assigned to 19
+Model zgMPAGAn.model_MGREV assigned to 9
+Model zgMPAGAn.model_MGREV assigned to 22
+Model zgMPAGAn.model_MGREV assigned to Mandrillus_leucophaeus
+Model zgMPAGAn.model_MGREV assigned to Cercocebus_atys
+Model zgMPAGAn.model_MGREV assigned to 8
+Model zgMPAGAn.model_MGREV assigned to Papio_anubis
+Model zgMPAGAn.model_MGREV assigned to Theropithecus_gelada
+Model zgMPAGAn.model_MGREV assigned to 6
+Model zgMPAGAn.model_MGREV assigned to 30
+Model zgMPAGAn.model_MGREV assigned to Macaca_mulatta
+Model zgMPAGAn.model_MGREV assigned to Macaca_fascicularis
+Model zgMPAGAn.model_MGREV assigned to 29
+Model zgMPAGAn.model_MGREV assigned to Macaca_nemestrina
+Model zgMPAGAn.model_MGREV assigned to 27
+Model zgMPAGAn.model_MGREV assigned to 35
+Model zgMPAGAn.model_MGREV assigned to Chlorocebus_sabaeus
+Model zgMPAGAn.model_MGREV assigned to 43
+Model zgMPAGAn.model_MGREV assigned to Rhinopithecus_roxellana
+Model zgMPAGAn.model_MGREV assigned to Rhinopithecus_bieti
+Model zgMPAGAn.model_MGREV assigned to 42
+Model zgMPAGAn.model_MGREV assigned to Trachypithecus_francoisi
+Model zgMPAGAn.model_MGREV assigned to 40
+Model zgMPAGAn.model_MGREV assigned to Piliocolobus_tephrosceles
+Model zgMPAGAn.model_MGREV assigned to 48
+Model zgMPAGAn.model_MGREV assigned to 51
+Model zgMPAGAn.model_MGREV assigned to Hylobates_moloch
+Model zgMPAGAn.model_MGREV assigned to Nomascus_leucogenys
+Model zgMPAGAn.model_MGREV assigned to 47
+Model zgMPAGAn.model_MGREV assigned to Gorilla_gorilla
+Model zgMPAGAn.model_MGREV assigned to Pan_troglodytes
+Model zgMPAGAn.model_MGREV assigned to Pan_paniscus
+Model zgMPAGAn.model_MGREV assigned to 39
+Model zgMPAGAn.model_MGREV assigned to Homo_sapiens
+Model zgMPAGAn.model_MGREV assigned to 56
+Model zgMPAGAn.model_MGREV assigned to 55
+Model zgMPAGAn.model_MGREV assigned to Pongo_abelii
+Model zgMPAGAn.model_MGREV assigned to 61
+Model zgMPAGAn.model_MGREV assigned to 60
+Model zgMPAGAn.model_MGREV assigned to 54
+Model zgMPAGAn.model_MGREV assigned to 38
+Model zgMPAGAn.model_MGREV assigned to Carlito_syrichta
+Model zgMPAGAn.model_MGREV assigned to 34
+The tips of the tree:zgMPAGAn.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,2,1,3,28,24,27,25,26,9,8,10,11,7,5,6,12,14,15,16,13,21,22,17,19,18,20,23,0}
+
+Pseudo-optimal path's cost 12090 vs 24130 for 1..k=> a 1.99586 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'zgMPAGAn.tree_0.38.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.54.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Carlito_syrichta.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Prolemur_simus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.60.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.13.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.61.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Microcebus_murinus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Pongo_abelii.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.55.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Saimiri_boliviensis.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.56.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Papio_anubis.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Homo_sapiens.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.39.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Pan_paniscus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.8.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Pan_troglodytes.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Gorilla_gorilla.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.10.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.47.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Cebus_capucinus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Nomascus_leucogenys.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.14.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Otolemur_garnettii.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Hylobates_moloch.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Sapajus_apella.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.51.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Callithrix_jacchus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.48.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Piliocolobus_tephrosceles.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Cercocebus_atys.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.40.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Trachypithecus_francoisi.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Mandrillus_leucophaeus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.42.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Rhinopithecus_bieti.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Propithecus_coquereli.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Rhinopithecus_roxellana.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.43.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.22.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Chlorocebus_sabaeus.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.35.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.27.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Macaca_nemestrina.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.9.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.29.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Macaca_fascicularis.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Macaca_mulatta.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.30.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Aotus_nancymaae.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.6.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.Theropithecus_gelada.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.19.alpha' was not initialized prior to being used
+Variable 'zgMPAGAn.tree_0.34.alpha' was not initialized prior to being used
+Site 266 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 266 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 340 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 189 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 266 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 390 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 114 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 266 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 153 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 312 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 139-th LF evaluation.
+Initial guess for zgMPAGAn.tree_0.13.alpha is 9.42934e-06
+Initial guess for zgMPAGAn.tree_0.14.alpha is 2.85347e-06
+Initial guess for zgMPAGAn.tree_0.Propithecus_coquereli.alpha is 2.97429e-05
+Initial guess for zgMPAGAn.tree_0.Microcebus_murinus.alpha is 8.61064e-06
+Initial guess for zgMPAGAn.tree_0.Prolemur_simus.alpha is 1.15064e-05
+Initial guess for zgMPAGAn.tree_0.34.alpha is 3.2341e-06
+Initial guess for zgMPAGAn.tree_0.38.alpha is 1.44481e-05
+Initial guess for zgMPAGAn.tree_0.22.alpha is 1.42688e-05
+Initial guess for zgMPAGAn.tree_0.10.alpha is 5.61992e-07
+Initial guess for zgMPAGAn.tree_0.Callithrix_jacchus.alpha is 8.2701e-06
+Initial guess for zgMPAGAn.tree_0.Aotus_nancymaae.alpha is 9.58336e-06
+Initial guess for zgMPAGAn.tree_0.9.alpha is 2.60074e-06
+Initial guess for zgMPAGAn.tree_0.Saimiri_boliviensis.alpha is 7.71046e-06
+Initial guess for zgMPAGAn.tree_0.19.alpha is 5.86741e-06
+Initial guess for zgMPAGAn.tree_0.Cebus_capucinus.alpha is 7.52572e-06
+Initial guess for zgMPAGAn.tree_0.Sapajus_apella.alpha is 1.79956e-06
+Initial guess for zgMPAGAn.tree_0.54.alpha is 4.62848e-06
+Initial guess for zgMPAGAn.tree_0.51.alpha is 4.65545e-06
+Initial guess for zgMPAGAn.tree_0.43.alpha is 1.33708e-06
+Initial guess for zgMPAGAn.tree_0.35.alpha is 7.65347e-07
+Initial guess for zgMPAGAn.tree_0.30.alpha is 2.73878e-07
+Initial guess for zgMPAGAn.tree_0.8.alpha is 6.13554e-07
+Initial guess for zgMPAGAn.tree_0.Mandrillus_leucophaeus.alpha is 1.66884e-06
+Initial guess for zgMPAGAn.tree_0.Cercocebus_atys.alpha is 1.70979e-06
+Initial guess for zgMPAGAn.tree_0.6.alpha is 1.00504e-06
+Initial guess for zgMPAGAn.tree_0.Papio_anubis.alpha is 8.33693e-07
+Initial guess for zgMPAGAn.tree_0.Theropithecus_gelada.alpha is 1.51373e-06
+Initial guess for zgMPAGAn.tree_0.27.alpha is 1.80152e-06
+Initial guess for zgMPAGAn.tree_0.29.alpha is -9.86812e-08
+Initial guess for zgMPAGAn.tree_0.Macaca_mulatta.alpha is 7.98532e-07
+Initial guess for zgMPAGAn.tree_0.Macaca_fascicularis.alpha is 3.62499e-07
+Initial guess for zgMPAGAn.tree_0.Macaca_nemestrina.alpha is 5.62404e-07
+Initial guess for zgMPAGAn.tree_0.Chlorocebus_sabaeus.alpha is 9.8681e-08
+Initial guess for zgMPAGAn.tree_0.48.alpha is 1.20512e-06
+Initial guess for zgMPAGAn.tree_0.40.alpha is 1.36436e-06
+Initial guess for zgMPAGAn.tree_0.42.alpha is 1.4447e-06
+Initial guess for zgMPAGAn.tree_0.Rhinopithecus_roxellana.alpha is 2.91168e-06
+Initial guess for zgMPAGAn.tree_0.Rhinopithecus_bieti.alpha is 1.21842e-06
+Initial guess for zgMPAGAn.tree_0.Trachypithecus_francoisi.alpha is 6.3139e-07
+Initial guess for zgMPAGAn.tree_0.Piliocolobus_tephrosceles.alpha is 6.36333e-07
+Initial guess for zgMPAGAn.tree_0.60.alpha is 2.13351e-06
+Initial guess for zgMPAGAn.tree_0.47.alpha is 3.86838e-06
+Initial guess for zgMPAGAn.tree_0.Hylobates_moloch.alpha is 3.54937e-06
+Initial guess for zgMPAGAn.tree_0.Nomascus_leucogenys.alpha is 3.68177e-06
+Initial guess for zgMPAGAn.tree_0.61.alpha is 4.4163e-07
+Initial guess for zgMPAGAn.tree_0.55.alpha is 5.03902e-06
+Initial guess for zgMPAGAn.tree_0.Gorilla_gorilla.alpha is 2.56136e-06
+Initial guess for zgMPAGAn.tree_0.56.alpha is -7.68288e-09
+Initial guess for zgMPAGAn.tree_0.39.alpha is 1.08024e-06
+Initial guess for zgMPAGAn.tree_0.Pan_troglodytes.alpha is 2.42232e-06
+Initial guess for zgMPAGAn.tree_0.Pan_paniscus.alpha is 2.03977e-07
+Initial guess for zgMPAGAn.tree_0.Homo_sapiens.alpha is 2.58474e-07
+Initial guess for zgMPAGAn.tree_0.Pongo_abelii.alpha is 7.69567e-07
+Initial guess for zgMPAGAn.tree_0.Carlito_syrichta.alpha is 5.54854e-06
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+zgMPAGAn.model_MGREV.theta_CT = 1
+zgMPAGAn.model_MGREV.theta_GT = 1
+zgMPAGAn.model_MGREV.theta_CG = 1
+zgMPAGAn.model_MGREV.theta_AC = 1
+zgMPAGAn.model_MGREV.theta_AT = 1
+zgMPAGAn.model_MGREV.omega_0 = 1
+zgMPAGAn.tree_0.Otolemur_garnettii.alpha = 0.1
+zgMPAGAn.tree_0.Propithecus_coquereli.alpha = 2.97429e-05
+zgMPAGAn.tree_0.Microcebus_murinus.alpha = 8.61064e-06
+zgMPAGAn.tree_0.14.alpha = 2.85347e-06
+zgMPAGAn.tree_0.Prolemur_simus.alpha = 1.15064e-05
+zgMPAGAn.tree_0.13.alpha = 9.42934e-06
+zgMPAGAn.tree_0.Callithrix_jacchus.alpha = 8.2701e-06
+zgMPAGAn.tree_0.Aotus_nancymaae.alpha = 9.58336e-06
+zgMPAGAn.tree_0.10.alpha = 5.61992e-07
+zgMPAGAn.tree_0.Saimiri_boliviensis.alpha = 7.71046e-06
+zgMPAGAn.tree_0.Cebus_capucinus.alpha = 7.52572e-06
+zgMPAGAn.tree_0.Sapajus_apella.alpha = 1.79956e-06
+zgMPAGAn.tree_0.19.alpha = 5.86741e-06
+zgMPAGAn.tree_0.9.alpha = 2.60074e-06
+zgMPAGAn.tree_0.22.alpha = 1.42688e-05
+zgMPAGAn.tree_0.Mandrillus_leucophaeus.alpha = 1.66884e-06
+zgMPAGAn.tree_0.Cercocebus_atys.alpha = 1.70979e-06
+zgMPAGAn.tree_0.8.alpha = 6.13554e-07
+zgMPAGAn.tree_0.Papio_anubis.alpha = 8.33693e-07
+zgMPAGAn.tree_0.Theropithecus_gelada.alpha = 1.51373e-06
+zgMPAGAn.tree_0.6.alpha = 1.00504e-06
+zgMPAGAn.tree_0.30.alpha = 2.73878e-07
+zgMPAGAn.tree_0.Macaca_mulatta.alpha = 7.98532e-07
+zgMPAGAn.tree_0.Macaca_fascicularis.alpha = 3.62499e-07
+zgMPAGAn.tree_0.29.alpha = 0
+zgMPAGAn.tree_0.Macaca_nemestrina.alpha = 5.62404e-07
+zgMPAGAn.tree_0.27.alpha = 1.80152e-06
+zgMPAGAn.tree_0.35.alpha = 7.65347e-07
+zgMPAGAn.tree_0.Chlorocebus_sabaeus.alpha = 9.8681e-08
+zgMPAGAn.tree_0.43.alpha = 1.33708e-06
+zgMPAGAn.tree_0.Rhinopithecus_roxellana.alpha = 2.91168e-06
+zgMPAGAn.tree_0.Rhinopithecus_bieti.alpha = 1.21842e-06
+zgMPAGAn.tree_0.42.alpha = 1.4447e-06
+zgMPAGAn.tree_0.Trachypithecus_francoisi.alpha = 6.3139e-07
+zgMPAGAn.tree_0.40.alpha = 1.36436e-06
+zgMPAGAn.tree_0.Piliocolobus_tephrosceles.alpha = 6.36333e-07
+zgMPAGAn.tree_0.48.alpha = 1.20512e-06
+zgMPAGAn.tree_0.51.alpha = 4.65545e-06
+zgMPAGAn.tree_0.Hylobates_moloch.alpha = 3.54937e-06
+zgMPAGAn.tree_0.Nomascus_leucogenys.alpha = 3.68177e-06
+zgMPAGAn.tree_0.47.alpha = 3.86838e-06
+zgMPAGAn.tree_0.Gorilla_gorilla.alpha = 2.56136e-06
+zgMPAGAn.tree_0.Pan_troglodytes.alpha = 2.42232e-06
+zgMPAGAn.tree_0.Pan_paniscus.alpha = 2.03977e-07
+zgMPAGAn.tree_0.39.alpha = 1.08024e-06
+zgMPAGAn.tree_0.Homo_sapiens.alpha = 2.58474e-07
+zgMPAGAn.tree_0.56.alpha = 0
+zgMPAGAn.tree_0.55.alpha = 5.03902e-06
+zgMPAGAn.tree_0.Pongo_abelii.alpha = 7.69567e-07
+zgMPAGAn.tree_0.61.alpha = 4.4163e-07
+zgMPAGAn.tree_0.60.alpha = 2.13351e-06
+zgMPAGAn.tree_0.54.alpha = 4.62848e-06
+zgMPAGAn.tree_0.38.alpha = 1.44481e-05
+zgMPAGAn.tree_0.Carlito_syrichta.alpha = 5.54854e-06
+zgMPAGAn.tree_0.34.alpha = 3.2341e-06
+zgMPAGAn.model_MGREV.omega_1 = 1
+Failing bound checks on zgMPAGAn.tree_0.Chlorocebus_sabaeus.beta =         10005.21488449439
+Optimization finished in 33 loop passes.
+7449 likelihood evaluation calls and 59706 matrix exponentiations calls were made
+
+Overwritten previously defined function:'tvNXRTWt.rate_generator'
+Overwritten previously defined function:'tvNXRTWt.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 6172-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.312051
+frequencies._aux.CF3x4.p0_1 = 0.232465
+frequencies._aux.CF3x4.p0_2 = 0.597323
+frequencies._aux.CF3x4.p1_0 = 0.344218
+frequencies._aux.CF3x4.p1_1 = 0.301003
+frequencies._aux.CF3x4.p1_2 = 0.458533
+frequencies._aux.CF3x4.p2_0 = 0.318448
+frequencies._aux.CF3x4.p2_1 = 0.312237
+frequencies._aux.CF3x4.p2_2 = 0.325708
+Optimization finished in 5 loop passes.
+192 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.test_pi' was not initialized prior to being used
+Overwritten previously defined function:'tvNXRTWt.rate_generator'
+Overwritten previously defined function:'tvNXRTWt.rate_generator'
+Overwritten previously defined function:'tvNXRTWt.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6250-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.312051
+frequencies._aux.CF3x4.p0_1 = 0.232465
+frequencies._aux.CF3x4.p0_2 = 0.597323
+frequencies._aux.CF3x4.p1_0 = 0.344218
+frequencies._aux.CF3x4.p1_1 = 0.301003
+frequencies._aux.CF3x4.p1_2 = 0.458533
+frequencies._aux.CF3x4.p2_0 = 0.318448
+frequencies._aux.CF3x4.p2_1 = 0.312237
+frequencies._aux.CF3x4.p2_2 = 0.325708
+Optimization finished in 5 loop passes.
+193 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.reference_pi' was not initialized prior to being used
+No nodel was assigned to Otolemur_garnettii
+No nodel was assigned to Propithecus_coquereli
+No nodel was assigned to Microcebus_murinus
+No nodel was assigned to 14
+No nodel was assigned to Prolemur_simus
+No nodel was assigned to 13
+No nodel was assigned to Callithrix_jacchus
+No nodel was assigned to Aotus_nancymaae
+No nodel was assigned to 10
+No nodel was assigned to Saimiri_boliviensis
+No nodel was assigned to Cebus_capucinus
+No nodel was assigned to Sapajus_apella
+No nodel was assigned to 19
+No nodel was assigned to 9
+No nodel was assigned to 22
+No nodel was assigned to Mandrillus_leucophaeus
+No nodel was assigned to Cercocebus_atys
+No nodel was assigned to 8
+No nodel was assigned to Papio_anubis
+No nodel was assigned to Theropithecus_gelada
+No nodel was assigned to 6
+No nodel was assigned to 30
+No nodel was assigned to Macaca_mulatta
+No nodel was assigned to Macaca_fascicularis
+No nodel was assigned to 29
+No nodel was assigned to Macaca_nemestrina
+No nodel was assigned to 27
+No nodel was assigned to 35
+No nodel was assigned to Chlorocebus_sabaeus
+No nodel was assigned to 43
+No nodel was assigned to Rhinopithecus_roxellana
+No nodel was assigned to Rhinopithecus_bieti
+No nodel was assigned to 42
+No nodel was assigned to Trachypithecus_francoisi
+No nodel was assigned to 40
+No nodel was assigned to Piliocolobus_tephrosceles
+No nodel was assigned to 48
+No nodel was assigned to 51
+No nodel was assigned to Hylobates_moloch
+No nodel was assigned to Nomascus_leucogenys
+No nodel was assigned to 47
+No nodel was assigned to Gorilla_gorilla
+No nodel was assigned to Pan_troglodytes
+No nodel was assigned to Pan_paniscus
+No nodel was assigned to 39
+No nodel was assigned to Homo_sapiens
+No nodel was assigned to 56
+No nodel was assigned to 55
+No nodel was assigned to Pongo_abelii
+No nodel was assigned to 61
+No nodel was assigned to 60
+No nodel was assigned to 54
+No nodel was assigned to 38
+No nodel was assigned to Carlito_syrichta
+No nodel was assigned to 34
+The tips of the tree:YuniMd_n.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {4,2,1,3,28,24,27,25,26,9,8,10,11,7,5,6,12,14,15,16,13,21,22,17,19,18,20,23,0}
+
+Pseudo-optimal path's cost 12090 vs 24130 for 1..k=> a 1.99586 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+Variable 'YuniMd_n.tree_id_0.Otolemur_garnettii.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Otolemur_garnettii.t=0.7454095308759897
+Variable 'YuniMd_n.tree_id_0.Propithecus_coquereli.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Propithecus_coquereli.t=0.1741626041205815
+Variable 'YuniMd_n.tree_id_0.Microcebus_murinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Microcebus_murinus.t=0.2463039134007039
+Variable 'YuniMd_n.tree_id_0.14.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.14.t=0.06071617780088574
+Variable 'YuniMd_n.tree_id_0.Prolemur_simus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Prolemur_simus.t=0.1738646138017748
+Variable 'YuniMd_n.tree_id_0.13.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.13.t=0.2213026927052979
+Variable 'YuniMd_n.tree_id_0.Callithrix_jacchus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Callithrix_jacchus.t=0.1459935378042724
+Variable 'YuniMd_n.tree_id_0.Aotus_nancymaae.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Aotus_nancymaae.t=0.1986460587391302
+Variable 'YuniMd_n.tree_id_0.10.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.10.t=0.09866387122679732
+Variable 'YuniMd_n.tree_id_0.Saimiri_boliviensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Saimiri_boliviensis.t=0.154660781004198
+Variable 'YuniMd_n.tree_id_0.Cebus_capucinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Cebus_capucinus.t=0.03750398514663825
+Variable 'YuniMd_n.tree_id_0.Sapajus_apella.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Sapajus_apella.t=0.03125178743831786
+Variable 'YuniMd_n.tree_id_0.19.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.19.t=0.1225472771015859
+Variable 'YuniMd_n.tree_id_0.9.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.9.t=0.05958541295424813
+Variable 'YuniMd_n.tree_id_0.22.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.22.t=0.4102221014645023
+Variable 'YuniMd_n.tree_id_0.Mandrillus_leucophaeus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Mandrillus_leucophaeus.t=0.03359425365564931
+Variable 'YuniMd_n.tree_id_0.Cercocebus_atys.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Cercocebus_atys.t=0.01615433969925091
+Variable 'YuniMd_n.tree_id_0.8.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.8.t=0.009773976373793233
+Variable 'YuniMd_n.tree_id_0.Papio_anubis.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Papio_anubis.t=0.02715043389888627
+Variable 'YuniMd_n.tree_id_0.Theropithecus_gelada.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Theropithecus_gelada.t=0.01806307015503536
+Variable 'YuniMd_n.tree_id_0.6.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.6.t=0.02449777731021659
+Variable 'YuniMd_n.tree_id_0.30.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.30.t=0.007050574638836647
+Variable 'YuniMd_n.tree_id_0.Macaca_mulatta.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Macaca_mulatta.t=0.009012498293407478
+Variable 'YuniMd_n.tree_id_0.Macaca_fascicularis.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Macaca_fascicularis.t=0.009016251504657393
+Variable 'YuniMd_n.tree_id_0.29.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.29.t=0
+Variable 'YuniMd_n.tree_id_0.Macaca_nemestrina.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Macaca_nemestrina.t=0
+Variable 'YuniMd_n.tree_id_0.27.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.27.t=0.03631877574884031
+Variable 'YuniMd_n.tree_id_0.35.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.35.t=0.01931314533498412
+Variable 'YuniMd_n.tree_id_0.Chlorocebus_sabaeus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Chlorocebus_sabaeus.t=0.05776214444779908
+Variable 'YuniMd_n.tree_id_0.43.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.43.t=0.04065920403949747
+Variable 'YuniMd_n.tree_id_0.Rhinopithecus_roxellana.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Rhinopithecus_roxellana.t=0.02715740729086004
+Variable 'YuniMd_n.tree_id_0.Rhinopithecus_bieti.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Rhinopithecus_bieti.t=0.009035931673029922
+Variable 'YuniMd_n.tree_id_0.42.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.42.t=0.03181652269224699
+Variable 'YuniMd_n.tree_id_0.Trachypithecus_francoisi.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Trachypithecus_francoisi.t=0.008942980156871352
+Variable 'YuniMd_n.tree_id_0.40.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.40.t=0.02741589707646049
+Variable 'YuniMd_n.tree_id_0.Piliocolobus_tephrosceles.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Piliocolobus_tephrosceles.t=0.06832076311189059
+Variable 'YuniMd_n.tree_id_0.48.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.48.t=0.02227613120658327
+Variable 'YuniMd_n.tree_id_0.51.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.51.t=0.09977076976390649
+Variable 'YuniMd_n.tree_id_0.Hylobates_moloch.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Hylobates_moloch.t=0.07127785771792956
+Variable 'YuniMd_n.tree_id_0.Nomascus_leucogenys.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Nomascus_leucogenys.t=0.05260742638940822
+Variable 'YuniMd_n.tree_id_0.47.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.47.t=0.08087550002059789
+Variable 'YuniMd_n.tree_id_0.Gorilla_gorilla.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Gorilla_gorilla.t=0.04746225177009635
+Variable 'YuniMd_n.tree_id_0.Pan_troglodytes.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Pan_troglodytes.t=0.004528047981334888
+Variable 'YuniMd_n.tree_id_0.Pan_paniscus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Pan_paniscus.t=0.00452124379940424
+Variable 'YuniMd_n.tree_id_0.39.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.39.t=0.01527249296899599
+Variable 'YuniMd_n.tree_id_0.Homo_sapiens.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Homo_sapiens.t=0.02104070845501149
+Variable 'YuniMd_n.tree_id_0.56.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.56.t=0.004165839272702091
+Variable 'YuniMd_n.tree_id_0.55.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.55.t=0.1150256084175282
+Variable 'YuniMd_n.tree_id_0.Pongo_abelii.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Pongo_abelii.t=0.1032822049718822
+Variable 'YuniMd_n.tree_id_0.61.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.61.t=0.009226132708029473
+Variable 'YuniMd_n.tree_id_0.60.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.60.t=0.06070192353234485
+Variable 'YuniMd_n.tree_id_0.54.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.54.t=0.06382961807833588
+Variable 'YuniMd_n.tree_id_0.38.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.38.t=0.4250191671187018
+Variable 'YuniMd_n.tree_id_0.Carlito_syrichta.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Carlito_syrichta.t=0.5908610970950697
+Variable 'YuniMd_n.tree_id_0.34.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.34.t=0.1343057357178507
+Variable 'YuniMd_n.YuniMd_n.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 26-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.test.theta_CG = 0.424879
+relax.test.theta_AT = 0.218452
+relax.test.theta_AC = 0.44905
+relax.test.theta_CT = 1.15317
+relax.reference.omega3 = 7.27482
+relax.reference.omega2 = 0.4601
+relax.reference.omega1 = 0.145496
+relax.reference.bsrel_mixture_aux_1 = 0.818182
+relax.test.theta_GT = 0.249468
+relax.reference.bsrel_mixture_aux_0 = 0.45
+relax.K = 1
+YuniMd_n.tree_id_0.Otolemur_garnettii.t = 0.74541
+YuniMd_n.tree_id_0.Propithecus_coquereli.t = 0.174163
+YuniMd_n.tree_id_0.Microcebus_murinus.t = 0.246304
+YuniMd_n.tree_id_0.14.t = 0.0607162
+YuniMd_n.tree_id_0.Prolemur_simus.t = 0.173865
+YuniMd_n.tree_id_0.13.t = 0.221303
+YuniMd_n.tree_id_0.Callithrix_jacchus.t = 0.145994
+YuniMd_n.tree_id_0.Aotus_nancymaae.t = 0.198646
+YuniMd_n.tree_id_0.10.t = 0.0986639
+YuniMd_n.tree_id_0.Saimiri_boliviensis.t = 0.154661
+YuniMd_n.tree_id_0.Cebus_capucinus.t = 0.037504
+YuniMd_n.tree_id_0.Sapajus_apella.t = 0.0312518
+YuniMd_n.tree_id_0.19.t = 0.122547
+YuniMd_n.tree_id_0.9.t = 0.0595854
+YuniMd_n.tree_id_0.22.t = 0.410222
+YuniMd_n.tree_id_0.Mandrillus_leucophaeus.t = 0.0335943
+YuniMd_n.tree_id_0.Cercocebus_atys.t = 0.0161543
+YuniMd_n.tree_id_0.8.t = 0.00977398
+YuniMd_n.tree_id_0.Papio_anubis.t = 0.0271504
+YuniMd_n.tree_id_0.Theropithecus_gelada.t = 0.0180631
+YuniMd_n.tree_id_0.6.t = 0.0244978
+YuniMd_n.tree_id_0.30.t = 0.00705057
+YuniMd_n.tree_id_0.Macaca_mulatta.t = 0.0090125
+YuniMd_n.tree_id_0.Macaca_fascicularis.t = 0.00901625
+YuniMd_n.tree_id_0.29.t = 0
+YuniMd_n.tree_id_0.Macaca_nemestrina.t = 0
+YuniMd_n.tree_id_0.27.t = 0.0363188
+YuniMd_n.tree_id_0.35.t = 0.0193131
+YuniMd_n.tree_id_0.Chlorocebus_sabaeus.t = 0.0577621
+YuniMd_n.tree_id_0.43.t = 0.0406592
+YuniMd_n.tree_id_0.Rhinopithecus_roxellana.t = 0.0271574
+YuniMd_n.tree_id_0.Rhinopithecus_bieti.t = 0.00903593
+YuniMd_n.tree_id_0.42.t = 0.0318165
+YuniMd_n.tree_id_0.Trachypithecus_francoisi.t = 0.00894298
+YuniMd_n.tree_id_0.40.t = 0.0274159
+YuniMd_n.tree_id_0.Piliocolobus_tephrosceles.t = 0.0683208
+YuniMd_n.tree_id_0.48.t = 0.0222761
+YuniMd_n.tree_id_0.51.t = 0.0997708
+YuniMd_n.tree_id_0.Hylobates_moloch.t = 0.0712779
+YuniMd_n.tree_id_0.Nomascus_leucogenys.t = 0.0526074
+YuniMd_n.tree_id_0.47.t = 0.0808755
+YuniMd_n.tree_id_0.Gorilla_gorilla.t = 0.0474623
+YuniMd_n.tree_id_0.Pan_troglodytes.t = 0.00452805
+YuniMd_n.tree_id_0.Pan_paniscus.t = 0.00452124
+YuniMd_n.tree_id_0.39.t = 0.0152725
+YuniMd_n.tree_id_0.Homo_sapiens.t = 0.0210407
+YuniMd_n.tree_id_0.56.t = 0.00416584
+YuniMd_n.tree_id_0.55.t = 0.115026
+YuniMd_n.tree_id_0.Pongo_abelii.t = 0.103282
+YuniMd_n.tree_id_0.61.t = 0.00922613
+YuniMd_n.tree_id_0.60.t = 0.0607019
+YuniMd_n.tree_id_0.54.t = 0.0638296
+YuniMd_n.tree_id_0.38.t = 0.425019
+YuniMd_n.tree_id_0.Carlito_syrichta.t = 0.590861
+YuniMd_n.tree_id_0.34.t = 0.134306
+Optimization finished in 135 loop passes.
+23962 likelihood evaluation calls and 994542 matrix exponentiations calls were made
+
+Variable 'MPI_NODE_COUNT' was not initialized prior to being used
+No nodel was assigned to Otolemur_garnettii
+No nodel was assigned to Propithecus_coquereli
+No nodel was assigned to Microcebus_murinus
+No nodel was assigned to 14
+No nodel was assigned to Prolemur_simus
+No nodel was assigned to 13
+No nodel was assigned to Callithrix_jacchus
+No nodel was assigned to Aotus_nancymaae
+No nodel was assigned to 10
+No nodel was assigned to Saimiri_boliviensis
+No nodel was assigned to Cebus_capucinus
+No nodel was assigned to Sapajus_apella
+No nodel was assigned to 19
+No nodel was assigned to 9
+No nodel was assigned to 22
+No nodel was assigned to Mandrillus_leucophaeus
+No nodel was assigned to Cercocebus_atys
+No nodel was assigned to 8
+No nodel was assigned to Papio_anubis
+No nodel was assigned to Theropithecus_gelada
+No nodel was assigned to 6
+No nodel was assigned to 30
+No nodel was assigned to Macaca_mulatta
+No nodel was assigned to Macaca_fascicularis
+No nodel was assigned to 29
+No nodel was assigned to Macaca_nemestrina
+No nodel was assigned to 27
+No nodel was assigned to 35
+No nodel was assigned to Chlorocebus_sabaeus
+No nodel was assigned to 43
+No nodel was assigned to Rhinopithecus_roxellana
+No nodel was assigned to Rhinopithecus_bieti
+No nodel was assigned to 42
+No nodel was assigned to Trachypithecus_francoisi
+No nodel was assigned to 40
+No nodel was assigned to Piliocolobus_tephrosceles
+No nodel was assigned to 48
+No nodel was assigned to 51
+No nodel was assigned to Hylobates_moloch
+No nodel was assigned to Nomascus_leucogenys
+No nodel was assigned to 47
+No nodel was assigned to Gorilla_gorilla
+No nodel was assigned to Pan_troglodytes
+No nodel was assigned to Pan_paniscus
+No nodel was assigned to 39
+No nodel was assigned to Homo_sapiens
+No nodel was assigned to 56
+No nodel was assigned to 55
+No nodel was assigned to Pongo_abelii
+No nodel was assigned to 61
+No nodel was assigned to 60
+No nodel was assigned to 54
+No nodel was assigned to 38
+No nodel was assigned to Carlito_syrichta
+No nodel was assigned to 34
+Likelihood function cleared because partition index '0' points to invalid components
+The tips of the tree:YuniMd_n.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {4,2,1,3,28,24,27,25,26,9,8,10,11,7,5,6,12,14,15,16,13,21,22,17,19,18,20,23,0}
+
+Pseudo-optimal path's cost 12090 vs 24130 for 1..k=> a 1.99586 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_0 was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_1 was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+relax.test.omega1 was already constrained in estimators.SetGlobals2
+relax.test.omega2 was already constrained in estimators.SetGlobals2
+relax.test.omega3 was already constrained in estimators.SetGlobals2
+Variable 'YuniMd_n.tree_id_0.Otolemur_garnettii.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Otolemur_garnettii.t=1.261120898474667
+Variable 'YuniMd_n.tree_id_0.Propithecus_coquereli.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Propithecus_coquereli.t=0.2725455483176917
+Variable 'YuniMd_n.tree_id_0.Microcebus_murinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Microcebus_murinus.t=0.3684588571242118
+Variable 'YuniMd_n.tree_id_0.14.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.14.t=0.08443406625666408
+Variable 'YuniMd_n.tree_id_0.Prolemur_simus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Prolemur_simus.t=0.2633666297586457
+Variable 'YuniMd_n.tree_id_0.13.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.13.t=0.3277490590960274
+Variable 'YuniMd_n.tree_id_0.Callithrix_jacchus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Callithrix_jacchus.t=0.314298943258546
+Variable 'YuniMd_n.tree_id_0.Aotus_nancymaae.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Aotus_nancymaae.t=0.1981844435694561
+Variable 'YuniMd_n.tree_id_0.10.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.10.t=0.0413767626745665
+Variable 'YuniMd_n.tree_id_0.Saimiri_boliviensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Saimiri_boliviensis.t=0.2324659223637345
+Variable 'YuniMd_n.tree_id_0.Cebus_capucinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Cebus_capucinus.t=0.05166280458724772
+Variable 'YuniMd_n.tree_id_0.Sapajus_apella.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Sapajus_apella.t=0.04725788766795001
+Variable 'YuniMd_n.tree_id_0.19.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.19.t=0.1811747115534358
+Variable 'YuniMd_n.tree_id_0.9.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.9.t=0.08906792473345634
+Variable 'YuniMd_n.tree_id_0.22.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.22.t=0.6247593474086102
+Variable 'YuniMd_n.tree_id_0.Mandrillus_leucophaeus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Mandrillus_leucophaeus.t=0.04924521580491326
+Variable 'YuniMd_n.tree_id_0.Cercocebus_atys.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Cercocebus_atys.t=0.02331519079008455
+Variable 'YuniMd_n.tree_id_0.8.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.8.t=0.0142183956550716
+Variable 'YuniMd_n.tree_id_0.Papio_anubis.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Papio_anubis.t=0.03958704356438406
+Variable 'YuniMd_n.tree_id_0.Theropithecus_gelada.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Theropithecus_gelada.t=0.02593285801257646
+Variable 'YuniMd_n.tree_id_0.6.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.6.t=0.0350349244411555
+Variable 'YuniMd_n.tree_id_0.30.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.30.t=0.01013870254563517
+Variable 'YuniMd_n.tree_id_0.Macaca_mulatta.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Macaca_mulatta.t=0.0129664385836846
+Variable 'YuniMd_n.tree_id_0.Macaca_fascicularis.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Macaca_fascicularis.t=0.0129590912329298
+Variable 'YuniMd_n.tree_id_0.29.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.29.t=0
+Variable 'YuniMd_n.tree_id_0.Macaca_nemestrina.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Macaca_nemestrina.t=0
+Variable 'YuniMd_n.tree_id_0.27.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.27.t=0.05264662160921745
+Variable 'YuniMd_n.tree_id_0.35.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.35.t=0.02777273680624576
+Variable 'YuniMd_n.tree_id_0.Chlorocebus_sabaeus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Chlorocebus_sabaeus.t=0.08285901845172096
+Variable 'YuniMd_n.tree_id_0.43.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.43.t=0.05908183891515933
+Variable 'YuniMd_n.tree_id_0.Rhinopithecus_roxellana.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Rhinopithecus_roxellana.t=0.03946692787404684
+Variable 'YuniMd_n.tree_id_0.Rhinopithecus_bieti.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Rhinopithecus_bieti.t=0.0129458768997327
+Variable 'YuniMd_n.tree_id_0.42.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.42.t=0.04623738839066677
+Variable 'YuniMd_n.tree_id_0.Trachypithecus_francoisi.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Trachypithecus_francoisi.t=0.0128624823301882
+Variable 'YuniMd_n.tree_id_0.40.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.40.t=0.03974790341111841
+Variable 'YuniMd_n.tree_id_0.Piliocolobus_tephrosceles.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Piliocolobus_tephrosceles.t=0.09826541137999469
+Variable 'YuniMd_n.tree_id_0.48.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.48.t=0.03051382426286819
+Variable 'YuniMd_n.tree_id_0.51.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.51.t=0.1445685425902647
+Variable 'YuniMd_n.tree_id_0.Hylobates_moloch.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Hylobates_moloch.t=0.1038462469271379
+Variable 'YuniMd_n.tree_id_0.Nomascus_leucogenys.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Nomascus_leucogenys.t=0.07609416470859623
+Variable 'YuniMd_n.tree_id_0.47.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.47.t=0.1181985623742224
+Variable 'YuniMd_n.tree_id_0.Gorilla_gorilla.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Gorilla_gorilla.t=0.06972184806389914
+Variable 'YuniMd_n.tree_id_0.Pan_troglodytes.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Pan_troglodytes.t=0.006500079091046765
+Variable 'YuniMd_n.tree_id_0.Pan_paniscus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Pan_paniscus.t=0.00651851144448818
+Variable 'YuniMd_n.tree_id_0.39.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.39.t=0.02215362823352312
+Variable 'YuniMd_n.tree_id_0.Homo_sapiens.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Homo_sapiens.t=0.03012835775377373
+Variable 'YuniMd_n.tree_id_0.56.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.56.t=0.005992217312472159
+Variable 'YuniMd_n.tree_id_0.55.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.55.t=0.1690761195990385
+Variable 'YuniMd_n.tree_id_0.Pongo_abelii.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Pongo_abelii.t=0.1537239965648834
+Variable 'YuniMd_n.tree_id_0.61.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.61.t=0.01260752506211312
+Variable 'YuniMd_n.tree_id_0.60.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.60.t=0.09248736360439966
+Variable 'YuniMd_n.tree_id_0.54.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.54.t=0.08247465467397717
+Variable 'YuniMd_n.tree_id_0.38.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.38.t=0.6770497827240148
+Variable 'YuniMd_n.tree_id_0.Carlito_syrichta.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.Carlito_syrichta.t=0.9539881002843879
+Variable 'YuniMd_n.tree_id_0.34.t' was not initialized prior to being used
+models.generic.SetBranchLength: YuniMd_n.tree_id_0.34.t=0.2000983933057013
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 22-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.test.theta_CG = 0.404441
+relax.test.theta_AT = 0.198337
+relax.test.theta_AC = 0.430011
+relax.test.theta_CT = 1.1477
+relax.reference.omega3 = 4.28197
+relax.reference.omega2 = 0.559593
+relax.reference.omega1 = 0
+relax.reference.bsrel_mixture_aux_1 = 0.805988
+relax.test.theta_GT = 0.235089
+relax.reference.bsrel_mixture_aux_0 = 0.52971
+relax.K = 1
+YuniMd_n.tree_id_0.Otolemur_garnettii.t = 1.26112
+YuniMd_n.tree_id_0.Propithecus_coquereli.t = 0.272546
+YuniMd_n.tree_id_0.Microcebus_murinus.t = 0.368459
+YuniMd_n.tree_id_0.14.t = 0.0844341
+YuniMd_n.tree_id_0.Prolemur_simus.t = 0.263367
+YuniMd_n.tree_id_0.13.t = 0.327749
+YuniMd_n.tree_id_0.Callithrix_jacchus.t = 0.314299
+YuniMd_n.tree_id_0.Aotus_nancymaae.t = 0.198184
+YuniMd_n.tree_id_0.10.t = 0.0413768
+YuniMd_n.tree_id_0.Saimiri_boliviensis.t = 0.232466
+YuniMd_n.tree_id_0.Cebus_capucinus.t = 0.0516628
+YuniMd_n.tree_id_0.Sapajus_apella.t = 0.0472579
+YuniMd_n.tree_id_0.19.t = 0.181175
+YuniMd_n.tree_id_0.9.t = 0.0890679
+YuniMd_n.tree_id_0.22.t = 0.624759
+YuniMd_n.tree_id_0.Mandrillus_leucophaeus.t = 0.0492452
+YuniMd_n.tree_id_0.Cercocebus_atys.t = 0.0233152
+YuniMd_n.tree_id_0.8.t = 0.0142184
+YuniMd_n.tree_id_0.Papio_anubis.t = 0.039587
+YuniMd_n.tree_id_0.Theropithecus_gelada.t = 0.0259329
+YuniMd_n.tree_id_0.6.t = 0.0350349
+YuniMd_n.tree_id_0.30.t = 0.0101387
+YuniMd_n.tree_id_0.Macaca_mulatta.t = 0.0129664
+YuniMd_n.tree_id_0.Macaca_fascicularis.t = 0.0129591
+YuniMd_n.tree_id_0.29.t = 0
+YuniMd_n.tree_id_0.Macaca_nemestrina.t = 0
+YuniMd_n.tree_id_0.27.t = 0.0526466
+YuniMd_n.tree_id_0.35.t = 0.0277727
+YuniMd_n.tree_id_0.Chlorocebus_sabaeus.t = 0.082859
+YuniMd_n.tree_id_0.43.t = 0.0590818
+YuniMd_n.tree_id_0.Rhinopithecus_roxellana.t = 0.0394669
+YuniMd_n.tree_id_0.Rhinopithecus_bieti.t = 0.0129459
+YuniMd_n.tree_id_0.42.t = 0.0462374
+YuniMd_n.tree_id_0.Trachypithecus_francoisi.t = 0.0128625
+YuniMd_n.tree_id_0.40.t = 0.0397479
+YuniMd_n.tree_id_0.Piliocolobus_tephrosceles.t = 0.0982654
+YuniMd_n.tree_id_0.48.t = 0.0305138
+YuniMd_n.tree_id_0.51.t = 0.144569
+YuniMd_n.tree_id_0.Hylobates_moloch.t = 0.103846
+YuniMd_n.tree_id_0.Nomascus_leucogenys.t = 0.0760942
+YuniMd_n.tree_id_0.47.t = 0.118199
+YuniMd_n.tree_id_0.Gorilla_gorilla.t = 0.0697218
+YuniMd_n.tree_id_0.Pan_troglodytes.t = 0.00650008
+YuniMd_n.tree_id_0.Pan_paniscus.t = 0.00651851
+YuniMd_n.tree_id_0.39.t = 0.0221536
+YuniMd_n.tree_id_0.Homo_sapiens.t = 0.0301284
+YuniMd_n.tree_id_0.56.t = 0.00599222
+YuniMd_n.tree_id_0.55.t = 0.169076
+YuniMd_n.tree_id_0.Pongo_abelii.t = 0.153724
+YuniMd_n.tree_id_0.61.t = 0.0126075
+YuniMd_n.tree_id_0.60.t = 0.0924874
+YuniMd_n.tree_id_0.54.t = 0.0824747
+YuniMd_n.tree_id_0.38.t = 0.67705
+YuniMd_n.tree_id_0.Carlito_syrichta.t = 0.953988
+YuniMd_n.tree_id_0.34.t = 0.200098
+Optimization finished in 38 loop passes.
+8410 likelihood evaluation calls and 295362 matrix exponentiations calls were made
+
+Variable 'dGPAtEJU.YuniMd_n.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 25-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.test.theta_CG = 0.404372
+relax.test.theta_AT = 0.198032
+relax.test.theta_AC = 0.429852
+relax.test.theta_CT = 1.1448
+relax.reference.omega3 = 4.37054
+relax.reference.omega2 = 0.673545
+relax.reference.omega1 = 0
+relax.reference.bsrel_mixture_aux_1 = 0.796667
+relax.test.theta_GT = 0.234869
+relax.reference.bsrel_mixture_aux_0 = 0.57654
+YuniMd_n.tree_id_0.Otolemur_garnettii.t = 0.420768
+YuniMd_n.tree_id_0.Propithecus_coquereli.t = 0.0908826
+YuniMd_n.tree_id_0.Microcebus_murinus.t = 0.122853
+YuniMd_n.tree_id_0.14.t = 0.0281467
+YuniMd_n.tree_id_0.Prolemur_simus.t = 0.0878926
+YuniMd_n.tree_id_0.13.t = 0.109284
+YuniMd_n.tree_id_0.Callithrix_jacchus.t = 0.103648
+YuniMd_n.tree_id_0.Aotus_nancymaae.t = 0.0659297
+YuniMd_n.tree_id_0.10.t = 0.0138254
+YuniMd_n.tree_id_0.Saimiri_boliviensis.t = 0.0775064
+YuniMd_n.tree_id_0.Cebus_capucinus.t = 0.0172215
+YuniMd_n.tree_id_0.Sapajus_apella.t = 0.0157517
+YuniMd_n.tree_id_0.19.t = 0.0604208
+YuniMd_n.tree_id_0.9.t = 0.0297844
+YuniMd_n.tree_id_0.22.t = 0.208323
+YuniMd_n.tree_id_0.Mandrillus_leucophaeus.t = 0.0164053
+YuniMd_n.tree_id_0.Cercocebus_atys.t = 0.00777427
+YuniMd_n.tree_id_0.8.t = 0.00474427
+YuniMd_n.tree_id_0.Papio_anubis.t = 0.0132093
+YuniMd_n.tree_id_0.Theropithecus_gelada.t = 0.00864968
+YuniMd_n.tree_id_0.6.t = 0.0116903
+YuniMd_n.tree_id_0.30.t = 0.00337724
+YuniMd_n.tree_id_0.Macaca_mulatta.t = 0.0043255
+YuniMd_n.tree_id_0.Macaca_fascicularis.t = 0.00432298
+YuniMd_n.tree_id_0.29.t = 0
+YuniMd_n.tree_id_0.Macaca_nemestrina.t = 0
+YuniMd_n.tree_id_0.27.t = 0.0175611
+YuniMd_n.tree_id_0.35.t = 0.00925768
+YuniMd_n.tree_id_0.Chlorocebus_sabaeus.t = 0.0276413
+YuniMd_n.tree_id_0.43.t = 0.0197075
+YuniMd_n.tree_id_0.Rhinopithecus_roxellana.t = 0.0131673
+YuniMd_n.tree_id_0.Rhinopithecus_bieti.t = 0.00431731
+YuniMd_n.tree_id_0.42.t = 0.0154193
+YuniMd_n.tree_id_0.Trachypithecus_francoisi.t = 0.00428928
+YuniMd_n.tree_id_0.40.t = 0.0132534
+YuniMd_n.tree_id_0.Piliocolobus_tephrosceles.t = 0.0327593
+YuniMd_n.tree_id_0.48.t = 0.0101722
+YuniMd_n.tree_id_0.51.t = 0.0482065
+YuniMd_n.tree_id_0.Hylobates_moloch.t = 0.0346581
+YuniMd_n.tree_id_0.Nomascus_leucogenys.t = 0.0253628
+YuniMd_n.tree_id_0.47.t = 0.0394299
+YuniMd_n.tree_id_0.Gorilla_gorilla.t = 0.0232321
+YuniMd_n.tree_id_0.Pan_troglodytes.t = 0.00216552
+YuniMd_n.tree_id_0.Pan_paniscus.t = 0.0021742
+YuniMd_n.tree_id_0.39.t = 0.00737985
+YuniMd_n.tree_id_0.Homo_sapiens.t = 0.0100436
+YuniMd_n.tree_id_0.56.t = 0.00199824
+YuniMd_n.tree_id_0.55.t = 0.0563943
+YuniMd_n.tree_id_0.Pongo_abelii.t = 0.0513045
+YuniMd_n.tree_id_0.61.t = 0.00420391
+YuniMd_n.tree_id_0.60.t = 0.0308286
+YuniMd_n.tree_id_0.54.t = 0.0274644
+YuniMd_n.tree_id_0.38.t = 0.225973
+YuniMd_n.tree_id_0.Carlito_syrichta.t = 0.318164
+YuniMd_n.tree_id_0.34.t = 0.0667417
+Optimization finished in 6 loop passes.
+1077 likelihood evaluation calls and 44313 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used
