@@ -1,0 +1,320 @@
+{
+ "analysis":{
+   "info":"RELAX (a random effects test of selection relaxation) uses a random effects branch-site model framework to test whether a set of 'Test' branches evolves under relaxed selection relative to a set of 'Reference' branches (R), as measured by the relaxation parameter (K).\n                                                Version 2.1 adds a check for stability in K estimates to try to mitigate convergence problems",
+   "version":"2.1",
+   "citation":"RELAX: Detecting Relaxed Selection in a Phylogenetic Framework (2015). Mol Biol Evol 32 (3): 820-832",
+   "authors":"Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM / UCSD viral evolution group",
+   "contact":"spond@temple.edu",
+   "requirements":"in-frame codon alignment and a phylogenetic tree, with at least two groups of branches defined using the {} notation (one group can be defined as all unlabeled branches)"
+  },
+ "input":{
+   "file name":"/media/ceglab6/60190805-986f-4f73-b2e6-3c644f4ddec0/Group_wise_final_msa_c9/Relax/Lagomorpha/Lagomorpha_C9.aln",
+   "number of sequences":6,
+   "number of sites":557,
+   "partition count":1,
+   "trees":{
+     "0":"((Sylvilagus_bachmani:16.9955,Oryctolagus_cuniculus:16.9955)14:5.18849,(Lepus_timidus:7.31569,Lepus_americanus:7.31569)13:14.8683,(Ochotona_curzoniae:20.3275,Ochotona_princeps:20.3275)10:31.1008)"
+    }
+  },
+ "fits":{
+   "Nucleotide GTR":{
+     "Log Likelihood":-4174.490840040614,
+     "estimated parameters":17,
+     "AIC-c":8383.042831160365,
+     "Equilibrium frequencies":[
+      [0.3114402553361261],
+      [0.200129662876521],
+      [0.2376321563933772],
+      [0.2507979253939757]
+      ],
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.3841079901631583,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.1906769990438734,
+       "Substitution rate from nucleotide C to nucleotide G":0.354314701103431,
+       "Substitution rate from nucleotide C to nucleotide T":1.106200841866668,
+       "Substitution rate from nucleotide G to nucleotide T":0.2909195481809697
+      },
+     "display order":0
+    },
+   "MG94xREV with separate rates for branch sets":{
+     "Log Likelihood":-4102.563923812402,
+     "estimated parameters":25,
+     "AIC-c":8255.519886225527,
+     "Equilibrium frequencies":[
+      [0.03536752996171601],
+      [0.02536656842281771],
+      [0.02619443874557271],
+      [0.03136727787308177],
+      [0.01732327956646044],
+      [0.01242473412494135],
+      [0.01283023117439277],
+      [0.01536392630252766],
+      [0.01872443261247086],
+      [0.01342967975306229],
+      [0.01386797448518155],
+      [0.01660660163169253],
+      [0.02246793612498429],
+      [0.01611462377075368],
+      [0.01664054507630042],
+      [0.01992669537369184],
+      [0.01943789493417943],
+      [0.0139413946175245],
+      [0.01439638981708342],
+      [0.01723936764394251],
+      [0.009520825697829916],
+      [0.00682859890886216],
+      [0.007051458946073932],
+      [0.008443970658066237],
+      [0.01029089546873383],
+      [0.007380914197917476],
+      [0.007621799749222887],
+      [0.009126941521786445],
+      [0.01234831446408731],
+      [0.00885655187395909],
+      [0.009145596743417883],
+      [0.01095165569884282],
+      [0.03401954643525493],
+      [0.02439975744128126],
+      [0.0251960746542113],
+      [0.03017175831351368],
+      [0.01666302719641521],
+      [0.01195118290609148],
+      [0.0123412250073664],
+      [0.01477835191890552],
+      [0.01801077727009148],
+      [0.01291782644884874],
+      [0.01333941619537045],
+      [0.01597366443041626],
+      [0.02161160242560402],
+      [0.01550043761182181],
+      [0.01600631416850259],
+      [0.01916721748169257],
+      [0.02293797508598809],
+      [0.02836417706861797],
+      [0.0156647500946814],
+      [0.01123519102219476],
+      [0.01160186581488733],
+      [0.01389298516362704],
+      [0.01214392323210123],
+      [0.01254025565981061],
+      [0.01501668685103051],
+      [0.02031685762449749],
+      [0.01457181091318303],
+      [0.01504738055282614],
+      [0.01801891506998901]
+      ],
+     "Rate Distributions":{
+       "non-synonymous/synonymous rate ratio for *Reference*":[
+        [0.3265649788786131, 1]
+        ],
+       "non-synonymous/synonymous rate ratio for *Test*":[
+        [9999.999999998339, 1]
+        ]
+      },
+     "display order":1
+    },
+   "RELAX alternative":{
+     "Log Likelihood":-4057.23907565814,
+     "estimated parameters":29,
+     "AIC-c":8173.003513635122,
+     "Rate Distributions":{
+       "Test":{
+         "0":{
+           "omega":0,
+           "proportion":0.5261137491510594
+          },
+         "1":{
+           "omega":0.8666811074247792,
+           "proportion":0.4579913224488208
+          },
+         "2":{
+           "omega":2.654576081068488,
+           "proportion":0.01589492840011985
+          }
+        },
+       "Reference":{
+         "0":{
+           "omega":0,
+           "proportion":0.5261137491510594
+          },
+         "1":{
+           "omega":0.7368247491988036,
+           "proportion":0.4579913224488208
+          },
+         "2":{
+           "omega":8.035151254496927,
+           "proportion":0.01589492840011985
+          }
+        }
+      },
+     "display order":2
+    },
+   "RELAX null":{
+     "Log Likelihood":-4057.458134076978,
+     "estimated parameters":28,
+     "AIC-c":8171.406458313932,
+     "Rate Distributions":{
+       "Test":{
+         "0":{
+           "omega":0.05989687249737485,
+           "proportion":0.6089155732685362
+          },
+         "1":{
+           "omega":0.7649282800075163,
+           "proportion":0.3690567056612808
+          },
+         "2":{
+           "omega":6.011869350050024,
+           "proportion":0.02202772107018296
+          }
+        },
+       "Reference":{
+         "0":{
+           "omega":0.05989687249737485,
+           "proportion":0.6089155732685362
+          },
+         "1":{
+           "omega":0.7649282800075163,
+           "proportion":0.3690567056612808
+          },
+         "2":{
+           "omega":6.011869350050024,
+           "proportion":0.02202772107018296
+          }
+        }
+      },
+     "display order":3
+    }
+  },
+ "timers":{
+   "Overall":{
+     "timer":40,
+     "order":0
+    },
+   "Preliminary model fitting":{
+     "timer":4,
+     "order":1
+    },
+   "RELAX alternative model fitting":{
+     "timer":36,
+     "order":3
+    },
+   "RELAX null model fitting":{
+     "timer":0,
+     "order":4
+    }
+  },
+ "test results":{
+   "LRT":0.4381168376758069,
+   "p-value":0.508032780845979,
+   "relaxation or intensification parameter":0.4685060348151439
+  },
+ "tested":{
+   "0":{
+     "Sylvilagus_bachmani":"Test",
+     "Oryctolagus_cuniculus":"Reference",
+     "14":"Reference",
+     "Lepus_timidus":"Reference",
+     "Lepus_americanus":"Reference",
+     "13":"Reference",
+     "Ochotona_curzoniae":"Reference",
+     "Ochotona_princeps":"Reference",
+     "10":"Reference"
+    }
+  },
+ "data partitions":{
+   "0":{
+     "name":"relax.filter.default",
+     "coverage":[
+      [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556]
+      ]
+    }
+  },
+ "branch attributes":{
+   "0":{
+     "Ochotona_princeps":{
+       "original name":"Ochotona_princeps",
+       "Nucleotide GTR":0.02054035697153705,
+       "MG94xREV with separate rates for branch sets":0.02060874857027748,
+       "RELAX alternative":0.02118800543331532,
+       "RELAX null":0.02096745137973531
+      },
+     "Ochotona_curzoniae":{
+       "original name":"Ochotona_curzoniae",
+       "Nucleotide GTR":0.01975923535561121,
+       "MG94xREV with separate rates for branch sets":0.01985865765992167,
+       "RELAX alternative":0.02062177900963089,
+       "RELAX null":0.02060311415195925
+      },
+     "Oryctolagus_cuniculus":{
+       "original name":"Oryctolagus_cuniculus",
+       "Nucleotide GTR":0.01357952487928996,
+       "MG94xREV with separate rates for branch sets":0.02093981695291432,
+       "RELAX alternative":0.01394541178797998,
+       "RELAX null":0.01386904455534472
+      },
+     "Lepus_americanus":{
+       "original name":"Lepus_americanus",
+       "Nucleotide GTR":0.004388597532725895,
+       "MG94xREV with separate rates for branch sets":0.004889125677094429,
+       "RELAX alternative":0.004416735721562077,
+       "RELAX null":0.004413031338873059
+      },
+     "Lepus_timidus":{
+       "original name":"Lepus_timidus",
+       "Nucleotide GTR":0.00593111861297694,
+       "MG94xREV with separate rates for branch sets":0.005382065798613862,
+       "RELAX alternative":0.005933685813296406,
+       "RELAX null":0.005918796235864752
+      },
+     "Sylvilagus_bachmani":{
+       "original name":"Sylvilagus_bachmani",
+       "Nucleotide GTR":0.01596869018167669,
+       "MG94xREV with separate rates for branch sets":0.007686434635795981,
+       "RELAX alternative":0.01609873809379557,
+       "RELAX null":0.01634029738382573
+      },
+     "10":{
+       "Nucleotide GTR":0.1697940970607497,
+       "MG94xREV with separate rates for branch sets":0.1777743828057031,
+       "RELAX alternative":0.2031561757597169,
+       "RELAX null":0.2007483718903522
+      },
+     "13":{
+       "Nucleotide GTR":0.01245355371167272,
+       "MG94xREV with separate rates for branch sets":0.01408941648361799,
+       "RELAX alternative":0.01290433482434686,
+       "RELAX null":0.01280888800904161
+      },
+     "14":{
+       "Nucleotide GTR":0.005281898537417815,
+       "MG94xREV with separate rates for branch sets":0.0106956429119968,
+       "RELAX alternative":0.005373494323572561,
+       "RELAX null":0.005381446879479598
+      }
+    },
+   "attributes":{
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "MG94xREV with separate rates for branch sets":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "RELAX alternative":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "RELAX null":{
+       "attribute type":"branch length",
+       "display order":3
+      }
+    }
+  }
+}

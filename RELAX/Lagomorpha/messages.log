@@ -1,0 +1,570 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/models/codon/MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Already loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Loaded 'libv3/tasks/mpi.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../models/parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'XRxfuGZc.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'FyuAcNaU.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Rooted topology. Removing one branch - the left root child has been promoted to be the new root
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Loaded 'modules/grid_compute.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/grid_compute.ibf
+Variable 'xvPkFqdH.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'YQHgEoZy.model_pi' was not initialized prior to being used
+Model YQHgEoZy.model assigned to Sylvilagus_bachmani
+Model YQHgEoZy.model assigned to Oryctolagus_cuniculus
+Model YQHgEoZy.model assigned to 14
+Model YQHgEoZy.model assigned to Lepus_timidus
+Model YQHgEoZy.model assigned to Lepus_americanus
+Model YQHgEoZy.model assigned to 13
+Model YQHgEoZy.model assigned to Ochotona_curzoniae
+Model YQHgEoZy.model assigned to Ochotona_princeps
+Model YQHgEoZy.model assigned to 10
+The tips of the tree:YQHgEoZy.tree_0 were matched with the species names from the data in the following numeric order (0-based) {5,2,4,3,1,0}
+
+Pseudo-optimal path's cost 544 vs 792 for 1..k=> a 1.45588 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'YQHgEoZy.tree_0.Sylvilagus_bachmani.t' was not initialized prior to being used
+models.generic.SetBranchLength: YQHgEoZy.tree_0.Sylvilagus_bachmani.t=45.6628448662952
+Variable 'YQHgEoZy.tree_0.Oryctolagus_cuniculus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YQHgEoZy.tree_0.Oryctolagus_cuniculus.t=45.6628448662952
+Variable 'YQHgEoZy.tree_0.14.t' was not initialized prior to being used
+models.generic.SetBranchLength: YQHgEoZy.tree_0.14.t=13.9402258555391
+Variable 'YQHgEoZy.tree_0.Lepus_timidus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YQHgEoZy.tree_0.Lepus_timidus.t=19.65549150699212
+Variable 'YQHgEoZy.tree_0.Lepus_americanus.t' was not initialized prior to being used
+models.generic.SetBranchLength: YQHgEoZy.tree_0.Lepus_americanus.t=19.65549150699212
+Variable 'YQHgEoZy.tree_0.13.t' was not initialized prior to being used
+models.generic.SetBranchLength: YQHgEoZy.tree_0.13.t=39.94757921484219
+Variable 'YQHgEoZy.tree_0.Ochotona_curzoniae.t' was not initialized prior to being used
+models.generic.SetBranchLength: YQHgEoZy.tree_0.Ochotona_curzoniae.t=54.61518481364148
+Variable 'YQHgEoZy.tree_0.Ochotona_princeps.t' was not initialized prior to being used
+models.generic.SetBranchLength: YQHgEoZy.tree_0.Ochotona_princeps.t=54.61518481364148
+Variable 'YQHgEoZy.tree_0.10.t' was not initialized prior to being used
+models.generic.SetBranchLength: YQHgEoZy.tree_0.10.t=83.56031484765917
+Variable 'YQHgEoZy.YQHgEoZy.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 8064-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YQHgEoZy.model.theta_CT = 1
+YQHgEoZy.model.theta_GT = 0.25
+YQHgEoZy.model.theta_CG = 0.25
+YQHgEoZy.model.theta_AC = 0.25
+YQHgEoZy.model.theta_AT = 0.25
+YQHgEoZy.tree_0.Sylvilagus_bachmani.t = 45.6628
+YQHgEoZy.tree_0.Oryctolagus_cuniculus.t = 45.6628
+YQHgEoZy.tree_0.14.t = 13.9402
+YQHgEoZy.tree_0.Lepus_timidus.t = 19.6555
+YQHgEoZy.tree_0.Lepus_americanus.t = 19.6555
+YQHgEoZy.tree_0.13.t = 39.9476
+YQHgEoZy.tree_0.Ochotona_curzoniae.t = 54.6152
+YQHgEoZy.tree_0.Ochotona_princeps.t = 54.6152
+YQHgEoZy.tree_0.10.t = 83.5603
+Optimization finished in 33 loop passes.
+1643 likelihood evaluation calls and 8042 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'YQHgEoZy.option' was not initialized prior to being used
+Variable 'relax.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'XMUWDaDb.initial_value' was not initialized prior to being used
+Variable 'cmrgDuBY.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5263-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.314034
+frequencies._aux.CF3x4.p0_1 = 0.251472
+frequencies._aux.CF3x4.p0_2 = 0.588287
+frequencies._aux.CF3x4.p1_0 = 0.348444
+frequencies._aux.CF3x4.p1_1 = 0.303789
+frequencies._aux.CF3x4.p1_2 = 0.434367
+frequencies._aux.CF3x4.p2_0 = 0.271843
+frequencies._aux.CF3x4.p2_1 = 0.3158
+frequencies._aux.CF3x4.p2_2 = 0.429129
+Optimization finished in 5 loop passes.
+183 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'cmrgDuBY.model_MGREV_pi' was not initialized prior to being used
+Model cmrgDuBY.model_MGREV assigned to Sylvilagus_bachmani
+Model cmrgDuBY.model_MGREV assigned to Oryctolagus_cuniculus
+Model cmrgDuBY.model_MGREV assigned to 14
+Model cmrgDuBY.model_MGREV assigned to Lepus_timidus
+Model cmrgDuBY.model_MGREV assigned to Lepus_americanus
+Model cmrgDuBY.model_MGREV assigned to 13
+Model cmrgDuBY.model_MGREV assigned to Ochotona_curzoniae
+Model cmrgDuBY.model_MGREV assigned to Ochotona_princeps
+Model cmrgDuBY.model_MGREV assigned to 10
+The tips of the tree:cmrgDuBY.tree_0 were matched with the species names from the data in the following numeric order (0-based) {5,2,4,3,1,0}
+
+Pseudo-optimal path's cost 1906 vs 2656 for 1..k=> a 1.39349 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'cmrgDuBY.cmrgDuBY.likelihoodFunction' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.Sylvilagus_bachmani.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.Oryctolagus_cuniculus.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.14.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.Lepus_timidus.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.Lepus_americanus.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.13.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.Ochotona_curzoniae.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.Ochotona_princeps.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.10.alpha' was not initialized prior to being used
+Site 100 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 100 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 63 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 349-th LF evaluation.
+Initial guess for cmrgDuBY.tree_0.Sylvilagus_bachmani.alpha is 5.60957e-06
+Initial guess for cmrgDuBY.tree_0.Oryctolagus_cuniculus.alpha is 5.61219e-06
+Initial guess for cmrgDuBY.tree_0.13.alpha is 1.07116e-06
+Initial guess for cmrgDuBY.tree_0.Lepus_timidus.alpha is 2.27149e-06
+Initial guess for cmrgDuBY.tree_0.Lepus_americanus.alpha is 1.78741e-06
+Initial guess for cmrgDuBY.tree_0.10.alpha is 5.25605e-06
+Initial guess for cmrgDuBY.tree_0.Ochotona_curzoniae.alpha is 7.69941e-06
+Initial guess for cmrgDuBY.tree_0.Ochotona_princeps.alpha is 7.8201e-06
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+cmrgDuBY.model_MGREV.theta_GT = 1
+cmrgDuBY.model_MGREV.theta_CT = 1
+cmrgDuBY.model_MGREV.theta_AC = 1
+cmrgDuBY.model_MGREV.theta_CG = 1
+cmrgDuBY.model_MGREV.theta_AT = 1
+cmrgDuBY.model_MGREV.omega_0 = 1
+cmrgDuBY.tree_0.Sylvilagus_bachmani.alpha = 5.60957e-06
+cmrgDuBY.tree_0.Oryctolagus_cuniculus.alpha = 5.61219e-06
+cmrgDuBY.tree_0.14.alpha = 0.1
+cmrgDuBY.tree_0.Lepus_timidus.alpha = 2.27149e-06
+cmrgDuBY.tree_0.Lepus_americanus.alpha = 1.78741e-06
+cmrgDuBY.tree_0.13.alpha = 1.07116e-06
+cmrgDuBY.tree_0.Ochotona_curzoniae.alpha = 7.69941e-06
+cmrgDuBY.tree_0.Ochotona_princeps.alpha = 7.8201e-06
+cmrgDuBY.tree_0.10.alpha = 5.25605e-06
+cmrgDuBY.model_MGREV.omega_1 = 1
+Failing bound checks on cmrgDuBY.tree_0.10.beta =          10000.4655737446
+Optimization finished in 23 loop passes.
+1459 likelihood evaluation calls and 6748 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 3546-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.314034
+frequencies._aux.CF3x4.p0_1 = 0.251472
+frequencies._aux.CF3x4.p0_2 = 0.588287
+frequencies._aux.CF3x4.p1_0 = 0.348444
+frequencies._aux.CF3x4.p1_1 = 0.303789
+frequencies._aux.CF3x4.p1_2 = 0.434367
+frequencies._aux.CF3x4.p2_0 = 0.271843
+frequencies._aux.CF3x4.p2_1 = 0.3158
+frequencies._aux.CF3x4.p2_2 = 0.429129
+Optimization finished in 5 loop passes.
+181 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'cmrgDuBY.model_MGREV_pi' was not initialized prior to being used
+Model cmrgDuBY.model_MGREV assigned to Sylvilagus_bachmani
+Model cmrgDuBY.model_MGREV assigned to Oryctolagus_cuniculus
+Model cmrgDuBY.model_MGREV assigned to 14
+Model cmrgDuBY.model_MGREV assigned to Lepus_timidus
+Model cmrgDuBY.model_MGREV assigned to Lepus_americanus
+Model cmrgDuBY.model_MGREV assigned to 13
+Model cmrgDuBY.model_MGREV assigned to Ochotona_curzoniae
+Model cmrgDuBY.model_MGREV assigned to Ochotona_princeps
+Model cmrgDuBY.model_MGREV assigned to 10
+The tips of the tree:cmrgDuBY.tree_0 were matched with the species names from the data in the following numeric order (0-based) {5,2,4,3,1,0}
+
+Pseudo-optimal path's cost 1906 vs 2656 for 1..k=> a 1.39349 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'cmrgDuBY.tree_0.Ochotona_curzoniae.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.13.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.Ochotona_princeps.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.Sylvilagus_bachmani.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.Lepus_americanus.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.14.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.Lepus_timidus.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.Oryctolagus_cuniculus.alpha' was not initialized prior to being used
+Variable 'cmrgDuBY.tree_0.10.alpha' was not initialized prior to being used
+Site 100 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 100 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 63 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 100 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 52 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 257 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 100 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 63 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 190 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 96 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 954-th LF evaluation.
+Initial guess for cmrgDuBY.tree_0.Sylvilagus_bachmani.alpha is 5.60957e-06
+Initial guess for cmrgDuBY.tree_0.Oryctolagus_cuniculus.alpha is 5.61219e-06
+Initial guess for cmrgDuBY.tree_0.13.alpha is 1.07116e-06
+Initial guess for cmrgDuBY.tree_0.Lepus_timidus.alpha is 2.27149e-06
+Initial guess for cmrgDuBY.tree_0.Lepus_americanus.alpha is 1.78741e-06
+Initial guess for cmrgDuBY.tree_0.10.alpha is 5.25605e-06
+Initial guess for cmrgDuBY.tree_0.Ochotona_curzoniae.alpha is 7.69941e-06
+Initial guess for cmrgDuBY.tree_0.Ochotona_princeps.alpha is 7.8201e-06
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+cmrgDuBY.model_MGREV.theta_CG = 1
+cmrgDuBY.model_MGREV.theta_AT = 1
+cmrgDuBY.model_MGREV.theta_AC = 1
+cmrgDuBY.model_MGREV.theta_CT = 1
+cmrgDuBY.model_MGREV.theta_GT = 1
+cmrgDuBY.model_MGREV.omega_0 = 1
+cmrgDuBY.tree_0.Sylvilagus_bachmani.alpha = 5.60957e-06
+cmrgDuBY.tree_0.Oryctolagus_cuniculus.alpha = 5.61219e-06
+cmrgDuBY.tree_0.14.alpha = 0.1
+cmrgDuBY.tree_0.Lepus_timidus.alpha = 2.27149e-06
+cmrgDuBY.tree_0.Lepus_americanus.alpha = 1.78741e-06
+cmrgDuBY.tree_0.13.alpha = 1.07116e-06
+cmrgDuBY.tree_0.Ochotona_curzoniae.alpha = 7.69941e-06
+cmrgDuBY.tree_0.Ochotona_princeps.alpha = 7.8201e-06
+cmrgDuBY.tree_0.10.alpha = 5.25605e-06
+cmrgDuBY.model_MGREV.omega_1 = 1
+Failing bound checks on cmrgDuBY.tree_0.10.beta =          10000.4655737446
+Optimization finished in 34 loop passes.
+1619 likelihood evaluation calls and 7961 matrix exponentiations calls were made
+
+Overwritten previously defined function:'zOCqBuef.rate_generator'
+Overwritten previously defined function:'zOCqBuef.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5319-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.314034
+frequencies._aux.CF3x4.p0_1 = 0.251472
+frequencies._aux.CF3x4.p0_2 = 0.588287
+frequencies._aux.CF3x4.p1_0 = 0.348444
+frequencies._aux.CF3x4.p1_1 = 0.303789
+frequencies._aux.CF3x4.p1_2 = 0.434367
+frequencies._aux.CF3x4.p2_0 = 0.271843
+frequencies._aux.CF3x4.p2_1 = 0.3158
+frequencies._aux.CF3x4.p2_2 = 0.429129
+Optimization finished in 5 loop passes.
+183 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.test_pi' was not initialized prior to being used
+Overwritten previously defined function:'zOCqBuef.rate_generator'
+Overwritten previously defined function:'zOCqBuef.rate_generator'
+Overwritten previously defined function:'zOCqBuef.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5319-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.314034
+frequencies._aux.CF3x4.p0_1 = 0.251472
+frequencies._aux.CF3x4.p0_2 = 0.588287
+frequencies._aux.CF3x4.p1_0 = 0.348444
+frequencies._aux.CF3x4.p1_1 = 0.303789
+frequencies._aux.CF3x4.p1_2 = 0.434367
+frequencies._aux.CF3x4.p2_0 = 0.271843
+frequencies._aux.CF3x4.p2_1 = 0.3158
+frequencies._aux.CF3x4.p2_2 = 0.429129
+Optimization finished in 5 loop passes.
+183 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.reference_pi' was not initialized prior to being used
+No nodel was assigned to Sylvilagus_bachmani
+No nodel was assigned to Oryctolagus_cuniculus
+No nodel was assigned to 14
+No nodel was assigned to Lepus_timidus
+No nodel was assigned to Lepus_americanus
+No nodel was assigned to 13
+No nodel was assigned to Ochotona_curzoniae
+No nodel was assigned to Ochotona_princeps
+No nodel was assigned to 10
+The tips of the tree:eqYowFKv.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {5,2,4,3,1,0}
+
+Pseudo-optimal path's cost 1906 vs 2656 for 1..k=> a 1.39349 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+Variable 'eqYowFKv.tree_id_0.Sylvilagus_bachmani.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.Sylvilagus_bachmani.t=0.05854893335926933
+Variable 'eqYowFKv.tree_id_0.Oryctolagus_cuniculus.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.Oryctolagus_cuniculus.t=0.1595022927303561
+Variable 'eqYowFKv.tree_id_0.14.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.14.t=0.08147060552271168
+Variable 'eqYowFKv.tree_id_0.Lepus_timidus.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.Lepus_timidus.t=0.04099614798137338
+Variable 'eqYowFKv.tree_id_0.Lepus_americanus.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.Lepus_americanus.t=0.03724133581000014
+Variable 'eqYowFKv.tree_id_0.13.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.13.t=0.1073215796214098
+Variable 'eqYowFKv.tree_id_0.Ochotona_curzoniae.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.Ochotona_curzoniae.t=0.1512669109967514
+Variable 'eqYowFKv.tree_id_0.Ochotona_princeps.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.Ochotona_princeps.t=0.1569804862503927
+Variable 'eqYowFKv.tree_id_0.10.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.10.t=1.354138945435588
+Variable 'eqYowFKv.eqYowFKv.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 139-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.omega3 = 7.27482
+relax.reference.omega2 = 0.4601
+relax.reference.bsrel_mixture_aux_0 = 0.45
+relax.test.theta_GT = 0.373235
+relax.reference.omega1 = 0.145496
+relax.reference.bsrel_mixture_aux_1 = 0.818182
+relax.test.theta_CT = 0.917133
+relax.test.theta_AC = 0.420472
+relax.test.theta_AT = 0.24186
+relax.test.theta_CG = 0.426653
+relax.K = 1
+eqYowFKv.tree_id_0.Sylvilagus_bachmani.t = 0.0585489
+eqYowFKv.tree_id_0.Oryctolagus_cuniculus.t = 0.159502
+eqYowFKv.tree_id_0.14.t = 0.0814706
+eqYowFKv.tree_id_0.Lepus_timidus.t = 0.0409961
+eqYowFKv.tree_id_0.Lepus_americanus.t = 0.0372413
+eqYowFKv.tree_id_0.13.t = 0.107322
+eqYowFKv.tree_id_0.Ochotona_curzoniae.t = 0.151267
+eqYowFKv.tree_id_0.Ochotona_princeps.t = 0.15698
+eqYowFKv.tree_id_0.10.t = 1.35414
+Optimization finished in 142 loop passes.
+10710 likelihood evaluation calls and 210615 matrix exponentiations calls were made
+
+Variable 'MPI_NODE_COUNT' was not initialized prior to being used
+No nodel was assigned to Sylvilagus_bachmani
+No nodel was assigned to Oryctolagus_cuniculus
+No nodel was assigned to 14
+No nodel was assigned to Lepus_timidus
+No nodel was assigned to Lepus_americanus
+No nodel was assigned to 13
+No nodel was assigned to Ochotona_curzoniae
+No nodel was assigned to Ochotona_princeps
+No nodel was assigned to 10
+Likelihood function cleared because partition index '0' points to invalid components
+The tips of the tree:eqYowFKv.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {5,2,4,3,1,0}
+
+Pseudo-optimal path's cost 1906 vs 2656 for 1..k=> a 1.39349 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_0 was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_1 was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+relax.test.omega1 was already constrained in estimators.SetGlobals2
+relax.test.omega2 was already constrained in estimators.SetGlobals2
+relax.test.omega3 was already constrained in estimators.SetGlobals2
+Variable 'eqYowFKv.tree_id_0.Sylvilagus_bachmani.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.Sylvilagus_bachmani.t=0.2116211474800982
+Variable 'eqYowFKv.tree_id_0.Oryctolagus_cuniculus.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.Oryctolagus_cuniculus.t=0.1833152404530501
+Variable 'eqYowFKv.tree_id_0.14.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.14.t=0.07063566275237897
+Variable 'eqYowFKv.tree_id_0.Lepus_timidus.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.Lepus_timidus.t=0.07799949246208979
+Variable 'eqYowFKv.tree_id_0.Lepus_americanus.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.Lepus_americanus.t=0.05805887865667735
+Variable 'eqYowFKv.tree_id_0.13.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.13.t=0.169630074549019
+Variable 'eqYowFKv.tree_id_0.Ochotona_curzoniae.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.Ochotona_curzoniae.t=0.2710774292788187
+Variable 'eqYowFKv.tree_id_0.Ochotona_princeps.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.Ochotona_princeps.t=0.2785205894082348
+Variable 'eqYowFKv.tree_id_0.10.t' was not initialized prior to being used
+models.generic.SetBranchLength: eqYowFKv.tree_id_0.10.t=2.67052875706506
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 106-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.omega3 = 8.03515
+relax.reference.omega2 = 0.736825
+relax.reference.bsrel_mixture_aux_0 = 0.526114
+relax.test.theta_GT = 0.338024
+relax.reference.omega1 = 0
+relax.reference.bsrel_mixture_aux_1 = 0.966458
+relax.test.theta_CT = 0.903473
+relax.test.theta_AC = 0.364631
+relax.test.theta_AT = 0.196931
+relax.test.theta_CG = 0.407298
+relax.K = 1
+eqYowFKv.tree_id_0.Sylvilagus_bachmani.t = 0.211621
+eqYowFKv.tree_id_0.Oryctolagus_cuniculus.t = 0.183315
+eqYowFKv.tree_id_0.14.t = 0.0706357
+eqYowFKv.tree_id_0.Lepus_timidus.t = 0.0779995
+eqYowFKv.tree_id_0.Lepus_americanus.t = 0.0580589
+eqYowFKv.tree_id_0.13.t = 0.16963
+eqYowFKv.tree_id_0.Ochotona_curzoniae.t = 0.271077
+eqYowFKv.tree_id_0.Ochotona_princeps.t = 0.278521
+eqYowFKv.tree_id_0.10.t = 2.67053
+Optimization finished in 21 loop passes.
+1840 likelihood evaluation calls and 32835 matrix exponentiations calls were made
+
+Variable 'YpBnRqyQ.eqYowFKv.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 150-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.omega3 = 6.01078
+relax.reference.omega2 = 0.763323
+relax.reference.bsrel_mixture_aux_0 = 0.609071
+relax.test.theta_GT = 0.340045
+relax.reference.omega1 = 0.0603806
+relax.reference.bsrel_mixture_aux_1 = 0.943668
+relax.test.theta_CT = 0.901016
+relax.test.theta_AC = 0.366153
+relax.test.theta_AT = 0.197838
+relax.test.theta_CG = 0.410373
+eqYowFKv.tree_id_0.Sylvilagus_bachmani.t = 0.0727999
+eqYowFKv.tree_id_0.Oryctolagus_cuniculus.t = 0.0617239
+eqYowFKv.tree_id_0.14.t = 0.0239469
+eqYowFKv.tree_id_0.Lepus_timidus.t = 0.0263605
+eqYowFKv.tree_id_0.Lepus_americanus.t = 0.019654
+eqYowFKv.tree_id_0.13.t = 0.0570052
+eqYowFKv.tree_id_0.Ochotona_curzoniae.t = 0.0918487
+eqYowFKv.tree_id_0.Ochotona_princeps.t = 0.0933186
+eqYowFKv.tree_id_0.10.t = 0.892832
+Optimization finished in 3 loop passes.
+191 likelihood evaluation calls and 3864 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used
