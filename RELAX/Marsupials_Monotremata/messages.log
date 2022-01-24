@@ -1,0 +1,918 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/models/codon/MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Already loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Loaded 'libv3/tasks/mpi.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../models/parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'cm_YPMqx.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'TetAOj_f.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Rooted topology. Removing one branch - the left root child has been promoted to be the new root
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Loaded 'modules/grid_compute.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/grid_compute.ibf
+Variable 'GxKfdJnQ.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'BTOiGJMk.model_pi' was not initialized prior to being used
+Model BTOiGJMk.model assigned to Gracilinanus_agilis
+Model BTOiGJMk.model assigned to Monodelphis_domestica
+Model BTOiGJMk.model assigned to 14
+Model BTOiGJMk.model assigned to Thylacinus_cynocephalus
+Model BTOiGJMk.model assigned to Antechinus_flavipes
+Model BTOiGJMk.model assigned to Sarcophilus_harrisii
+Model BTOiGJMk.model assigned to 13
+Model BTOiGJMk.model assigned to 11
+Model BTOiGJMk.model assigned to Phascolarctos_cinereus
+Model BTOiGJMk.model assigned to Vombatus_ursinus
+Model BTOiGJMk.model assigned to 10
+Model BTOiGJMk.model assigned to Macropus_eugenii
+Model BTOiGJMk.model assigned to Trichosurus_vulpecula
+Model BTOiGJMk.model assigned to 19
+Model BTOiGJMk.model assigned to 9
+Model BTOiGJMk.model assigned to 22
+Model BTOiGJMk.model assigned to Dromiciops_gliroides
+Model BTOiGJMk.model assigned to 8
+Model BTOiGJMk.model assigned to Ornithorhynchus_anatinus
+Model BTOiGJMk.model assigned to Tachyglossus_aculeatus
+Model BTOiGJMk.model assigned to 30
+The tips of the tree:BTOiGJMk.tree_0 were matched with the species names from the data in the following numeric order (0-based) {2,4,9,0,7,6,11,3,10,1,5,8}
+
+Pseudo-optimal path's cost 5788 vs 10884 for 1..k=> a 1.88044 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'BTOiGJMk.tree_0.Gracilinanus_agilis.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.Gracilinanus_agilis.t=80.72497485417034
+Variable 'BTOiGJMk.tree_0.Monodelphis_domestica.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.Monodelphis_domestica.t=80.72497485417034
+Variable 'BTOiGJMk.tree_0.14.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.14.t=138.6012159602962
+Variable 'BTOiGJMk.tree_0.Thylacinus_cynocephalus.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.Thylacinus_cynocephalus.t=107.4908650811205
+Variable 'BTOiGJMk.tree_0.Antechinus_flavipes.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.Antechinus_flavipes.t=45.94235529106466
+Variable 'BTOiGJMk.tree_0.Sarcophilus_harrisii.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.Sarcophilus_harrisii.t=45.94235529106466
+Variable 'BTOiGJMk.tree_0.13.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.13.t=61.54850979005587
+Variable 'BTOiGJMk.tree_0.11.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.11.t=58.34247767012653
+Variable 'BTOiGJMk.tree_0.Phascolarctos_cinereus.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.Phascolarctos_cinereus.t=94.20530567588064
+Variable 'BTOiGJMk.tree_0.Vombatus_ursinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.Vombatus_ursinus.t=94.20530567588064
+Variable 'BTOiGJMk.tree_0.10.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.10.t=37.49746596231435
+Variable 'BTOiGJMk.tree_0.Macropus_eugenii.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.Macropus_eugenii.t=128.0716974201912
+Variable 'BTOiGJMk.tree_0.Trichosurus_vulpecula.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.Trichosurus_vulpecula.t=128.0716974201912
+Variable 'BTOiGJMk.tree_0.19.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.19.t=3.631074218003715
+Variable 'BTOiGJMk.tree_0.9.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.9.t=34.1305711130521
+Variable 'BTOiGJMk.tree_0.22.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.22.t=1.653595705646604
+Variable 'BTOiGJMk.tree_0.Dromiciops_gliroides.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.Dromiciops_gliroides.t=167.4869384568937
+Variable 'BTOiGJMk.tree_0.8.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.8.t=51.83925235757289
+Variable 'BTOiGJMk.tree_0.Ornithorhynchus_anatinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.Ornithorhynchus_anatinus.t=122.764616306122
+Variable 'BTOiGJMk.tree_0.Tachyglossus_aculeatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.Tachyglossus_aculeatus.t=122.764616306122
+Variable 'BTOiGJMk.tree_0.30.t' was not initialized prior to being used
+models.generic.SetBranchLength: BTOiGJMk.tree_0.30.t=353.3176451609951
+Variable 'BTOiGJMk.BTOiGJMk.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 1506-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+BTOiGJMk.model.theta_CT = 1
+BTOiGJMk.model.theta_GT = 0.25
+BTOiGJMk.model.theta_CG = 0.25
+BTOiGJMk.model.theta_AC = 0.25
+BTOiGJMk.model.theta_AT = 0.25
+BTOiGJMk.tree_0.Gracilinanus_agilis.t = 80.725
+BTOiGJMk.tree_0.Monodelphis_domestica.t = 80.725
+BTOiGJMk.tree_0.14.t = 138.601
+BTOiGJMk.tree_0.Thylacinus_cynocephalus.t = 107.491
+BTOiGJMk.tree_0.Antechinus_flavipes.t = 45.9424
+BTOiGJMk.tree_0.Sarcophilus_harrisii.t = 45.9424
+BTOiGJMk.tree_0.13.t = 61.5485
+BTOiGJMk.tree_0.11.t = 58.3425
+BTOiGJMk.tree_0.Phascolarctos_cinereus.t = 94.2053
+BTOiGJMk.tree_0.Vombatus_ursinus.t = 94.2053
+BTOiGJMk.tree_0.10.t = 37.4975
+BTOiGJMk.tree_0.Macropus_eugenii.t = 128.072
+BTOiGJMk.tree_0.Trichosurus_vulpecula.t = 128.072
+BTOiGJMk.tree_0.19.t = 3.63107
+BTOiGJMk.tree_0.9.t = 34.1306
+BTOiGJMk.tree_0.22.t = 1.6536
+BTOiGJMk.tree_0.Dromiciops_gliroides.t = 167.487
+BTOiGJMk.tree_0.8.t = 51.8393
+BTOiGJMk.tree_0.Ornithorhynchus_anatinus.t = 122.765
+BTOiGJMk.tree_0.Tachyglossus_aculeatus.t = 122.765
+BTOiGJMk.tree_0.30.t = 353.318
+Optimization finished in 36 loop passes.
+2732 likelihood evaluation calls and 18288 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'BTOiGJMk.option' was not initialized prior to being used
+Variable 'relax.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'wBDiInPL.initial_value' was not initialized prior to being used
+Variable 'DglQxgbA.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 7142-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.287542
+frequencies._aux.CF3x4.p0_1 = 0.261621
+frequencies._aux.CF3x4.p0_2 = 0.587727
+frequencies._aux.CF3x4.p1_0 = 0.337159
+frequencies._aux.CF3x4.p1_1 = 0.297799
+frequencies._aux.CF3x4.p1_2 = 0.4729
+frequencies._aux.CF3x4.p2_0 = 0.30703
+frequencies._aux.CF3x4.p2_1 = 0.291925
+frequencies._aux.CF3x4.p2_2 = 0.374025
+Optimization finished in 7 loop passes.
+217 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'DglQxgbA.model_MGREV_pi' was not initialized prior to being used
+Model DglQxgbA.model_MGREV assigned to Gracilinanus_agilis
+Model DglQxgbA.model_MGREV assigned to Monodelphis_domestica
+Model DglQxgbA.model_MGREV assigned to 14
+Model DglQxgbA.model_MGREV assigned to Thylacinus_cynocephalus
+Model DglQxgbA.model_MGREV assigned to Antechinus_flavipes
+Model DglQxgbA.model_MGREV assigned to Sarcophilus_harrisii
+Model DglQxgbA.model_MGREV assigned to 13
+Model DglQxgbA.model_MGREV assigned to 11
+Model DglQxgbA.model_MGREV assigned to Phascolarctos_cinereus
+Model DglQxgbA.model_MGREV assigned to Vombatus_ursinus
+Model DglQxgbA.model_MGREV assigned to 10
+Model DglQxgbA.model_MGREV assigned to Macropus_eugenii
+Model DglQxgbA.model_MGREV assigned to Trichosurus_vulpecula
+Model DglQxgbA.model_MGREV assigned to 19
+Model DglQxgbA.model_MGREV assigned to 9
+Model DglQxgbA.model_MGREV assigned to 22
+Model DglQxgbA.model_MGREV assigned to Dromiciops_gliroides
+Model DglQxgbA.model_MGREV assigned to 8
+Model DglQxgbA.model_MGREV assigned to Ornithorhynchus_anatinus
+Model DglQxgbA.model_MGREV assigned to Tachyglossus_aculeatus
+Model DglQxgbA.model_MGREV assigned to 30
+The tips of the tree:DglQxgbA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {2,4,9,0,7,6,11,3,10,1,5,8}
+
+Pseudo-optimal path's cost 8277 vs 11497 for 1..k=> a 1.38903 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'DglQxgbA.DglQxgbA.likelihoodFunction' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Gracilinanus_agilis.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Monodelphis_domestica.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.14.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Thylacinus_cynocephalus.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Antechinus_flavipes.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Sarcophilus_harrisii.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.13.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.11.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Phascolarctos_cinereus.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Vombatus_ursinus.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.10.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Macropus_eugenii.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Trichosurus_vulpecula.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.19.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.9.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.22.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Dromiciops_gliroides.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.8.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Ornithorhynchus_anatinus.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Tachyglossus_aculeatus.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.30.alpha' was not initialized prior to being used
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 231 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 122 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 192 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 399 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 263 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 285 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 431 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 504 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 95 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 518 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 339 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 342 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 608 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 285 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 235 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 430 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 284 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 562 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 119 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 159 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 228 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 29 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 452 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 193 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 429 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 557 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 532 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 154 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 339 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 470 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 385 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 498 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 105 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 215 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 388 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 235 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 46 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 488 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 95 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 85 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 431 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 231 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 504 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 518 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 134 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 283 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 556 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 52 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 521 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 357 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 84 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 608 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 142 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 454 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 258 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 339 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 399 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 285 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 132 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 17 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 342 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 513 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 263 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 608 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 256 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 235 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 469 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 290 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 406 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 583 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 391 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 423 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 138 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 554 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 114 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 32 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 353 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 43 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 170 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 107 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 98 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 366 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 26 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 557 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 293 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 588 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 50 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 416 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 304 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 360 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 178 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (13) of threads.
+Set GUI update interval to every 237-th LF evaluation.
+Initial guess for DglQxgbA.tree_0.Gracilinanus_agilis.alpha is 6.21502e-06
+Initial guess for DglQxgbA.tree_0.Monodelphis_domestica.alpha is 1.43506e-05
+Initial guess for DglQxgbA.tree_0.8.alpha is 1.68699e-05
+Initial guess for DglQxgbA.tree_0.22.alpha is 2.11162e-06
+Initial guess for DglQxgbA.tree_0.11.alpha is 5.76398e-07
+Initial guess for DglQxgbA.tree_0.Thylacinus_cynocephalus.alpha is 8.40789e-06
+Initial guess for DglQxgbA.tree_0.13.alpha is 1.03589e-05
+Initial guess for DglQxgbA.tree_0.Antechinus_flavipes.alpha is 4.55556e-06
+Initial guess for DglQxgbA.tree_0.Sarcophilus_harrisii.alpha is 4.74559e-06
+Initial guess for DglQxgbA.tree_0.9.alpha is 3.48551e-06
+Initial guess for DglQxgbA.tree_0.10.alpha is 4.33133e-06
+Initial guess for DglQxgbA.tree_0.Phascolarctos_cinereus.alpha is 6.52237e-06
+Initial guess for DglQxgbA.tree_0.Vombatus_ursinus.alpha is 7.96311e-06
+Initial guess for DglQxgbA.tree_0.19.alpha is 4.27213e-06
+Initial guess for DglQxgbA.tree_0.Macropus_eugenii.alpha is 1.37329e-05
+Initial guess for DglQxgbA.tree_0.Trichosurus_vulpecula.alpha is 1.11007e-05
+Initial guess for DglQxgbA.tree_0.Dromiciops_gliroides.alpha is 1.67625e-05
+Initial guess for DglQxgbA.tree_0.30.alpha is 9.70565e-07
+Initial guess for DglQxgbA.tree_0.Ornithorhynchus_anatinus.alpha is 1.72581e-05
+Initial guess for DglQxgbA.tree_0.Tachyglossus_aculeatus.alpha is 1.43055e-05
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+DglQxgbA.model_MGREV.theta_GT = 1
+DglQxgbA.model_MGREV.theta_CT = 1
+DglQxgbA.model_MGREV.theta_AC = 1
+DglQxgbA.model_MGREV.theta_CG = 1
+DglQxgbA.model_MGREV.theta_AT = 1
+DglQxgbA.model_MGREV.omega_0 = 1
+DglQxgbA.tree_0.Gracilinanus_agilis.alpha = 6.21502e-06
+DglQxgbA.tree_0.Monodelphis_domestica.alpha = 1.43506e-05
+DglQxgbA.tree_0.14.alpha = 0.1
+DglQxgbA.tree_0.Thylacinus_cynocephalus.alpha = 8.40789e-06
+DglQxgbA.tree_0.Antechinus_flavipes.alpha = 4.55556e-06
+DglQxgbA.tree_0.Sarcophilus_harrisii.alpha = 4.74559e-06
+DglQxgbA.tree_0.13.alpha = 1.03589e-05
+DglQxgbA.tree_0.11.alpha = 5.76398e-07
+DglQxgbA.tree_0.Phascolarctos_cinereus.alpha = 6.52237e-06
+DglQxgbA.tree_0.Vombatus_ursinus.alpha = 7.96311e-06
+DglQxgbA.tree_0.10.alpha = 4.33133e-06
+DglQxgbA.tree_0.Macropus_eugenii.alpha = 1.37329e-05
+DglQxgbA.tree_0.Trichosurus_vulpecula.alpha = 1.11007e-05
+DglQxgbA.tree_0.19.alpha = 4.27213e-06
+DglQxgbA.tree_0.9.alpha = 3.48551e-06
+DglQxgbA.tree_0.22.alpha = 2.11162e-06
+DglQxgbA.tree_0.Dromiciops_gliroides.alpha = 1.67625e-05
+DglQxgbA.tree_0.8.alpha = 1.68699e-05
+DglQxgbA.tree_0.Ornithorhynchus_anatinus.alpha = 1.72581e-05
+DglQxgbA.tree_0.Tachyglossus_aculeatus.alpha = 1.43055e-05
+DglQxgbA.tree_0.30.alpha = 9.70565e-07
+DglQxgbA.model_MGREV.omega_1 = 1
+Failing bound checks on DglQxgbA.tree_0.30.beta =          10000.8226225729
+Optimization finished in 26 loop passes.
+3859 likelihood evaluation calls and 22542 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 7042-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.287542
+frequencies._aux.CF3x4.p0_1 = 0.261621
+frequencies._aux.CF3x4.p0_2 = 0.587727
+frequencies._aux.CF3x4.p1_0 = 0.337159
+frequencies._aux.CF3x4.p1_1 = 0.297799
+frequencies._aux.CF3x4.p1_2 = 0.4729
+frequencies._aux.CF3x4.p2_0 = 0.30703
+frequencies._aux.CF3x4.p2_1 = 0.291925
+frequencies._aux.CF3x4.p2_2 = 0.374025
+Optimization finished in 7 loop passes.
+217 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'DglQxgbA.model_MGREV_pi' was not initialized prior to being used
+Model DglQxgbA.model_MGREV assigned to Gracilinanus_agilis
+Model DglQxgbA.model_MGREV assigned to Monodelphis_domestica
+Model DglQxgbA.model_MGREV assigned to 14
+Model DglQxgbA.model_MGREV assigned to Thylacinus_cynocephalus
+Model DglQxgbA.model_MGREV assigned to Antechinus_flavipes
+Model DglQxgbA.model_MGREV assigned to Sarcophilus_harrisii
+Model DglQxgbA.model_MGREV assigned to 13
+Model DglQxgbA.model_MGREV assigned to 11
+Model DglQxgbA.model_MGREV assigned to Phascolarctos_cinereus
+Model DglQxgbA.model_MGREV assigned to Vombatus_ursinus
+Model DglQxgbA.model_MGREV assigned to 10
+Model DglQxgbA.model_MGREV assigned to Macropus_eugenii
+Model DglQxgbA.model_MGREV assigned to Trichosurus_vulpecula
+Model DglQxgbA.model_MGREV assigned to 19
+Model DglQxgbA.model_MGREV assigned to 9
+Model DglQxgbA.model_MGREV assigned to 22
+Model DglQxgbA.model_MGREV assigned to Dromiciops_gliroides
+Model DglQxgbA.model_MGREV assigned to 8
+Model DglQxgbA.model_MGREV assigned to Ornithorhynchus_anatinus
+Model DglQxgbA.model_MGREV assigned to Tachyglossus_aculeatus
+Model DglQxgbA.model_MGREV assigned to 30
+The tips of the tree:DglQxgbA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {2,4,9,0,7,6,11,3,10,1,5,8}
+
+Pseudo-optimal path's cost 8277 vs 11497 for 1..k=> a 1.38903 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'DglQxgbA.tree_0.Ornithorhynchus_anatinus.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.8.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Tachyglossus_aculeatus.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Thylacinus_cynocephalus.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Dromiciops_gliroides.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.22.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.9.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Monodelphis_domestica.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.19.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.13.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Trichosurus_vulpecula.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Macropus_eugenii.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.10.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Vombatus_ursinus.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Gracilinanus_agilis.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Phascolarctos_cinereus.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Antechinus_flavipes.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.11.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.Sarcophilus_harrisii.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.14.alpha' was not initialized prior to being used
+Variable 'DglQxgbA.tree_0.30.alpha' was not initialized prior to being used
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 231 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 57-th LF evaluation.
+Initial guess for DglQxgbA.tree_0.Gracilinanus_agilis.alpha is 6.21502e-06
+Initial guess for DglQxgbA.tree_0.Monodelphis_domestica.alpha is 1.43506e-05
+Initial guess for DglQxgbA.tree_0.8.alpha is 1.68699e-05
+Initial guess for DglQxgbA.tree_0.22.alpha is 2.11162e-06
+Initial guess for DglQxgbA.tree_0.11.alpha is 5.76398e-07
+Initial guess for DglQxgbA.tree_0.Thylacinus_cynocephalus.alpha is 8.40789e-06
+Initial guess for DglQxgbA.tree_0.13.alpha is 1.03589e-05
+Initial guess for DglQxgbA.tree_0.Antechinus_flavipes.alpha is 4.55556e-06
+Initial guess for DglQxgbA.tree_0.Sarcophilus_harrisii.alpha is 4.74559e-06
+Initial guess for DglQxgbA.tree_0.9.alpha is 3.48551e-06
+Initial guess for DglQxgbA.tree_0.10.alpha is 4.33133e-06
+Initial guess for DglQxgbA.tree_0.Phascolarctos_cinereus.alpha is 6.52237e-06
+Initial guess for DglQxgbA.tree_0.Vombatus_ursinus.alpha is 7.96311e-06
+Initial guess for DglQxgbA.tree_0.19.alpha is 4.27213e-06
+Initial guess for DglQxgbA.tree_0.Macropus_eugenii.alpha is 1.37329e-05
+Initial guess for DglQxgbA.tree_0.Trichosurus_vulpecula.alpha is 1.11007e-05
+Initial guess for DglQxgbA.tree_0.Dromiciops_gliroides.alpha is 1.67625e-05
+Initial guess for DglQxgbA.tree_0.30.alpha is 9.70565e-07
+Initial guess for DglQxgbA.tree_0.Ornithorhynchus_anatinus.alpha is 1.72581e-05
+Initial guess for DglQxgbA.tree_0.Tachyglossus_aculeatus.alpha is 1.43055e-05
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+DglQxgbA.model_MGREV.theta_CT = 1
+DglQxgbA.model_MGREV.theta_GT = 1
+DglQxgbA.model_MGREV.theta_CG = 1
+DglQxgbA.model_MGREV.theta_AC = 1
+DglQxgbA.model_MGREV.theta_AT = 1
+DglQxgbA.model_MGREV.omega_0 = 1
+DglQxgbA.tree_0.Gracilinanus_agilis.alpha = 6.21502e-06
+DglQxgbA.tree_0.Monodelphis_domestica.alpha = 1.43506e-05
+DglQxgbA.tree_0.14.alpha = 0.1
+DglQxgbA.tree_0.Thylacinus_cynocephalus.alpha = 8.40789e-06
+DglQxgbA.tree_0.Antechinus_flavipes.alpha = 4.55556e-06
+DglQxgbA.tree_0.Sarcophilus_harrisii.alpha = 4.74559e-06
+DglQxgbA.tree_0.13.alpha = 1.03589e-05
+DglQxgbA.tree_0.11.alpha = 5.76398e-07
+DglQxgbA.tree_0.Phascolarctos_cinereus.alpha = 6.52237e-06
+DglQxgbA.tree_0.Vombatus_ursinus.alpha = 7.96311e-06
+DglQxgbA.tree_0.10.alpha = 4.33133e-06
+DglQxgbA.tree_0.Macropus_eugenii.alpha = 1.37329e-05
+DglQxgbA.tree_0.Trichosurus_vulpecula.alpha = 1.11007e-05
+DglQxgbA.tree_0.19.alpha = 4.27213e-06
+DglQxgbA.tree_0.9.alpha = 3.48551e-06
+DglQxgbA.tree_0.22.alpha = 2.11162e-06
+DglQxgbA.tree_0.Dromiciops_gliroides.alpha = 1.67625e-05
+DglQxgbA.tree_0.8.alpha = 1.68699e-05
+DglQxgbA.tree_0.Ornithorhynchus_anatinus.alpha = 1.72581e-05
+DglQxgbA.tree_0.Tachyglossus_aculeatus.alpha = 1.43055e-05
+DglQxgbA.tree_0.30.alpha = 9.70565e-07
+DglQxgbA.model_MGREV.omega_1 = 1
+Failing bound checks on DglQxgbA.tree_0.30.beta =          10000.8226225729
+Optimization finished in 27 loop passes.
+2965 likelihood evaluation calls and 18184 matrix exponentiations calls were made
+
+Overwritten previously defined function:'nWnyZrOH.rate_generator'
+Overwritten previously defined function:'nWnyZrOH.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 7042-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.287542
+frequencies._aux.CF3x4.p0_1 = 0.261621
+frequencies._aux.CF3x4.p0_2 = 0.587727
+frequencies._aux.CF3x4.p1_0 = 0.337159
+frequencies._aux.CF3x4.p1_1 = 0.297799
+frequencies._aux.CF3x4.p1_2 = 0.4729
+frequencies._aux.CF3x4.p2_0 = 0.30703
+frequencies._aux.CF3x4.p2_1 = 0.291925
+frequencies._aux.CF3x4.p2_2 = 0.374025
+Optimization finished in 7 loop passes.
+218 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.test_pi' was not initialized prior to being used
+Overwritten previously defined function:'nWnyZrOH.rate_generator'
+Overwritten previously defined function:'nWnyZrOH.rate_generator'
+Overwritten previously defined function:'nWnyZrOH.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 6756-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.287542
+frequencies._aux.CF3x4.p0_1 = 0.261621
+frequencies._aux.CF3x4.p0_2 = 0.587727
+frequencies._aux.CF3x4.p1_0 = 0.337159
+frequencies._aux.CF3x4.p1_1 = 0.297799
+frequencies._aux.CF3x4.p1_2 = 0.4729
+frequencies._aux.CF3x4.p2_0 = 0.30703
+frequencies._aux.CF3x4.p2_1 = 0.291925
+frequencies._aux.CF3x4.p2_2 = 0.374025
+Optimization finished in 7 loop passes.
+217 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.reference_pi' was not initialized prior to being used
+No nodel was assigned to Gracilinanus_agilis
+No nodel was assigned to Monodelphis_domestica
+No nodel was assigned to 14
+No nodel was assigned to Thylacinus_cynocephalus
+No nodel was assigned to Antechinus_flavipes
+No nodel was assigned to Sarcophilus_harrisii
+No nodel was assigned to 13
+No nodel was assigned to 11
+No nodel was assigned to Phascolarctos_cinereus
+No nodel was assigned to Vombatus_ursinus
+No nodel was assigned to 10
+No nodel was assigned to Macropus_eugenii
+No nodel was assigned to Trichosurus_vulpecula
+No nodel was assigned to 19
+No nodel was assigned to 9
+No nodel was assigned to 22
+No nodel was assigned to Dromiciops_gliroides
+No nodel was assigned to 8
+No nodel was assigned to Ornithorhynchus_anatinus
+No nodel was assigned to Tachyglossus_aculeatus
+No nodel was assigned to 30
+The tips of the tree:ZRqABpnl.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {2,4,9,0,7,6,11,3,10,1,5,8}
+
+Pseudo-optimal path's cost 8277 vs 11497 for 1..k=> a 1.38903 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+Variable 'ZRqABpnl.tree_id_0.Gracilinanus_agilis.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Gracilinanus_agilis.t=0.2086574986768122
+Variable 'ZRqABpnl.tree_id_0.Monodelphis_domestica.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Monodelphis_domestica.t=0.3538385514003245
+Variable 'ZRqABpnl.tree_id_0.14.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.14.t=0.4412204302939037
+Variable 'ZRqABpnl.tree_id_0.Thylacinus_cynocephalus.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Thylacinus_cynocephalus.t=0.2482936961923812
+Variable 'ZRqABpnl.tree_id_0.Antechinus_flavipes.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Antechinus_flavipes.t=0.1358704656091849
+Variable 'ZRqABpnl.tree_id_0.Sarcophilus_harrisii.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Sarcophilus_harrisii.t=0.1344336452763905
+Variable 'ZRqABpnl.tree_id_0.13.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.13.t=0.1062480377066382
+Variable 'ZRqABpnl.tree_id_0.11.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.11.t=0.3981315419063476
+Variable 'ZRqABpnl.tree_id_0.Phascolarctos_cinereus.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Phascolarctos_cinereus.t=0.2510043025296796
+Variable 'ZRqABpnl.tree_id_0.Vombatus_ursinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Vombatus_ursinus.t=0.1594048573223699
+Variable 'ZRqABpnl.tree_id_0.10.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.10.t=0.1770528439214376
+Variable 'ZRqABpnl.tree_id_0.Macropus_eugenii.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Macropus_eugenii.t=0.4506059534229983
+Variable 'ZRqABpnl.tree_id_0.Trichosurus_vulpecula.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Trichosurus_vulpecula.t=0.2962972863260643
+Variable 'ZRqABpnl.tree_id_0.19.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.19.t=0.09139680781750108
+Variable 'ZRqABpnl.tree_id_0.9.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.9.t=0.1227337017191395
+Variable 'ZRqABpnl.tree_id_0.22.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.22.t=0.08789082325370519
+Variable 'ZRqABpnl.tree_id_0.Dromiciops_gliroides.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Dromiciops_gliroides.t=0.5101221686989363
+Variable 'ZRqABpnl.tree_id_0.8.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.8.t=0.268538850312321
+Variable 'ZRqABpnl.tree_id_0.Ornithorhynchus_anatinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Ornithorhynchus_anatinus.t=0.4935354590011163
+Variable 'ZRqABpnl.tree_id_0.Tachyglossus_aculeatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Tachyglossus_aculeatus.t=0.3936720856219383
+Variable 'ZRqABpnl.tree_id_0.30.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.30.t=3.124688170246141
+Variable 'ZRqABpnl.ZRqABpnl.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (8) of threads.
+Set GUI update interval to every 32-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.bsrel_mixture_aux_1 = 0.818182
+relax.reference.omega1 = 0.145496
+relax.reference.omega2 = 0.4601
+relax.reference.omega3 = 7.27482
+relax.reference.bsrel_mixture_aux_0 = 0.45
+relax.test.theta_GT = 0.245422
+relax.test.theta_CT = 1.10465
+relax.test.theta_AC = 0.545374
+relax.test.theta_CG = 0.409172
+relax.test.theta_AT = 0.239526
+relax.K = 1
+ZRqABpnl.tree_id_0.Gracilinanus_agilis.t = 0.208657
+ZRqABpnl.tree_id_0.Monodelphis_domestica.t = 0.353839
+ZRqABpnl.tree_id_0.14.t = 0.44122
+ZRqABpnl.tree_id_0.Thylacinus_cynocephalus.t = 0.248294
+ZRqABpnl.tree_id_0.Antechinus_flavipes.t = 0.13587
+ZRqABpnl.tree_id_0.Sarcophilus_harrisii.t = 0.134434
+ZRqABpnl.tree_id_0.13.t = 0.106248
+ZRqABpnl.tree_id_0.11.t = 0.398132
+ZRqABpnl.tree_id_0.Phascolarctos_cinereus.t = 0.251004
+ZRqABpnl.tree_id_0.Vombatus_ursinus.t = 0.159405
+ZRqABpnl.tree_id_0.10.t = 0.177053
+ZRqABpnl.tree_id_0.Macropus_eugenii.t = 0.450606
+ZRqABpnl.tree_id_0.Trichosurus_vulpecula.t = 0.296297
+ZRqABpnl.tree_id_0.19.t = 0.0913968
+ZRqABpnl.tree_id_0.9.t = 0.122734
+ZRqABpnl.tree_id_0.22.t = 0.0878908
+ZRqABpnl.tree_id_0.Dromiciops_gliroides.t = 0.510122
+ZRqABpnl.tree_id_0.8.t = 0.268539
+ZRqABpnl.tree_id_0.Ornithorhynchus_anatinus.t = 0.493535
+ZRqABpnl.tree_id_0.Tachyglossus_aculeatus.t = 0.393672
+ZRqABpnl.tree_id_0.30.t = 3.12469
+Optimization finished in 49 loop passes.
+4625 likelihood evaluation calls and 145761 matrix exponentiations calls were made
+
+Variable 'MPI_NODE_COUNT' was not initialized prior to being used
+No nodel was assigned to Gracilinanus_agilis
+No nodel was assigned to Monodelphis_domestica
+No nodel was assigned to 14
+No nodel was assigned to Thylacinus_cynocephalus
+No nodel was assigned to Antechinus_flavipes
+No nodel was assigned to Sarcophilus_harrisii
+No nodel was assigned to 13
+No nodel was assigned to 11
+No nodel was assigned to Phascolarctos_cinereus
+No nodel was assigned to Vombatus_ursinus
+No nodel was assigned to 10
+No nodel was assigned to Macropus_eugenii
+No nodel was assigned to Trichosurus_vulpecula
+No nodel was assigned to 19
+No nodel was assigned to 9
+No nodel was assigned to 22
+No nodel was assigned to Dromiciops_gliroides
+No nodel was assigned to 8
+No nodel was assigned to Ornithorhynchus_anatinus
+No nodel was assigned to Tachyglossus_aculeatus
+No nodel was assigned to 30
+Likelihood function cleared because partition index '0' points to invalid components
+The tips of the tree:ZRqABpnl.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {2,4,9,0,7,6,11,3,10,1,5,8}
+
+Pseudo-optimal path's cost 8277 vs 11497 for 1..k=> a 1.38903 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_0 was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_1 was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+relax.test.omega1 was already constrained in estimators.SetGlobals2
+relax.test.omega2 was already constrained in estimators.SetGlobals2
+relax.test.omega3 was already constrained in estimators.SetGlobals2
+Variable 'ZRqABpnl.tree_id_0.Gracilinanus_agilis.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Gracilinanus_agilis.t=0.3148899380117508
+Variable 'ZRqABpnl.tree_id_0.Monodelphis_domestica.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Monodelphis_domestica.t=0.5243444194079309
+Variable 'ZRqABpnl.tree_id_0.14.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.14.t=0.7113974514713981
+Variable 'ZRqABpnl.tree_id_0.Thylacinus_cynocephalus.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Thylacinus_cynocephalus.t=0.3639129534633229
+Variable 'ZRqABpnl.tree_id_0.Antechinus_flavipes.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Antechinus_flavipes.t=0.19160025254054
+Variable 'ZRqABpnl.tree_id_0.Sarcophilus_harrisii.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Sarcophilus_harrisii.t=0.1876279901985596
+Variable 'ZRqABpnl.tree_id_0.13.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.13.t=0.1551033050158933
+Variable 'ZRqABpnl.tree_id_0.11.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.11.t=0.6086405487750305
+Variable 'ZRqABpnl.tree_id_0.Phascolarctos_cinereus.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Phascolarctos_cinereus.t=0.2535227125168213
+Variable 'ZRqABpnl.tree_id_0.Vombatus_ursinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Vombatus_ursinus.t=0.3602296835500771
+Variable 'ZRqABpnl.tree_id_0.10.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.10.t=0.1494151187059427
+Variable 'ZRqABpnl.tree_id_0.Macropus_eugenii.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Macropus_eugenii.t=0.6666932664121105
+Variable 'ZRqABpnl.tree_id_0.Trichosurus_vulpecula.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Trichosurus_vulpecula.t=0.4475709421885876
+Variable 'ZRqABpnl.tree_id_0.19.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.19.t=0.1229445048514956
+Variable 'ZRqABpnl.tree_id_0.9.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.9.t=0.1877567524467474
+Variable 'ZRqABpnl.tree_id_0.22.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.22.t=0.1135618934266285
+Variable 'ZRqABpnl.tree_id_0.Dromiciops_gliroides.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Dromiciops_gliroides.t=0.7751783043160441
+Variable 'ZRqABpnl.tree_id_0.8.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.8.t=0.341172745082104
+Variable 'ZRqABpnl.tree_id_0.Ornithorhynchus_anatinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Ornithorhynchus_anatinus.t=0.7933369276789749
+Variable 'ZRqABpnl.tree_id_0.Tachyglossus_aculeatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.Tachyglossus_aculeatus.t=0.5472195895038657
+Variable 'ZRqABpnl.tree_id_0.30.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZRqABpnl.tree_id_0.30.t=7.299719479465866
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 22-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.bsrel_mixture_aux_1 = 0.827673
+relax.reference.omega1 = 0
+relax.reference.omega2 = 0.648321
+relax.reference.omega3 = 4.60733
+relax.reference.bsrel_mixture_aux_0 = 0.501655
+relax.test.theta_GT = 0.213344
+relax.test.theta_CT = 1.09517
+relax.test.theta_AC = 0.483788
+relax.test.theta_CG = 0.350428
+relax.test.theta_AT = 0.201832
+relax.K = 1
+ZRqABpnl.tree_id_0.Gracilinanus_agilis.t = 0.31489
+ZRqABpnl.tree_id_0.Monodelphis_domestica.t = 0.524344
+ZRqABpnl.tree_id_0.14.t = 0.711397
+ZRqABpnl.tree_id_0.Thylacinus_cynocephalus.t = 0.363913
+ZRqABpnl.tree_id_0.Antechinus_flavipes.t = 0.1916
+ZRqABpnl.tree_id_0.Sarcophilus_harrisii.t = 0.187628
+ZRqABpnl.tree_id_0.13.t = 0.155103
+ZRqABpnl.tree_id_0.11.t = 0.608641
+ZRqABpnl.tree_id_0.Phascolarctos_cinereus.t = 0.253523
+ZRqABpnl.tree_id_0.Vombatus_ursinus.t = 0.36023
+ZRqABpnl.tree_id_0.10.t = 0.149415
+ZRqABpnl.tree_id_0.Macropus_eugenii.t = 0.666693
+ZRqABpnl.tree_id_0.Trichosurus_vulpecula.t = 0.447571
+ZRqABpnl.tree_id_0.19.t = 0.122945
+ZRqABpnl.tree_id_0.9.t = 0.187757
+ZRqABpnl.tree_id_0.22.t = 0.113562
+ZRqABpnl.tree_id_0.Dromiciops_gliroides.t = 0.775178
+ZRqABpnl.tree_id_0.8.t = 0.341173
+ZRqABpnl.tree_id_0.Ornithorhynchus_anatinus.t = 0.793337
+ZRqABpnl.tree_id_0.Tachyglossus_aculeatus.t = 0.54722
+ZRqABpnl.tree_id_0.30.t = 7.29972
+Optimization finished in 29 loop passes.
+3151 likelihood evaluation calls and 95679 matrix exponentiations calls were made
+
+Variable 'ElMgffDd.ZRqABpnl.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (7) of threads.
+Set GUI update interval to every 33-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.bsrel_mixture_aux_1 = 0.862231
+relax.reference.omega2 = 0.749229
+relax.reference.omega3 = 5.43976
+relax.reference.omega1 = 0.00271054
+relax.test.theta_GT = 0.213405
+relax.test.theta_CT = 1.09315
+relax.test.theta_AT = 0.201252
+relax.test.theta_CG = 0.350364
+relax.reference.bsrel_mixture_aux_0 = 0.52029
+relax.test.theta_AC = 0.482249
+ZRqABpnl.tree_id_0.Gracilinanus_agilis.t = 0.105087
+ZRqABpnl.tree_id_0.Monodelphis_domestica.t = 0.174803
+ZRqABpnl.tree_id_0.14.t = 0.235064
+ZRqABpnl.tree_id_0.Thylacinus_cynocephalus.t = 0.121213
+ZRqABpnl.tree_id_0.Antechinus_flavipes.t = 0.0636457
+ZRqABpnl.tree_id_0.Sarcophilus_harrisii.t = 0.0622201
+ZRqABpnl.tree_id_0.13.t = 0.0515623
+ZRqABpnl.tree_id_0.11.t = 0.202855
+ZRqABpnl.tree_id_0.Phascolarctos_cinereus.t = 0.0839897
+ZRqABpnl.tree_id_0.Vombatus_ursinus.t = 0.118249
+ZRqABpnl.tree_id_0.10.t = 0.0497563
+ZRqABpnl.tree_id_0.Macropus_eugenii.t = 0.222242
+ZRqABpnl.tree_id_0.Trichosurus_vulpecula.t = 0.149219
+ZRqABpnl.tree_id_0.19.t = 0.0407006
+ZRqABpnl.tree_id_0.9.t = 0.062515
+ZRqABpnl.tree_id_0.22.t = 0.0376214
+ZRqABpnl.tree_id_0.Dromiciops_gliroides.t = 0.258605
+ZRqABpnl.tree_id_0.8.t = 0.114298
+ZRqABpnl.tree_id_0.Ornithorhynchus_anatinus.t = 0.263568
+ZRqABpnl.tree_id_0.Tachyglossus_aculeatus.t = 0.183058
+ZRqABpnl.tree_id_0.30.t = 2.40879
+Optimization finished in 21 loop passes.
+1656 likelihood evaluation calls and 60321 matrix exponentiations calls were made
+
+CChi2(x,n) only makes sense for both arguments positive
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used
