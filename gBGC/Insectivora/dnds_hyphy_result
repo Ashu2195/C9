@@ -1,0 +1,106 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/ceglab6/60190805-986f-4f73-b2e6-3c644f4ddec0/gbgc/mapnh/Insectivora/`) 
+
+A tree was found in the data file:
+(Solenodon_paradoxus:91.77010909,(Erinaceus_europaeus:64.77156154,Sorex_araneus:64.77156154):1.99932937,(Uropsilus_gracilis:61.3,(Condylura_cristata:41.2,(Galemys_pyrenaicus:39.24063333,(Scalopus_aquaticus:33.87096667,Talpa_occidentalis:33.87096667):5.36966667):1.95936667):20.1):5.47089091)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1875
+Synonymous  sites      :424.0102588373179
+Nonsynonymous  sites   :1372.885439034333
+
+Total tree lengths:
+	E[syn]        : 0.5080039035485899
+	E[non-syn]    : 0.6813325422125661
+	dS            : 2.246425173215111
+	dN            : 0.9305208434194876
+
+
+E[Syn subs/nucleotide site] tree: 
+	(Solenodon_paradoxus:0.06578097231223644,(Erinaceus_europaeus:0.1378021298911427,Sorex_araneus:0.09513716853774777)Node2:0.005326152832188187,(Uropsilus_gracilis:0.04101731240713875,(Condylura_cristata:0.03774840599767659,(Galemys_pyrenaicus:0.02379066340563808,(Scalopus_aquaticus:0.02281418373078648,Talpa_occidentalis:0.02661977660281934)Node11:0.003106556575544186)Node9:0.004100687881606072)Node7:0.01190353732878989)Node5:0.03285635604527537)
+
+E[Non-syn subs/nucleotide site] tree: 
+	(Solenodon_paradoxus:0.08677474482362728,(Erinaceus_europaeus:0.07533678453396551,Sorex_araneus:0.1120762628078873)Node2:0.01778898704406879,(Uropsilus_gracilis:0.08229114213003262,(Condylura_cristata:0.08193396665924614,(Galemys_pyrenaicus:0.04975009121707328,(Scalopus_aquaticus:0.04301278049642365,Talpa_occidentalis:0.06847294576901347)Node11:0.004184535086151347)Node9:0.01369865901480678)Node7:0.02234504554694465)Node5:0.02366659708332529)
+
+dS tree: 
+	(Solenodon_paradoxus:0.2908875917852863,(Erinaceus_europaeus:0.6093696748149345,Sorex_araneus:0.4207025355882199)Node2:0.02355258240151316,(Uropsilus_gracilis:0.1813811320845721,(Condylura_cristata:0.1669258225961921,(Galemys_pyrenaicus:0.1052038080585361,(Scalopus_aquaticus:0.1008857535959689,Talpa_occidentalis:0.1177143243353371)Node11:0.01373738832432395)Node9:0.01813349940894091)Node7:0.05263818982277109)Node5:0.1452928703985152)
+
+dN tree: 
+	(Solenodon_paradoxus:0.1185114518067463,(Erinaceus_europaeus:0.1028902099074945,Sorex_araneus:0.1530666629493864)Node2:0.02429507208634241,(Uropsilus_gracilis:0.1123880311545445,(Condylura_cristata:0.1119002235132924,(Galemys_pyrenaicus:0.06794552435316462,(Scalopus_aquaticus:0.05874413198491025,Talpa_occidentalis:0.09351601354822843)Node11:0.005714973051249297)Node9:0.01870876106809694)Node7:0.03051744829487805)Node5:0.03232233970115345)
+
+Estimating pairwise dN/dS: total of 28 analyses
