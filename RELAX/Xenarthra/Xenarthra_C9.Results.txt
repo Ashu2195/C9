@@ -1,0 +1,7 @@
+Chaetophractus_vellerosus `Dasypus_novemcinctus,Tolypeutes_matacus,14,Tamandua_tetradactyla,Myrmecophaga_tridactyla,11,Choloepus_didactylus,Choloepus_hoffmanni,10,19` 0.8381 1.02
+Choloepus_didactylus `Dasypus_novemcinctus,Tolypeutes_matacus,Chaetophractus_vellerosus,14,Tamandua_tetradactyla,Myrmecophaga_tridactyla,11,Choloepus_hoffmanni,10,19` 1.0000 0.15
+Choloepus_hoffmanni `Dasypus_novemcinctus,Tolypeutes_matacus,Chaetophractus_vellerosus,14,Tamandua_tetradactyla,Myrmecophaga_tridactyla,11,Choloepus_didactylus,10,19` 0.5123 0.00
+Dasypus_novemcinctus `Tolypeutes_matacus,Chaetophractus_vellerosus,14,Tamandua_tetradactyla,Myrmecophaga_tridactyla,11,Choloepus_didactylus,Choloepus_hoffmanni,10,19` 0.5286 0.84
+Myrmecophaga_tridactyla `Dasypus_novemcinctus,Tolypeutes_matacus,Chaetophractus_vellerosus,14,Tamandua_tetradactyla,11,Choloepus_didactylus,Choloepus_hoffmanni,10,19` 0.4600 0.29
+Tamandua_tetradactyla `Dasypus_novemcinctus,Tolypeutes_matacus,Chaetophractus_vellerosus,14,Myrmecophaga_tridactyla,11,Choloepus_didactylus,Choloepus_hoffmanni,10,19` 0.7096 1.13
+Tolypeutes_matacus `Dasypus_novemcinctus,Chaetophractus_vellerosus,14,Tamandua_tetradactyla,Myrmecophaga_tridactyla,11,Choloepus_didactylus,Choloepus_hoffmanni,10,19` 0.7663 0.88
