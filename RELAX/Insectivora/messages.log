@@ -1,0 +1,662 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/models/codon/MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Already loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Loaded 'libv3/tasks/mpi.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../models/parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'bktnnfBM.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'XkcQktgd.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Rooted topology. Removing one branch - the right root child has been promoted to be the new root
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Loaded 'modules/grid_compute.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/grid_compute.ibf
+Variable 'etmNFy_H.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'uRIcQFim.model_pi' was not initialized prior to being used
+Model uRIcQFim.model assigned to Solenodon_paradoxus
+Model uRIcQFim.model assigned to Erinaceus_europaeus
+Model uRIcQFim.model assigned to Sorex_araneus
+Model uRIcQFim.model assigned to 14
+Model uRIcQFim.model assigned to Uropsilus_gracilis
+Model uRIcQFim.model assigned to Condylura_cristata
+Model uRIcQFim.model assigned to Galemys_pyrenaicus
+Model uRIcQFim.model assigned to Scalopus_aquaticus
+Model uRIcQFim.model assigned to Talpa_occidentalis
+Model uRIcQFim.model assigned to 13
+Model uRIcQFim.model assigned to 11
+Model uRIcQFim.model assigned to 10
+Model uRIcQFim.model assigned to 19
+The tips of the tree:uRIcQFim.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,1,5,7,0,2,3,6}
+
+Pseudo-optimal path's cost 3994 vs 7046 for 1..k=> a 1.76415 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'uRIcQFim.tree_0.Solenodon_paradoxus.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.Solenodon_paradoxus.t=213.3787095581995
+Variable 'uRIcQFim.tree_0.Erinaceus_europaeus.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.Erinaceus_europaeus.t=174.3507637453366
+Variable 'uRIcQFim.tree_0.Sorex_araneus.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.Sorex_araneus.t=174.3507637453366
+Variable 'uRIcQFim.tree_0.14.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.14.t=5.381753880099256
+Variable 'uRIcQFim.tree_0.Uropsilus_gracilis.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.Uropsilus_gracilis.t=165.0060854405817
+Variable 'uRIcQFim.tree_0.Condylura_cristata.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.Condylura_cristata.t=110.9013168050892
+Variable 'uRIcQFim.tree_0.Galemys_pyrenaicus.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.Galemys_pyrenaicus.t=105.6271337029775
+Variable 'uRIcQFim.tree_0.Scalopus_aquaticus.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.Scalopus_aquaticus.t=91.1731748826283
+Variable 'uRIcQFim.tree_0.Talpa_occidentalis.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.Talpa_occidentalis.t=91.1731748826283
+Variable 'uRIcQFim.tree_0.13.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.13.t=14.45395884726695
+Variable 'uRIcQFim.tree_0.11.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.11.t=5.274183102111714
+Variable 'uRIcQFim.tree_0.10.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.10.t=54.10476863549255
+Variable 'uRIcQFim.tree_0.19.t' was not initialized prior to being used
+models.generic.SetBranchLength: uRIcQFim.tree_0.19.t=14.72643218485419
+Variable 'uRIcQFim.uRIcQFim.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 2415-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+uRIcQFim.model.theta_GT = 0.25
+uRIcQFim.model.theta_CT = 1
+uRIcQFim.model.theta_AC = 0.25
+uRIcQFim.model.theta_CG = 0.25
+uRIcQFim.model.theta_AT = 0.25
+uRIcQFim.tree_0.Solenodon_paradoxus.t = 213.379
+uRIcQFim.tree_0.Erinaceus_europaeus.t = 174.351
+uRIcQFim.tree_0.Sorex_araneus.t = 174.351
+uRIcQFim.tree_0.14.t = 5.38175
+uRIcQFim.tree_0.Uropsilus_gracilis.t = 165.006
+uRIcQFim.tree_0.Condylura_cristata.t = 110.901
+uRIcQFim.tree_0.Galemys_pyrenaicus.t = 105.627
+uRIcQFim.tree_0.Scalopus_aquaticus.t = 91.1732
+uRIcQFim.tree_0.Talpa_occidentalis.t = 91.1732
+uRIcQFim.tree_0.13.t = 14.454
+uRIcQFim.tree_0.11.t = 5.27418
+uRIcQFim.tree_0.10.t = 54.1048
+uRIcQFim.tree_0.19.t = 14.7264
+Optimization finished in 36 loop passes.
+2063 likelihood evaluation calls and 11901 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'uRIcQFim.option' was not initialized prior to being used
+Variable 'relax.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'RF_XWkAI.initial_value' was not initialized prior to being used
+Variable 'JowmJmaN.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 6578-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.3077
+frequencies._aux.CF3x4.p0_1 = 0.254658
+frequencies._aux.CF3x4.p0_2 = 0.599031
+frequencies._aux.CF3x4.p1_0 = 0.3367
+frequencies._aux.CF3x4.p1_1 = 0.306196
+frequencies._aux.CF3x4.p1_2 = 0.437853
+frequencies._aux.CF3x4.p2_0 = 0.2869
+frequencies._aux.CF3x4.p2_1 = 0.302202
+frequencies._aux.CF3x4.p2_2 = 0.390474
+Optimization finished in 5 loop passes.
+183 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'JowmJmaN.model_MGREV_pi' was not initialized prior to being used
+Model JowmJmaN.model_MGREV assigned to Solenodon_paradoxus
+Model JowmJmaN.model_MGREV assigned to Erinaceus_europaeus
+Model JowmJmaN.model_MGREV assigned to Sorex_araneus
+Model JowmJmaN.model_MGREV assigned to 14
+Model JowmJmaN.model_MGREV assigned to Uropsilus_gracilis
+Model JowmJmaN.model_MGREV assigned to Condylura_cristata
+Model JowmJmaN.model_MGREV assigned to Galemys_pyrenaicus
+Model JowmJmaN.model_MGREV assigned to Scalopus_aquaticus
+Model JowmJmaN.model_MGREV assigned to Talpa_occidentalis
+Model JowmJmaN.model_MGREV assigned to 13
+Model JowmJmaN.model_MGREV assigned to 11
+Model JowmJmaN.model_MGREV assigned to 10
+Model JowmJmaN.model_MGREV assigned to 19
+The tips of the tree:JowmJmaN.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,1,5,7,0,2,3,6}
+
+Pseudo-optimal path's cost 5546 vs 6892 for 1..k=> a 1.2427 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'JowmJmaN.JowmJmaN.likelihoodFunction' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Solenodon_paradoxus.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Erinaceus_europaeus.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Sorex_araneus.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.14.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Uropsilus_gracilis.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Condylura_cristata.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Galemys_pyrenaicus.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Scalopus_aquaticus.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Talpa_occidentalis.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.13.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.11.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.10.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.19.alpha' was not initialized prior to being used
+Site 6 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 6 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 289 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 6 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 139 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 193 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 6 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 289 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 142 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 402 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 6 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 386 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 353 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 453 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 50 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 191-th LF evaluation.
+Initial guess for JowmJmaN.tree_0.14.alpha is -1.5337e-06
+Initial guess for JowmJmaN.tree_0.Erinaceus_europaeus.alpha is 3.98044e-05
+Initial guess for JowmJmaN.tree_0.Sorex_araneus.alpha is 5.14089e-05
+Initial guess for JowmJmaN.tree_0.19.alpha is 1.14921e-05
+Initial guess for JowmJmaN.tree_0.Uropsilus_gracilis.alpha is 6.02655e-05
+Initial guess for JowmJmaN.tree_0.10.alpha is 5.77493e-06
+Initial guess for JowmJmaN.tree_0.Condylura_cristata.alpha is 3.0191e-05
+Initial guess for JowmJmaN.tree_0.11.alpha is 3.91314e-06
+Initial guess for JowmJmaN.tree_0.Galemys_pyrenaicus.alpha is 2.98168e-05
+Initial guess for JowmJmaN.tree_0.13.alpha is -2.1631e-07
+Initial guess for JowmJmaN.tree_0.Scalopus_aquaticus.alpha is 2.03044e-05
+Initial guess for JowmJmaN.tree_0.Talpa_occidentalis.alpha is 2.02052e-05
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+JowmJmaN.model_MGREV.theta_GT = 1
+JowmJmaN.model_MGREV.theta_CT = 1
+JowmJmaN.model_MGREV.theta_CG = 1
+JowmJmaN.model_MGREV.theta_AC = 1
+JowmJmaN.model_MGREV.theta_AT = 1
+JowmJmaN.model_MGREV.omega_0 = 1
+JowmJmaN.tree_0.Solenodon_paradoxus.alpha = 0.1
+JowmJmaN.tree_0.Erinaceus_europaeus.alpha = 3.98044e-05
+JowmJmaN.tree_0.Sorex_araneus.alpha = 5.14089e-05
+JowmJmaN.tree_0.14.alpha = 0
+JowmJmaN.tree_0.Uropsilus_gracilis.alpha = 6.02655e-05
+JowmJmaN.tree_0.Condylura_cristata.alpha = 3.0191e-05
+JowmJmaN.tree_0.Galemys_pyrenaicus.alpha = 2.98168e-05
+JowmJmaN.tree_0.Scalopus_aquaticus.alpha = 2.03044e-05
+JowmJmaN.tree_0.Talpa_occidentalis.alpha = 2.02052e-05
+JowmJmaN.tree_0.13.alpha = 0
+JowmJmaN.tree_0.11.alpha = 3.91314e-06
+JowmJmaN.tree_0.10.alpha = 5.77493e-06
+JowmJmaN.tree_0.19.alpha = 1.14921e-05
+JowmJmaN.model_MGREV.omega_1 = 1
+Failing bound checks on JowmJmaN.tree_0.13.beta =         10001.17937038655
+Optimization finished in 27 loop passes.
+2463 likelihood evaluation calls and 12526 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6329-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.3077
+frequencies._aux.CF3x4.p0_1 = 0.254658
+frequencies._aux.CF3x4.p0_2 = 0.599031
+frequencies._aux.CF3x4.p1_0 = 0.3367
+frequencies._aux.CF3x4.p1_1 = 0.306196
+frequencies._aux.CF3x4.p1_2 = 0.437853
+frequencies._aux.CF3x4.p2_0 = 0.2869
+frequencies._aux.CF3x4.p2_1 = 0.302202
+frequencies._aux.CF3x4.p2_2 = 0.390474
+Optimization finished in 5 loop passes.
+184 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'JowmJmaN.model_MGREV_pi' was not initialized prior to being used
+Model JowmJmaN.model_MGREV assigned to Solenodon_paradoxus
+Model JowmJmaN.model_MGREV assigned to Erinaceus_europaeus
+Model JowmJmaN.model_MGREV assigned to Sorex_araneus
+Model JowmJmaN.model_MGREV assigned to 14
+Model JowmJmaN.model_MGREV assigned to Uropsilus_gracilis
+Model JowmJmaN.model_MGREV assigned to Condylura_cristata
+Model JowmJmaN.model_MGREV assigned to Galemys_pyrenaicus
+Model JowmJmaN.model_MGREV assigned to Scalopus_aquaticus
+Model JowmJmaN.model_MGREV assigned to Talpa_occidentalis
+Model JowmJmaN.model_MGREV assigned to 13
+Model JowmJmaN.model_MGREV assigned to 11
+Model JowmJmaN.model_MGREV assigned to 10
+Model JowmJmaN.model_MGREV assigned to 19
+The tips of the tree:JowmJmaN.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,1,5,7,0,2,3,6}
+
+Pseudo-optimal path's cost 5546 vs 6892 for 1..k=> a 1.2427 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'JowmJmaN.tree_0.11.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.13.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.10.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Sorex_araneus.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Talpa_occidentalis.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Scalopus_aquaticus.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.14.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Galemys_pyrenaicus.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Condylura_cristata.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Erinaceus_europaeus.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Solenodon_paradoxus.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.Uropsilus_gracilis.alpha' was not initialized prior to being used
+Variable 'JowmJmaN.tree_0.19.alpha' was not initialized prior to being used
+Site 6 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 289 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 6 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 6 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 139 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 193 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 167-th LF evaluation.
+Initial guess for JowmJmaN.tree_0.14.alpha is -1.5337e-06
+Initial guess for JowmJmaN.tree_0.Erinaceus_europaeus.alpha is 3.98044e-05
+Initial guess for JowmJmaN.tree_0.Sorex_araneus.alpha is 5.14089e-05
+Initial guess for JowmJmaN.tree_0.19.alpha is 1.14921e-05
+Initial guess for JowmJmaN.tree_0.Uropsilus_gracilis.alpha is 6.02655e-05
+Initial guess for JowmJmaN.tree_0.10.alpha is 5.77493e-06
+Initial guess for JowmJmaN.tree_0.Condylura_cristata.alpha is 3.0191e-05
+Initial guess for JowmJmaN.tree_0.11.alpha is 3.91314e-06
+Initial guess for JowmJmaN.tree_0.Galemys_pyrenaicus.alpha is 2.98168e-05
+Initial guess for JowmJmaN.tree_0.13.alpha is -2.1631e-07
+Initial guess for JowmJmaN.tree_0.Scalopus_aquaticus.alpha is 2.03044e-05
+Initial guess for JowmJmaN.tree_0.Talpa_occidentalis.alpha is 2.02052e-05
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+JowmJmaN.model_MGREV.theta_CG = 1
+JowmJmaN.model_MGREV.theta_AT = 1
+JowmJmaN.model_MGREV.theta_CT = 1
+JowmJmaN.model_MGREV.theta_GT = 1
+JowmJmaN.model_MGREV.theta_AC = 1
+JowmJmaN.model_MGREV.omega_0 = 1
+JowmJmaN.tree_0.Solenodon_paradoxus.alpha = 0.1
+JowmJmaN.tree_0.Erinaceus_europaeus.alpha = 3.98044e-05
+JowmJmaN.tree_0.Sorex_araneus.alpha = 5.14089e-05
+JowmJmaN.tree_0.14.alpha = 0
+JowmJmaN.tree_0.Uropsilus_gracilis.alpha = 6.02655e-05
+JowmJmaN.tree_0.Condylura_cristata.alpha = 3.0191e-05
+JowmJmaN.tree_0.Galemys_pyrenaicus.alpha = 2.98168e-05
+JowmJmaN.tree_0.Scalopus_aquaticus.alpha = 2.03044e-05
+JowmJmaN.tree_0.Talpa_occidentalis.alpha = 2.02052e-05
+JowmJmaN.tree_0.13.alpha = 0
+JowmJmaN.tree_0.11.alpha = 3.91314e-06
+JowmJmaN.tree_0.10.alpha = 5.77493e-06
+JowmJmaN.tree_0.19.alpha = 1.14921e-05
+JowmJmaN.model_MGREV.omega_1 = 1
+Failing bound checks on JowmJmaN.tree_0.13.beta =         10001.17937038778
+Optimization finished in 32 loop passes.
+2318 likelihood evaluation calls and 12148 matrix exponentiations calls were made
+
+Overwritten previously defined function:'FHDsxXCX.rate_generator'
+Overwritten previously defined function:'FHDsxXCX.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 7042-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.3077
+frequencies._aux.CF3x4.p0_1 = 0.254658
+frequencies._aux.CF3x4.p0_2 = 0.599031
+frequencies._aux.CF3x4.p1_0 = 0.3367
+frequencies._aux.CF3x4.p1_1 = 0.306196
+frequencies._aux.CF3x4.p1_2 = 0.437853
+frequencies._aux.CF3x4.p2_0 = 0.2869
+frequencies._aux.CF3x4.p2_1 = 0.302202
+frequencies._aux.CF3x4.p2_2 = 0.390474
+Optimization finished in 5 loop passes.
+184 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.test_pi' was not initialized prior to being used
+Overwritten previously defined function:'FHDsxXCX.rate_generator'
+Overwritten previously defined function:'FHDsxXCX.rate_generator'
+Overwritten previously defined function:'FHDsxXCX.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6250-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.3077
+frequencies._aux.CF3x4.p0_1 = 0.254658
+frequencies._aux.CF3x4.p0_2 = 0.599031
+frequencies._aux.CF3x4.p1_0 = 0.3367
+frequencies._aux.CF3x4.p1_1 = 0.306196
+frequencies._aux.CF3x4.p1_2 = 0.437853
+frequencies._aux.CF3x4.p2_0 = 0.2869
+frequencies._aux.CF3x4.p2_1 = 0.302202
+frequencies._aux.CF3x4.p2_2 = 0.390474
+Optimization finished in 5 loop passes.
+184 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.reference_pi' was not initialized prior to being used
+No nodel was assigned to Solenodon_paradoxus
+No nodel was assigned to Erinaceus_europaeus
+No nodel was assigned to Sorex_araneus
+No nodel was assigned to 14
+No nodel was assigned to Uropsilus_gracilis
+No nodel was assigned to Condylura_cristata
+No nodel was assigned to Galemys_pyrenaicus
+No nodel was assigned to Scalopus_aquaticus
+No nodel was assigned to Talpa_occidentalis
+No nodel was assigned to 13
+No nodel was assigned to 11
+No nodel was assigned to 10
+No nodel was assigned to 19
+The tips of the tree:lVdBkDHr.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {4,1,5,7,0,2,3,6}
+
+Pseudo-optimal path's cost 5546 vs 6892 for 1..k=> a 1.2427 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+Variable 'lVdBkDHr.tree_id_0.Solenodon_paradoxus.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Solenodon_paradoxus.t=1.065458954114044
+Variable 'lVdBkDHr.tree_id_0.Erinaceus_europaeus.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Erinaceus_europaeus.t=1.31763156355761
+Variable 'lVdBkDHr.tree_id_0.Sorex_araneus.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Sorex_araneus.t=1.459883672113622
+Variable 'lVdBkDHr.tree_id_0.14.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.14.t=0.2123716291035868
+Variable 'lVdBkDHr.tree_id_0.Uropsilus_gracilis.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Uropsilus_gracilis.t=0.6011147377205311
+Variable 'lVdBkDHr.tree_id_0.Condylura_cristata.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Condylura_cristata.t=0.8668442591929107
+Variable 'lVdBkDHr.tree_id_0.Galemys_pyrenaicus.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Galemys_pyrenaicus.t=0.5120000514858326
+Variable 'lVdBkDHr.tree_id_0.Scalopus_aquaticus.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Scalopus_aquaticus.t=0.468096782351846
+Variable 'lVdBkDHr.tree_id_0.Talpa_occidentalis.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Talpa_occidentalis.t=0.6799236784425063
+Variable 'lVdBkDHr.tree_id_0.13.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.13.t=0.05444196677646227
+Variable 'lVdBkDHr.tree_id_0.11.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.11.t=0.1227268158752611
+Variable 'lVdBkDHr.tree_id_0.10.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.10.t=0.4744021096897562
+Variable 'lVdBkDHr.tree_id_0.19.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.19.t=0.5626878698409921
+Variable 'lVdBkDHr.lVdBkDHr.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 41-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.bsrel_mixture_aux_1 = 0.818182
+relax.reference.omega2 = 0.4601
+relax.reference.omega3 = 7.27482
+relax.reference.omega1 = 0.145496
+relax.test.theta_AC = 0.56597
+relax.test.theta_AT = 0.342478
+relax.test.theta_GT = 0.299786
+relax.reference.bsrel_mixture_aux_0 = 0.45
+relax.test.theta_CT = 0.914186
+relax.test.theta_CG = 0.525873
+relax.K = 1
+lVdBkDHr.tree_id_0.Solenodon_paradoxus.t = 1.06546
+lVdBkDHr.tree_id_0.Erinaceus_europaeus.t = 1.31763
+lVdBkDHr.tree_id_0.Sorex_araneus.t = 1.45988
+lVdBkDHr.tree_id_0.14.t = 0.212372
+lVdBkDHr.tree_id_0.Uropsilus_gracilis.t = 0.601115
+lVdBkDHr.tree_id_0.Condylura_cristata.t = 0.866844
+lVdBkDHr.tree_id_0.Galemys_pyrenaicus.t = 0.512
+lVdBkDHr.tree_id_0.Scalopus_aquaticus.t = 0.468097
+lVdBkDHr.tree_id_0.Talpa_occidentalis.t = 0.679924
+lVdBkDHr.tree_id_0.13.t = 0.054442
+lVdBkDHr.tree_id_0.11.t = 0.122727
+lVdBkDHr.tree_id_0.10.t = 0.474402
+lVdBkDHr.tree_id_0.19.t = 0.562688
+Optimization finished in 99 loop passes.
+8852 likelihood evaluation calls and 205560 matrix exponentiations calls were made
+
+Variable 'MPI_NODE_COUNT' was not initialized prior to being used
+No nodel was assigned to Solenodon_paradoxus
+No nodel was assigned to Erinaceus_europaeus
+No nodel was assigned to Sorex_araneus
+No nodel was assigned to 14
+No nodel was assigned to Uropsilus_gracilis
+No nodel was assigned to Condylura_cristata
+No nodel was assigned to Galemys_pyrenaicus
+No nodel was assigned to Scalopus_aquaticus
+No nodel was assigned to Talpa_occidentalis
+No nodel was assigned to 13
+No nodel was assigned to 11
+No nodel was assigned to 10
+No nodel was assigned to 19
+Likelihood function cleared because partition index '0' points to invalid components
+The tips of the tree:lVdBkDHr.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {4,1,5,7,0,2,3,6}
+
+Pseudo-optimal path's cost 5546 vs 6892 for 1..k=> a 1.2427 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_0 was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_1 was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+relax.test.omega1 was already constrained in estimators.SetGlobals2
+relax.test.omega2 was already constrained in estimators.SetGlobals2
+relax.test.omega3 was already constrained in estimators.SetGlobals2
+Variable 'lVdBkDHr.tree_id_0.Solenodon_paradoxus.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Solenodon_paradoxus.t=1.720199767734469
+Variable 'lVdBkDHr.tree_id_0.Erinaceus_europaeus.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Erinaceus_europaeus.t=2.988129294162482
+Variable 'lVdBkDHr.tree_id_0.Sorex_araneus.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Sorex_araneus.t=2.361237771041822
+Variable 'lVdBkDHr.tree_id_0.14.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.14.t=0.2036341589901007
+Variable 'lVdBkDHr.tree_id_0.Uropsilus_gracilis.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Uropsilus_gracilis.t=1.418544108563965
+Variable 'lVdBkDHr.tree_id_0.Condylura_cristata.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Condylura_cristata.t=1.243643776490998
+Variable 'lVdBkDHr.tree_id_0.Galemys_pyrenaicus.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Galemys_pyrenaicus.t=0.7648605198789902
+Variable 'lVdBkDHr.tree_id_0.Scalopus_aquaticus.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Scalopus_aquaticus.t=0.6898192389254648
+Variable 'lVdBkDHr.tree_id_0.Talpa_occidentalis.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.Talpa_occidentalis.t=0.9518862863019891
+Variable 'lVdBkDHr.tree_id_0.13.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.13.t=0.06007808324726324
+Variable 'lVdBkDHr.tree_id_0.11.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.11.t=0.1844505377057262
+Variable 'lVdBkDHr.tree_id_0.10.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.10.t=0.3082286270758258
+Variable 'lVdBkDHr.tree_id_0.19.t' was not initialized prior to being used
+models.generic.SetBranchLength: lVdBkDHr.tree_id_0.19.t=0.6129303883571375
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 34-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.bsrel_mixture_aux_1 = 0.561189
+relax.reference.omega2 = 4.36399e-14
+relax.reference.omega3 = 2.56987
+relax.reference.omega1 = 0
+relax.test.theta_AC = 0.474305
+relax.test.theta_AT = 0.266215
+relax.test.theta_GT = 0.26727
+relax.reference.bsrel_mixture_aux_0 = 0.357127
+relax.test.theta_CT = 0.89651
+relax.test.theta_CG = 0.501842
+relax.K = 1
+lVdBkDHr.tree_id_0.Solenodon_paradoxus.t = 1.7202
+lVdBkDHr.tree_id_0.Erinaceus_europaeus.t = 2.98813
+lVdBkDHr.tree_id_0.Sorex_araneus.t = 2.36124
+lVdBkDHr.tree_id_0.14.t = 0.203634
+lVdBkDHr.tree_id_0.Uropsilus_gracilis.t = 1.41854
+lVdBkDHr.tree_id_0.Condylura_cristata.t = 1.24364
+lVdBkDHr.tree_id_0.Galemys_pyrenaicus.t = 0.764861
+lVdBkDHr.tree_id_0.Scalopus_aquaticus.t = 0.689819
+lVdBkDHr.tree_id_0.Talpa_occidentalis.t = 0.951886
+lVdBkDHr.tree_id_0.13.t = 0.0600781
+lVdBkDHr.tree_id_0.11.t = 0.184451
+lVdBkDHr.tree_id_0.10.t = 0.308229
+lVdBkDHr.tree_id_0.19.t = 0.61293
+Optimization finished in 24 loop passes.
+2795 likelihood evaluation calls and 58314 matrix exponentiations calls were made
+
+Variable 'kpGJUugB.lVdBkDHr.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (11) of threads.
+Set GUI update interval to every 74-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.omega1 = 0.0275946
+relax.reference.bsrel_mixture_aux_0 = 0.388978
+relax.reference.bsrel_mixture_aux_1 = 0.570857
+relax.reference.omega3 = 2.82603
+relax.reference.omega2 = 0.018101
+relax.test.theta_GT = 0.265937
+relax.test.theta_AT = 0.263882
+relax.test.theta_AC = 0.468666
+relax.test.theta_CG = 0.49966
+relax.test.theta_CT = 0.889195
+lVdBkDHr.tree_id_0.Solenodon_paradoxus.t = 0.568776
+lVdBkDHr.tree_id_0.Erinaceus_europaeus.t = 0.995902
+lVdBkDHr.tree_id_0.Sorex_araneus.t = 0.784894
+lVdBkDHr.tree_id_0.14.t = 0.0653764
+lVdBkDHr.tree_id_0.Uropsilus_gracilis.t = 0.439141
+lVdBkDHr.tree_id_0.Condylura_cristata.t = 0.408109
+lVdBkDHr.tree_id_0.Galemys_pyrenaicus.t = 0.250614
+lVdBkDHr.tree_id_0.Scalopus_aquaticus.t = 0.225601
+lVdBkDHr.tree_id_0.Talpa_occidentalis.t = 0.31212
+lVdBkDHr.tree_id_0.13.t = 0.0190933
+lVdBkDHr.tree_id_0.11.t = 0.0603373
+lVdBkDHr.tree_id_0.10.t = 0.0995106
+lVdBkDHr.tree_id_0.19.t = 0.201359
+Optimization finished in 3 loop passes.
+254 likelihood evaluation calls and 7041 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used
