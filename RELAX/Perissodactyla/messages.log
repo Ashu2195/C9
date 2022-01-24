@@ -1,0 +1,730 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/models/codon/MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Already loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Loaded 'libv3/tasks/mpi.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../models/parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'pBpKdyyq.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'obJnKjRk.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Loaded 'modules/grid_compute.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/grid_compute.ibf
+Variable 'KLEEwoVy.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'JplxtfJr.model_pi' was not initialized prior to being used
+Model JplxtfJr.model assigned to Equus_caballus
+Model JplxtfJr.model assigned to Equus_przewalskii
+Model JplxtfJr.model assigned to Node1
+Model JplxtfJr.model assigned to Equus_asinus
+Model JplxtfJr.model assigned to Tapirus_indicus
+Model JplxtfJr.model assigned to Tapirus_terrestris
+Model JplxtfJr.model assigned to Node6
+Model JplxtfJr.model assigned to Diceros_bicornis
+Model JplxtfJr.model assigned to Ceratotherium_simum
+Model JplxtfJr.model assigned to Node10
+Model JplxtfJr.model assigned to Dicerorhinus_sumatrensis
+Model JplxtfJr.model assigned to Rhinoceros_unicornis
+Model JplxtfJr.model assigned to Node13
+Model JplxtfJr.model assigned to Node9
+Model JplxtfJr.model assigned to Node5
+The tips of the tree:JplxtfJr.tree_0 were matched with the species names from the data in the following numeric order (0-based) {1,2,0,3,4,6,5,7,8}
+
+Pseudo-optimal path's cost 870 vs 1388 for 1..k=> a 1.5954 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'JplxtfJr.tree_0.Equus_caballus.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Equus_caballus.t=6.978717740102581
+Variable 'JplxtfJr.tree_0.Equus_przewalskii.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Equus_przewalskii.t=6.978717740102581
+Variable 'JplxtfJr.tree_0.Node1.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Node1.t=13.8227111995082
+Variable 'JplxtfJr.tree_0.Equus_asinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Equus_asinus.t=20.80142893961078
+Variable 'JplxtfJr.tree_0.Tapirus_indicus.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Tapirus_indicus.t=78.94842848841915
+Variable 'JplxtfJr.tree_0.Tapirus_terrestris.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Tapirus_terrestris.t=78.94842848841915
+Variable 'JplxtfJr.tree_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Node6.t=54.59749975985397
+Variable 'JplxtfJr.tree_0.Diceros_bicornis.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Diceros_bicornis.t=38.0482250951726
+Variable 'JplxtfJr.tree_0.Ceratotherium_simum.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Ceratotherium_simum.t=38.0482250951726
+Variable 'JplxtfJr.tree_0.Node10.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Node10.t=37.18639387155414
+Variable 'JplxtfJr.tree_0.Dicerorhinus_sumatrensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Dicerorhinus_sumatrensis.t=74.05075179516734
+Variable 'JplxtfJr.tree_0.Rhinoceros_unicornis.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Rhinoceros_unicornis.t=74.05075179516734
+Variable 'JplxtfJr.tree_0.Node13.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Node13.t=1.183867171559381
+Variable 'JplxtfJr.tree_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Node9.t=58.31130928154639
+Variable 'JplxtfJr.tree_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: JplxtfJr.tree_0.Node5.t=138.8166063303975
+Variable 'JplxtfJr.JplxtfJr.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 4273-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+JplxtfJr.model.theta_GT = 0.25
+JplxtfJr.model.theta_CT = 1
+JplxtfJr.model.theta_CG = 0.25
+JplxtfJr.model.theta_AT = 0.25
+JplxtfJr.model.theta_AC = 0.25
+JplxtfJr.tree_0.Equus_caballus.t = 6.97872
+JplxtfJr.tree_0.Equus_przewalskii.t = 6.97872
+JplxtfJr.tree_0.Node1.t = 13.8227
+JplxtfJr.tree_0.Equus_asinus.t = 20.8014
+JplxtfJr.tree_0.Tapirus_indicus.t = 78.9484
+JplxtfJr.tree_0.Tapirus_terrestris.t = 78.9484
+JplxtfJr.tree_0.Node6.t = 54.5975
+JplxtfJr.tree_0.Diceros_bicornis.t = 38.0482
+JplxtfJr.tree_0.Ceratotherium_simum.t = 38.0482
+JplxtfJr.tree_0.Node10.t = 37.1864
+JplxtfJr.tree_0.Dicerorhinus_sumatrensis.t = 74.0508
+JplxtfJr.tree_0.Rhinoceros_unicornis.t = 74.0508
+JplxtfJr.tree_0.Node13.t = 1.18387
+JplxtfJr.tree_0.Node9.t = 58.3113
+JplxtfJr.tree_0.Node5.t = 138.817
+Optimization finished in 41 loop passes.
+2350 likelihood evaluation calls and 16098 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'JplxtfJr.option' was not initialized prior to being used
+Variable 'relax.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'augzDlZE.initial_value' was not initialized prior to being used
+Variable 'FacaFeUw.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 7142-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.310786
+frequencies._aux.CF3x4.p0_1 = 0.245505
+frequencies._aux.CF3x4.p0_2 = 0.60625
+frequencies._aux.CF3x4.p1_0 = 0.353443
+frequencies._aux.CF3x4.p1_1 = 0.296576
+frequencies._aux.CF3x4.p1_2 = 0.445735
+frequencies._aux.CF3x4.p2_0 = 0.306724
+frequencies._aux.CF3x4.p2_1 = 0.314093
+frequencies._aux.CF3x4.p2_2 = 0.389577
+Optimization finished in 7 loop passes.
+301 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'FacaFeUw.model_MGREV_pi' was not initialized prior to being used
+Model FacaFeUw.model_MGREV assigned to Equus_caballus
+Model FacaFeUw.model_MGREV assigned to Equus_przewalskii
+Model FacaFeUw.model_MGREV assigned to Node1
+Model FacaFeUw.model_MGREV assigned to Equus_asinus
+Model FacaFeUw.model_MGREV assigned to Tapirus_indicus
+Model FacaFeUw.model_MGREV assigned to Tapirus_terrestris
+Model FacaFeUw.model_MGREV assigned to Node6
+Model FacaFeUw.model_MGREV assigned to Diceros_bicornis
+Model FacaFeUw.model_MGREV assigned to Ceratotherium_simum
+Model FacaFeUw.model_MGREV assigned to Node10
+Model FacaFeUw.model_MGREV assigned to Dicerorhinus_sumatrensis
+Model FacaFeUw.model_MGREV assigned to Rhinoceros_unicornis
+Model FacaFeUw.model_MGREV assigned to Node13
+Model FacaFeUw.model_MGREV assigned to Node9
+Model FacaFeUw.model_MGREV assigned to Node5
+The tips of the tree:FacaFeUw.tree_0 were matched with the species names from the data in the following numeric order (0-based) {1,2,0,3,4,6,5,7,8}
+
+Pseudo-optimal path's cost 2517 vs 3557 for 1..k=> a 1.41319 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'FacaFeUw.FacaFeUw.likelihoodFunction' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Equus_caballus.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Equus_przewalskii.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Node1.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Equus_asinus.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Tapirus_indicus.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Tapirus_terrestris.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Diceros_bicornis.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Ceratotherium_simum.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Node10.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Dicerorhinus_sumatrensis.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Rhinoceros_unicornis.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Node13.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Node9.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Node5.alpha' was not initialized prior to being used
+Site 218 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 218 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 93 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 166-th LF evaluation.
+Initial guess for FacaFeUw.tree_0.Equus_caballus.alpha is -1.42011e-20
+Initial guess for FacaFeUw.tree_0.Equus_przewalskii.alpha is -1.10384e-20
+Initial guess for FacaFeUw.tree_0.Equus_asinus.alpha is 3.074e-06
+Initial guess for FacaFeUw.tree_0.Node5.alpha is 2.62009e-06
+Initial guess for FacaFeUw.tree_0.Node6.alpha is 1.61064e-05
+Initial guess for FacaFeUw.tree_0.Tapirus_indicus.alpha is 2.12198e-06
+Initial guess for FacaFeUw.tree_0.Tapirus_terrestris.alpha is 3.32454e-06
+Initial guess for FacaFeUw.tree_0.Node9.alpha is 1.61958e-05
+Initial guess for FacaFeUw.tree_0.Node10.alpha is 1.40088e-05
+Initial guess for FacaFeUw.tree_0.Diceros_bicornis.alpha is 1.18479e-06
+Initial guess for FacaFeUw.tree_0.Ceratotherium_simum.alpha is 1.04332e-06
+Initial guess for FacaFeUw.tree_0.Node13.alpha is 2.1291e-06
+Initial guess for FacaFeUw.tree_0.Dicerorhinus_sumatrensis.alpha is 2.91777e-06
+Initial guess for FacaFeUw.tree_0.Rhinoceros_unicornis.alpha is 3.51903e-06
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+FacaFeUw.model_MGREV.theta_CT = 1
+FacaFeUw.model_MGREV.theta_GT = 1
+FacaFeUw.model_MGREV.theta_CG = 1
+FacaFeUw.model_MGREV.theta_AC = 1
+FacaFeUw.model_MGREV.theta_AT = 1
+FacaFeUw.model_MGREV.omega_0 = 1
+FacaFeUw.tree_0.Equus_caballus.alpha = 0
+FacaFeUw.tree_0.Equus_przewalskii.alpha = 0
+FacaFeUw.tree_0.Node1.alpha = 0.1
+FacaFeUw.tree_0.Equus_asinus.alpha = 3.074e-06
+FacaFeUw.tree_0.Tapirus_indicus.alpha = 2.12198e-06
+FacaFeUw.tree_0.Tapirus_terrestris.alpha = 3.32454e-06
+FacaFeUw.tree_0.Node6.alpha = 1.61064e-05
+FacaFeUw.tree_0.Diceros_bicornis.alpha = 1.18479e-06
+FacaFeUw.tree_0.Ceratotherium_simum.alpha = 1.04332e-06
+FacaFeUw.tree_0.Node10.alpha = 1.40088e-05
+FacaFeUw.tree_0.Dicerorhinus_sumatrensis.alpha = 2.91777e-06
+FacaFeUw.tree_0.Rhinoceros_unicornis.alpha = 3.51903e-06
+FacaFeUw.tree_0.Node13.alpha = 2.1291e-06
+FacaFeUw.tree_0.Node9.alpha = 1.61958e-05
+FacaFeUw.tree_0.Node5.alpha = 2.62009e-06
+FacaFeUw.model_MGREV.omega_1 = 1
+Failing bound checks on FacaFeUw.tree_0.Node13.beta =         10011.69308927634
+Optimization finished in 28 loop passes.
+1954 likelihood evaluation calls and 11464 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 7042-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.310786
+frequencies._aux.CF3x4.p0_1 = 0.245505
+frequencies._aux.CF3x4.p0_2 = 0.60625
+frequencies._aux.CF3x4.p1_0 = 0.353443
+frequencies._aux.CF3x4.p1_1 = 0.296576
+frequencies._aux.CF3x4.p1_2 = 0.445735
+frequencies._aux.CF3x4.p2_0 = 0.306724
+frequencies._aux.CF3x4.p2_1 = 0.314093
+frequencies._aux.CF3x4.p2_2 = 0.389577
+Optimization finished in 7 loop passes.
+301 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'FacaFeUw.model_MGREV_pi' was not initialized prior to being used
+Model FacaFeUw.model_MGREV assigned to Equus_caballus
+Model FacaFeUw.model_MGREV assigned to Equus_przewalskii
+Model FacaFeUw.model_MGREV assigned to Node1
+Model FacaFeUw.model_MGREV assigned to Equus_asinus
+Model FacaFeUw.model_MGREV assigned to Tapirus_indicus
+Model FacaFeUw.model_MGREV assigned to Tapirus_terrestris
+Model FacaFeUw.model_MGREV assigned to Node6
+Model FacaFeUw.model_MGREV assigned to Diceros_bicornis
+Model FacaFeUw.model_MGREV assigned to Ceratotherium_simum
+Model FacaFeUw.model_MGREV assigned to Node10
+Model FacaFeUw.model_MGREV assigned to Dicerorhinus_sumatrensis
+Model FacaFeUw.model_MGREV assigned to Rhinoceros_unicornis
+Model FacaFeUw.model_MGREV assigned to Node13
+Model FacaFeUw.model_MGREV assigned to Node9
+Model FacaFeUw.model_MGREV assigned to Node5
+The tips of the tree:FacaFeUw.tree_0 were matched with the species names from the data in the following numeric order (0-based) {1,2,0,3,4,6,5,7,8}
+
+Pseudo-optimal path's cost 2517 vs 3557 for 1..k=> a 1.41319 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'FacaFeUw.tree_0.Node13.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Rhinoceros_unicornis.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Node9.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Equus_asinus.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Dicerorhinus_sumatrensis.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Node10.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Equus_caballus.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Ceratotherium_simum.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Diceros_bicornis.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Equus_przewalskii.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Tapirus_indicus.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Tapirus_terrestris.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Node1.alpha' was not initialized prior to being used
+Variable 'FacaFeUw.tree_0.Node5.alpha' was not initialized prior to being used
+Site 218 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 218 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 93 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 218 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 213 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 28 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 218 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 3 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 130 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 5 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 218 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 144 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 119 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 36 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 199 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 218 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 55 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 66 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 204 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 28 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 112 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 218 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 87 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 89 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 149 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 178 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 138 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 92 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 218 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 219 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 43 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 128 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 201 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 10 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 5 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 213 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 218 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 70 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 140 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 71 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 162 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 28 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 43 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 137 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (8) of threads.
+Set GUI update interval to every 375-th LF evaluation.
+Initial guess for FacaFeUw.tree_0.Equus_caballus.alpha is -1.42011e-20
+Initial guess for FacaFeUw.tree_0.Equus_przewalskii.alpha is -1.10384e-20
+Initial guess for FacaFeUw.tree_0.Equus_asinus.alpha is 3.074e-06
+Initial guess for FacaFeUw.tree_0.Node5.alpha is 2.62009e-06
+Initial guess for FacaFeUw.tree_0.Node6.alpha is 1.61064e-05
+Initial guess for FacaFeUw.tree_0.Tapirus_indicus.alpha is 2.12198e-06
+Initial guess for FacaFeUw.tree_0.Tapirus_terrestris.alpha is 3.32454e-06
+Initial guess for FacaFeUw.tree_0.Node9.alpha is 1.61958e-05
+Initial guess for FacaFeUw.tree_0.Node10.alpha is 1.40088e-05
+Initial guess for FacaFeUw.tree_0.Diceros_bicornis.alpha is 1.18479e-06
+Initial guess for FacaFeUw.tree_0.Ceratotherium_simum.alpha is 1.04332e-06
+Initial guess for FacaFeUw.tree_0.Node13.alpha is 2.1291e-06
+Initial guess for FacaFeUw.tree_0.Dicerorhinus_sumatrensis.alpha is 2.91777e-06
+Initial guess for FacaFeUw.tree_0.Rhinoceros_unicornis.alpha is 3.51903e-06
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+FacaFeUw.model_MGREV.theta_CG = 1
+FacaFeUw.model_MGREV.theta_CT = 1
+FacaFeUw.model_MGREV.theta_GT = 1
+FacaFeUw.model_MGREV.theta_AT = 1
+FacaFeUw.model_MGREV.theta_AC = 1
+FacaFeUw.model_MGREV.omega_0 = 1
+FacaFeUw.tree_0.Equus_caballus.alpha = 0
+FacaFeUw.tree_0.Equus_przewalskii.alpha = 0
+FacaFeUw.tree_0.Node1.alpha = 0.1
+FacaFeUw.tree_0.Equus_asinus.alpha = 3.074e-06
+FacaFeUw.tree_0.Tapirus_indicus.alpha = 2.12198e-06
+FacaFeUw.tree_0.Tapirus_terrestris.alpha = 3.32454e-06
+FacaFeUw.tree_0.Node6.alpha = 1.61064e-05
+FacaFeUw.tree_0.Diceros_bicornis.alpha = 1.18479e-06
+FacaFeUw.tree_0.Ceratotherium_simum.alpha = 1.04332e-06
+FacaFeUw.tree_0.Node10.alpha = 1.40088e-05
+FacaFeUw.tree_0.Dicerorhinus_sumatrensis.alpha = 2.91777e-06
+FacaFeUw.tree_0.Rhinoceros_unicornis.alpha = 3.51903e-06
+FacaFeUw.tree_0.Node13.alpha = 2.1291e-06
+FacaFeUw.tree_0.Node9.alpha = 1.61958e-05
+FacaFeUw.tree_0.Node5.alpha = 2.62009e-06
+FacaFeUw.model_MGREV.omega_1 = 1
+Failing bound checks on FacaFeUw.tree_0.Node13.beta =         10011.69308923635
+Optimization finished in 21 loop passes.
+1833 likelihood evaluation calls and 10773 matrix exponentiations calls were made
+
+Overwritten previously defined function:'RaiLaJnH.rate_generator'
+Overwritten previously defined function:'RaiLaJnH.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 6024-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.310786
+frequencies._aux.CF3x4.p0_1 = 0.245505
+frequencies._aux.CF3x4.p0_2 = 0.60625
+frequencies._aux.CF3x4.p1_0 = 0.353443
+frequencies._aux.CF3x4.p1_1 = 0.296576
+frequencies._aux.CF3x4.p1_2 = 0.445735
+frequencies._aux.CF3x4.p2_0 = 0.306724
+frequencies._aux.CF3x4.p2_1 = 0.314093
+frequencies._aux.CF3x4.p2_2 = 0.389577
+Optimization finished in 7 loop passes.
+301 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.test_pi' was not initialized prior to being used
+Overwritten previously defined function:'RaiLaJnH.rate_generator'
+Overwritten previously defined function:'RaiLaJnH.rate_generator'
+Overwritten previously defined function:'RaiLaJnH.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 6944-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.310786
+frequencies._aux.CF3x4.p0_1 = 0.245505
+frequencies._aux.CF3x4.p0_2 = 0.60625
+frequencies._aux.CF3x4.p1_0 = 0.353443
+frequencies._aux.CF3x4.p1_1 = 0.296576
+frequencies._aux.CF3x4.p1_2 = 0.445735
+frequencies._aux.CF3x4.p2_0 = 0.306724
+frequencies._aux.CF3x4.p2_1 = 0.314093
+frequencies._aux.CF3x4.p2_2 = 0.389577
+Optimization finished in 7 loop passes.
+301 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.reference_pi' was not initialized prior to being used
+No nodel was assigned to Equus_caballus
+No nodel was assigned to Equus_przewalskii
+No nodel was assigned to Node1
+No nodel was assigned to Equus_asinus
+No nodel was assigned to Tapirus_indicus
+No nodel was assigned to Tapirus_terrestris
+No nodel was assigned to Node6
+No nodel was assigned to Diceros_bicornis
+No nodel was assigned to Ceratotherium_simum
+No nodel was assigned to Node10
+No nodel was assigned to Dicerorhinus_sumatrensis
+No nodel was assigned to Rhinoceros_unicornis
+No nodel was assigned to Node13
+No nodel was assigned to Node9
+No nodel was assigned to Node5
+The tips of the tree:SrIVMJjU.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {1,2,0,3,4,6,5,7,8}
+
+Pseudo-optimal path's cost 2517 vs 3557 for 1..k=> a 1.41319 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+Variable 'SrIVMJjU.tree_id_0.Equus_caballus.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Equus_caballus.t=0
+Variable 'SrIVMJjU.tree_id_0.Equus_przewalskii.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Equus_przewalskii.t=0
+Variable 'SrIVMJjU.tree_id_0.Node1.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Node1.t=0.05864167776943573
+Variable 'SrIVMJjU.tree_id_0.Equus_asinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Equus_asinus.t=0.06895643822313373
+Variable 'SrIVMJjU.tree_id_0.Tapirus_indicus.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Tapirus_indicus.t=0.04420164514256342
+Variable 'SrIVMJjU.tree_id_0.Tapirus_terrestris.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Tapirus_terrestris.t=0.07852550655106415
+Variable 'SrIVMJjU.tree_id_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Node6.t=0.4083525314515374
+Variable 'SrIVMJjU.tree_id_0.Diceros_bicornis.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Diceros_bicornis.t=0.03047351023670145
+Variable 'SrIVMJjU.tree_id_0.Ceratotherium_simum.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Ceratotherium_simum.t=0.01930941166891456
+Variable 'SrIVMJjU.tree_id_0.Node10.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Node10.t=0.0575817208958959
+Variable 'SrIVMJjU.tree_id_0.Dicerorhinus_sumatrensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Dicerorhinus_sumatrensis.t=0.1064389543648691
+Variable 'SrIVMJjU.tree_id_0.Rhinoceros_unicornis.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Rhinoceros_unicornis.t=0.03736908327070616
+Variable 'SrIVMJjU.tree_id_0.Node13.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Node13.t=0.04486406342060383
+Variable 'SrIVMJjU.tree_id_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Node9.t=0.3638686803510269
+Variable 'SrIVMJjU.tree_id_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Node5.t=0.4288272118027575
+Variable 'SrIVMJjU.SrIVMJjU.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 28-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.omega1 = 0.145496
+relax.reference.bsrel_mixture_aux_0 = 0.45
+relax.reference.bsrel_mixture_aux_1 = 0.818182
+relax.reference.omega3 = 7.27482
+relax.reference.omega2 = 0.4601
+relax.test.theta_GT = 0.172108
+relax.test.theta_AC = 0.241639
+relax.test.theta_AT = 0.139906
+relax.test.theta_CT = 0.918304
+relax.test.theta_CG = 0.402848
+relax.K = 1
+SrIVMJjU.tree_id_0.Equus_caballus.t = 0
+SrIVMJjU.tree_id_0.Equus_przewalskii.t = 0
+SrIVMJjU.tree_id_0.Node1.t = 0.0586417
+SrIVMJjU.tree_id_0.Equus_asinus.t = 0.0689564
+SrIVMJjU.tree_id_0.Tapirus_indicus.t = 0.0442016
+SrIVMJjU.tree_id_0.Tapirus_terrestris.t = 0.0785255
+SrIVMJjU.tree_id_0.Node6.t = 0.408353
+SrIVMJjU.tree_id_0.Diceros_bicornis.t = 0.0304735
+SrIVMJjU.tree_id_0.Ceratotherium_simum.t = 0.0193094
+SrIVMJjU.tree_id_0.Node10.t = 0.0575817
+SrIVMJjU.tree_id_0.Dicerorhinus_sumatrensis.t = 0.106439
+SrIVMJjU.tree_id_0.Rhinoceros_unicornis.t = 0.0373691
+SrIVMJjU.tree_id_0.Node13.t = 0.0448641
+SrIVMJjU.tree_id_0.Node9.t = 0.363869
+SrIVMJjU.tree_id_0.Node5.t = 0.428827
+Optimization finished in 66 loop passes.
+6875 likelihood evaluation calls and 177342 matrix exponentiations calls were made
+
+Variable 'MPI_NODE_COUNT' was not initialized prior to being used
+No nodel was assigned to Equus_caballus
+No nodel was assigned to Equus_przewalskii
+No nodel was assigned to Node1
+No nodel was assigned to Equus_asinus
+No nodel was assigned to Tapirus_indicus
+No nodel was assigned to Tapirus_terrestris
+No nodel was assigned to Node6
+No nodel was assigned to Diceros_bicornis
+No nodel was assigned to Ceratotherium_simum
+No nodel was assigned to Node10
+No nodel was assigned to Dicerorhinus_sumatrensis
+No nodel was assigned to Rhinoceros_unicornis
+No nodel was assigned to Node13
+No nodel was assigned to Node9
+No nodel was assigned to Node5
+Likelihood function cleared because partition index '0' points to invalid components
+The tips of the tree:SrIVMJjU.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {1,2,0,3,4,6,5,7,8}
+
+Pseudo-optimal path's cost 2517 vs 3557 for 1..k=> a 1.41319 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_0 was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_1 was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+relax.test.omega1 was already constrained in estimators.SetGlobals2
+relax.test.omega2 was already constrained in estimators.SetGlobals2
+relax.test.omega3 was already constrained in estimators.SetGlobals2
+Variable 'SrIVMJjU.tree_id_0.Equus_caballus.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Equus_caballus.t=0
+Variable 'SrIVMJjU.tree_id_0.Equus_przewalskii.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Equus_przewalskii.t=0
+Variable 'SrIVMJjU.tree_id_0.Node1.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Node1.t=0.1043506164240003
+Variable 'SrIVMJjU.tree_id_0.Equus_asinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Equus_asinus.t=0.1032086618135057
+Variable 'SrIVMJjU.tree_id_0.Tapirus_indicus.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Tapirus_indicus.t=0.06871672296166617
+Variable 'SrIVMJjU.tree_id_0.Tapirus_terrestris.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Tapirus_terrestris.t=0.1281682494346732
+Variable 'SrIVMJjU.tree_id_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Node6.t=0.6808088387647128
+Variable 'SrIVMJjU.tree_id_0.Diceros_bicornis.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Diceros_bicornis.t=0.03823476395904043
+Variable 'SrIVMJjU.tree_id_0.Ceratotherium_simum.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Ceratotherium_simum.t=0.04082632744239115
+Variable 'SrIVMJjU.tree_id_0.Node10.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Node10.t=0.09199825970414871
+Variable 'SrIVMJjU.tree_id_0.Dicerorhinus_sumatrensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Dicerorhinus_sumatrensis.t=0.09290404968765356
+Variable 'SrIVMJjU.tree_id_0.Rhinoceros_unicornis.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Rhinoceros_unicornis.t=0.1376569472125315
+Variable 'SrIVMJjU.tree_id_0.Node13.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Node13.t=0
+Variable 'SrIVMJjU.tree_id_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Node9.t=0.6246837562833422
+Variable 'SrIVMJjU.tree_id_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: SrIVMJjU.tree_id_0.Node5.t=0.7686123142755849
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 23-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.omega1 = 3.60216e-21
+relax.reference.bsrel_mixture_aux_0 = 0.214773
+relax.reference.bsrel_mixture_aux_1 = 0.829603
+relax.reference.omega3 = 3.89062
+relax.reference.omega2 = 0
+relax.test.theta_GT = 0.165172
+relax.test.theta_AC = 0.221312
+relax.test.theta_AT = 0.115614
+relax.test.theta_CT = 0.90903
+relax.test.theta_CG = 0.392178
+relax.K = 1
+SrIVMJjU.tree_id_0.Equus_caballus.t = 0
+SrIVMJjU.tree_id_0.Equus_przewalskii.t = 0
+SrIVMJjU.tree_id_0.Node1.t = 0.104351
+SrIVMJjU.tree_id_0.Equus_asinus.t = 0.103209
+SrIVMJjU.tree_id_0.Tapirus_indicus.t = 0.0687167
+SrIVMJjU.tree_id_0.Tapirus_terrestris.t = 0.128168
+SrIVMJjU.tree_id_0.Node6.t = 0.680809
+SrIVMJjU.tree_id_0.Diceros_bicornis.t = 0.0382348
+SrIVMJjU.tree_id_0.Ceratotherium_simum.t = 0.0408263
+SrIVMJjU.tree_id_0.Node10.t = 0.0919983
+SrIVMJjU.tree_id_0.Dicerorhinus_sumatrensis.t = 0.092904
+SrIVMJjU.tree_id_0.Rhinoceros_unicornis.t = 0.137657
+SrIVMJjU.tree_id_0.Node13.t = 0
+SrIVMJjU.tree_id_0.Node9.t = 0.624684
+SrIVMJjU.tree_id_0.Node5.t = 0.768612
+Optimization finished in 26 loop passes.
+2864 likelihood evaluation calls and 71064 matrix exponentiations calls were made
+
+Variable 'UBNZXnZh.SrIVMJjU.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 25-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.bsrel_mixture_aux_1 = 0.83104
+relax.reference.omega1 = 9.22193e-14
+relax.reference.omega2 = 0
+relax.reference.omega3 = 3.67284
+relax.reference.bsrel_mixture_aux_0 = 0.194503
+relax.test.theta_AT = 0.116921
+relax.test.theta_AC = 0.223222
+relax.test.theta_CG = 0.392789
+relax.test.theta_GT = 0.165911
+relax.test.theta_CT = 0.909067
+SrIVMJjU.tree_id_0.Equus_caballus.t = 0
+SrIVMJjU.tree_id_0.Equus_przewalskii.t = 0
+SrIVMJjU.tree_id_0.Node1.t = 0.0354
+SrIVMJjU.tree_id_0.Equus_asinus.t = 0.0351063
+SrIVMJjU.tree_id_0.Tapirus_indicus.t = 0.0233762
+SrIVMJjU.tree_id_0.Tapirus_terrestris.t = 0.043538
+SrIVMJjU.tree_id_0.Node6.t = 0.23051
+SrIVMJjU.tree_id_0.Diceros_bicornis.t = 0.0130341
+SrIVMJjU.tree_id_0.Ceratotherium_simum.t = 0.0138803
+SrIVMJjU.tree_id_0.Node10.t = 0.0313477
+SrIVMJjU.tree_id_0.Dicerorhinus_sumatrensis.t = 0.0315556
+SrIVMJjU.tree_id_0.Rhinoceros_unicornis.t = 0.0478428
+SrIVMJjU.tree_id_0.Node13.t = 0
+SrIVMJjU.tree_id_0.Node9.t = 0.211374
+SrIVMJjU.tree_id_0.Node5.t = 0.259242
+Optimization finished in 3 loop passes.
+256 likelihood evaluation calls and 6750 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used
