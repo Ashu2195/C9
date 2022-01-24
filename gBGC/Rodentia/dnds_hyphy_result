@@ -1,0 +1,106 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/sagar/disk4/RNAseq_store/Inputs/Saumya/gBGC/Rodentia/`) 
+
+A tree was found in the data file:
+((Heterocephalus_glaber:33.832859,Fukomys_damarensis:33.832859):9.52561392,Cavia_porcellus:43.35847292,((((((((Rattus_rattus:6.5411875,Rattus_norvegicus:6.5411875):14.3462299,((((Mus_spicilegus:2.826425,Mus_musculus:2.826425):0.23905722,Mus_spretus:3.06548222):4.34711578,Mus_caroli:7.412598):0.87822836,Mus_pahari:8.29082636):12.59659104):7.68810347,(Meriones_unguiculatus:14.60494429,Psammomys_obesus:14.60494429):13.97057658):4.08810639,((Cricetulus_griseus:22.82601462,(Microtus_ochrogaster:10.9,Arvicola_amphibius:10.9):11.92601462):5.97398538,((Peromyscus_maniculatus:7.98363,Peromyscus_leucopus:7.98363):4.75647167,Onychomys_torridus:12.74010167):16.05989833):3.86362726):12.60555024,Nannospalax_galili:45.2691775):9.53321458,Jaculus_jaculus:54.80239208):15.09598458,Castor_canadensis:69.89837667):0.64655123,(Sciurus_vulgaris:34.7,(Urocitellus_parryii:11.32771,(Ictidomys_tridecemlineatus:8.625255,(Marmota_flaviventris:4.4713375,Marmota_marmota:4.4713375):4.1539175):2.702455):23.37229):35.84492789):31.8500155)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1998
+Synonymous  sites      :454.2702206648541
+Nonsynonymous  sites   :1459.85190070186
+
+Total tree lengths:
+	E[syn]        : 0.8032467110653335
+	E[non-syn]    : 1.064854924887421
+	dS            : 3.532890459690886
+	dN            : 1.457394506183935
+
+
+E[Syn subs/nucleotide site] tree: 
+	((Heterocephalus_glaber:0.01468625975578586,Fukomys_damarensis:0.0326483361575168)Node1:0.01164861382954652,Cavia_porcellus:0.04091997853220494,((((((((Rattus_rattus:0.006532480215483881,Rattus_norvegicus:0.0006073176279204754)Node12:0.02488538371108607,((((Mus_spicilegus:0.002680028712712088,Mus_musculus:0.001047101405527153)Node18:0,Mus_spretus:0.001822696920267541)Node17:0.006548402242489595,Mus_caroli:0.009499268346452039)Node16:0.004376878653833588,Mus_pahari:0.01025868034970496)Node15:0.02178528334486206)Node11:0.02280661450239656,(Meriones_unguiculatus:0.00569513247559661,Psammomys_obesus:0.006432244448519643)Node24:0.03750051732353789)Node10:0.01098987844521999,((Cricetulus_griseus:0.01467051574535791,(Microtus_ochrogaster:0.0108072334300502,Arvicola_amphibius:0.0137800131311088)Node30:0.04127899310853467)Node28:0.0057119757221641,((Peromyscus_maniculatus:0.004017227060589491,Peromyscus_leucopus:0.002624799963922007)Node34:0.01307402775752925,Onychomys_torridus:0.010071481678681)Node33:0.01686663966336014)Node27:0.002149907924134475)Node9:0.0326998957312056,Nannospalax_galili:0.03668889620299744)Node8:0.01609475136788541,Jaculus_jaculus:0.08446745142137463)Node7:0.009022100378487425,Castor_canadensis:0.05569197661649524)Node6:0.0104870812024774,(Sciurus_vulgaris:0.03184014140363213,(Urocitellus_parryii:0.003515147369750561,(Ictidomys_tridecemlineatus:0.003844798626318587,(Marmota_flaviventris:0.001238801214924727,Marmota_marmota:0.001236454846162612)Node47:0.007526513763831774)Node45:0.001061150292875683)Node43:0.02888220835426167)Node41:0.03059711939629117)Node5:0.03992831069026512)
+
+E[Non-syn subs/nucleotide site] tree: 
+	((Heterocephalus_glaber:0.02338870159977454,Fukomys_damarensis:0.02795140868606466)Node1:0.02165241533958802,Cavia_porcellus:0.05828847140554569,((((((((Rattus_rattus:0.005343244804201792,Rattus_norvegicus:0.005146857340355103)Node12:0.03398421406919387,((((Mus_spicilegus:0.001780625381286966,Mus_musculus:0.004759769733017193)Node18:0.002509956536326321,Mus_spretus:0.00611522165657577)Node17:0.006454293471432867,Mus_caroli:0.01327815006233769)Node16:0.02600223965100188,Mus_pahari:0.04035517135778371)Node15:0.05630508831560486)Node11:0.01742432880407578,(Meriones_unguiculatus:0.006308750507915768,Psammomys_obesus:0.005829300811849841)Node24:0.0569261472956201)Node10:0.01018753106569422,((Cricetulus_griseus:0.04512804739683211,(Microtus_ochrogaster:0.02125930216901538,Arvicola_amphibius:0.01618127493911614)Node30:0.05630146184731832)Node28:0.009909077819514748,((Peromyscus_maniculatus:0.004638925360846387,Peromyscus_leucopus:0.004607979481244071)Node34:0.01908403610627151,Onychomys_torridus:0.01622929783367931)Node33:0.03286327228093314)Node27:0.01048128625243418)Node9:0.03481726563119301,Nannospalax_galili:0.0476621119579346)Node8:0.01176667425434162,Jaculus_jaculus:0.07989214809048205)Node7:0.01432576006104486,Castor_canadensis:0.04885965140984608)Node6:0.007527782102134957,(Sciurus_vulgaris:0.02953050892269061,(Urocitellus_parryii:0.0015742125216186,(Ictidomys_tridecemlineatus:0.004379952075567183,(Marmota_flaviventris:0.0005971241306120927,Marmota_marmota:0.001817381381473185)Node47:0.004753113302868186)Node45:0.0009486237122356261)Node43:0.03076458672006164)Node41:0.02799629754382276)Node5:0.05096588168704173)
+
+dS tree: 
+	((Heterocephalus_glaber:0.06459403601036082,Fukomys_damarensis:0.1435959758648678)Node1:0.05123366968094679,Cavia_porcellus:0.1799768362268765,((((((((Rattus_rattus:0.02873156741693192,Rattus_norvegicus:0.002671142781072441)Node12:0.1094524677007884,((((Mus_spicilegus:0.01178747169506688,Mus_musculus:0.00460542759149238)Node18:0,Mus_spretus:0.008016700811610785)Node17:0.02880159668257662,Mus_caroli:0.04178028251209904)Node16:0.01925066436791878,Mus_pahari:0.04512037638899605)Node15:0.09581741030554414)Node11:0.1003094935633182,(Meriones_unguiculatus:0.02504869165667145,Psammomys_obesus:0.02829070413053503)Node24:0.1649371457868613)Node10:0.0483363780734139,((Cricetulus_griseus:0.0645247897084813,(Microtus_ochrogaster:0.04753305722228008,Arvicola_amphibius:0.06060812481975996)Node30:0.181555876830632)Node28:0.02512277268842517,((Peromyscus_maniculatus:0.01766882199610315,Peromyscus_leucopus:0.01154456112100133)Node34:0.05750301532271326,Onychomys_torridus:0.0442970273608373)Node33:0.07418392074671344)Node27:0.009455860932583063)Node9:0.1438227484410659,Nannospalax_galili:0.1613674224700512)Node8:0.07078895285271117,Jaculus_jaculus:0.3715100842245537)Node7:0.03968157219250564,Castor_canadensis:0.2449479719733837)Node6:0.04612494345740622,(Sciurus_vulgaris:0.1400413226104717,(Urocitellus_parryii:0.01546054336223628,(Ictidomys_tridecemlineatus:0.01691043635689252,(Marmota_flaviventris:0.005448573810973341,Marmota_marmota:0.005438253863564409)Node47:0.03310358860443643)Node45:0.004667218295891365)Node43:0.1270315544949378)Node41:0.1345741846434872)Node5:0.1756152200388377)
+
+dN tree: 
+	((Heterocephalus_glaber:0.03201052502235509,Fukomys_damarensis:0.03825519186426198)Node1:0.02963418811709449,Cavia_porcellus:0.07977546613618071,((((((((Rattus_rattus:0.007312935725646226,Rattus_norvegicus:0.007044153561799991)Node12:0.04651188225162053,((((Mus_spicilegus:0.002437020844443817,Mus_musculus:0.006514373082636789)Node18:0.003435206788557767,Mus_spretus:0.008369487935018736)Node17:0.008833552464960967,Mus_caroli:0.01817290083452703)Node16:0.03558749678493025,Mus_pahari:0.05523137815150095)Node15:0.07706094460711563)Node11:0.02384749366275154,(Meriones_unguiculatus:0.008634357710364724,Psammomys_obesus:0.007978167522662007)Node24:0.07791094578975194)Node10:0.01394298083214539,((Cricetulus_griseus:0.06176368894373537,(Microtus_ochrogaster:0.02909616085937984,Arvicola_amphibius:0.02214621038806094)Node30:0.07705598130663766)Node28:0.01356188081398663,((Peromyscus_maniculatus:0.006348981610062626,Peromyscus_leucopus:0.006306628089533797)Node34:0.02611902215697261,Onychomys_torridus:0.02221193605741897)Node33:0.04497772547046474)Node27:0.01434502357553893)Node9:0.04765202326186552,Nannospalax_galili:0.06523189074601997)Node8:0.01610424670397842,Jaculus_jaculus:0.1093429489717688)Node7:0.0196066933832168,Castor_canadensis:0.06687088153937976)Node6:0.01030276333704436,(Sciurus_vulgaris:0.04041639895058477,(Urocitellus_parryii:0.002154517603245777,(Ictidomys_tridecemlineatus:0.005994542489396289,(Marmota_flaviventris:0.0008172431822634686,Marmota_marmota:0.002487326281821922)Node47:0.006505262879450204)Node45:0.001298316751264662)Node43:0.04210539729210275)Node41:0.03831662819061643)Node5:0.06975353565779661)
+
+Estimating pairwise dN/dS: total of 325 analyses
