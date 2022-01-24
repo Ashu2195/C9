@@ -1,0 +1,106 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/sagar/disk4/RNAseq_store/Inputs/Saumya/gBGC/Carnivora/`) 
+
+A tree was found in the data file:
+((Suricata_suricatta:33.40393429,Hyaena_hyaena:33.40393429):6.49606571,((Panthera_tigris:7.41234111,(Panthera_pardus:3.82497571,Panthera_leo:3.82497571):3.5873654):7.76265306,(((Lynx_pardinus:10.8,Felis_catus:10.8):0.721348,(Puma_concolor:7.32333333,Puma_yagouaroundi:7.32333333):4.19801467):1.478652,Acinonyx_jubatus:13):2.17499417):24.72500583,((Canis_lupus:14.1532895,(Vulpes_vulpes:4.22904857,Vulpes_lagopus:4.22904857):9.92424093):31.37506017,((((Enhydra_lutris:10.063312,Lontra_canadensis:10.063312):7.436688,(Mustela_putorius:5.34182917,Mustela_erminea:5.34182917):12.15817083):22.32662308,(((Callorhinus_ursinus:9.62059264,(Zalophus_californianus:5.6555315,Eumetopias_jubatus:5.6555315):3.96506114):9.84903044,Odobenus_rosmarus:19.46962308):6.51564835,(((Leptonychotes_weddellii:11.07048875,Mirounga_leonina:11.07048875):2.39709569,Neomonachus_schauinslandi:13.46758444):4.94257756,(Phoca_vitulina:4.48698214,Halichoerus_grypus:4.48698214):13.92317986):7.57510943):13.84135165):0.06678959,(Ailuropoda_melanoleuca:23.36263333,((Ursus_thibetanus:5.09558889,Ursus_americanus:5.09558889):1.34448384,(Ursus_arctos:1.08895385,Ursus_maritimus:1.08895385):5.35111888):16.92256061):16.53077933):5.634937):23.21453269)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1809
+Synonymous  sites      :407.9194225449422
+Nonsynonymous  sites   :1325.349189627548
+
+Total tree lengths:
+	E[syn]        : 0.2617345478859777
+	E[non-syn]    : 0.4118432457827162
+	dS            : 1.160714030657779
+	dN            : 0.5621344453610007
+
+
+E[Syn subs/nucleotide site] tree: 
+	((Suricata_suricatta:0.02088017988321143,Hyaena_hyaena:0.01747064585192511)Node1:0.002712411660860965,((Panthera_tigris:0,(Panthera_pardus:0.001838556040357289,Panthera_leo:0.0006145463988842965)Node7:0.0006099766454651304)Node5:0.002228194855621657,(((Lynx_pardinus:0.003707522225505706,Felis_catus:0.003707916529148238)Node12:0.001153492004674867,(Puma_concolor:0,Puma_yagouaroundi:0)Node15:0.001269957475190338)Node11:0,Acinonyx_jubatus:0.0007449215953911261)Node10:0.003172294087904421)Node4:0.01126069202736955,((Canis_lupus:0.005959415149068712,(Vulpes_vulpes:0.001410843218153642,Vulpes_lagopus:0.0003868661470381131)Node22:0.00330323388134329)Node20:0.03235434440922531,((((Enhydra_lutris:0.004894975217693732,Lontra_canadensis:0.004020469703409092)Node28:0.002797898194535298,(Mustela_putorius:0.003761853101391077,Mustela_erminea:0.001273209575699033)Node31:0.002582780215172753)Node27:0.01941516901573352,(((Callorhinus_ursinus:0.001889384203647047,(Zalophus_californianus:0.0006305654989560826,Eumetopias_jubatus:0)Node38:0.0008359128163776211)Node36:0.003519157594470319,Odobenus_rosmarus:0.002198309731135687)Node35:0.004777710583966486,(((Leptonychotes_weddellii:0.001870093104921053,Mirounga_leonina:0.00124934939914644)Node44:0.0004698512266592216,Neomonachus_schauinslandi:0.002035498621077971)Node43:0.002599092042555795,(Phoca_vitulina:0.001079840177801233,Halichoerus_grypus:0.0007835962791726947)Node48:0.002351723379896136)Node42:0.003770905711963944)Node34:0.009341160550128565)Node26:0.004410415081780156,(Ailuropoda_melanoleuca:0.005142667519931781,((Ursus_thibetanus:0.000599565749097246,Ursus_americanus:0)Node54:0.0006122197510545095,(Ursus_arctos:0.0006103077304140558,Ursus_maritimus:0.0017902187016639)Node57:0)Node53:0.006576388978690027)Node51:0.01279408915894458)Node25:0.006711524962660483)Node19:0.0295526342198909)
+
+E[Non-syn subs/nucleotide site] tree: 
+	((Suricata_suricatta:0.0431333817064547,Hyaena_hyaena:0.02847988368593514)Node1:0.01172061725093831,((Panthera_tigris:0.001191416306767563,(Panthera_pardus:0,Panthera_leo:0.001191785564948311)Node7:0.001192548532231892)Node5:0.00282838176220464,(((Lynx_pardinus:0.001784810521883419,Felis_catus:0.001189183116027384)Node12:0.0005949305452217915,(Puma_concolor:4.810549290859469e-19,Puma_yagouaroundi:4.307856196204355e-19)Node15:0)Node11:0,Acinonyx_jubatus:0)Node10:0.001950842450926895)Node4:0.01732857376989663,((Canis_lupus:0.01654968549259578,(Vulpes_vulpes:0.0005021660569367322,Vulpes_lagopus:0.0006802545933924166)Node22:0.005652877855786523)Node20:0.04268967037747574,((((Enhydra_lutris:0.002924411547527705,Lontra_canadensis:0.009560277050733755)Node28:0.007189246659143499,(Mustela_putorius:0.006342354341562387,Mustela_erminea:0.004252056068929051)Node31:0.01164442757761687)Node27:0.05590894276842221,(((Callorhinus_ursinus:0.005538389185713834,(Zalophus_californianus:0.001239743650340671,Eumetopias_jubatus:0.000615201247968171)Node38:0.00487565230264314)Node36:0.005393527305615368,Odobenus_rosmarus:0.006727896692098087)Node35:0.004348782260006119,(((Leptonychotes_weddellii:0.006495927468089612,Mirounga_leonina:0.004374182456264782)Node44:0.001041247140328826,Neomonachus_schauinslandi:0.00355317096610866)Node43:0.007500763891972612,(Phoca_vitulina:0,Halichoerus_grypus:0.001216977473160922)Node48:0.009753631312520362)Node42:0.001892901399010212)Node34:0.005234838113074287)Node26:0.004876545470224885,(Ailuropoda_melanoleuca:0.004650279865273594,((Ursus_thibetanus:0.0005882924070432161,Ursus_americanus:0.002352954669718601)Node54:0,(Ursus_arctos:0,Ursus_maritimus:0.0005875158772391892)Node57:0.000587803710603535)Node53:0.00366631921225428)Node51:0.01434084522065556)Node25:0.008857230714235661)Node19:0.02504990016699264)
+
+dS tree: 
+	((Suricata_suricatta:0.09259732025769857,Hyaena_hyaena:0.07747706188873746)Node1:0.01202873024256865,((Panthera_tigris:0,(Panthera_pardus:0.008153443286069326,Panthera_leo:0.002725328518671381)Node7:0.002705063036131479)Node5:0.00988137428875549,(((Lynx_pardinus:0.01644174642162545,Felis_catus:0.01644349503973461)Node12:0.00511539024898217,(Puma_concolor:0,Puma_yagouaroundi:0)Node15:0.005631879595942044)Node11:0,Acinonyx_jubatus:0.003303503318511587)Node10:0.01406817054509544)Node4:0.04993778366919314,((Canis_lupus:0.02642821451699216,(Vulpes_vulpes:0.006256665509372137,Vulpes_lagopus:0.001715635052691913)Node22:0.01464884916258593)Node20:0.1434817902789127,((((Enhydra_lutris:0.02170774344002305,Lontra_canadensis:0.01782957439999255)Node28:0.0124078373183045,(Mustela_putorius:0.01668268752186396,Mustela_erminea:0.005646301683969934)Node31:0.01145385375400395)Node27:0.08610043750881315,(((Callorhinus_ursinus:0.008378850909019769,(Zalophus_californianus:0.002796368411425368,Eumetopias_jubatus:0)Node38:0.003707022027519454)Node36:0.01560640591389203,Odobenus_rosmarus:0.009748842746477273)Node35:0.02118771004448348,(((Leptonychotes_weddellii:0.00829330068594482,Mirounga_leonina:0.005540488974405008)Node44:0.002083648931751682,Neomonachus_schauinslandi:0.009026824421738253)Node43:0.01152619180437632,(Phoca_vitulina:0.004788766539860486,Halichoerus_grypus:0.003475013913727606)Node48:0.01042918615566387)Node42:0.01672283312813136)Node34:0.04142523866541518)Node26:0.01955886491789021,(Ailuropoda_melanoleuca:0.022806184332965,((Ursus_thibetanus:0.002658893840725178,Ursus_americanus:0)Node54:0.002715010535041609,(Ursus_arctos:0.002706531298340886,Ursus_maritimus:0.007939081721349502)Node57:0)Node53:0.029164307961187)Node51:0.05673793893935222)Node25:0.02976359542212083)Node19:0.1310570479097319)
+
+dN tree: 
+	((Suricata_suricatta:0.05887375803874314,Hyaena_hyaena:0.0388728570485903)Node1:0.01599774366852391,((Panthera_tigris:0.001626191886493099,(Panthera_pardus:0,Panthera_leo:0.001626695895590627)Node7:0.001627737287419135)Node5:0.003860524190810464,(((Lynx_pardinus:0.002436129481464766,Felis_catus:0.001623143752400891)Node12:0.0008120345677418529,(Puma_concolor:6.566030850790585e-19,Puma_yagouaroundi:5.879893329186444e-19)Node15:0)Node11:0,Acinonyx_jubatus:0)Node10:0.00266275033126817)Node4:0.0236521742308171,((Canis_lupus:0.02258905146689614,(Vulpes_vulpes:0.00068541815553819,Vulpes_lagopus:0.0009284953498124534)Node22:0.007715744741951037)Node20:0.05826812610385019,((((Enhydra_lutris:0.003991597483048447,Lontra_canadensis:0.01304904497631866)Node28:0.009812770331149769,(Mustela_putorius:0.0086568272676204,Mustela_erminea:0.005803730434885817)Node31:0.01589375060758786)Node27:0.07631141910344257,(((Callorhinus_ursinus:0.007559476487680857,(Zalophus_californianus:0.001692155004143867,Eumetopias_jubatus:0.000839702522387455)Node38:0.00665489146898718)Node36:0.007361751131111418,Odobenus_rosmarus:0.00918306300804069)Node35:0.005935754267569178,(((Leptonychotes_weddellii:0.008866442807481124,Mirounga_leonina:0.005970423587467306)Node44:0.001421222491096239,Neomonachus_schauinslandi:0.004849805868517478)Node43:0.01023796746304392,(Phoca_vitulina:0,Halichoerus_grypus:0.001661080918279945)Node48:0.01331295871490877)Node42:0.002583665239024113)Node34:0.00714515255350374)Node26:0.006656110574237344,(Ailuropoda_melanoleuca:0.006347275376268189,((Ursus_thibetanus:0.0008029740182209998,Ursus_americanus:0.00321160267107955)Node54:0,(Ursus_arctos:0,Ursus_maritimus:0.0008019141145922215)Node57:0.0008023069850600021)Node53:0.005004244546927164)Node51:0.01957415389634511)Node25:0.0120894406451141)Node19:0.03419119259794792)
+
+Estimating pairwise dN/dS: total of 465 analyses
