@@ -1,0 +1,940 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/models/codon/MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Already loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Loaded 'libv3/tasks/mpi.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../models/parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'IoGFrLAY.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'uuEiiWQe.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Loaded 'modules/grid_compute.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/grid_compute.ibf
+Variable 'WMhpagpb.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'JHBE_amh.model_pi' was not initialized prior to being used
+Model JHBE_amh.model assigned to Megaderma_lyra
+Model JHBE_amh.model assigned to Hipposideros_armiger
+Model JHBE_amh.model assigned to Rhinolophus_ferrumequinum
+Model JHBE_amh.model assigned to Node3
+Model JHBE_amh.model assigned to Node1
+Model JHBE_amh.model assigned to Pteropus_giganteus
+Model JHBE_amh.model assigned to Rousettus_aegyptiacus
+Model JHBE_amh.model assigned to Node6
+Model JHBE_amh.model assigned to Artibeus_jamaicensis
+Model JHBE_amh.model assigned to Phyllostomus_discolor
+Model JHBE_amh.model assigned to Node11
+Model JHBE_amh.model assigned to Desmodus_rotundus
+Model JHBE_amh.model assigned to Node10
+Model JHBE_amh.model assigned to Pipistrellus_pipistrellus
+Model JHBE_amh.model assigned to Eptesicus_fuscus
+Model JHBE_amh.model assigned to Node19
+Model JHBE_amh.model assigned to Aeorestes_cinereus
+Model JHBE_amh.model assigned to Node18
+Model JHBE_amh.model assigned to Myotis_myotis
+Model JHBE_amh.model assigned to Myotis_lucifugus
+Model JHBE_amh.model assigned to Node23
+Model JHBE_amh.model assigned to Node17
+Model JHBE_amh.model assigned to Miniopterus_natalensis
+Model JHBE_amh.model assigned to Node16
+Model JHBE_amh.model assigned to Molossus_molossus
+Model JHBE_amh.model assigned to Node15
+Model JHBE_amh.model assigned to Node9
+The tips of the tree:JHBE_amh.tree_0 were matched with the species names from the data in the following numeric order (0-based) {5,4,13,12,14,1,10,2,11,3,0,9,8,6,7}
+
+Pseudo-optimal path's cost 10680 vs 18522 for 1..k=> a 1.73427 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'JHBE_amh.tree_0.Megaderma_lyra.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Megaderma_lyra.t=139.6178361191338
+Variable 'JHBE_amh.tree_0.Hipposideros_armiger.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Hipposideros_armiger.t=123.2538755790894
+Variable 'JHBE_amh.tree_0.Rhinolophus_ferrumequinum.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Rhinolophus_ferrumequinum.t=123.2538755790894
+Variable 'JHBE_amh.tree_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Node3.t=16.36396054004448
+Variable 'JHBE_amh.tree_0.Node1.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Node1.t=15.66192747939809
+Variable 'JHBE_amh.tree_0.Pteropus_giganteus.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Pteropus_giganteus.t=73.20584244759205
+Variable 'JHBE_amh.tree_0.Rousettus_aegyptiacus.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Rousettus_aegyptiacus.t=73.20584244759205
+Variable 'JHBE_amh.tree_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Node6.t=82.07392115093988
+Variable 'JHBE_amh.tree_0.Artibeus_jamaicensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Artibeus_jamaicensis.t=78.60442390510252
+Variable 'JHBE_amh.tree_0.Phyllostomus_discolor.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Phyllostomus_discolor.t=78.60442390510252
+Variable 'JHBE_amh.tree_0.Node11.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Node11.t=2.673619860717773e-10
+Variable 'JHBE_amh.tree_0.Desmodus_rotundus.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Desmodus_rotundus.t=78.60442390510252
+Variable 'JHBE_amh.tree_0.Node10.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Node10.t=62.15103011231207
+Variable 'JHBE_amh.tree_0.Pipistrellus_pipistrellus.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Pipistrellus_pipistrellus.t=75.3960800722412
+Variable 'JHBE_amh.tree_0.Eptesicus_fuscus.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Eptesicus_fuscus.t=75.3960800722412
+Variable 'JHBE_amh.tree_0.Node19.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Node19.t=2.138895888574219
+Variable 'JHBE_amh.tree_0.Aeorestes_cinereus.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Aeorestes_cinereus.t=77.53497596081543
+Variable 'JHBE_amh.tree_0.Node18.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Node18.t=6.209014243041404
+Variable 'JHBE_amh.tree_0.Myotis_myotis.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Myotis_myotis.t=48.5100161687161
+Variable 'JHBE_amh.tree_0.Myotis_lucifugus.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Myotis_lucifugus.t=48.5100161687161
+Variable 'JHBE_amh.tree_0.Node23.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Node23.t=35.23397403514073
+Variable 'JHBE_amh.tree_0.Node17.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Node17.t=36.12970609565276
+Variable 'JHBE_amh.tree_0.Miniopterus_natalensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Miniopterus_natalensis.t=119.8736962995096
+Variable 'JHBE_amh.tree_0.Node16.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Node16.t=11.66840084780486
+Variable 'JHBE_amh.tree_0.Molossus_molossus.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Molossus_molossus.t=131.5420971473145
+Variable 'JHBE_amh.tree_0.Node15.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Node15.t=9.213356870100172
+Variable 'JHBE_amh.tree_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: JHBE_amh.tree_0.Node9.t=33.68204232473921
+Variable 'JHBE_amh.JHBE_amh.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 1225-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+JHBE_amh.model.theta_GT = 0.25
+JHBE_amh.model.theta_CT = 1
+JHBE_amh.model.theta_AC = 0.25
+JHBE_amh.model.theta_CG = 0.25
+JHBE_amh.model.theta_AT = 0.25
+JHBE_amh.tree_0.Megaderma_lyra.t = 139.618
+JHBE_amh.tree_0.Hipposideros_armiger.t = 123.254
+JHBE_amh.tree_0.Rhinolophus_ferrumequinum.t = 123.254
+JHBE_amh.tree_0.Node3.t = 16.364
+JHBE_amh.tree_0.Node1.t = 15.6619
+JHBE_amh.tree_0.Pteropus_giganteus.t = 73.2058
+JHBE_amh.tree_0.Rousettus_aegyptiacus.t = 73.2058
+JHBE_amh.tree_0.Node6.t = 82.0739
+JHBE_amh.tree_0.Artibeus_jamaicensis.t = 78.6044
+JHBE_amh.tree_0.Phyllostomus_discolor.t = 78.6044
+JHBE_amh.tree_0.Node11.t = 2.67362e-10
+JHBE_amh.tree_0.Desmodus_rotundus.t = 78.6044
+JHBE_amh.tree_0.Node10.t = 62.151
+JHBE_amh.tree_0.Pipistrellus_pipistrellus.t = 75.3961
+JHBE_amh.tree_0.Eptesicus_fuscus.t = 75.3961
+JHBE_amh.tree_0.Node19.t = 2.1389
+JHBE_amh.tree_0.Aeorestes_cinereus.t = 77.535
+JHBE_amh.tree_0.Node18.t = 6.20901
+JHBE_amh.tree_0.Myotis_myotis.t = 48.51
+JHBE_amh.tree_0.Myotis_lucifugus.t = 48.51
+JHBE_amh.tree_0.Node23.t = 35.234
+JHBE_amh.tree_0.Node17.t = 36.1297
+JHBE_amh.tree_0.Miniopterus_natalensis.t = 119.874
+JHBE_amh.tree_0.Node16.t = 11.6684
+JHBE_amh.tree_0.Molossus_molossus.t = 131.542
+JHBE_amh.tree_0.Node15.t = 9.21336
+JHBE_amh.tree_0.Node9.t = 33.682
+Optimization finished in 53 loop passes.
+4562 likelihood evaluation calls and 34394 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'JHBE_amh.option' was not initialized prior to being used
+Variable 'relax.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'HvltebDh.initial_value' was not initialized prior to being used
+Variable 'YtvwRXXb.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 7142-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.295827
+frequencies._aux.CF3x4.p0_1 = 0.259778
+frequencies._aux.CF3x4.p0_2 = 0.607715
+frequencies._aux.CF3x4.p1_0 = 0.330324
+frequencies._aux.CF3x4.p1_1 = 0.307451
+frequencies._aux.CF3x4.p1_2 = 0.458992
+frequencies._aux.CF3x4.p2_0 = 0.280248
+frequencies._aux.CF3x4.p2_1 = 0.320637
+frequencies._aux.CF3x4.p2_2 = 0.434519
+Optimization finished in 6 loop passes.
+212 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'YtvwRXXb.model_MGREV_pi' was not initialized prior to being used
+Model YtvwRXXb.model_MGREV assigned to Megaderma_lyra
+Model YtvwRXXb.model_MGREV assigned to Hipposideros_armiger
+Model YtvwRXXb.model_MGREV assigned to Rhinolophus_ferrumequinum
+Model YtvwRXXb.model_MGREV assigned to Node3
+Model YtvwRXXb.model_MGREV assigned to Node1
+Model YtvwRXXb.model_MGREV assigned to Pteropus_giganteus
+Model YtvwRXXb.model_MGREV assigned to Rousettus_aegyptiacus
+Model YtvwRXXb.model_MGREV assigned to Node6
+Model YtvwRXXb.model_MGREV assigned to Artibeus_jamaicensis
+Model YtvwRXXb.model_MGREV assigned to Phyllostomus_discolor
+Model YtvwRXXb.model_MGREV assigned to Node11
+Model YtvwRXXb.model_MGREV assigned to Desmodus_rotundus
+Model YtvwRXXb.model_MGREV assigned to Node10
+Model YtvwRXXb.model_MGREV assigned to Pipistrellus_pipistrellus
+Model YtvwRXXb.model_MGREV assigned to Eptesicus_fuscus
+Model YtvwRXXb.model_MGREV assigned to Node19
+Model YtvwRXXb.model_MGREV assigned to Aeorestes_cinereus
+Model YtvwRXXb.model_MGREV assigned to Node18
+Model YtvwRXXb.model_MGREV assigned to Myotis_myotis
+Model YtvwRXXb.model_MGREV assigned to Myotis_lucifugus
+Model YtvwRXXb.model_MGREV assigned to Node23
+Model YtvwRXXb.model_MGREV assigned to Node17
+Model YtvwRXXb.model_MGREV assigned to Miniopterus_natalensis
+Model YtvwRXXb.model_MGREV assigned to Node16
+Model YtvwRXXb.model_MGREV assigned to Molossus_molossus
+Model YtvwRXXb.model_MGREV assigned to Node15
+Model YtvwRXXb.model_MGREV assigned to Node9
+The tips of the tree:YtvwRXXb.tree_0 were matched with the species names from the data in the following numeric order (0-based) {5,4,13,12,14,1,10,2,11,3,0,9,8,6,7}
+
+Pseudo-optimal path's cost 11181 vs 14407 for 1..k=> a 1.28853 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'YtvwRXXb.YtvwRXXb.likelihoodFunction' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Megaderma_lyra.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Hipposideros_armiger.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Rhinolophus_ferrumequinum.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node3.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node1.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Pteropus_giganteus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Rousettus_aegyptiacus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Artibeus_jamaicensis.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Phyllostomus_discolor.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node11.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Desmodus_rotundus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node10.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Pipistrellus_pipistrellus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Eptesicus_fuscus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node19.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Aeorestes_cinereus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node18.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Myotis_myotis.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Myotis_lucifugus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node23.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node17.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Miniopterus_natalensis.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node16.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Molossus_molossus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node15.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node9.alpha' was not initialized prior to being used
+Site 172 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 172 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 273 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 43-th LF evaluation.
+Initial guess for YtvwRXXb.tree_0.Megaderma_lyra.alpha is 2.75489e-05
+Initial guess for YtvwRXXb.tree_0.Node3.alpha is 2.86465e-07
+Initial guess for YtvwRXXb.tree_0.Hipposideros_armiger.alpha is 1.77382e-05
+Initial guess for YtvwRXXb.tree_0.Rhinolophus_ferrumequinum.alpha is 1.8644e-05
+Initial guess for YtvwRXXb.tree_0.Node6.alpha is 5.10589e-06
+Initial guess for YtvwRXXb.tree_0.Pteropus_giganteus.alpha is 7.29984e-06
+Initial guess for YtvwRXXb.tree_0.Rousettus_aegyptiacus.alpha is 1.11771e-05
+Initial guess for YtvwRXXb.tree_0.Node9.alpha is 1.27514e-05
+Initial guess for YtvwRXXb.tree_0.Node10.alpha is 9.91821e-06
+Initial guess for YtvwRXXb.tree_0.Node11.alpha is 1.45277e-05
+Initial guess for YtvwRXXb.tree_0.Artibeus_jamaicensis.alpha is 1.51961e-05
+Initial guess for YtvwRXXb.tree_0.Phyllostomus_discolor.alpha is 2.79082e-05
+Initial guess for YtvwRXXb.tree_0.Desmodus_rotundus.alpha is 1.27353e-05
+Initial guess for YtvwRXXb.tree_0.Node15.alpha is 2.841e-06
+Initial guess for YtvwRXXb.tree_0.Node16.alpha is 2.04088e-06
+Initial guess for YtvwRXXb.tree_0.Node17.alpha is 1.31645e-06
+Initial guess for YtvwRXXb.tree_0.Node18.alpha is 1.01553e-05
+Initial guess for YtvwRXXb.tree_0.Node19.alpha is 2.57936e-06
+Initial guess for YtvwRXXb.tree_0.Pipistrellus_pipistrellus.alpha is 1.38825e-05
+Initial guess for YtvwRXXb.tree_0.Eptesicus_fuscus.alpha is 8.97861e-06
+Initial guess for YtvwRXXb.tree_0.Aeorestes_cinereus.alpha is 1.70538e-05
+Initial guess for YtvwRXXb.tree_0.Node23.alpha is 4.1682e-07
+Initial guess for YtvwRXXb.tree_0.Myotis_myotis.alpha is 5.88812e-06
+Initial guess for YtvwRXXb.tree_0.Myotis_lucifugus.alpha is 6.5635e-06
+Initial guess for YtvwRXXb.tree_0.Miniopterus_natalensis.alpha is 2.34151e-05
+Initial guess for YtvwRXXb.tree_0.Molossus_molossus.alpha is 3.63806e-05
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YtvwRXXb.model_MGREV.theta_GT = 1
+YtvwRXXb.model_MGREV.theta_CT = 1
+YtvwRXXb.model_MGREV.theta_CG = 1
+YtvwRXXb.model_MGREV.theta_AT = 1
+YtvwRXXb.model_MGREV.theta_AC = 1
+YtvwRXXb.model_MGREV.omega_0 = 1
+YtvwRXXb.tree_0.Megaderma_lyra.alpha = 2.75489e-05
+YtvwRXXb.tree_0.Hipposideros_armiger.alpha = 1.77382e-05
+YtvwRXXb.tree_0.Rhinolophus_ferrumequinum.alpha = 1.8644e-05
+YtvwRXXb.tree_0.Node3.alpha = 2.86465e-07
+YtvwRXXb.tree_0.Node1.alpha = 0.1
+YtvwRXXb.tree_0.Pteropus_giganteus.alpha = 7.29984e-06
+YtvwRXXb.tree_0.Rousettus_aegyptiacus.alpha = 1.11771e-05
+YtvwRXXb.tree_0.Node6.alpha = 5.10589e-06
+YtvwRXXb.tree_0.Artibeus_jamaicensis.alpha = 1.51961e-05
+YtvwRXXb.tree_0.Phyllostomus_discolor.alpha = 2.79082e-05
+YtvwRXXb.tree_0.Node11.alpha = 1.45277e-05
+YtvwRXXb.tree_0.Desmodus_rotundus.alpha = 1.27353e-05
+YtvwRXXb.tree_0.Node10.alpha = 9.91821e-06
+YtvwRXXb.tree_0.Pipistrellus_pipistrellus.alpha = 1.38825e-05
+YtvwRXXb.tree_0.Eptesicus_fuscus.alpha = 8.97861e-06
+YtvwRXXb.tree_0.Node19.alpha = 2.57936e-06
+YtvwRXXb.tree_0.Aeorestes_cinereus.alpha = 1.70538e-05
+YtvwRXXb.tree_0.Node18.alpha = 1.01553e-05
+YtvwRXXb.tree_0.Myotis_myotis.alpha = 5.88812e-06
+YtvwRXXb.tree_0.Myotis_lucifugus.alpha = 6.5635e-06
+YtvwRXXb.tree_0.Node23.alpha = 4.1682e-07
+YtvwRXXb.tree_0.Node17.alpha = 1.31645e-06
+YtvwRXXb.tree_0.Miniopterus_natalensis.alpha = 2.34151e-05
+YtvwRXXb.tree_0.Node16.alpha = 2.04088e-06
+YtvwRXXb.tree_0.Molossus_molossus.alpha = 3.63806e-05
+YtvwRXXb.tree_0.Node15.alpha = 2.841e-06
+YtvwRXXb.tree_0.Node9.alpha = 1.27514e-05
+YtvwRXXb.model_MGREV.omega_1 = 1
+Failing bound checks on YtvwRXXb.tree_0.Node23.beta =         10003.83935903158
+Optimization finished in 38 loop passes.
+3896 likelihood evaluation calls and 28034 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6944-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.295827
+frequencies._aux.CF3x4.p0_1 = 0.259778
+frequencies._aux.CF3x4.p0_2 = 0.607715
+frequencies._aux.CF3x4.p1_0 = 0.330324
+frequencies._aux.CF3x4.p1_1 = 0.307451
+frequencies._aux.CF3x4.p1_2 = 0.458992
+frequencies._aux.CF3x4.p2_0 = 0.280248
+frequencies._aux.CF3x4.p2_1 = 0.320637
+frequencies._aux.CF3x4.p2_2 = 0.434519
+Optimization finished in 6 loop passes.
+213 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'YtvwRXXb.model_MGREV_pi' was not initialized prior to being used
+Model YtvwRXXb.model_MGREV assigned to Megaderma_lyra
+Model YtvwRXXb.model_MGREV assigned to Hipposideros_armiger
+Model YtvwRXXb.model_MGREV assigned to Rhinolophus_ferrumequinum
+Model YtvwRXXb.model_MGREV assigned to Node3
+Model YtvwRXXb.model_MGREV assigned to Node1
+Model YtvwRXXb.model_MGREV assigned to Pteropus_giganteus
+Model YtvwRXXb.model_MGREV assigned to Rousettus_aegyptiacus
+Model YtvwRXXb.model_MGREV assigned to Node6
+Model YtvwRXXb.model_MGREV assigned to Artibeus_jamaicensis
+Model YtvwRXXb.model_MGREV assigned to Phyllostomus_discolor
+Model YtvwRXXb.model_MGREV assigned to Node11
+Model YtvwRXXb.model_MGREV assigned to Desmodus_rotundus
+Model YtvwRXXb.model_MGREV assigned to Node10
+Model YtvwRXXb.model_MGREV assigned to Pipistrellus_pipistrellus
+Model YtvwRXXb.model_MGREV assigned to Eptesicus_fuscus
+Model YtvwRXXb.model_MGREV assigned to Node19
+Model YtvwRXXb.model_MGREV assigned to Aeorestes_cinereus
+Model YtvwRXXb.model_MGREV assigned to Node18
+Model YtvwRXXb.model_MGREV assigned to Myotis_myotis
+Model YtvwRXXb.model_MGREV assigned to Myotis_lucifugus
+Model YtvwRXXb.model_MGREV assigned to Node23
+Model YtvwRXXb.model_MGREV assigned to Node17
+Model YtvwRXXb.model_MGREV assigned to Miniopterus_natalensis
+Model YtvwRXXb.model_MGREV assigned to Node16
+Model YtvwRXXb.model_MGREV assigned to Molossus_molossus
+Model YtvwRXXb.model_MGREV assigned to Node15
+Model YtvwRXXb.model_MGREV assigned to Node9
+The tips of the tree:YtvwRXXb.tree_0 were matched with the species names from the data in the following numeric order (0-based) {5,4,13,12,14,1,10,2,11,3,0,9,8,6,7}
+
+Pseudo-optimal path's cost 11181 vs 14407 for 1..k=> a 1.28853 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'YtvwRXXb.tree_0.Molossus_molossus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node16.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node15.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Miniopterus_natalensis.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Megaderma_lyra.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node17.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Rhinolophus_ferrumequinum.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Pteropus_giganteus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node23.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Myotis_lucifugus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Myotis_myotis.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node18.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Hipposideros_armiger.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Aeorestes_cinereus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Artibeus_jamaicensis.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node19.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Eptesicus_fuscus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Pipistrellus_pipistrellus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node10.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node3.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Desmodus_rotundus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Rousettus_aegyptiacus.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node11.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Phyllostomus_discolor.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node1.alpha' was not initialized prior to being used
+Variable 'YtvwRXXb.tree_0.Node9.alpha' was not initialized prior to being used
+Site 172 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 172 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 273 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 42-th LF evaluation.
+Initial guess for YtvwRXXb.tree_0.Megaderma_lyra.alpha is 2.75489e-05
+Initial guess for YtvwRXXb.tree_0.Node3.alpha is 2.86465e-07
+Initial guess for YtvwRXXb.tree_0.Hipposideros_armiger.alpha is 1.77382e-05
+Initial guess for YtvwRXXb.tree_0.Rhinolophus_ferrumequinum.alpha is 1.8644e-05
+Initial guess for YtvwRXXb.tree_0.Node6.alpha is 5.10589e-06
+Initial guess for YtvwRXXb.tree_0.Pteropus_giganteus.alpha is 7.29984e-06
+Initial guess for YtvwRXXb.tree_0.Rousettus_aegyptiacus.alpha is 1.11771e-05
+Initial guess for YtvwRXXb.tree_0.Node9.alpha is 1.27514e-05
+Initial guess for YtvwRXXb.tree_0.Node10.alpha is 9.91821e-06
+Initial guess for YtvwRXXb.tree_0.Node11.alpha is 1.45277e-05
+Initial guess for YtvwRXXb.tree_0.Artibeus_jamaicensis.alpha is 1.51961e-05
+Initial guess for YtvwRXXb.tree_0.Phyllostomus_discolor.alpha is 2.79082e-05
+Initial guess for YtvwRXXb.tree_0.Desmodus_rotundus.alpha is 1.27353e-05
+Initial guess for YtvwRXXb.tree_0.Node15.alpha is 2.841e-06
+Initial guess for YtvwRXXb.tree_0.Node16.alpha is 2.04088e-06
+Initial guess for YtvwRXXb.tree_0.Node17.alpha is 1.31645e-06
+Initial guess for YtvwRXXb.tree_0.Node18.alpha is 1.01553e-05
+Initial guess for YtvwRXXb.tree_0.Node19.alpha is 2.57936e-06
+Initial guess for YtvwRXXb.tree_0.Pipistrellus_pipistrellus.alpha is 1.38825e-05
+Initial guess for YtvwRXXb.tree_0.Eptesicus_fuscus.alpha is 8.97861e-06
+Initial guess for YtvwRXXb.tree_0.Aeorestes_cinereus.alpha is 1.70538e-05
+Initial guess for YtvwRXXb.tree_0.Node23.alpha is 4.1682e-07
+Initial guess for YtvwRXXb.tree_0.Myotis_myotis.alpha is 5.88812e-06
+Initial guess for YtvwRXXb.tree_0.Myotis_lucifugus.alpha is 6.5635e-06
+Initial guess for YtvwRXXb.tree_0.Miniopterus_natalensis.alpha is 2.34151e-05
+Initial guess for YtvwRXXb.tree_0.Molossus_molossus.alpha is 3.63806e-05
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YtvwRXXb.model_MGREV.theta_CG = 1
+YtvwRXXb.model_MGREV.theta_CT = 1
+YtvwRXXb.model_MGREV.theta_GT = 1
+YtvwRXXb.model_MGREV.theta_AT = 1
+YtvwRXXb.model_MGREV.theta_AC = 1
+YtvwRXXb.model_MGREV.omega_0 = 1
+YtvwRXXb.tree_0.Megaderma_lyra.alpha = 2.75489e-05
+YtvwRXXb.tree_0.Hipposideros_armiger.alpha = 1.77382e-05
+YtvwRXXb.tree_0.Rhinolophus_ferrumequinum.alpha = 1.8644e-05
+YtvwRXXb.tree_0.Node3.alpha = 2.86465e-07
+YtvwRXXb.tree_0.Node1.alpha = 0.1
+YtvwRXXb.tree_0.Pteropus_giganteus.alpha = 7.29984e-06
+YtvwRXXb.tree_0.Rousettus_aegyptiacus.alpha = 1.11771e-05
+YtvwRXXb.tree_0.Node6.alpha = 5.10589e-06
+YtvwRXXb.tree_0.Artibeus_jamaicensis.alpha = 1.51961e-05
+YtvwRXXb.tree_0.Phyllostomus_discolor.alpha = 2.79082e-05
+YtvwRXXb.tree_0.Node11.alpha = 1.45277e-05
+YtvwRXXb.tree_0.Desmodus_rotundus.alpha = 1.27353e-05
+YtvwRXXb.tree_0.Node10.alpha = 9.91821e-06
+YtvwRXXb.tree_0.Pipistrellus_pipistrellus.alpha = 1.38825e-05
+YtvwRXXb.tree_0.Eptesicus_fuscus.alpha = 8.97861e-06
+YtvwRXXb.tree_0.Node19.alpha = 2.57936e-06
+YtvwRXXb.tree_0.Aeorestes_cinereus.alpha = 1.70538e-05
+YtvwRXXb.tree_0.Node18.alpha = 1.01553e-05
+YtvwRXXb.tree_0.Myotis_myotis.alpha = 5.88812e-06
+YtvwRXXb.tree_0.Myotis_lucifugus.alpha = 6.5635e-06
+YtvwRXXb.tree_0.Node23.alpha = 4.1682e-07
+YtvwRXXb.tree_0.Node17.alpha = 1.31645e-06
+YtvwRXXb.tree_0.Miniopterus_natalensis.alpha = 2.34151e-05
+YtvwRXXb.tree_0.Node16.alpha = 2.04088e-06
+YtvwRXXb.tree_0.Molossus_molossus.alpha = 3.63806e-05
+YtvwRXXb.tree_0.Node15.alpha = 2.841e-06
+YtvwRXXb.tree_0.Node9.alpha = 1.27514e-05
+YtvwRXXb.model_MGREV.omega_1 = 1
+Failing bound checks on YtvwRXXb.tree_0.Node23.beta =         10003.83935903158
+Optimization finished in 42 loop passes.
+4150 likelihood evaluation calls and 30117 matrix exponentiations calls were made
+
+Overwritten previously defined function:'XrFkLlTq.rate_generator'
+Overwritten previously defined function:'XrFkLlTq.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 7042-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.295827
+frequencies._aux.CF3x4.p0_1 = 0.259778
+frequencies._aux.CF3x4.p0_2 = 0.607715
+frequencies._aux.CF3x4.p1_0 = 0.330324
+frequencies._aux.CF3x4.p1_1 = 0.307451
+frequencies._aux.CF3x4.p1_2 = 0.458992
+frequencies._aux.CF3x4.p2_0 = 0.280248
+frequencies._aux.CF3x4.p2_1 = 0.320637
+frequencies._aux.CF3x4.p2_2 = 0.434519
+Optimization finished in 6 loop passes.
+213 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.test_pi' was not initialized prior to being used
+Overwritten previously defined function:'XrFkLlTq.rate_generator'
+Overwritten previously defined function:'XrFkLlTq.rate_generator'
+Overwritten previously defined function:'XrFkLlTq.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6849-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.295827
+frequencies._aux.CF3x4.p0_1 = 0.259778
+frequencies._aux.CF3x4.p0_2 = 0.607715
+frequencies._aux.CF3x4.p1_0 = 0.330324
+frequencies._aux.CF3x4.p1_1 = 0.307451
+frequencies._aux.CF3x4.p1_2 = 0.458992
+frequencies._aux.CF3x4.p2_0 = 0.280248
+frequencies._aux.CF3x4.p2_1 = 0.320637
+frequencies._aux.CF3x4.p2_2 = 0.434519
+Optimization finished in 6 loop passes.
+213 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.reference_pi' was not initialized prior to being used
+No nodel was assigned to Megaderma_lyra
+No nodel was assigned to Hipposideros_armiger
+No nodel was assigned to Rhinolophus_ferrumequinum
+No nodel was assigned to Node3
+No nodel was assigned to Node1
+No nodel was assigned to Pteropus_giganteus
+No nodel was assigned to Rousettus_aegyptiacus
+No nodel was assigned to Node6
+No nodel was assigned to Artibeus_jamaicensis
+No nodel was assigned to Phyllostomus_discolor
+No nodel was assigned to Node11
+No nodel was assigned to Desmodus_rotundus
+No nodel was assigned to Node10
+No nodel was assigned to Pipistrellus_pipistrellus
+No nodel was assigned to Eptesicus_fuscus
+No nodel was assigned to Node19
+No nodel was assigned to Aeorestes_cinereus
+No nodel was assigned to Node18
+No nodel was assigned to Myotis_myotis
+No nodel was assigned to Myotis_lucifugus
+No nodel was assigned to Node23
+No nodel was assigned to Node17
+No nodel was assigned to Miniopterus_natalensis
+No nodel was assigned to Node16
+No nodel was assigned to Molossus_molossus
+No nodel was assigned to Node15
+No nodel was assigned to Node9
+The tips of the tree:rvoRWHsD.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {5,4,13,12,14,1,10,2,11,3,0,9,8,6,7}
+
+Pseudo-optimal path's cost 11181 vs 14407 for 1..k=> a 1.28853 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+Variable 'rvoRWHsD.tree_id_0.Megaderma_lyra.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Megaderma_lyra.t=0.7897725413300295
+Variable 'rvoRWHsD.tree_id_0.Hipposideros_armiger.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Hipposideros_armiger.t=0.4724116758477206
+Variable 'rvoRWHsD.tree_id_0.Rhinolophus_ferrumequinum.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Rhinolophus_ferrumequinum.t=0.4917454701676252
+Variable 'rvoRWHsD.tree_id_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node3.t=0.1677708741624158
+Variable 'rvoRWHsD.tree_id_0.Node1.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node1.t=0.1088096638888416
+Variable 'rvoRWHsD.tree_id_0.Pteropus_giganteus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Pteropus_giganteus.t=0.2922983758297511
+Variable 'rvoRWHsD.tree_id_0.Rousettus_aegyptiacus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Rousettus_aegyptiacus.t=0.1387649079103195
+Variable 'rvoRWHsD.tree_id_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node6.t=0.4547490896138109
+Variable 'rvoRWHsD.tree_id_0.Artibeus_jamaicensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Artibeus_jamaicensis.t=0.278616794730686
+Variable 'rvoRWHsD.tree_id_0.Phyllostomus_discolor.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Phyllostomus_discolor.t=0.651030694177447
+Variable 'rvoRWHsD.tree_id_0.Node11.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node11.t=0.1337514258359957
+Variable 'rvoRWHsD.tree_id_0.Desmodus_rotundus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Desmodus_rotundus.t=0.3002370521514361
+Variable 'rvoRWHsD.tree_id_0.Node10.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node10.t=0.4789216589814362
+Variable 'rvoRWHsD.tree_id_0.Pipistrellus_pipistrellus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Pipistrellus_pipistrellus.t=0.3984598777715261
+Variable 'rvoRWHsD.tree_id_0.Eptesicus_fuscus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Eptesicus_fuscus.t=0.1652876052053406
+Variable 'rvoRWHsD.tree_id_0.Node19.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node19.t=0.04620556904275104
+Variable 'rvoRWHsD.tree_id_0.Aeorestes_cinereus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Aeorestes_cinereus.t=0.4580125641682669
+Variable 'rvoRWHsD.tree_id_0.Node18.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node18.t=0.09497137406458156
+Variable 'rvoRWHsD.tree_id_0.Myotis_myotis.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Myotis_myotis.t=0.1303366062705055
+Variable 'rvoRWHsD.tree_id_0.Myotis_lucifugus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Myotis_lucifugus.t=0.162186692472883
+Variable 'rvoRWHsD.tree_id_0.Node23.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node23.t=0.1819215141644533
+Variable 'rvoRWHsD.tree_id_0.Node17.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node17.t=0.3479189056473275
+Variable 'rvoRWHsD.tree_id_0.Miniopterus_natalensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Miniopterus_natalensis.t=0.5985316298026309
+Variable 'rvoRWHsD.tree_id_0.Node16.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node16.t=0.06767895482707996
+Variable 'rvoRWHsD.tree_id_0.Molossus_molossus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Molossus_molossus.t=1.053558742478042
+Variable 'rvoRWHsD.tree_id_0.Node15.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node15.t=0.1183418098514533
+Variable 'rvoRWHsD.tree_id_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node9.t=0.3913278623157594
+Variable 'rvoRWHsD.rvoRWHsD.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 21-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.omega2 = 0.4601
+relax.reference.omega3 = 7.27482
+relax.reference.bsrel_mixture_aux_1 = 0.818182
+relax.test.theta_GT = 0.330876
+relax.test.theta_CT = 1.10135
+relax.reference.omega1 = 0.145496
+relax.reference.bsrel_mixture_aux_0 = 0.45
+relax.test.theta_AC = 0.648658
+relax.test.theta_CG = 0.487545
+relax.test.theta_AT = 0.28032
+relax.K = 1
+rvoRWHsD.tree_id_0.Megaderma_lyra.t = 0.789773
+rvoRWHsD.tree_id_0.Hipposideros_armiger.t = 0.472412
+rvoRWHsD.tree_id_0.Rhinolophus_ferrumequinum.t = 0.491745
+rvoRWHsD.tree_id_0.Node3.t = 0.167771
+rvoRWHsD.tree_id_0.Node1.t = 0.10881
+rvoRWHsD.tree_id_0.Pteropus_giganteus.t = 0.292298
+rvoRWHsD.tree_id_0.Rousettus_aegyptiacus.t = 0.138765
+rvoRWHsD.tree_id_0.Node6.t = 0.454749
+rvoRWHsD.tree_id_0.Artibeus_jamaicensis.t = 0.278617
+rvoRWHsD.tree_id_0.Phyllostomus_discolor.t = 0.651031
+rvoRWHsD.tree_id_0.Node11.t = 0.133751
+rvoRWHsD.tree_id_0.Desmodus_rotundus.t = 0.300237
+rvoRWHsD.tree_id_0.Node10.t = 0.478922
+rvoRWHsD.tree_id_0.Pipistrellus_pipistrellus.t = 0.39846
+rvoRWHsD.tree_id_0.Eptesicus_fuscus.t = 0.165288
+rvoRWHsD.tree_id_0.Node19.t = 0.0462056
+rvoRWHsD.tree_id_0.Aeorestes_cinereus.t = 0.458013
+rvoRWHsD.tree_id_0.Node18.t = 0.0949714
+rvoRWHsD.tree_id_0.Myotis_myotis.t = 0.130337
+rvoRWHsD.tree_id_0.Myotis_lucifugus.t = 0.162187
+rvoRWHsD.tree_id_0.Node23.t = 0.181922
+rvoRWHsD.tree_id_0.Node17.t = 0.347919
+rvoRWHsD.tree_id_0.Miniopterus_natalensis.t = 0.598532
+rvoRWHsD.tree_id_0.Node16.t = 0.067679
+rvoRWHsD.tree_id_0.Molossus_molossus.t = 1.05356
+rvoRWHsD.tree_id_0.Node15.t = 0.118342
+rvoRWHsD.tree_id_0.Node9.t = 0.391328
+Optimization finished in 141 loop passes.
+16202 likelihood evaluation calls and 566748 matrix exponentiations calls were made
+
+Variable 'MPI_NODE_COUNT' was not initialized prior to being used
+No nodel was assigned to Megaderma_lyra
+No nodel was assigned to Hipposideros_armiger
+No nodel was assigned to Rhinolophus_ferrumequinum
+No nodel was assigned to Node3
+No nodel was assigned to Node1
+No nodel was assigned to Pteropus_giganteus
+No nodel was assigned to Rousettus_aegyptiacus
+No nodel was assigned to Node6
+No nodel was assigned to Artibeus_jamaicensis
+No nodel was assigned to Phyllostomus_discolor
+No nodel was assigned to Node11
+No nodel was assigned to Desmodus_rotundus
+No nodel was assigned to Node10
+No nodel was assigned to Pipistrellus_pipistrellus
+No nodel was assigned to Eptesicus_fuscus
+No nodel was assigned to Node19
+No nodel was assigned to Aeorestes_cinereus
+No nodel was assigned to Node18
+No nodel was assigned to Myotis_myotis
+No nodel was assigned to Myotis_lucifugus
+No nodel was assigned to Node23
+No nodel was assigned to Node17
+No nodel was assigned to Miniopterus_natalensis
+No nodel was assigned to Node16
+No nodel was assigned to Molossus_molossus
+No nodel was assigned to Node15
+No nodel was assigned to Node9
+Likelihood function cleared because partition index '0' points to invalid components
+The tips of the tree:rvoRWHsD.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {5,4,13,12,14,1,10,2,11,3,0,9,8,6,7}
+
+Pseudo-optimal path's cost 11181 vs 14407 for 1..k=> a 1.28853 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_0 was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_1 was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+relax.test.omega1 was already constrained in estimators.SetGlobals2
+relax.test.omega2 was already constrained in estimators.SetGlobals2
+relax.test.omega3 was already constrained in estimators.SetGlobals2
+Variable 'rvoRWHsD.tree_id_0.Megaderma_lyra.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Megaderma_lyra.t=1.281582178125191
+Variable 'rvoRWHsD.tree_id_0.Hipposideros_armiger.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Hipposideros_armiger.t=0.6392826404085094
+Variable 'rvoRWHsD.tree_id_0.Rhinolophus_ferrumequinum.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Rhinolophus_ferrumequinum.t=0.700334837170846
+Variable 'rvoRWHsD.tree_id_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node3.t=0.214243747302937
+Variable 'rvoRWHsD.tree_id_0.Node1.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node1.t=0.1558933561640505
+Variable 'rvoRWHsD.tree_id_0.Pteropus_giganteus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Pteropus_giganteus.t=0.2233465586484206
+Variable 'rvoRWHsD.tree_id_0.Rousettus_aegyptiacus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Rousettus_aegyptiacus.t=0.3310385553639344
+Variable 'rvoRWHsD.tree_id_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node6.t=0.4693929381210944
+Variable 'rvoRWHsD.tree_id_0.Artibeus_jamaicensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Artibeus_jamaicensis.t=0.3827650395290207
+Variable 'rvoRWHsD.tree_id_0.Phyllostomus_discolor.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Phyllostomus_discolor.t=1.074163861501572
+Variable 'rvoRWHsD.tree_id_0.Node11.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node11.t=0.1681880089551266
+Variable 'rvoRWHsD.tree_id_0.Desmodus_rotundus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Desmodus_rotundus.t=0.4234512494182053
+Variable 'rvoRWHsD.tree_id_0.Node10.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node10.t=0.6863386936461985
+Variable 'rvoRWHsD.tree_id_0.Pipistrellus_pipistrellus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Pipistrellus_pipistrellus.t=0.5515043812787837
+Variable 'rvoRWHsD.tree_id_0.Eptesicus_fuscus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Eptesicus_fuscus.t=0.2190459829855292
+Variable 'rvoRWHsD.tree_id_0.Node19.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node19.t=0.05672813312945361
+Variable 'rvoRWHsD.tree_id_0.Aeorestes_cinereus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Aeorestes_cinereus.t=0.7038780138008867
+Variable 'rvoRWHsD.tree_id_0.Node18.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node18.t=0.1292841174197444
+Variable 'rvoRWHsD.tree_id_0.Myotis_myotis.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Myotis_myotis.t=0.1689070390263211
+Variable 'rvoRWHsD.tree_id_0.Myotis_lucifugus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Myotis_lucifugus.t=0.2275025209422122
+Variable 'rvoRWHsD.tree_id_0.Node23.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node23.t=0.2311473449811058
+Variable 'rvoRWHsD.tree_id_0.Node17.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node17.t=0.5144902297063304
+Variable 'rvoRWHsD.tree_id_0.Miniopterus_natalensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Miniopterus_natalensis.t=0.9528803040334267
+Variable 'rvoRWHsD.tree_id_0.Node16.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node16.t=0.08522920403100599
+Variable 'rvoRWHsD.tree_id_0.Molossus_molossus.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Molossus_molossus.t=1.725591063411169
+Variable 'rvoRWHsD.tree_id_0.Node15.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node15.t=0.1455292717931469
+Variable 'rvoRWHsD.tree_id_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: rvoRWHsD.tree_id_0.Node9.t=0.5413354320059073
+Auto-benchmarked an optimal number (7) of threads.
+Set GUI update interval to every 21-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.omega2 = 1
+relax.reference.omega3 = 10.9977
+relax.reference.bsrel_mixture_aux_1 = 0.921615
+relax.test.theta_GT = 0.298455
+relax.test.theta_CT = 1.08702
+relax.reference.omega1 = 0
+relax.reference.bsrel_mixture_aux_0 = 0.549659
+relax.test.theta_AC = 0.596277
+relax.test.theta_CG = 0.431883
+relax.test.theta_AT = 0.224943
+relax.K = 1
+rvoRWHsD.tree_id_0.Megaderma_lyra.t = 1.28158
+rvoRWHsD.tree_id_0.Hipposideros_armiger.t = 0.639283
+rvoRWHsD.tree_id_0.Rhinolophus_ferrumequinum.t = 0.700335
+rvoRWHsD.tree_id_0.Node3.t = 0.214244
+rvoRWHsD.tree_id_0.Node1.t = 0.155893
+rvoRWHsD.tree_id_0.Pteropus_giganteus.t = 0.223347
+rvoRWHsD.tree_id_0.Rousettus_aegyptiacus.t = 0.331039
+rvoRWHsD.tree_id_0.Node6.t = 0.469393
+rvoRWHsD.tree_id_0.Artibeus_jamaicensis.t = 0.382765
+rvoRWHsD.tree_id_0.Phyllostomus_discolor.t = 1.07416
+rvoRWHsD.tree_id_0.Node11.t = 0.168188
+rvoRWHsD.tree_id_0.Desmodus_rotundus.t = 0.423451
+rvoRWHsD.tree_id_0.Node10.t = 0.686339
+rvoRWHsD.tree_id_0.Pipistrellus_pipistrellus.t = 0.551504
+rvoRWHsD.tree_id_0.Eptesicus_fuscus.t = 0.219046
+rvoRWHsD.tree_id_0.Node19.t = 0.0567281
+rvoRWHsD.tree_id_0.Aeorestes_cinereus.t = 0.703878
+rvoRWHsD.tree_id_0.Node18.t = 0.129284
+rvoRWHsD.tree_id_0.Myotis_myotis.t = 0.168907
+rvoRWHsD.tree_id_0.Myotis_lucifugus.t = 0.227503
+rvoRWHsD.tree_id_0.Node23.t = 0.231147
+rvoRWHsD.tree_id_0.Node17.t = 0.51449
+rvoRWHsD.tree_id_0.Miniopterus_natalensis.t = 0.95288
+rvoRWHsD.tree_id_0.Node16.t = 0.0852292
+rvoRWHsD.tree_id_0.Molossus_molossus.t = 1.72559
+rvoRWHsD.tree_id_0.Node15.t = 0.145529
+rvoRWHsD.tree_id_0.Node9.t = 0.541335
+Optimization finished in 200 loop passes.
+19762 likelihood evaluation calls and 738675 matrix exponentiations calls were made
+
+Variable 'rEsvlCyK.rvoRWHsD.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (11) of threads.
+Set GUI update interval to every 36-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.omega3 = 10.1214
+relax.reference.omega2 = 1
+relax.test.theta_GT = 0.29914
+relax.reference.bsrel_mixture_aux_1 = 0.916572
+relax.reference.omega1 = 0
+relax.test.theta_AC = 0.599085
+relax.reference.bsrel_mixture_aux_0 = 0.555696
+relax.test.theta_AT = 0.225541
+relax.test.theta_CT = 1.0892
+relax.test.theta_CG = 0.431822
+rvoRWHsD.tree_id_0.Megaderma_lyra.t = 0.428846
+rvoRWHsD.tree_id_0.Hipposideros_armiger.t = 0.214727
+rvoRWHsD.tree_id_0.Rhinolophus_ferrumequinum.t = 0.233673
+rvoRWHsD.tree_id_0.Node3.t = 0.0718019
+rvoRWHsD.tree_id_0.Node1.t = 0.052407
+rvoRWHsD.tree_id_0.Pteropus_giganteus.t = 0.0758186
+rvoRWHsD.tree_id_0.Rousettus_aegyptiacus.t = 0.124532
+rvoRWHsD.tree_id_0.Node6.t = 0.157115
+rvoRWHsD.tree_id_0.Artibeus_jamaicensis.t = 0.128645
+rvoRWHsD.tree_id_0.Phyllostomus_discolor.t = 0.358246
+rvoRWHsD.tree_id_0.Node11.t = 0.0569337
+rvoRWHsD.tree_id_0.Desmodus_rotundus.t = 0.141885
+rvoRWHsD.tree_id_0.Node10.t = 0.229885
+rvoRWHsD.tree_id_0.Pipistrellus_pipistrellus.t = 0.185369
+rvoRWHsD.tree_id_0.Eptesicus_fuscus.t = 0.0737216
+rvoRWHsD.tree_id_0.Node19.t = 0.0192024
+rvoRWHsD.tree_id_0.Aeorestes_cinereus.t = 0.235369
+rvoRWHsD.tree_id_0.Node18.t = 0.0435558
+rvoRWHsD.tree_id_0.Myotis_myotis.t = 0.0569248
+rvoRWHsD.tree_id_0.Myotis_lucifugus.t = 0.0763319
+rvoRWHsD.tree_id_0.Node23.t = 0.0780552
+rvoRWHsD.tree_id_0.Node17.t = 0.172619
+rvoRWHsD.tree_id_0.Miniopterus_natalensis.t = 0.317899
+rvoRWHsD.tree_id_0.Node16.t = 0.0288776
+rvoRWHsD.tree_id_0.Molossus_molossus.t = 0.575605
+rvoRWHsD.tree_id_0.Node15.t = 0.0491733
+rvoRWHsD.tree_id_0.Node9.t = 0.182488
+Optimization finished in 5 loop passes.
+539 likelihood evaluation calls and 21345 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used
