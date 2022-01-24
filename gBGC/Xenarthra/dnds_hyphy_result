@@ -1,0 +1,106 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/ceglab6/60190805-986f-4f73-b2e6-3c644f4ddec0/gbgc/mapnh/Xenarthra/`) 
+
+A tree was found in the data file:
+(Dasypus_novemcinctus:51.2,(Tolypeutes_matacus:51.2,Chaetophractus_vellerosus:51.2):0,((Tamandua_tetradactyla:13.06,Myrmecophaga_tridactyla:13.06):42.47476,(Choloepus_didactylus:6.95,Choloepus_hoffmanni:6.95):48.58476):25.28862714)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1794
+Synonymous  sites      :403.2970566643545
+Nonsynonymous  sites   :1315.099027901484
+
+Total tree lengths:
+	E[syn]        : 0.1529499326010533
+	E[non-syn]    : 0.195561526628452
+	dS            : 0.6803723819751395
+	dN            : 0.2667763957907242
+
+
+E[Syn subs/nucleotide site] tree: 
+	(Dasypus_novemcinctus:0.0210388193006713,(Tolypeutes_matacus:0.01375470440658615,Chaetophractus_vellerosus:0.01200517309756921)Node2:0.008932199492737845,((Tamandua_tetradactyla:0.01032956725599355,Myrmecophaga_tridactyla:0.0061088278370994)Node6:0.039004121053477,(Choloepus_didactylus:0.0007806678509651179,Choloepus_hoffmanni:0.001142468068817472)Node9:0.03318532827195503)Node5:0.006668055965181265)
+
+E[Non-syn subs/nucleotide site] tree: 
+	(Dasypus_novemcinctus:0.03261464358068445,(Tolypeutes_matacus:0.01708281540674637,Chaetophractus_vellerosus:0.01635434097909528)Node2:0.004623682787503426,((Tamandua_tetradactyla:0.01709912346363116,Myrmecophaga_tridactyla:0.006431586676068621)Node6:0.04084394964404423,(Choloepus_didactylus:0.002469174766204124,Choloepus_hoffmanni:0)Node9:0.04036097667806584)Node5:0.01768123264640851)
+
+dS tree: 
+	(Dasypus_novemcinctus:0.09358769473196678,(Tolypeutes_matacus:0.06118551895594961,Chaetophractus_vellerosus:0.05340301939015547)Node2:0.03973340649323913,((Tamandua_tetradactyla:0.04594936499294892,Myrmecophaga_tridactyla:0.02717410642765288)Node6:0.1735033569267364,(Choloepus_didactylus:0.003472671326230402,Choloepus_hoffmanni:0.005082079528203255)Node9:0.1476194232913411)Node5:0.02966173991071553)
+
+dN tree: 
+	(Dasypus_novemcinctus:0.04449145603667119,(Tolypeutes_matacus:0.02330362215277888,Chaetophractus_vellerosus:0.0223098695185826)Node2:0.006307423809762353,((Tamandua_tetradactyla:0.02332586888358058,Myrmecophaga_tridactyla:0.008773686431263528)Node6:0.05571751184269327,(Choloepus_didactylus:0.003368339141455159,Choloepus_hoffmanni:0)Node9:0.05505866145760262)Node5:0.02411995651633397)
+
+Estimating pairwise dN/dS: total of 21 analyses

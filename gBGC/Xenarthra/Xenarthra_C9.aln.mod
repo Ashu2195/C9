@@ -1,0 +1,11 @@
+ALPHABET: A C G T 
+ORDER: 0
+SUBST_MOD: HKY85
+TRAINING_LNL: -5051.650674
+BACKGROUND: 0.322084 0.188387 0.230703 0.258827 
+RATE_MAT:
+  -0.925728    0.134602    0.606196    0.184931 
+   0.230128   -1.075058    0.164836    0.680095 
+   0.846310    0.134602   -1.165842    0.184931 
+   0.230128    0.495007    0.164836   -0.889971 
+TREE: ((Dasypus_novemcinctus:0.0529271,(Tolypeutes_matacus:0.0302502,Chaetophractus_vellerosus:0.0278649):0.0124407):0.0123638,((Tamandua_tetradactyla:0.0264301,Myrmecophaga_tridactyla:0.0128786):0.076032,(Choloepus_didactylus:0.00358152,Choloepus_hoffmanni:0.00103261):0.0714337):0.0123638);
