@@ -1,0 +1,106 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/sagar/disk4/RNAseq_store/Inputs/Saumya/gBGC/Lagomorpha/`) 
+
+A tree was found in the data file:
+((Sylvilagus_bachmani:16.9955225,Oryctolagus_cuniculus:16.9955225):5.18849456,(Lepus_timidus:7.31569286,Lepus_americanus:7.31569286):14.8683242,(Ochotona_curzoniae:20.3275465,Ochotona_princeps:20.3275465):60.34513844)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1671
+Synonymous  sites      :372.3313658638489
+Nonsynonymous  sites   :1227.846984176166
+
+Total tree lengths:
+	E[syn]        : 0.137723179958794
+	E[non-syn]    : 0.1395118030765702
+	dS            : 0.6180930612096186
+	dN            : 0.1898642305965881
+
+
+E[Syn subs/nucleotide site] tree: 
+	((Sylvilagus_bachmani:0.008224891598567855,Oryctolagus_cuniculus:0.008386186134641637)Node1:0.002706262599509231,(Lepus_timidus:0.003068250974549786,Lepus_americanus:0.001249152838989297)Node4:0.008081740973665956,(Ochotona_curzoniae:0.006807244454240249,Ochotona_princeps:0.01299357599532447)Node7:0.08620587438930556)
+
+E[Non-syn subs/nucleotide site] tree: 
+	((Sylvilagus_bachmani:0.007833537804504838,Oryctolagus_cuniculus:0.005525411326129311)Node1:0.002236218208905121,(Lepus_timidus:0.00294541866868408,Lepus_americanus:0.003122422867490435)Node4:0.005158085985895482,(Ochotona_curzoniae:0.01239033701007081,Ochotona_princeps:0.008711758915840043)Node7:0.09158861228905003)
+
+dS tree: 
+	((Sylvilagus_bachmani:0.03691280166343172,Oryctolagus_cuniculus:0.03763668150405156)Node1:0.01214553813721284,(Lepus_timidus:0.01377011943803711,Lepus_americanus:0.005606120207219915)Node4:0.03627035056706466,(Ochotona_curzoniae:0.03055048949917085,Ochotona_princeps:0.05831436048320127)Node7:0.3868865997102287)
+
+dN tree: 
+	((Sylvilagus_bachmani:0.01066080858610434,Oryctolagus_cuniculus:0.007519635952159798)Node1:0.003043311320740541,(Lepus_timidus:0.004008475533841391,Lepus_americanus:0.004249363869291325)Node4:0.00701973600416867,(Ochotona_curzoniae:0.01686224212841963,Ochotona_princeps:0.01185599617539973)Node7:0.1246446610264626)
+
+Estimating pairwise dN/dS: total of 15 analyses
