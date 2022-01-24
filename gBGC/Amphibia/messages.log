@@ -1,0 +1,373 @@
+
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Variable 'skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Overwritten previously defined function:'GaussLaguerreQuardature'
+Overwritten previously defined function:'GammaQuadWeight'
+Variable 'SKIP_HARVEST_FREQ' was not initialized prior to being used
+Variable '_WRAP_PASSTHROUGH_FLAG_' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Model MG94customModel assigned to Rana_temporaria
+Rana_temporaria has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Xenopus_tropicalis
+Xenopus_tropicalis has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Rhinatrema_bivittatum
+Rhinatrema_bivittatum has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Geotrypetes_seraphini
+Geotrypetes_seraphini has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Microcaecilia_unicolor
+Microcaecilia_unicolor has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Node5
+Node5 has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Node3
+Node3 has 2 parameters - branch length not assigned
+The tips of the tree:givenTree were matched with the species names from the data in the following numeric order (0-based) {2,4,3,0,1}
+
+Pseudo-optimal path's cost 2717 vs 3777 for 1..k=> a 1.39014 x improvement
+Partition 0 reversible model flag computed as 1
+Variable 'theLnLik' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Variable 'givenTree.Rana_temporaria.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Rana_temporaria.synRate' was not initialized prior to being used
+Variable 'givenTree.Xenopus_tropicalis.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Xenopus_tropicalis.synRate' was not initialized prior to being used
+Variable 'givenTree.Rhinatrema_bivittatum.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Rhinatrema_bivittatum.synRate' was not initialized prior to being used
+Variable 'givenTree.Geotrypetes_seraphini.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Geotrypetes_seraphini.synRate' was not initialized prior to being used
+Variable 'givenTree.Microcaecilia_unicolor.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Microcaecilia_unicolor.synRate' was not initialized prior to being used
+Variable 'givenTree.Node5.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Node5.synRate' was not initialized prior to being used
+Variable 'givenTree.Node3.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Node3.synRate' was not initialized prior to being used
+Site 2 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 307 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 2 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 334-th LF evaluation.
+Initial guess for givenTree.Xenopus_tropicalis.nonSynRate is 0.164245
+Initial guess for givenTree.Xenopus_tropicalis.synRate is 0.151883
+Initial guess for givenTree.Node3.nonSynRate is 0.0506732
+Initial guess for givenTree.Node3.synRate is 0.0807928
+Initial guess for givenTree.Rhinatrema_bivittatum.nonSynRate is 0.116074
+Initial guess for givenTree.Rhinatrema_bivittatum.synRate is 0.121461
+Initial guess for givenTree.Node5.nonSynRate is 0.0213881
+Initial guess for givenTree.Node5.synRate is 0.0322125
+Initial guess for givenTree.Geotrypetes_seraphini.nonSynRate is 0.0716867
+Initial guess for givenTree.Geotrypetes_seraphini.synRate is 0.0338728
+Initial guess for givenTree.Microcaecilia_unicolor.nonSynRate is 0.0330005
+Initial guess for givenTree.Microcaecilia_unicolor.synRate is 0.0131056
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+GT = 1
+CT = 1
+CG = 1
+AC = 1
+AT = 1
+givenTree.Rana_temporaria.synRate = 0.1
+givenTree.Rana_temporaria.nonSynRate = 0.1
+givenTree.Xenopus_tropicalis.synRate = 0.151883
+givenTree.Xenopus_tropicalis.nonSynRate = 0.164245
+givenTree.Rhinatrema_bivittatum.synRate = 0.121461
+givenTree.Rhinatrema_bivittatum.nonSynRate = 0.116074
+givenTree.Geotrypetes_seraphini.synRate = 0.0338728
+givenTree.Geotrypetes_seraphini.nonSynRate = 0.0716867
+givenTree.Microcaecilia_unicolor.synRate = 0.0131056
+givenTree.Microcaecilia_unicolor.nonSynRate = 0.0330005
+givenTree.Node5.synRate = 0.0322125
+givenTree.Node5.nonSynRate = 0.0213881
+givenTree.Node3.synRate = 0.0807928
+givenTree.Node3.nonSynRate = 0.0506732
+Optimization finished in 21 loop passes.
+2246 likelihood evaluation calls and 6742 matrix exponentiations calls were made
+
+Variable 'lastDepth' was not initialized prior to being used
+No nodel was assigned to Rana_temporaria
+Rana_temporaria has 0 parameters - branch length not assigned
+No nodel was assigned to Xenopus_tropicalis
+Xenopus_tropicalis has 0 parameters - branch length not assigned
+No nodel was assigned to Rhinatrema_bivittatum
+Rhinatrema_bivittatum has 0 parameters - branch length not assigned
+No nodel was assigned to Geotrypetes_seraphini
+Geotrypetes_seraphini has 0 parameters - branch length not assigned
+No nodel was assigned to Microcaecilia_unicolor
+Microcaecilia_unicolor has 0 parameters - branch length not assigned
+No nodel was assigned to Node5
+Node5 has 0 parameters - branch length not assigned
+No nodel was assigned to Node3
+Node3 has 0 parameters - branch length not assigned
+No nodel was assigned to Rana_temporaria
+Rana_temporaria has 0 parameters - branch length not assigned
+No nodel was assigned to Xenopus_tropicalis
+Xenopus_tropicalis has 0 parameters - branch length not assigned
+No nodel was assigned to Rhinatrema_bivittatum
+Rhinatrema_bivittatum has 0 parameters - branch length not assigned
+No nodel was assigned to Geotrypetes_seraphini
+Geotrypetes_seraphini has 0 parameters - branch length not assigned
+No nodel was assigned to Microcaecilia_unicolor
+Microcaecilia_unicolor has 0 parameters - branch length not assigned
+No nodel was assigned to Node5
+Node5 has 0 parameters - branch length not assigned
+No nodel was assigned to Node3
+Node3 has 0 parameters - branch length not assigned
+No nodel was assigned to Rana_temporaria
+Rana_temporaria has 0 parameters - branch length not assigned
+No nodel was assigned to Xenopus_tropicalis
+Xenopus_tropicalis has 0 parameters - branch length not assigned
+No nodel was assigned to Rhinatrema_bivittatum
+Rhinatrema_bivittatum has 0 parameters - branch length not assigned
+No nodel was assigned to Geotrypetes_seraphini
+Geotrypetes_seraphini has 0 parameters - branch length not assigned
+No nodel was assigned to Microcaecilia_unicolor
+Microcaecilia_unicolor has 0 parameters - branch length not assigned
+No nodel was assigned to Node5
+Node5 has 0 parameters - branch length not assigned
+No nodel was assigned to Node3
+Node3 has 0 parameters - branch length not assigned
+No nodel was assigned to Rana_temporaria
+Rana_temporaria has 0 parameters - branch length not assigned
+No nodel was assigned to Xenopus_tropicalis
+Xenopus_tropicalis has 0 parameters - branch length not assigned
+No nodel was assigned to Rhinatrema_bivittatum
+Rhinatrema_bivittatum has 0 parameters - branch length not assigned
+No nodel was assigned to Geotrypetes_seraphini
+Geotrypetes_seraphini has 0 parameters - branch length not assigned
+No nodel was assigned to Microcaecilia_unicolor
+Microcaecilia_unicolor has 0 parameters - branch length not assigned
+No nodel was assigned to Node5
+Node5 has 0 parameters - branch length not assigned
+No nodel was assigned to Node3
+Node3 has 0 parameters - branch length not assigned
+Variable 'nodeName' was not initialized prior to being used
+Variable 'speciesIndex' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Rana_temporaria
+Model MG94customModel assigned to Xenopus_tropicalis
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 'twoLnLik' was not initialized prior to being used
+Variable 't2.Xenopus_tropicalis.nonSynRate' was not initialized prior to being used
+Variable 't2.Xenopus_tropicalis.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 10638-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Xenopus_tropicalis.nonSynRate = 0.1
+t2.Xenopus_tropicalis.synRate = 0.1
+Optimization finished in 6 loop passes.
+160 likelihood evaluation calls and 142 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Rana_temporaria
+Model MG94customModel assigned to Rhinatrema_bivittatum
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Rhinatrema_bivittatum.nonSynRate' was not initialized prior to being used
+Variable 't2.Rhinatrema_bivittatum.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 10869-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Rhinatrema_bivittatum.nonSynRate = 0.1
+t2.Rhinatrema_bivittatum.synRate = 0.1
+Optimization finished in 5 loop passes.
+198 likelihood evaluation calls and 181 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Rana_temporaria
+Model MG94customModel assigned to Geotrypetes_seraphini
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Geotrypetes_seraphini.synRate' was not initialized prior to being used
+Variable 't2.Geotrypetes_seraphini.nonSynRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 10638-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Geotrypetes_seraphini.synRate = 0.1
+t2.Geotrypetes_seraphini.nonSynRate = 0.1
+Optimization finished in 7 loop passes.
+165 likelihood evaluation calls and 154 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Rana_temporaria
+Model MG94customModel assigned to Microcaecilia_unicolor
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Microcaecilia_unicolor.synRate' was not initialized prior to being used
+Variable 't2.Microcaecilia_unicolor.nonSynRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 10204-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Microcaecilia_unicolor.synRate = 0.1
+t2.Microcaecilia_unicolor.nonSynRate = 0.1
+Optimization finished in 5 loop passes.
+239 likelihood evaluation calls and 222 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Xenopus_tropicalis
+Model MG94customModel assigned to Rhinatrema_bivittatum
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Rhinatrema_bivittatum.synRate' was not initialized prior to being used
+Variable 't2.Rhinatrema_bivittatum.nonSynRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 10638-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Rhinatrema_bivittatum.synRate = 0.1
+t2.Rhinatrema_bivittatum.nonSynRate = 0.1
+Optimization finished in 3 loop passes.
+140 likelihood evaluation calls and 128 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Xenopus_tropicalis
+Model MG94customModel assigned to Geotrypetes_seraphini
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Geotrypetes_seraphini.nonSynRate' was not initialized prior to being used
+Variable 't2.Geotrypetes_seraphini.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 10869-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Geotrypetes_seraphini.nonSynRate = 0.1
+t2.Geotrypetes_seraphini.synRate = 0.1
+Optimization finished in 6 loop passes.
+224 likelihood evaluation calls and 204 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Xenopus_tropicalis
+Model MG94customModel assigned to Microcaecilia_unicolor
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Microcaecilia_unicolor.nonSynRate' was not initialized prior to being used
+Variable 't2.Microcaecilia_unicolor.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 10638-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Microcaecilia_unicolor.nonSynRate = 0.1
+t2.Microcaecilia_unicolor.synRate = 0.1
+Optimization finished in 5 loop passes.
+244 likelihood evaluation calls and 227 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Rhinatrema_bivittatum
+Model MG94customModel assigned to Geotrypetes_seraphini
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Geotrypetes_seraphini.synRate' was not initialized prior to being used
+Variable 't2.Geotrypetes_seraphini.nonSynRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 10638-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Geotrypetes_seraphini.synRate = 0.1
+t2.Geotrypetes_seraphini.nonSynRate = 0.1
+Optimization finished in 5 loop passes.
+208 likelihood evaluation calls and 187 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Rhinatrema_bivittatum
+Model MG94customModel assigned to Microcaecilia_unicolor
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Microcaecilia_unicolor.nonSynRate' was not initialized prior to being used
+Variable 't2.Microcaecilia_unicolor.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 10638-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Microcaecilia_unicolor.nonSynRate = 0.1
+t2.Microcaecilia_unicolor.synRate = 0.1
+Optimization finished in 6 loop passes.
+250 likelihood evaluation calls and 232 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Geotrypetes_seraphini
+Model MG94customModel assigned to Microcaecilia_unicolor
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 1108-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Microcaecilia_unicolor.nonSynRate = 0.1
+t2.Microcaecilia_unicolor.synRate = 0.1
+Optimization finished in 5 loop passes.
+193 likelihood evaluation calls and 170 matrix exponentiations calls were made
