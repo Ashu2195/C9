@@ -1,0 +1,237 @@
+Physical cores: 2
+Logical cores:  4
+Memory:         31.3GB
+Extensions:     AVX
+
+Creating new checkpoint file: Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln.ckp
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.5
+
+Input data:
+  MSA:        Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln
+  Tree:       Maximum likelihood
+    file:           -
+  #taxa:            65
+  #sites:           2478
+  #patterns:        1837
+  Max. thread mem:  58 MB
+
+Output:
+  Log:           Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln.log
+  Starting tree: Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln.tree
+  Results:       Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln.out
+
+Selection options:
+  # dna schemes:      3
+  # dna models:       12
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     false
+    estimated freqs: true
+    #categories:     4
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.01
+
+Additional options:
+  verbosity:        very low
+  threads:          1/2
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+modeltest-ng was called as follows: 
+>> modeltest-ng -i Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln -t ml -T raxml 
+
+
+modeltest-ng: Warning: You are using one single thread out of 2 physical cores.
+modeltest-ng:          You can set the number of threads with -p argument.
+modeltest-ng: Try 'modeltest-ng --help' or 'modeltest-ng --usage' for more information
+
+Partition 1/1
+
+    1/12   F81            0h:00:19   0h:00:19          -47682.5139       -       -
+    2/12   F81+I          0h:00:16   0h:00:35          -46864.1655       -  0.1159
+    3/12   F81+G4         0h:00:22   0h:00:57          -46434.1789  1.2123       -
+    4/12   F81+I+G4       0h:00:24   0h:01:21          -46339.6555  2.3010  0.1003
+    5/12   HKY            0h:00:19   0h:01:40          -46817.4170       -       -
+    6/12   HKY+I          0h:00:21   0h:02:01          -45948.8842       -  0.1161
+    7/12   HKY+G4         0h:00:23   0h:02:24          -45446.0895  1.1200       -
+    8/12   HKY+I+G4       0h:00:26   0h:02:50          -45351.5096  2.0709  0.1006
+    9/12   GTR            0h:00:14   0h:03:04          -46661.3513       -       -
+   10/12   GTR+I          0h:00:13   0h:03:17          -45867.6286       -  0.1157
+   11/12   GTR+G4         0h:00:31   0h:03:48          -45358.7824  1.1438       -
+   12/12   GTR+I+G4       0h:00:26   0h:04:14          -45276.7155  2.0423  0.0970
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:04:14
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -45276.7155     91624.1144         0.0000    1.0000
+       2  HKY+I+G4           6    -45351.5096     91742.4418       118.3274    0.0000
+       3  GTR+G4             9    -45358.7824     91780.4329       156.3185    0.0000
+       4  HKY+G4             5    -45446.0895     91923.7863       299.6719    0.0000
+       5  GTR+I              9    -45867.6286     92798.1254      1174.0111    0.0000
+       6  HKY+I              5    -45948.8842     92929.3757      1305.2613    0.0000
+       7  F81+I+G4           5    -46339.6555     93710.9183      2086.8040    0.0000
+       8  F81+G4             4    -46434.1789     93892.1499      2268.0356    0.0000
+       9  GTR                8    -46661.3513     94377.7555      2753.6411    0.0000
+      10  HKY                4    -46817.4170     94658.6262      3034.5118    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -45276.7155
+Frequencies:        0.3264 0.2034 0.2171 0.2532
+Subst. Rates:       2.0753 4.2506 1.2425 1.8287 4.6628 1.0000 
+Inv. sites prop:    0.0970
+Gamma shape:        2.0423
+Score:              91624.1144
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.1157
+Alpha:              1.1438
+Alpha-P.Inv:        2.0423
+P.Inv-Alpha:        0.0970
+Frequencies:        0.3264 0.2034 0.2171 0.2532 
+
+Commands:
+  > phyml  -i Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln --model GTR+I+G4
+  > paup -s Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln
+  > iqtree -s Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln -m GTR+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -45276.7155     90827.4310         0.0000    1.0000
+       2  HKY+I+G4           6    -45351.5096     90969.0192       141.5882    0.0000
+       3  GTR+G4             9    -45358.7824     90989.5647       162.1337    0.0000
+       4  HKY+G4             5    -45446.0895     91156.1790       328.7480    0.0000
+       5  GTR+I              9    -45867.6286     92007.2573      1179.8263    0.0000
+       6  HKY+I              5    -45948.8842     92161.7683      1334.3373    0.0000
+       7  F81+I+G4           5    -46339.6555     92943.3110      2115.8800    0.0000
+       8  F81+G4             4    -46434.1789     93130.3578      2302.9268    0.0000
+       9  GTR                8    -46661.3513     93592.7025      2765.2715    0.0000
+      10  HKY                4    -46817.4170     93896.8341      3069.4031    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -45276.7155
+Frequencies:        0.3264 0.2034 0.2171 0.2532
+Subst. Rates:       2.0753 4.2506 1.2425 1.8287 4.6628 1.0000 
+Inv. sites prop:    0.0970
+Gamma shape:        2.0423
+Score:              90827.4310
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.1157
+Alpha:              1.1438
+Alpha-P.Inv:        2.0423
+P.Inv-Alpha:        0.0970
+Frequencies:        0.3264 0.2034 0.2171 0.2532 
+
+Commands:
+  > phyml  -i Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln --model GTR+I+G4
+  > paup -s Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln
+  > iqtree -s Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln -m GTR+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -45276.7155     90843.4310         0.0000    1.0000
+       2  HKY+I+G4           6    -45351.5096     90984.0192       140.5882    0.0000
+       3  GTR+G4             9    -45358.7824     91004.5647       161.1337    0.0000
+       4  HKY+G4             5    -45446.0895     91170.1790       326.7480    0.0000
+       5  GTR+I              9    -45867.6286     92022.2573      1178.8263    0.0000
+       6  HKY+I              5    -45948.8842     92175.7683      1332.3373    0.0000
+       7  F81+I+G4           5    -46339.6555     92957.3110      2113.8800    0.0000
+       8  F81+G4             4    -46434.1789     93144.3578      2300.9268    0.0000
+       9  GTR                8    -46661.3513     93607.7025      2764.2715    0.0000
+      10  HKY                4    -46817.4170     93910.8341      3067.4031    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              GTR+I+G4
+lnL:                -45276.7155
+Frequencies:        0.3264 0.2034 0.2171 0.2532
+Subst. Rates:       2.0753 4.2506 1.2425 1.8287 4.6628 1.0000 
+Inv. sites prop:    0.0970
+Gamma shape:        2.0423
+Score:              90843.4310
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.1157
+Alpha:              1.1438
+Alpha-P.Inv:        2.0423
+P.Inv-Alpha:        0.0970
+Frequencies:        0.3264 0.2034 0.2171 0.2532 
+
+Commands:
+  > phyml  -i Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln --model GTR+I+G4
+  > paup -s Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln
+  > iqtree -s Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln -m GTR+I+G4
+
+There are 8 different topologies
+Topologies written to Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln.topos
+
+topo_id   models_count   bic_support   aic_support   aicc_support
+-----------------------------------------------------------------
+      5              3       1.00000       1.00000       1.00000
+      8              1       0.00000       0.00000       0.00000
+      7              1       0.00000       0.00000       0.00000
+      4              2       0.00000       0.00000       0.00000
+      1              1       0.00000       0.00000       0.00000
+      2              1       0.00000       0.00000       0.00000
+      3              2       0.00000       0.00000       0.00000
+      6              1       0.00000       0.00000       0.00000
+
+extended majority-rule consensus: ((Pantherophis_obsoletus_C9B,(Pituophis_catenifer_C9B,(Ptyas_mucosa_C9B,((Crotalus_tigris_C9A,Bothrops_jararaca_C9B)[1.00000],(Naja_naja_C9A,(Laticauda_colubrina_C9A,(Pseudonaja_textilis_C9A,(Notechis_scutatus_C9A,Hydrophis_cyanocinctus_C9A)[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000],((Vipera_berus_C9A,(Protobothrops_mucrosquamatus_C9A,(Crotalus_tigris_C9B,Bothrops_jararaca_C9A)[1.00000])[1.00000])[1.00000],(Python_bivittatus_C9A,(((Lacerta_agilis_C9A,(Zootoca_vivipara_C9A,Podarcis_muralis_C9A)[1.00000])[1.00000],(Gekko_japonicus_C9A,((((Gavialis_gangeticus_C9,Alligator_mississippiensis_C9)[1.00000],(Taeniopygia_guttata_C9,(Struthio_camelus_C9,Dromaius_novaehollandiae_C9)[1.00000])[1.00000])[1.00000],(Trachemys_scripta_C9,Chrysemys_picta_C9)[1.00000])[1.00000],((Xenopus_tropicalis_C9,Rana_temporaria_C9)[1.00000],(((Python_bivittatus_C8B,((Protobothrops_mucrosquamatus_C8B,Crotalus_tigris_C8B)[1.00000],(Thamnophis_elegans_C8B,(Pantherophis_guttatus_C8B,(Pseudonaja_textilis_C8B,Notechis_scutatus_C8B)[1.00000])[1.00000])[1.00000])[1.00000])[1.00000],(Pogona_vitticeps_C8B,(Gekko_japonicus_C8B,(Podarcis_muralis_C8B,(Zootoca_vivipara_C8B,Lacerta_agilis_C8B)[1.00000])[1.00000])[1.00000])[1.00000])[1.00000],((Pogona_vitticeps_C8A,(Gekko_japonicus_C8A,(Podarcis_muralis_C8A,(Zootoca_vivipara_C8A,Lacerta_agilis_C8A)[1.00000])[1.00000])[1.00000])[1.00000],(Python_bivittatus_C8A,(((Pseudonaja_textilis_C8A,Notechis_scutatus_C8A)[1.00000],(Thamnophis_elegans_C8A,Pantherophis_guttatus_C8A)[1.00000])[1.00000],(Protobothrops_mucrosquamatus_C8A,Crotalus_tigris_C8A)[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000],(Pogona_vitticeps_C9A,(Sceloporus_undulatus_C9A,(Anolis_carolinensis_C9B,Anolis_carolinensis_C9A)[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000],((Ptyas_mucosa_C9A,(Pituophis_catenifer_C9A,Pantherophis_obsoletus_C9A)[1.00000])[1.00000],(Chrysopelea_ornata_C9A,(Thamnophis_elegans_C9A,(Laticauda_colubrina_C9B,(Pseudonaja_textilis_C9B,(Notechis_scutatus_C9B,Hydrophis_cyanocinctus_C9B)[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000]);
+strict consensus: ((Pantherophis_obsoletus_C9B,(Pituophis_catenifer_C9B,(Ptyas_mucosa_C9B,((Crotalus_tigris_C9A,Bothrops_jararaca_C9B)[1.00000],(Naja_naja_C9A,(Laticauda_colubrina_C9A,(Pseudonaja_texalis_C9A,(Notechis_scutatus_C9A,Hydrophis_cyanocinctus_C9A)[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000],((Vipera_berus_C9A,(Protobothrops_mucrosquamatus_C9A,(Crotalus_tigris_C9B,Bothrops_jararaca_C9A)[1.00000])[1.00000])[1.00000],(Python_bivittatus_C9A,(((Lacerta_agilis_C9A,(Zootoca_vivipara_C9A,Podarcis_muralis_C9A)[1.00000])[1.00000],(Gekko_japonicus_C9A,((((Gavialis_gangeticus_C9,Alligator_mississippiensis_C9)[1.00000],(Taeniopygia_guttata_C9,(Struthio_camelus_C9,Dromaius_novaehollandiae_C9)[1.00000])[1.00000])[1.00000],(Trachemys_scripta_C9,Chrysemys_picta_C9)[1.00000])[1.00000],((Xenopus_tropicalis_C9,Rana_temporaria_C9)[1.00000],(((Python_bivittatus_C8B,((Protobothrops_mucrosquamatus_C8B,Crotalus_tigris_C8B)[1.00000],(Thamnophis_elegans_C8B,(Pantherophis_guttatus_C8B,(Pseudonaja_textilis_C8B,Notechis_scutatus_C8B)[1.00000])[1.00000])[1.00000])[1.00000])[1.00000],(Pogona_vitticeps_C8B,(Gekko_japonicus_C8B,(Podarcis_muralis_C8B,(Zootoca_vivipara_C8B,Lacerta_agilis_C8B)[1.00000])[1.00000])[1.00000])[1.00000])[1.00000],((Pogona_vitticeps_C8A,(Gekko_japonicus_C8A,(Podarcis_muralis_C8A,(Zootoca_vivipara_C8A,Lacerta_agilis_C8A)[1.00000])[1.00000])[1.00000])[1.00000],(Python_bivittatus_C8A,(((Pseudonaja_textilis_C8A,Notechis_scutatus_C8A)[1.00000],(Thamnophis_elegans_C8A,Pantherophis_guttatus_C8A)[1.00000])[1.00000],(Protobothrops_mucrosquamatus_C8A,Crotalus_tigris_C8A)[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000],(Pogona_vitticeps_C9A,(Sceloporus_undulatus_C9A,(Anolis_carolinensis_C9B,Anolis_carolinensis_C9A)[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000],((Ptyas_mucosa_C9A,(Pituophis_catenifer_C9A,Pantherophis_obsoletus_C9A)[1.00000])[1.00000],(Chrysopelea_ornata_C9A,(Thamnophis_elegans_C9A,(Laticauda_colubrina_C9B,(Pseudonaja_textilis_C9B,(Notechis_scutatus_C9B,Hydrophis_cyanocinctus_C9B)[1.00000])[1.00000])[1.00000])[1.00000])[1.00000])[1.00000]);
+
+Summary:
+
+Partition 1/1:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC            GTR+I+G4    91624.1144        1.0000
+       AIC            GTR+I+G4    90827.4310        1.0000
+      AICc            GTR+I+G4    90843.4310        1.0000
+
+Execution results written to Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln.out
+Starting tree written to Squmata_C9_functional_duplicated_C8A_C8B.fa.PRANK.aln.tree
