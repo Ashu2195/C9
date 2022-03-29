@@ -1,0 +1,106 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/ceglab6/60190805-986f-4f73-b2e6-3c644f4ddec0/gbgc/Squamata/`) 
+
+A tree was found in the data file:
+((((((Hydrophis_cyanocinctus:35,((Laticauda_colubrina:32.710056,(Pseudonaja_textilis:27.6,Notechis_scutatus:27.6):5.110056):2.289944,Naja_naja:35):0):16.393106,(((Ptyas_mucosa:40.29448231,(Pantherophis_obsoletus:13.925742,Pituophis_catenifer:13.925742):26.36874031):4.57235769,Chrysopelea_ornata:44.86684):2.73316,Thamnophis_elegans:47.6):3.793106):10.34497491,(Vipera_berus:42.24041231,((Crotalus_tigris:23.51438286,Bothrops_jararaca:23.51438286):6.00019464,Protobothrops_mucrosquamatus:29.5145775):12.72583481):19.4976686):29.06191909,Python_bivittatus:90.8):76.32419034,((Anolis_carolinensis:99.21240455,Sceloporus_undulatus:99.21240455):58.20634823,Pogona_vitticeps:157.4187528):9.70543757):10.87262926,((Lacerta_agilis:29.9814025,Zootoca_vivipara:29.9814025):15.5591185,Podarcis_muralis:45.540521):132.4562986,Gekko_japonicus:224.0031804)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1956
+Synonymous  sites      :451.1639517170908
+Nonsynonymous  sites   :1420.11555212256
+
+Total tree lengths:
+	E[syn]        : 0.9854971537093513
+	E[non-syn]    : 1.261123165959962
+	dS            : 4.272576355710801
+	dN            : 1.737011406523064
+
+
+E[Syn subs/nucleotide site] tree: 
+	((((((Hydrophis_cyanocinctus:0.003117166477512077,((Laticauda_colubrina:0.006117717698705365,(Pseudonaja_textilis:0.005019135301247643,Notechis_scutatus:0.005362877076974546)Node10:0.0005690082332561976)Node8:0,Naja_naja:0.01171795752599625)Node7:0.002985653470114387)Node5:0.03855102075830056,(((Ptyas_mucosa:0.00959690186114813,(Pantherophis_obsoletus:0.00576096792482091,Pituophis_catenifer:0.007542013191523265)Node18:0.002716739747879202)Node16:0,Chrysopelea_ornata:0.02063360554630011)Node15:0.0001196234431360732,Thamnophis_elegans:0.02220492094764233)Node14:0.008511180828890495)Node4:0.00459741751011046,(Vipera_berus:0.01031410828786189,((Crotalus_tigris:0.05896444057186728,Bothrops_jararaca:0.004088757696842238)Node26:0,Protobothrops_mucrosquamatus:0.006675260130176357)Node25:0.002927049160021591)Node23:0.01100303438147655)Node3:0.0322627648418127,Python_bivittatus:0.01094497079845906)Node2:0.120100971705335,((Anolis_carolinensis:0.07918884968962214,Sceloporus_undulatus:0.05095744707505683)Node32:0.03633896653914405,Pogona_vitticeps:0.08851305148931772)Node31:0.006366663651766483)Node1:0.01375857593750265,((Lacerta_agilis:0.01496800514282653,Zootoca_vivipara:0.01696133273965894)Node37:0.0028184705430807,Podarcis_muralis:0.01113342926791872)Node36:0.09638316962775188,Gekko_japonicus:0.155703926888294)
+
+E[Non-syn subs/nucleotide site] tree: 
+	((((((Hydrophis_cyanocinctus:0.005470096939880435,((Laticauda_colubrina:0.008583111797907569,(Pseudonaja_textilis:0.002311756328091636,Notechis_scutatus:0.004835501833018611)Node10:0.002193784317843273)Node8:0,Naja_naja:0.01755359637027234)Node7:0.001592679897438528)Node5:0.09157966949369623,(((Ptyas_mucosa:0.02134579046767002,(Pantherophis_obsoletus:0.01031598617006317,Pituophis_catenifer:0.02781624912811892)Node18:0.007517626769082739)Node16:0.007149136344678564,Chrysopelea_ornata:0.0329109296463354)Node15:0.007218271394937546,Thamnophis_elegans:0.04837515640355048)Node14:0.0111284565601687)Node4:0.00783106852462242,(Vipera_berus:0.01951633703233269,((Crotalus_tigris:0.105660921391701,Bothrops_jararaca:0.01005739661019309)Node26:0,Protobothrops_mucrosquamatus:0.01286897812614267)Node25:0.005063140635419105)Node23:0.01613034514156542)Node3:0.02618047887982717,Python_bivittatus:0.0441041448056454)Node2:0.1074894059403384,((Anolis_carolinensis:0.07256237411259019,Sceloporus_undulatus:0.05380438496700461)Node32:0.03278640208268802,Pogona_vitticeps:0.09446833783599944)Node31:0.03892915460081588)Node1:0.03365064501845882,((Lacerta_agilis:0.0110051721475948,Zootoca_vivipara:0.01130769600003897)Node37:0.001826849186635335,Podarcis_muralis:0.01465227561705648)Node36:0.06612764709933816,Gekko_japonicus:0.1672022103411993)
+
+dS tree: 
+	((((((Hydrophis_cyanocinctus:0.01351432801048996,((Laticauda_colubrina:0.02652307608603295,(Pseudonaja_textilis:0.02176022399811889,Notechis_scutatus:0.02325050022866187)Node10:0.002466908315731381)Node8:0,Naja_naja:0.05080265130584105)Node7:0.01294415957949974)Node5:0.1671361293743616,(((Ptyas_mucosa:0.04160691466807774,(Pantherophis_obsoletus:0.02497640429396663,Pituophis_catenifer:0.0326980419124223)Node18:0.01177829684004521)Node16:0,Chrysopelea_ornata:0.08945602212889329)Node15:0.0005186217867886797,Thamnophis_elegans:0.09626838582357221)Node14:0.03689982242142676)Node4:0.01993188643629705,(Vipera_berus:0.04471632925076542,((Crotalus_tigris:0.2556375466604092,Bothrops_jararaca:0.0177266158446064)Node26:0,Protobothrops_mucrosquamatus:0.02894027495976103)Node25:0.01269008336151904)Node23:0.04770313578524508)Node3:0.1398736929012387,Python_bivittatus:0.04745140386395579)Node2:0.5206920893425987,((Anolis_carolinensis:0.3433195170034976,Sceloporus_undulatus:0.2209236045997587)Node32:0.1575458728031023,Pogona_vitticeps:0.3837441534373079)Node31:0.02760236950549676)Node1:0.05964965603154086,((Lacerta_agilis:0.06489307921863301,Zootoca_vivipara:0.07353505685129877)Node37:0.01221934589694971,Podarcis_muralis:0.04826845665565189)Node36:0.4178646788476142,Gekko_japonicus:0.6750470196796222)
+
+dN tree: 
+	((((((Hydrophis_cyanocinctus:0.007534252827816882,((Laticauda_colubrina:0.01182197226952015,(Pseudonaja_textilis:0.003184103836472172,Notechis_scutatus:0.006660191539517857)Node10:0.003021614768803766)Node8:0,Naja_naja:0.02417749347856554)Node7:0.002193681968156421)Node5:0.1261375056853193,(((Ptyas_mucosa:0.02940068228416895,(Pantherophis_obsoletus:0.01420875147693765,Pituophis_catenifer:0.03831278603581196)Node18:0.0103544235807769)Node16:0.009846882297212133,Chrysopelea_ornata:0.0453299580389895)Node15:0.009942105645836443,Thamnophis_elegans:0.06662965262504118)Node14:0.01532780976812471)Node4:0.01078614343126319,(Vipera_berus:0.02688087964263645,((Crotalus_tigris:0.1455323561052944,Bothrops_jararaca:0.01385258244664298)Node26:0,Protobothrops_mucrosquamatus:0.01772512185864905)Node25:0.006973730460227414)Node23:0.02221717454593373)Node3:0.03605975345626132,Python_bivittatus:0.06074696323894441)Node2:0.148050824248108,((Anolis_carolinensis:0.09994398241191663,Sceloporus_undulatus:0.07410761528395569)Node32:0.04515843966210092,Pogona_vitticeps:0.1301162208462793)Node31:0.05361917647151033)Node1:0.04634880700920944,((Lacerta_agilis:0.01515800364873243,Zootoca_vivipara:0.01557468569583511)Node37:0.002516215672533053,Podarcis_muralis:0.02018135148518467)Node36:0.09108109374126658,Gekko_japonicus:0.2302964170335068)
+
+Estimating pairwise dN/dS: total of 231 analyses
