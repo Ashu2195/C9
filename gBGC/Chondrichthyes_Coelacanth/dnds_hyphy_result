@@ -1,0 +1,106 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/ceglab6/60190805-986f-4f73-b2e6-3c644f4ddec0/gbgc/Chondrichthyes_Coelacanth/`) 
+
+A tree was found in the data file:
+((Hemiscyllium_ocellatum:170.6755,(Scyliorhinus_canicula:170.6755,Carcharodon_carcharias:170.6755):0):94.00230412,Amblyraja_radiata:264.6778041,Latimeria_chalumnae:681.9329183)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1866
+Synonymous  sites      :424.9415214279168
+Nonsynonymous  sites   :1366.073777888916
+
+Total tree lengths:
+	E[syn]        : 1.380485343038647
+	E[non-syn]    : 0.8615136553800748
+	dS            : 6.061976813783968
+	dN            : 1.176791844598266
+
+
+E[Syn subs/nucleotide site] tree: 
+	((Hemiscyllium_ocellatum:0.07234900739033319,(Scyliorhinus_canicula:0.08043937230636017,Carcharodon_carcharias:0.04997679365822505)Node3:0.07389170323934956)Node1:0.0415104575140488,Amblyraja_radiata:0.3191917694484978,Latimeria_chalumnae:0.7431262394818322)
+
+E[Non-syn subs/nucleotide site] tree: 
+	((Hemiscyllium_ocellatum:0.08181101833392146,(Scyliorhinus_canicula:0.09978442477756412,Carcharodon_carcharias:0.07714538371639185)Node3:0.02246380618693491)Node1:0.07680762059972955,Amblyraja_radiata:0.2301429451465802,Latimeria_chalumnae:0.2733584566189528)
+
+dS tree: 
+	((Hemiscyllium_ocellatum:0.3176984149176923,(Scyliorhinus_canicula:0.3532247642435423,Carcharodon_carcharias:0.2194577189183128)Node3:0.3244726892804127)Node1:0.1822804075745147,Amblyraja_radiata:1.401632487664378,Latimeria_chalumnae:3.263210331185115)
+
+dN tree: 
+	((Hemiscyllium_ocellatum:0.1117504505847496,(Scyliorhinus_canicula:0.1363013767255516,Carcharodon_carcharias:0.1053773876234179)Node3:0.03068462554752963)Node1:0.1049160172451168,Amblyraja_radiata:0.3143656972225695,Latimeria_chalumnae:0.3733962896493313)
+
+Estimating pairwise dN/dS: total of 10 analyses

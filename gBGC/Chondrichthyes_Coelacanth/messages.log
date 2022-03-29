@@ -1,0 +1,376 @@
+
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Variable 'skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Overwritten previously defined function:'GaussLaguerreQuardature'
+Overwritten previously defined function:'GammaQuadWeight'
+Variable 'SKIP_HARVEST_FREQ' was not initialized prior to being used
+Variable '_WRAP_PASSTHROUGH_FLAG_' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Model MG94customModel assigned to Hemiscyllium_ocellatum
+Hemiscyllium_ocellatum has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Scyliorhinus_canicula
+Scyliorhinus_canicula has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Carcharodon_carcharias
+Carcharodon_carcharias has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Node3
+Node3 has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Node1
+Node1 has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Amblyraja_radiata
+Amblyraja_radiata has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Latimeria_chalumnae
+Latimeria_chalumnae has 2 parameters - branch length not assigned
+The tips of the tree:givenTree were matched with the species names from the data in the following numeric order (0-based) {2,4,1,0,3}
+
+Pseudo-optimal path's cost 3306 vs 4042 for 1..k=> a 1.22263 x improvement
+Partition 0 reversible model flag computed as 1
+Variable 'theLnLik' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Variable 'givenTree.Hemiscyllium_ocellatum.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Hemiscyllium_ocellatum.synRate' was not initialized prior to being used
+Variable 'givenTree.Scyliorhinus_canicula.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Scyliorhinus_canicula.synRate' was not initialized prior to being used
+Variable 'givenTree.Carcharodon_carcharias.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Carcharodon_carcharias.synRate' was not initialized prior to being used
+Variable 'givenTree.Amblyraja_radiata.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Amblyraja_radiata.synRate' was not initialized prior to being used
+Variable 'givenTree.Latimeria_chalumnae.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Latimeria_chalumnae.synRate' was not initialized prior to being used
+Variable 'givenTree.Node3.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Node3.synRate' was not initialized prior to being used
+Variable 'givenTree.Node1.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Node1.synRate' was not initialized prior to being used
+Site 10 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 454 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 10 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 518 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 206 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 10 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 328-th LF evaluation.
+Initial guess for givenTree.Hemiscyllium_ocellatum.nonSynRate is 0.0711049
+Initial guess for givenTree.Hemiscyllium_ocellatum.synRate is 0.0790673
+Initial guess for givenTree.Node3.nonSynRate is 0.029913
+Initial guess for givenTree.Node3.synRate is 0.0432459
+Initial guess for givenTree.Scyliorhinus_canicula.nonSynRate is 0.0829912
+Initial guess for givenTree.Scyliorhinus_canicula.synRate is 0.0772792
+Initial guess for givenTree.Carcharodon_carcharias.nonSynRate is 0.0702811
+Initial guess for givenTree.Carcharodon_carcharias.synRate is 0.0512691
+Initial guess for givenTree.Amblyraja_radiata.nonSynRate is 0.174763
+Initial guess for givenTree.Amblyraja_radiata.synRate is 0.208559
+Initial guess for givenTree.Latimeria_chalumnae.nonSynRate is 0.274496
+Initial guess for givenTree.Latimeria_chalumnae.synRate is 0.250639
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+GT = 1
+CT = 1
+CG = 1
+AC = 1
+AT = 1
+givenTree.Hemiscyllium_ocellatum.synRate = 0.0790673
+givenTree.Hemiscyllium_ocellatum.nonSynRate = 0.0711049
+givenTree.Scyliorhinus_canicula.synRate = 0.0772792
+givenTree.Scyliorhinus_canicula.nonSynRate = 0.0829912
+givenTree.Carcharodon_carcharias.synRate = 0.0512691
+givenTree.Carcharodon_carcharias.nonSynRate = 0.0702811
+givenTree.Node3.synRate = 0.0432459
+givenTree.Node3.nonSynRate = 0.029913
+givenTree.Node1.synRate = 0.1
+givenTree.Node1.nonSynRate = 0.1
+givenTree.Amblyraja_radiata.synRate = 0.208559
+givenTree.Amblyraja_radiata.nonSynRate = 0.174763
+givenTree.Latimeria_chalumnae.synRate = 0.250639
+givenTree.Latimeria_chalumnae.nonSynRate = 0.274496
+Optimization finished in 20 loop passes.
+1685 likelihood evaluation calls and 5802 matrix exponentiations calls were made
+
+Variable 'lastDepth' was not initialized prior to being used
+No nodel was assigned to Hemiscyllium_ocellatum
+Hemiscyllium_ocellatum has 0 parameters - branch length not assigned
+No nodel was assigned to Scyliorhinus_canicula
+Scyliorhinus_canicula has 0 parameters - branch length not assigned
+No nodel was assigned to Carcharodon_carcharias
+Carcharodon_carcharias has 0 parameters - branch length not assigned
+No nodel was assigned to Node3
+Node3 has 0 parameters - branch length not assigned
+No nodel was assigned to Node1
+Node1 has 0 parameters - branch length not assigned
+No nodel was assigned to Amblyraja_radiata
+Amblyraja_radiata has 0 parameters - branch length not assigned
+No nodel was assigned to Latimeria_chalumnae
+Latimeria_chalumnae has 0 parameters - branch length not assigned
+No nodel was assigned to Hemiscyllium_ocellatum
+Hemiscyllium_ocellatum has 0 parameters - branch length not assigned
+No nodel was assigned to Scyliorhinus_canicula
+Scyliorhinus_canicula has 0 parameters - branch length not assigned
+No nodel was assigned to Carcharodon_carcharias
+Carcharodon_carcharias has 0 parameters - branch length not assigned
+No nodel was assigned to Node3
+Node3 has 0 parameters - branch length not assigned
+No nodel was assigned to Node1
+Node1 has 0 parameters - branch length not assigned
+No nodel was assigned to Amblyraja_radiata
+Amblyraja_radiata has 0 parameters - branch length not assigned
+No nodel was assigned to Latimeria_chalumnae
+Latimeria_chalumnae has 0 parameters - branch length not assigned
+No nodel was assigned to Hemiscyllium_ocellatum
+Hemiscyllium_ocellatum has 0 parameters - branch length not assigned
+No nodel was assigned to Scyliorhinus_canicula
+Scyliorhinus_canicula has 0 parameters - branch length not assigned
+No nodel was assigned to Carcharodon_carcharias
+Carcharodon_carcharias has 0 parameters - branch length not assigned
+No nodel was assigned to Node3
+Node3 has 0 parameters - branch length not assigned
+No nodel was assigned to Node1
+Node1 has 0 parameters - branch length not assigned
+No nodel was assigned to Amblyraja_radiata
+Amblyraja_radiata has 0 parameters - branch length not assigned
+No nodel was assigned to Latimeria_chalumnae
+Latimeria_chalumnae has 0 parameters - branch length not assigned
+No nodel was assigned to Hemiscyllium_ocellatum
+Hemiscyllium_ocellatum has 0 parameters - branch length not assigned
+No nodel was assigned to Scyliorhinus_canicula
+Scyliorhinus_canicula has 0 parameters - branch length not assigned
+No nodel was assigned to Carcharodon_carcharias
+Carcharodon_carcharias has 0 parameters - branch length not assigned
+No nodel was assigned to Node3
+Node3 has 0 parameters - branch length not assigned
+No nodel was assigned to Node1
+Node1 has 0 parameters - branch length not assigned
+No nodel was assigned to Amblyraja_radiata
+Amblyraja_radiata has 0 parameters - branch length not assigned
+No nodel was assigned to Latimeria_chalumnae
+Latimeria_chalumnae has 0 parameters - branch length not assigned
+Variable 'nodeName' was not initialized prior to being used
+Variable 'speciesIndex' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Hemiscyllium_ocellatum
+Model MG94customModel assigned to Scyliorhinus_canicula
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 'twoLnLik' was not initialized prior to being used
+Variable 't2.Scyliorhinus_canicula.nonSynRate' was not initialized prior to being used
+Variable 't2.Scyliorhinus_canicula.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 7352-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Scyliorhinus_canicula.nonSynRate = 0.1
+t2.Scyliorhinus_canicula.synRate = 0.1
+Optimization finished in 6 loop passes.
+200 likelihood evaluation calls and 183 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Hemiscyllium_ocellatum
+Model MG94customModel assigned to Carcharodon_carcharias
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Carcharodon_carcharias.nonSynRate' was not initialized prior to being used
+Variable 't2.Carcharodon_carcharias.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 8333-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Carcharodon_carcharias.nonSynRate = 0.1
+t2.Carcharodon_carcharias.synRate = 0.1
+Optimization finished in 6 loop passes.
+184 likelihood evaluation calls and 166 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Hemiscyllium_ocellatum
+Model MG94customModel assigned to Amblyraja_radiata
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Amblyraja_radiata.synRate' was not initialized prior to being used
+Variable 't2.Amblyraja_radiata.nonSynRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 11111-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Amblyraja_radiata.synRate = 0.1
+t2.Amblyraja_radiata.nonSynRate = 0.1
+Optimization finished in 8 loop passes.
+183 likelihood evaluation calls and 170 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Hemiscyllium_ocellatum
+Model MG94customModel assigned to Latimeria_chalumnae
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Latimeria_chalumnae.nonSynRate' was not initialized prior to being used
+Variable 't2.Latimeria_chalumnae.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 9803-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Latimeria_chalumnae.nonSynRate = 0.1
+t2.Latimeria_chalumnae.synRate = 0.1
+Optimization finished in 5 loop passes.
+239 likelihood evaluation calls and 220 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Scyliorhinus_canicula
+Model MG94customModel assigned to Carcharodon_carcharias
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Carcharodon_carcharias.synRate' was not initialized prior to being used
+Variable 't2.Carcharodon_carcharias.nonSynRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 4385-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Carcharodon_carcharias.synRate = 0.1
+t2.Carcharodon_carcharias.nonSynRate = 0.1
+Optimization finished in 6 loop passes.
+214 likelihood evaluation calls and 197 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Scyliorhinus_canicula
+Model MG94customModel assigned to Amblyraja_radiata
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Amblyraja_radiata.nonSynRate' was not initialized prior to being used
+Variable 't2.Amblyraja_radiata.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 6849-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Amblyraja_radiata.nonSynRate = 0.1
+t2.Amblyraja_radiata.synRate = 0.1
+Optimization finished in 6 loop passes.
+192 likelihood evaluation calls and 176 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Scyliorhinus_canicula
+Model MG94customModel assigned to Latimeria_chalumnae
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Latimeria_chalumnae.nonSynRate' was not initialized prior to being used
+Variable 't2.Latimeria_chalumnae.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 7692-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Latimeria_chalumnae.nonSynRate = 0.1
+t2.Latimeria_chalumnae.synRate = 0.1
+Optimization finished in 5 loop passes.
+205 likelihood evaluation calls and 186 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Carcharodon_carcharias
+Model MG94customModel assigned to Amblyraja_radiata
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Amblyraja_radiata.nonSynRate' was not initialized prior to being used
+Variable 't2.Amblyraja_radiata.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 10204-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Amblyraja_radiata.nonSynRate = 0.1
+t2.Amblyraja_radiata.synRate = 0.1
+Optimization finished in 6 loop passes.
+170 likelihood evaluation calls and 153 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Carcharodon_carcharias
+Model MG94customModel assigned to Latimeria_chalumnae
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Latimeria_chalumnae.nonSynRate' was not initialized prior to being used
+Variable 't2.Latimeria_chalumnae.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 10204-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Latimeria_chalumnae.nonSynRate = 0.1
+t2.Latimeria_chalumnae.synRate = 0.1
+Optimization finished in 5 loop passes.
+164 likelihood evaluation calls and 143 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Amblyraja_radiata
+Model MG94customModel assigned to Latimeria_chalumnae
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 920-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Latimeria_chalumnae.nonSynRate = 0.1
+t2.Latimeria_chalumnae.synRate = 0.1
+Optimization finished in 6 loop passes.
+160 likelihood evaluation calls and 143 matrix exponentiations calls were made
