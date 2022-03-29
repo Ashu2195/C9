@@ -1,0 +1,1241 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/models/codon/MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Already loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Loaded 'libv3/tasks/mpi.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../models/parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'FWBLgIGa.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'wlYAfGVV.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Loaded 'modules/grid_compute.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/grid_compute.ibf
+Variable 'rJwTLHIi.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'VHtgrRTQ.model_pi' was not initialized prior to being used
+Model VHtgrRTQ.model assigned to Lepisosteus_oculatus
+Model VHtgrRTQ.model assigned to Xiphophorus_maculatus
+Model VHtgrRTQ.model assigned to Poecilia_mexicana
+Model VHtgrRTQ.model assigned to Node9
+Model VHtgrRTQ.model assigned to Fundulus_heteroclitus
+Model VHtgrRTQ.model assigned to Node8
+Model VHtgrRTQ.model assigned to Oryzias_latipes
+Model VHtgrRTQ.model assigned to Node7
+Model VHtgrRTQ.model assigned to Stegastes_partitus
+Model VHtgrRTQ.model assigned to Maylandia_zebra
+Model VHtgrRTQ.model assigned to Node14
+Model VHtgrRTQ.model assigned to Node6
+Model VHtgrRTQ.model assigned to Monopterus_albus
+Model VHtgrRTQ.model assigned to Anabas_testudineus
+Model VHtgrRTQ.model assigned to Node18
+Model VHtgrRTQ.model assigned to Perca_flavescens
+Model VHtgrRTQ.model assigned to Node17
+Model VHtgrRTQ.model assigned to Node5
+Model VHtgrRTQ.model assigned to Hippocampus_comes
+Model VHtgrRTQ.model assigned to Node4
+Model VHtgrRTQ.model assigned to Salmo_trutta
+Model VHtgrRTQ.model assigned to Oncorhynchus_mykiss
+Model VHtgrRTQ.model assigned to Node23
+Model VHtgrRTQ.model assigned to Node3
+Model VHtgrRTQ.model assigned to Ictalurus_punctatus
+Model VHtgrRTQ.model assigned to Danio_rerio
+Model VHtgrRTQ.model assigned to Sinocyclocheilus_grahami
+Model VHtgrRTQ.model assigned to Node29
+Model VHtgrRTQ.model assigned to Node27
+Model VHtgrRTQ.model assigned to Clupea_harengus
+Model VHtgrRTQ.model assigned to Node26
+Model VHtgrRTQ.model assigned to Node2
+Model VHtgrRTQ.model assigned to Erpetoichthys_calabaricus
+The tips of the tree:VHtgrRTQ.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,17,13,4,11,16,8,9,0,12,5,14,10,6,2,15,1,3}
+
+Pseudo-optimal path's cost 29041 vs 43565 for 1..k=> a 1.50012 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'VHtgrRTQ.tree_0.Lepisosteus_oculatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Lepisosteus_oculatus.t=837.0569189621258
+Variable 'VHtgrRTQ.tree_0.Xiphophorus_maculatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Xiphophorus_maculatus.t=112.2515072158833
+Variable 'VHtgrRTQ.tree_0.Poecilia_mexicana.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Poecilia_mexicana.t=112.2515072158833
+Variable 'VHtgrRTQ.tree_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node9.t=39.89982483976896
+Variable 'VHtgrRTQ.tree_0.Fundulus_heteroclitus.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Fundulus_heteroclitus.t=152.1513320556523
+Variable 'VHtgrRTQ.tree_0.Node8.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node8.t=95.68594116371828
+Variable 'VHtgrRTQ.tree_0.Oryzias_latipes.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Oryzias_latipes.t=247.8372732193705
+Variable 'VHtgrRTQ.tree_0.Node7.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node7.t=69.66832863623728
+Variable 'VHtgrRTQ.tree_0.Stegastes_partitus.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Stegastes_partitus.t=295.2797932657076
+Variable 'VHtgrRTQ.tree_0.Maylandia_zebra.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Maylandia_zebra.t=295.2797932657076
+Variable 'VHtgrRTQ.tree_0.Node14.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node14.t=22.22580853670053
+Variable 'VHtgrRTQ.tree_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node6.t=22.97290344375389
+Variable 'VHtgrRTQ.tree_0.Monopterus_albus.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Monopterus_albus.t=216.3529538505326
+Variable 'VHtgrRTQ.tree_0.Anabas_testudineus.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Anabas_testudineus.t=216.3529538505326
+Variable 'VHtgrRTQ.tree_0.Node18.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node18.t=76.2457616411064
+Variable 'VHtgrRTQ.tree_0.Perca_flavescens.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Perca_flavescens.t=292.598715491639
+Variable 'VHtgrRTQ.tree_0.Node17.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node17.t=47.87978980772274
+Variable 'VHtgrRTQ.tree_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node5.t=2.659988322651264e-10
+Variable 'VHtgrRTQ.tree_0.Hippocampus_comes.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Hippocampus_comes.t=340.4785052993618
+Variable 'VHtgrRTQ.tree_0.Node4.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node4.t=208.3714033167394
+Variable 'VHtgrRTQ.tree_0.Salmo_trutta.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Salmo_trutta.t=121.6202767983849
+Variable 'VHtgrRTQ.tree_0.Oncorhynchus_mykiss.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Oncorhynchus_mykiss.t=121.6202767983849
+Variable 'VHtgrRTQ.tree_0.Node23.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node23.t=427.2296317379166
+Variable 'VHtgrRTQ.tree_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node3.t=62.68875090938351
+Variable 'VHtgrRTQ.tree_0.Ictalurus_punctatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Ictalurus_punctatus.t=405.8754667947008
+Variable 'VHtgrRTQ.tree_0.Danio_rerio.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Danio_rerio.t=282.7288288204415
+Variable 'VHtgrRTQ.tree_0.Sinocyclocheilus_grahami.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Sinocyclocheilus_grahami.t=282.7288288204415
+Variable 'VHtgrRTQ.tree_0.Node29.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node29.t=123.1466378678598
+Variable 'VHtgrRTQ.tree_0.Node27.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node27.t=183.9321230563798
+Variable 'VHtgrRTQ.tree_0.Clupea_harengus.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Clupea_harengus.t=589.8075897446811
+Variable 'VHtgrRTQ.tree_0.Node26.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node26.t=21.73106978080367
+Variable 'VHtgrRTQ.tree_0.Node2.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Node2.t=225.5182594100412
+Variable 'VHtgrRTQ.tree_0.Erpetoichthys_calabaricus.t' was not initialized prior to being used
+models.generic.SetBranchLength: VHtgrRTQ.tree_0.Erpetoichthys_calabaricus.t=1218.201281848372
+Variable 'VHtgrRTQ.VHtgrRTQ.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 586-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+VHtgrRTQ.model.theta_GT = 0.25
+VHtgrRTQ.model.theta_CT = 1
+VHtgrRTQ.model.theta_AC = 0.25
+VHtgrRTQ.model.theta_CG = 0.25
+VHtgrRTQ.model.theta_AT = 0.25
+VHtgrRTQ.tree_0.Lepisosteus_oculatus.t = 837.057
+VHtgrRTQ.tree_0.Xiphophorus_maculatus.t = 112.252
+VHtgrRTQ.tree_0.Poecilia_mexicana.t = 112.252
+VHtgrRTQ.tree_0.Node9.t = 39.8998
+VHtgrRTQ.tree_0.Fundulus_heteroclitus.t = 152.151
+VHtgrRTQ.tree_0.Node8.t = 95.6859
+VHtgrRTQ.tree_0.Oryzias_latipes.t = 247.837
+VHtgrRTQ.tree_0.Node7.t = 69.6683
+VHtgrRTQ.tree_0.Stegastes_partitus.t = 295.28
+VHtgrRTQ.tree_0.Maylandia_zebra.t = 295.28
+VHtgrRTQ.tree_0.Node14.t = 22.2258
+VHtgrRTQ.tree_0.Node6.t = 22.9729
+VHtgrRTQ.tree_0.Monopterus_albus.t = 216.353
+VHtgrRTQ.tree_0.Anabas_testudineus.t = 216.353
+VHtgrRTQ.tree_0.Node18.t = 76.2458
+VHtgrRTQ.tree_0.Perca_flavescens.t = 292.599
+VHtgrRTQ.tree_0.Node17.t = 47.8798
+VHtgrRTQ.tree_0.Node5.t = 2.65999e-10
+VHtgrRTQ.tree_0.Hippocampus_comes.t = 340.479
+VHtgrRTQ.tree_0.Node4.t = 208.371
+VHtgrRTQ.tree_0.Salmo_trutta.t = 121.62
+VHtgrRTQ.tree_0.Oncorhynchus_mykiss.t = 121.62
+VHtgrRTQ.tree_0.Node23.t = 427.23
+VHtgrRTQ.tree_0.Node3.t = 62.6888
+VHtgrRTQ.tree_0.Ictalurus_punctatus.t = 405.875
+VHtgrRTQ.tree_0.Danio_rerio.t = 282.729
+VHtgrRTQ.tree_0.Sinocyclocheilus_grahami.t = 282.729
+VHtgrRTQ.tree_0.Node29.t = 123.147
+VHtgrRTQ.tree_0.Node27.t = 183.932
+VHtgrRTQ.tree_0.Clupea_harengus.t = 589.808
+VHtgrRTQ.tree_0.Node26.t = 21.7311
+VHtgrRTQ.tree_0.Node2.t = 225.518
+VHtgrRTQ.tree_0.Erpetoichthys_calabaricus.t = 1218.2
+Optimization finished in 68 loop passes.
+13601 likelihood evaluation calls and 89968 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'VHtgrRTQ.option' was not initialized prior to being used
+Variable 'relax.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'UCCreKxU.initial_value' was not initialized prior to being used
+Variable 'iWlz_KKr.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6666-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.29665
+frequencies._aux.CF3x4.p0_1 = 0.256789
+frequencies._aux.CF3x4.p0_2 = 0.611715
+frequencies._aux.CF3x4.p1_0 = 0.315598
+frequencies._aux.CF3x4.p1_1 = 0.3299
+frequencies._aux.CF3x4.p1_2 = 0.504214
+frequencies._aux.CF3x4.p2_0 = 0.237532
+frequencies._aux.CF3x4.p2_1 = 0.340358
+frequencies._aux.CF3x4.p2_2 = 0.483122
+Optimization finished in 6 loop passes.
+178 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'iWlz_KKr.model_MGREV_pi' was not initialized prior to being used
+Model iWlz_KKr.model_MGREV assigned to Lepisosteus_oculatus
+Model iWlz_KKr.model_MGREV assigned to Xiphophorus_maculatus
+Model iWlz_KKr.model_MGREV assigned to Poecilia_mexicana
+Model iWlz_KKr.model_MGREV assigned to Node9
+Model iWlz_KKr.model_MGREV assigned to Fundulus_heteroclitus
+Model iWlz_KKr.model_MGREV assigned to Node8
+Model iWlz_KKr.model_MGREV assigned to Oryzias_latipes
+Model iWlz_KKr.model_MGREV assigned to Node7
+Model iWlz_KKr.model_MGREV assigned to Stegastes_partitus
+Model iWlz_KKr.model_MGREV assigned to Maylandia_zebra
+Model iWlz_KKr.model_MGREV assigned to Node14
+Model iWlz_KKr.model_MGREV assigned to Node6
+Model iWlz_KKr.model_MGREV assigned to Monopterus_albus
+Model iWlz_KKr.model_MGREV assigned to Anabas_testudineus
+Model iWlz_KKr.model_MGREV assigned to Node18
+Model iWlz_KKr.model_MGREV assigned to Perca_flavescens
+Model iWlz_KKr.model_MGREV assigned to Node17
+Model iWlz_KKr.model_MGREV assigned to Node5
+Model iWlz_KKr.model_MGREV assigned to Hippocampus_comes
+Model iWlz_KKr.model_MGREV assigned to Node4
+Model iWlz_KKr.model_MGREV assigned to Salmo_trutta
+Model iWlz_KKr.model_MGREV assigned to Oncorhynchus_mykiss
+Model iWlz_KKr.model_MGREV assigned to Node23
+Model iWlz_KKr.model_MGREV assigned to Node3
+Model iWlz_KKr.model_MGREV assigned to Ictalurus_punctatus
+Model iWlz_KKr.model_MGREV assigned to Danio_rerio
+Model iWlz_KKr.model_MGREV assigned to Sinocyclocheilus_grahami
+Model iWlz_KKr.model_MGREV assigned to Node29
+Model iWlz_KKr.model_MGREV assigned to Node27
+Model iWlz_KKr.model_MGREV assigned to Clupea_harengus
+Model iWlz_KKr.model_MGREV assigned to Node26
+Model iWlz_KKr.model_MGREV assigned to Node2
+Model iWlz_KKr.model_MGREV assigned to Erpetoichthys_calabaricus
+The tips of the tree:iWlz_KKr.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,17,13,4,11,16,8,9,0,12,5,14,10,6,2,15,1,3}
+
+Pseudo-optimal path's cost 18683 vs 21383 for 1..k=> a 1.14452 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'iWlz_KKr.iWlz_KKr.likelihoodFunction' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Lepisosteus_oculatus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Xiphophorus_maculatus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Poecilia_mexicana.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node9.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Fundulus_heteroclitus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node8.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Oryzias_latipes.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node7.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Stegastes_partitus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Maylandia_zebra.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node14.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Monopterus_albus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Anabas_testudineus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node18.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Perca_flavescens.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node17.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node5.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Hippocampus_comes.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node4.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Salmo_trutta.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Oncorhynchus_mykiss.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node23.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node3.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Ictalurus_punctatus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Danio_rerio.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Sinocyclocheilus_grahami.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node29.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node27.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Clupea_harengus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node26.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node2.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Erpetoichthys_calabaricus.alpha' was not initialized prior to being used
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 542 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 356 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 174 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 219 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 542 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 639 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 646 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 84 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 558 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 237 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 199 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 682 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 659 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 204 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 564 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 602 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 20 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 609 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 399 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 3 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 566 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 661 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 199 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 107 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 589 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 707 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 428 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 171 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 292 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 115 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 659 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 455 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 507 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 564 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 380 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (8) of threads.
+Set GUI update interval to every 98-th LF evaluation.
+Initial guess for iWlz_KKr.tree_0.Node2.alpha is 1.27969e-05
+Initial guess for iWlz_KKr.tree_0.Node3.alpha is 1.70825e-05
+Initial guess for iWlz_KKr.tree_0.Node4.alpha is 9.49454e-06
+Initial guess for iWlz_KKr.tree_0.Node5.alpha is 2.24847e-06
+Initial guess for iWlz_KKr.tree_0.Node6.alpha is -1.94363e-06
+Initial guess for iWlz_KKr.tree_0.Node7.alpha is 6.97711e-07
+Initial guess for iWlz_KKr.tree_0.Node8.alpha is 1.46832e-05
+Initial guess for iWlz_KKr.tree_0.Node9.alpha is 1.97606e-05
+Initial guess for iWlz_KKr.tree_0.Xiphophorus_maculatus.alpha is 4.50305e-05
+Initial guess for iWlz_KKr.tree_0.Poecilia_mexicana.alpha is 6.49891e-06
+Initial guess for iWlz_KKr.tree_0.Fundulus_heteroclitus.alpha is 7.30031e-06
+Initial guess for iWlz_KKr.tree_0.Oryzias_latipes.alpha is 2.42184e-05
+Initial guess for iWlz_KKr.tree_0.Node14.alpha is 6.11249e-06
+Initial guess for iWlz_KKr.tree_0.Stegastes_partitus.alpha is 3.52963e-05
+Initial guess for iWlz_KKr.tree_0.Maylandia_zebra.alpha is 2.30887e-05
+Initial guess for iWlz_KKr.tree_0.Node17.alpha is 6.02552e-06
+Initial guess for iWlz_KKr.tree_0.Node18.alpha is 1.6546e-06
+Initial guess for iWlz_KKr.tree_0.Monopterus_albus.alpha is 2.77891e-05
+Initial guess for iWlz_KKr.tree_0.Anabas_testudineus.alpha is 2.20277e-05
+Initial guess for iWlz_KKr.tree_0.Perca_flavescens.alpha is 2.38318e-05
+Initial guess for iWlz_KKr.tree_0.Hippocampus_comes.alpha is 3.47619e-05
+Initial guess for iWlz_KKr.tree_0.Node23.alpha is 4.01869e-05
+Initial guess for iWlz_KKr.tree_0.Salmo_trutta.alpha is 3.88103e-05
+Initial guess for iWlz_KKr.tree_0.Oncorhynchus_mykiss.alpha is 3.79671e-06
+Initial guess for iWlz_KKr.tree_0.Node26.alpha is 6.88081e-06
+Initial guess for iWlz_KKr.tree_0.Node27.alpha is 9.78569e-06
+Initial guess for iWlz_KKr.tree_0.Ictalurus_punctatus.alpha is 4.08326e-06
+Initial guess for iWlz_KKr.tree_0.Node29.alpha is 4.35634e-05
+Initial guess for iWlz_KKr.tree_0.Danio_rerio.alpha is 3.98344e-05
+Initial guess for iWlz_KKr.tree_0.Sinocyclocheilus_grahami.alpha is 2.8474e-05
+Initial guess for iWlz_KKr.tree_0.Clupea_harengus.alpha is 2.40984e-05
+Initial guess for iWlz_KKr.tree_0.Erpetoichthys_calabaricus.alpha is 5.9301e-05
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+iWlz_KKr.model_MGREV.theta_GT = 1
+iWlz_KKr.model_MGREV.theta_CT = 1
+iWlz_KKr.model_MGREV.theta_CG = 1
+iWlz_KKr.model_MGREV.theta_AC = 1
+iWlz_KKr.model_MGREV.theta_AT = 1
+iWlz_KKr.model_MGREV.omega_0 = 1
+iWlz_KKr.tree_0.Lepisosteus_oculatus.alpha = 0.1
+iWlz_KKr.tree_0.Xiphophorus_maculatus.alpha = 4.50305e-05
+iWlz_KKr.tree_0.Poecilia_mexicana.alpha = 6.49891e-06
+iWlz_KKr.tree_0.Node9.alpha = 1.97606e-05
+iWlz_KKr.tree_0.Fundulus_heteroclitus.alpha = 7.30031e-06
+iWlz_KKr.tree_0.Node8.alpha = 1.46832e-05
+iWlz_KKr.tree_0.Oryzias_latipes.alpha = 2.42184e-05
+iWlz_KKr.tree_0.Node7.alpha = 6.97711e-07
+iWlz_KKr.tree_0.Stegastes_partitus.alpha = 3.52963e-05
+iWlz_KKr.tree_0.Maylandia_zebra.alpha = 2.30887e-05
+iWlz_KKr.tree_0.Node14.alpha = 6.11249e-06
+iWlz_KKr.tree_0.Node6.alpha = 0
+iWlz_KKr.tree_0.Monopterus_albus.alpha = 2.77891e-05
+iWlz_KKr.tree_0.Anabas_testudineus.alpha = 2.20277e-05
+iWlz_KKr.tree_0.Node18.alpha = 1.6546e-06
+iWlz_KKr.tree_0.Perca_flavescens.alpha = 2.38318e-05
+iWlz_KKr.tree_0.Node17.alpha = 6.02552e-06
+iWlz_KKr.tree_0.Node5.alpha = 2.24847e-06
+iWlz_KKr.tree_0.Hippocampus_comes.alpha = 3.47619e-05
+iWlz_KKr.tree_0.Node4.alpha = 9.49454e-06
+iWlz_KKr.tree_0.Salmo_trutta.alpha = 3.88103e-05
+iWlz_KKr.tree_0.Oncorhynchus_mykiss.alpha = 3.79671e-06
+iWlz_KKr.tree_0.Node23.alpha = 4.01869e-05
+iWlz_KKr.tree_0.Node3.alpha = 1.70825e-05
+iWlz_KKr.tree_0.Ictalurus_punctatus.alpha = 4.08326e-06
+iWlz_KKr.tree_0.Danio_rerio.alpha = 3.98344e-05
+iWlz_KKr.tree_0.Sinocyclocheilus_grahami.alpha = 2.8474e-05
+iWlz_KKr.tree_0.Node29.alpha = 4.35634e-05
+iWlz_KKr.tree_0.Node27.alpha = 9.78569e-06
+iWlz_KKr.tree_0.Clupea_harengus.alpha = 2.40984e-05
+iWlz_KKr.tree_0.Node26.alpha = 6.88081e-06
+iWlz_KKr.tree_0.Node2.alpha = 1.27969e-05
+iWlz_KKr.tree_0.Erpetoichthys_calabaricus.alpha = 5.9301e-05
+iWlz_KKr.model_MGREV.omega_1 = 1
+Failing bound checks on iWlz_KKr.tree_0.Node6.beta =         10004.51464281358
+Optimization finished in 50 loop passes.
+7174 likelihood evaluation calls and 52424 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6329-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.29665
+frequencies._aux.CF3x4.p0_1 = 0.256789
+frequencies._aux.CF3x4.p0_2 = 0.611715
+frequencies._aux.CF3x4.p1_0 = 0.315598
+frequencies._aux.CF3x4.p1_1 = 0.3299
+frequencies._aux.CF3x4.p1_2 = 0.504214
+frequencies._aux.CF3x4.p2_0 = 0.237532
+frequencies._aux.CF3x4.p2_1 = 0.340358
+frequencies._aux.CF3x4.p2_2 = 0.483122
+Optimization finished in 6 loop passes.
+178 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'iWlz_KKr.model_MGREV_pi' was not initialized prior to being used
+Model iWlz_KKr.model_MGREV assigned to Lepisosteus_oculatus
+Model iWlz_KKr.model_MGREV assigned to Xiphophorus_maculatus
+Model iWlz_KKr.model_MGREV assigned to Poecilia_mexicana
+Model iWlz_KKr.model_MGREV assigned to Node9
+Model iWlz_KKr.model_MGREV assigned to Fundulus_heteroclitus
+Model iWlz_KKr.model_MGREV assigned to Node8
+Model iWlz_KKr.model_MGREV assigned to Oryzias_latipes
+Model iWlz_KKr.model_MGREV assigned to Node7
+Model iWlz_KKr.model_MGREV assigned to Stegastes_partitus
+Model iWlz_KKr.model_MGREV assigned to Maylandia_zebra
+Model iWlz_KKr.model_MGREV assigned to Node14
+Model iWlz_KKr.model_MGREV assigned to Node6
+Model iWlz_KKr.model_MGREV assigned to Monopterus_albus
+Model iWlz_KKr.model_MGREV assigned to Anabas_testudineus
+Model iWlz_KKr.model_MGREV assigned to Node18
+Model iWlz_KKr.model_MGREV assigned to Perca_flavescens
+Model iWlz_KKr.model_MGREV assigned to Node17
+Model iWlz_KKr.model_MGREV assigned to Node5
+Model iWlz_KKr.model_MGREV assigned to Hippocampus_comes
+Model iWlz_KKr.model_MGREV assigned to Node4
+Model iWlz_KKr.model_MGREV assigned to Salmo_trutta
+Model iWlz_KKr.model_MGREV assigned to Oncorhynchus_mykiss
+Model iWlz_KKr.model_MGREV assigned to Node23
+Model iWlz_KKr.model_MGREV assigned to Node3
+Model iWlz_KKr.model_MGREV assigned to Ictalurus_punctatus
+Model iWlz_KKr.model_MGREV assigned to Danio_rerio
+Model iWlz_KKr.model_MGREV assigned to Sinocyclocheilus_grahami
+Model iWlz_KKr.model_MGREV assigned to Node29
+Model iWlz_KKr.model_MGREV assigned to Node27
+Model iWlz_KKr.model_MGREV assigned to Clupea_harengus
+Model iWlz_KKr.model_MGREV assigned to Node26
+Model iWlz_KKr.model_MGREV assigned to Node2
+Model iWlz_KKr.model_MGREV assigned to Erpetoichthys_calabaricus
+The tips of the tree:iWlz_KKr.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,17,13,4,11,16,8,9,0,12,5,14,10,6,2,15,1,3}
+
+Pseudo-optimal path's cost 18683 vs 21383 for 1..k=> a 1.14452 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'iWlz_KKr.tree_0.Node26.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Clupea_harengus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node2.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node27.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Xiphophorus_maculatus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node29.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Sinocyclocheilus_grahami.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Danio_rerio.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node9.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Ictalurus_punctatus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Lepisosteus_oculatus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node3.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Stegastes_partitus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node7.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node23.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Oncorhynchus_mykiss.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Salmo_trutta.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node4.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Hippocampus_comes.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node5.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Maylandia_zebra.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Fundulus_heteroclitus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node17.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Perca_flavescens.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Poecilia_mexicana.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node18.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Anabas_testudineus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node14.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Monopterus_albus.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Node8.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Oryzias_latipes.alpha' was not initialized prior to being used
+Variable 'iWlz_KKr.tree_0.Erpetoichthys_calabaricus.alpha' was not initialized prior to being used
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 542 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 356 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 174 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 219 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 542 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 639 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 84 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 646 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 558 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 237 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 682 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 199 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 659 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 204 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 564 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 20 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 602 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 609 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 399 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 3 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 566 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 661 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 107 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 707 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 199 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 589 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 428 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 171 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 292 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 659 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 507 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 115 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 369 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 455 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 564 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 380 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 547 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 124 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 513 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 142 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 199 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 222 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 154 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 660 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 644 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 13 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 255 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 615 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 263 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 433 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 565 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 693 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 116 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 176 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 207 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 282 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 589 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 564 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 682 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 272 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 659 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 199 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 245 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 310 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 171 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 204 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 149 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 481 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 483 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 620 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 310 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 469 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 113 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 397 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 480 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 377 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 551 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 692 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 12 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 533 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 275 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 436 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 400 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 598 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 153 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 251 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 571 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 433 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 471 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 237 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 615 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 462 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 222 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 695 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 161 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 564 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 276 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 154 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 595 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 142 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 659 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 332 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 471 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 513 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 227 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 373 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 69 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 661 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 708 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 199 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 451 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 551 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 668 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 589 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 707 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 107 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 617 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 275 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 207 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 428 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 171 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (15) of threads.
+Set GUI update interval to every 147-th LF evaluation.
+Initial guess for iWlz_KKr.tree_0.Node2.alpha is 1.27969e-05
+Initial guess for iWlz_KKr.tree_0.Node3.alpha is 1.70825e-05
+Initial guess for iWlz_KKr.tree_0.Node4.alpha is 9.49454e-06
+Initial guess for iWlz_KKr.tree_0.Node5.alpha is 2.24847e-06
+Initial guess for iWlz_KKr.tree_0.Node6.alpha is -1.94363e-06
+Initial guess for iWlz_KKr.tree_0.Node7.alpha is 6.97711e-07
+Initial guess for iWlz_KKr.tree_0.Node8.alpha is 1.46832e-05
+Initial guess for iWlz_KKr.tree_0.Node9.alpha is 1.97606e-05
+Initial guess for iWlz_KKr.tree_0.Xiphophorus_maculatus.alpha is 4.50305e-05
+Initial guess for iWlz_KKr.tree_0.Poecilia_mexicana.alpha is 6.49891e-06
+Initial guess for iWlz_KKr.tree_0.Fundulus_heteroclitus.alpha is 7.30031e-06
+Initial guess for iWlz_KKr.tree_0.Oryzias_latipes.alpha is 2.42184e-05
+Initial guess for iWlz_KKr.tree_0.Node14.alpha is 6.11249e-06
+Initial guess for iWlz_KKr.tree_0.Stegastes_partitus.alpha is 3.52963e-05
+Initial guess for iWlz_KKr.tree_0.Maylandia_zebra.alpha is 2.30887e-05
+Initial guess for iWlz_KKr.tree_0.Node17.alpha is 6.02552e-06
+Initial guess for iWlz_KKr.tree_0.Node18.alpha is 1.6546e-06
+Initial guess for iWlz_KKr.tree_0.Monopterus_albus.alpha is 2.77891e-05
+Initial guess for iWlz_KKr.tree_0.Anabas_testudineus.alpha is 2.20277e-05
+Initial guess for iWlz_KKr.tree_0.Perca_flavescens.alpha is 2.38318e-05
+Initial guess for iWlz_KKr.tree_0.Hippocampus_comes.alpha is 3.47619e-05
+Initial guess for iWlz_KKr.tree_0.Node23.alpha is 4.01869e-05
+Initial guess for iWlz_KKr.tree_0.Salmo_trutta.alpha is 3.88103e-05
+Initial guess for iWlz_KKr.tree_0.Oncorhynchus_mykiss.alpha is 3.79671e-06
+Initial guess for iWlz_KKr.tree_0.Node26.alpha is 6.88081e-06
+Initial guess for iWlz_KKr.tree_0.Node27.alpha is 9.78569e-06
+Initial guess for iWlz_KKr.tree_0.Ictalurus_punctatus.alpha is 4.08326e-06
+Initial guess for iWlz_KKr.tree_0.Node29.alpha is 4.35634e-05
+Initial guess for iWlz_KKr.tree_0.Danio_rerio.alpha is 3.98344e-05
+Initial guess for iWlz_KKr.tree_0.Sinocyclocheilus_grahami.alpha is 2.8474e-05
+Initial guess for iWlz_KKr.tree_0.Clupea_harengus.alpha is 2.40984e-05
+Initial guess for iWlz_KKr.tree_0.Erpetoichthys_calabaricus.alpha is 5.9301e-05
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+iWlz_KKr.model_MGREV.theta_CT = 1
+iWlz_KKr.model_MGREV.theta_GT = 1
+iWlz_KKr.model_MGREV.theta_CG = 1
+iWlz_KKr.model_MGREV.theta_AC = 1
+iWlz_KKr.model_MGREV.theta_AT = 1
+iWlz_KKr.model_MGREV.omega_0 = 1
+iWlz_KKr.tree_0.Lepisosteus_oculatus.alpha = 0.1
+iWlz_KKr.tree_0.Xiphophorus_maculatus.alpha = 4.50305e-05
+iWlz_KKr.tree_0.Poecilia_mexicana.alpha = 6.49891e-06
+iWlz_KKr.tree_0.Node9.alpha = 1.97606e-05
+iWlz_KKr.tree_0.Fundulus_heteroclitus.alpha = 7.30031e-06
+iWlz_KKr.tree_0.Node8.alpha = 1.46832e-05
+iWlz_KKr.tree_0.Oryzias_latipes.alpha = 2.42184e-05
+iWlz_KKr.tree_0.Node7.alpha = 6.97711e-07
+iWlz_KKr.tree_0.Stegastes_partitus.alpha = 3.52963e-05
+iWlz_KKr.tree_0.Maylandia_zebra.alpha = 2.30887e-05
+iWlz_KKr.tree_0.Node14.alpha = 6.11249e-06
+iWlz_KKr.tree_0.Node6.alpha = 0
+iWlz_KKr.tree_0.Monopterus_albus.alpha = 2.77891e-05
+iWlz_KKr.tree_0.Anabas_testudineus.alpha = 2.20277e-05
+iWlz_KKr.tree_0.Node18.alpha = 1.6546e-06
+iWlz_KKr.tree_0.Perca_flavescens.alpha = 2.38318e-05
+iWlz_KKr.tree_0.Node17.alpha = 6.02552e-06
+iWlz_KKr.tree_0.Node5.alpha = 2.24847e-06
+iWlz_KKr.tree_0.Hippocampus_comes.alpha = 3.47619e-05
+iWlz_KKr.tree_0.Node4.alpha = 9.49454e-06
+iWlz_KKr.tree_0.Salmo_trutta.alpha = 3.88103e-05
+iWlz_KKr.tree_0.Oncorhynchus_mykiss.alpha = 3.79671e-06
+iWlz_KKr.tree_0.Node23.alpha = 4.01869e-05
+iWlz_KKr.tree_0.Node3.alpha = 1.70825e-05
+iWlz_KKr.tree_0.Ictalurus_punctatus.alpha = 4.08326e-06
+iWlz_KKr.tree_0.Danio_rerio.alpha = 3.98344e-05
+iWlz_KKr.tree_0.Sinocyclocheilus_grahami.alpha = 2.8474e-05
+iWlz_KKr.tree_0.Node29.alpha = 4.35634e-05
+iWlz_KKr.tree_0.Node27.alpha = 9.78569e-06
+iWlz_KKr.tree_0.Clupea_harengus.alpha = 2.40984e-05
+iWlz_KKr.tree_0.Node26.alpha = 6.88081e-06
+iWlz_KKr.tree_0.Node2.alpha = 1.27969e-05
+iWlz_KKr.tree_0.Erpetoichthys_calabaricus.alpha = 5.9301e-05
+iWlz_KKr.model_MGREV.omega_1 = 1
+Failing bound checks on iWlz_KKr.tree_0.Node6.beta =         10004.51464281358
+Optimization finished in 51 loop passes.
+7393 likelihood evaluation calls and 52743 matrix exponentiations calls were made
+
+Overwritten previously defined function:'mebjdikt.rate_generator'
+Overwritten previously defined function:'mebjdikt.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 6944-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.29665
+frequencies._aux.CF3x4.p0_1 = 0.256789
+frequencies._aux.CF3x4.p0_2 = 0.611715
+frequencies._aux.CF3x4.p1_0 = 0.315598
+frequencies._aux.CF3x4.p1_1 = 0.3299
+frequencies._aux.CF3x4.p1_2 = 0.504214
+frequencies._aux.CF3x4.p2_0 = 0.237532
+frequencies._aux.CF3x4.p2_1 = 0.340358
+frequencies._aux.CF3x4.p2_2 = 0.483122
+Optimization finished in 6 loop passes.
+177 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.test_pi' was not initialized prior to being used
+Overwritten previously defined function:'mebjdikt.rate_generator'
+Overwritten previously defined function:'mebjdikt.rate_generator'
+Overwritten previously defined function:'mebjdikt.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6756-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.29665
+frequencies._aux.CF3x4.p0_1 = 0.256789
+frequencies._aux.CF3x4.p0_2 = 0.611715
+frequencies._aux.CF3x4.p1_0 = 0.315598
+frequencies._aux.CF3x4.p1_1 = 0.3299
+frequencies._aux.CF3x4.p1_2 = 0.504214
+frequencies._aux.CF3x4.p2_0 = 0.237532
+frequencies._aux.CF3x4.p2_1 = 0.340358
+frequencies._aux.CF3x4.p2_2 = 0.483122
+Optimization finished in 6 loop passes.
+178 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'relax.reference_pi' was not initialized prior to being used
+No nodel was assigned to Lepisosteus_oculatus
+No nodel was assigned to Xiphophorus_maculatus
+No nodel was assigned to Poecilia_mexicana
+No nodel was assigned to Node9
+No nodel was assigned to Fundulus_heteroclitus
+No nodel was assigned to Node8
+No nodel was assigned to Oryzias_latipes
+No nodel was assigned to Node7
+No nodel was assigned to Stegastes_partitus
+No nodel was assigned to Maylandia_zebra
+No nodel was assigned to Node14
+No nodel was assigned to Node6
+No nodel was assigned to Monopterus_albus
+No nodel was assigned to Anabas_testudineus
+No nodel was assigned to Node18
+No nodel was assigned to Perca_flavescens
+No nodel was assigned to Node17
+No nodel was assigned to Node5
+No nodel was assigned to Hippocampus_comes
+No nodel was assigned to Node4
+No nodel was assigned to Salmo_trutta
+No nodel was assigned to Oncorhynchus_mykiss
+No nodel was assigned to Node23
+No nodel was assigned to Node3
+No nodel was assigned to Ictalurus_punctatus
+No nodel was assigned to Danio_rerio
+No nodel was assigned to Sinocyclocheilus_grahami
+No nodel was assigned to Node29
+No nodel was assigned to Node27
+No nodel was assigned to Clupea_harengus
+No nodel was assigned to Node26
+No nodel was assigned to Node2
+No nodel was assigned to Erpetoichthys_calabaricus
+The tips of the tree:azRNZxaX.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {7,17,13,4,11,16,8,9,0,12,5,14,10,6,2,15,1,3}
+
+Pseudo-optimal path's cost 18683 vs 21383 for 1..k=> a 1.14452 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+Variable 'azRNZxaX.tree_id_0.Lepisosteus_oculatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Lepisosteus_oculatus.t=1.41487258057617
+Variable 'azRNZxaX.tree_id_0.Xiphophorus_maculatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Xiphophorus_maculatus.t=0.1434811674475582
+Variable 'azRNZxaX.tree_id_0.Poecilia_mexicana.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Poecilia_mexicana.t=0.1915855218914348
+Variable 'azRNZxaX.tree_id_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node9.t=0.6721440752839341
+Variable 'azRNZxaX.tree_id_0.Fundulus_heteroclitus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Fundulus_heteroclitus.t=0.6586193901701797
+Variable 'azRNZxaX.tree_id_0.Node8.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node8.t=0.6623322472044617
+Variable 'azRNZxaX.tree_id_0.Oryzias_latipes.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Oryzias_latipes.t=1.139941795602623
+Variable 'azRNZxaX.tree_id_0.Node7.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node7.t=0.3710719809587659
+Variable 'azRNZxaX.tree_id_0.Stegastes_partitus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Stegastes_partitus.t=0.5982361944610096
+Variable 'azRNZxaX.tree_id_0.Maylandia_zebra.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Maylandia_zebra.t=0.8661502379660667
+Variable 'azRNZxaX.tree_id_0.Node14.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node14.t=0.1378634213281583
+Variable 'azRNZxaX.tree_id_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node6.t=0.03916524552602731
+Variable 'azRNZxaX.tree_id_0.Monopterus_albus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Monopterus_albus.t=0.5767226362794038
+Variable 'azRNZxaX.tree_id_0.Anabas_testudineus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Anabas_testudineus.t=0.7420114740915662
+Variable 'azRNZxaX.tree_id_0.Node18.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node18.t=0.1582309187011587
+Variable 'azRNZxaX.tree_id_0.Perca_flavescens.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Perca_flavescens.t=0.7192601622598553
+Variable 'azRNZxaX.tree_id_0.Node17.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node17.t=0.07832889084921499
+Variable 'azRNZxaX.tree_id_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node5.t=0.2480055392095091
+Variable 'azRNZxaX.tree_id_0.Hippocampus_comes.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Hippocampus_comes.t=1.33026620744576
+Variable 'azRNZxaX.tree_id_0.Node4.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node4.t=0.7193642077111141
+Variable 'azRNZxaX.tree_id_0.Salmo_trutta.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Salmo_trutta.t=0.09583941760087934
+Variable 'azRNZxaX.tree_id_0.Oncorhynchus_mykiss.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Oncorhynchus_mykiss.t=0.08515093802358846
+Variable 'azRNZxaX.tree_id_0.Node23.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node23.t=1.250660696354178
+Variable 'azRNZxaX.tree_id_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node3.t=0.8927526124319883
+Variable 'azRNZxaX.tree_id_0.Ictalurus_punctatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Ictalurus_punctatus.t=1.330550843597719
+Variable 'azRNZxaX.tree_id_0.Danio_rerio.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Danio_rerio.t=0.7773660538919961
+Variable 'azRNZxaX.tree_id_0.Sinocyclocheilus_grahami.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Sinocyclocheilus_grahami.t=0.5156914832947408
+Variable 'azRNZxaX.tree_id_0.Node29.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node29.t=1.304672775780149
+Variable 'azRNZxaX.tree_id_0.Node27.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node27.t=1.049415493996522
+Variable 'azRNZxaX.tree_id_0.Clupea_harengus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Clupea_harengus.t=1.929829692497777
+Variable 'azRNZxaX.tree_id_0.Node26.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node26.t=0.2058491466068824
+Variable 'azRNZxaX.tree_id_0.Node2.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node2.t=1.076222435114639
+Variable 'azRNZxaX.tree_id_0.Erpetoichthys_calabaricus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Erpetoichthys_calabaricus.t=2.898017715501803
+Variable 'azRNZxaX.azRNZxaX.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 15-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.omega3 = 7.27482
+relax.reference.omega2 = 0.4601
+relax.reference.bsrel_mixture_aux_0 = 0.45
+relax.reference.omega1 = 0.145496
+relax.reference.bsrel_mixture_aux_1 = 0.818182
+relax.test.theta_AC = 0.876022
+relax.test.theta_GT = 0.353056
+relax.test.theta_CT = 1.0235
+relax.test.theta_AT = 0.631063
+relax.test.theta_CG = 0.690607
+relax.K = 1
+azRNZxaX.tree_id_0.Lepisosteus_oculatus.t = 1.41487
+azRNZxaX.tree_id_0.Xiphophorus_maculatus.t = 0.143481
+azRNZxaX.tree_id_0.Poecilia_mexicana.t = 0.191586
+azRNZxaX.tree_id_0.Node9.t = 0.672144
+azRNZxaX.tree_id_0.Fundulus_heteroclitus.t = 0.658619
+azRNZxaX.tree_id_0.Node8.t = 0.662332
+azRNZxaX.tree_id_0.Oryzias_latipes.t = 1.13994
+azRNZxaX.tree_id_0.Node7.t = 0.371072
+azRNZxaX.tree_id_0.Stegastes_partitus.t = 0.598236
+azRNZxaX.tree_id_0.Maylandia_zebra.t = 0.86615
+azRNZxaX.tree_id_0.Node14.t = 0.137863
+azRNZxaX.tree_id_0.Node6.t = 0.0391652
+azRNZxaX.tree_id_0.Monopterus_albus.t = 0.576723
+azRNZxaX.tree_id_0.Anabas_testudineus.t = 0.742011
+azRNZxaX.tree_id_0.Node18.t = 0.158231
+azRNZxaX.tree_id_0.Perca_flavescens.t = 0.71926
+azRNZxaX.tree_id_0.Node17.t = 0.0783289
+azRNZxaX.tree_id_0.Node5.t = 0.248006
+azRNZxaX.tree_id_0.Hippocampus_comes.t = 1.33027
+azRNZxaX.tree_id_0.Node4.t = 0.719364
+azRNZxaX.tree_id_0.Salmo_trutta.t = 0.0958394
+azRNZxaX.tree_id_0.Oncorhynchus_mykiss.t = 0.0851509
+azRNZxaX.tree_id_0.Node23.t = 1.25066
+azRNZxaX.tree_id_0.Node3.t = 0.892753
+azRNZxaX.tree_id_0.Ictalurus_punctatus.t = 1.33055
+azRNZxaX.tree_id_0.Danio_rerio.t = 0.777366
+azRNZxaX.tree_id_0.Sinocyclocheilus_grahami.t = 0.515691
+azRNZxaX.tree_id_0.Node29.t = 1.30467
+azRNZxaX.tree_id_0.Node27.t = 1.04942
+azRNZxaX.tree_id_0.Clupea_harengus.t = 1.92983
+azRNZxaX.tree_id_0.Node26.t = 0.205849
+azRNZxaX.tree_id_0.Node2.t = 1.07622
+azRNZxaX.tree_id_0.Erpetoichthys_calabaricus.t = 2.89802
+Optimization finished in 71 loop passes.
+9059 likelihood evaluation calls and 329619 matrix exponentiations calls were made
+
+Variable 'MPI_NODE_COUNT' was not initialized prior to being used
+No nodel was assigned to Lepisosteus_oculatus
+No nodel was assigned to Xiphophorus_maculatus
+No nodel was assigned to Poecilia_mexicana
+No nodel was assigned to Node9
+No nodel was assigned to Fundulus_heteroclitus
+No nodel was assigned to Node8
+No nodel was assigned to Oryzias_latipes
+No nodel was assigned to Node7
+No nodel was assigned to Stegastes_partitus
+No nodel was assigned to Maylandia_zebra
+No nodel was assigned to Node14
+No nodel was assigned to Node6
+No nodel was assigned to Monopterus_albus
+No nodel was assigned to Anabas_testudineus
+No nodel was assigned to Node18
+No nodel was assigned to Perca_flavescens
+No nodel was assigned to Node17
+No nodel was assigned to Node5
+No nodel was assigned to Hippocampus_comes
+No nodel was assigned to Node4
+No nodel was assigned to Salmo_trutta
+No nodel was assigned to Oncorhynchus_mykiss
+No nodel was assigned to Node23
+No nodel was assigned to Node3
+No nodel was assigned to Ictalurus_punctatus
+No nodel was assigned to Danio_rerio
+No nodel was assigned to Sinocyclocheilus_grahami
+No nodel was assigned to Node29
+No nodel was assigned to Node27
+No nodel was assigned to Clupea_harengus
+No nodel was assigned to Node26
+No nodel was assigned to Node2
+No nodel was assigned to Erpetoichthys_calabaricus
+Likelihood function cleared because partition index '0' points to invalid components
+The tips of the tree:azRNZxaX.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {7,17,13,4,11,16,8,9,0,12,5,14,10,6,2,15,1,3}
+
+Pseudo-optimal path's cost 18683 vs 21383 for 1..k=> a 1.14452 x improvement
+Partition 0 is ASSUMED to have a reversible model
+relax.reference.theta_AC was already constrained in estimators.SetGlobals2
+relax.reference.theta_AG was already constrained in estimators.SetGlobals2
+relax.reference.theta_AT was already constrained in estimators.SetGlobals2
+relax.reference.theta_CG was already constrained in estimators.SetGlobals2
+relax.reference.theta_CT was already constrained in estimators.SetGlobals2
+relax.reference.theta_GT was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_0 was already constrained in estimators.SetGlobals2
+relax.test.bsrel_mixture_aux_1 was already constrained in estimators.SetGlobals2
+relax.test.theta_AG was already constrained in estimators.SetGlobals2
+relax.test.omega1 was already constrained in estimators.SetGlobals2
+relax.test.omega2 was already constrained in estimators.SetGlobals2
+relax.test.omega3 was already constrained in estimators.SetGlobals2
+Variable 'azRNZxaX.tree_id_0.Lepisosteus_oculatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Lepisosteus_oculatus.t=3.673500653987869
+Variable 'azRNZxaX.tree_id_0.Xiphophorus_maculatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Xiphophorus_maculatus.t=0.2468626729080554
+Variable 'azRNZxaX.tree_id_0.Poecilia_mexicana.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Poecilia_mexicana.t=0.3681606599620741
+Variable 'azRNZxaX.tree_id_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node9.t=1.252595716757824
+Variable 'azRNZxaX.tree_id_0.Fundulus_heteroclitus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Fundulus_heteroclitus.t=1.312790267177502
+Variable 'azRNZxaX.tree_id_0.Node8.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node8.t=1.484183109046217
+Variable 'azRNZxaX.tree_id_0.Oryzias_latipes.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Oryzias_latipes.t=2.647243445266966
+Variable 'azRNZxaX.tree_id_0.Node7.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node7.t=0.6553242763499223
+Variable 'azRNZxaX.tree_id_0.Stegastes_partitus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Stegastes_partitus.t=1.207592326903029
+Variable 'azRNZxaX.tree_id_0.Maylandia_zebra.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Maylandia_zebra.t=1.76770691815327
+Variable 'azRNZxaX.tree_id_0.Node14.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node14.t=0.196525041870116
+Variable 'azRNZxaX.tree_id_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node6.t=0.09670975243642899
+Variable 'azRNZxaX.tree_id_0.Monopterus_albus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Monopterus_albus.t=1.126716619154007
+Variable 'azRNZxaX.tree_id_0.Anabas_testudineus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Anabas_testudineus.t=1.502582797958354
+Variable 'azRNZxaX.tree_id_0.Node18.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node18.t=0.3017840756950044
+Variable 'azRNZxaX.tree_id_0.Perca_flavescens.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Perca_flavescens.t=1.377837058888735
+Variable 'azRNZxaX.tree_id_0.Node17.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node17.t=0.1215131344330229
+Variable 'azRNZxaX.tree_id_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node5.t=0.2745450336499521
+Variable 'azRNZxaX.tree_id_0.Hippocampus_comes.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Hippocampus_comes.t=3.831082065922957
+Variable 'azRNZxaX.tree_id_0.Node4.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node4.t=1.597466412175898
+Variable 'azRNZxaX.tree_id_0.Salmo_trutta.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Salmo_trutta.t=0.1737600144913705
+Variable 'azRNZxaX.tree_id_0.Oncorhynchus_mykiss.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Oncorhynchus_mykiss.t=0.154382405784063
+Variable 'azRNZxaX.tree_id_0.Node23.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node23.t=3.182715608676531
+Variable 'azRNZxaX.tree_id_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node3.t=2.007333754506151
+Variable 'azRNZxaX.tree_id_0.Ictalurus_punctatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Ictalurus_punctatus.t=2.940669690127824
+Variable 'azRNZxaX.tree_id_0.Danio_rerio.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Danio_rerio.t=1.564745302886995
+Variable 'azRNZxaX.tree_id_0.Sinocyclocheilus_grahami.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Sinocyclocheilus_grahami.t=0.9732183573749736
+Variable 'azRNZxaX.tree_id_0.Node29.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node29.t=3.059894589142672
+Variable 'azRNZxaX.tree_id_0.Node27.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node27.t=2.440431096877548
+Variable 'azRNZxaX.tree_id_0.Clupea_harengus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Clupea_harengus.t=5.429269282237184
+Variable 'azRNZxaX.tree_id_0.Node26.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node26.t=0.2300033820468211
+Variable 'azRNZxaX.tree_id_0.Node2.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Node2.t=2.363455103292796
+Variable 'azRNZxaX.tree_id_0.Erpetoichthys_calabaricus.t' was not initialized prior to being used
+models.generic.SetBranchLength: azRNZxaX.tree_id_0.Erpetoichthys_calabaricus.t=10.15492426992431
+Auto-benchmarked an optimal number (7) of threads.
+Set GUI update interval to every 18-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.omega3 = 3.04042
+relax.reference.omega2 = 0.24676
+relax.reference.bsrel_mixture_aux_0 = 0.498941
+relax.reference.omega1 = 0.0271665
+relax.reference.bsrel_mixture_aux_1 = 0.775605
+relax.test.theta_AC = 0.769134
+relax.test.theta_GT = 0.313785
+relax.test.theta_CT = 1.02935
+relax.test.theta_AT = 0.565347
+relax.test.theta_CG = 0.646962
+relax.K = 1
+azRNZxaX.tree_id_0.Lepisosteus_oculatus.t = 3.6735
+azRNZxaX.tree_id_0.Xiphophorus_maculatus.t = 0.246863
+azRNZxaX.tree_id_0.Poecilia_mexicana.t = 0.368161
+azRNZxaX.tree_id_0.Node9.t = 1.2526
+azRNZxaX.tree_id_0.Fundulus_heteroclitus.t = 1.31279
+azRNZxaX.tree_id_0.Node8.t = 1.48418
+azRNZxaX.tree_id_0.Oryzias_latipes.t = 2.64724
+azRNZxaX.tree_id_0.Node7.t = 0.655324
+azRNZxaX.tree_id_0.Stegastes_partitus.t = 1.20759
+azRNZxaX.tree_id_0.Maylandia_zebra.t = 1.76771
+azRNZxaX.tree_id_0.Node14.t = 0.196525
+azRNZxaX.tree_id_0.Node6.t = 0.0967098
+azRNZxaX.tree_id_0.Monopterus_albus.t = 1.12672
+azRNZxaX.tree_id_0.Anabas_testudineus.t = 1.50258
+azRNZxaX.tree_id_0.Node18.t = 0.301784
+azRNZxaX.tree_id_0.Perca_flavescens.t = 1.37784
+azRNZxaX.tree_id_0.Node17.t = 0.121513
+azRNZxaX.tree_id_0.Node5.t = 0.274545
+azRNZxaX.tree_id_0.Hippocampus_comes.t = 3.83108
+azRNZxaX.tree_id_0.Node4.t = 1.59747
+azRNZxaX.tree_id_0.Salmo_trutta.t = 0.17376
+azRNZxaX.tree_id_0.Oncorhynchus_mykiss.t = 0.154382
+azRNZxaX.tree_id_0.Node23.t = 3.18272
+azRNZxaX.tree_id_0.Node3.t = 2.00733
+azRNZxaX.tree_id_0.Ictalurus_punctatus.t = 2.94067
+azRNZxaX.tree_id_0.Danio_rerio.t = 1.56475
+azRNZxaX.tree_id_0.Sinocyclocheilus_grahami.t = 0.973218
+azRNZxaX.tree_id_0.Node29.t = 3.05989
+azRNZxaX.tree_id_0.Node27.t = 2.44043
+azRNZxaX.tree_id_0.Clupea_harengus.t = 5.42927
+azRNZxaX.tree_id_0.Node26.t = 0.230003
+azRNZxaX.tree_id_0.Node2.t = 2.36346
+azRNZxaX.tree_id_0.Erpetoichthys_calabaricus.t = 10.1549
+Optimization finished in 29 loop passes.
+4394 likelihood evaluation calls and 140139 matrix exponentiations calls were made
+
+Variable 'Rrsikptz.azRNZxaX.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 11-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+relax.reference.bsrel_mixture_aux_1 = 0.765451
+relax.reference.omega1 = 0.0314924
+relax.reference.omega2 = 0.269575
+relax.reference.omega3 = 3.09661
+relax.reference.bsrel_mixture_aux_0 = 0.53381
+relax.test.theta_CT = 1.02859
+relax.test.theta_GT = 0.313508
+relax.test.theta_CG = 0.646258
+relax.test.theta_AC = 0.768587
+relax.test.theta_AT = 0.565344
+azRNZxaX.tree_id_0.Lepisosteus_oculatus.t = 1.22569
+azRNZxaX.tree_id_0.Xiphophorus_maculatus.t = 0.0836055
+azRNZxaX.tree_id_0.Poecilia_mexicana.t = 0.122564
+azRNZxaX.tree_id_0.Node9.t = 0.41821
+azRNZxaX.tree_id_0.Fundulus_heteroclitus.t = 0.438084
+azRNZxaX.tree_id_0.Node8.t = 0.495114
+azRNZxaX.tree_id_0.Oryzias_latipes.t = 0.884467
+azRNZxaX.tree_id_0.Node7.t = 0.218643
+azRNZxaX.tree_id_0.Stegastes_partitus.t = 0.402884
+azRNZxaX.tree_id_0.Maylandia_zebra.t = 0.591196
+azRNZxaX.tree_id_0.Node14.t = 0.0654407
+azRNZxaX.tree_id_0.Node6.t = 0.0321971
+azRNZxaX.tree_id_0.Monopterus_albus.t = 0.375809
+azRNZxaX.tree_id_0.Anabas_testudineus.t = 0.501528
+azRNZxaX.tree_id_0.Node18.t = 0.10069
+azRNZxaX.tree_id_0.Perca_flavescens.t = 0.459344
+azRNZxaX.tree_id_0.Node17.t = 0.0405608
+azRNZxaX.tree_id_0.Node5.t = 0.0911886
+azRNZxaX.tree_id_0.Hippocampus_comes.t = 1.2793
+azRNZxaX.tree_id_0.Node4.t = 0.533935
+azRNZxaX.tree_id_0.Salmo_trutta.t = 0.0579145
+azRNZxaX.tree_id_0.Oncorhynchus_mykiss.t = 0.0514976
+azRNZxaX.tree_id_0.Node23.t = 1.06183
+azRNZxaX.tree_id_0.Node3.t = 0.66942
+azRNZxaX.tree_id_0.Ictalurus_punctatus.t = 0.981078
+azRNZxaX.tree_id_0.Danio_rerio.t = 0.522742
+azRNZxaX.tree_id_0.Sinocyclocheilus_grahami.t = 0.324754
+azRNZxaX.tree_id_0.Node29.t = 1.01994
+azRNZxaX.tree_id_0.Node27.t = 0.812556
+azRNZxaX.tree_id_0.Clupea_harengus.t = 1.81225
+azRNZxaX.tree_id_0.Node26.t = 0.0771872
+azRNZxaX.tree_id_0.Node2.t = 0.789179
+azRNZxaX.tree_id_0.Erpetoichthys_calabaricus.t = 3.37727
+Optimization finished in 21 loop passes.
+2366 likelihood evaluation calls and 98508 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used
