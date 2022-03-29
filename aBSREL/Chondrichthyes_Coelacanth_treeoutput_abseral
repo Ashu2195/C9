@@ -1,0 +1,126 @@
+[2J[H            /HYPHY 2.5.17(MP) for Linux on x86_64\            
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Miscellaneous
+	(10) Model Comparison
+	(11) Molecular Clock
+	(12) Phylogeny Reconstruction
+	(13) Positive Selection
+	(14) Recombination
+	(15) Selection/Recombination
+	(16) Relative Rate
+	(17) Relative Ratio
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):[2J[H***************** FILES IN 'Selection Analyses' ***************** 
+
+
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+>code –> Universal
+
+
+>Select a coding sequence alignment file (`/media/sagar/disk1/abseral/`) 
+
+>Please select a tree file for the data: (`/media/sagar/disk1/abseral/`) 
+>Loaded a multiple sequence alignment with **5** sequences, **622** codons, and **1** partitions from `/media/sagar/disk1/abseral/Chondrichthyes_Coelacanth_C9.aln`
+
+>branches –> All
+
+>multiple-hits –> None
+
+
+### * Selected 7 branches for testing: `Hemiscyllium_ocellatum, Scyliorhinus_canicula, Carcharodon_carcharias, Node3, Node1, Amblyraja_radiata, Latimeria_chalumnae`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -9286.12, AIC-c = 18602.29 (15 estimated parameters)
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -8954.52, AIC-c = 17965.58 (28 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.40, and 95% of the weight in  0.13 -  0.75
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|        Latimeria_chalumnae        |   1.05   |    2     |    0.81 (31.61%)   |   -8934.41    |   17929.42    |    17929.42     |
+|        Latimeria_chalumnae        |   1.05   |    3     |   18.82 (14.15%)   |   -8933.69    |   17932.06    |    17929.42     |
+|         Amblyraja_radiata         |   0.56   |    2     |    1.17 (47.06%)   |   -8906.75    |   17878.19    |    17878.19     |
+|         Amblyraja_radiata         |   0.56   |    3     |   82.96 (14.95%)   |   -8904.34    |   17877.46    |    17877.46     |
+|         Amblyraja_radiata         |   0.56   |    4     |   56.58 (14.96%)   |   -8904.34    |   17881.55    |    17877.46     |
+|       Scyliorhinus_canicula       |   0.18   |    2     |    3.73 (15.88%)   |   -8888.03    |   17848.92    |    17848.92     |
+|       Scyliorhinus_canicula       |   0.18   |    3     |    4.30 (12.54%)   |   -8888.00    |   17852.97    |    17848.92     |
+|      Hemiscyllium_ocellatum       |   0.16   |    2     |    1.17 (43.64%)   |   -8883.91    |   17844.79    |    17844.79     |
+|      Hemiscyllium_ocellatum       |   0.16   |    3     |    1.44 (14.24%)   |   -8883.93    |   17848.92    |    17844.79     |
+|      Carcharodon_carcharias       |   0.13   |    2     |  640.46 ( 4.99%)   |   -8866.01    |   17813.09    |    17813.09     |
+|      Carcharodon_carcharias       |   0.13   |    3     |  514.85 ( 4.23%)   |   -8865.04    |   17815.26    |    17813.09     |
+|               Node1               |   0.12   |    2     |  191.00 ( 6.61%)   |   -8858.10    |   17801.38    |    17801.38     |
+|               Node1               |   0.12   |    3     |  195.58 ( 6.59%)   |   -8858.10    |   17805.50    |    17801.38     |
+|               Node3               |   0.09   |    2     |   0.11 (100.00%)   |   -8858.01    |   17805.30    |    17801.38     |
+
+### Rate class analyses summary
+*  5 branches with **2** rate classes
+*  1 branches with **3** rate classes
+*  1 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -8848.68, AIC-c = 17782.54 (42 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|        Latimeria_chalumnae        |     2    |    0.63 (31.79%)   |        0.00        |       1.00000      |
+|         Amblyraja_radiata         |     3    |   >1000 ( 9.89%)   |        2.79        |       0.09328      |
+|       Scyliorhinus_canicula       |     2    |    2.82 (19.26%)   |        5.16        |       0.02734      |
+|      Hemiscyllium_ocellatum       |     2    |    1.31 (45.90%)   |        0.38        |       0.35501      |
+|      Carcharodon_carcharias       |     2    |   >1000 ( 5.36%)   |       20.38        |       0.00001      |
+|               Node1               |     2    |  296.28 ( 7.15%)   |       14.30        |       0.00027      |
+|               Node3               |     1    |   0.09 (100.00%)   |        0.00        |       1.00000      |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **2** branches under selection among **7** tested.
+
+* Carcharodon_carcharias, p-value =  0.00009
+* Node1, p-value =  0.00160

@@ -1,0 +1,137 @@
+[2J[H            /HYPHY 2.5.17(MP) for Linux on x86_64\            
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Miscellaneous
+	(10) Model Comparison
+	(11) Molecular Clock
+	(12) Phylogeny Reconstruction
+	(13) Positive Selection
+	(14) Recombination
+	(15) Selection/Recombination
+	(16) Relative Rate
+	(17) Relative Ratio
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):[2J[H***************** FILES IN 'Selection Analyses' ***************** 
+
+
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+>code –> Universal
+
+
+>Select a coding sequence alignment file (`/media/sagar/disk1/abseral/`) 
+
+>Please select a tree file for the data: (`/media/sagar/disk1/abseral/`) 
+>Loaded a multiple sequence alignment with **9** sequences, **597** codons, and **1** partitions from `/media/sagar/disk1/abseral/Testudines_C9.aln`
+
+>branches –> All
+
+>multiple-hits –> None
+
+
+### * Selected 15 branches for testing: `Pelodiscus_sinensis, Terrapene_carolina, Chrysemys_picta, Trachemys_scripta, Node5, Node3, Mauremys_reevesii, Chelonoidis_abingdonii, Gopherus_evgoodei, Node10, Node8, Node2, Chelonia_mydas, Dermochelys_coriacea, Node13`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -4690.18, AIC-c =  9426.42 (23 estimated parameters)
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -4588.66, AIC-c =  9266.06 (44 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.53, and 95% of the weight in  0.25 -  3.04
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|        Pelodiscus_sinensis        |   0.11   |    2     |    9.55 ( 5.78%)   |   -4570.43    |    9233.68    |     9233.68     |
+|        Pelodiscus_sinensis        |   0.11   |    3     |    9.91 ( 5.55%)   |   -4570.44    |    9237.76    |     9233.68     |
+|          Chelonia_mydas           |   0.02   |    2     |    1.63 (55.05%)   |   -4570.38    |    9237.64    |     9233.68     |
+|              Node13               |   0.02   |    2     |    7.67 ( 9.96%)   |   -4567.44    |    9231.75    |     9231.75     |
+|              Node13               |   0.02   |    3     |    9.07 ( 7.48%)   |   -4567.44    |    9235.83    |     9231.75     |
+|         Mauremys_reevesii         |   0.01   |    2     |    0.60 (95.00%)   |   -4567.43    |    9235.82    |     9231.75     |
+|       Dermochelys_coriacea        |   0.01   |    2     |    0.93 (52.56%)   |   -4567.44    |    9235.83    |     9231.75     |
+|      Chelonoidis_abingdonii       |   0.01   |    2     |   >1000 ( 0.26%)   |   -4561.43    |    9223.83    |     9223.83     |
+|      Chelonoidis_abingdonii       |   0.01   |    3     |   >1000 ( 0.26%)   |   -4561.43    |    9227.90    |     9223.83     |
+|               Node2               |   0.01   |    2     |    0.99 (30.58%)   |   -4561.42    |    9227.87    |     9223.83     |
+|         Gopherus_evgoodei         |   0.01   |    2     |    0.38 (47.68%)   |   -4561.43    |    9227.89    |     9223.83     |
+|               Node5               |   0.01   |    2     |    0.55 (64.96%)   |   -4561.43    |    9227.90    |     9223.83     |
+|          Chrysemys_picta          |   0.01   |    2     |  265.99 ( 0.19%)   |   -4560.97    |    9226.97    |     9223.83     |
+|               Node8               |   0.01   |    2     |    0.40 (64.40%)   |   -4561.41    |    9227.86    |     9223.83     |
+|              Node10               |   0.01   |    2     |    1.16 ( 0.74%)   |   -4561.43    |    9227.90    |     9223.83     |
+|        Terrapene_carolina         |   0.01   |    2     |    0.48 ( 5.01%)   |   -4561.43    |    9227.90    |     9223.83     |
+|               Node3               |   0.01   |    2     |    8.41 (27.69%)   |   -4561.44    |    9227.91    |     9223.83     |
+|         Trachemys_scripta         |   0.00   |    2     |    2.39 (64.47%)   |   -4561.44    |    9227.91    |     9223.83     |
+
+### Rate class analyses summary
+*  3 branches with **2** rate classes
+*  12 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -4560.89, AIC-c =  9222.73 (50 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|        Pelodiscus_sinensis        |     2    |    8.29 ( 6.04%)   |       12.45        |       0.00068      |
+|          Chelonia_mydas           |     1    |   0.84 (100.00%)   |        0.00        |       1.00000      |
+|              Node13               |     2    |    7.41 ( 9.96%)   |        4.17        |       0.04546      |
+|         Mauremys_reevesii         |     1    |   0.57 (100.00%)   |        0.00        |       1.00000      |
+|       Dermochelys_coriacea        |     1    |   0.88 (100.00%)   |        0.00        |       1.00000      |
+|      Chelonoidis_abingdonii       |     2    |   >1000 ( 0.26%)   |       10.04        |       0.00229      |
+|               Node2               |     1    |   0.92 (100.00%)   |        0.00        |       1.00000      |
+|         Gopherus_evgoodei         |     1    |   0.35 (100.00%)   |        0.00        |       1.00000      |
+|               Node5               |     1    |   0.50 (100.00%)   |        0.00        |       1.00000      |
+|          Chrysemys_picta          |     1    |   0.51 (100.00%)   |        0.00        |       1.00000      |
+|               Node8               |     1    |   0.33 (100.00%)   |        0.00        |       1.00000      |
+|              Node10               |     1    |   0.28 (100.00%)   |        0.00        |       1.00000      |
+|        Terrapene_carolina         |     1    |   0.24 (100.00%)   |        0.00        |       1.00000      |
+|               Node3               |     1    |   2.93 (100.00%)   |        1.18        |       0.22196      |
+|         Trachemys_scripta         |     1    |   1.80 (100.00%)   |        0.32        |       0.36965      |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **2** branches under selection among **15** tested.
+
+* Pelodiscus_sinensis, p-value =  0.01015
+* Chelonoidis_abingdonii, p-value =  0.03208

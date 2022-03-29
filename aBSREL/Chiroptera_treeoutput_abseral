@@ -1,0 +1,175 @@
+[2J[H            /HYPHY 2.5.17(MP) for Linux on x86_64\            
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Miscellaneous
+	(10) Model Comparison
+	(11) Molecular Clock
+	(12) Phylogeny Reconstruction
+	(13) Positive Selection
+	(14) Recombination
+	(15) Selection/Recombination
+	(16) Relative Rate
+	(17) Relative Ratio
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):[2J[H***************** FILES IN 'Selection Analyses' ***************** 
+
+
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+>code –> Universal
+
+
+>Select a coding sequence alignment file (`/media/sagar/disk1/abseral/`) 
+
+>Please select a tree file for the data: (`/media/sagar/disk1/abseral/`) 
+>Loaded a multiple sequence alignment with **15** sequences, **659** codons, and **1** partitions from `/media/sagar/disk1/abseral/Chiroptera_C9.aln`
+
+>branches –> All
+
+>multiple-hits –> None
+
+
+### * Selected 27 branches for testing: `Megaderma_lyra, Hipposideros_armiger, Rhinolophus_ferrumequinum, Node3, Node1, Pteropus_giganteus, Rousettus_aegyptiacus, Node6, Artibeus_jamaicensis, Phyllostomus_discolor, Node11, Desmodus_rotundus, Node10, Pipistrellus_pipistrellus, Eptesicus_fuscus, Node19, Aeorestes_cinereus, Node18, Myotis_myotis, Myotis_lucifugus, Node23, Node17, Miniopterus_natalensis, Node16, Molossus_molossus, Node15, Node9`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 1 zero-length internal branches: `Node1`
+* Log(L) = -15530.27, AIC-c = 31130.63 (35 estimated parameters)
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -12135.01, AIC-c = 24402.91 (66 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.67, and 95% of the weight in  0.33 -  3.38
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|         Molossus_molossus         |   0.16   |    2     |    2.23 (32.07%)   |   -12117.20   |   24371.35    |    24371.35     |
+|         Molossus_molossus         |   0.16   |    3     |    2.22 (32.19%)   |   -12117.20   |   24375.41    |    24371.35     |
+|          Megaderma_lyra           |   0.13   |    2     |   24.28 ( 4.81%)   |   -12102.86   |   24346.73    |    24346.73     |
+|          Megaderma_lyra           |   0.13   |    3     |   24.33 ( 4.73%)   |   -12102.85   |   24350.78    |    24346.73     |
+|       Phyllostomus_discolor       |   0.10   |    2     |    0.87 (44.60%)   |   -12101.45   |   24347.96    |    24346.73     |
+|      Miniopterus_natalensis       |   0.09   |    2     |    1.10 (38.75%)   |   -12101.70   |   24348.48    |    24346.73     |
+|     Rhinolophus_ferrumequinum     |   0.07   |    2     |    2.53 (36.21%)   |   -12100.35   |   24345.77    |    24345.77     |
+|     Rhinolophus_ferrumequinum     |   0.07   |    3     |    2.51 (36.39%)   |   -12100.35   |   24349.83    |    24345.77     |
+|              Node10               |   0.07   |    2     |    4.01 (21.21%)   |   -12094.46   |   24338.05    |    24338.05     |
+|              Node10               |   0.07   |    3     |    4.02 (21.17%)   |   -12094.46   |   24342.11    |    24338.05     |
+|       Hipposideros_armiger        |   0.07   |    2     |   18.36 ( 8.99%)   |   -12082.61   |   24318.41    |    24318.41     |
+|       Hipposideros_armiger        |   0.07   |    3     |   18.56 ( 8.95%)   |   -12082.61   |   24322.47    |    24318.41     |
+|        Aeorestes_cinereus         |   0.07   |    2     |   25.30 ( 1.72%)   |   -12076.07   |   24309.39    |    24309.39     |
+|        Aeorestes_cinereus         |   0.07   |    3     |   25.40 ( 1.71%)   |   -12076.07   |   24313.46    |    24309.39     |
+|               Node9               |   0.06   |    2     |   41.93 ( 3.48%)   |   -12064.79   |   24290.91    |    24290.91     |
+|               Node9               |   0.06   |    3     |   42.46 ( 3.48%)   |   -12064.79   |   24294.98    |    24290.91     |
+|     Pipistrellus_pipistrellus     |   0.06   |    2     |   12.78 ( 7.06%)   |   -12053.97   |   24273.34    |    24273.34     |
+|     Pipistrellus_pipistrellus     |   0.06   |    3     |   12.99 ( 6.89%)   |   -12053.97   |   24277.41    |    24273.34     |
+|               Node6               |   0.06   |    2     |    3.44 (25.85%)   |   -12051.10   |   24271.66    |    24271.66     |
+|               Node6               |   0.06   |    3     |    3.43 (25.98%)   |   -12051.10   |   24275.73    |    24271.66     |
+|              Node17               |   0.05   |    2     |   32.81 ( 2.41%)   |   -12041.66   |   24256.85    |    24256.85     |
+|              Node17               |   0.05   |    3     |   32.89 ( 2.39%)   |   -12041.66   |   24260.92    |    24256.85     |
+|         Desmodus_rotundus         |   0.05   |    2     |    2.29 (23.62%)   |   -12040.44   |   24258.48    |    24256.85     |
+|       Artibeus_jamaicensis        |   0.04   |    2     |    3.17 (26.77%)   |   -12040.30   |   24258.21    |    24256.85     |
+|       Rousettus_aegyptiacus       |   0.04   |    2     |    1.11 (41.55%)   |   -12041.35   |   24260.30    |    24256.85     |
+|               Node3               |   0.03   |    2     |   >1000 ( 0.82%)   |   -12038.47   |   24254.53    |    24254.53     |
+|               Node3               |   0.03   |    3     |   >1000 ( 0.81%)   |   -12038.47   |   24258.62    |    24254.53     |
+|              Node23               |   0.03   |    2     |    9.47 (12.38%)   |   -12033.96   |   24249.58    |    24249.58     |
+|              Node23               |   0.03   |    3     |    9.35 (12.36%)   |   -12033.96   |   24253.66    |    24249.58     |
+|        Pteropus_giganteus         |   0.03   |    2     |    4.79 (18.33%)   |   -12032.08   |   24249.91    |    24249.58     |
+|         Eptesicus_fuscus          |   0.02   |    2     |    9.44 ( 7.45%)   |   -12029.83   |   24245.41    |    24245.41     |
+|         Eptesicus_fuscus          |   0.02   |    3     |    9.52 ( 7.41%)   |   -12029.83   |   24249.49    |    24245.41     |
+|         Myotis_lucifugus          |   0.02   |    2     |    0.38 (17.08%)   |   -12029.83   |   24249.48    |    24245.41     |
+|           Myotis_myotis           |   0.02   |    2     |    7.42 ( 6.05%)   |   -12027.21   |   24244.25    |    24244.25     |
+|           Myotis_myotis           |   0.02   |    3     |    8.31 ( 4.89%)   |   -12027.24   |   24248.39    |    24244.25     |
+|              Node11               |   0.02   |    2     |   22.35 (10.80%)   |   -12024.32   |   24242.54    |    24242.54     |
+|              Node11               |   0.02   |    3     |   24.44 ( 9.48%)   |   -12024.34   |   24246.65    |    24242.54     |
+|              Node15               |   0.02   |    2     |   13.34 (22.78%)   |   -12024.10   |   24246.18    |    24242.54     |
+|              Node18               |   0.01   |    2     |   12.07 ( 6.20%)   |   -12022.83   |   24243.65    |    24242.54     |
+|              Node16               |   0.01   |    2     |    0.62 (50.56%)   |   -12024.28   |   24246.55    |    24242.54     |
+|              Node19               |   0.01   |    2     |    0.27 ( 9.84%)   |   -12040.38   |   24278.75    |    24242.54     |
+
+### Rate class analyses summary
+*  15 branches with **2** rate classes
+*  11 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -12019.82, AIC-c = 24233.55 (96 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|         Molossus_molossus         |     2    |    2.06 (33.06%)   |        8.07        |       0.00620      |
+|          Megaderma_lyra           |     2    |   22.72 ( 4.36%)   |        9.80        |       0.00258      |
+|       Phyllostomus_discolor       |     1    |   0.35 (100.00%)   |        0.00        |       1.00000      |
+|      Miniopterus_natalensis       |     1    |   0.36 (100.00%)   |        0.00        |       1.00000      |
+|     Rhinolophus_ferrumequinum     |     2    |    2.16 (37.44%)   |        1.64        |       0.17200      |
+|              Node10               |     2    |    3.96 (21.96%)   |        7.53        |       0.00816      |
+|       Hipposideros_armiger        |     2    |   12.86 (11.75%)   |       23.38        |       0.00000      |
+|        Aeorestes_cinereus         |     2    |   19.30 ( 1.99%)   |        5.29        |       0.02565      |
+|               Node9               |     2    |   34.36 ( 3.82%)   |       15.98        |       0.00011      |
+|     Pipistrellus_pipistrellus     |     2    |   11.10 ( 7.81%)   |       16.19        |       0.00010      |
+|               Node6               |     2    |    3.28 (25.93%)   |        3.55        |       0.06285      |
+|              Node17               |     2    |   31.77 ( 2.54%)   |       12.90        |       0.00054      |
+|         Desmodus_rotundus         |     1    |   0.54 (100.00%)   |        0.00        |       1.00000      |
+|       Artibeus_jamaicensis        |     1    |   0.72 (100.00%)   |        0.00        |       1.00000      |
+|       Rousettus_aegyptiacus       |     1    |   0.43 (100.00%)   |        0.00        |       1.00000      |
+|               Node3               |     2    |   >1000 ( 0.82%)   |        5.37        |       0.02457      |
+|              Node23               |     2    |    9.10 (12.51%)   |        7.28        |       0.00925      |
+|        Pteropus_giganteus         |     1    |   0.78 (100.00%)   |        0.00        |       1.00000      |
+|         Eptesicus_fuscus          |     2    |    8.72 ( 7.61%)   |        5.21        |       0.02671      |
+|         Myotis_lucifugus          |     1    |   0.35 (100.00%)   |        0.00        |       1.00000      |
+|           Myotis_myotis           |     2    |    7.10 ( 6.03%)   |        2.68        |       0.09902      |
+|              Node11               |     2    |   21.54 (10.81%)   |        6.44        |       0.01424      |
+|              Node15               |     1    |   3.08 (100.00%)   |        1.28        |       0.20920      |
+|              Node18               |     1    |   0.53 (100.00%)   |        0.00        |       1.00000      |
+|              Node16               |     1    |   0.60 (100.00%)   |        0.00        |       1.00000      |
+|              Node19               |     1    |  >1000 (100.00%)   |        3.25        |       0.07341      |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **4** branches under selection among **26** tested.
+
+* Hipposideros_armiger, p-value =  0.00007
+* Pipistrellus_pipistrellus, p-value =  0.00257
+* Node9, p-value =  0.00275
+* Node17, p-value =  0.01241

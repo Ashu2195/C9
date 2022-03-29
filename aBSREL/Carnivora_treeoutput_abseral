@@ -1,0 +1,238 @@
+[2J[H            /HYPHY 2.5.17(MP) for Linux on x86_64\            
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Miscellaneous
+	(10) Model Comparison
+	(11) Molecular Clock
+	(12) Phylogeny Reconstruction
+	(13) Positive Selection
+	(14) Recombination
+	(15) Selection/Recombination
+	(16) Relative Rate
+	(17) Relative Ratio
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):[2J[H***************** FILES IN 'Selection Analyses' ***************** 
+
+
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+>code –> Universal
+
+
+>Select a coding sequence alignment file (`/media/sagar/disk1/abseral/`) 
+-------
+>[WARNING] This dataset contains 1 duplicate sequence. Identical
+sequences do not contribute any information to the analysis and only
+slow down computation. Please consider removing duplicate or 'nearly'
+duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+
+
+>Please select a tree file for the data: (`/media/sagar/disk1/abseral/`) 
+>Loaded a multiple sequence alignment with **31** sequences, **603** codons, and **1** partitions from `/media/sagar/disk1/abseral/Carnivora_C9.aln`
+
+>branches –> All
+
+>multiple-hits –> None
+
+
+### * Selected 59 branches for testing: `Suricata_suricatta, Hyaena_hyaena, Node1, Panthera_tigris, Panthera_pardus, Panthera_leo, Node7, Node5, Lynx_pardinus, Felis_catus, Node12, Puma_concolor, Puma_yagouaroundi, Node15, Node11, Acinonyx_jubatus, Node10, Node4, Canis_lupus, Vulpes_vulpes, Vulpes_lagopus, Node22, Node20, Enhydra_lutris, Lontra_canadensis, Node28, Mustela_putorius, Mustela_erminea, Node31, Node27, Callorhinus_ursinus, Zalophus_californianus, Eumetopias_jubatus, Node38, Node36, Odobenus_rosmarus, Node35, Leptonychotes_weddellii, Mirounga_leonina, Node44, Neomonachus_schauinslandi, Node43, Phoca_vitulina, Halichoerus_grypus, Node48, Node42, Node34, Node26, Ailuropoda_melanoleuca, Ursus_thibetanus, Ursus_americanus, Node54, Ursus_arctos, Ursus_maritimus, Node57, Node53, Node51, Node25, Node19`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 1 zero-length internal branches: `Node11`
+* Log(L) = -8371.19, AIC-c = 16876.54 (67 estimated parameters)
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -8201.45, AIC-c = 16664.73 (130 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.68, and 95% of the weight in  0.13 -  2.42
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|              Node27               |   0.07   |    2     |   10.25 (10.37%)   |   -8194.75    |   16655.40    |    16655.40     |
+|              Node27               |   0.07   |    3     |   10.26 (10.32%)   |   -8194.76    |   16659.46    |    16655.40     |
+|              Node20               |   0.07   |    2     |   >1000 ( 1.43%)   |   -8188.37    |   16646.68    |    16646.68     |
+|              Node20               |   0.07   |    3     |  885.29 ( 1.43%)   |   -8188.36    |   16650.72    |    16646.68     |
+|        Suricata_suricatta         |   0.06   |    2     |    4.86 (22.66%)   |   -8181.96    |   16637.92    |    16637.92     |
+|        Suricata_suricatta         |   0.06   |    3     |    4.91 (22.57%)   |   -8181.96    |   16641.98    |    16637.92     |
+|              Node19               |   0.05   |    2     |    7.36 ( 3.93%)   |   -8178.51    |   16635.08    |    16635.08     |
+|              Node19               |   0.05   |    3     |    7.56 ( 3.73%)   |   -8178.51    |   16639.15    |    16635.08     |
+|           Hyaena_hyaena           |   0.05   |    2     |    1.79 (38.59%)   |   -8177.63    |   16637.39    |    16635.08     |
+|               Node4               |   0.03   |    2     |    1.11 ( 4.88%)   |   -8178.51    |   16639.14    |    16635.08     |
+|              Node51               |   0.03   |    2     |    0.45 (53.55%)   |   -8178.51    |   16639.15    |    16635.08     |
+|            Canis_lupus            |   0.02   |    2     |  364.57 ( 0.57%)   |   -8176.59    |   16635.30    |    16635.08     |
+|              Node25               |   0.02   |    2     |    0.54 (25.02%)   |   -8178.50    |   16639.13    |    16635.08     |
+|               Node1               |   0.01   |    2     |   1.73 (100.00%)   |   -8178.50    |   16639.13    |    16635.08     |
+|              Node34               |   0.01   |    2     |    0.23 (47.43%)   |   -8178.51    |   16639.14    |    16635.08     |
+|              Node31               |   0.01   |    2     |   1.85 (100.00%)   |   -8178.51    |   16639.14    |    16635.08     |
+|         Lontra_canadensis         |   0.01   |    2     |    0.97 (51.74%)   |   -8178.51    |   16639.14    |    16635.08     |
+|              Node48               |   0.01   |    2     |   >1000 ( 0.21%)   |   -8172.81    |   16627.74    |    16627.74     |
+|              Node48               |   0.01   |    3     |   >1000 ( 0.22%)   |   -8172.81    |   16631.81    |    16627.74     |
+|              Node53               |   0.01   |    2     |    0.24 (49.15%)   |   -8172.81    |   16631.80    |    16627.74     |
+|              Node43               |   0.01   |    2     |   16.55 ( 7.94%)   |   -8171.06    |   16628.31    |    16627.74     |
+|         Mustela_putorius          |   0.01   |    2     |    0.73 (48.81%)   |   -8172.81    |   16631.80    |    16627.74     |
+|              Node28               |   0.01   |    2     |    1.12 (31.12%)   |   -8172.81    |   16631.80    |    16627.74     |
+|      Ailuropoda_melanoleuca       |   0.01   |    2     |   14.84 ( 2.76%)   |   -8170.05    |   16626.29    |    16626.29     |
+|      Ailuropoda_melanoleuca       |   0.01   |    3     |   18.19 ( 1.93%)   |   -8170.05    |   16630.36    |    16626.29     |
+|              Node26               |   0.01   |    2     |    0.45 (19.38%)   |   -8170.05    |   16630.35    |    16626.29     |
+|              Node35               |   0.01   |    2     |    0.40 (77.10%)   |   -8170.05    |   16630.35    |    16626.29     |
+|         Odobenus_rosmarus         |   0.01   |    2     |    1.46 (58.83%)   |   -8170.05    |   16630.36    |    16626.29     |
+|              Node22               |   0.01   |    2     |    0.80 (15.67%)   |   -8170.03    |   16630.31    |    16626.29     |
+|              Node36               |   0.01   |    2     |    0.68 ( 0.00%)   |   -8170.05    |   16630.35    |    16626.29     |
+|      Leptonychotes_weddellii      |   0.01   |    2     |    1.72 (52.75%)   |   -8170.05    |   16630.36    |    16626.29     |
+|          Enhydra_lutris           |   0.01   |    2     |    0.57 ( 0.00%)   |   -8170.05    |   16630.35    |    16626.29     |
+|        Callorhinus_ursinus        |   0.01   |    2     |    1.24 (71.17%)   |   -8170.05    |   16630.36    |    16626.29     |
+|              Node38               |   0.01   |    2     |   82.45 ( 4.17%)   |   -8168.00    |   16626.25    |    16626.25     |
+|              Node38               |   0.01   |    3     |   84.99 ( 4.02%)   |   -8168.00    |   16630.32    |    16626.25     |
+|     Neomonachus_schauinslandi     |   0.01   |    2     |    0.79 (89.37%)   |   -8168.00    |   16630.31    |    16626.25     |
+|         Mirounga_leonina          |   0.01   |    2     |    1.94 (51.18%)   |   -8168.00    |   16630.32    |    16626.25     |
+|              Node42               |   0.01   |    2     |    0.25 (20.00%)   |   -8168.00    |   16630.31    |    16626.25     |
+|          Mustela_erminea          |   0.01   |    2     |    1.54 (66.48%)   |   -8168.00    |   16630.31    |    16626.25     |
+|           Lynx_pardinus           |   0.01   |    2     |    0.26 ( 0.11%)   |   -8168.00    |   16630.31    |    16626.25     |
+|              Node10               |   0.01   |    2     |    0.69 ( 7.83%)   |   -8168.00    |   16630.31    |    16626.25     |
+|               Node5               |   0.00   |    2     |    0.50 (80.23%)   |   -8168.00    |   16630.31    |    16626.25     |
+|            Felis_catus            |   0.00   |    2     |    0.26 (49.91%)   |   -8168.00    |   16630.32    |    16626.25     |
+|         Ursus_americanus          |   0.00   |    2     |  >1000 (100.00%)   |   -8168.00    |   16630.31    |    16626.25     |
+|          Ursus_maritimus          |   0.00   |    2     |    0.27 (49.39%)   |   -8168.00    |   16630.32    |    16626.25     |
+|        Halichoerus_grypus         |   0.00   |    2     |    1.60 ( 0.77%)   |   -8168.00    |   16630.31    |    16626.25     |
+|           Vulpes_vulpes           |   0.00   |    2     |    0.98 (10.12%)   |   -8167.98    |   16630.27    |    16626.25     |
+|      Zalophus_californianus       |   0.00   |    2     |    0.80 (95.00%)   |   -8168.00    |   16630.31    |    16626.25     |
+|          Panthera_pardus          |   0.00   |    2     |    0.28 ( 0.00%)   |   -8168.00    |   16630.31    |    16626.25     |
+|           Panthera_leo            |   0.00   |    2     |    0.80 (55.00%)   |   -8168.00    |   16630.31    |    16626.25     |
+|               Node7               |   0.00   |    2     |    0.80 (75.00%)   |   -8168.00    |   16630.31    |    16626.25     |
+|              Node12               |   0.00   |    2     |    0.24 (12.43%)   |   -8168.00    |   16630.31    |    16626.25     |
+|              Node44               |   0.00   |    2     |    0.80 (75.21%)   |   -8167.99    |   16630.29    |    16626.25     |
+|              Node15               |   0.00   |    2     |    0.28 ( 0.00%)   |   -8168.00    |   16630.31    |    16626.25     |
+|          Panthera_tigris          |   0.00   |    2     |    0.25 ( 9.84%)   |   -8176.13    |   16646.58    |    16626.25     |
+|         Ursus_thibetanus          |   0.00   |    2     |    0.40 (98.00%)   |   -8168.00    |   16630.31    |    16626.25     |
+|          Vulpes_lagopus           |   0.00   |    2     |    0.95 (21.73%)   |   -8167.99    |   16630.29    |    16626.25     |
+|          Phoca_vitulina           |   0.00   |    2     |    0.26 ( 0.00%)   |   -8168.00    |   16630.31    |    16626.25     |
+|         Acinonyx_jubatus          |   0.00   |    2     |    0.31 ( 0.00%)   |   -8168.00    |   16630.31    |    16626.25     |
+|        Eumetopias_jubatus         |   0.00   |    2     |    0.25 (22.09%)   |   -8171.50    |   16637.32    |    16626.25     |
+|              Node54               |   0.00   |    2     |    0.27 ( 0.00%)   |   -8168.00    |   16630.31    |    16626.25     |
+|           Ursus_arctos            |   0.00   |    2     |    0.27 ( 0.00%)   |   -8168.00    |   16630.31    |    16626.25     |
+|              Node57               |   0.00   |    2     |    0.25 ( 2.00%)   |   -8176.94    |   16648.19    |    16626.25     |
+|           Puma_concolor           |   0.00   |    2     |    0.29 (23.78%)   |   -8168.00    |   16630.31    |    16626.25     |
+|         Puma_yagouaroundi         |   0.00   |    2     |    0.25 (29.22%)   |   -8168.00    |   16630.31    |    16626.25     |
+
+### Rate class analyses summary
+*  7 branches with **2** rate classes
+*  51 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -8165.44, AIC-c = 16621.13 (144 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|              Node27               |     2    |    9.60 (10.45%)   |       12.76        |       0.00058      |
+|              Node20               |     2    |   >1000 ( 1.43%)   |        5.68        |       0.02092      |
+|        Suricata_suricatta         |     2    |    4.45 (23.58%)   |        8.65        |       0.00462      |
+|              Node19               |     2    |    7.41 ( 3.83%)   |        2.28        |       0.12237      |
+|           Hyaena_hyaena           |     1    |   0.63 (100.00%)   |        0.00        |       1.00000      |
+|               Node4               |     1    |   0.60 (100.00%)   |        0.00        |       1.00000      |
+|              Node51               |     1    |   0.44 (100.00%)   |        0.00        |       1.00000      |
+|            Canis_lupus            |     1    |   1.06 (100.00%)   |        0.01        |       0.47834      |
+|              Node25               |     1    |   0.48 (100.00%)   |        0.00        |       1.00000      |
+|               Node1               |     1    |   1.65 (100.00%)   |        0.57        |       0.31506      |
+|              Node34               |     1    |   0.22 (100.00%)   |        0.00        |       1.00000      |
+|              Node31               |     1    |   1.77 (100.00%)   |        1.00        |       0.24499      |
+|         Lontra_canadensis         |     1    |   0.91 (100.00%)   |        0.00        |       1.00000      |
+|              Node48               |     2    |   >1000 ( 0.21%)   |       12.24        |       0.00075      |
+|              Node53               |     1    |   0.24 (100.00%)   |        0.00        |       1.00000      |
+|              Node43               |     1    |   1.15 (100.00%)   |        0.05        |       0.45613      |
+|         Mustela_putorius          |     1    |   0.65 (100.00%)   |        0.00        |       1.00000      |
+|              Node28               |     1    |   0.97 (100.00%)   |        0.00        |       1.00000      |
+|      Ailuropoda_melanoleuca       |     2    |   14.27 ( 2.67%)   |        3.33        |       0.07044      |
+|              Node26               |     1    |   0.40 (100.00%)   |        0.00        |       1.00000      |
+|              Node35               |     1    |   0.35 (100.00%)   |        0.00        |       1.00000      |
+|         Odobenus_rosmarus         |     1    |   1.22 (100.00%)   |        0.10        |       0.43754      |
+|              Node22               |     1    |   0.74 (100.00%)   |        0.00        |       1.00000      |
+|              Node36               |     1    |   0.57 (100.00%)   |        0.00        |       1.00000      |
+|      Leptonychotes_weddellii      |     1    |   1.35 (100.00%)   |        0.22        |       0.39737      |
+|          Enhydra_lutris           |     1    |   0.24 (100.00%)   |        0.00        |       1.00000      |
+|        Callorhinus_ursinus        |     1    |   1.16 (100.00%)   |        0.05        |       0.45757      |
+|              Node38               |     2    |   87.37 ( 4.01%)   |        4.80        |       0.03287      |
+|     Neomonachus_schauinslandi     |     1    |   0.71 (100.00%)   |        0.00        |       1.00000      |
+|         Mirounga_leonina          |     1    |   1.35 (100.00%)   |        0.15        |       0.41956      |
+|              Node42               |     1    |   0.20 (100.00%)   |        0.00        |       1.00000      |
+|          Mustela_erminea          |     1    |   1.30 (100.00%)   |        0.09        |       0.43999      |
+|           Lynx_pardinus           |     1    |   0.19 (100.00%)   |        0.00        |       1.00000      |
+|              Node10               |     1    |   0.25 (100.00%)   |        0.00        |       1.00000      |
+|               Node5               |     1    |   0.47 (100.00%)   |        0.00        |       1.00000      |
+|            Felis_catus            |     1    |   0.12 (100.00%)   |        0.00        |       1.00000      |
+|         Ursus_americanus          |     1    |  >1000 (100.00%)   |        2.60        |       0.10291      |
+|          Ursus_maritimus          |     1    |   0.13 (100.00%)   |        0.00        |       1.00000      |
+|        Halichoerus_grypus         |     1    |   0.61 (100.00%)   |        0.00        |       1.00000      |
+|           Vulpes_vulpes           |     1    |   0.07 (100.00%)   |        0.00        |       1.00000      |
+|      Zalophus_californianus       |     1    |   0.76 (100.00%)   |        0.00        |       1.00000      |
+|          Panthera_pardus          |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|           Panthera_leo            |     1    |   0.75 (100.00%)   |        0.00        |       1.00000      |
+|               Node7               |     1    |   0.76 (100.00%)   |        0.00        |       1.00000      |
+|              Node12               |     1    |   0.20 (100.00%)   |        0.00        |       1.00000      |
+|              Node44               |     1    |   0.77 (100.00%)   |        0.00        |       1.00000      |
+|              Node15               |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|          Panthera_tigris          |     1    |  >1000 (100.00%)   |        1.24        |       0.21410      |
+|         Ursus_thibetanus          |     1    |   0.38 (100.00%)   |        0.00        |       1.00000      |
+|          Vulpes_lagopus           |     1    |   0.99 (100.00%)   |        0.00        |       1.00000      |
+|          Phoca_vitulina           |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|         Acinonyx_jubatus          |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|        Eumetopias_jubatus         |     1    |  >1000 (100.00%)   |        0.64        |       0.30222      |
+|              Node54               |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|           Ursus_arctos            |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|              Node57               |     1    |  >1000 (100.00%)   |        0.64        |       0.30271      |
+|           Puma_concolor           |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|         Puma_yagouaroundi         |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **2** branches under selection among **58** tested.
+
+* Node27, p-value =  0.03363
+* Node48, p-value =  0.04283

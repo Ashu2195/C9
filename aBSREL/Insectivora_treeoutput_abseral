@@ -1,0 +1,145 @@
+[2J[H            /HYPHY 2.5.17(MP) for Linux on x86_64\            
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Miscellaneous
+	(10) Model Comparison
+	(11) Molecular Clock
+	(12) Phylogeny Reconstruction
+	(13) Positive Selection
+	(14) Recombination
+	(15) Selection/Recombination
+	(16) Relative Rate
+	(17) Relative Ratio
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):[2J[H***************** FILES IN 'Selection Analyses' ***************** 
+
+
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+>code –> Universal
+
+
+>Select a coding sequence alignment file (`/media/sagar/disk1/abseral/`) 
+
+>Please select a tree file for the data: (`/media/sagar/disk1/abseral/`) 
+>Loaded a multiple sequence alignment with **8** sequences, **625** codons, and **1** partitions from `/media/sagar/disk1/abseral/Insectivora_C9.aln`
+
+>branches –> All
+
+>multiple-hits –> None
+
+
+### * Selected 13 branches for testing: `Solenodon_paradoxus, Erinaceus_europaeus, Sorex_araneus, Node2, Uropsilus_gracilis, Condylura_cristata, Galemys_pyrenaicus, Scalopus_aquaticus, Talpa_occidentalis, Node11, Node9, Node7, Node5`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -9378.09, AIC-c = 18798.25 (21 estimated parameters)
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -9162.22, AIC-c = 18405.09 (40 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.71, and 95% of the weight in  0.21 -  1.24
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|        Erinaceus_europaeus        |   0.21   |    2     |    1.64 (23.05%)   |   -9142.03    |   18368.78    |    18368.78     |
+|        Erinaceus_europaeus        |   0.21   |    3     |    2.11 (13.81%)   |   -9142.02    |   18372.83    |    18368.78     |
+|           Sorex_araneus           |   0.21   |    2     |    2.49 (31.17%)   |   -9115.79    |   18320.37    |    18320.37     |
+|           Sorex_araneus           |   0.21   |    3     |    2.49 (31.15%)   |   -9115.79    |   18324.44    |    18320.37     |
+|        Solenodon_paradoxus        |   0.15   |    2     |    2.19 (32.15%)   |   -9102.53    |   18297.92    |    18297.92     |
+|        Solenodon_paradoxus        |   0.15   |    3     |    2.20 (32.10%)   |   -9102.53    |   18302.00    |    18297.92     |
+|        Uropsilus_gracilis         |   0.12   |    2     |   11.45 ( 8.60%)   |   -9085.91    |   18268.78    |    18268.78     |
+|        Uropsilus_gracilis         |   0.12   |    3     |   11.57 ( 8.50%)   |   -9085.91    |   18272.86    |    18268.78     |
+|        Condylura_cristata         |   0.12   |    2     |    4.90 (20.19%)   |   -9073.42    |   18247.87    |    18247.87     |
+|        Condylura_cristata         |   0.12   |    3     |    5.08 (18.79%)   |   -9073.43    |   18251.97    |    18247.87     |
+|        Talpa_occidentalis         |   0.09   |    2     |    3.53 (32.70%)   |   -9066.27    |   18237.65    |    18237.65     |
+|        Talpa_occidentalis         |   0.09   |    3     |    3.58 (32.07%)   |   -9066.27    |   18241.74    |    18237.65     |
+|        Galemys_pyrenaicus         |   0.07   |    2     |   10.34 ( 4.73%)   |   -9061.60    |   18232.39    |    18232.39     |
+|        Galemys_pyrenaicus         |   0.07   |    3     |   10.31 ( 4.69%)   |   -9061.60    |   18236.48    |    18232.39     |
+|        Scalopus_aquaticus         |   0.06   |    2     |    4.26 (21.65%)   |   -9054.02    |   18221.32    |    18221.32     |
+|        Scalopus_aquaticus         |   0.06   |    3     |    4.23 (21.80%)   |   -9054.02    |   18225.42    |    18221.32     |
+|               Node5               |   0.06   |    2     |    6.14 ( 7.99%)   |   -9044.77    |   18206.93    |    18206.93     |
+|               Node5               |   0.06   |    3     |    6.13 ( 7.95%)   |   -9044.77    |   18211.03    |    18206.93     |
+|               Node7               |   0.03   |    2     |    5.56 (13.69%)   |   -9043.19    |   18207.85    |    18206.93     |
+|               Node2               |   0.02   |    2     |    0.70 (21.12%)   |   -9044.49    |   18210.46    |    18206.93     |
+|               Node9               |   0.02   |    2     |   51.87 ( 4.06%)   |   -9038.80    |   18199.07    |    18199.07     |
+|               Node9               |   0.02   |    3     |   51.79 ( 4.04%)   |   -9038.79    |   18203.17    |    18199.07     |
+|              Node11               |   0.01   |    2     |    0.43 (92.28%)   |   -9038.76    |   18203.09    |    18199.07     |
+
+### Rate class analyses summary
+*  10 branches with **2** rate classes
+*  3 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -9033.45, AIC-c = 18188.39 (60 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|        Erinaceus_europaeus        |     2    |    1.54 (22.96%)   |        2.41        |       0.11410      |
+|           Sorex_araneus           |     2    |    2.42 (31.39%)   |       11.90        |       0.00089      |
+|        Solenodon_paradoxus        |     2    |    2.01 (33.57%)   |        5.46        |       0.02343      |
+|        Uropsilus_gracilis         |     2    |   13.45 ( 7.40%)   |       19.23        |       0.00002      |
+|        Condylura_cristata         |     2    |    5.08 (18.29%)   |       14.47        |       0.00025      |
+|        Talpa_occidentalis         |     2    |    3.45 (29.81%)   |        8.47        |       0.00506      |
+|        Galemys_pyrenaicus         |     2    |    9.32 ( 4.98%)   |        5.29        |       0.02556      |
+|        Scalopus_aquaticus         |     2    |    4.21 (21.57%)   |        9.80        |       0.00259      |
+|               Node5               |     2    |    6.34 ( 7.91%)   |        9.97        |       0.00238      |
+|               Node7               |     1    |   0.58 (100.00%)   |        0.00        |       1.00000      |
+|               Node2               |     1    |   0.62 (100.00%)   |        0.00        |       1.00000      |
+|               Node9               |     2    |   47.84 ( 4.40%)   |       11.58        |       0.00105      |
+|              Node11               |     1    |   0.38 (100.00%)   |        0.00        |       1.00000      |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **7** branches under selection among **13** tested.
+
+* Uropsilus_gracilis, p-value =  0.00029
+* Condylura_cristata, p-value =  0.00294
+* Sorex_araneus, p-value =  0.00982
+* Node9, p-value =  0.01052
+* Node5, p-value =  0.02138
+* Scalopus_aquaticus, p-value =  0.02069
+* Talpa_occidentalis, p-value =  0.03542

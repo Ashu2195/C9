@@ -1,0 +1,275 @@
+{
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM / UCSD viral evolution group",
+   "citation":"Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32 (5): 1342-1353. v2.2 adds support for multiple-hit models",
+   "contact":"spond@temple.edu",
+   "info":"aBSREL (Adaptive branch-site random effects likelihood)\n                            uses an adaptive random effects branch-site model framework\n                            to test whether each branch has evolved under positive selection,\n                            using a procedure which infers an optimal number of rate categories per branch.",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"2.2"
+  },
+ "branch attributes":{
+   "0":{
+     "Manis_javanica":{
+       "Baseline MG94xREV":0.01652987661807201,
+       "Baseline MG94xREV omega ratio":0.2312208392954576,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01652382133509635,
+       "Full adaptive model (non-synonymous subs/site)":0.005505755011145339,
+       "Full adaptive model (synonymous subs/site)":0.01101806632395104,
+       "LRT":0,
+       "Nucleotide GTR":0.01641203245192606,
+       "Rate Distributions":        [
+[0.204804867620296, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"Manis_javanica"
+      },
+     "Manis_pentadactyla":{
+       "Baseline MG94xREV":0.007082549413077128,
+       "Baseline MG94xREV omega ratio":0.1544789028571309,
+       "Corrected P-value":1,
+       "Full adaptive model":0.007012899950209348,
+       "Full adaptive model (non-synonymous subs/site)":0.001786125688259275,
+       "Full adaptive model (synonymous subs/site)":0.00522677426195007,
+       "LRT":0,
+       "Nucleotide GTR":0.007002758450977835,
+       "Rate Distributions":        [
+[0.1400577182159287, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"Manis_pentadactyla"
+      },
+     "Manis_tricuspis":{
+       "Baseline MG94xREV":0.03247886602690075,
+       "Baseline MG94xREV omega ratio":0.3615887358623363,
+       "Corrected P-value":0.6235083235172603,
+       "Full adaptive model":0.034018843553924,
+       "Full adaptive model (non-synonymous subs/site)":0.01593741420061883,
+       "Full adaptive model (synonymous subs/site)":0.01808142935330518,
+       "LRT":1.296696773095391,
+       "Nucleotide GTR":0.03208727779717029,
+       "Rate Distributions":        [
+[0.09548146138462132, 0.9287436164522581],
+        [3.825302315410494, 0.07125638354774189] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":0.2078361078390867,
+       "original name":"Manis_tricuspis"
+      }
+    },
+   "attributes":{
+     "Baseline MG94xREV":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Baseline MG94xREV omega ratio":{
+       "attribute type":"branch label",
+       "display order":1
+      },
+     "Corrected P-value":{
+       "attribute type":"branch label",
+       "display order":6
+      },
+     "Full adaptive model":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "Full adaptive model (non-synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":10
+      },
+     "Full adaptive model (synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":9
+      },
+     "LRT":{
+       "attribute type":"branch label",
+       "display order":4
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Rate Distributions":{
+       "attribute type":"branch label",
+       "display order":3
+      },
+     "Rate classes":{
+       "attribute type":"branch label",
+       "display order":2
+      },
+     "Uncorrected P-value":{
+       "attribute type":"branch label",
+       "display order":5
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551] 
+      ],
+     "name":"absrel.filter.default"
+    }
+  },
+ "fits":{
+   "Baseline MG94xREV":{
+     "AIC-c":5401.543565865539,
+     "Equilibrium frequencies":      [
+[0.03926876389381587],
+      [0.02255838294507085],
+      [0.02130871704081159],
+      [0.03301301800345841],
+      [0.01877219192303249],
+      [0.01078389671911272],
+      [0.01018650159208864],
+      [0.0157816709381332],
+      [0.02035926537926757],
+      [0.01169560891062752],
+      [0.01104770769710744],
+      [0.01711591422435364],
+      [0.02419431119210861],
+      [0.01389869409792527],
+      [0.01312874865590494],
+      [0.02034001460107437],
+      [0.02307828585529712],
+      [0.01325758079493791],
+      [0.01252315108281103],
+      [0.01940177868827358],
+      [0.01103243311915071],
+      [0.006337705250683416],
+      [0.005986615627712257],
+      [0.009274901399222052],
+      [0.01196515753582417],
+      [0.006873519279116619],
+      [0.006492747186263324],
+      [0.01005903731048142],
+      [0.01421901721361363],
+      [0.008168274312748717],
+      [0.007715776723265725],
+      [0.01195384383714802],
+      [0.04118688568179842],
+      [0.02366026957296668],
+      [0.02234956249600486],
+      [0.0346255716680128],
+      [0.01968913828867629],
+      [0.01131064686872823],
+      [0.01068407138318108],
+      [0.01655254233502919],
+      [0.02135373392472239],
+      [0.01226689254807174],
+      [0.01158734395605323],
+      [0.01795195806020617],
+      [0.02537610636061205],
+      [0.01457758962022445],
+      [0.0137700354281072],
+      [0.02133354282314169],
+      [0.02026867216104757],
+      [0.0296621455796799],
+      [0.01686678538788392],
+      [0.009689314511173875],
+      [0.009152555914170617],
+      [0.01417980691157867],
+      [0.01050848650413277],
+      [0.009926348266584463],
+      [0.01537862243915131],
+      [0.02173855115897685],
+      [0.01248795513505941],
+      [0.01179616034709953],
+      [0.01827547163748188] 
+      ],
+     "Log Likelihood":-2682.591619614574,
+     "Rate Distributions":{
+       "Per-branch omega":{
+         "2.5%":0.1544789028571309,
+         "97.5%":0.3615887358623363,
+         "Mean":0.2490961593383083,
+         "Median":0.2312208392954576
+        }
+      },
+     "display order":1,
+     "estimated parameters":20
+    },
+   "Full adaptive model":{
+     "AIC-c":5401.543565865539,
+     "Log Likelihood":-2678.46192377784,
+     "Rate Distributions":{
+      },
+     "display order":2,
+     "estimated parameters":22
+    },
+   "Nucleotide GTR":{
+     "AIC-c":5401.543565865539,
+     "Equilibrium frequencies":      [
+[0.3230676328502415],
+      [0.1942431561996779],
+      [0.2300724637681159],
+      [0.2526167471819646] 
+      ],
+     "Log Likelihood":-2757.405430193354,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.4206152342728969,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.05635850490472939,
+       "Substitution rate from nucleotide C to nucleotide G":0.4341799136710915,
+       "Substitution rate from nucleotide C to nucleotide T":1.869544579438082,
+       "Substitution rate from nucleotide G to nucleotide T":0.1227934483144744
+      },
+     "display order":0,
+     "estimated parameters":11
+    }
+  },
+ "input":{
+   "file name":"/media/sagar/disk1/abseral/Pholidota_C9.aln",
+   "number of sequences":3,
+   "number of sites":552,
+   "partition count":1,
+   "trees":{
+     "0":"(Manis_javanica:16.4,Manis_pentadactyla:16.4,Manis_tricuspis:27.5006)"
+    }
+  },
+ "test results":{
+   "P-value threshold":0.05,
+   "positive test results":0,
+   "tested":3
+  },
+ "tested":{
+   "0":{
+     "Manis_javanica":"test",
+     "Manis_pentadactyla":"test",
+     "Manis_tricuspis":"test"
+    }
+  },
+ "timers":{
+   "Baseline model fitting":{
+     "order":2,
+     "timer":0
+    },
+   "Complexity analysis":{
+     "order":3,
+     "timer":6
+    },
+   "Full adaptive model fitting":{
+     "order":4,
+     "timer":4
+    },
+   "Overall":{
+     "order":0,
+     "timer":10
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":0
+    },
+   "Testing for selection":{
+     "order":5,
+     "timer":0
+    }
+  }
+}

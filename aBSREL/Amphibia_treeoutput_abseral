@@ -1,0 +1,122 @@
+[2J[H            /HYPHY 2.5.17(MP) for Linux on x86_64\            
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Miscellaneous
+	(10) Model Comparison
+	(11) Molecular Clock
+	(12) Phylogeny Reconstruction
+	(13) Positive Selection
+	(14) Recombination
+	(15) Selection/Recombination
+	(16) Relative Rate
+	(17) Relative Ratio
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):[2J[H***************** FILES IN 'Selection Analyses' ***************** 
+
+
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+>code –> Universal
+
+
+>Select a coding sequence alignment file (`/media/sagar/disk1/abseral/`) 
+
+>Please select a tree file for the data: (`/media/sagar/disk1/abseral/`) 
+>Loaded a multiple sequence alignment with **5** sequences, **645** codons, and **1** partitions from `/media/sagar/disk1/abseral/Amphibia_C9.aln`
+
+>branches –> All
+
+>multiple-hits –> None
+
+
+### * Selected 7 branches for testing: `Rana_temporaria, Xenopus_tropicalis, Rhinatrema_bivittatum, Geotrypetes_seraphini, Microcaecilia_unicolor, Node5, Node3`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -7975.60, AIC-c = 15981.24 (15 estimated parameters)
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -7636.56, AIC-c = 15329.62 (28 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.29, and 95% of the weight in  0.15 -  0.44
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|          Rana_temporaria          |   0.40   |    2     |    1.14 (39.30%)   |   -7612.75    |   15286.08    |    15286.08     |
+|          Rana_temporaria          |   0.40   |    3     |    1.41 (11.39%)   |   -7612.77    |   15290.19    |    15286.08     |
+|        Xenopus_tropicalis         |   0.32   |    2     |    0.99 (42.75%)   |   -7600.31    |   15265.27    |    15265.27     |
+|        Xenopus_tropicalis         |   0.32   |    3     |  193.54 ( 2.14%)   |   -7600.13    |   15269.01    |    15265.27     |
+|               Node3               |   0.31   |    2     |  116.31 ( 8.86%)   |   -7584.01    |   15236.77    |    15236.77     |
+|               Node3               |   0.31   |    3     |  101.74 ( 8.89%)   |   -7584.01    |   15240.86    |    15236.77     |
+|       Rhinatrema_bivittatum       |   0.12   |    2     |   32.45 ( 3.18%)   |   -7575.60    |   15224.03    |    15224.03     |
+|       Rhinatrema_bivittatum       |   0.12   |    3     |   33.35 ( 3.14%)   |   -7575.52    |   15227.98    |    15224.03     |
+|               Node5               |   0.08   |    2     |    2.57 (22.54%)   |   -7571.14    |   15219.20    |    15219.20     |
+|               Node5               |   0.08   |    3     |    2.55 (22.62%)   |   -7571.14    |   15223.30    |    15219.20     |
+|       Geotrypetes_seraphini       |   0.06   |    2     |    1.12 (10.74%)   |   -7571.02    |   15223.07    |    15219.20     |
+|      Microcaecilia_unicolor       |   0.06   |    2     |   36.98 ( 0.65%)   |   -7567.47    |   15215.97    |    15215.97     |
+|      Microcaecilia_unicolor       |   0.06   |    3     |   36.24 ( 0.65%)   |   -7567.47    |   15220.08    |    15215.97     |
+
+### Rate class analyses summary
+*  6 branches with **2** rate classes
+*  1 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -7561.56, AIC-c = 15204.14 (40 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|          Rana_temporaria          |     2    |    0.86 (42.94%)   |        0.00        |       1.00000      |
+|        Xenopus_tropicalis         |     2    |    0.91 (43.52%)   |        0.00        |       1.00000      |
+|               Node3               |     2    |  264.96 ( 8.16%)   |        3.04        |       0.08186      |
+|       Rhinatrema_bivittatum       |     2    |   49.21 ( 2.49%)   |        4.61        |       0.03624      |
+|               Node5               |     2    |    2.51 (21.88%)   |        2.05        |       0.13805      |
+|       Geotrypetes_seraphini       |     1    |   0.28 (100.00%)   |        0.00        |       1.00000      |
+|      Microcaecilia_unicolor       |     2    |   29.36 ( 0.69%)   |        3.42        |       0.06716      |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **7** tested.
+
