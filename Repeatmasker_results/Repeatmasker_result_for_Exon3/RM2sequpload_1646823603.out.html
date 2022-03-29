@@ -1,0 +1,411 @@
+
+<style type="text/css"> 
+
+ .annotSet {  /* Annotation Set - A grouping which spans a complete set of
+                                  linked annotations. */
+   border-right: 1px solid;
+   padding-right: 10px;
+ }
+
+ .bluediv {  /* The style for every other line.  Used to create
+                a report effect */
+    background: url("/images/bluegrad.jpg")top right repeat-y;
+    background-color: #bacdff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+ } 
+
+ pre {      /* Required change in pre formatting.  This fixes problems
+               with spacing inside of annotSet div tags */
+  margin: 0px 0px 0px 0px;
+  font-family: monospace;
+ }
+
+ .nound {
+   font-weight:bold;
+   color:navy;
+   text-decoration:none;
+ }
+
+</style>
+
+
+<script language="javascript">
+
+  /** JavaScript to detect text resizing events.  Culled verbatim 
+   ** from Lawrence Carvalho's great article on the subject
+   **/
+
+  /** 
+   *  @fileoverview TextResizeDetector
+   * 
+   *  Detects changes to font sizes when user changes browser settings
+   *  <br>Fires a custom event with the following data:<br><br>
+   * 	iBase  : base font size  	
+   *	iDelta : difference in pixels from previous setting<br>
+   *  	iSize  : size in pixel of text<br>
+   *  
+   *  * @author Lawrence Carvalho carvalho@uk.yahoo-inc.com
+   * @version 1.0
+   */
+
+  /**
+   * @constructor
+   */
+  TextResizeDetector = function() { 
+    var el  = null;
+    var iIntervalDelay  = 200;
+    var iInterval = null;
+    var iCurrSize = -1;
+    var iBase = -1;
+    var aListeners = [];
+    var createControlElement = function() {
+      el = document.createElement('span');
+      el.id='textResizeControl';
+      el.innerHTML='&nbsp;';
+      el.style.position="absolute";
+      el.style.left="-9999px";
+      var elC = document.getElementById(TextResizeDetector.TARGET_ELEMENT_ID);
+      // insert before firstChild
+      if (elC)
+        elC.insertBefore(el,elC.firstChild);
+      iBase = iCurrSize = TextResizeDetector.getSize();
+    };
+
+    function _stopDetector() {
+      window.clearInterval(iInterval);
+      iInterval=null;
+    };
+    function _startDetector() {
+      if (!iInterval) {
+        iInterval = window.setInterval('TextResizeDetector.detect()',
+                                       iIntervalDelay);
+      }
+    };
+ 	
+    function _detect() {
+      var iNewSize = TextResizeDetector.getSize();
+  		
+      if(iNewSize!== iCurrSize) {
+        for (var i=0;i <aListeners.length;i++) {
+          aListnr = aListeners[i];
+          var oArgs = {  iBase: iBase,iDelta:((iCurrSize!=-1) ? iNewSize - iCurrSize + 'px' : "0px"),iSize:iCurrSize = iNewSize};
+          if (!aListnr.obj) {
+            aListnr.fn('textSizeChanged',[oArgs]);
+  	  }
+          else  {
+  	    aListnr.fn.apply(aListnr.obj,['textSizeChanged',[oArgs]]);
+  	  }
+        }
+      }
+      return iCurrSize;
+    };
+
+    var onAvailable = function() {
+      if (!TextResizeDetector.onAvailableCount_i ) {
+        TextResizeDetector.onAvailableCount_i =0;
+      }
+      if (document.getElementById(TextResizeDetector.TARGET_ELEMENT_ID)) {
+        TextResizeDetector.init();
+        if (TextResizeDetector.USER_INIT_FUNC){
+          TextResizeDetector.USER_INIT_FUNC();
+        }
+        TextResizeDetector.onAvailableCount_i = null;
+      }
+      else {
+        if (TextResizeDetector.onAvailableCount_i<600) {
+          TextResizeDetector.onAvailableCount_i++;
+  	setTimeout(onAvailable,200)
+        }
+      }
+    };
+    setTimeout(onAvailable,500);
+
+    return {
+      /*
+       * Initializes the detector
+       * 
+       * @param {String} sId The id of the element in which to 
+       *   create the control element
+       */
+       init: function() {
+         createControlElement();		
+         _startDetector();
+       },
+       /**
+        * Adds listeners to the ontextsizechange event. 
+        * Returns the base font size
+        * 
+        */
+        addEventListener:function(fn,obj,bScope) {
+          aListeners[aListeners.length] = {
+            fn: fn,
+            obj: obj
+          }
+          return iBase;
+        },
+       /**
+        * performs the detection and fires textSizeChanged event
+        * @return the current font size
+        * @type {integer}
+        */
+        detect:function() {
+          return _detect();
+        },
+       /**
+        * Returns the height of the control element
+        * 
+        * @return the current height of control element
+        * @type {integer}
+        */
+        getSize:function() {
+          var iSize;
+          return el.offsetHeight;
+  		 		
+        },
+       /**
+        * Stops the detector
+        */
+        stopDetector:function() {
+          return _stopDetector();
+        },
+       /*
+        * Starts the detector
+        */
+        startDetector:function() {
+          return _startDetector();
+        }
+      }
+  }();
+  
+  TextResizeDetector.TARGET_ELEMENT_ID = 'doc';
+  TextResizeDetector.USER_INIT_FUNC = null;
+
+  // Setup the font-resize listener
+  function init()  
+  {
+     var iBase = TextResizeDetector.addEventListener(onFontResize,null);
+  }
+
+  function onFontResize(e,args) 
+  {
+     adjustRepeatTableWidth();
+  }
+
+  //id of element to check for and insert control
+  TextResizeDetector.TARGET_ELEMENT_ID = 'repeatTable';
+
+  //function to call once TextResizeDetector has init'd
+  TextResizeDetector.USER_INIT_FUNC = init;
+
+
+
+
+  /**
+   ** Our code to handle page specific elements
+   **/
+
+  // Setup the table expansion/collapse handler
+  function toggleDiv(divid){
+    if(document.getElementById(divid).style.display == 'none'){
+      document.getElementById(divid).style.display = 'block';
+    }else{
+      document.getElementById(divid).style.display = 'none';
+    }
+  }
+
+  // Setup the table resize method
+  function adjustRepeatTableWidth() 
+  {
+    var numInsertionLevels = 3;
+    var pixelPaddingPerLevel = 10;
+    var objColHeaderText = document.getElementById("colHeaderText");
+
+    if ( objColHeaderText != null ) 
+    {
+      var newWidth = objColHeaderText.offsetWidth + 
+                     ( pixelPaddingPerLevel * (numInsertionLevels - 1) ) + 30; 
+      document.getElementById("repeatTable").style.width = newWidth + "px";
+    }
+  }
+  
+  function toggleAllHsps() 
+  {
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      toggleDiv( 'hsps'+idx );
+      idx++;
+    }
+    return false;
+  }
+
+  function openAllHsps(){
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      document.getElementById('hsps'+idx).style.display = 'block';
+      idx++;
+    }
+    return false;
+  }
+
+  function closeAllHsps(){
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      document.getElementById('hsps'+idx).style.display = 'none';
+      idx++;
+    }
+    return false;
+  }
+
+</script>
+
+
+
+<body onload="adjustRepeatTableWidth()">
+
+<a href="javascript:;" onmousedown="closeAllHsps();">[ close all hsps ]</a>
+<a href="javascript:;" onmousedown="openAllHsps();">[ open all hsps ]</a>
+<div id="repeatTable" style="padding-right: 30px;">
+<div class="header" id="colHeaderContainer" style="background-color: #bcc3c8; border-bottom: 2px solid; margin-bottom: 5px;">
+<pre><b id="colHeaderText">
+                                          position in query-                          -position in repeat-
+        <span title="Percent divergence.">  %  </span> <span title="Percent deletion."> %  </span> <span title="Percent insertion."> %  </span>  <span title="Query sequence name/id.">query          </span>                     <span title="Orientation of the repeat c=minus +=plus.">C</span> <span title="Name/ID of repeat.">matching   </span> <span title="Repeat class and family.">repeat    </span> <span title="Start position or remaining bases in repeat consensus.">(left)</span> <span title="End position in repeat consensus."> end  </span> <span title="Start position or remaining bases in repeat consensus.">begin </span> <span title="Linked repeats are denoted with duplicate IDs and connecting graphic bars.">linkage</span>
+<span title="Click on this link to expand/collapse individual annotation details."><u>+</u></span> <span title="Complexity adjusted Smith Waterman score.">score</span> <span title="Percent divergence."> div.</span> <span title="Percent deletion.">del.</span> <span title="Percent insertion.">ins.</span>  <span title="Query sequence name/id.">sequence       </span>  <span title="Start of annotation in sequence.  The first base is numbered 1.">begin</span> <span title="End of annotation in sequence.  The first base is numbered 1."> end </span> <span title="The number of bases remaining in sequence.">(left)</span> <span title="Orientation of the repeat c=minus +=plus.">+</span> <span title="Name/ID of repeat.">repeat     </span> <span title="Repeat class and family.">class/fami</span> <span title="Start position or remaining bases in repeat consensus.">begin </span> <span title="End position in repeat consensus."> end  </span> <span title="Start position or remaining bases in repeat consensus.">(left)</span> <span title="Linked repeats are denoted with duplicate IDs and connecting graphic bars.">id/graphic</span></b>
+</pre>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps1');">+</a><b>  226   28.2  3.5  1.1  UnnamedSequence     53   138  (689) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb</a> LINE/CR1      320    407  (572)   1 *</b></pre><div id="hsps1" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  226  28.23 3.49 1.14  UnnamedSequence     53   138    689 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb</a> LINE/CR1      320    407    572    
+226 28.23 3.49 1.14 UnnamedSequence 53 138 (689) CR1-J3_fAlb#LINE/CR1 320 407 (572) m_b1s001i0
+
+  UnnamedSequen         53 TGGTGGACAAGAAGCTGGATTTGAGCCAGCAGTGTGCACTTGCAGCCCAG 102
+                               v    iv i    i iv         -      v vv ii   v  
+  CR1-J3_fAlb#L        320 TGGTTGACAGCAGGCTGAACATGAGCCAGC-GTGTGCCCAGGTGGCCAAG 368
+
+  UnnamedSequen        103 TAGTCCCACTATATCCTGGGCTGCATTGNC---AGTGTG 138
+                           v  v  v ivii       v   i  ii? ---      
+  CR1-J3_fAlb#L        369 AAGGCCAATGGCATCCTGGCCTGTATCAGCAATAGTGTG 407
+
+Matrix = 20p43g.matrix
+Kimura (with divCpGMod) = 36.39
+Transitions / transversions = 1.00 (12/12)
+Gap_init rate = 0.02 (2 / 85), avg. gap size = 2.00 (4 / 2)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps2');">+</a><b> 1852   24.5  3.1  0.7  UnnamedSequence    134   733   (94) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb</a> LINE/CR1        1    956   (23)   2  </b></pre><div id="hsps2" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+ 1384  31.64 2.67 1.48  UnnamedSequence    134   733     94 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb</a> LINE/CR1      350    956     23    
+1384 31.64 2.67 1.48 UnnamedSequence 134 733 (94) CR1-J3_fAlb#LINE/CR1 350 956 (23) m_b1s001i1
+
+  UnnamedSequen        134 GTGTGCACTTGCAGCCCAGTAGTCCCACTATATCCTGGGCTGCATTGAAG 183
+                                 v vv ii   v  v  v  v ivii       v   i  iiivi
+  CR1-J3_fAlb#L        350 GTGTGCCCAGGTGGCCAAGAAGGCCAATGGCATCCTGGCCTGTATCAGCA 399
+
+  UnnamedSequen        184 AAGGGGTGGCCAGCAGGGAGAGAGAGGGGATTGTCCCCCTCTACTCAGCT 233
+                            vi v            i?v  i vi v    v       v     i  v
+  CR1-J3_fAlb#L        400 ATAGTGTGGCCAGCAGGANCAGGGCAGCGATTCTCCCCCTGTACTCGGCA 449
+
+  UnnamedSequen        234 CTTGTAAGGCCCCATCTGGAGTACTGCATCCAGACCTGGGACCTCCAGCA 283
+                             v  i     v  i  v    ?   iii    vi   ? v  ii  iiv
+  CR1-J3_fAlb#L        450 CTGGTGAGGCCGCACCTCGAGTNCTGTGCCCAGTTCTGNGCCCCTCAATT 499
+
+  UnnamedSequen        284 CAAGGAAGGCACAGAGCTCTTGGAGTGGGTCCAGAGGAGGGCCACTAAGA 333
+                             i i i i i v   v vi     i v        i     v  vi  v
+  CR1-J3_fAlb#L        500 CAGGAAGGACGCCGAGGTGCTGGAGCGTGTCCAGAGAAGGGCAACGGAGC 549
+
+  UnnamedSequen        334 TGATCAGAGGGCTGGAGCATCTCTTCTATGAGGAAAGGTTGAGGGAACTG 383
+                             i v ii  v        ivvv i  ii     ivi i       i   
+  CR1-J3_fAlb#L        550 TGGTGAAGGGTCTGGAGCACAAGTCCTGCGAGGAGCAGCTGAGGGAGCTG 599
+
+  UnnamedSequen        384 GGCTCCTTTAGCTTGGAGAA---------CA-GGGAGACCTCATTGTTAC 423
+                             v?iv      i       ---------  -         i  i i vi
+  CR1-J3_fAlb#L        600 GGGNTGTTTAGCCTGGAGAAAAGGAGGCTCAGGGGAGACCTTATCGCTCT 649
+
+  UnnamedSequen        424 CTTTCAGTATGTGAAGGGAGCGAATAAACAGGAGGGGGAACAAT-TGTTT 472
+                             viv v ?iv    i    vvvi  iv    v     -v ii - v  i
+  CR1-J3_fAlb#L        650 CTACAACTNCCTGAAAGGAGGTTGTAGCCAGGCGGGGG-TCGGTCTCTTC 698
+
+  UnnamedSequen        473 ACACAGGTTGATAATGATAGGACAAGGGGAAATGGTTTTCAGCTAAGACA 522
+                           v v    ivivi ii  i        i   v ii  i iv    iv v  
+  CR1-J3_fAlb#L        699 TCCCAGGCAACCAGCGACAGGACAAGAGGACACAGTCTCAAGCTGCGCCA 748
+
+  UnnamedSequen        523 GGGAAGGTTGAGGTTAGATGCTAGGGGGAAGTTTTTCACTGAGAGGGTGG 572
+                           i  i     v     i  iiii   ii   v  i     v  i      i
+  CR1-J3_fAlb#L        749 AGGGAGGTTCAGGTTGGACATCAGGAAGAATTTCTTCACGGAAAGGGTGA 798
+
+  UnnamedSequen        573 TGATGCACTGGAACAGGTTGCCCA--GAGGTTGTGGATGCCCCATCCCTG 620
+                           iv v  ii      i  i      --     v     vv v  i      
+  CR1-J3_fAlb#L        799 CTAGGCGTTGGAACGGGCTGCCCAGGGAGGTGGTGGAGTCACCGTCCCTG 848
+
+  UnnamedSequen        621 GAGGCATTCAAAGCAAGGCTGGATGTGGCTCTGGGCAGCCTGCTCTAG-C 669
+                               ii     iiv ? i           v  vi iiv v  v     -i
+  CR1-J3_fAlb#L        849 GAGGTGTTCAAGAAANGACTGGATGTGGCACTCAGTGCCATGGTCTAGTT 898
+
+  UnnamedSequen        670 GGC-TGGTGACCCTGCTCACAGCAGGGGGACTGAAAACAGAT-ATCTTTA 717
+                            i -?    iivi  --vi v ?   v     ----- -   -    ivi
+  CR1-J3_fAlb#L        899 GACANGGTGGTGTTG--GGCCGNAGGTGGACT-----C-GATGATCTCGG 940
+
+  UnnamedSequen        718 ATGTCCTTTTCAACCT 733
+                            v   i   i      
+  CR1-J3_fAlb#L        941 AGGTCTTTTCCAACCT 956
+
+Matrix = 20p43g.matrix
+Kimura (with divCpGMod) = 39.80
+Transitions / transversions = 1.34 (107/80)
+Gap_init rate = 0.03 (16 / 599), avg. gap size = 1.56 (25 / 16)
+
+ 1852  20.90 3.27 0.24  UnnamedSequence    335   732     95 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb</a> LINE/CR1        1    410     20    
+1852 20.90 3.27 0.24 UnnamedSequence 335 732 (95) CR1-E4_fAlb#LINE/CR1 1 410 (20) m_b1s001i2
+
+  UnnamedSequen        335 GATCAGAGGGCTGGAGCATCTCTTCTATGAGGAAAGGTTGAGGGAACTGG 384
+                               i     ?       i    ? ??   i ??  ??i   i  i    
+  CR1-E4_fAlb#L          1 GATCGGAGGGNTGGAGCACCTCTNCNNTGAAGNNAGNNCGAGAGAGCTGG 50
+
+  UnnamedSequen        385 GCTCCTTTAGCTTGGAGAA----------CAGGGAGACCTCATTGTTACC 424
+                            ? iv  i   i       ---------- i   ?     ?    ivi  
+  CR1-E4_fAlb#L         51 GNTTGTTCAGCCTGGAGAAGAGAAGGCTNCGGGGNGACCTNATTGCGGCC 100
+
+  UnnamedSequen        425 TTTCAGTATGTGAAGGGAGCGAATAAACAGGAGGGGGAACAATTGTTTAC 474
+                             i     ivi         vv i  iv i ?v  i  ivi i ?     
+  CR1-E4_fAlb#L        101 TTCCAGTACCCGAAGGGAGCCTACAAGAAAGNTGGAGAGGGACTNTTTAC 150
+
+  UnnamedSequen        475 ACAGGTTGATAATGATAGGACAAGGGGAAATGGTTTTCAGCTAAGACAGG 524
+                            vi  ivvi  i   i           i     i  iv i  i i v   
+  CR1-E4_fAlb#L        151 AAGGGCATGTAGTGACAGGACAAGGGGGAATGGCTTCAAACTGAAAGAGG 200
+
+  UnnamedSequen        525 GAAGGTTGAGGTTAGATGCTAGGGGGAAGTTTTTCACTGAGAGGGTGGTG 574
+                            v     v  i      ii    ii   i  i  i    v          
+  CR1-E4_fAlb#L        201 GTAGGTTTAGATTAGATATTAGGAAGAAATTCTTTACTGTGAGGGTGGTG 250
+
+  UnnamedSequen        575 ATGCACTGGAACAGGTTGCCCAGAG--GTTGTGGATGCCCCATCCCTGGA 622
+                            v       v               -- i                     
+  CR1-E4_fAlb#L        251 AGGCACTGGCACAGGTTGCCCAGAGAAGCTGTGGATGCCCCATCCCTGGA 300
+
+  UnnamedSequen        623 GGCATTCAAAGCAAGGCTGGATGTGGCTCTGGGCAGCCTGCTCTAGCGGC 672
+                           i ii     i  v          v       i   i    v     i  v
+  CR1-E4_fAlb#L        301 AGTGTTCAAGGCCAGGCTGGATGGGGCTCTGAGCAACCTGGTCTAGTGGA 350
+
+  UnnamedSequen        673 TGGTGACCCTGCTCACAGCAGGGGGACTGAAAACAGAT-ATCTTTAATGT 721
+                           v    v      i  ii        -i  i  vi    -        v  
+  CR1-E4_fAlb#L        351 AGGTGTCCCTGCCCATGGCAGGGGG-TTGGAACTAGATGATCTTTAAGGT 399
+
+  UnnamedSequen        722 CCTTTTCAACC 732
+                             i  i     
+  CR1-E4_fAlb#L        400 CCCTTCCAACC 410
+
+Matrix = 20p43g.matrix
+Kimura (with divCpGMod) = 24.50
+Transitions / transversions = 2.19 (57/26)
+Gap_init rate = 0.01 (4 / 397), avg. gap size = 3.50 (14 / 4)
+
+</pre>
+</div>
+</div>
+</div>

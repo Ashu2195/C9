@@ -1,0 +1,451 @@
+
+<style type="text/css"> 
+
+ .annotSet {  /* Annotation Set - A grouping which spans a complete set of
+                                  linked annotations. */
+   border-right: 1px solid;
+   padding-right: 10px;
+ }
+
+ .bluediv {  /* The style for every other line.  Used to create
+                a report effect */
+    background: url("/images/bluegrad.jpg")top right repeat-y;
+    background-color: #bacdff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+ } 
+
+ pre {      /* Required change in pre formatting.  This fixes problems
+               with spacing inside of annotSet div tags */
+  margin: 0px 0px 0px 0px;
+  font-family: monospace;
+ }
+
+ .nound {
+   font-weight:bold;
+   color:navy;
+   text-decoration:none;
+ }
+
+</style>
+
+
+<script language="javascript">
+
+  /** JavaScript to detect text resizing events.  Culled verbatim 
+   ** from Lawrence Carvalho's great article on the subject
+   **/
+
+  /** 
+   *  @fileoverview TextResizeDetector
+   * 
+   *  Detects changes to font sizes when user changes browser settings
+   *  <br>Fires a custom event with the following data:<br><br>
+   * 	iBase  : base font size  	
+   *	iDelta : difference in pixels from previous setting<br>
+   *  	iSize  : size in pixel of text<br>
+   *  
+   *  * @author Lawrence Carvalho carvalho@uk.yahoo-inc.com
+   * @version 1.0
+   */
+
+  /**
+   * @constructor
+   */
+  TextResizeDetector = function() { 
+    var el  = null;
+    var iIntervalDelay  = 200;
+    var iInterval = null;
+    var iCurrSize = -1;
+    var iBase = -1;
+    var aListeners = [];
+    var createControlElement = function() {
+      el = document.createElement('span');
+      el.id='textResizeControl';
+      el.innerHTML='&nbsp;';
+      el.style.position="absolute";
+      el.style.left="-9999px";
+      var elC = document.getElementById(TextResizeDetector.TARGET_ELEMENT_ID);
+      // insert before firstChild
+      if (elC)
+        elC.insertBefore(el,elC.firstChild);
+      iBase = iCurrSize = TextResizeDetector.getSize();
+    };
+
+    function _stopDetector() {
+      window.clearInterval(iInterval);
+      iInterval=null;
+    };
+    function _startDetector() {
+      if (!iInterval) {
+        iInterval = window.setInterval('TextResizeDetector.detect()',
+                                       iIntervalDelay);
+      }
+    };
+ 	
+    function _detect() {
+      var iNewSize = TextResizeDetector.getSize();
+  		
+      if(iNewSize!== iCurrSize) {
+        for (var i=0;i <aListeners.length;i++) {
+          aListnr = aListeners[i];
+          var oArgs = {  iBase: iBase,iDelta:((iCurrSize!=-1) ? iNewSize - iCurrSize + 'px' : "0px"),iSize:iCurrSize = iNewSize};
+          if (!aListnr.obj) {
+            aListnr.fn('textSizeChanged',[oArgs]);
+  	  }
+          else  {
+  	    aListnr.fn.apply(aListnr.obj,['textSizeChanged',[oArgs]]);
+  	  }
+        }
+      }
+      return iCurrSize;
+    };
+
+    var onAvailable = function() {
+      if (!TextResizeDetector.onAvailableCount_i ) {
+        TextResizeDetector.onAvailableCount_i =0;
+      }
+      if (document.getElementById(TextResizeDetector.TARGET_ELEMENT_ID)) {
+        TextResizeDetector.init();
+        if (TextResizeDetector.USER_INIT_FUNC){
+          TextResizeDetector.USER_INIT_FUNC();
+        }
+        TextResizeDetector.onAvailableCount_i = null;
+      }
+      else {
+        if (TextResizeDetector.onAvailableCount_i<600) {
+          TextResizeDetector.onAvailableCount_i++;
+  	setTimeout(onAvailable,200)
+        }
+      }
+    };
+    setTimeout(onAvailable,500);
+
+    return {
+      /*
+       * Initializes the detector
+       * 
+       * @param {String} sId The id of the element in which to 
+       *   create the control element
+       */
+       init: function() {
+         createControlElement();		
+         _startDetector();
+       },
+       /**
+        * Adds listeners to the ontextsizechange event. 
+        * Returns the base font size
+        * 
+        */
+        addEventListener:function(fn,obj,bScope) {
+          aListeners[aListeners.length] = {
+            fn: fn,
+            obj: obj
+          }
+          return iBase;
+        },
+       /**
+        * performs the detection and fires textSizeChanged event
+        * @return the current font size
+        * @type {integer}
+        */
+        detect:function() {
+          return _detect();
+        },
+       /**
+        * Returns the height of the control element
+        * 
+        * @return the current height of control element
+        * @type {integer}
+        */
+        getSize:function() {
+          var iSize;
+          return el.offsetHeight;
+  		 		
+        },
+       /**
+        * Stops the detector
+        */
+        stopDetector:function() {
+          return _stopDetector();
+        },
+       /*
+        * Starts the detector
+        */
+        startDetector:function() {
+          return _startDetector();
+        }
+      }
+  }();
+  
+  TextResizeDetector.TARGET_ELEMENT_ID = 'doc';
+  TextResizeDetector.USER_INIT_FUNC = null;
+
+  // Setup the font-resize listener
+  function init()  
+  {
+     var iBase = TextResizeDetector.addEventListener(onFontResize,null);
+  }
+
+  function onFontResize(e,args) 
+  {
+     adjustRepeatTableWidth();
+  }
+
+  //id of element to check for and insert control
+  TextResizeDetector.TARGET_ELEMENT_ID = 'repeatTable';
+
+  //function to call once TextResizeDetector has init'd
+  TextResizeDetector.USER_INIT_FUNC = init;
+
+
+
+
+  /**
+   ** Our code to handle page specific elements
+   **/
+
+  // Setup the table expansion/collapse handler
+  function toggleDiv(divid){
+    if(document.getElementById(divid).style.display == 'none'){
+      document.getElementById(divid).style.display = 'block';
+    }else{
+      document.getElementById(divid).style.display = 'none';
+    }
+  }
+
+  // Setup the table resize method
+  function adjustRepeatTableWidth() 
+  {
+    var numInsertionLevels = 3;
+    var pixelPaddingPerLevel = 10;
+    var objColHeaderText = document.getElementById("colHeaderText");
+
+    if ( objColHeaderText != null ) 
+    {
+      var newWidth = objColHeaderText.offsetWidth + 
+                     ( pixelPaddingPerLevel * (numInsertionLevels - 1) ) + 30; 
+      document.getElementById("repeatTable").style.width = newWidth + "px";
+    }
+  }
+  
+  function toggleAllHsps() 
+  {
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      toggleDiv( 'hsps'+idx );
+      idx++;
+    }
+    return false;
+  }
+
+  function openAllHsps(){
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      document.getElementById('hsps'+idx).style.display = 'block';
+      idx++;
+    }
+    return false;
+  }
+
+  function closeAllHsps(){
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      document.getElementById('hsps'+idx).style.display = 'none';
+      idx++;
+    }
+    return false;
+  }
+
+</script>
+
+
+
+<body onload="adjustRepeatTableWidth()">
+
+<a href="javascript:;" onmousedown="closeAllHsps();">[ close all hsps ]</a>
+<a href="javascript:;" onmousedown="openAllHsps();">[ open all hsps ]</a>
+<div id="repeatTable" style="padding-right: 30px;">
+<div class="header" id="colHeaderContainer" style="background-color: #bcc3c8; border-bottom: 2px solid; margin-bottom: 5px;">
+<pre><b id="colHeaderText">
+                                      position in query-                          -position in repeat-
+        <span title="Percent divergence.">  %  </span> <span title="Percent deletion."> %  </span> <span title="Percent insertion."> %  </span>  <span title="Query sequence name/id.">query      </span>                     <span title="Orientation of the repeat c=minus +=plus.">C</span> <span title="Name/ID of repeat.">matching   </span> <span title="Repeat class and family.">repeat    </span> <span title="Start position or remaining bases in repeat consensus.">(left)</span> <span title="End position in repeat consensus."> end  </span> <span title="Start position or remaining bases in repeat consensus.">begin </span> <span title="Linked repeats are denoted with duplicate IDs and connecting graphic bars.">linkage</span>
+<span title="Click on this link to expand/collapse individual annotation details."><u>+</u></span> <span title="Complexity adjusted Smith Waterman score.">score</span> <span title="Percent divergence."> div.</span> <span title="Percent deletion.">del.</span> <span title="Percent insertion.">ins.</span>  <span title="Query sequence name/id.">sequence   </span>  <span title="Start of annotation in sequence.  The first base is numbered 1.">begin</span> <span title="End of annotation in sequence.  The first base is numbered 1."> end </span> <span title="The number of bases remaining in sequence.">(left)</span> <span title="Orientation of the repeat c=minus +=plus.">+</span> <span title="Name/ID of repeat.">repeat     </span> <span title="Repeat class and family.">class/fami</span> <span title="Start position or remaining bases in repeat consensus.">begin </span> <span title="End position in repeat consensus."> end  </span> <span title="Start position or remaining bases in repeat consensus.">(left)</span> <span title="Linked repeats are denoted with duplicate IDs and connecting graphic bars.">id/graphic</span></b>
+</pre>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps1');">+</a><b> 2011   23.4  2.4  2.9  Tympanuchus     31   707   (80) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb</a> LINE/CR1        1   1055    (8)   1  </b></pre><div id="hsps1" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+ 1547  31.58 2.50 1.48  Tympanuchus     31   631    156 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb</a> LINE/CR1      291    897     82    
+1547 31.58 2.50 1.48 Tympanuchus 31 631 (156) CR1-J3_fAlb#LINE/CR1 291 897 (82) m_b1s001i0
+
+  Tympanuchus           31 CGGTTTGGCAGAAAA--ACATGA-----CTGGTAGACAAGAAGCTGAACA 73
+                              ii?   i     --  v  i-----     v    iv i        
+  CR1-J3_fAlb#L        291 CGGCCNGGCGGAAAAGGACCTGGGGGTGCTGGTTGACAGCAGGCTGAACA 340
+
+  Tympanuchus           74 TGAGCCAGCACTTGC------AGTCCAGAAGGCCAACTGTGTTCTGGGCT 117
+                                    iiv   ------i i v          iv ii i    v  
+  CR1-J3_fAlb#L        341 TGAGCCAGCGTGTGCCCAGGTGGCCAAGAAGGCCAATGGCATCCTGGCCT 390
+
+  Tympanuchus          118 GCATTGGAAGAGGGGTGGCCAGGAGGGAGAGGGAAGTGATTGTCCCCCTC 167
+                            i  ii v ivi v        v   i?v    v  i    v       v
+  CR1-J3_fAlb#L        391 GTATCAGCAATAGTGTGGCCAGCAGGANCAGGGCAGCGATTCTCCCCCTG 440
+
+  Tympanuchus          168 TACTCAGCTCTTGTGAGAACCCATCTGCAGGACTGCATCCACGTCTGGGG 217
+                                i  v  v     iv v  i  vv  v?   iii   vv    ? v
+  CR1-J3_fAlb#L        441 TACTCGGCACTGGTGAGGCCGCACCTCGAGTNCTGTGCCCAGTTCTGNGC 490
+
+  Tympanuchus          218 CTCCCAGTACAGGAAAGACACAGAGCTTTTGGAACGAGTCCTGAGGAGGG 267
+                            i i  i v      i   i v   v vi    i  v    v   i    
+  CR1-J3_fAlb#L        491 CCCTCAATTCAGGAAGGACGCCGAGGTGCTGGAGCGTGTCCAGAGAAGGG 540
+
+  Tympanuchus          268 CCATTAAGATGATCAGAGGGCTGGAGCACCTCTCCTGTGAGGAAAGGTTG 317
+                            v ivi  v  i v ii  v         vvv     i     ivi i  
+  CR1-J3_fAlb#L        541 CAACGGAGCTGGTGAAGGGTCTGGAGCACAAGTCCTGCGAGGAGCAGCTG 590
+
+  Tympanuchus          318 AGGGAACTGGGCTTGTCTAGCTTGTCTAGCTTGAACAAGAGTAGGCTCTG 367
+                                i     --- ------?   i    i  i v  i  v      v 
+  CR1-J3_fAlb#L        591 AGGGAGCTGGG---G------NTGTTTAGCCTGGAGAAAAGGAGGCTCAG 631
+
+  Tympanuchus          368 GGGAGACTTCATTGTGGCCTTCCTGTATTTGAAA-CAGATACAAACTGGA 416
+                                  i i  i ivvi  v vvv ?ii     -v  i vvv i ii i
+  CR1-J3_fAlb#L        632 GGGAGACCTTATCGCTCTCTACAACTNCCTGAAAGGAGGTTGTAGCCAGG 681
+
+  Tympanuchus          417 GAGAGAACAG-CTGTTTACATAGGTTGATAGTGATAAGACAAGGGGGAAT 465
+                           vi i iv i -  v  iv vi   ivivi  i  i i      i  iv i
+  CR1-J3_fAlb#L        682 CGGGGGTCGGTCTCTTCTCCCAGGCAACCAGCGACAGGACAAGAGGACAC 731
+
+  Tympanuchus          466 GGTTTTAAACTGAGAAAGGGAAGGTTTAGGTTAGATATTAGGAGGAAGTT 515
+                           i  i i  i   v vv i  i     i     i  i  i    i   v  
+  CR1-J3_fAlb#L        732 AGTCTCAAGCTGCGCCAAGGGAGGTTCAGGTTGGACATCAGGAAGAATTT 781
+
+  Tympanuchus          516 TTTCACACAGAGGGTGGTGACACACTGGAACAGGTTGCCCAAGGAGGTTT 565
+                           i     iv i      iiv vi ii      i  i      i      vv
+  CR1-J3_fAlb#L        782 CTTCACGGAAAGGGTGACTAGGCGTTGGAACGGGCTGCCCAGGGAGGTGG 831
+
+  Tympanuchus          566 TGGATGCCCCATCCCTGGAGGCATTCAAGGCCAGGCTGGATGTGGCTCTG 615
+                               vv v  i          ii      ivv? i           v  v
+  CR1-J3_fAlb#L        832 TGGAGTCACCGTCCCTGGAGGTGTTCAAGAAANGACTGGATGTGGCACTC 881
+
+  Tympanuchus          616 GACAGCCTGGTCTGGT 631
+                           iiiiv v      i  
+  CR1-J3_fAlb#L        882 AGTGCCATGGTCTAGT 897
+
+Matrix = 20p43g.matrix
+Kimura (with divCpGMod) = 38.51
+Transitions / transversions = 1.37 (108/79)
+Gap_init rate = 0.02 (14 / 600), avg. gap size = 1.71 (24 / 14)
+
+ 1032  33.24 3.51 4.14  Tympanuchus     52   707     80 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-X1_fAlb'>CR1-X1_fAlb</a> LINE/CR1      404   1055      8    
+1032 33.24 3.51 4.14 Tympanuchus 52 707 (80) CR1-X1_fAlb#LINE/CR1 404 1055 (8) m_b1s001i1
+
+  Tympanuchus           52 CTGGTAGACAAGAAGCTGAACATGAGCCAGCA-----CTTGCAGTCCAGA 96
+                                v  iiiv   i    i           -----  v    i vi  
+  CR1-X1_fAlb#L        404 CTGGTCGATGGCAAGTTGAATATGAGCCAGCAGTGCCCTGGCAGCCAGGA 453
+
+  Tympanuchus           97 AGGCCAACTGTGTTCTGGGCTGCATTGGAAGAGGGGTGGCCAGGAGGGAG 146
+                           i       iv   i     v-    ii ivivi vi vi    vv   vi
+  CR1-X1_fAlb#L        454 GGGCCAACCCTGTCCTGGGG-GCATCAGGCACAGCATCACCAGCCGGGCA 502
+
+  Tympanuchus          147 AGGGAAGTGATTGTCCCCCTCTACTCAGCTCTTGTGAGAACC-CATCTGC 195
+                                i v        iv    i   v ?v  v - iv i  -  i  v 
+  CR1-X1_fAlb#L        503 AGGGAGGGGATTGTCCTGCTCTGCTCTGNGCTGG-GGCAGCCTCACCTCC 551
+
+  Tympanuchus          196 AGGACTGCATCCACGTCTGGGGCTCCCAGTACAGGAAAGACACAGAGCTT 245
+                             vi   vivv  vv      vvi v  i ii i        ivi i  v
+  CR1-X1_fAlb#L        552 AGTGCTGGGGGCAGCTCTGGGTGCCACAATGTAAGAAAGACATTAAACTA 601
+
+  Tympanuchus          246 TTGGAACGAGTCCTGAGGAGGGCCATTAAGATGATCAGAGGGCT---GGA 292
+                             i  iv v    vi        v iv i    i v ii  v  ---  i
+  CR1-X1_fAlb#L        602 TTAGAGAGTGTCCAAAGGAGGGCAACGAGGATGGTGAAGGGCCTTGAGGG 651
+
+  Tympanuchus          293 GCACCTCTCCTGTGAGGAAAGGTTGAGGGAACTGGGCTTGTCTAGCTTGT 342
+                            v v --- v        iv  i     vv   v  ii   ii   i  -
+  CR1-X1_fAlb#L        652 GAAGC---CGTGTGAGGAGCGGCTGAGGTCACTTGGTCTGTTCAGCCTG- 697
+
+  Tympanuchus          343 CTAGCTTGAACAAGAGTAGGCTCTGGGGAGACTTCATTGTGGC-----CT 387
+                           -------------   v  i  vv        i   i  ii i-----  
+  CR1-X1_fAlb#L        698 -------------GAGGAGACTGAGGGGAGACCTCACTGCAGTTACAGCT 734
+
+  Tympanuchus          388 TCCTGTATTTGAAACAGATACAAACTGGAGAGAGAACAGCTGTTTAC-AT 436
+                               --- v   iivii v vi ---  i vii v  v v v i i -v 
+  CR1-X1_fAlb#L        735 TCCT---TGTGAGGGGAAGAGGA---GGGGCAGGCACTGATCTCTGCTCT 778
+
+  Tympanuchus          437 AGGTTGAT-AGTGATAAGACAAGGGGGAATGGTTTTAAACTGAGAAAGGG 485
+                           iv v   i-     i i   vv i        ii v  i   v vv    
+  CR1-X1_fAlb#L        779 GTGGTGACCAGTGACAGGACCCGAGGGAATGGCCTGAAGCTGTGTCAGGG 828
+
+  Tympanuchus          486 AAGGTTTAGGTTAGATATTAGGAGGAAGTTTTTCACACAGAGGGTGGTGA 535
+                           i           i          ii i   i     v           vi
+  CR1-X1_fAlb#L        829 GAGGTTTAGGTTGGATATTAGGAAAAGGTTCTTCACCCAGAGGGTGGTTG 878
+
+  Tympanuchus          536 CACACTGGAACAGGTTGCCCAAGGAGGTTTTGGATGCCCCATCCCTGGAG 585
+                           vi            i v    i   i  vv vivv  v   vv    ivi
+  CR1-X1_fAlb#L        879 GGCACTGGAACAGGCTCCCCAGGGAAGTGGTCACAGCACCAAGCCTGACA 928
+
+  Tympanuchus          586 GCATTCAAGGCCAGGCTGGATGTGGCTCT-GGACAGCCTGGTCTGGTGGT 634
+                            vii      vvv vi    iivv     -  i  - v    v  iivv 
+  CR1-X1_fAlb#L        929 GAGCTCAAGGAGCGTTTGGACAATGCTCTCGGGCA-CATGGTGTGACTCT 977
+
+  Tympanuchus          635 TGGCAACCCCTATATGCAGGGT-----GTTGAAATTAGATGATCTTTGT- 678
+                              vi ivvi?v i       i-----    -i i v       i    -
+  CR1-X1_fAlb#L        978 TGGGGATGGTNCTGTGCAGGGCCAGGAGTTG-GACTCGATGATCCTTGTG 1026
+
+  Tympanuchus          679 AGTCCTTTTCAATCCAGGCCATTGTATGA 707
+                           i    i  i   ii   vvi   v i   
+  CR1-X1_fAlb#L       1027 GGTCCCTTCCAACTCAGCATATTCTGTGA 1055
+
+Matrix = 20p43g.matrix
+Kimura (with divCpGMod) = 44.78
+Transitions / transversions = 1.13 (111/98)
+Gap_init rate = 0.05 (36 / 655), avg. gap size = 1.39 (50 / 36)
+
+ 2011  18.57 2.33 3.53  Tympanuchus    278   707     80 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb</a> LINE/CR1        1    425      5    
+2011 18.57 2.33 3.53 Tympanuchus 278 707 (80) CR1-E4_fAlb#LINE/CR1 1 425 (5) m_b1s001i2
+
+  Tympanuchus          278 GATCAGAGGGCTGGAGCACCTCTCCTGTGAGGAAAGGTTGAGGGAACTGG 327
+                               i     ?            ? ??   i ??  ??i   i  i    
+  CR1-E4_fAlb#L          1 GATCGGAGGGNTGGAGCACCTCTNCNNTGAAGNNAGNNCGAGAGAGCTGG 50
+
+  Tympanuchus          328 GCTTGTCTAGCTTGTCTAGCTTGAACAAGAGTAGGCTCTGGGGAGACTTC 377
+                            ?    --------  -   i  i v     v     ?i    ?   i ?
+  CR1-E4_fAlb#L         51 GNTTGT--------TC-AGCCTGGAGAAGAGAAGGCTNCGGGGNGACCTN 91
+
+  Tympanuchus          378 ATTGTGGCCTTCCTGTATTTGAAACAGA---TACAAA----CTGGAGAGA 420
+                               i        v   iii   i-i  ---     i----?       i
+  CR1-E4_fAlb#L         92 ATTGCGGCCTTCCAGTACCCGAAG-GGAGCCTACAAGAAAGNTGGAGAGG 140
+
+  Tympanuchus          421 GAACAGCTGTTTACATAGGTTGATAGTGATAAGACAAGGGGGAATGGTTT 470
+                             ----  ?      vi  ivvi      i i               i  
+  CR1-E4_fAlb#L        141 GA----CTNTTTACAAGGGCATGTAGTGACAGGACAAGGGGGAATGGCTT 186
+
+  Tympanuchus          471 TAAACTGAGAAAGGGAAGGTTTAGGTTAGATATTAGGAGGAAGTTTTTCA 520
+                           i       i i    v        i             i   i  i  i 
+  CR1-E4_fAlb#L        187 CAAACTGAAAGAGGGTAGGTTTAGATTAGATATTAGGAAGAAATTCTTTA 236
+
+  Tympanuchus          521 CACAGAGGGTGGTGACACACTGGAACAGGTTGCCCAAGGAGGTTTTGGAT 570
+                            vvv           vi      v            ii  i i v     
+  CR1-E4_fAlb#L        237 CTGTGAGGGTGGTGAGGCACTGGCACAGGTTGCCCAGAGAAGCTGTGGAT 286
+
+  Tympanuchus          571 GCCCCATCCCTGGAGGCATTCAAGGCCAGGCTGGATGTGGCTCTGGACAG 620
+                                         i ii                   v       ii  i
+  CR1-E4_fAlb#L        287 GCCCCATCCCTGGAAGTGTTCAAGGCCAGGCTGGATGGGGCTCTGAGCAA 336
+
+  Tympanuchus          621 CCTGGTCTGGTGGTTGGCAACC---CCTATATGCAGGGTGTTGAAATTAG 667
+                                   i    vv  iiv  ---  i  i-      v    i  i   
+  CR1-E4_fAlb#L        337 CCTGGTCTAGTGGAAGGTGTCCCTGCCCATG-GCAGGGGGTTGGAACTAG 385
+
+  Tympanuchus          668 ATGATCTTTGTAGTCCTTTTCAATCCAGGCCATTGTATGA 707
+                                    ivi    i  i   i   ii     v i   
+  CR1-E4_fAlb#L        386 ATGATCTTTAAGGTCCCTTCCAACCCAAACCATTCTGTGA 425
+
+Matrix = 20p43g.matrix
+Kimura (with divCpGMod) = 21.31
+Transitions / transversions = 2.85 (57/20)
+Gap_init rate = 0.04 (18 / 429), avg. gap size = 1.39 (25 / 18)
+
+</pre>
+</div>
+
+</div>
