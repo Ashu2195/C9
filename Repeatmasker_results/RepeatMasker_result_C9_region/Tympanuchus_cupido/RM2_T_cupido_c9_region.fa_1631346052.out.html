@@ -1,0 +1,1583 @@
+
+<style type="text/css"> 
+
+ .annotSet {  /* Annotation Set - A grouping which spans a complete set of
+                                  linked annotations. */
+   border-right: 1px solid;
+   padding-right: 10px;
+ }
+
+ .bluediv {  /* The style for every other line.  Used to create
+                a report effect */
+    background: url("/images/bluegrad.jpg")top right repeat-y;
+    background-color: #bacdff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+ } 
+
+ pre {      /* Required change in pre formatting.  This fixes problems
+               with spacing inside of annotSet div tags */
+  margin: 0px 0px 0px 0px;
+  font-family: monospace;
+ }
+
+ .nound {
+   font-weight:bold;
+   color:navy;
+   text-decoration:none;
+ }
+
+</style>
+
+
+<script language="javascript">
+
+  /** JavaScript to detect text resizing events.  Culled verbatim 
+   ** from Lawrence Carvalho's great article on the subject
+   **/
+
+  /** 
+   *  @fileoverview TextResizeDetector
+   * 
+   *  Detects changes to font sizes when user changes browser settings
+   *  <br>Fires a custom event with the following data:<br><br>
+   * 	iBase  : base font size  	
+   *	iDelta : difference in pixels from previous setting<br>
+   *  	iSize  : size in pixel of text<br>
+   *  
+   *  * @author Lawrence Carvalho carvalho@uk.yahoo-inc.com
+   * @version 1.0
+   */
+
+  /**
+   * @constructor
+   */
+  TextResizeDetector = function() { 
+    var el  = null;
+    var iIntervalDelay  = 200;
+    var iInterval = null;
+    var iCurrSize = -1;
+    var iBase = -1;
+    var aListeners = [];
+    var createControlElement = function() {
+      el = document.createElement('span');
+      el.id='textResizeControl';
+      el.innerHTML='&nbsp;';
+      el.style.position="absolute";
+      el.style.left="-9999px";
+      var elC = document.getElementById(TextResizeDetector.TARGET_ELEMENT_ID);
+      // insert before firstChild
+      if (elC)
+        elC.insertBefore(el,elC.firstChild);
+      iBase = iCurrSize = TextResizeDetector.getSize();
+    };
+
+    function _stopDetector() {
+      window.clearInterval(iInterval);
+      iInterval=null;
+    };
+    function _startDetector() {
+      if (!iInterval) {
+        iInterval = window.setInterval('TextResizeDetector.detect()',
+                                       iIntervalDelay);
+      }
+    };
+ 	
+    function _detect() {
+      var iNewSize = TextResizeDetector.getSize();
+  		
+      if(iNewSize!== iCurrSize) {
+        for (var i=0;i <aListeners.length;i++) {
+          aListnr = aListeners[i];
+          var oArgs = {  iBase: iBase,iDelta:((iCurrSize!=-1) ? iNewSize - iCurrSize + 'px' : "0px"),iSize:iCurrSize = iNewSize};
+          if (!aListnr.obj) {
+            aListnr.fn('textSizeChanged',[oArgs]);
+  	  }
+          else  {
+  	    aListnr.fn.apply(aListnr.obj,['textSizeChanged',[oArgs]]);
+  	  }
+        }
+      }
+      return iCurrSize;
+    };
+
+    var onAvailable = function() {
+      if (!TextResizeDetector.onAvailableCount_i ) {
+        TextResizeDetector.onAvailableCount_i =0;
+      }
+      if (document.getElementById(TextResizeDetector.TARGET_ELEMENT_ID)) {
+        TextResizeDetector.init();
+        if (TextResizeDetector.USER_INIT_FUNC){
+          TextResizeDetector.USER_INIT_FUNC();
+        }
+        TextResizeDetector.onAvailableCount_i = null;
+      }
+      else {
+        if (TextResizeDetector.onAvailableCount_i<600) {
+          TextResizeDetector.onAvailableCount_i++;
+  	setTimeout(onAvailable,200)
+        }
+      }
+    };
+    setTimeout(onAvailable,500);
+
+    return {
+      /*
+       * Initializes the detector
+       * 
+       * @param {String} sId The id of the element in which to 
+       *   create the control element
+       */
+       init: function() {
+         createControlElement();		
+         _startDetector();
+       },
+       /**
+        * Adds listeners to the ontextsizechange event. 
+        * Returns the base font size
+        * 
+        */
+        addEventListener:function(fn,obj,bScope) {
+          aListeners[aListeners.length] = {
+            fn: fn,
+            obj: obj
+          }
+          return iBase;
+        },
+       /**
+        * performs the detection and fires textSizeChanged event
+        * @return the current font size
+        * @type {integer}
+        */
+        detect:function() {
+          return _detect();
+        },
+       /**
+        * Returns the height of the control element
+        * 
+        * @return the current height of control element
+        * @type {integer}
+        */
+        getSize:function() {
+          var iSize;
+          return el.offsetHeight;
+  		 		
+        },
+       /**
+        * Stops the detector
+        */
+        stopDetector:function() {
+          return _stopDetector();
+        },
+       /*
+        * Starts the detector
+        */
+        startDetector:function() {
+          return _startDetector();
+        }
+      }
+  }();
+  
+  TextResizeDetector.TARGET_ELEMENT_ID = 'doc';
+  TextResizeDetector.USER_INIT_FUNC = null;
+
+  // Setup the font-resize listener
+  function init()  
+  {
+     var iBase = TextResizeDetector.addEventListener(onFontResize,null);
+  }
+
+  function onFontResize(e,args) 
+  {
+     adjustRepeatTableWidth();
+  }
+
+  //id of element to check for and insert control
+  TextResizeDetector.TARGET_ELEMENT_ID = 'repeatTable';
+
+  //function to call once TextResizeDetector has init'd
+  TextResizeDetector.USER_INIT_FUNC = init;
+
+
+
+
+  /**
+   ** Our code to handle page specific elements
+   **/
+
+  // Setup the table expansion/collapse handler
+  function toggleDiv(divid){
+    if(document.getElementById(divid).style.display == 'none'){
+      document.getElementById(divid).style.display = 'block';
+    }else{
+      document.getElementById(divid).style.display = 'none';
+    }
+  }
+
+  // Setup the table resize method
+  function adjustRepeatTableWidth() 
+  {
+    var numInsertionLevels = 3;
+    var pixelPaddingPerLevel = 10;
+    var objColHeaderText = document.getElementById("colHeaderText");
+
+    if ( objColHeaderText != null ) 
+    {
+      var newWidth = objColHeaderText.offsetWidth + 
+                     ( pixelPaddingPerLevel * (numInsertionLevels - 1) ) + 30; 
+      document.getElementById("repeatTable").style.width = newWidth + "px";
+    }
+  }
+  
+  function toggleAllHsps() 
+  {
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      toggleDiv( 'hsps'+idx );
+      idx++;
+    }
+    return false;
+  }
+
+  function openAllHsps(){
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      document.getElementById('hsps'+idx).style.display = 'block';
+      idx++;
+    }
+    return false;
+  }
+
+  function closeAllHsps(){
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      document.getElementById('hsps'+idx).style.display = 'none';
+      idx++;
+    }
+    return false;
+  }
+
+</script>
+
+
+
+<body onload="adjustRepeatTableWidth()">
+
+<a href="javascript:;" onmousedown="closeAllHsps();">[ close all hsps ]</a>
+<a href="javascript:;" onmousedown="openAllHsps();">[ open all hsps ]</a>
+<div id="repeatTable" style="padding-right: 30px;">
+<div class="header" id="colHeaderContainer" style="background-color: #bcc3c8; border-bottom: 2px solid; margin-bottom: 5px;">
+<pre><b id="colHeaderText">
+                                                           -position in query-                               -position in repeat-
+        <span title="Percent divergence.">  %  </span> <span title="Percent deletion."> %  </span> <span title="Percent insertion."> %  </span>  <span title="Query sequence name/id.">query                           </span>                      <span title="Orientation of the repeat c=minus +=plus.">C</span> <span title="Name/ID of repeat.">matching    </span> <span title="Repeat class and family.">repeat        </span> <span title="Start position or remaining bases in repeat consensus.">(left)</span> <span title="End position in repeat consensus."> end  </span> <span title="Start position or remaining bases in repeat consensus.">begin </span> <span title="Linked repeats are denoted with duplicate IDs and connecting graphic bars.">linkage</span>
+<span title="Click on this link to expand/collapse individual annotation details."><u>+</u></span> <span title="Complexity adjusted Smith Waterman score.">score</span> <span title="Percent divergence."> div.</span> <span title="Percent deletion.">del.</span> <span title="Percent insertion.">ins.</span>  <span title="Query sequence name/id.">sequence                        </span>  <span title="Start of annotation in sequence.  The first base is numbered 1.">begin</span> <span title="End of annotation in sequence.  The first base is numbered 1."> end </span> <span title="The number of bases remaining in sequence.">(left) </span> <span title="Orientation of the repeat c=minus +=plus.">+</span> <span title="Name/ID of repeat.">repeat      </span> <span title="Repeat class and family.">class/family  </span> <span title="Start position or remaining bases in repeat consensus.">begin </span> <span title="End position in repeat consensus."> end  </span> <span title="Start position or remaining bases in repeat consensus.">(left)</span> <span title="Linked repeats are denoted with duplicate IDs and connecting graphic bars.">id/graphic</span></b>
+</pre>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps1');">+</a><b>  257   26.4 17.3  0.0  MOXI01007018.1:14323300-14364500   3946  4055 (37146) C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J2_fAlb'>CR1-J2_fAlb </a> LINE/CR1          (0)    388    260   1  </b></pre><div id="hsps1" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  257  26.36 17.27 0.00  MOXI01007018.1:14323300-14364500   3946  4055   37025 C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J2_fAlb'>CR1-J2_fAlb </a> LINE/CR1          260    388      0    
+257 26.36 17.27 0.00 MOXI01007018.1:14323300-14364500 3946 4055 (37025) C CR1-J2_fAlb#LINE/CR1 (0) 388 260 m_b1s001i0
+
+  MOXI01007018.       3946 AATCATGGCATCAGTAAGGTTAGAAAACATCTCTAAGATAATCTAGTCTA 3995
+                                 i v   iv v  ?  i     v i         v   v    i?
+C CR1-J2_fAlb#L        388 AATCATAGAATCGTTTAGNTTGGAAAAGACCTCTAAGATCATCGAGTCCN 339
+
+  MOXI01007018.       3996 AATGTCAGCCCA------CTATG-CTAC-----------ATCCCTAAGTG 4027
+                            vi iv i    ------ i ? - i  -----------i    ii    
+C CR1-J2_fAlb#L        338 ACCGCGAACCCAGCACTGCCANGTCCACCNCNAAACCGTGTCCCCGAGTG 289
+
+  MOXI01007018.       4028 CCATATATACACATTTCTCAAAT-CTTCC 4055
+                              i  v   i i i i i    - i   
+C CR1-J2_fAlb#L        288 CCACATCTACGCGTCTTTTAAATACCTCC 260
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 26.54
+Transitions / transversions = 2.22 (20/9)
+Gap_init rate = 0.04 (4 / 109), avg. gap size = 4.75 (19 / 4)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps2');">+</a><b>   28    3.0  0.0  2.9  MOXI01007018.1:14323300-14364500   5319  5354 (35847) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TTGTT)n'>(TTGTT)n    </a> Simple_repeat       1     35    (0)   2  </b></pre><div id="hsps2" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   28   3.01 0.00 2.86  MOXI01007018.1:14323300-14364500   5319  5354   35847 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TTGTT)n'>(TTGTT)n    </a> Simple_repeat       1     35      0    
+28 3.01 0.00 2.86 MOXI01007018.1:14323300-14364500 5319 5354 (35847) (TTGTT)n#Simple_repeat 1 35 (0) c_b1s251i0
+
+  MOXI01007018.       5319 TTGTTTTTTTTTGTTTTGTTTTGTTTTGTTTCTGTT 5354
+                                  v                       -    
+  (TTGTT)n#Simp          1 TTGTTTTGTTTTGTTTTGTTTTGTTTTGTTT-TGTT 35
+
+Matrix = Unknown
+Transitions / transversions = 0.00 (0/1)
+Gap_init rate = 0.03 (1 / 35), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps3');">+</a><b> 1523   23.9  7.9  0.2  MOXI01007018.1:14323300-14364500   6274  6715 (34486) C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb </a> LINE/CR1         (58)    372      3   3  </b></pre><div id="hsps3" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  773  21.43 15.38 0.00  MOXI01007018.1:14323300-14364500   6274  6455   34660 C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E6_fAlb'>CR1-E6_fAlb </a> LINE/CR1            9    218      0    
+773 21.43 15.38 0.00 MOXI01007018.1:14323300-14364500 6274 6455 (34660) C CR1-E6_fAlb#LINE/CR1 (0) 218 9 m_b1s001i1
+
+  MOXI01007018.       6274 ATCAATGAATTATAAAATTGCTTGGGTTGTAAGGGACCT----------- 6312
+                               vv    i   i   v i        v         -----------
+C CR1-E6_fAlb#L        218 ATCACAGAATCATAGAATGGTTTGGGTTGGAAGGGACCTTAAAGATCATC 169
+
+  MOXI01007018.       6313 ----------------GTTGTGGGTAGGGTTGCCATCCACTAGATCGGGC 6346
+                           ---------------- iii    i    vii  v         i i  i
+C CR1-E6_fAlb#L        168 TNGTTCCAACCCCCCTGCCATGGGCAGGGACACCTTCCACTAGACCAGGT 119
+
+  MOXI01007018.       6347 TGCCCAGGGCCTCATGCAGCCTGGTCTTAAACACCTCTGGGGATGGGGCA 6396
+                              i   i   i   v        i   i     i  ii           
+C CR1-E6_fAlb#L        118 TGCTCAGAGCCCCATCCAGCCTGGCCTTGAACACTTCCAGGGATGGGGCA 69
+
+  MOXI01007018.       6397 TCTATTGC-TCTCTGGACAGCCTGTTTCAGTGTCTCACCACCCTCTGTAT 6445
+                           ? i ivi -       i  i      i     i            vvvi 
+C CR1-E6_fAlb#L         68 NCCACAACTTCTCTGGGCAACCTGTTCCAGTGCCTCACCACCCTCACAGT 19
+
+  MOXI01007018.       6446 AAAGAATTTC 6455
+                                     
+C CR1-E6_fAlb#L         18 AAAGAATTTC 9
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 26.35
+Transitions / transversions = 2.55 (28/11)
+Gap_init rate = 0.02 (3 / 181), avg. gap size = 9.33 (28 / 3)
+
+ 1523  24.10 2.49 0.27  MOXI01007018.1:14323300-14364500   6310  6671   34444 C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb </a> LINE/CR1            3    372     58    
+1523 24.10 2.49 0.27 MOXI01007018.1:14323300-14364500 6310 6671 (34444) C CR1-E4_fAlb#LINE/CR1 (58) 372 3 m_b1s001i2
+
+  MOXI01007018.       6310 CCTGTTGTGGGTAGGGTTGCCATCCACTAGATCGGGCTGCCCAGGGCCTC 6359
+                               iii    i    vii  v         i i  i   i   i   i 
+C CR1-E4_fAlb#L        372 CCTGCCATGGGCAGGGACACCTTCCACTAGACCAGGTTGCTCAGAGCCCC 323
+
+  MOXI01007018.       6360 ATGCAGCCTGGTCTTAAACACCTCTGGGGATGGGGCATCTATTGCT-CTC 6408
+                             v        i   i     i  ii             i iv   -   
+C CR1-E4_fAlb#L        322 ATCCAGCCTGGCCTTGAACACTTCCAGGGATGGGGCATCCACAGCTTCTC 273
+
+  MOXI01007018.       6409 TGGACAGCCTGTTTCAGTGTCTCACCACCCTCTGTATAAAGAATTTC--- 6455
+                              i  i     vi     i            vvvi           ---
+C CR1-E4_fAlb#L        272 TGGGCAACCTGTGCCAGTGCCTCACCACCCTCACAGTAAAGAATTTCTTC 223
+
+  MOXI01007018.       6456 -----ACCTAACATAAATCTCATTTATTTTAGATTTAAAGCCATTCTCCC 6500
+                           ----- i    iv    i  vvii v   i  -   i         i   
+C CR1-E4_fAlb#L        222 CTAATATCTAATCTAAACCTACCCTCTTTCAG-TTTGAAGCCATTCCCCC 174
+
+  MOXI01007018.       6501 TTTTACTGTCACTGTCGGACGATGTAAAAAGTTGGTTTCCTTTCTGTTTA 6550
+                             v v        iivv v vv      ?   ivv i   v?ii vi  i
+C CR1-E4_fAlb#L        173 TTGTCCTGTCACTACATGCCCTTGTAAANAGTCCCTCTCCANCTTTCTTG 124
+
+  MOXI01007018.       6551 TAAGCTCTCTTTAAATACTGGAAGGCTGAAAAGAGTTATCCCTGTAGCCT 6600
+                             i    i   iiii           i v  v?  v v?   i ?     
+C CR1-E4_fAlb#L        123 TAGGCTCCCTTCGGGTACTGGAAGGCCGCAATNAGGTCNCCCCGNAGCCT 74
+
+  MOXI01007018.       6601 TCTCTTCTCCAGACTGAACAAGACCAGCTCCCTCTGCATTTATTCATAGG 6650
+                                       i        ?v       i   v??v ??v    ?? ?
+C CR1-E4_fAlb#L         73 TCTCTTCTCCAGGCTGAACAANCCCAGCTCTCTCGNNCTNNCTTCANNGN 24
+
+  MOXI01007018.       6651 AGAAATGCTCTGGCCTTCTGA 6671
+                              ii     ii?  i  i  
+C CR1-E4_fAlb#L         23 AGAGGTGCTCCANCCCTCCGA 3
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 29.70
+Transitions / transversions = 1.81 (56/31)
+Gap_init rate = 0.01 (4 / 361), avg. gap size = 2.50 (10 / 4)
+
+  589  33.12 3.77 1.13  MOXI01007018.1:14323300-14364500   6371  6715   34400 C <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3     </a> LINE/CR1         3103   3456    117    
+589 33.12 3.77 1.13 MOXI01007018.1:14323300-14364500 6371 6715 (34400) C Plat_L3#LINE/CR1 (117) 3456 3103 m_b1s001i3
+
+  MOXI01007018.       6371 TCTTAAACACCTCTGGGGATGGGGCATCTATTGC-TCTCTGGACAGCCTG 6419
+                                  v i   ii       i vv  i ivi -  i  v ii    i 
+C Plat_L3#LINE/       3456 TCTTAAAGATCTCCAGGGATGGAGACTCCACAACCTCCCTCGGTAGCCCG 3407
+
+  MOXI01007018.       6420 TTTCAGTGTCTCACCACCCTCTGTATAAAGAATTTC--------ACCTAA 6461
+                             i      i i i      vvvvi v     v   --------ii i  
+C Plat_L3#LINE/       3406 TTCCAGTGTTTTATCACCCTGACAGTCAAGAAGTTCTTCCTTATGTCCAA 3357
+
+  MOXI01007018.       6462 CATAAATCTCATTTATTTTAGATTTAAAGCCATTCTCCCTTTTACTGTCA 6511
+                            vv       vii ii    -      iv     ii i   v v v   v
+C Plat_L3#LINE/       3356 CCGAAATCTCTCCTGCTTTA-ATTTAAGCCCATTTCCTCTTGTTCGGTCC 3308
+
+  MOXI01007018.       6512 -CTGTCGGACGATGTAAAA-AGTTGGTTTCCTTTCTGTTTATAAGCTCTC 6559
+                           - ?  -    -   v i  - ii    ivv v i  viii    ivv i 
+C Plat_L3#LINE/       3307 TCNGT-GGAC-ATGGAGAACAACTGGTCAGCATCCTCCCCATAAAAACCC 3260
+
+  MOXI01007018.       6560 TTTAAATACTGGAAGGCTGAAAA-GAGTTATCCCTGTAGCCTTCTCTTCT 6608
+                             i v     v    i v vv v-i   i i    -              
+C Plat_L3#LINE/       3259 TTCATATACTTGAAGACAGTTATTAAGTCACCCCT-TAGCCTTCTCTTCT 3211
+
+  MOXI01007018.       6609 CCAGACTGAACAAGACCAGCTCCCTCTGCATTTATTCATAGGAGAAATGC 6658
+                               i  i     vv   ii   i ivi v   vi        vvv  vi
+C Plat_L3#LINE/       3210 CCAGGCTAAACAACCCCAATTCCTTTAACCTTTCCTCATAGGACCTATTT 3161
+
+  MOXI01007018.       6659 TCTGGCCTTCTGAGGATCCTTGAGGC-CTCCTCTGAACCTGCTCCAAAAA 6707
+                             iiv  i i i vv  ii   vv  -  i     i   iv     ivvv
+C Plat_L3#LINE/       3160 TCCATCCCTTTAATCATTTTTGTCGCTCTTCTCTGGACCCTCTCCAGTTT 3111
+
+  MOXI01007018.       6708 CTTCACAT 6715
+                             i     
+C Plat_L3#LINE/       3110 CTCCACAT 3103
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 44.62
+Transitions / transversions = 1.26 (63/50)
+Gap_init rate = 0.03 (10 / 344), avg. gap size = 1.70 (17 / 10)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps4');">+</a><b>   18   12.6  0.0  0.0  MOXI01007018.1:14323300-14364500   9336  9362 (31839) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n        </a> Simple_repeat       1     27    (0)   4  </b></pre><div id="hsps4" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   18  12.57 0.00 0.00  MOXI01007018.1:14323300-14364500   9336  9362   31753 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n        </a> Simple_repeat       1     27      0    
+18 12.57 0.00 0.00 MOXI01007018.1:14323300-14364500 9336 9362 (31753) (A)n#Simple_repeat 1 27 (0) m_b1s252i1
+
+  MOXI01007018.       9336 AAAGAAAAAAAAAAAAAAAGAAAGAAA 9362
+                              i               i   i   
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAAAAAAAAAA 27
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (3/0)
+Gap_init rate = 0.00 (0 / 26), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps5');">+</a><b>   13   15.2  0.0  3.3  MOXI01007018.1:14323300-14364500   9421  9451 (31750) + <a class='nound' href='/cgi-bin/ViewRepeat?id=A-rich'>A-rich      </a> Low_complexity      1     30    (0)   5  </b></pre><div id="hsps5" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   13  15.20 0.00 3.33  MOXI01007018.1:14323300-14364500   9421  9451   31664 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(AAAT)n'>(AAAT)n     </a> Simple_repeat       1     30      0    
+13 15.20 0.00 3.33 MOXI01007018.1:14323300-14364500 9421 9451 (31664) (AAAT)n#Simple_repeat 1 30 (0) m_b1s252i2
+
+  MOXI01007018.       9421 AAATAATGACATAAATAAATAGATAAAGTAA 9451
+                                 vv v           i     -   
+  (AAAT)n#Simpl          1 AAATAAATAAATAAATAAATAAATAAA-TAA 30
+
+Matrix = Unknown
+Transitions / transversions = 0.33 (1/3)
+Gap_init rate = 0.03 (1 / 30), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps6');">+</a><b> 1968   23.4  2.4  2.9  MOXI01007018.1:14323300-14364500   9668 10344 (30857) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb </a> LINE/CR1            1   1055    (8)   6  </b></pre><div id="hsps6" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+ 1530  31.58 2.50 1.48  MOXI01007018.1:14323300-14364500   9668 10268   30847 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          291    897     82    
+1530 31.58 2.50 1.48 MOXI01007018.1:14323300-14364500 9668 10268 (30847) CR1-J3_fAlb#LINE/CR1 291 897 (82) m_b1s001i4
+
+  MOXI01007018.       9668 CGGTTTGGCAGAAAA--ACATGA-----CTGGTAGACAAGAAGCTGAACA 9710
+                              ii?   i     --  v  i-----     v    iv i        
+  CR1-J3_fAlb#L        291 CGGCCNGGCGGAAAAGGACCTGGGGGTGCTGGTTGACAGCAGGCTGAACA 340
+
+  MOXI01007018.       9711 TGAGCCAGCACTTGC------AGTCCAGAAGGCCAACTGTGTTCTGGGCT 9754
+                                    iiv   ------i i v          iv ii i    v  
+  CR1-J3_fAlb#L        341 TGAGCCAGCGTGTGCCCAGGTGGCCAAGAAGGCCAATGGCATCCTGGCCT 390
+
+  MOXI01007018.       9755 GCATTGGAAGAGGGGTGGCCAGGAGGGAGAGGGAAGTGATTGTCCCCCTC 9804
+                            i  ii v ivi v        v   i?v    v  i    v       v
+  CR1-J3_fAlb#L        391 GTATCAGCAATAGTGTGGCCAGCAGGANCAGGGCAGCGATTCTCCCCCTG 440
+
+  MOXI01007018.       9805 TACTCAGCTCTTGTGAGAACCCATCTGCAGGACTGCATCCACGTCTGGGG 9854
+                                i  v  v     iv v  i  vv  v?   iii   vv    ? v
+  CR1-J3_fAlb#L        441 TACTCGGCACTGGTGAGGCCGCACCTCGAGTNCTGTGCCCAGTTCTGNGC 490
+
+  MOXI01007018.       9855 CTCCCAGTACAGGAAAGACACAGAGCTTTTGGAACGAGTCCTGAGGAGGG 9904
+                            i i  i v      i   i v   v vi    i  v    v   i    
+  CR1-J3_fAlb#L        491 CCCTCAATTCAGGAAGGACGCCGAGGTGCTGGAGCGTGTCCAGAGAAGGG 540
+
+  MOXI01007018.       9905 CCATTAAGATGATCAGAGGGCTGGAGCACCTCTCCTGTGAGGAAAGGTTG 9954
+                            v ivi  v  i v ii  v         vvv     i     ivi i  
+  CR1-J3_fAlb#L        541 CAACGGAGCTGGTGAAGGGTCTGGAGCACAAGTCCTGCGAGGAGCAGCTG 590
+
+  MOXI01007018.       9955 AGGGAACTGGGCTTGTCTAGCTTGTCTAGCTTGAACAAGAGTAGGCTCTG 10004
+                                i     --- ------?   i    i  i v  i  v      v 
+  CR1-J3_fAlb#L        591 AGGGAGCTGGG---G------NTGTTTAGCCTGGAGAAAAGGAGGCTCAG 631
+
+  MOXI01007018.      10005 GGGAGACTTCATTGTGGCCTTCCTGTATTTGAAA-CAGATACAAACTGGA 10053
+                                  i i  i ivvi  v vvv ?ii     -v  i vvv i ii i
+  CR1-J3_fAlb#L        632 GGGAGACCTTATCGCTCTCTACAACTNCCTGAAAGGAGGTTGTAGCCAGG 681
+
+  MOXI01007018.      10054 GAGAGAACAG-CTGTTTACATAGGTTGATAGTGATAAGACAAGGGGGAAT 10102
+                           vi i iv i -  v  iv vi   ivivi  i  i i      i  iv i
+  CR1-J3_fAlb#L        682 CGGGGGTCGGTCTCTTCTCCCAGGCAACCAGCGACAGGACAAGAGGACAC 731
+
+  MOXI01007018.      10103 GGTTTTAAACTGAGAAAGGGAAGGTTTAGGTTAGATATTAGGAGGAAGTT 10152
+                           i  i i  i   v vv i  i     i     i  i  i    i   v  
+  CR1-J3_fAlb#L        732 AGTCTCAAGCTGCGCCAAGGGAGGTTCAGGTTGGACATCAGGAAGAATTT 781
+
+  MOXI01007018.      10153 TTTCACACAGAGGGTGGTGACACACTGGAACAGGTTGCCCAAGGAGGTTT 10202
+                           i     iv i      iiv vi ii      i  i      i      vv
+  CR1-J3_fAlb#L        782 CTTCACGGAAAGGGTGACTAGGCGTTGGAACGGGCTGCCCAGGGAGGTGG 831
+
+  MOXI01007018.      10203 TGGATGCCCCATCCCTGGAGGCATTCAAGGCCAGGCTGGATGTGGCTCTG 10252
+                               vv v  i          ii      ivv? i           v  v
+  CR1-J3_fAlb#L        832 TGGAGTCACCGTCCCTGGAGGTGTTCAAGAAANGACTGGATGTGGCACTC 881
+
+  MOXI01007018.      10253 GACAGCCTGGTCTGGT 10268
+                           iiiiv v      i  
+  CR1-J3_fAlb#L        882 AGTGCCATGGTCTAGT 897
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 38.51
+Transitions / transversions = 1.37 (108/79)
+Gap_init rate = 0.02 (14 / 600), avg. gap size = 1.71 (24 / 14)
+
+ 1016  33.66 3.35 3.99  MOXI01007018.1:14323300-14364500   9689 10344   30771 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-X1_fAlb'>CR1-X1_fAlb </a> LINE/CR1          404   1055      8    
+1016 33.66 3.35 3.99 MOXI01007018.1:14323300-14364500 9689 10344 (30771) CR1-X1_fAlb#LINE/CR1 404 1055 (8) m_b1s001i5
+
+  MOXI01007018.       9689 CTGGTAGACAAGAAGCTGAACATGAGCCAGCA-----CTTGCAGTCCAGA 9733
+                                v  iiiv   i    i           -----  v    i vi  
+  CR1-X1_fAlb#L        404 CTGGTCGATGGCAAGTTGAATATGAGCCAGCAGTGCCCTGGCAGCCAGGA 453
+
+  MOXI01007018.       9734 AGGCCAACTGTGTTCTGGGCTGCATTGGAAGAGGGGTGGCCAGGAGGGAG 9783
+                           i       iv   i     -v    ii ivivi vi vi    vv   vi
+  CR1-X1_fAlb#L        454 GGGCCAACCCTGTCCTGGG-GGCATCAGGCACAGCATCACCAGCCGGGCA 502
+
+  MOXI01007018.       9784 AGGGAAGTGATTGTCCCCCTCTACTCAGCTCTTGTGAGAACCCATCTGCA 9833
+                                i v        iv    i   v ?v  v v viiv i  i  v  
+  CR1-X1_fAlb#L        503 AGGGAGGGGATTGTCCTGCTCTGCTCTGNGCTGGGGCAGCCTCACCTCCA 552
+
+  MOXI01007018.       9834 GGACTGCATCCACGTCTGGGGCTCCCAGTACAGGAAAGACACAGAGCTTT 9883
+                            vi   vivv  vv      vvi v  i ii i        ivi i  v 
+  CR1-X1_fAlb#L        553 GTGCTGGGGGCAGCTCTGGGTGCCACAATGTAAGAAAGACATTAAACTAT 602
+
+  MOXI01007018.       9884 TGGAACGAGTCCTGAGGAGGGCCATTAAGATGATCAGAGGGCT---GGAG 9930
+                            i  iv v    vi        v iv i    i v ii  v  ---  i 
+  CR1-X1_fAlb#L        603 TAGAGAGTGTCCAAAGGAGGGCAACGAGGATGGTGAAGGGCCTTGAGGGG 652
+
+  MOXI01007018.       9931 CACCTCTCCTGTGAGGAAAGGTTGAGGGAACTGGGCTTGTCTAGCTTGTC 9980
+                           v v --- v        iv  i     vv   v  ii   ii   i  --
+  CR1-X1_fAlb#L        653 AAGC---CGTGTGAGGAGCGGCTGAGGTCACTTGGTCTGTTCAGCCTG-- 697
+
+  MOXI01007018.       9981 TAGCTTGAACAAGAGTAGGCTCTGGGGAGACTTCATTGTGGC-----CTT 10025
+                           ------------   v  i  vv        i   i  ii i-----   
+  CR1-X1_fAlb#L        698 ------------GAGGAGACTGAGGGGAGACCTCACTGCAGTTACAGCTT 735
+
+  MOXI01007018.      10026 CCTGTATTTGAAACAGATACAAACTGGAGAGAGAACAGCTGTTTAC-ATA 10074
+                              --- v   iivii v vi ---  i vii v  v v v i i -v i
+  CR1-X1_fAlb#L        736 CCT---TGTGAGGGGAAGAGGA---GGGGCAGGCACTGATCTCTGCTCTG 779
+
+  MOXI01007018.      10075 GGTTGA-TAGTGATAAGACAAGGGGGAATGGTTTTAAACTGAGAAAGGGA 10123
+                           v v   -i     i i   vv i        ii v  i   v vv    i
+  CR1-X1_fAlb#L        780 TGGTGACCAGTGACAGGACCCGAGGGAATGGCCTGAAGCTGTGTCAGGGG 829
+
+  MOXI01007018.      10124 AGGTTTAGGTTAGATATTAGGAGGAAGTTTTTCACACAGAGGGTGGTGAC 10173
+                                      i          ii i   i     v           viv
+  CR1-X1_fAlb#L        830 AGGTTTAGGTTGGATATTAGGAAAAGGTTCTTCACCCAGAGGGTGGTTGG 879
+
+  MOXI01007018.      10174 ACACTGGAACAGGTTGCCCAAGGAGGTTTTGGATGCCCCATCCCTGGAGG 10223
+                           i            i v    i   i  vv vivv  v   vv    ivi 
+  CR1-X1_fAlb#L        880 GCACTGGAACAGGCTCCCCAGGGAAGTGGTCACAGCACCAAGCCTGACAG 929
+
+  MOXI01007018.      10224 CATTCAAGGCCAGGCTGGATGTGGCTCT-GGACAGCCTGGTCTGGTGGTT 10272
+                           vii      vvv vi    iivv     -  i  - v    v  iivv  
+  CR1-X1_fAlb#L        930 AGCTCAAGGAGCGTTTGGACAATGCTCTCGGGCA-CATGGTGTGACTCTT 978
+
+  MOXI01007018.      10273 GGCAACCCCTATATGCAGGGT-----GTTGAAATTAGATGATCTTTGT-A 10316
+                             vi ivvi?v i       i-----    -i i v       i    -i
+  CR1-X1_fAlb#L        979 GGGGATGGTNCTGTGCAGGGCCAGGAGTTG-GACTCGATGATCCTTGTGG 1027
+
+  MOXI01007018.      10317 GTCCTTTTCAATCCAGGCCATTGTATGA 10344
+                               i  i   ii   vvi   v i   
+  CR1-X1_fAlb#L       1028 GTCCCTTCCAACTCAGCATATTCTGTGA 1055
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 45.57
+Transitions / transversions = 1.12 (112/100)
+Gap_init rate = 0.05 (34 / 655), avg. gap size = 1.41 (48 / 34)
+
+ 1968  18.57 2.33 3.53  MOXI01007018.1:14323300-14364500   9915 10344   30771 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb </a> LINE/CR1            1    425      5    
+1968 18.57 2.33 3.53 MOXI01007018.1:14323300-14364500 9915 10344 (30771) CR1-E4_fAlb#LINE/CR1 1 425 (5) m_b1s001i6
+
+  MOXI01007018.       9915 GATCAGAGGGCTGGAGCACCTCTCCTGTGAGGAAAGGTTGAGGGAACTGG 9964
+                               i     ?            ? ??   i ??  ??i   i  i    
+  CR1-E4_fAlb#L          1 GATCGGAGGGNTGGAGCACCTCTNCNNTGAAGNNAGNNCGAGAGAGCTGG 50
+
+  MOXI01007018.       9965 GCTTGTCTAGCTTGTCTAGCTTGAACAAGAGTAGGCTCTGGGGAGACTTC 10014
+                            ?    --------  -   i  i v     v     ?i    ?   i ?
+  CR1-E4_fAlb#L         51 GNTTGT--------TC-AGCCTGGAGAAGAGAAGGCTNCGGGGNGACCTN 91
+
+  MOXI01007018.      10015 ATTGTGGCCTTCCTGTATTTGAAACAGA---TACAAA----CTGGAGAGA 10057
+                               i        v   iii   i-i  ---     i----?       i
+  CR1-E4_fAlb#L         92 ATTGCGGCCTTCCAGTACCCGAAG-GGAGCCTACAAGAAAGNTGGAGAGG 140
+
+  MOXI01007018.      10058 GAACAGCTGTTTACATAGGTTGATAGTGATAAGACAAGGGGGAATGGTTT 10107
+                             ----  ?      vi  ivvi      i i               i  
+  CR1-E4_fAlb#L        141 GA----CTNTTTACAAGGGCATGTAGTGACAGGACAAGGGGGAATGGCTT 186
+
+  MOXI01007018.      10108 TAAACTGAGAAAGGGAAGGTTTAGGTTAGATATTAGGAGGAAGTTTTTCA 10157
+                           i       i i    v        i             i   i  i  i 
+  CR1-E4_fAlb#L        187 CAAACTGAAAGAGGGTAGGTTTAGATTAGATATTAGGAAGAAATTCTTTA 236
+
+  MOXI01007018.      10158 CACAGAGGGTGGTGACACACTGGAACAGGTTGCCCAAGGAGGTTTTGGAT 10207
+                            vvv           vi      v            ii  i i v     
+  CR1-E4_fAlb#L        237 CTGTGAGGGTGGTGAGGCACTGGCACAGGTTGCCCAGAGAAGCTGTGGAT 286
+
+  MOXI01007018.      10208 GCCCCATCCCTGGAGGCATTCAAGGCCAGGCTGGATGTGGCTCTGGACAG 10257
+                                         i ii                   v       ii  i
+  CR1-E4_fAlb#L        287 GCCCCATCCCTGGAAGTGTTCAAGGCCAGGCTGGATGGGGCTCTGAGCAA 336
+
+  MOXI01007018.      10258 CCTGGTCTGGTGGTTGGCAACC---CCTATATGCAGGGTGTTGAAATTAG 10304
+                                   i    vv  iiv  ---  i  i-      v    i  i   
+  CR1-E4_fAlb#L        337 CCTGGTCTAGTGGAAGGTGTCCCTGCCCATG-GCAGGGGGTTGGAACTAG 385
+
+  MOXI01007018.      10305 ATGATCTTTGTAGTCCTTTTCAATCCAGGCCATTGTATGA 10344
+                                    ivi    i  i   i   ii     v i   
+  CR1-E4_fAlb#L        386 ATGATCTTTAAGGTCCCTTCCAACCCAAACCATTCTGTGA 425
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 21.31
+Transitions / transversions = 2.85 (57/20)
+Gap_init rate = 0.04 (18 / 429), avg. gap size = 1.39 (25 / 18)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps7');">+</a><b>   28   24.1  0.0  2.6  MOXI01007018.1:14323300-14364500  12091 12168 (29033) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TAT)n'>(TAT)n      </a> Simple_repeat       1     76    (0)   7  </b></pre><div id="hsps7" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   28  24.10 0.00 2.63  MOXI01007018.1:14323300-14364500  12091 12168   28947 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TAT)n'>(TAT)n      </a> Simple_repeat       1     76      0    
+28 24.10 0.00 2.63 MOXI01007018.1:14323300-14364500 12091 12168 (28947) (TAT)n#Simple_repeat 1 76 (0) m_b1s252i3
+
+  MOXI01007018.      12091 TATGAATATTCTTACAGTTATTATTTAGATATTATTGTTATTATTGTTGT 12140
+                              v v    v   ivi      -   -v       i        i  i 
+  (TAT)n#Simple          1 TATTATTATTATTATTATTATTA-TTA-TTATTATTATTATTATTATTAT 48
+
+  MOXI01007018.      12141 TGTTGTTGTTGTTACTATTATTATTATT 12168
+                            i  i  i  i   i             
+  (TAT)n#Simple         49 TATTATTATTATTATTATTATTATTATT 76
+
+Matrix = Unknown
+Transitions / transversions = 2.00 (10/5)
+Gap_init rate = 0.03 (2 / 77), avg. gap size = 1.00 (2 / 2)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps8');">+</a><b>  920   24.6  6.2  3.9  MOXI01007018.1:14323300-14364500  13725 14176 (27025) C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb </a> LINE/CR1          (0)    430      7   8  </b></pre><div id="hsps8" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  920  24.22 6.76 4.25  MOXI01007018.1:14323300-14364500  13725 14138   26977 C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb </a> LINE/CR1            7    430      0    
+920 24.22 6.76 4.25 MOXI01007018.1:14323300-14364500 13725 14138 (26977) C CR1-E4_fAlb#LINE/CR1 (0) 430 7 m_b1s001i7
+
+  MOXI01007018.      13725 CAGAATCACAGAATTGTAGGGGTTGGAAGGGACCTCTAGAAATCATTATC 13774
+                                         v  vv                -  i i   ---   
+C CR1-E4_fAlb#L        430 CAGAATCACAGAATGGTTTGGGTTGGAAGGGACCT-TAAAGATC---ATC 385
+
+  MOXI01007018.      13775 TAG-TCTAGCCCCC--CCCTGCAAAGCAGG--CACC-----CTAGACCAT 13814
+                              -  i i     --  v  ---i     --    -----        v
+C CR1-E4_fAlb#L        384 TAGTTCCAACCCCCTGCCATG---GGCAGGGACACCTTCCACTAGACCAG 338
+
+  MOXI01007018.      13815 GTTGCACAGGTAGGCACCCAGGCAGGTCTTGAATATCTCCAGAGAAGGAG 13864
+                                v   ivvvv  i    v v  i      i ii     i  v  i 
+C CR1-E4_fAlb#L        337 GTTGCTCAGAGCCCCATCCAGCCTGGCCTTGAACACTTCCAGGGATGGGG 288
+
+  MOXI01007018.      13865 ACTCCACCACCTCCCTGGGCAGCCTGTTCCAGTGCTCCGTCA-CCTCACT 13913
+                           vv     vi i  i       i     v       ii ii  -      v
+C CR1-E4_fAlb#L        287 CATCCACAGCTTCTCTGGGCAACCTGTGCCAGTGCCTCACCACCCTCACA 238
+
+  MOXI01007018.      13914 GTGAAGAAGTTCTTGCTCATATTT-GTGTGGCACTCCCCACGCTTTAGTT 13962
+                             i     v     v  v    i -i v iivv  v   v -i  i    
+C CR1-E4_fAlb#L        237 GTAAAGAATTTCTTCCTAATATCTAATCTAAACCTACCCTC-TTTCAGTT 189
+
+  MOXI01007018.      13963 TGTGGCCATTTCCCCTCAT--TGTCAC-ACA-ACAC---TGAAAAGATTC 14005
+                             vi      i     ii --      -   -i v --- i  ?  vii 
+C CR1-E4_fAlb#L        188 TGAAGCCATTCCCCCTTGTCCTGTCACTACATGCCCTTGTAAANAGTCCC 139
+
+  MOXI01007018.      14006 TGGCCTTGTTCCTTT--GCCTCCCACACCTTAGATATATATAGAC----A 14049
+                            vv  v?v  i   v-- v    ---- i ii i  ivviv  i ---- 
+C CR1-E4_fAlb#L        138 TCTCCANCTTTCTTGTAGGCTCC----CTTCGGGTACTGGAAGGCCGCAA 93
+
+  MOXI01007018.      14050 TTGAGTCTATAAACTCTGA---CTTCTTTTCTCAAGGCTGAACAGACCCA 14096
+                            ?ii   -----? i i ?---     i     v          i?    
+C CR1-E4_fAlb#L         92 TNAGGTC-----NCCCCGNAGCCTTCTCTTCTCCAGGCTGAACAANCCCA 48
+
+  MOXI01007018.      14097 GGTTGCTCAGCCTTTTCTCATAAGAGAGGTGCTCCAGGCCCT 14138
+                            v iv   i??  ??ii   ??i?            -?    
+C CR1-E4_fAlb#L         47 GCTCTCTCGNNCTNNCTTCANNGNAGAGGTGCTCCA-NCCCT 7
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 29.99
+Transitions / transversions = 1.34 (55/41)
+Gap_init rate = 0.08 (31 / 413), avg. gap size = 1.48 (46 / 31)
+
+  319  28.70 0.00 0.00  MOXI01007018.1:14323300-14364500  14069 14176   26939 C <a class='nound' href='/cgi-bin/ViewRepeat?id=X2_LINE'>X2_LINE     </a> LINE/CR1          922   1029    379    
+319 28.70 0.00 0.00 MOXI01007018.1:14323300-14364500 14069 14176 (26939) C X2_LINE#LINE/CR1 (379) 1029 922 m_b1s001i8
+
+  MOXI01007018.      14069 CTTCTTTTCTCAAGGCTGAACAGACCCAGGTTGCTCAGCCTTTTCTCATA 14118
+                                i  i  v  vvv   i ii     v  v  i i     i      
+C X2_LINE#LINE/       1029 CTTCTCTTTTCCAGTGAGAATAAGCCCAGTTTCCTTAACCTTTCCTCATA 980
+
+  MOXI01007018.      14119 AGAGAGGTGCTCCAGGCCCTTTATCATCTTTGTGGCCCTCCGCTGGACTC 14168
+                            v?v  i v  iv  i   vv?          iv     vi    v  i 
+C X2_LINE#LINE/        979 ACNTAGATTCTTGAGACCCGGNATCATCTTTGCTGCCCTATGCTGCACCC 930
+
+  MOXI01007018.      14169 TTTCCAGG 14176
+                            i    i 
+C X2_LINE#LINE/        929 TCTCCAAG 922
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 37.61
+Transitions / transversions = 1.07 (16/15)
+Gap_init rate = 0.00 (0 / 107), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps9');">+</a><b> 1640   25.8  1.6  2.5  MOXI01007018.1:14323300-14364500  14532 14969 (26232) C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          (1)    978    545   9  </b></pre><div id="hsps9" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+ 1640  25.76 1.60 2.53  MOXI01007018.1:14323300-14364500  14532 14969   26146 C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          545    978      1    
+1640 25.76 1.60 2.53 MOXI01007018.1:14323300-14364500 14532 14969 (26146) C CR1-J3_fAlb#LINE/CR1 (1) 978 545 m_b1s001i9
+
+  MOXI01007018.      14532 TCATAAAATCAATGAATCAATAAGGTTGGAAAAGACCTGTAAGATCATTC 14581
+                              i i     vv      ? ?                vii       iv
+C CR1-J3_fAlb#L        978 TCACAGAATCACAGAATCANTNAGGTTGGAAAAGACCTCCGAGATCATCG 929
+
+  MOXI01007018.      14582 AGTCCAACTGTCTACCTAACACCAATATTGCTCACTGAAGCATGTTCCTT 14631
+                                 v  ?- vi  i       vi? - iiv   ii v    viv  v
+C CR1-J3_fAlb#L        928 AGTCCACCTN-CGGCCCAACACCACCNT-GTCAACTAGACCATGGCACTG 881
+
+  MOXI01007018.      14632 AGTACTGTTATCTACAGGTTTCTTGGTTTCTTGAAAATCTACAGAGGCAG 14681
+                              i iii-   --   ---  ? ---        v i  v   i i i 
+C CR1-J3_fAlb#L        880 AGTGCCAC-ATC--CAG---TCNT---TTCTTGAACACCTCCAGGGACGG 840
+
+  MOXI01007018.      14682 TGACTTAACAGTCTCCATGGACAGCCTGTTCCAGTGCCTGACCACTCTTT 14731
+                                iv  vii    v   i     i      ii    iii   i    
+C CR1-J3_fAlb#L        839 TGACTCCACCACCTCCCTGGGCAGCCCGTTCCAACGCCTAGTCACCCTTT 790
+
+  MOXI01007018.      14732 CAGGGAAGAAATTGTTTGTAATATCCAACCTGAAAGTCCCT--GCACAAC 14779
+                            v v         v  iv i  i           vv     --  i  i 
+C CR1-J3_fAlb#L        789 CCGTGAAGAAATTCTTCCTGATGTCCAACCTGAACCTCCCTTGGCGCAGC 740
+
+  MOXI01007018.      14780 ATGAGGCTATTTCCTCTCATCCTATTGCTG-TTACTTGGAAAAAGAGGCC 14828
+                           v    i  i v      ii    i i    -  i i   i i     i  
+C CR1-J3_fAlb#L        739 TTGAGACTGTGTCCTCTTGTCCTGTCGCTGGTTGCCTGGGAGAAGAGACC 690
+
+  MOXI01007018.      14829 AACTACCAACTCATCATAACCTCCTTTCAGGTAGTTGTATATGTCAATAA 14878
+                           i  iv  iv  viii i              ?       v viv i    
+C CR1-J3_fAlb#L        689 GACCCCCGCCTGGCTACAACCTCCTTTCAGGNAGTTGTAGAGAGCGATAA 640
+
+  MOXI01007018.      14879 GGTCTCCCCTGAGCCTCCTCTTCTCTAGACTAA----TCCCTGTTCCCTC 14924
+                                              i     i  i    ----i   v i      
+C CR1-J3_fAlb#L        639 GGTCTCCCCTGAGCCTCCTTTTCTCCAGGCTAAACANCCCCAGCTCCCTC 590
+
+  MOXI01007018.      14925 AGTTACTCCACATACAGCATGTACTCCAGTCCTCTCAGCACCTTC 14969
+                             i i    v ii vii v   i      v  ii   v  v  i 
+C CR1-J3_fAlb#L        589 AGCTGCTCCTCGCAGGACTTGTGCTCCAGACCCTTCACCAGCTCC 545
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 29.27
+Transitions / transversions = 1.89 (72/38)
+Gap_init rate = 0.03 (14 / 437), avg. gap size = 1.29 (18 / 14)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps10');">+</a><b> 2146   22.7  0.8  0.6  MOXI01007018.1:14323300-14364500  16319 16867 (24334) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb </a> LINE/CR1            1    979    (0)  10  </b></pre><div id="hsps10" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+ 1392  32.10 1.28 1.83  MOXI01007018.1:14323300-14364500  16319 16867   24248 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          434    979      0    
+1392 32.10 1.28 1.83 MOXI01007018.1:14323300-14364500 16319 16867 (24248) CR1-J3_fAlb#LINE/CR1 434 979 (0) m_b1s001i10
+
+  MOXI01007018.      16319 CTTCCTCTACTCAGCTCTTGTGAGGCCCCATCTGCAGTACTGCGTCCAGG 16368
+                            ii   v     i  v  v        v  i  vv   ?   i i    v
+  CR1-J3_fAlb#L        434 CCCCCTGTACTCGGCACTGGTGAGGCCGCACCTCGAGTNCTGTGCCCAGT 483
+
+  MOXI01007018.      16369 TCTGGGGCCCCCAGCACAATAAAGACACAGAGCTCTTGAAACGGGTCCAG 16418
+                               ? v   i  iiv  iv  i   i v   v vi  i i  v      
+  CR1-J3_fAlb#L        484 TCTGNGCCCCTCAATTCAGGAAGGACGCCGAGGTGCTGGAGCGTGTCCAG 533
+
+  MOXI01007018.      16419 GGGAGGGCCACTAAGATGATCAGAGGGATGGAGCACCTCTCCTATGAGGA 16468
+                           i i     v  vi  v  i v ii  vv        vvv    ii     
+  CR1-J3_fAlb#L        534 AGAAGGGCAACGGAGCTGGTGAAGGGTCTGGAGCACAAGTCCTGCGAGGA 583
+
+  MOXI01007018.      16469 AAGGTTGAGGGAACTGGGCTTGTCTAGCTTGGACAAGAGTAAGCTCTGGG 16518
+                           ivi i       i     v?   i    i    v  i  v i    v   
+  CR1-J3_fAlb#L        584 GCAGCTGAGGGAGCTGGGGNTGTTTAGCCTGGAGAAAAGGAGGCTCAGGG 633
+
+  MOXI01007018.      16519 GAGACTTCATTGTGGCCTTCCAGTACTTC----AAGGAAGTATATAAACA 16564
+                                i i  i --- ii  i vv   ? ----     i  - i  iv  
+  CR1-J3_fAlb#L        634 GAGACCTTATCG---CTCTCTACAACTNCCTGAAAGGAGGT-TGTAGCCA 679
+
+  MOXI01007018.      16565 GAAGGGAGAACAG-CTGTTTACATGGATTGATAGTGATAGGATAAGGGAG 16613
+                            iv   i v- i -  v  iv vii iivivi  i  i    i   i ii
+  CR1-J3_fAlb#L        680 GGCGGGGGT-CGGTCTCTTCTCCCAGGCAACCAGCGACAGGACAAGAGGA 728
+
+  MOXI01007018.      16614 AGTGGTTTTAAACTGAGACAGGGGAGGTTTAGGTTAGATATTAGGAGGAA 16663
+                           viii  i i  i   v v  i        i     i  i  i    i   
+  CR1-J3_fAlb#L        729 CACAGTCTCAAGCTGCGCCAAGGGAGGTTCAGGTTGGACATCAGGAAGAA 778
+
+  MOXI01007018.      16664 GTTTTTCACACAGAGGGTGGTGACACACTGGAACAGGTTGCCCAAGGAGG 16713
+                           v  i     iv i      iiv vi ii      i  i      i     
+  CR1-J3_fAlb#L        779 TTTCTTCACGGAAAGGGTGACTAGGCGTTGGAACGGGCTGCCCAGGGAGG 828
+
+  MOXI01007018.      16714 TTTTGGATGCCCCATCCCTGGAGGCATTCAAGGCCAGGTTGGATGTGGCT 16763
+                            vv    vv v  i          ii      ivv? ii          v
+  CR1-J3_fAlb#L        829 TGGTGGAGTCACCGTCCCTGGAGGTGTTCAAGAAANGACTGGATGTGGCA 878
+
+  MOXI01007018.      16764 CTGGGCAGCCTGGTCTGGTGGT--TGGCGACCCCTGTATGCAGGGTGTTG 16811
+                             vi iiv v      i  v v--?  i iiviiv vvi ?   ----  
+  CR1-J3_fAlb#L        879 CTCAGTGCCATGGTCTAGTTGACANGGTGGTGTTGGGCCGNAGG----TG 924
+
+  MOXI01007018.      16812 AAATTAGATGATCTTTGTAGTCCTTTTCAACCCAGGCCATTCTGTGATTT 16861
+                           i v i-        iv vi   i   i     i?i?iv           i
+  CR1-J3_fAlb#L        925 GACTC-GATGATCTCGGAGGTCTTTTCCAACCTNANTGATTCTGTGATTC 973
+
+  MOXI01007018.      16862 TAGGAT 16867
+                            iv   
+  CR1-J3_fAlb#L        974 TGTGAT 979
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 40.20
+Transitions / transversions = 1.58 (106/67)
+Gap_init rate = 0.02 (13 / 548), avg. gap size = 1.31 (17 / 13)
+
+ 2146  19.96 0.70 0.23  MOXI01007018.1:14323300-14364500  16436 16862   24253 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb </a> LINE/CR1            1    429      1    
+2146 19.96 0.70 0.23 MOXI01007018.1:14323300-14364500 16436 16862 (24253) CR1-E4_fAlb#LINE/CR1 1 429 (1) m_b1s001i11
+
+  MOXI01007018.      16436 GATCAGAGGGATGGAGCACCTCTCCTATGAGGAAAGGTTGAGGGAACTGG 16485
+                               i     ?            ? ??   i ??  ??i   i  i    
+  CR1-E4_fAlb#L          1 GATCGGAGGGNTGGAGCACCTCTNCNNTGAAGNNAGNNCGAGAGAGCTGG 50
+
+  MOXI01007018.      16486 GCTTGTCTAGCTTGGACAAGAGTAAGCTCTGGGGAGACTTCATTGTGGCC 16535
+                            ?    ii   i    v     v i   ?i    ?   i ?    i    
+  CR1-E4_fAlb#L         51 GNTTGTTCAGCCTGGAGAAGAGAAGGCTNCGGGGNGACCTNATTGCGGCC 100
+
+  MOXI01007018.      16536 TTCCAGTACTTCAAGGAAGTATATAAACAGAAGGGAGAACAGCTGTTTAC 16585
+                                    iiv    i  iv  i  iv ii?v     ivii  ?     
+  CR1-E4_fAlb#L        101 TTCCAGTACCCGAAGGGAGCCTACAAGAAAGNTGGAGAGGGACTNTTTAC 150
+
+  MOXI01007018.      16586 ATGGATTGATAGTGATAGGATAAGGGAGAGTGGTTTTAAACTGAGACAGG 16635
+                            v  iivvi      i    i     i  i   i  i       i v   
+  CR1-E4_fAlb#L        151 AAGGGCATGTAGTGACAGGACAAGGGGGAATGGCTTCAAACTGAAAGAGG 200
+
+  MOXI01007018.      16636 GGAGGTTTAGGTTAGATATTAGGAGGAAGTTTTTCACACAGAGGGTGGTG 16685
+                            v        i             i   i  i  i  vvv          
+  CR1-E4_fAlb#L        201 GTAGGTTTAGATTAGATATTAGGAAGAAATTCTTTACTGTGAGGGTGGTG 250
+
+  MOXI01007018.      16686 ACACACTGGAACAGGTTGCCCAAGGAGGTTTTGGATGCCCCATCCCTGGA 16735
+                            vi      v            ii  i i v                   
+  CR1-E4_fAlb#L        251 AGGCACTGGCACAGGTTGCCCAGAGAAGCTGTGGATGCCCCATCCCTGGA 300
+
+  MOXI01007018.      16736 GGCATTCAAGGCCAGGTTGGATGTGGCTCTGGGCAGCCTGGTCTGGTGGT 16785
+                           i ii            i      v       i   i        i    v
+  CR1-E4_fAlb#L        301 AGTGTTCAAGGCCAGGCTGGATGGGGCTCTGAGCAACCTGGTCTAGTGGA 350
+
+  MOXI01007018.      16786 TGGCGACCCCTG--TAT-GCAGGGTGTTGAAATTAGATGATCTTTGTAGT 16832
+                           v  i -i     --i  -      v    i  i            ivi  
+  CR1-E4_fAlb#L        351 AGGTG-TCCCTGCCCATGGCAGGGGGTTGGAACTAGATGATCTTTAAGGT 399
+
+  MOXI01007018.      16833 CCTTTTCAACCCAGGCCATTCTGTGATTTT 16862
+                             i  i       ii             i 
+  CR1-E4_fAlb#L        400 CCCTTCCAACCCAAACCATTCTGTGATTCT 429
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 23.35
+Transitions / transversions = 2.70 (62/23)
+Gap_init rate = 0.01 (3 / 426), avg. gap size = 1.33 (4 / 3)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps11');">+</a><b> 1280   26.4  1.1  1.7  MOXI01007018.1:14323300-14364500  16867 17224 (23977) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb </a> LINE/CR1           56    411   (19)  11 *</b></pre><div id="hsps11" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+ 1280  26.43 1.12 1.69  MOXI01007018.1:14323300-14364500  16867 17224   23891 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-E4_fAlb'>CR1-E4_fAlb </a> LINE/CR1           56    411     19    
+1280 26.43 1.12 1.69 MOXI01007018.1:14323300-14364500 16867 17224 (23891) CR1-E4_fAlb#LINE/CR1 56 411 (19) m_b1s001i12
+
+  MOXI01007018.      16867 TTCAATCTGGAGAATAGAAGGCTATGAGATGACTTAATAGCAGGCTTTCA 16916
+                               ii        v        ?i i i?   i ?  v  i v   i  
+  CR1-E4_fAlb#L         56 TTCAGCCTGGAGAAGAGAAGGCTNCGGGGNGACCTNATTGCGGCCTTCCA 105
+
+  MOXI01007018.      16917 GTATCTAAAGGGGAGCTGCATGAAATAAGGGAACAGACTGTTTAGCAGGG 16966
+                              i ii     iiv  i  v    v?v  ii vi    ?    vv    
+  CR1-E4_fAlb#L        106 GTACCCGAAGGGAGCCTACAAGAAAGNTGGAGAGGGACTNTTTACAAGGG 155
+
+  MOXI01007018.      16967 TTTGTGGTGATTGAACAAGGTGAAATATCTTCAAGCCCAAAAAGGGTACA 17016
+                           iv   i    iv i      v i   iv      i iv   i      vi
+  CR1-E4_fAlb#L        156 CATGTAGTGACAGGACAAGGGGGAATGGCTTCAAACTGAAAGAGGGTAGG 205
+
+  MOXI01007018.      17017 TTTAGATAGCAGA---TAGGAAAAAAGTCTTCTACACAGAGAGTGGTGAG 17063
+                                  --i   ---      i   v    -   vvv   i        
+  CR1-E4_fAlb#L        206 TTTAGAT--TAGATATTAGGAAGAAATTCTT-TACTGTGAGGGTGGTGAG 252
+
+  MOXI01007018.      17064 ACACTGGAACAGGTTGTCCAGAGTTGTGGTTGATTTGCCTCATCCCTGGG 17113
+                           i      v        i      vv iv  v  --    i         i
+  CR1-E4_fAlb#L        253 GCACTGGCACAGGTTGCCCAGAGAAGCTGTGGA--TGCCCCATCCCTGGA 300
+
+  MOXI01007018.      17114 GACTTTCAAGGCCAGTGTGGATCAGTCCCTGGGCAGCCTGATCTAGCTGT 17163
+                           iiiv           vv     vi v i   i   i    i     iv v
+  CR1-E4_fAlb#L        301 AGTGTTCAAGGCCAGGCTGGATGGGGCTCTGAGCAACCTGGTCTAGTGGA 350
+
+  MOXI01007018.      17164 GTGTGCCCCTGTTCACTGCAGGAGAGATGG-ACTAGATGCCCTTTGAAGG 17212
+                           iv   i     ii  iv     - i v   -        vi    i i v
+  CR1-E4_fAlb#L        351 AGGTGTCCCTGCCCATGGCAGG-GGGTTGGAACTAGATGATCTTTAAGGT 399
+
+  MOXI01007018.      17213 TCCTTCCAATTC 17224
+                           i        ii 
+  CR1-E4_fAlb#L        400 CCCTTCCAACCC 411
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 32.65
+Transitions / transversions = 1.51 (56/37)
+Gap_init rate = 0.02 (8 / 357), avg. gap size = 1.25 (10 / 8)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps12');">+</a><b>   42    4.3  0.0  0.0  MOXI01007018.1:14323300-14364500  17232 17279 (23922) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TCTATGAT)n'>(TCTATGAT)n </a> Simple_repeat       1     48    (0)  12  </b></pre><div id="hsps12" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   42   4.35 0.00 0.00  MOXI01007018.1:14323300-14364500  17232 17279   23922 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TCTATGAT)n'>(TCTATGAT)n </a> Simple_repeat       1     48      0    
+42 4.35 0.00 0.00 MOXI01007018.1:14323300-14364500 17232 17279 (23922) (TCTATGAT)n#Simple_repeat 1 48 (0) c_b1s251i1
+
+  MOXI01007018.      17232 TCTATGATTCTGTGATTCTATGATTCTATGATTCTATGATTCTGTGAT 17279
+                                      i                               i    
+  (TCTATGAT)n#S          1 TCTATGATTCTATGATTCTATGATTCTATGATTCTATGATTCTATGAT 48
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (2/0)
+Gap_init rate = 0.00 (0 / 47), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps13');">+</a><b>   17   20.1  0.0  0.0  MOXI01007018.1:14323300-14364500  19025 19058 (22143) + <a class='nound' href='/cgi-bin/ViewRepeat?id=A-rich'>A-rich      </a> Low_complexity      1     34    (0)  13  </b></pre><div id="hsps13" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   17  20.12 0.00 0.00  MOXI01007018.1:14323300-14364500  19025 19058   22104 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n        </a> Simple_repeat       1     34      0    
+17 20.12 0.00 0.00 MOXI01007018.1:14323300-14364500 19025 19058 (22104) (A)n#Simple_repeat 1 34 (0) m_b1s252i4
+
+  MOXI01007018.      19025 AAGAAAAAAAAAAAAAAAATCGAACAAACAAAAA 19058
+                             i                vvi  v   v     
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 34
+
+Matrix = Unknown
+Transitions / transversions = 0.50 (2/4)
+Gap_init rate = 0.00 (0 / 33), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps14');">+</a><b>   23   10.0  0.0  0.0  MOXI01007018.1:14323300-14364500  20842 20874 (20327) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n        </a> Simple_repeat       1     33    (0)  14  </b></pre><div id="hsps14" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   23  10.03 0.00 0.00  MOXI01007018.1:14323300-14364500  20842 20874   20288 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n        </a> Simple_repeat       1     33      0    
+23 10.03 0.00 0.00 MOXI01007018.1:14323300-14364500 20842 20874 (20288) (A)n#Simple_repeat 1 33 (0) m_b1s252i5
+
+  MOXI01007018.      20842 AAAAAAAAAAGAAAAAAAGAAAAGAAAAAAAAA 20874
+                                     i       i    i         
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 33
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (3/0)
+Gap_init rate = 0.00 (0 / 32), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps15');">+</a><b>   32    2.7  0.0  2.6  MOXI01007018.1:14323300-14364500  21612 21651 (19550) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TGTAGAGCC)n'>(TGTAGAGCC)n</a> Simple_repeat       1     39    (0)  15  </b></pre><div id="hsps15" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   32   2.70 0.00 2.56  MOXI01007018.1:14323300-14364500  21612 21651   19550 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TGTAGAGCC)n'>(TGTAGAGCC)n</a> Simple_repeat       1     39      0    
+32 2.70 0.00 2.56 MOXI01007018.1:14323300-14364500 21612 21651 (19550) (TGTAGAGCC)n#Simple_repeat 1 39 (0) c_b1s251i2
+
+  MOXI01007018.      21612 TGTAGAGCCTGTAGAGCCTGTAGAGCCATGTAGAGTCTGT 21651
+                                                      -       i    
+  (TGTAGAGCC)n#          1 TGTAGAGCCTGTAGAGCCTGTAGAGCC-TGTAGAGCCTGT 39
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (1/0)
+Gap_init rate = 0.03 (1 / 39), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps16');">+</a><b>  309    9.8  0.0  2.0  MOXI01007018.1:14323300-14364500  22539 22590 (18611) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          335    385  (594)  16  </b></pre><div id="hsps16" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  309   9.81 0.00 1.96  MOXI01007018.1:14323300-14364500  22539 22590   18611 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          335    385    594    
+309 9.81 0.00 1.96 MOXI01007018.1:14323300-14364500 22539 22590 (18611) CR1-J3_fAlb#LINE/CR1 335 385 (594) m_b1s001i13
+
+  MOXI01007018.      22539 TGCACATGAGCCAGCAGTGTGCCCTTGTGGCCAAGAGGGCCAACGGCATC 22588
+                             v            -        vv          i      i      
+  CR1-J3_fAlb#L        335 TGAACATGAGCCAGC-GTGTGCCCAGGTGGCCAAGAAGGCCAATGGCATC 383
+
+  MOXI01007018.      22589 CT 22590
+                             
+  CR1-J3_fAlb#L        384 CT 385
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 10.51
+Transitions / transversions = 0.67 (2/3)
+Gap_init rate = 0.02 (1 / 51), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps17');">+</a><b>  328   17.4  1.6  2.6  MOXI01007018.1:14323300-14364500  22696 22782 (18419) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-3_Croc'>CR1-3_Croc  </a> LINE/CR1         3529   3605    (0)  17  </b></pre><div id="hsps17" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  284  19.50 4.76 2.33  MOXI01007018.1:14323300-14364500  22696 22779   18422 + <a class='nound' href='/cgi-bin/ViewRepeat?id=L3'>L3          </a> LINE/CR1         4011   4096      3    
+284 19.50 4.76 2.33 MOXI01007018.1:14323300-14364500 22696 22779 (18422) L3#LINE/CR1 4011 4096 (3) m_b1s001i14
+
+  MOXI01007018.      22696 TGCTGTAG--GGAA--CCTGCTTTGGCAGGGGGGTTGGCCTCGATGAACT 22741
+                             i     --  i --     v i  vv   i      v  v     v  
+  L3#LINE/CR1         4011 TGTTGTAGAAGGGATTCCTGCATCGGATGGGAGGTTGGACTAGATGACCT 4060
+
+  MOXI01007018.      22742 CTGGAGGTCCCTTCCAAGCCCTATAATGCTGTGATTCT 22779
+                             i-             - i  ivi  v          
+  L3#LINE/CR1         4061 CTA-AGGTCCCTTCCAA-CTCTGAGATTCTGTGATTCT 4096
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 21.21
+Transitions / transversions = 1.00 (8/8)
+Gap_init rate = 0.05 (4 / 83), avg. gap size = 1.50 (6 / 4)
+
+  328  17.11 1.28 2.60  MOXI01007018.1:14323300-14364500  22705 22782   18419 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-3_Croc'>CR1-3_Croc  </a> LINE/CR1         3529   3605      0    
+328 17.11 1.28 2.60 MOXI01007018.1:14323300-14364500 22705 22782 (18419) CR1-3_Croc#LINE/CR1 3529 3605 (0) m_b1s001i15
+
+  MOXI01007018.      22705 GAACCTGCTTT-GGCAGGGGGGTTGGCCTCGATGAACTCTGGAGGTCCCT 22753
+                             v     i i-         -    v  v     v              
+  CR1-3_Croc#LI       3529 GATCCTGCCTCAGGCAGGGGG-TTGGACTAGATGACCTCTGGAGGTCCCT 3577
+
+  MOXI01007018.      22754 TCCAAGCCCTATAATGCTGTGATTCTGTG 22782
+                              -       ivviv  i       i  
+  CR1-3_Croc#LI       3578 TCC-AGCCCTACTTCTCTATGATTCTATG 3605
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 19.47
+Transitions / transversions = 0.86 (6/7)
+Gap_init rate = 0.04 (3 / 77), avg. gap size = 1.00 (3 / 3)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps18');">+</a><b>  824   23.5  5.6  3.1  MOXI01007018.1:14323300-14364500  22807 23056 (18145) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          724    979    (0)  18  </b></pre><div id="hsps18" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  824  23.53 5.60 3.12  MOXI01007018.1:14323300-14364500  22807 23056   18145 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          724    979      0    
+824 23.53 5.60 3.12 MOXI01007018.1:14323300-14364500 22807 23056 (18145) CR1-J3_fAlb#LINE/CR1 724 979 (0) m_b1s001i16
+
+  MOXI01007018.      22807 GAGGAAATGGCTGCAATTTGTGCCAGAGGAGGTTTAGGTTGGACATAAGG 22856
+                                v ii iiv   vi  i    ii       i           v   
+  CR1-J3_fAlb#L        724 GAGGACACAGTCTCAAGCTGCGCCAAGGGAGGTTCAGGTTGGACATCAGG 773
+
+  MOXI01007018.      22857 AAGAACTTTTTCTCTCA--GAGTGGTCAGGCGCTTGAATGG-CTGCCCAG 22903
+                                i  i   v vv -- i   iii     i v   i  -        
+  CR1-J3_fAlb#L        774 AAGAATTTCTTCACGGAAAGGGTGACTAGGCGTTGGAACGGGCTGCCCAG 823
+
+  MOXI01007018.      22904 GAAGGTGGTGGAGTTGCTGTCCCTGGCAGTGTTCAAGAGGCATCTGGATG 22953
+                            i            ii i        vi          ii?iv       
+  CR1-J3_fAlb#L        824 GGAGGTGGTGGAGTCACCGTCCCTGGAGGTGTTCAAGAAANGACTGGATG 873
+
+  MOXI01007018.      22954 AGGAGCTACGAGATATGGTTTAGTAGCTTGTAGTAGCAATGGTAATGGGT 23003
+                           v  vi  vv v vi     i    ------ iii -?ii    iv    i
+  CR1-J3_fAlb#L        874 TGGCACTCAGTGCCATGGTCTAGT------TGACA-NGGTGGTGTTGGGC 916
+
+  MOXI01007018.      23004 GAATAGCTGGACTAGATGATC----------TTTCCAACCTT-GTGATTC 23042
+                           -vi?  v      v       ----------          ?-?      
+  CR1-J3_fAlb#L        917 -CGNAGGTGGACTCGATGATCTCGGAGGTCTTTTCCAACCTNANTGATTC 965
+
+  MOXI01007018.      23043 TATGATTCTGTGAT 23056
+                            i            
+  CR1-J3_fAlb#L        966 TGTGATTCTGTGAT 979
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 27.43
+Transitions / transversions = 1.85 (37/20)
+Gap_init rate = 0.05 (12 / 249), avg. gap size = 1.83 (22 / 12)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps19');">+</a><b>   19   15.1  0.0  0.0  MOXI01007018.1:14323300-14364500  23676 23712 (17489) + <a class='nound' href='/cgi-bin/ViewRepeat?id=A-rich'>A-rich      </a> Low_complexity      1     37    (0)  19  </b></pre><div id="hsps19" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   19  15.14 0.00 0.00  MOXI01007018.1:14323300-14364500  23676 23712   17489 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(AAAC)n'>(AAAC)n     </a> Simple_repeat       1     37      0    
+19 15.14 0.00 0.00 MOXI01007018.1:14323300-14364500 23676 23712 (17489) (AAAC)n#Simple_repeat 1 37 (0) m_b1s252i6
+
+  MOXI01007018.      23676 AAACAAACATACAAACAAACATAAACAAAAACAAACA 23712
+                                    v           v v v v         
+  (AAAC)n#Simpl          1 AAACAAACAAACAAACAAACAAACAAACAAACAAACA 37
+
+Matrix = Unknown
+Transitions / transversions = 0.00 (0/5)
+Gap_init rate = 0.00 (0 / 36), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps20');">+</a><b>   18    0.0  0.0  0.0  MOXI01007018.1:14323300-14364500  24425 24444 (16757) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n        </a> Simple_repeat       1     20    (0)  20  </b></pre><div id="hsps20" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   18   0.00 0.00 0.00  MOXI01007018.1:14323300-14364500  24425 24444   16757 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n        </a> Simple_repeat       1     20      0    
+18 0.00 0.00 0.00 MOXI01007018.1:14323300-14364500 24425 24444 (16757) (A)n#Simple_repeat 1 20 (0) m_b1s252i7
+
+  MOXI01007018.      24425 AAAAAAAAAAAAAAAAAAAA 24444
+                                               
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAAA 20
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (0/0)
+Gap_init rate = 0.00 (0 / 19), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps21');">+</a><b>  349   16.4  0.0  1.4  MOXI01007018.1:14323300-14364500  26278 26351 (14850) C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          (1)    978    906  21  </b></pre><div id="hsps21" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  349  16.45 0.00 1.37  MOXI01007018.1:14323300-14364500  26278 26351   14850 C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          906    978      1    
+349 16.45 0.00 1.37 MOXI01007018.1:14323300-14364500 26278 26351 (14850) C CR1-J3_fAlb#LINE/CR1 (1) 978 906 m_b1s001i17
+
+  MOXI01007018.      26278 TCACAGAATCATAGAATCATCAAACTTGGAAAAGACCTCCTAGATCATCT 26327
+                                      i       ?i? iv               v        v
+C CR1-J3_fAlb#L        978 TCACAGAATCACAGAATCANTNAGGTTGGAAAAGACCTCCGAGATCATCG 929
+
+  MOXI01007018.      26328 AGTCTAACCATCCACCTATCACCA 26351
+                               i-   v? vi  i v     
+C CR1-J3_fAlb#L        928 AGTCC-ACCTNCGGCCCAACACCA 906
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 19.56
+Transitions / transversions = 1.00 (6/6)
+Gap_init rate = 0.01 (1 / 73), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps22');">+</a><b>   16   13.2  0.0  0.0  MOXI01007018.1:14323300-14364500  26917 26941 (14260) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n        </a> Simple_repeat       1     25    (0)  22  </b></pre><div id="hsps22" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   16  13.24 0.00 0.00  MOXI01007018.1:14323300-14364500  26917 26941   14260 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n        </a> Simple_repeat       1     25      0    
+16 13.24 0.00 0.00 MOXI01007018.1:14323300-14364500 26917 26941 (14260) (A)n#Simple_repeat 1 25 (0) m_b1s252i8
+
+  MOXI01007018.      26917 AAGAAAAAAAAAGAACAAAAAAAAA 26941
+                             i         i  v         
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAAAAAAAA 25
+
+Matrix = Unknown
+Transitions / transversions = 2.00 (2/1)
+Gap_init rate = 0.00 (0 / 24), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps23');">+</a><b> 1407   30.6  3.1  3.9  MOXI01007018.1:14323300-14364500  27186 27834 (13367) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          218    861  (118)  23  </b></pre><div id="hsps23" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+ 1407  30.62 3.08 3.88  MOXI01007018.1:14323300-14364500  27186 27834   13367 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          218    861    118    
+1407 30.62 3.08 3.88 MOXI01007018.1:14323300-14364500 27186 27834 (13367) CR1-J3_fAlb#LINE/CR1 218 861 (118) m_b1s001i18
+
+  MOXI01007018.      27186 AGCACAGCGTCTTGCACCTGGGAAAGAATGACCGCAAGTATCAGTACAGA 27235
+                             ii v v   i   i i v  vv v  iii  v ?v i v iv     i
+  CR1-J3_fAlb#L        218 AGTGCCGGGTCCTGCGCTTTGGCCACAACAGCCCCNTGCAGCGCTACAGG 267
+
+  MOXI01007018.      27236 CTGGG-ACATGACCTGCTGGAGAGGAGCTCTGCAGAGAAGGACCTGGGTG 27284
+                                -   -  viv      ?  vi  i?v  i  i           v 
+  CR1-J3_fAlb#L        268 CTGGGGACA-GAGTGGCTGGANAGCGGCCNGGCGGAAAAGGACCTGGGGG 316
+
+  MOXI01007018.      27285 TCCTGGTAGACAGCAGGTTGGCAATGAGCCAGTAGTGTGCCCTGGCATCT 27334
+                            v     v         i  ivv         i-        v  iiv i
+  CR1-J3_fAlb#L        317 TGCTGGTTGACAGCAGGCTGAACATGAGCCAGC-GTGTGCCCAGGTGGCC 365
+
+  MOXI01007018.      27335 GAGAAGGCCAATGGTATCCTGGGGTGCATTATTAAGGAGTGTGGACAGCA 27384
+                           i             i       vv  i  i vi  -v       v     
+  CR1-J3_fAlb#L        366 AAGAAGGCCAATGGCATCCTGGCCTGTATCAGCAA-TAGTGTGGCCAGCA 414
+
+  MOXI01007018.      27385 GATCAAGGGAGGGGATCCACCTCCCTCTACTCTGCCCTGCTCAGTCCTAA 27434
+                            iv?v    vi v   i v  -    v     v  v   v v  v  vv 
+  CR1-J3_fAlb#L        415 GGANCAGGGCAGCGATTCTCC-CCCTGTACTCGGCACTGGTGAGGCCGCA 463
+
+  MOXI01007018.      27435 TCTGAAGTACTGTAACCAGTTCTGGGCTCC-CAGTACAAAAAAGACAGGA 27483
+                           i  vi   ?    iv         ?  i  -  i v  ii  i   ivvi
+  CR1-J3_fAlb#L        464 CCTCGAGTNCTGTGCCCAGTTCTGNGCCCCTCAATTCAGGAAGGACGCCG 513
+
+  MOXI01007018.      27484 ATCTCCTGAAAAGAGTCCAGAGGAGGGACACAAAGATGATAGAGGGCCTG 27533
+                            vv v   i iv v        i    vv  ii  v  i ii    i   
+  CR1-J3_fAlb#L        514 AGGTGCTGGAGCGTGTCCAGAGAAGGGCAACGGAGCTGGTGAAGGGTCTG 563
+
+  MOXI01007018.      27534 GAGTATCTCCTCTGTGAGGAAAGGCTGTGAGGAAAGGCTGACTTGGGTCT 27583
+                              i ivvvii   i     ivi  --     i --    ----   -? 
+  CR1-J3_fAlb#L        564 GAGCACAAGTCCTGCGAGGAGCAGC--TGAGGGA--GCTG----GGG-NT 604
+
+  MOXI01007018.      27584 GTTCAGCCTTGAGAAAAGAAGATTGAGAGGGGATCTTA------TTTATA 27627
+                              i     v        i  ii v  i  i  i    ------ i  i 
+  CR1-J3_fAlb#L        605 GTTTAGCCTGGAGAAAAGGAGGCTCAGGGGAGACCTTATCGCTCTCTACA 654
+
+  MOXI01007018.      27628 AGTA-TTGTAAGTGAGG--GGAACCAAAGGGACATGGCCAACCTCCTTTC 27674
+                            v ?-i  v   -    -- v i   iiv  i---  i iii   i i  
+  CR1-J3_fAlb#L        655 ACTNCCTGAAAG-GAGGTTGTAGCCAGGCGGG---GGTCGGTCTCTTCTC 700
+
+  MOXI01007018.      27675 ---AGCAGTCTGTGGGGACAGAATAAGCAAAAAGGCCATA-----AAATT 27716
+                           ---i   ii v i---     i i   -----   v  i -----  ii 
+  CR1-J3_fAlb#L        701 CCAGGCAACCAGC---GACAGGACAAG-----AGGACACAGTCTCAAGCT 742
+
+  MOXI01007018.      27717 GAG-CATAGGATGTTCCACAGAAATATACGAAGGAACTTCTTCACAGTGA 27765
+                            v -  vi   v    vivvvii i  vv i i   i        i vi 
+  CR1-J3_fAlb#L        743 GCGCCAAGGGAGGTTCAGGTTGGACATCAGGAAGAATTTCTTCACGGAAA 792
+
+  MOXI01007018.      27766 AGGTAATGGAGCACTGAAACAGGCTGTCCAGAGGGGTTGTGGAATCTCCT 27815
+                           i   i ivii  ii  i   i     i    i i   v     i  v  v
+  CR1-J3_fAlb#L        793 GGGTGACTAGGCGTTGGAACGGGCTGCCCAGGGAGGTGGTGGAGTCACCG 842
+
+  MOXI01007018.      27816 TCTCTGGAGATATTCAGGA 27834
+                             i      i i    i  
+  CR1-J3_fAlb#L        843 TCCCTGGAGGTGTTCAAGA 861
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 37.16
+Transitions / transversions = 1.45 (113/78)
+Gap_init rate = 0.05 (33 / 648), avg. gap size = 1.36 (45 / 33)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps24');">+</a><b> 1359   33.4  3.1  3.5  MOXI01007018.1:14323300-14364500  28887 30046 (11155) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-3_Croc'>CR1-3_Croc  </a> LINE/CR1          247   1402 (2203)  24  </b></pre><div id="hsps24" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+ 1359  33.40 3.10 3.46  MOXI01007018.1:14323300-14364500  28887 30046   11155 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-3_Croc'>CR1-3_Croc  </a> LINE/CR1          247   1402   2203    
+1359 33.40 3.10 3.46 MOXI01007018.1:14323300-14364500 28887 30046 (11155) CR1-3_Croc#LINE/CR1 247 1402 (2203) m_b1s001i19
+
+  MOXI01007018.      28887 TGTATACTAATGCGCACAGTATGAGAAATAAACAGGAAGAGCTGGAGATT 28936
+                                  v      viv      i i        i  v        iii 
+  CR1-3_Croc#LI        247 TGTATACAAATGCGAGAAGTATGGGGAATAAACAAGATGAGCTGGAAGCT 296
+
+  MOXI01007018.      28937 TGTGTATGGTCACACGGCTATGATCTCATTGCAATCACGGAGATGTGGTA 28986
+                           vvv iv  vvv v vii         v    vv     i    iv    i
+  CR1-3_Croc#LI        297 GCAGCCTGTGAAAAGAACTATGATCTGATTGGCATCACAGAGACCTGGTG 346
+
+  MOXI01007018.      28987 GGACAGCTTGCATGACTGGAATGTTGTCATGGAGGGCTATGTGCTTTTTA 29036
+                                   ivi             iiv   v     i  iiiv  v   v
+  CR1-3_Croc#LI        347 GGACAGCTCTTATGACTGGAATGTCAACATCGAGGGTTACACTCTGTTTC 396
+
+  MOXI01007018.      29037 GGAAAGATCAGCTGGGGAGGCGAGGTGGTGGAGTTGCTCATTATGTGAGA 29086
+                               i  ivi v v     ivi         v     iivv     v - 
+  CR1-3_Croc#LI        397 GGAAGGACAGGGTTGGGAGAAAAGGTGGTGGTGTTGCCTTGTATGTCA-A 445
+
+  MOXI01007018.      29087 GAGCAGCTAGAATGTATTGAACTGCACCTGGGGGAGAGCGGTGTAGCAGT 29136
+                           i i  vv  v v - i  -vv   vvi v  i   -  vi -ii    iv
+  CR1-3_Croc#LI        446 AAACACATACACT-TGTT-CCCTGGTTCAGGAGGA-AGAAG-ACAGCAAA 491
+
+  MOXI01007018.      29137 GGAGA--GCTTGTGGGTGAGAATCAAGGGGTGGGCTGGTGTGG--CTGAC 29182
+                            v   --  v v       ii  v  -i    iiv- i  ii -- i  i
+  CR1-3_Croc#LI        492 GCAGAATGCATTTGGGTGAAGATGAA-AGGTGAAA-GATGCAGCACCGAT 539
+
+  MOXI01007018.      29183 ACTGTTGTGGATGTGTACTGCTGGCCCCCTGATCAGGAGGAGGATGTTGA 29232
+                            ivi v    ivi v  i iiv    v  vi       i     v  v  
+  CR1-3_Croc#LI        540 ATAATGGTGGGGATTTATTATAGGCCACCAAATCAGGAAGAGGAGGTGGA 589
+
+  MOXI01007018.      29233 TGAGGCCTTCCACAAGCAACTGGAAAATAGTGTCAAGATTCCAGGCGCTG 29282
+                                 vi  iv      iv  iv    -v i  v i vv i v v v  
+  CR1-3_Croc#LI        590 TGAGGCACTCTTCAAGCAGGTGACAAAT-CTATCCAAAAGCTATGGGATG 638
+
+  MOXI01007018.      29283 GTGCTTATGGGAGATTTCAATTATCCAGATATTTGCTGGAAAAGCAATGT 29332
+                             i  v        i       v   i  i  i        i i     i
+  CR1-3_Croc#LI        639 GTACTGATGGGAGACTTCAATTTTCCGGACATCTGCTGGAAGAACAATGC 688
+
+  MOXI01007018.      29333 GGCCAGGCATGCGCAGTCCAGACGGTTCCTGCAATGTGTTGAAGACAACT 29382
+                           i    ii   ivivv   v  v        ivvv     v  i       
+  CR1-3_Croc#LI        689 AGCCAAACATAAAATGTCAAGCCGGTTCCTAACTTGTGTGGAGGACAACT 738
+
+  MOXI01007018.      29383 TCCTGATGCAGGTGGTGGAGGAACTGACGAGGGGAGGGGTGTTGCTGGAC 29432
+                            i   v v   ivi        vvii  v      vvivivv vi    i
+  CR1-3_Croc#LI        739 TTCTGTTCCAGAAAGTGGAGGATACAACTAGGGGATCATCTATCTTGGAT 788
+
+  MOXI01007018.      29433 GTTATTCTCATTAATAAGGAAAGGCTTGTCAAGGAAGTAAGGGCTGGGGG 29482
+                           v  i i  v ii  i i    iii  v  vi    v  i i  iviv   
+  CR1-3_Croc#LI        789 CTTGTCCTGACCAACAGGGAAGAACTGGTGGAGGATGTGAAGGTGATGGG 838
+
+  MOXI01007018.      29483 CAACTTGGGTTGTAGTGACCACAAGATGATGAAGTTCAAGATCTTGAG-C 29531
+                           i        vv v  i  i   i v     ii i   v     i    - 
+  CR1-3_Croc#LI        839 TAACTTGGGAGGAAGCGATCACGATATGATAGAATTCCAGATCCTGAGAC 888
+
+  MOXI01007018.      29532 GGAAGAAGTA------AAGCGAAAAGTAGGATTGCTACCCTGGACTTTAG 29575
+                             iii   i ------v   -    v     -i    -----  i  i i
+  CR1-3_Croc#LI        889 GGGGAAAGCATGAGGTCAGC-AAAATTAGGA-CGCTA-----GATTTCAA 931
+
+  MOXI01007018.      29576 GAGAGCCAACTTTGATCTC-TTCCAGGACCTACTTGTAGCTATCCCTTGG 29624
+                           i ii  vi -   v   iv-i  v    vi  v v vviivi v  v   
+  CR1-3_Croc#LI        932 AAAGGCGGA-TTTCATCCGACTCAAGGAGTTAATAGGCATGGTGCCATGG 980
+
+  MOXI01007018.      29625 GCTAGGGT--ATTAGAAGGTAAGGGGGCCTGTGAGAGCTGGTCGGCATTG 29672
+                            --   ii-- i ii i i   i  v   iiv   i     vv vivi i
+  CR1-3_Croc#LI        981 G--AGGACAGACTGAAGGATAAAGGCGCCCAGGAGGGCTGGGAGCTTCTA 1028
+
+  MOXI01007018.      29673 AAGTAGCTC-TTCTTCCAGGCTC----AGGATCGGTGCGTCCC--TGTGA 29715
+                              -i  v -v v  vv i  i ----  i v ----i     --iii  
+  CR1-3_Croc#LI       1029 AAG-GGCACAGTATTGGAAGCCCAACAAGAAAC----TGTCCCGACACGA 1073
+
+  MOXI01007018.      29716 -GGAAGAAATTGGGAAAGGGTGGCAGGAGACCTGTGTGGATGAGCAAGGA 29764
+                           -     v --iii   - ii     i      vi     v  vi      
+  CR1-3_Croc#LI       1074 TGGAAGCA--CAAGAA-GAATGGCAAGAGACCAATGTGGCTGCACAAGGA 1120
+
+  MOXI01007018.      29765 GCTC-----ATGCGCAAACTCAAAGGAAAGAAGAAGGC--CCATGAAATG 29807
+                              i-----    -----      v v  i i   i  --v  v v  --
+  CR1-3_Croc#LI       1121 GCTTCTAAAATGC-----CTCAAATGCAAAAGGAAAGCATACAGGCAA-- 1163
+
+  MOXI01007018.      29808 TGGAAAAAGATTCTGACCACTTGGGAAGAATA-CAGGAATGTTGTCAGGG 29856
+                                i  vivv v ii   ivi     vi  -      -i v iv  ii
+  CR1-3_Croc#LI       1164 TGGAAGAATGGGCAGGTCACCAAGGAAGCGTACCAGGAA-ATAGCAAGAA 1212
+
+  MOXI01007018.      29857 CTTGCAGAGGTGCAACGAGGAAGGC-----TAAAGTTCGCCTGGAATTGA 29901
+                            i     i iiiv  iv        -----     vv -----  ii  v
+  CR1-3_Croc#LI       1213 CCTGCAGGGACAAAATCAGGAAGGCAAAGATAAAGAAC-----GAGCTGC 1257
+
+  MOXI01007018.      29902 ATCTGGCAAAGGTGATAAAGGATAACAAAAAAGGCTTTTTTAAGTACGTT 29951
+                            i     i    v i v     i     i  ii v  i v      i   
+  CR1-3_Croc#LI       1258 ACCTGGCGAAGGAGGTTAAGGACAACAAGAAGAGGTTCTATAAGTATGTT 1307
+
+  MOXI01007018.      29952 AACAGTAAAAGGAAGACTAGGGAGAATGTAGCACCCCTACTAA-GTGACA 30000
+                           ii viv     i i   i i   iiv   i vv  ?  ii   -iv v  
+  CR1-3_Croc#LI       1308 GGCCAGAAAAGAAGGACCAAGGAAGCTGTGGGTCCNCTGTTAACAAGCCA 1357
+
+  MOXI01007018.      30001 GGGGTGTTCTGGTAACAGGGGATGCTGAGAAGGCAGAGATACTGAA 30046
+                               - vv  vv    ? ii     vi       i   v    v  
+  CR1-3_Croc#LI       1358 GGGG-GAACTCCTAACNGAAGATGCAAAGAAGGCGGAGCTACTCAA 1402
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 43.86
+Transitions / transversions = 1.23 (206/168)
+Gap_init rate = 0.05 (55 / 1159), avg. gap size = 1.38 (76 / 55)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps25');">+</a><b>  287   14.4 10.6  1.5  MOXI01007018.1:14323300-14364500  30151 30227 (10974) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-3_Croc'>CR1-3_Croc  </a> LINE/CR1         3529   3602    (3)  25  </b></pre><div id="hsps25" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  269  20.01 1.30 2.63  MOXI01007018.1:14323300-14364500  30151 30227   10974 + <a class='nound' href='/cgi-bin/ViewRepeat?id=L3'>L3          </a> LINE/CR1         4020   4095      4    
+269 20.01 1.30 2.63 MOXI01007018.1:14323300-14364500 30151 30227 (10974) L3#LINE/CR1 4020 4095 (4) m_b1s001i20
+
+  MOXI01007018.      30151 AGGGAA-CCTGCTTTGGCAGGGGGGTTGGCCTCGATGATCTCTGGAGCTC 30199
+                                v-     v i  vv   i      v  v     i    i-  v  
+  L3#LINE/CR1         4020 AGGGATTCCTGCATCGGATGGGAGGTTGGACTAGATGACCTCTA-AGGTC 4068
+
+  MOXI01007018.      30200 CCTTCCAACCCCTGTGATTCTGTAACTC 30227
+                                   - i   v        i i  
+  L3#LINE/CR1         4069 CCTTCCAA-CTCTGAGATTCTGTGATTC 4095
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 21.69
+Transitions / transversions = 0.88 (7/8)
+Gap_init rate = 0.04 (3 / 76), avg. gap size = 1.00 (3 / 3)
+
+  287  13.61 11.94 1.35  MOXI01007018.1:14323300-14364500  30154 30220   10981 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-3_Croc'>CR1-3_Croc  </a> LINE/CR1         3529   3602      3    
+287 13.61 11.94 1.35 MOXI01007018.1:14323300-14364500 30154 30220 (10981) CR1-3_Croc#LINE/CR1 3529 3602 (3) m_b1s001i21
+
+  MOXI01007018.      30154 GAACCTGCTTT-GGCAGGGGGGTTGGCCTCGATGATCTCTGGAGCTCCCT 30202
+                             v     i i-         -    v  v     i        v     
+  CR1-3_Croc#LI       3529 GATCCTGCCTCAGGCAGGGGG-TTGGACTAGATGACCTCTGGAGGTCCCT 3577
+
+  MOXI01007018.      30203 TCCAACCC-------CTGTGATTCT 30220
+                               i   -------  i       
+  CR1-3_Croc#LI       3578 TCCAGCCCTACTTCTCTATGATTCT 3602
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 15.15
+Transitions / transversions = 1.25 (5/4)
+Gap_init rate = 0.05 (3 / 66), avg. gap size = 3.00 (9 / 3)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps26');">+</a><b>  258   18.2  0.0  1.8  MOXI01007018.1:14323300-14364500  30278 30333 (10868) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          923    977    (2)  26  </b></pre><div id="hsps26" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  258  18.19 0.00 1.82  MOXI01007018.1:14323300-14364500  30278 30333   10868 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-J3_fAlb'>CR1-J3_fAlb </a> LINE/CR1          923    977      2    
+258 18.19 0.00 1.82 MOXI01007018.1:14323300-14364500 30278 30333 (10868) CR1-J3_fAlb#LINE/CR1 923 977 (2) m_b1s001i22
+
+  MOXI01007018.      30278 TGGACTTGATGATCTCTGGAAGCCTCTTCCAACCCCTACAATTCTGTGTT 30327
+                                 i         -   i i  i        i?v?ii        v 
+  CR1-J3_fAlb#L        923 TGGACTCGATGATCTC-GGAGGTCTTTTCCAACCTNANTGATTCTGTGAT 971
+
+  MOXI01007018.      30328 TCTCTG 30333
+                              v  
+  CR1-J3_fAlb#L        972 TCTGTG 977
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 19.90
+Transitions / transversions = 2.33 (7/3)
+Gap_init rate = 0.02 (1 / 55), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps27');">+</a><b>   36    2.0  3.9  0.0  MOXI01007018.1:14323300-14364500  30733 30783 (10418) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(AAATAAA)n'>(AAATAAA)n  </a> Simple_repeat       1     53    (0)  27  </b></pre><div id="hsps27" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   36   1.99 3.92 0.00  MOXI01007018.1:14323300-14364500  30733 30783   10418 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(AAATAAA)n'>(AAATAAA)n  </a> Simple_repeat       1     53      0    
+36 1.99 3.92 0.00 MOXI01007018.1:14323300-14364500 30733 30783 (10418) (AAATAAA)n#Simple_repeat 1 53 (0) m_b1s252i9
+
+  MOXI01007018.      30733 AAAAAAAAAATAAAAAATAAAAAATAAAAAAT-AAAAATAAAAAA-AAAA 30780
+                              v                            -            -    
+  (AAATAAA)n#Si          1 AAATAAAAAATAAAAAATAAAAAATAAAAAATAAAAAATAAAAAATAAAA 50
+
+  MOXI01007018.      30781 AAT 30783
+                              
+  (AAATAAA)n#Si         51 AAT 53
+
+Matrix = Unknown
+Transitions / transversions = 0.00 (0/1)
+Gap_init rate = 0.04 (2 / 50), avg. gap size = 1.00 (2 / 2)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps28');">+</a><b>   14   17.5  0.0  0.0  MOXI01007018.1:14323300-14364500  31269 31300  (9901) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(CTCTTC)n'>(CTCTTC)n   </a> Simple_repeat       1     32    (0)  28  </b></pre><div id="hsps28" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   14  17.53 0.00 0.00  MOXI01007018.1:14323300-14364500  31269 31300    9901 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(CTCTTC)n'>(CTCTTC)n   </a> Simple_repeat       1     32      0    
+14 17.53 0.00 0.00 MOXI01007018.1:14323300-14364500 31269 31300 (9901) (CTCTTC)n#Simple_repeat 1 32 (0) m_b1s252i11
+
+  MOXI01007018.      31269 CTGTTCCTCTTGCTTTTCCACTTCTTCTTCCT 31300
+                             v        v  i    v    i       
+  (CTCTTC)n#Sim          1 CTCTTCCTCTTCCTCTTCCTCTTCCTCTTCCT 32
+
+Matrix = Unknown
+Transitions / transversions = 0.67 (2/3)
+Gap_init rate = 0.00 (0 / 31), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps29');">+</a><b>   22    0.0  0.0  0.0  MOXI01007018.1:14323300-14364500  35385 35408  (5793) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n        </a> Simple_repeat       1     24    (0)  29  </b></pre><div id="hsps29" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   22   0.00 0.00 0.00  MOXI01007018.1:14323300-14364500  35385 35408    5793 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n        </a> Simple_repeat       1     24      0    
+22 0.00 0.00 0.00 MOXI01007018.1:14323300-14364500 35385 35408 (5793) (A)n#Simple_repeat 1 24 (0) m_b1s252i12
+
+  MOXI01007018.      35385 AAAAAAAAAAAAAAAAAAAAAAAA 35408
+                                                   
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAAAAAAA 24
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (0/0)
+Gap_init rate = 0.00 (0 / 23), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps30');">+</a><b>  226   17.4  0.0  2.2  MOXI01007018.1:14323300-14364500  38296 38342  (2859) C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-3_Croc'>CR1-3_Croc  </a> LINE/CR1          (0)   3605   3560  30  </b></pre><div id="hsps30" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  226  17.40 0.00 2.17  MOXI01007018.1:14323300-14364500  38296 38342    2859 C <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-3_Croc'>CR1-3_Croc  </a> LINE/CR1         3560   3605      0    
+226 17.40 0.00 2.17 MOXI01007018.1:14323300-14364500 38296 38342 (2859) C CR1-3_Croc#LINE/CR1 (0) 3605 3560 m_b1s001i23
+
+  MOXI01007018.      38296 CACAGAATCACAGAACTGTAGGGGTTGGAAGGGAGCTCCAGAGATCA 38342
+                             i       i   ivv      -i         v        i   
+C CR1-3_Croc#LI       3605 CATAGAATCATAGAGAAGTAGGG-CTGGAAGGGACCTCCAGAGGTCA 3560
+
+Matrix = 20p37g.matrix
+Kimura (with divCpGMod) = 20.10
+Transitions / transversions = 1.67 (5/3)
+Gap_init rate = 0.02 (1 / 46), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps31');">+</a><b>   19    0.0  3.7  0.0  MOXI01007018.1:14323300-14364500  39483 39509  (1692) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(CAAA)n'>(CAAA)n     </a> Simple_repeat       1     28    (0)  31  </b></pre><div id="hsps31" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   19   0.00 3.70 0.00  MOXI01007018.1:14323300-14364500  39483 39509    1692 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(CAAA)n'>(CAAA)n     </a> Simple_repeat       1     28      0    
+19 0.00 3.70 0.00 MOXI01007018.1:14323300-14364500 39483 39509 (1692) (CAAA)n#Simple_repeat 1 28 (0) m_b1s252i13
+
+  MOXI01007018.      39483 CAAA-AAACAAACAAACAAACAAACAAA 39509
+                               -                       
+  (CAAA)n#Simpl          1 CAAACAAACAAACAAACAAACAAACAAA 28
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (0/0)
+Gap_init rate = 0.04 (1 / 26), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps32');">+</a><b>   15   20.7  0.0  2.9  MOXI01007018.1:14323300-14364500  39657 39691  (1510) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TG)n'>(TG)n       </a> Simple_repeat       1     34    (0)  32  </b></pre><div id="hsps32" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   15  20.73 0.00 2.94  MOXI01007018.1:14323300-14364500  39657 39691    1510 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TG)n'>(TG)n       </a> Simple_repeat       1     34      0    
+15 20.73 0.00 2.94 MOXI01007018.1:14323300-14364500 39657 39691 (1510) (TG)n#Simple_repeat 1 34 (0) m_b1s252i14
+
+  MOXI01007018.      39657 TGTATCTATGTAGTGTGACTGTGTGTGTGTGTTTG 39691
+                              i v i   -     vv             v  
+  (TG)n#Simple_          1 TGTGTGTGTGT-GTGTGTGTGTGTGTGTGTGTGTG 34
+
+Matrix = Unknown
+Transitions / transversions = 0.50 (2/4)
+Gap_init rate = 0.03 (1 / 34), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+</div>
+</div>

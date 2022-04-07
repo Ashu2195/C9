@@ -1,0 +1,509 @@
+18 0.00 0.00 0.00 JACDJE010000321.1:1862300-1895000 1820 1839 (30800) (T)n#Simple_repeat 1 20 (0) m_b1s252i0 1
+
+  JACDJE0100003       1820 TTTTTTTTTTTTTTTTTTTT 1839
+                                               
+  (T)n#Simple_r          1 TTTTTTTTTTTTTTTTTTTT 20
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (0/0)
+Gap_init rate = 0.00 (0 / 19), avg. gap size = 0.0 (0 / 0)
+
+
+861 30.63 3.26 4.17 JACDJE010000321.1:1862300-1895000 6163 6622 (26017) C Plat_L3#LINE/CR1 (3) 3570 3115 m_b1s551i0 2
+
+  JACDJE0100003       6163 AGAATCACAGAATTGTAGGGGTTGGAAGGGACCTCTAGAGATCAAGATCT 6212
+                                  i     i?   i -i             v    i   ---   
+C Plat_L3#LINE/       3570 AGAATCATAGAATCNTAGAG-CTGGAAGGGACCTCGAGAGGTCA---TCT 3525
+
+  JACDJE0100003       6213 AGTCCAACCTCCCTACCAGAGCACCCTAGGCACC-------CTAGACCAT 6255
+                           i     i  -    i  -------i i     vv-------   i     
+C Plat_L3#LINE/       3524 GGTCCAGCC-CCCTGCC-------TCCAGGCAGGTGAATGACTAAACCAT 3483
+
+  JACDJE0100003       6256 ATTTCACAGGTAGGCATCTAGGTGGGTCCTGAATATCTCCACAGAAGGAG 6305
+                           vivvv    i i ?ii    vvivvv  i i  v       vi  v    
+C Plat_L3#LINE/       3482 CCAGGACAGATGGNTGTCTATTCTTTTCTTAAAGATCTCCAGGGATGGAG 3433
+
+  JACDJE0100003       6306 ACTCCACAACCCCCCTGGGCAGCCTGTTCCAGTGCTCCATCACCCTCACT 6355
+                                      i    v  i    i         i ii        v  v
+C Plat_L3#LINE/       3432 ACTCCACAACCTCCCTCGGTAGCCCGTTCCAGTGTTTTATCACCCTGACA 3383
+
+  JACDJE0100003       6356 GTGAAGAAGCTCTTTCTTACTCACATTTGTGTGGTTCCCATGCTTTAGTT 6405
+                             v      i    i    iviv  vii -ivivi  i v       i  
+C Plat_L3#LINE/       3382 GTCAAGAAGTTCTTCCTTATGTCCAACCG-AAATCTCTCCTGCTTTAATT 3334
+
+  JACDJE0100003       6406 TGTGGCTGTTTTCCCCTGTCC--TCTTGCCACACACCACTGAAAAGAGTC 6453
+                            iv v ii   i i i   i --  i - ?iiiv -  iv  i  v i- 
+C Plat_L3#LINE/       3333 TAAGCCCATTTCCTCTTGTTCGGTCCT-CNGTGGA-CATGGAGAACAA-C 3287
+
+  JACDJE0100003       6454 TGATC----TTGTCCCTTTGCATCCTACACCTTAGATATTTATGGGCATT 6499
+                             i  ---- iv    iv iv ---v  v i i v   i  ivi i  v 
+C Plat_L3#LINE/       3286 TGGTCAGCATCCTCCCCATAAA---AACCCTTCATATACTTGAAGACAGT 3240
+
+  JACDJE0100003       6500 GATAAGATCCCCTCT--GACTTCTTTTCTCAAGGATGAACAGACCCAGGT 6547
+                           v  v ii  v  i  -- v     i     v   v i    iv    iv 
+C Plat_L3#LINE/       3239 TATTAAGTCACCCCTTAGCCTTCTCTTCTCCAGGCTAAACAACCCCAATT 3190
+
+  JACDJE0100003       6548 CGCTCAGCCTTTCCTCATAAGAGAGACGTTCCAGGCCCTTTATCATCTTT 6597
+                            vi i i            i  vvv iv     vv  i  v     i   
+C Plat_L3#LINE/       3189 CCTTTAACCTTTCCTCATAGGACCTATTTTCCATCCCTTTAATCATTTTT 3140
+
+  JACDJE0100003       6598 GTGGCCCTCCACTGGACTCTTTCCA 6622
+                             v  i  i v      i  i    
+C Plat_L3#LINE/       3139 GTCGCTCTTCTCTGGACCCTCTCCA 3115
+
+Matrix = 20p35g.matrix
+Kimura (with divCpGMod) = 40.11
+Transitions / transversions = 1.41 (79/56)
+Gap_init rate = 0.05 (23 / 459), avg. gap size = 1.48 (34 / 23)
+
+
+15 13.87 0.00 0.00 JACDJE010000321.1:1862300-1895000 6632 6655 (25984) (T)n#Simple_repeat 1 24 (0) m_b1s252i1 3
+
+  JACDJE0100003       6632 TTTGTTTTTTGTTGTTTTTTTTTT 6655
+                              v      v  v          
+  (T)n#Simple_r          1 TTTTTTTTTTTTTTTTTTTTTTTT 24
+
+Matrix = Unknown
+Transitions / transversions = 0.00 (0/3)
+Gap_init rate = 0.00 (0 / 23), avg. gap size = 0.0 (0 / 0)
+
+
+542 32.98 5.10 2.85 JACDJE010000321.1:1862300-1895000 6984 7395 (25244) C Plat_L3#LINE/CR1 (0) 3573 3153 m_b1s551i1 4
+
+  JACDJE0100003       6984 CATAAAATCATTGAATCACTAAGGTTGGAAAAGACCT-GTAAGATCATCC 7032
+                            i  i      v     ?-  ii i     ii     - vi  i     i
+C Plat_L3#LINE/       3573 CGTAGAATCATAGAATCN-TAGAGCTGGAAGGGACCTCGAGAGGTCATCT 3525
+
+  JACDJE0100003       7033 ACTCCATCTGTCCACCTACCACTAATATTTCTCACTAAAGCACATTCCTT 7082
+                           iv    v ivi ii   -   vvv vi vvv v      v  ---   --
+C Plat_L3#LINE/       3524 GGTCCAGCCCCCTGCCT-CCAGGCAGGTGAATGACTAAACCA---TCC-- 3481
+
+  JACDJE0100003       7083 AGTAC-------TGTATCTTGGTTTCTTGAAAATCTACAGAGA------- 7118
+                             v  -------   v v  vv      i  i    v   i  -------
+C Plat_L3#LINE/       3480 AGGACAGATGGNTGTCTATTCTTTTCTTAAAGATCTCCAGGGATGGAGAC 3431
+
+  JACDJE0100003       7119 -CAACAGCCTCCAAGGACAACCTGTTCCAGTGCCTGACCACACTTTCAGG 7167
+                           - v   i     vvv ii i  i         ii v i   v  vv   v
+C Plat_L3#LINE/       3430 TCCACAACCTCCCTCGGTAGCCCGTTCCAGTGTTTTATCACCCTGACAGT 3381
+
+  JACDJE0100003       7168 GAAGAAATTATTTGTAATATCCAACCTGGAAGTCCCCTGGCATAACATGA 7217
+                           v     i  v  iv v  i       vii vv  i    viv   iv i 
+C Plat_L3#LINE/       3380 CAAGAAGTTCTTCCTTATGTCCAACCGAAATCTCTCCTGCTTTAATTTAA 3331
+
+  JACDJE0100003       7218 GGCTATTCCCTCTCATCCTGTTG-CTGTT-ACTTGGAAAAAGA--GGCCA 7263
+                            v i   i     ii i v  iv- ?  v-  v    i  vi --  i  
+C Plat_L3#LINE/       3330 GCCCATTTCCTCTTGTTCGGTCCTCNGTGGACATGGAGAACAACTGGTCA 3281
+
+  JACDJE0100003       7264 ACCACCAACTCACCAAAACCTTCTTTGAAGTAGCTGTGGA-GGTCAGTAA 7312
+                           i vv  vv i  iv      i --- v vi  vi  vi  -i  i v   
+C Plat_L3#LINE/       3280 GCATCCTCCCCATAAAAACCCT---TCATATACTTGAAGACAGTTATTAA 3234
+
+  JACDJE0100003       7313 GGTCTCCCCTGAGCCTCCTCTTCTCTAGACTAAGCAATCCGAGTTCCCTC 7362
+                            -  v     v     i        i  i    i   i  v i    i i
+C Plat_L3#LINE/       3233 G-TCACCCCTTAGCCTTCTCTTCTCCAGGCTAAACAACCCCAATTCCTTT 3185
+
+  JACDJE0100003       7363 AGCTACTTCTCATAAGTCTTGTGCTTCAGTCCC 7395
+                            i ivi i      i v i i vi i  -    
+C Plat_L3#LINE/       3184 AACCTTTCCTCATAGGACCTATTTTCCA-TCCC 3153
+
+Matrix = 20p35g.matrix
+Kimura (with divCpGMod) = 43.91
+Transitions / transversions = 1.16 (71/61)
+Gap_init rate = 0.05 (20 / 411), avg. gap size = 1.65 (33 / 20)
+
+
+354 31.05 1.11 5.20 JACDJE010000321.1:1862300-1895000 9151 9330 (23309) Plat_L3#LINE/CR1 3398 3570 (3) m_b1s551i2 5
+
+  JACDJE0100003       9151 ACACTAGAATAGGTTGCCCAGAGTTGTGGTTGATTTGCCCAATCTTTGGG 9200
+                                i   ii  i i  v  i vv  v  v  v iv  --   ii   i
+  Plat_L3#LINE/       3398 ACACTGGAACGGGCTACCGAGGGAGGTTGTGGAGTCTCC--ATCCCTGGA 3445
+
+  JACDJE0100003       9201 GACTTTCAAGGCCAGAGTGGATCAGTC-CCTGGTCAGTGTGATCTAGCTG 9249
+                             ii  i   ivv   i i  -  ?i -i   vi v vi  i i   ii-
+  Plat_L3#LINE/       3446 GATCTTTAAGAAAAGAATAGA-CANCCATCTGTCCTGGATGGTTTAGTC- 3493
+
+  JACDJE0100003       9250 CAGATGCCCCTGT-TCATTGCAGGAGAGATGGACTAGATGACCTTTAAAG 9298
+                           ---  v v    i- vivv     i - v     i         i vi  
+  Plat_L3#LINE/       3494 ---ATTCACCTGCCTGGAGGCAGGGG-GCTGGACCAGATGACCTCTCGAG 3539
+
+  JACDJE0100003       9299 GTTCCTTCCAACTCTACGTACTCCATGATTCT 9330
+                             i       i     ? - i  i        
+  Plat_L3#LINE/       3540 GTCCCTTCCAGCTCTANG-ATTCTATGATTCT 3570
+
+Matrix = 20p35g.matrix
+Kimura (with divCpGMod) = 40.26
+Transitions / transversions = 1.79 (34/19)
+Gap_init rate = 0.06 (11 / 179), avg. gap size = 1.00 (11 / 11)
+
+
+320 33.78 3.00 9.16 JACDJE010000321.1:1862300-1895000 11994 12560 (20079) CR1-11_Crp#LINE/CR1 796 1330 (131) m_b1s551i3 6
+
+  JACDJE0100003      11994 AGAAAAACATG-----ACTGGTAGACAAGAAGCTGGACATGAGCCAGCAG 12038
+                                i  v  -----   i  v  iv v i v  ivi        v  i
+  CR1-11_Crp#LI        796 AGAAAGACCTGGGTGTACTAGTCGATCACAGGATGACTATGAGCCACCAA 845
+
+  JACDJE0100003      12039 TGTGCGCTTGGAGCCCGGAAG--GCCAACTGTG-TTCTGAGCTGCATTAA 12085
+                               v---  vi   vv   i-- v   v  i - i  ii v     ? i
+  CR1-11_Crp#LI        846 TGTGA---TGCGGCCGTGAAAAAGGCAAATGCGATCCTAGGATGCATNAG 892
+
+  JACDJE0100003      12086 CAGAGGAGTGGCCAGCAGGGAGAGGGAGGTGATTGTCCCACTCGACTCGG 12135
+                           --i   vi vv    i  i  v     i  iv vi v   i vv  vv  
+  CR1-11_Crp#LI        893 --AAGGTATTTCCAGTAGAGATAGGGAAGTATTAATGCCATTGTACAAGG 940
+
+  JACDJE0100003      12136 CTCTTGTGAGGCCCCACCTGGG-TACTGCATCCAGGCCTGGAGCGCCCA- 12183
+                           v-  v     i  i  i    i-     ii v   vi    -v i    -
+  CR1-11_Crp#LI        941 A-CTGGTGAGACCTCATCTGGAATACTGTGTACAGTTCTGG-TCACCCAT 988
+
+  JACDJE0100003      12184 GTAGAAGAAAGACACACTGCTCTTGGAAT-GGTCCAGAGGAGGACCACTA 12232
+                             vv        iiv i vvvvi     i-   v     i   i i    
+  CR1-11_Crp#LI        989 GTTCAAGAAAGATGAATTCAAACTGGAACAGGTGCAGAGAAGGGCTACTA 1038
+
+  JACDJE0100003      12233 AGATGATCAGAGGGCTGGAACACCTCCCCTGTGAGGAAAGGTTGAGGGAA 12282
+                           i         i  iv    ivi   vi i ii   iii  ii i ii  i
+  CR1-11_Crp#LI       1039 GGATGATCAGGGGAATGGAGAGCCTATCTTACGAGAGGAGACTAAAAGAG 1088
+
+  JACDJE0100003      12283 CTGAGCTTGTTTAGCTTGAAGAAGAGAAGGCTCCGGGGAGACCTCATTTG 12332
+                             vi           i iivi  iv       vv i  i  iv v   --
+  CR1-11_Crp#LI       1089 CTTGGCTTGTTTAGCCTAGCAAAACGAAGGCTGAGAGGGGATATGATT-- 1136
+
+  JACDJE0100003      12333 GCCTTCC---AGTACTTAAAGGGAGCCTATAAAAAGGAGGG-GAACGACT 12378
+                             i?  i--- i   v v i   i ivv i vv i      -   vii  
+  CR1-11_Crp#LI       1137 GCTNTCTATAAATACATCAGGGGGGTAAACACCAGGGAGGGAGAAGAGCT 1186
+
+  JACDJE0100003      12379 GTTGACATGGGTTGATAGTGATAGGATGAGGGGAACGACTGTTGACATGG 12428
+                           i  ------------------  i v i i  --  i -     i  ii-
+  CR1-11_Crp#LI       1187 ATT------------------TAAGCTAAAGG--ACAA-TGTTGGCACA- 1214
+
+  JACDJE0100003      12429 GTTGATAGTGATAGGATAAGGGGAATGGTTTTAAACTGAGACA-GGGGAG 12477
+                           ------------  i i  -----    v v       - v  - iiv i
+  CR1-11_Crp#LI       1215 ------------AGAACAA-----ATGGGTATAAACTG-GCCATGAATAA 1246
+
+  JACDJE0100003      12478 GTTTAGGTTAGATATTAGGAGGTAGTTTTTCACCA-GAGGGTAGTGAAGC 12526
+                           i      i i  v     i  ivi    i v    -v  i i     i i
+  CR1-11_Crp#LI       1247 ATTTAGGCTGGAAATTAGAAGAAGGTTTCTAACCATCAGAGCAGTGAGGT 1296
+
+  JACDJE0100003      12527 ACTGGAACAGGTTGCCCAGAGAGGTTGTGGATGC 12560
+                           v         vi v  v v  ii  v    iv  
+  CR1-11_Crp#LI       1297 TCTGGAACAGCCTTCCAATAGGAGTAGTGGGGGC 1330
+
+Matrix = 20p35g.matrix
+Kimura (with divCpGMod) = 45.41
+Transitions / transversions = 1.45 (103/71)
+Gap_init rate = 0.10 (59 / 566), avg. gap size = 1.12 (66 / 59)
+
+591 30.36 3.00 2.16 JACDJE010000321.1:1862300-1895000 12007 12373 (20266) CR1-3_Croc#LINE/CR1 2425 2794 (811) m_b1s551i4 6
+
+  JACDJE0100003      12007 TGGTAGACAAGAAGCTGGACATGAGCCAGCAGTGTGCGCTTGGAGCC--- 12053
+                                  iv v ii  vi i     i v        v---  v    ---
+  CR1-3_Croc#LI       2425 TGGTAGATCACAGACTCAATATGAGTCTGCAGTGTGA---TGCAGCCGCA 2471
+
+  JACDJE0100003      12054 CGGAAGGCCAACTGTG-TTCTGAGCTGCATTAACAGAGGAGT--GGCCAG 12100
+                            ii     v  -  i -  i  i v     i  i   i vi --  i-- 
+  CR1-3_Croc#LI       2472 CAAAAGGCGAA-TGCGGTTTTGGGATGCATCAATAGAAGCATTAGGT--G 2518
+
+  JACDJE0100003      12101 CAGGGAGAGGGAGGTGATTGTCCCACTCGACTCGGCTCTTGTGAGGCCCC 12150
+                             i iviv          v  v  v   v       v  v  v     i 
+  CR1-3_Croc#LI       2519 CAAGACACGGGAGGTGATAGTGCCTCTCTACTCGGCACTGGTTAGGCCTC 2568
+
+  JACDJE0100003      12151 ACCTGG-GTACTGCATCCAGGCCTGGAGCGCC-CAGTAGAAGAAAGACAC 12198
+                            i    -      ii v   vi    -  v  -  v vv  i  i   ii
+  CR1-3_Croc#LI       2569 ATCTGGAGTACTGTGTGCAGTTCTGG-GCTCCACATTTTAAAAAGGACGT 2617
+
+  JACDJE0100003      12199 ACTGCTCTTGGA-ATGGTCCAGAGGAGGACCACTAAGATGATCAGAGGGC 12247
+                           ivv vvv  i  - v          v  i v  v        - i     
+  CR1-3_Croc#LI       2618 GGAGAAGTTAGAGAGGGTCCAGAGGCGGGCGACAAAGATGAT-AAAGGGC 2666
+
+  JACDJE0100003      12248 -TGGAACACCTCCCCTGTGAGGAAAGGTTGAGGGAACTGAGCTTGTTTAG 12296
+                           -     vi vvvi v ii     i   i   i   i  ii  v    i  
+  CR1-3_Croc#LI       2667 TTGGAAGGCAAGTCATACGAGGAGAGGCTGAAGGAGCTAGGCATGTTCAG 2716
+
+  JACDJE0100003      12297 CTTGAAGAAGAGAAGGCTCCGGGGAGACCTCAT-TTGGCCTTCCAGTACT 12345
+                               vi   i  iv vi vv i  i   v v  -vii i    v i    
+  CR1-3_Croc#LI       2717 CTTGCGGAAAAGGCGCTTAAGAGGGGACATGATAGCAGTCTTCAAATACT 2766
+
+  JACDJE0100003      12346 TAAAGGGAGCCTATAAAAAGGAGGGGAA 12373
+                            i     vvv i     i i     i  
+  CR1-3_Croc#LI       2767 TGAAGGGCTGCCATAAAGAAGAGGGAAA 2794
+
+Matrix = 20p35g.matrix
+Kimura (with divCpGMod) = 37.81
+Transitions / transversions = 1.14 (58/51)
+Gap_init rate = 0.04 (16 / 366), avg. gap size = 1.19 (19 / 16)
+
+512 30.33 1.91 3.09 JACDJE010000321.1:1862300-1895000 12438 12699 (19940) Plat_L3#LINE/CR1 3309 3567 (6) m_b1s551i5 6
+
+  JACDJE0100003      12438 GATAGGATAAGGGGAA-TGGTTTTAAACTGAGACAGGGGAGGTTTAGGTT 12486
+                             iv i i   i    -   vi     i i ii    i   i   v    
+  Plat_L3#LINE/       3309 GACCGAACAAGAGGAAATGGGCTTAAATTAAAGCAGGAGAGATTTCGGTT 3358
+
+  JACDJE0100003      12487 AGATATTAGGAGGTAGTTTTTCACCA-GAGGGTAGTGAAGCACTGGAACA 12535
+                           i  i  v    i v v  i  v  ii-v     ii i  i         i
+  Plat_L3#LINE/       3359 GGACATAAGGAAGAACTTCTTGACTGTCAGGGTGATAAAACACTGGAACG 3408
+
+  JACDJE0100003      12536 GGTTGCCCAGAGAGGTTGTGGATGCCCCATCCCTGGAGGCATTCAAGGCC 12585
+                             i i  v  i           vv i            iiv  i   ivv
+  Plat_L3#LINE/       3409 GGCTACCGAGGGAGGTTGTGGAGTCTCCATCCCTGGAGATCTTTAAGAAA 3458
+
+  JACDJE0100003      12586 AGGCTGGATGTGGCTCTGGGCAGCCTGGTCTAGTGGTTGGCGACCCTGCC 12635
+                             iv i  ii?vvv    vv v vv    i    vi  vi----      
+  Plat_L3#LINE/       3459 AGAATAGACANCCATCTGTCCTGGATGGTTTAGTCATTCA----CCTGCC 3504
+
+  JACDJE0100003      12636 CACA-GCAGGAGGGTTGAAACAAGATGATAT-TTGAGGTCTTTTTCAAC- 12682
+                           iiv -     -   i  -i  v      iv - i      ii  i  i -
+  Plat_L3#LINE/       3505 TGGAGGCAGG-GGGCTG-GACCAGATGACCTCTCGAGGTCCCTTCCAGCT 3552
+
+  JACDJE0100003      12683 CCAGGCCGTTCTATGAT 12699
+                            i ? --i         
+  Plat_L3#LINE/       3553 CTANG--ATTCTATGAT 3567
+
+Matrix = 20p35g.matrix
+Kimura (with divCpGMod) = 39.53
+Transitions / transversions = 1.75 (49/28)
+Gap_init rate = 0.05 (13 / 261), avg. gap size = 1.00 (13 / 13)
+
+
+19 0.00 0.00 0.00 JACDJE010000321.1:1862300-1895000 15695 15718 (16921) (AAAC)n#Simple_repeat 1 24 (0) m_b1s252i2 7
+
+  JACDJE0100003      15695 AAACAAACAAACAAACAAACAAAC 15718
+                                                   
+  (AAAC)n#Simpl          1 AAACAAACAAACAAACAAACAAAC 24
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (0/0)
+Gap_init rate = 0.00 (0 / 23), avg. gap size = 0.0 (0 / 0)
+
+
+17 14.94 2.70 0.00 JACDJE010000321.1:1862300-1895000 18001 18037 (14602) (AACA)n#Simple_repeat 1 38 (0) m_b1s252i3 8
+
+  JACDJE0100003      18001 AAAAAAGAAACAAACGAACAAACAAA-AACAAAACAAA 18037
+                             v   v        i          -  vv       
+  (AACA)n#Simpl          1 AACAAACAAACAAACAAACAAACAAACAAACAAACAAA 38
+
+Matrix = Unknown
+Transitions / transversions = 0.25 (1/4)
+Gap_init rate = 0.03 (1 / 36), avg. gap size = 1.00 (1 / 1)
+
+14 14.91 5.41 0.00 JACDJE010000321.1:1862300-1895000 18002 18038 (14601) (AAAAC)n#Simple_repeat 1 39 (0) m_b1s252i4 8
+
+  JACDJE0100003      18002 AAAAAGAAAC-AAAC-GAACAAACAAAAACAAAACAAAA 18038
+                               vi    -    -i      vv              
+  (AAAAC)n#Simp          1 AAAACAAAACAAAACAAAACAAAACAAAACAAAACAAAA 39
+
+Matrix = Unknown
+Transitions / transversions = 0.67 (2/3)
+Gap_init rate = 0.06 (2 / 36), avg. gap size = 1.00 (2 / 2)
+
+
+19 0.00 0.00 0.00 JACDJE010000321.1:1862300-1895000 18673 18693 (13946) (A)n#Simple_repeat 1 21 (0) m_b1s252i5 9
+
+  JACDJE0100003      18673 AAAAAAAAAAAAAAAAAAAAA 18693
+                                                
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAAAA 21
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (0/0)
+Gap_init rate = 0.00 (0 / 20), avg. gap size = 0.0 (0 / 0)
+
+
+11 10.03 5.56 5.56 JACDJE010000321.1:1862300-1895000 20102 20137 (12502) (TCTGCAC)n#Simple_repeat 1 36 (0) m_b1s252i6 10
+
+  JACDJE0100003      20102 TCTGCACTCT-CAGCTAT-CACTCAGTCTCTCTGCACT 20137
+                                     -  -  v -     v - v         
+  (TCTGCAC)n#Si          1 TCTGCACTCTGCA-CTCTGCACTCTG-CACTCTGCACT 36
+
+Matrix = Unknown
+Transitions / transversions = 0.00 (0/3)
+Gap_init rate = 0.11 (4 / 35), avg. gap size = 1.00 (4 / 4)
+
+
+253 26.10 1.41 2.86 JACDJE010000321.1:1862300-1895000 20510 20580 (12059) C Plat_L3#LINE/CR1 (0) 3573 3504 m_b1s551i6 11
+
+  JACDJE0100003      20510 CATAGAGTCATAGAATCACCAAGGTTGGAAAAGACCTCCA-AGATCATCT 20558
+                            i    i          -?i ii i     ii      v -  i      
+C Plat_L3#LINE/       3573 CGTAGAATCATAGAATC-NTAGAGCTGGAAGGGACCTCGAGAGGTCATCT 3525
+
+  JACDJE0100003      20559 AGTCTAACCATCCACTTACCAG 20580
+                           i   i i  vi ii i -    
+C Plat_L3#LINE/       3524 GGTCCAGCCCCCTGCCT-CCAG 3504
+
+Matrix = 20p35g.matrix
+Kimura (with divCpGMod) = 33.59
+Transitions / transversions = 8.00 (16/2)
+Gap_init rate = 0.04 (3 / 70), avg. gap size = 1.00 (3 / 3)
+
+276 19.30 1.72 1.72 JACDJE010000321.1:1862300-1895000 20510 20567 (12072) C CR1-3_Croc#LINE/CR1 (0) 3605 3548 m_b1s551i7 11
+
+  JACDJE0100003      20510 CATAGAGTCATAGAATCACCAAGGTTGGAAAAGACCTCCA-AGATCATCT 20558
+                                 i       i-v vi i  i     ii        -  i      
+C CR1-3_Croc#LI       3605 CATAGAATCATAGAG-AAGTAGGGCTGGAAGGGACCTCCAGAGGTCATCT 3557
+
+  JACDJE0100003      20559 AGTCTAACC 20567
+                               i    
+C CR1-3_Croc#LI       3556 AGTCCAACC 3548
+
+Matrix = 20p35g.matrix
+Kimura (with divCpGMod) = 23.43
+Transitions / transversions = 4.50 (9/2)
+Gap_init rate = 0.04 (2 / 57), avg. gap size = 1.00 (2 / 2)
+
+
+1237 32.23 2.37 2.07 JACDJE010000321.1:1862300-1895000 21470 22144 (10495) Plat_L3#LINE/CR1 2894 3570 (3) m_b1s551i8 12
+
+  JACDJE0100003      21470 AGGGAAGGACCTGGAGGTCCTGGTGAACAGCAGGTTGGCAATGAGCCATC 21519
+                             ii  i       i    v i  vi  vi? i i  ivv     i  v 
+  Plat_L3#LINE/       2894 AGAAAAAGACCTGGGGGTCATAGTCGACCANAAGCTGAATATGAGTCAGC 2943
+
+  JACDJE0100003      21520 AGTATGCTCTGGTGGCCAAGAAGGCCAATGGGATCCTGGGGTGC-TTAAT 21568
+                            i i iv viv  viii  i  i     i v i v     i  i-    -
+  Plat_L3#LINE/       2944 AATGTAGTGCCGTTATTAAAAAAGCCAACGTGGTACTGGGATGTATTAA- 2992
+
+  JACDJE0100003      21569 GCAGGGAGCATGGCCAGC--CAGTCAAGGGAGGCGATTCTCCCCCTCTAC 21616
+                           -    -  i   i vv  --v    --    i ii  i  i  v  v   
+  Plat_L3#LINE/       2993 -CAGG-AGTATGACATGCAAGAGTC--GGGAAGTAATCCTTCCGCTATAC 3038
+
+  JACDJE0100003      21617 TCTGCCCTGGTCAGGCCTAACTTGAAGTACTGTAACCAATTCTGGGCTCC 21666
+                                v        i  ivvv  ii        iv   i  i   v v  
+  Plat_L3#LINE/       3039 TCTGCACTGGTCAGACCCTTATTAGAGTACTGTGTCCAGTTTTGGTCACC 3088
+
+  JACDJE0100003      21667 TCAGTACAAAAATGACAGGGATCTCCTGGAGAGAGTCCAGTGGAGGGCTG 21716
+                           v  v vi     v  iiv   vvvv        i      v i  i  vi
+  Plat_L3#LINE/       3089 GCACTTTAAAAAGGATGTGGAGAAACTGGAGAGGGTCCAGAGAAGAGCGA 3138
+
+  JACDJE0100003      21717 CAAAGATGATGAAGGGCCTGGAGCATCTCCTCTGTGAGGAAAGGCTGAGC 21766
+                               i     v  i  vv    iv  vvvii  i          i i iv
+  Plat_L3#LINE/       3139 CAAAAATGATTAAAGGGATGGAAAATAGGTCCTATGAGGAAAGGTTAAAG 3188
+
+  JACDJE0100003      21767 AACCTGGGTCTGTTCAGCCTTGAGAAAATAGGACTGAGAGGGGATCTTGT 21816
+                           i vi    vi    i     v     i v i i  i  i  v  -   iv
+  Plat_L3#LINE/       3189 GAATTGGGGTTGTTTAGCCTGGAGAAGAGAAGGCTAAGGGGTGA-CTTAA 3237
+
+  JACDJE0100003      21817 TTA-TGTTTGTAAGTATCTTAAG------TGAGGGGAGTCAAAGGTACAT 21859
+                            v -   i vi      v v   ------ iv      ----- i i - 
+  Plat_L3#LINE/       3238 TAACTGTCTTCAAGTATATGAAGGGTTTTTATGGGGAG-----GATGC-T 3281
+
+  JACDJE0100003      21860 GGCCAACCTCTTTTCAGCGGTCTGTGGGGACAGGACAAGGGGAAATGGCC 21909
+                            i   ii- v  i  vii vi vv? i    v i     i        v 
+  Plat_L3#LINE/       3282 GACCAGT-TGTTCTCCATGTCCACNGAGGACCGAACAAGAGGAAATGGGC 3330
+
+  JACDJE0100003      21910 ATAAACTGGAGCATAGGAAGTTCTGCACCAATATGTGAAGGAACTTCTTT 21959
+                           v    i ii    vii  ii  ii vvivi i  iv i i         v
+  Plat_L3#LINE/       3331 TTAAATTAAAGCAGGAGAGATTTCGGTTGGACATAAGGAAGAACTTCTTG 3380
+
+  JACDJE0100003      21960 ACAGTGAGGGTGACAGAGCACTGGAACAGGCTGCCCAGGGGGGTTGTGGA 22009
+                             v  v       i i i         i    i  v    i         
+  Plat_L3#LINE/       3381 ACTGTCAGGGTGATAAAACACTGGAACGGGCTACCGAGGGAGGTTGTGGA 3430
+
+  JACDJE0100003      22010 GTCTCCTTCTCTGGAGATATTCAAGACCCACCTGGACGCCTACCTGTGCA 22059
+                                 v  i        v  i    vvvivv i   i? i i    v v
+  Plat_L3#LINE/       3431 GTCTCCATCCCTGGAGATCTTTAAGAAAAGAATAGACANCCATCTGTCCT 3480
+
+  JACDJE0100003      22060 GCCTGCTGTAGGGA---GCCTATTT---TGCAGGGGGTTGGACTTAATGA 22103
+                            vv  v v   vv ---i   iii ---v        i     ivi    
+  Plat_L3#LINE/       3481 GGATGGTTTAGTCATTCACCTGCCTGGAGGCAGGGGGCTGGACCAGATGA 3530
+
+  JACDJE0100003      22104 TCTCTGCAGACCTCTTCCAATCCCTACAGTTCTGTGATTCT 22144
+                           i    vv  ii i      i- i   ?ii    i       
+  Plat_L3#LINE/       3531 CCTCTCGAGGTCCCTTCCAG-CTCTANGATTCTATGATTCT 3570
+
+Matrix = 20p35g.matrix
+Kimura (with divCpGMod) = 42.71
+Transitions / transversions = 1.37 (123/90)
+Gap_init rate = 0.03 (20 / 674), avg. gap size = 1.50 (30 / 20)
+
+
+15 5.48 0.00 0.00 JACDJE010000321.1:1862300-1895000 22409 22427 (10212) (T)n#Simple_repeat 1 19 (0) m_b1s252i7 13
+
+  JACDJE0100003      22409 TTTTTTTTTTTTTTTTGTT 22427
+                                           v  
+  (T)n#Simple_r          1 TTTTTTTTTTTTTTTTTTT 19
+
+Matrix = Unknown
+Transitions / transversions = 0.00 (0/1)
+Gap_init rate = 0.00 (0 / 18), avg. gap size = 0.0 (0 / 0)
+
+
+14 17.53 0.00 0.00 JACDJE010000321.1:1862300-1895000 23046 23077 (9562) (CTCTTC)n#Simple_repeat 1 32 (0) m_b1s252i8 14
+
+  JACDJE0100003      23046 CTGTTCCTCTTGCTTTTCCACTTCTTCTTCCT 23077
+                             v        v  i    v    i       
+  (CTCTTC)n#Sim          1 CTCTTCCTCTTCCTCTTCCTCTTCCTCTTCCT 32
+
+Matrix = Unknown
+Transitions / transversions = 0.67 (2/3)
+Gap_init rate = 0.00 (0 / 31), avg. gap size = 0.0 (0 / 0)
+
+
+20 9.08 0.00 2.78 JACDJE010000321.1:1862300-1895000 23472 23508 (9131) (GGCAG)n#Simple_repeat 1 36 (0) m_b1s252i9 15
+
+  JACDJE0100003      23472 GGTAGGGCAGGGCAGGGCAGGGAAGGGCCAGGCCAGG 23508
+                             i                   v    -    v    
+  (GGCAG)n#Simp          1 GGCAGGGCAGGGCAGGGCAGGGCAGGG-CAGGGCAGG 36
+
+Matrix = Unknown
+Transitions / transversions = 0.50 (1/2)
+Gap_init rate = 0.03 (1 / 36), avg. gap size = 1.00 (1 / 1)
+
+
+71 0.00 0.00 0.00 JACDJE010000321.1:1862300-1895000 29904 29966 (2735) (TTTGT)n#Simple_repeat 1 63 (0) c_b1s251i0 16
+
+  JACDJE0100003      29904 TTTGTTTTGTTTTGTTTTGTTTTGTTTTGTTTTGTTTTGTTTTGTTTTGT 29953
+                                                                             
+  (TTTGT)n#Simp          1 TTTGTTTTGTTTTGTTTTGTTTTGTTTTGTTTTGTTTTGTTTTGTTTTGT 50
+
+  JACDJE0100003      29954 TTTGTTTTGTTTT 29966
+                                        
+  (TTTGT)n#Simp         51 TTTGTTTTGTTTT 63
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (0/0)
+Gap_init rate = 0.00 (0 / 62), avg. gap size = 0.0 (0 / 0)
+
+
+12 10.36 0.00 11.43 JACDJE010000321.1:1862300-1895000 30028 30066 (2635) (ATTTTT)n#Simple_repeat 1 35 (0) m_b1s252i10 17
+
+  JACDJE0100003      30028 ATTTTTATTTTTATTGTGTTGTCTTTATACTGTTATTTT 30066
+                                          - -  i -   -  i v       
+  (ATTTTT)n#Sim          1 ATTTTTATTTTTATT-T-TTAT-TTT-TATTTTTATTTT 35
+
+Matrix = Unknown
+Transitions / transversions = 2.00 (2/1)
+Gap_init rate = 0.11 (4 / 38), avg. gap size = 1.00 (4 / 4)
+
+
+17 22.70 0.00 0.00 JACDJE010000321.1:1862300-1895000 31395 31430 (1271) (A)n#Simple_repeat 1 36 (0) m_b1s252i12 18
+
+  JACDJE0100003      31395 AAAAAACAAAGAAACAATTAAAAAAAAAACAACAAA 31430
+                                 v   i   v  vv          v  v   
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 36
+
+Matrix = Unknown
+Transitions / transversions = 0.17 (1/6)
+Gap_init rate = 0.00 (0 / 35), avg. gap size = 0.0 (0 / 0)
+
+
+15 9.71 0.00 0.00 JACDJE010000321.1:1862300-1895000 31570 31591 (1110) (AT)n#Simple_repeat 1 22 (0) m_b1s252i14 19
+
+  JACDJE0100003      31570 ATATATATATATATGTATCTAT 31591
+                                         i   v   
+  (AT)n#Simple_          1 ATATATATATATATATATATAT 22
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (1/1)
+Gap_init rate = 0.00 (0 / 21), avg. gap size = 0.0 (0 / 0)
+
+
+13 31.05 0.00 1.89 JACDJE010000321.1:1862300-1895000 31570 31623 (1078) (ATGT)n#Simple_repeat 1 53 (0) m_b1s252i13 20
+
+  JACDJE0100003      31570 ATATATATATATATGTATCTATGCAGTGTAACTGTGTGTGTCTGAGCGTA 31619
+                             i   i   i       v    i -    vv i   i   v  vii   
+  (ATGT)n#Simpl          1 ATGTATGTATGTATGTATGTATGTA-TGTATGTATGTATGTATGTATGTA 49
+
+  JACDJE0100003      31620 TGTA 31623
+                               
+  (ATGT)n#Simpl         50 TGTA 53
+
+Matrix = Unknown
+Transitions / transversions = 1.60 (8/5)
+Gap_init rate = 0.02 (1 / 53), avg. gap size = 1.00 (1 / 1)
+
+
