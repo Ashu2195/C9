@@ -1,0 +1,1656 @@
+
+<style type="text/css"> 
+
+ .annotSet {  /* Annotation Set - A grouping which spans a complete set of
+                                  linked annotations. */
+   border-right: 1px solid;
+   padding-right: 10px;
+ }
+
+ .bluediv {  /* The style for every other line.  Used to create
+                a report effect */
+    background: url("/images/bluegrad.jpg")top right repeat-y;
+    background-color: #bacdff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+ } 
+
+ pre {      /* Required change in pre formatting.  This fixes problems
+               with spacing inside of annotSet div tags */
+  margin: 0px 0px 0px 0px;
+  font-family: monospace;
+ }
+
+ .nound {
+   font-weight:bold;
+   color:navy;
+   text-decoration:none;
+ }
+
+</style>
+
+
+<script language="javascript">
+
+  /** JavaScript to detect text resizing events.  Culled verbatim 
+   ** from Lawrence Carvalho's great article on the subject
+   **/
+
+  /** 
+   *  @fileoverview TextResizeDetector
+   * 
+   *  Detects changes to font sizes when user changes browser settings
+   *  <br>Fires a custom event with the following data:<br><br>
+   * 	iBase  : base font size  	
+   *	iDelta : difference in pixels from previous setting<br>
+   *  	iSize  : size in pixel of text<br>
+   *  
+   *  * @author Lawrence Carvalho carvalho@uk.yahoo-inc.com
+   * @version 1.0
+   */
+
+  /**
+   * @constructor
+   */
+  TextResizeDetector = function() { 
+    var el  = null;
+    var iIntervalDelay  = 200;
+    var iInterval = null;
+    var iCurrSize = -1;
+    var iBase = -1;
+    var aListeners = [];
+    var createControlElement = function() {
+      el = document.createElement('span');
+      el.id='textResizeControl';
+      el.innerHTML='&nbsp;';
+      el.style.position="absolute";
+      el.style.left="-9999px";
+      var elC = document.getElementById(TextResizeDetector.TARGET_ELEMENT_ID);
+      // insert before firstChild
+      if (elC)
+        elC.insertBefore(el,elC.firstChild);
+      iBase = iCurrSize = TextResizeDetector.getSize();
+    };
+
+    function _stopDetector() {
+      window.clearInterval(iInterval);
+      iInterval=null;
+    };
+    function _startDetector() {
+      if (!iInterval) {
+        iInterval = window.setInterval('TextResizeDetector.detect()',
+                                       iIntervalDelay);
+      }
+    };
+ 	
+    function _detect() {
+      var iNewSize = TextResizeDetector.getSize();
+  		
+      if(iNewSize!== iCurrSize) {
+        for (var i=0;i <aListeners.length;i++) {
+          aListnr = aListeners[i];
+          var oArgs = {  iBase: iBase,iDelta:((iCurrSize!=-1) ? iNewSize - iCurrSize + 'px' : "0px"),iSize:iCurrSize = iNewSize};
+          if (!aListnr.obj) {
+            aListnr.fn('textSizeChanged',[oArgs]);
+  	  }
+          else  {
+  	    aListnr.fn.apply(aListnr.obj,['textSizeChanged',[oArgs]]);
+  	  }
+        }
+      }
+      return iCurrSize;
+    };
+
+    var onAvailable = function() {
+      if (!TextResizeDetector.onAvailableCount_i ) {
+        TextResizeDetector.onAvailableCount_i =0;
+      }
+      if (document.getElementById(TextResizeDetector.TARGET_ELEMENT_ID)) {
+        TextResizeDetector.init();
+        if (TextResizeDetector.USER_INIT_FUNC){
+          TextResizeDetector.USER_INIT_FUNC();
+        }
+        TextResizeDetector.onAvailableCount_i = null;
+      }
+      else {
+        if (TextResizeDetector.onAvailableCount_i<600) {
+          TextResizeDetector.onAvailableCount_i++;
+  	setTimeout(onAvailable,200)
+        }
+      }
+    };
+    setTimeout(onAvailable,500);
+
+    return {
+      /*
+       * Initializes the detector
+       * 
+       * @param {String} sId The id of the element in which to 
+       *   create the control element
+       */
+       init: function() {
+         createControlElement();		
+         _startDetector();
+       },
+       /**
+        * Adds listeners to the ontextsizechange event. 
+        * Returns the base font size
+        * 
+        */
+        addEventListener:function(fn,obj,bScope) {
+          aListeners[aListeners.length] = {
+            fn: fn,
+            obj: obj
+          }
+          return iBase;
+        },
+       /**
+        * performs the detection and fires textSizeChanged event
+        * @return the current font size
+        * @type {integer}
+        */
+        detect:function() {
+          return _detect();
+        },
+       /**
+        * Returns the height of the control element
+        * 
+        * @return the current height of control element
+        * @type {integer}
+        */
+        getSize:function() {
+          var iSize;
+          return el.offsetHeight;
+  		 		
+        },
+       /**
+        * Stops the detector
+        */
+        stopDetector:function() {
+          return _stopDetector();
+        },
+       /*
+        * Starts the detector
+        */
+        startDetector:function() {
+          return _startDetector();
+        }
+      }
+  }();
+  
+  TextResizeDetector.TARGET_ELEMENT_ID = 'doc';
+  TextResizeDetector.USER_INIT_FUNC = null;
+
+  // Setup the font-resize listener
+  function init()  
+  {
+     var iBase = TextResizeDetector.addEventListener(onFontResize,null);
+  }
+
+  function onFontResize(e,args) 
+  {
+     adjustRepeatTableWidth();
+  }
+
+  //id of element to check for and insert control
+  TextResizeDetector.TARGET_ELEMENT_ID = 'repeatTable';
+
+  //function to call once TextResizeDetector has init'd
+  TextResizeDetector.USER_INIT_FUNC = init;
+
+
+
+
+  /**
+   ** Our code to handle page specific elements
+   **/
+
+  // Setup the table expansion/collapse handler
+  function toggleDiv(divid){
+    if(document.getElementById(divid).style.display == 'none'){
+      document.getElementById(divid).style.display = 'block';
+    }else{
+      document.getElementById(divid).style.display = 'none';
+    }
+  }
+
+  // Setup the table resize method
+  function adjustRepeatTableWidth() 
+  {
+    var numInsertionLevels = 3;
+    var pixelPaddingPerLevel = 10;
+    var objColHeaderText = document.getElementById("colHeaderText");
+
+    if ( objColHeaderText != null ) 
+    {
+      var newWidth = objColHeaderText.offsetWidth + 
+                     ( pixelPaddingPerLevel * (numInsertionLevels - 1) ) + 30; 
+      document.getElementById("repeatTable").style.width = newWidth + "px";
+    }
+  }
+  
+  function toggleAllHsps() 
+  {
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      toggleDiv( 'hsps'+idx );
+      idx++;
+    }
+    return false;
+  }
+
+  function openAllHsps(){
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      document.getElementById('hsps'+idx).style.display = 'block';
+      idx++;
+    }
+    return false;
+  }
+
+  function closeAllHsps(){
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      document.getElementById('hsps'+idx).style.display = 'none';
+      idx++;
+    }
+    return false;
+  }
+
+</script>
+
+
+
+<body onload="adjustRepeatTableWidth()">
+
+<a href="javascript:;" onmousedown="closeAllHsps();">[ close all hsps ]</a>
+<a href="javascript:;" onmousedown="openAllHsps();">[ open all hsps ]</a>
+<div id="repeatTable" style="padding-right: 30px;">
+<div class="header" id="colHeaderContainer" style="background-color: #bcc3c8; border-bottom: 2px solid; margin-bottom: 5px;">
+<pre><b id="colHeaderText">
+                                                       -position in query-                              -position in repeat-
+        <span title="Percent divergence.">  %  </span> <span title="Percent deletion."> %  </span> <span title="Percent insertion."> %  </span>  <span title="Query sequence name/id.">query                       </span>                      <span title="Orientation of the repeat c=minus +=plus.">C</span> <span title="Name/ID of repeat.">matching   </span> <span title="Repeat class and family.">repeat        </span> <span title="Start position or remaining bases in repeat consensus.">(left)</span> <span title="End position in repeat consensus."> end  </span> <span title="Start position or remaining bases in repeat consensus.">begin </span> <span title="Linked repeats are denoted with duplicate IDs and connecting graphic bars.">linkage</span>
+<span title="Click on this link to expand/collapse individual annotation details."><u>+</u></span> <span title="Complexity adjusted Smith Waterman score.">score</span> <span title="Percent divergence."> div.</span> <span title="Percent deletion.">del.</span> <span title="Percent insertion.">ins.</span>  <span title="Query sequence name/id.">sequence                    </span>  <span title="Start of annotation in sequence.  The first base is numbered 1.">begin</span> <span title="End of annotation in sequence.  The first base is numbered 1."> end </span> <span title="The number of bases remaining in sequence.">(left) </span> <span title="Orientation of the repeat c=minus +=plus.">+</span> <span title="Name/ID of repeat.">repeat     </span> <span title="Repeat class and family.">class/family  </span> <span title="Start position or remaining bases in repeat consensus.">begin </span> <span title="End position in repeat consensus."> end  </span> <span title="Start position or remaining bases in repeat consensus.">(left)</span> <span title="Linked repeats are denoted with duplicate IDs and connecting graphic bars.">id/graphic</span></b>
+</pre>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps1');">+</a><b>   16    0.0  0.0  0.0  SPOS01000251.1:268700-306610      3    19 (37892) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     17    (0)   1  </b></pre><div id="hsps1" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   16   0.00 0.00 0.00  SPOS01000251.1:268700-306610      3    19   37747 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     17      0    
+16 0.00 0.00 0.00 SPOS01000251.1:268700-306610 3 19 (37747) (A)n#Simple_repeat 1 17 (0) m_b1s252i0
+
+  SPOS01000251.          3 AAAAAAAAAAAAAAAAA 19
+                                            
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAA 17
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (0/0)
+Gap_init rate = 0.00 (0 / 16), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps2');">+</a><b>   30    3.1  0.0  0.0  SPOS01000251.1:268700-306610     88   120 (37791) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(T)n'>(T)n       </a> Simple_repeat       1     33    (0)   2  </b></pre><div id="hsps2" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   30   3.10 0.00 0.00  SPOS01000251.1:268700-306610     88   120   37791 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(T)n'>(T)n       </a> Simple_repeat       1     33      0    
+30 3.10 0.00 0.00 SPOS01000251.1:268700-306610 88 120 (37791) (T)n#Simple_repeat 1 33 (0) c_b1s251i0
+
+  SPOS01000251.         88 TTTTTTTTTGTTTTTTTTTTTTTTTTTTTTTTT 120
+                                    v                       
+  (T)n#Simple_r          1 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT 33
+
+Matrix = Unknown
+Transitions / transversions = 0.00 (0/1)
+Gap_init rate = 0.00 (0 / 32), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps3');">+</a><b>  419   31.0  5.4  1.7  SPOS01000251.1:268700-306610   1071  1349 (36562) C <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1        (117)   3456   3168   3  </b></pre><div id="hsps3" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  419  31.01 5.38 1.73  SPOS01000251.1:268700-306610   1071  1349   36449 C <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         3168   3456    117    
+419 31.01 5.38 1.73 SPOS01000251.1:268700-306610 1071 1349 (36449) C Plat_L3#LINE/CR1 (117) 3456 3168 m_b1s551i0
+
+  SPOS01000251.       1071 TCTTAAACACCTCTGGGGATGGGGCATCCATTGC-TCTCTGGACAGCCTG 1119
+                                  v i   ii       i vv    ivi -  i  v ii    i 
+C Plat_L3#LINE/       3456 TCTTAAAGATCTCCAGGGATGGAGACTCCACAACCTCCCTCGGTAGCCCG 3407
+
+  SPOS01000251.       1120 TTTCAGTGCTTCACCACCCT--CTGTATAAGGAATTTTCACCTACAT--- 1164
+                             i     i  i i      -- v  -i   i i  i iv i  ii ---
+C Plat_L3#LINE/       3406 TTCCAGTGTTTTATCACCCTGACAGT-CAAGAAGTTCTTCCTTATGTCCA 3358
+
+  SPOS01000251.       1165 ----AAATCTCATTTATTTTAGATTTAAAGCCATTCTCCCTTTTACTGTT 1210
+                           ----       vii ii    -      iv     ii i   v v v  i
+C Plat_L3#LINE/       3357 ACCGAAATCTCTCCTGCTTTA-ATTTAAGCCCATTTCCTCTTGTTCGGTC 3309
+
+  SPOS01000251.       1211 A-CTGTCGGACCATGTAAAA-AGTTGGTTTCCTTTCTGTTTATAAGCTCC 1258
+                           v- ?  -    -   v i  - ii    ivv v i  viii    ivv  
+C Plat_L3#LINE/       3308 CTCNGT-GGAC-ATGGAGAACAACTGGTCAGCATCCTCCCCATAAAAACC 3261
+
+  SPOS01000251.       1259 ATTTAAATACTGGAAGGCTGAAAA-GAGTTATCCCTGTAGCCTTCTCTTC 1307
+                           v  i v     v    i v vv v-i   i i    -             
+C Plat_L3#LINE/       3260 CTTCATATACTTGAAGACAGTTATTAAGTCACCCCT-TAGCCTTCTCTTC 3212
+
+  SPOS01000251.       1308 --CAGACTGAACAAGACCAGCTCCCTCTGCATTTATTCATAGGA 1349
+                           --   i  i     vv   ii   i ivi v   vi        
+C Plat_L3#LINE/       3211 TCCAGGCTAAACAACCCCAATTCCTTTAACCTTTCCTCATAGGA 3168
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 41.23
+Transitions / transversions = 1.66 (53/32)
+Gap_init rate = 0.05 (13 / 278), avg. gap size = 1.54 (20 / 13)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps4');">+</a><b>   15    5.6  0.0  0.0  SPOS01000251.1:268700-306610   4038  4056 (33855) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     19    (0)   4  </b></pre><div id="hsps4" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   15   5.56 0.00 0.00  SPOS01000251.1:268700-306610   4038  4056   33742 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     19      0    
+15 5.56 0.00 0.00 SPOS01000251.1:268700-306610 4038 4056 (33742) (A)n#Simple_repeat 1 19 (0) m_b1s252i1
+
+  SPOS01000251.       4038 AAAAAAAAAAAAAAAGAAA 4056
+                                          i   
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAA 19
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (1/0)
+Gap_init rate = 0.00 (0 / 18), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps5');">+</a><b>   13   15.2  0.0  3.3  SPOS01000251.1:268700-306610   4115  4145 (33766) + <a class='nound' href='/cgi-bin/ViewRepeat?id=A-rich'>A-rich     </a> Low_complexity      1     30    (0)   5  </b></pre><div id="hsps5" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   13  15.20 0.00 3.33  SPOS01000251.1:268700-306610   4115  4145   33653 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(AAAT)n'>(AAAT)n    </a> Simple_repeat       1     30      0    
+13 15.20 0.00 3.33 SPOS01000251.1:268700-306610 4115 4145 (33653) (AAAT)n#Simple_repeat 1 30 (0) m_b1s252i2
+
+  SPOS01000251.       4115 AAATAATGACATAAATAAATAGATAAAGTAA 4145
+                                 vv v           i     -   
+  (AAAT)n#Simpl          1 AAATAAATAAATAAATAAATAAATAAA-TAA 30
+
+Matrix = Unknown
+Transitions / transversions = 0.33 (1/3)
+Gap_init rate = 0.03 (1 / 30), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps6');">+</a><b>  822   30.3  4.3  4.1  SPOS01000251.1:268700-306610   4384  5036 (32875) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-3_Croc'>CR1-3_Croc </a> LINE/CR1         2425   3567    (6)   6  </b></pre><div id="hsps6" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  822  31.07 4.00 3.44  SPOS01000251.1:268700-306610   4384  4933   32865 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-3_Croc'>CR1-3_Croc </a> LINE/CR1         2425   2977    628    
+822 31.07 4.00 3.44 SPOS01000251.1:268700-306610 4384 4933 (32865) CR1-3_Croc#LINE/CR1 2425 2977 (628) m_b1s551i1
+
+  SPOS01000251.       4384 TGGTAGACAAGAAGCTGAACATGAGCCAGCACT----TGCAGTC---CAG 4426
+                                  iv v ii  v  i     i v   v ----     i ---  i
+  CR1-3_Croc#LI       2425 TGGTAGATCACAGACTCAATATGAGTCTGCAGTGTGATGCAGCCGCACAA 2474
+
+  SPOS01000251.       4427 AAGGCCAACTGTG-TTCTGGGCTGCATTGAAAGAGG-----GGTGGCCAG 4470
+                                v  -  i -  i    v     ii v   i -----    --  i
+  CR1-3_Croc#LI       2475 AAGGCGAA-TGCGGTTTTGGGATGCATCAATAGAAGCATTAGGTG--CAA 2521
+
+  SPOS01000251.       4471 GAGGGGAGGGAGGTGATTGTCCCCCTCTACTCAGCTCTTGTGAGACCCCA 4520
+                             viv --         v  v  i        i  v  v  v  i  i  
+  CR1-3_Croc#LI       2522 GACACG--GGAGGTGATAGTGCCTCTCTACTCGGCACTGGTTAGGCCTCA 2569
+
+  SPOS01000251.       4521 TCTGCAGTAATGCATCCACGTCTGGGCTCC-CAGTGCAGGAAAGACACAG 4569
+                               v    v  ii v  vv          -  v vi ii  i   iii 
+  CR1-3_Croc#LI       2570 TCTGGAGTACTGTGTGCAGTTCTGGGCTCCACATTTTAAAAAGGACGTGG 2619
+
+  SPOS01000251.       4570 AGCTTTTGGAACGAGTCCTGAGGAGGGCCATTAAGATGATCAGAGGGCT- 4618
+                             vvv  i  iv i    v    v    v iv        - i      -
+  CR1-3_Croc#LI       2620 AGAAGTTAGAGAGGGTCCAGAGGCGGGCGACAAAGATGAT-AAAGGGCTT 2668
+
+  SPOS01000251.       4619 GGAGGACCTCTCCTGTGAGGAAAGGTTGAGGGAACTGGGCTTGTCTAGCT 4668
+                              i i vvv  v ii     i   i   i   i  i   v   ii    
+  CR1-3_Croc#LI       2669 GGAAGGCAAGTCATACGAGGAGAGGCTGAAGGAGCTAGGCATGTTCAGCT 2718
+
+  SPOS01000251.       4669 TGTCTAGCTTGAACAAGAGTAGGCTCT---GGGGAGACCTCATTGGGGCC 4715
+                             i------------i  iv    v  --- i  i   v v  v vi i 
+  CR1-3_Croc#LI       2719 TGC------------GGAAAAGGCGCTTAAGAGGGGACATGATAGCAGTC 2756
+
+  SPOS01000251.       4716 TTCCTGTATTTGAAA--CAGATACAAACTGGAGAGAGAACAGCTGTTTAC 4763
+                              vvi  i     i-- v vi i   vvi   i  i i  v  v  iv 
+  CR1-3_Croc#LI       2757 TTCAAATACTTGAAGGGCTGCCATAAAGAAGAGGGAAAGCACCTTTTCTC 2806
+
+  SPOS01000251.       4764 ATTGGTTGATAGTGATAAG-ACAAGGGGGAATGGTTTAAAACTAAGACAG 4812
+                           vi v i  -i  v  vi  -  iv  ivv     i  i  ii ivii  i
+  CR1-3_Croc#LI       2807 TCTTGCTG-CAGAGAGGAGGACGCGGACCAATGGCTTGAAGTTGCAGCAA 2855
+
+  SPOS01000251.       4813 GG-AGGTTTAGGTTTGATATTAGGAGGAAGTTTTTCACACAGAGGGTGGT 4861
+                           i -        i  v     iv   ii  v  i     vvvv  iiii  
+  CR1-3_Croc#LI       2856 AGTAGGTTTAGATTGGATATCCGGAAAAACTTCTTCACTGTTAGAACAGT 2905
+
+  SPOS01000251.       4862 GAGGCACTGGAACAGGTTGCCTAAGGAGGTTGTGGATGCCCCATCCCTGG 4911
+                                 v     i  ii      i   i        iv i     v    
+  CR1-3_Croc#LI       2906 GAGGCAGTGGAATAGACTGCCTAGGGAAGTTGTGGACTCTCCATCACTGG 2955
+
+  SPOS01000251.       4912 AGGCATTCAAGGGCAGGCTGGA 4933
+                              ii      iiv   i    
+  CR1-3_Croc#LI       2956 AGGTGTTCAAGAAGAGGTTGGA 2977
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 39.34
+Transitions / transversions = 1.39 (96/69)
+Gap_init rate = 0.05 (29 / 549), avg. gap size = 1.41 (41 / 29)
+
+  786  30.28 4.30 4.14  SPOS01000251.1:268700-306610   4386  5036   32762 + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         2916   3567      6    
+786 30.28 4.30 4.14 SPOS01000251.1:268700-306610 4386 5036 (32762) Plat_L3#LINE/CR1 2916 3567 (6) m_b1s551i2
+
+  SPOS01000251.       4386 GTAGACAAGAAGCTGAACATGAGCCAGCACTTGCAGTCC--------AGA 4427
+                             v   v ?        i     i     v - i   v -------- i 
+  Plat_L3#LINE/       2916 GTCGACCANAAGCTGAATATGAGTCAGCAAT-GTAGTGCCGTTATTAAAA 2964
+
+  SPOS01000251.       4428 AGGCCAACTGTGTT-CTGGGCTGCATTGAAAGAGGGGTGGCCAGGAGGGG 4476
+                            i      -   v -     v  i   i v  ii vi  i vv v i i 
+  Plat_L3#LINE/       2965 AAGCCAAC-GTGGTACTGGGATGTATTAACAGGAGTATGACATGCAAGAG 3013
+
+  SPOS01000251.       4477 -AGGGAGGTGATTGTCCCCCTCTACTCAGCTCTTGTGAGACCCCATCTGC 4525
+                           -v    i  i  iv i  v  v     v  v  v  v      ivvi iv
+  Plat_L3#LINE/       3014 TCGGGAAGTAATCCTTCCGCTATACTCTGCACTGGTCAGACCCTTATTAG 3063
+
+  SPOS01000251.       4526 AGTAATGCATCCACGTCTGGGCTCC-CAGTGCAGGAAAGACACAGAGCTT 4574
+                               v  ii    vv i   v v  -  v vi ii  i  iiii   vvv
+  Plat_L3#LINE/       3064 AGTACTGTGTCCAGTTTTGGTCACCGCACTTTAAAAAGGATGTGGAGAAA 3113
+
+  SPOS01000251.       4575 TTGGAACGAGTCCTGAGGAGGGCCATTAAGATGATCAGAGGGCTGGAGGA 4624
+                           i    iv i    v   i  i  v iv  i     i i    v    ii 
+  Plat_L3#LINE/       3114 CTGGAGAGGGTCCAGAGAAGAGCGACAAAAATGATTAAAGGGATGGAAAA 3163
+
+  SPOS01000251.       4625 CCTCTCCTGTGAGGAAAGGTTGAGGGAACTGGGCTTGTCTAGCTTGTCTA 4674
+                           ivvv    i            i i    i   --------- v    i  
+  Plat_L3#LINE/       3164 TAGGTCCTATGAGGAAAGGTTAAAGGAATTGG---------GGTTGTTTA 3204
+
+  SPOS01000251.       4675 GCTTGAACAAGAGTAGGCTCTGGGGAGACCTCATTGGGGCCTTCCTGTAT 4724
+                             i  i v     v     vv    v   i v  vivv i    vv    
+  Plat_L3#LINE/       3205 GCCTGGAGAAGAGAAGGCTAAGGGGTGACTTAATAACTGTCTTCAAGTAT 3254
+
+  SPOS01000251.       4725 TTGAAACAGATACAAACTGGAGAGA-----GAACAGCTGTT-TACATTGG 4768
+                           v    ivivv vi ---   i   i-----  v   i    - v   -- 
+  Plat_L3#LINE/       3255 ATGAAGGGTTTTTA---TGGGGAGGATGCTGACCAGTTGTTCTCCAT--G 3299
+
+  SPOS01000251.       4769 TTGATAG-TGATAAGACAAGGGGGAATGGTTTAAAACTAAGACAGG-GAG 4816
+                            iv i? -v  ivii     i  i     vi v   i   ii    -   
+  Plat_L3#LINE/       3300 TCCACNGAGGACCGAACAAGAGGAAATGGGCTTAAATTAAAGCAGGAGAG 3349
+
+  SPOS01000251.       4817 GTTTAGGTTTGATATTAGGAGGAAGTTTTTCACACAGAGGGTGGTGAGGC 4866
+                           i   v    v  i  v    i   v  i  v  vvvv      i i ii 
+  Plat_L3#LINE/       3350 ATTTCGGTTGGACATAAGGAAGAACTTCTTGACTGTCAGGGTGATAAAAC 3399
+
+  SPOS01000251.       4867 ACTGGAACAGGTTGCCTAAGGAGGTTGTGGATGCCCCATCCCTGGAGGCA 4916
+                                   i  i i  v i            vv i            iiv
+  Plat_L3#LINE/       3400 ACTGGAACGGGCTACCGAGGGAGGTTGTGGAGTCTCCATCCCTGGAGATC 3449
+
+  SPOS01000251.       4917 TTCAAGGGCAGGCTGGATGTGGCTCTGGGCAGCCTGGTCTCATGGTT--G 4964
+                             i   iiv  iv i  ii?vvv    ----v     ----      -- 
+  Plat_L3#LINE/       3450 TTTAAGAAAAGAATAGACANCCATCTG----TCCTGG----ATGGTTTAG 3491
+
+  SPOS01000251.       4965 GCA---ACC--CCTGTATGCAGGGTGTTGAAATTAGATGATCT-TCGTGG 5008
+                           v  ---   --    v v      v i  -i ii      i  -   v  
+  Plat_L3#LINE/       3492 TCATTCACCTGCCTGGAGGCAGGGGGCTG-GACCAGATGACCTCTCGAGG 3540
+
+  SPOS01000251.       5009 TCCTTTTCAAC-CCAGGCCATTCTATGAT 5036
+                              i  i  i - i ? --          
+  Plat_L3#LINE/       3541 TCCCTTCCAGCTCTANG--ATTCTATGAT 3567
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 39.34
+Transitions / transversions = 1.15 (101/88)
+Gap_init rate = 0.06 (40 / 650), avg. gap size = 1.38 (55 / 40)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps7');">+</a><b>   33   21.1  0.0  2.5  SPOS01000251.1:268700-306610   6801  6881 (31030) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TAT)n'>(TAT)n     </a> Simple_repeat       1     79    (0)   7  </b></pre><div id="hsps7" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   33  21.12 0.00 2.53  SPOS01000251.1:268700-306610   6801  6881   30917 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TAT)n'>(TAT)n     </a> Simple_repeat       1     79      0    
+33 21.12 0.00 2.53 SPOS01000251.1:268700-306610 6801 6881 (30917) (TAT)n#Simple_repeat 1 79 (0) m_b1s252i3
+
+  SPOS01000251.       6801 TATGAATATTCTTACAGTTATTATTTAGGTGTTATTGTTATTGTTGTTGT 6850
+                              v v    v   ivi      -   -v i     i     i  i  i 
+  (TAT)n#Simple          1 TATTATTATTATTATTATTATTA-TTA-TTATTATTATTATTATTATTAT 48
+
+  SPOS01000251.       6851 TGTTATTATTACTATTATTATTATTATTATT 6881
+                            i         i                   
+  (TAT)n#Simple         49 TATTATTATTATTATTATTATTATTATTATT 79
+
+Matrix = Unknown
+Transitions / transversions = 1.80 (9/5)
+Gap_init rate = 0.03 (2 / 80), avg. gap size = 1.00 (2 / 2)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps8');">+</a><b>   22    3.8  0.0  0.0  SPOS01000251.1:268700-306610   7840  7866 (30045) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(T)n'>(T)n       </a> Simple_repeat       1     27    (0)   8  </b></pre><div id="hsps8" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   22   3.81 0.00 0.00  SPOS01000251.1:268700-306610   7840  7866   29932 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(T)n'>(T)n       </a> Simple_repeat       1     27      0    
+22 3.81 0.00 0.00 SPOS01000251.1:268700-306610 7840 7866 (29932) (T)n#Simple_repeat 1 27 (0) m_b1s252i4
+
+  SPOS01000251.       7840 TTTGTTTTTTTTTTTTTTTTTTTTTTT 7866
+                              v                       
+  (T)n#Simple_r          1 TTTTTTTTTTTTTTTTTTTTTTTTTTT 27
+
+Matrix = Unknown
+Transitions / transversions = 0.00 (0/1)
+Gap_init rate = 0.00 (0 / 26), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps9');">+</a><b>  816   29.8  4.0  2.6  SPOS01000251.1:268700-306610   8435  8885 (29026) C <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1          (3)   3570   3114   9  </b></pre><div id="hsps9" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  816  29.83 3.99 2.63  SPOS01000251.1:268700-306610   8435  8885   28913 C <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         3114   3570      3    
+816 29.83 3.99 2.63 SPOS01000251.1:268700-306610 8435 8885 (28913) C Plat_L3#LINE/CR1 (3) 3570 3114 m_b1s551i3
+
+  SPOS01000251.       8435 AAAATCACAGAATTGTAGGGGTTGGAAGGGACCTCTAGAGATCATTATCT 8484
+                            i     i     i?   i -i             v    i    ---  
+C Plat_L3#LINE/       3570 AGAATCATAGAATCNTAGAG-CTGGAAGGGACCTCGAGAGGTCAT---CT 3525
+
+  SPOS01000251.       8485 AGTCTAGCCCCCCCCCTGCAAAGCAGGCA---CCCTAGACCATGTTGCAC 8531
+                           i   i       iv   v  i-     ii---vv   i     viv v  
+C Plat_L3#LINE/       3524 GGTCCAGCCCCCTGCCTCCAG-GCAGGTGAATGACTAAACCATCCAGGAC 3476
+
+  SPOS01000251.       8532 AGGTAAGCACCCAGGCAGGTCTTGAATATCTCCAGAGAAGGAGACTCCAC 8581
+                             i ii?iii i vv vvv    i  v        i  v           
+C Plat_L3#LINE/       3475 AGATGGNTGTCTATTCTTTTCTTAAAGATCTCCAGGGATGGAGACTCCAC 3426
+
+  SPOS01000251.       8582 CACCTCCCTTGGCAGCCTGTTCCAGTGCTCCGTCA-CCTCACTGTGAAGA 8630
+                           v        i  i    i         i iii   -   v  v  v    
+C Plat_L3#LINE/       3425 AACCTCCCTCGGTAGCCCGTTCCAGTGTTTTATCACCCTGACAGTCAAGA 3376
+
+  SPOS01000251.       8631 AGTTCTTGCTCATATTTGTGTGGAACTTCCCACGCTTTAGTTTGTGGCTA 8680
+                                  v  i  i iiivvi i  ii  i vi      i   iv v i 
+C Plat_L3#LINE/       3375 AGTTCTTCCTTATGTCCAACCGAAATCTCTCCTGCTTTAATTTAAGCCCA 3326
+
+  SPOS01000251.       8681 TTTCCCCTCAAT--GTCACACAC----CACTGAAAAGATTCTGGCCTTGT 8724
+                                i  iiv --   - v ?v----  iv  i  v -v    i vvvv
+C Plat_L3#LINE/       3325 TTTCCTCTTGTTCGGTC-CTCNGTGGACATGGAGAACA-ACTGGTCAGCA 3278
+
+  SPOS01000251.       8725 TCCTTTGCTTCCCACA-----CCTT-AGATATTTATAGACATTGATAAGA 8768
+                             -----  i    i -----    - v   i  iv     v v  v ii
+C Plat_L3#LINE/       3277 TC-----CTCCCCATAAAAACCCTTCATATACTTGAAGACAGTTATTAAG 3233
+
+  SPOS01000251.       8769 TCCCCTCT--GACTTCTTTTCTCAAGGCTGAACAGACCCAGGTTGCTCAG 8816
+                             v  i  -- v     i     v     i    iv    iv ivi i i
+C Plat_L3#LINE/       3232 TCACCCCTTAGCCTTCTCTTCTCCAGGCTAAACAACCCCAATTCCTTTAA 3183
+
+  SPOS01000251.       8817 CCTTTTCTCATAAGAGAGGCGCTCCAGGCCCTTTATCATCTTTGTGGCCC 8866
+                                i      i  vvviivi    vv  i  v     i     v  i 
+C Plat_L3#LINE/       3182 CCTTTCCTCATAGGACCTATTTTCCATCCCTTTAATCATTTTTGTCGCTC 3133
+
+  SPOS01000251.       8867 TCCGCTGGACTCTTTCCAG 8885
+                            i v      i  i     
+C Plat_L3#LINE/       3132 TTCTCTGGACCCTCTCCAG 3114
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 38.30
+Transitions / transversions = 1.38 (76/55)
+Gap_init rate = 0.04 (19 / 450), avg. gap size = 1.58 (30 / 19)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps10');">+</a><b>  198   28.6  0.0  1.8  SPOS01000251.1:268700-306610   9237  9293 (28618) C <a class='nound' href='/cgi-bin/ViewRepeat?id=MIR3'>MIR3       </a> SINE/MIR          (3)    205    150  10  </b></pre><div id="hsps10" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  198  28.58 0.00 1.79  SPOS01000251.1:268700-306610   9237  9293   28505 C <a class='nound' href='/cgi-bin/ViewRepeat?id=MIR3'>MIR3       </a> SINE/MIR          150    205      3    
+198 28.58 0.00 1.79 SPOS01000251.1:268700-306610 9237 9293 (28505) C MIR3#SINE/MIR (3) 205 150 m_b1s601i0
+
+  SPOS01000251.       9237 TCATAAAATCAATGAATCAATAAGGTTGGAAAAGACCTGTAAGATCATTC 9286
+                                i     vv    -ivi ii i     ii     vvi       ii
+C MIR3#SINE/MIR        205 TCATAGAATCATAGAAT-GTCAGAGCTGGAAGGGACCTTAGAGATCATCT 157
+
+  SPOS01000251.       9287 AGTCCAA 9293
+                                  
+C MIR3#SINE/MIR        156 AGTCCAA 150
+
+Matrix = 25p39g.matrix
+Kimura (with divCpGMod) = 37.82
+Transitions / transversions = 2.20 (11/5)
+Gap_init rate = 0.02 (1 / 56), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps11');">+</a><b>  352   32.6  4.3  1.4  SPOS01000251.1:268700-306610   9363  9642 (28269) C <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1        (115)   3458   3171  11  </b></pre><div id="hsps11" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  352  32.59 4.29 1.39  SPOS01000251.1:268700-306610   9363  9642   28156 C <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         3171   3458    115    
+352 32.59 4.29 1.39 SPOS01000251.1:268700-306610 9363 9642 (28156) C Plat_L3#LINE/CR1 (115) 3458 3171 m_b1s551i4
+
+  SPOS01000251.       9363 TTTCTTGAAAATCTACAGAGGCAGTGACTTAACAGCCTCCATGGACAGCC 9412
+                                 i  i    v   i iii v    iv   i     v v ii    
+C Plat_L3#LINE/       3458 TTTCTTAAAGATCTCCAGGGATGGAGACTCCACAACCTCCCTCGGTAGCC 3409
+
+  SPOS01000251.       9413 TGTTCCAGTGCCTGACCATTCTTTCAG-GGAGAAATTGTTTGTAATATCC 9461
+                           i         ii v i  ii  vv   -vi    i  v  iv v  i   
+C Plat_L3#LINE/       3408 CGTTCCAGTGTTTTATCACCCTGACAGTCAAGAAGTTCTTCCTTATGTCC 3359
+
+  SPOS01000251.       9462 AACCTGAAAGTC-CCTGC-ACAACATGAGGCTATTCCCTCTCATCCTATT 9509
+                               vi  vv  -     -vi  iv i  v i   i     ii i vi i
+C Plat_L3#LINE/       3358 AACCGAAATCTCTCCTGCTTTAATTTAAGCCCATTTCCTCTTGTTCGGTC 3309
+
+  SPOS01000251.       9510 G-CTGT-TACTTGGAAAAAGA--GGCCAACTACCAACTCATCACAACCTC 9555
+                           v- ?  -v  v    i  vi --  i  i vv  vv i   v v  --- 
+C Plat_L3#LINE/       3308 CTCNGTGGACATGGAGAACAACTGGTCAGCATCCTCCCCATAAAAA---C 3262
+
+  SPOS01000251.       9556 CTTTCAGGTAGTTGCATAT-GTCAATAAGGTCTCCCCTGAGCCTCCTCTT 9604
+                            i    vi  v   v v i-  i v   -   v     v     i     
+C Plat_L3#LINE/       3261 CCTTCATATACTTGAAGACAGTTATTAA-GTCACCCCTTAGCCTTCTCTT 3213
+
+  SPOS01000251.       9605 CTCTAGATT----AATCCCTGTTCCCTCAGCTACTCCACATA 9642
+                              i  ii ----  i   vi    i i i ivi   v    
+C Plat_L3#LINE/       3212 CTCCAGGCTAAACAACCCCAATTCCTTTAACCTTTCCTCATA 3171
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 43.62
+Transitions / transversions = 1.31 (51/39)
+Gap_init rate = 0.04 (12 / 279), avg. gap size = 1.33 (16 / 12)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps12');">+</a><b>  749   32.2  2.6  2.4  SPOS01000251.1:268700-306610  11024 11567 (26344) + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         3027   3571    (2)  12  </b></pre><div id="hsps12" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  749  32.20 2.57 2.39  SPOS01000251.1:268700-306610  11024 11567   26231 + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         3027   3571      2    
+749 32.20 2.57 2.39 SPOS01000251.1:268700-306610 11024 11567 (26231) Plat_L3#LINE/CR1 3027 3571 (2) m_b1s551i5
+
+  SPOS01000251.      11024 CTTCCTCTA--CTCAGCTCTTGTGAGGCCCCATCTGCAGTACTGCGTCCA 11071
+                                v   --   v  v  v  v  i   ivvi iv       i     
+  Plat_L3#LINE/       3027 CTTCCGCTATACTCTGCACTGGTCAGACCCTTATTAGAGTACTGTGTCCA 3076
+
+  SPOS01000251.      11072 GGTCTGGGGCCCCCAGCAC---AATAAAGACACAGAGCTCTTGAAACAAG 11118
+                            v i   ---i v v    ---  v  i  iiii   vvvi  i ivii 
+  Plat_L3#LINE/       3077 GTTTTGG---TCACCGCACTTTAAAAAGGATGTGGAGAAACTGGAGAGGG 3123
+
+  SPOS01000251.      11119 TCCAGGGGAGGGCCACTAAGATGATCAGAGG-ATGGAGCACCTCTCCTAT 11167
+                                i i  i  v  v  i     i i   -     iv ivvv      
+  Plat_L3#LINE/       3124 TCCAGAGAAGAGCGACAAAAATGATTAAAGGGATGGAAAATAGGTCCTAT 3173
+
+  SPOS01000251.      11168 GAGGAAAGGTTGAGAGAACTGGGCTTGTCTAGCTTGGACAAGAGTAAGCT 11217
+                                      i ii   i    v    i    i    v     v i   
+  Plat_L3#LINE/       3174 GAGGAAAGGTTAAAGGAATTGGGGTTGTTTAGCCTGGAGAAGAGAAGGCT 3223
+
+  SPOS01000251.      11218 CTGGGGAGACCTCATTGTGGCTTTCCAGTACTTCAAGGAACTGTATAAAC 11267
+                           vv    v   i v  viiv ii   v    iv v    ivi v   iiiv
+  Plat_L3#LINE/       3224 AAGGGGTGACTTAATAACTGTCTTCAAGTATATGAAGGGTTTTTATGGGG 3273
+
+  SPOS01000251.      11268 AGAAGGGGGAACAGCTGTT-TACATGGATTGATAG-TGATAGGATAAGGG 11315
+                             i v vv  v   i    - v    -- iv i? -v  iv i i   i 
+  Plat_L3#LINE/       3274 AGGATGCTGACCAGTTGTTCTCCATG--TCCACNGAGGACCGAACAAGAG 3321
+
+  SPOS01000251.      11316 AGAGTGGTTTTAAAACTAAGACAGGGCAGGTTTAGGTTTGATATTAGGAG 11365
+                           ii i   vi     -i   ii    iv  i   v    v  i  v    i
+  Plat_L3#LINE/       3322 GAAATGGGCTTAAA-TTAAAGCAGGAGAGATTTCGGTTGGACATAAGGAA 3370
+
+  SPOS01000251.      11366 GAAGTTTTTCACACAGAGGGTGGTGAGGCACTGGAACAGGTTGCCCAAGG 11415
+                              v  i  v  vvvv      i i ii         i  i i  v i  
+  Plat_L3#LINE/       3371 GAACTTCTTGACTGTCAGGGTGATAAAACACTGGAACGGGCTACCGAGGG 3420
+
+  SPOS01000251.      11416 AGGCTGTGGATGCCCCATCCCT-GAGGCATTCAAG-GCAGGCTGGATGTG 11463
+                              i      vv i        -   iiv  i   -iv  iv i  ii?v
+  Plat_L3#LINE/       3421 AGGTTGTGGAGTCTCCATCCCTGGAGATCTTTAAGAAAAGAATAGACANC 3470
+
+  SPOS01000251.      11464 GCTCTGGGCAGCCTGGTCTGGTGGTTGGTGACC--CCTGTATGCAGGGGT 11511
+                           vv    vv v vv    i i  vi --- v   --    v v       -
+  Plat_L3#LINE/       3471 CATCTGTCCTGGATGGTTTAGTCAT---TCACCTGCCTGGAGGCAGGGG- 3516
+
+  SPOS01000251.      11512 GTTGAAATTAGATGATCT-TCGTAGTCCTTTTCAAC-CCAGGCCATTCTG 11559
+                            i  -i ii      i  -   vi    i  i  i - i ? --     i
+  Plat_L3#LINE/       3517 GCTG-GACCAGATGACCTCTCGAGGTCCCTTCCAGCTCTANG--ATTCTA 3563
+
+  SPOS01000251.      11560 TGATTTTA 11567
+                                i  
+  Plat_L3#LINE/       3564 TGATTCTA 3571
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 43.24
+Transitions / transversions = 1.28 (96/75)
+Gap_init rate = 0.04 (23 / 543), avg. gap size = 1.17 (27 / 23)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps13');">+</a><b>  377   35.2  2.2  3.4  SPOS01000251.1:268700-306610  11571 11931 (25980) + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         3201   3557   (16)  13  </b></pre><div id="hsps13" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  377  35.25 2.22 3.36  SPOS01000251.1:268700-306610  11571 11931   25867 + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         3201   3557     16    
+377 35.25 2.22 3.36 SPOS01000251.1:268700-306610 11571 11931 (25867) Plat_L3#LINE/CR1 3201 3557 (16) m_b1s551i6
+
+  SPOS01000251.      11571 TTCAATCTGGAGAAGAGAAGGCTATGAGATGACTTAATAGCAGGCTTTCA 11620
+                             i ii                  v i i          i v v   iv 
+  Plat_L3#LINE/       3201 TTTAGCCTGGAGAAGAGAAGGCTAAGGGGTGACTTAATAACTGTCTTCAA 3250
+
+  SPOS01000251.      11621 GTATCTAAAGGGGAGCTACATGAAATAAGGGAACAGACTGTTTAGCAGGG 11670
+                               v i     vvvi  iiv i iv v vvi  viii    ivv  v v
+  Plat_L3#LINE/       3251 GTATATGAAGGGTTTTTATGGGGAGGATGCTGACCAGTTGTTCTCCATGT 3300
+
+  SPOS01000251.      11671 TTGTGG-TGATTGAACAAGGTGAAATATCTTCAAGCCCAAAAAGGGTACA 11719
+                           iiii? -v  ii       iv     ivvi i  iiiv  iv   iv v 
+  Plat_L3#LINE/       3301 CCACNGAGGACCGAACAAGAGGAAATGGGCTTAAATTAAAGCAGGAGAGA 3350
+
+  SPOS01000251.      11720 TTTAGATAGCAGATAGGAAAAAAGTCTTCTACACAG--AGAGTGGTGAGA 11767
+                              v i v v v   i i  i  --     vv  v --  i   i i i 
+  Plat_L3#LINE/       3351 TTTCGGTTGGACATAAGGAAGAA--CTTCTTGACTGTCAGGGTGATAAAA 3398
+
+  SPOS01000251.      11768 CACTGGAACAGGTTGTCCAGAGTTGTGGTTGATTTGCCTCATCCCTGGGG 11817
+                                    i  i ii v  i vv  v  v  v -- ii         i 
+  Plat_L3#LINE/       3399 CACTGGAACGGGCTACCGAGGGAGGTTGTGGAGT--CTCCATCCCTGGAG 3446
+
+  SPOS01000251.      11818 ACTTTCAAGGCCAGTGTGGATCAGTC-CCTGGGCAGCCTGATCTAGCTGT 11866
+                            ii  i   ivv  vi i  -  ?i -i   vv v vv  i i   i---
+  Plat_L3#LINE/       3447 ATCTTTAAGAAAAGAATAGA-CANCCATCTGTCCTGGATGGTTTAGT--- 3492
+
+  SPOS01000251.      11867 GTGTGCCCCTGTTCACTGCAG---GAGAGATGGACTAGATGCCCTTTGAA 11913
+                           -ii v v    i---   v  --- i i v     i     v   i vi 
+  Plat_L3#LINE/       3493 -CATTCACCTGC---CTGGAGGCAGGGGGCTGGACCAGATGACCTCTCGA 3538
+
+  SPOS01000251.      11914 GGT-CCTTCCAATTCTAAG 11931
+                              -       ii    ? 
+  Plat_L3#LINE/       3539 GGTCCCTTCCAGCTCTANG 3557
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 48.21
+Transitions / transversions = 1.32 (70/53)
+Gap_init rate = 0.05 (17 / 360), avg. gap size = 1.18 (20 / 17)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps14');">+</a><b>   46    5.7  0.0  0.0  SPOS01000251.1:268700-306610  11935 11990 (25921) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TCTATGAT)n'>(TCTATGAT)n</a> Simple_repeat       1     56    (0)  14  </b></pre><div id="hsps14" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   46   5.67 0.00 0.00  SPOS01000251.1:268700-306610  11935 11990   25921 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(TCTATGAT)n'>(TCTATGAT)n</a> Simple_repeat       1     56      0    
+46 5.67 0.00 0.00 SPOS01000251.1:268700-306610 11935 11990 (25921) (TCTATGAT)n#Simple_repeat 1 56 (0) c_b1s251i1
+
+  SPOS01000251.      11935 TCTATGATTCTGTGATTCTGTGATTCTATGATTCTATGATTCTATGATTC 11984
+                                      i       i                              
+  (TCTATGAT)n#S          1 TCTATGATTCTATGATTCTATGATTCTATGATTCTATGATTCTATGATTC 50
+
+  SPOS01000251.      11985 TGTGAT 11990
+                            i    
+  (TCTATGAT)n#S         51 TATGAT 56
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (3/0)
+Gap_init rate = 0.00 (0 / 55), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps15');">+</a><b>   27    3.2  0.0  0.0  SPOS01000251.1:268700-306610  15497 15528 (22383) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     32    (0)  15  </b></pre><div id="hsps15" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   27   3.23 0.00 0.00  SPOS01000251.1:268700-306610  15497 15528   22325 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     32      0    
+27 3.23 0.00 0.00 SPOS01000251.1:268700-306610 15497 15528 (22325) (A)n#Simple_repeat 1 32 (0) m_b1s252i5
+
+  SPOS01000251.      15497 AAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAA 15528
+                                         i                 
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 32
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (1/0)
+Gap_init rate = 0.00 (0 / 31), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps16');">+</a><b> 1030   30.7  2.6  2.6  SPOS01000251.1:268700-306610  17114 17755 (20156) + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         2929   3570    (3)  16  </b></pre><div id="hsps16" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+ 1030  30.72 2.65 2.65  SPOS01000251.1:268700-306610  17114 17755   20098 + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         2929   3570      3    
+1030 30.72 2.65 2.65 SPOS01000251.1:268700-306610 17114 17755 (20098) Plat_L3#LINE/CR1 2929 3570 (3) m_b1s551i7
+
+  SPOS01000251.      17114 TGCACATGAGCCAGCAGTGT---GCCCTTGTGGCCAAGAGGGCCAACGGC 17160
+                             v i     i     i   ---   v  i ---i  i ii       vv
+  Plat_L3#LINE/       2929 TGAATATGAGTCAGCAATGTAGTGCCGTTAT---TAAAAAAGCCAACGTG 2975
+
+  SPOS01000251.      17161 ATCCTGGGGTGCATTAAAAAGAGCATGGCCAGCAGGTCGAGGGAGGAGGT 17210
+                           i v     i  i     v i   i   i vv   i ---  vvi   i  
+  Plat_L3#LINE/       2976 GTACTGGGATGTATTAACAGGAGTATGACATGCAAG---AGTCGGGAAGT 3022
+
+  SPOS01000251.      17211 GATCCTCCCCCTCTACTCTGCCCTGCTAAGG-CCTCATCTGGAGTACTGC 17259
+                           i     i  v  v        v   v v  i-   i  - i        i
+  Plat_L3#LINE/       3023 AATCCTTCCGCTATACTCTGCACTGGTCAGACCCTTAT-TAGAGTACTGT 3071
+
+  SPOS01000251.      17260 GTCCAGTGCTGGGCTCCCCAGTACAAAAAAAGACAGGGATCTCTTGAAAA 17309
+                                  vi   v v  v  v -iv     i  iiv   vvvvi  i i 
+  Plat_L3#LINE/       3072 GTCCAGTTTTGGTCACCGCACT-TTAAAAAGGATGTGGAGAAACTGGAGA 3120
+
+  SPOS01000251.      17310 GAGTCCAGCGGAGGGCCACAAAGATGGTGAAGGGCCTGGAGCATCTCTCC 17359
+                            i      v i  i  v     i   i v  i  vv    iv  vvv   
+  Plat_L3#LINE/       3121 GGGTCCAGAGAAGAGCGACAAAAATGATTAAAGGGATGGAAAATAGGTCC 3170
+
+  SPOS01000251.      17360 TGTGAAGAAAGGCTGAGTGAACTGGGTCTGTTCAGCCTTGAGAAAAGAAG 17409
+                            i   i      i i iv   i    vi    i     v     i     
+  Plat_L3#LINE/       3171 TATGAGGAAAGGTTAAAGGAATTGGGGTTGTTTAGCCTGGAGAAGAGAAG 3220
+
+  SPOS01000251.      17410 ACTGAGAGGGGACCTGATCCAGGTCTATAAATATCTGAGG------TGTG 17453
+                           i  i  i  v   i i  vvvv    vi  i   v   i ------ i  
+  Plat_L3#LINE/       3221 GCTAAGGGGTGACTTAATAACTGTCTTCAAGTATATGAAGGGTTTTTATG 3270
+
+  SPOS01000251.      17454 GGGGGCAGAATGGCGAGGCCAGACTCTTTTCAGCTGTATGTGGA-GACAG 17502
+                              ---  i   vi  --    vivi i i  --   viii?  -   v 
+  Plat_L3#LINE/       3271 GGG---AGGATGCTGA--CCAGTTGTTCTCCA--TGTCCACNGAGGACCG 3313
+
+  SPOS01000251.      17503 GAAAAGGGGAAACAGCTGGAAACTGCAGCATAGGAAGTTCCACACCAATG 17552
+                           i v   i     ii vivv   i iv    vii  ii  i ivvivi ii
+  Plat_L3#LINE/       3314 AACAAGAGGAAATGGGCTTAAATTAAAGCAGGAGAGATTTCGGTTGGACA 3363
+
+  SPOS01000251.      17553 TGCGCAAGAACTTCTTTACAGTGA-GGTGACGGAGCACTGGAACAGGCTG 17601
+                            iv v           v  v  v -     iii i         i    i
+  Plat_L3#LINE/       3364 TAAGGAAGAACTTCTTGACTGTCAGGGTGATAAAACACTGGAACGGGCTA 3413
+
+  SPOS01000251.      17602 CCCAGGGAGGTGGTGGAGTCTCCTTCTCTGGAGATGTTCCAGACCTGCCT 17651
+                             v        v           v  i        v  iv   vvv vv 
+  Plat_L3#LINE/       3414 CCGAGGGAGGTTGTGGAGTCTCCATCCCTGGAGATCTTTAAGAAAAGAAT 3463
+
+  SPOS01000251.      17652 GGGTGCCTACCTGTGCGACCTGCTGTAGGGA---ACCTGCTTT--GGCAG 17696
+                           i iii? i i    v vivv  v v   vv ---      i v--    -
+  Plat_L3#LINE/       3464 AGACANCCATCTGTCCTGGATGGTTTAGTCATTCACCTGCCTGGAGGCA- 3512
+
+  SPOS01000251.      17697 GGGGGTTGGACTCGATGATCTCTGGAGCTCCCTTCCAAGCCCTATAATGC 17746
+                                i     iv     i    v   v        -   i   ?i  v 
+  Plat_L3#LINE/       3513 GGGGGCTGGACCAGATGACCTCTCGAGGTCCCTTCC-AGCTCTANGATTC 3561
+
+  SPOS01000251.      17747 TGTGATTCT 17755
+                            i       
+  Plat_L3#LINE/       3562 TATGATTCT 3570
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 39.84
+Transitions / transversions = 1.21 (105/87)
+Gap_init rate = 0.04 (24 / 641), avg. gap size = 1.42 (34 / 24)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps17');">+</a><b>  405   28.1  6.0  6.4  SPOS01000251.1:268700-306610  17783 18033 (19878) + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         3319   3568    (5)  17  </b></pre><div id="hsps17" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  405  28.09 5.98 6.40  SPOS01000251.1:268700-306610  17783 18033   19820 + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         3319   3568      5    
+405 28.09 5.98 6.40 SPOS01000251.1:268700-306610 17783 18033 (19820) Plat_L3#LINE/CR1 3319 3568 (5) m_b1s551i8
+
+  SPOS01000251.      17783 GAGGAAAT-GGCTGCAATTTGTGCCAGAGGAGGTTTAGGTTAGACATAAA 17831
+                                   -    vv    viv -   ii   i   v    i       i
+  Plat_L3#LINE/       3319 GAGGAAATGGGCTTAAATTAAAG-CAGGAGAGATTTCGGTTGGACATAAG 3367
+
+  SPOS01000251.      17832 GAAGAACTTTTT--CTCTCAGAGTGGTCAGGCACTTGAAT-GGCTGCCCA 17878
+                                    i  --  v    i   i v ii    v   i-    i  v 
+  Plat_L3#LINE/       3368 GAAGAACTTCTTGACTGTCAGGGTGATAAAACACTGGAACGGGCTACCGA 3417
+
+  SPOS01000251.      17879 GGGAGGTGGTGGAGTTGCTGTCCCTGGCAGTGTTCAAGAGGCATCTGGAT 17928
+                                  v       iv ii       vii v  i    iivivv i  i
+  Plat_L3#LINE/       3418 GGGAGGTTGTGGAGTCTCCATCCCTGGAGATCTTTAAGAAAAGAATAGAC 3467
+
+  SPOS01000251.      17929 GAGGAGCTACGAGATATGGTTTAGTA--------GCTTGTAGTAGCAAGG 17970
+                           i?vv v  iivvviv          v--------  i  v  --   i  
+  Plat_L3#LINE/       3468 ANCCATCTGTCCTGGATGGTTTAGTCATTCACCTGCCTGGAG--GCAGGG 3515
+
+  SPOS01000251.      17971 GTAATGGGTGAATAGCTGGACTAGATGATCTTTCCAA---CCTTGTGATT 18017
+                            -------------       i      i  i  v i---    viiii 
+  Plat_L3#LINE/       3516 G-------------GCTGGACCAGATGACCTCTCGAGGTCCCTTCCAGCT 3552
+
+  SPOS01000251.      18018 CTATGATTCTGTGATT 18033
+                              ?      i     
+  Plat_L3#LINE/       3553 CTANGATTCTATGATT 3568
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 35.84
+Transitions / transversions = 1.44 (39/27)
+Gap_init rate = 0.08 (21 / 250), avg. gap size = 1.48 (31 / 21)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps18');">+</a><b>   17   10.9  0.0  6.1  SPOS01000251.1:268700-306610  18646 18684 (19227) + <a class='nound' href='/cgi-bin/ViewRepeat?id=A-rich'>A-rich     </a> Low_complexity      1     36    (0)  18  </b></pre><div id="hsps18" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   15   3.56 0.00 12.12  SPOS01000251.1:268700-306610  18646 18682   19171 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(AAAAAC)n'>(AAAAAC)n  </a> Simple_repeat       1     33      0    
+15 3.56 0.00 12.12 SPOS01000251.1:268700-306610 18646 18682 (19171) (AAAAAC)n#Simple_repeat 1 33 (0) m_b1s252i6
+
+  SPOS01000251.      18646 AAAAACAAACATACAGACAAACAAAAACAAAAACGAA 18682
+                                    - -   - -                i  
+  (AAAAAC)n#Sim          1 AAAAACAAA-A-ACA-A-AAACAAAAACAAAAACAAA 33
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (1/0)
+Gap_init rate = 0.11 (4 / 36), avg. gap size = 1.00 (4 / 4)
+
+   17  18.27 0.00 0.00  SPOS01000251.1:268700-306610  18648 18684   19169 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(AAAC)n'>(AAAC)n    </a> Simple_repeat       1     37      0    
+17 18.27 0.00 0.00 SPOS01000251.1:268700-306610 18648 18684 (19169) (AAAC)n#Simple_repeat 1 37 (0) m_b1s252i7
+
+  SPOS01000251.      18648 AAACAAACATACAGACAAACAAAAACAAAAACGAACA 18684
+                                    v   i         v v v    i    
+  (AAAC)n#Simpl          1 AAACAAACAAACAAACAAACAAACAAACAAACAAACA 37
+
+Matrix = Unknown
+Transitions / transversions = 0.50 (2/4)
+Gap_init rate = 0.00 (0 / 36), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps19');">+</a><b>   18   12.6  0.0  0.0  SPOS01000251.1:268700-306610  18709 18735 (19176) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(T)n'>(T)n       </a> Simple_repeat       1     27    (0)  19  </b></pre><div id="hsps19" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   18  12.57 0.00 0.00  SPOS01000251.1:268700-306610  18709 18735   19118 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(T)n'>(T)n       </a> Simple_repeat       1     27      0    
+18 12.57 0.00 0.00 SPOS01000251.1:268700-306610 18709 18735 (19118) (T)n#Simple_repeat 1 27 (0) m_b1s252i8
+
+  SPOS01000251.      18709 TTCTTTTCTTTCTTTTTTTTTTTTTTT 18735
+                             i    i   i               
+  (T)n#Simple_r          1 TTTTTTTTTTTTTTTTTTTTTTTTTTT 27
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (3/0)
+Gap_init rate = 0.00 (0 / 26), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps20');">+</a><b>   18    0.0  0.0  0.0  SPOS01000251.1:268700-306610  19416 19435 (18476) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     20    (0)  20  </b></pre><div id="hsps20" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   18   0.00 0.00 0.00  SPOS01000251.1:268700-306610  19416 19435   18418 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     20      0    
+18 0.00 0.00 0.00 SPOS01000251.1:268700-306610 19416 19435 (18418) (A)n#Simple_repeat 1 20 (0) m_b1s252i9
+
+  SPOS01000251.      19416 AAAAAAAAAAAAAAAAAAAA 19435
+                                               
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAAA 20
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (0/0)
+Gap_init rate = 0.00 (0 / 19), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps21');">+</a><b>  322   23.5  0.0  1.5  SPOS01000251.1:268700-306610  21265 21333 (16578) C <a class='nound' href='/cgi-bin/ViewRepeat?id=MIR3'>MIR3       </a> SINE/MIR          (0)    208    141  21  </b></pre><div id="hsps21" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  322  23.54 0.00 1.47  SPOS01000251.1:268700-306610  21265 21333   16520 C <a class='nound' href='/cgi-bin/ViewRepeat?id=MIR3'>MIR3       </a> SINE/MIR          141    208      0    
+322 23.54 0.00 1.47 SPOS01000251.1:268700-306610 21265 21333 (16520) C MIR3#SINE/MIR (0) 208 141 m_b1s601i1
+
+  SPOS01000251.      21265 GAGTCACAGAATCATAGAATCATCAAACTTGGAAAAGACCTCCTAGATCA 21314
+                             i   i             -i   i vi     ii     ivv      
+C MIR3#SINE/MIR        208 GAATCATAGAATCATAGAAT-GTCAGAGCTGGAAGGGACCTTAGAGATCA 160
+
+  SPOS01000251.      21315 TCTAGTCTAACCATCCTAT 21333
+                                  i    vi ii  
+C MIR3#SINE/MIR        159 TCTAGTCCAACCCCCTCAT 141
+
+Matrix = 25p39g.matrix
+Kimura (with divCpGMod) = 29.66
+Transitions / transversions = 3.00 (12/4)
+Gap_init rate = 0.01 (1 / 68), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps22');">+</a><b>  211   21.1  4.0  4.0  SPOS01000251.1:268700-306610  21276 21349 (16562) C <a class='nound' href='/cgi-bin/ViewRepeat?id=X17_LINE'>X17_LINE   </a> LINE/CR1          (0)    296    223  22 *</b></pre><div id="hsps22" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  211  21.13 4.05 4.05  SPOS01000251.1:268700-306610  21276 21349   16504 C <a class='nound' href='/cgi-bin/ViewRepeat?id=X17_LINE'>X17_LINE   </a> LINE/CR1          223    296      0    
+211 21.13 4.05 4.05 SPOS01000251.1:268700-306610 21276 21349 (16504) C X17_LINE#LINE/CR1 (0) 296 223 m_b1s601i2
+
+  SPOS01000251.      21276 TCATAGAATCATCAAACTTGGAAAAGACCTCCTAGATCATCTAGTCTAAC 21325
+                                   --  i i vv            vi   i      ?   i v 
+C X17_LINE#LINE        296 TCATAGAA--ATTAGAGATGGAAAAGACCTATTAGGTCATCTNGTCCATC 249
+
+  SPOS01000251.      21326 CATCCTATCAC--CAATATT-TTCCTT 21349
+                            -   vii  ?--  iv   -    i 
+C X17_LINE#LINE        248 C-TCCAGCCANTGCAGGATTGTTCCCT 223
+
+Matrix = 25p39g.matrix
+Kimura (with divCpGMod) = 26.15
+Transitions / transversions = 1.50 (9/6)
+Gap_init rate = 0.07 (5 / 73), avg. gap size = 1.20 (6 / 5)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps23');">+</a><b>   15   13.9  0.0  0.0  SPOS01000251.1:268700-306610  21905 21928 (15983) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     24    (0)  23  </b></pre><div id="hsps23" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   15  13.86 0.00 0.00  SPOS01000251.1:268700-306610  21905 21928   15925 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     24      0    
+15 13.86 0.00 0.00 SPOS01000251.1:268700-306610 21905 21928 (15925) (A)n#Simple_repeat 1 24 (0) m_b1s252i10
+
+  SPOS01000251.      21905 AAGAAAAAAAAAGAACAAAAAAAA 21928
+                             i         i  v        
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAAAAAAA 24
+
+Matrix = Unknown
+Transitions / transversions = 2.00 (2/1)
+Gap_init rate = 0.00 (0 / 23), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps24');">+</a><b>  878   31.0  4.0  3.3  SPOS01000251.1:268700-306610  22217 22813 (15098) + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         2856   3456  (117)  24  </b></pre><div id="hsps24" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  878  31.01 4.02 3.33  SPOS01000251.1:268700-306610  22217 22813   15040 + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         2856   3456    117    
+878 31.01 4.02 3.33 SPOS01000251.1:268700-306610 22217 22813 (15040) Plat_L3#LINE/CR1 2856 3456 (117) m_b1s551i9
+
+  SPOS01000251.      22217 TACAGACTGGGACACGACCTGCTGGAGAGGAG--CTGCAGAGAAGGACCT 22264
+                                iv    iv v   iv   i iv vi  -- v     i  i     
+  Plat_L3#LINE/       2856 TACAGGATGGGGAAAGACTGGCTAGGCACAAGTACAGCAGAAAAAGACCT 2905
+
+  SPOS01000251.      22265 GGGTGTCCTGGTAGACAGCAGGTTGGCAATGAGCCAGTAGTGT-GCCCTG 22313
+                              v   v i  v   vi? i i  ivv     i   i i   - iv i 
+  Plat_L3#LINE/       2906 GGGGGTCATAGTCGACCANAAGCTGAATATGAGTCAGCAATGTAGTGCCG 2955
+
+  SPOS01000251.      22314 GCATCCAAGAAGCCAATGGGATCCTAGGGTGCATTATCAAGGAGTGTGGC 22363
+                           vi  iv  i       i v i v  i  i  i    v  -     i  i 
+  Plat_L3#LINE/       2956 TTATTAAAAAAGCCAACGTGGTACTGGGATGTATTAACA-GGAGTATGAC 3004
+
+  SPOS01000251.      22364 CAGCA-GA-TCAAGGGAGGGGATCCACCCCCCTCTACTCTGCCCTGCTCA 22411
+                           vv   -  -  --    i vi    -ii  v  v        v   v   
+  Plat_L3#LINE/       3005 ATGCAAGAGTC--GGGAAGTAATCC-TTCCGCTATACTCTGCACTGGTCA 3051
+
+  SPOS01000251.      22412 G-TCCTAATCTGAAGTACTGTAACCAGTTCTGGGCTCC-CAGTACAAAAA 22459
+                            -i   v  - ii        iv      i   v v  -  v vi     
+  Plat_L3#LINE/       3052 GACCCTTAT-TAGAGTACTGTGTCCAGTTTTGGTCACCGCACTTTAAAAA 3100
+
+  SPOS01000251.      22460 AGAC----AGAAATCTCCTGAAAAGAGTCCAGAGGAGGGACACAAAGATG 22505
+                           i  i----     ----   i i  i        i  i vv     i   
+  Plat_L3#LINE/       3101 GGATGTGGAGAAA----CTGGAGAGGGTCCAGAGAAGAGCGACAAAAATG 3146
+
+  SPOS01000251.      22506 ATAGAGGGCCTGGAGCATCTCCTCTGTGAGGAAAGGCTGTGAGGAAGGCT 22555
+                             vi i  vv    iv  vvvii  i          i i-i     ----
+  Plat_L3#LINE/       3147 ATTAAAGGGATGGAAAATAGGTCCTATGAGGAAAGGTTA-AAGGAA---- 3191
+
+  SPOS01000251.      22556 GACTTGGGTCTGTTCAGCCTTGAGAAAAGAAGATTGAGAGGGGATCT--- 22602
+                           ---     vi    i     v     i     ii i  i  v  ii ---
+  Plat_L3#LINE/       3192 ---TTGGGGTTGTTTAGCCTGGAGAAGAGAAGGCTAAGGGGTGACTTAAT 3238
+
+  SPOS01000251.      22603 ---TATTTATAAGTATTGTGAGGGG----AATCAAAGGGACA-TGGCCAC 22644
+                           --- i i vi     - i   i   ----v  viiii   ii-  i   v
+  Plat_L3#LINE/       3239 AACTGTCTTCAAGTA-TATGAAGGGTTTTTATGGGGAGGATGCTGACCAG 3287
+
+  SPOS01000251.      22645 CTCTTTTCAGCA-GTCTGTGG-GGACAGAATAAGCAAAAAAGACCATAAA 22692
+                           i v  i  --  -   iii? -    v   i   vii   v iv v    
+  Plat_L3#LINE/       3288 TTGTTCTC--CATGTCCACNGAGGACCGAACAAGAGGAAATGGGCTTAAA 3335
+
+  SPOS01000251.      22693 ATTGAGCATAGGATGTTCCACAGAAATATACGAAGGAACTTCTTCACAGT 22742
+                           v vi    vii  vi  i ivvvii i   v i i         v  v  
+  Plat_L3#LINE/       3336 TTAAAGCAGGAGAGATTTCGGTTGGACATAAGGAAGAACTTCTTGACTGT 3385
+
+  SPOS01000251.      22743 GAAGGTAATGGAGCACTGAAACAGGCTGTCCAGAGGGGTTGTGGAATCTC 22792
+                           v i   i  ii i     i   i    ii v  i i         i    
+  Plat_L3#LINE/       3386 CAGGGTGATAAAACACTGGAACGGGCTACCGAGGGAGGTTGTGGAGTCTC 3435
+
+  SPOS01000251.      22793 CTTCTCTGGAGATATTCAGGA 22813
+                            v  i        v  i i  
+  Plat_L3#LINE/       3436 CATCCCTGGAGATCTTTAAGA 3456
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 40.59
+Transitions / transversions = 1.63 (111/68)
+Gap_init rate = 0.05 (32 / 596), avg. gap size = 1.38 (44 / 32)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps25');">+</a><b>  373   39.2  5.0  3.7  SPOS01000251.1:268700-306610  23207 23743 (14168) + <a class='nound' href='/cgi-bin/ViewRepeat?id=L3'>L3         </a> LINE/CR1          582   1125 (2974)  25  </b></pre><div id="hsps25" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  373  39.24 5.03 3.68  SPOS01000251.1:268700-306610  23207 23743   14110 + <a class='nound' href='/cgi-bin/ViewRepeat?id=L3'>L3         </a> LINE/CR1          582   1125   2974    
+373 39.24 5.03 3.68 SPOS01000251.1:268700-306610 23207 23743 (14110) L3#LINE/CR1 582 1125 (2974) m_b1s601i3
+
+  SPOS01000251.      23207 AAAAGAAAGGAAAGTG--ATAGTCATAGATGACTCCCTTCTAAAAGGAAC 23254
+                            ii  i   ii v i --i i  vi v i        iv  i ii iv  
+  L3#LINE/CR1          582 AGGAGGAAGAGACGCGTCGTGGTGGTTGGTGACTCCCCGCTGAGGGATAC 631
+
+  SPOS01000251.      23255 TGAG--GGCCTGATATGTCAGCTTGATCCCACCCACAGAGAAGAGTGCTG 23302
+                           v   --    --i    ivii i   ivivi iv iv i  i v      
+  L3#LINE/CR1          632 GGAGGCGGCC--GTATGCAGACCTGACGTGGCTAATCGGGAGGTGTGCTG 679
+
+  SPOS01000251.      23303 CCTACCTAAGCCATGAGTCAGGGATATCACTAGAAAGCTT-CCTAGGCTT 23351
+                           i  v   iiiv i  vi  v i  ii v  -i  i   i -  v  i  i
+  L3#LINE/CR1          680 TCTTCCTGGAGCGTGTATCCGAGACGTGAC-GGAGAGCCTGCCAAGACTC 728
+
+  SPOS01000251.      23352 ACTC--GCCCATCTGACTACTATTCCTTATTGGTAGTTCAGGTTGGCAGT 23399
+                            -  --i    - i   ii   ii vi vi  v ii    v  v  v vv
+  L3#LINE/CR1          729 A-TCAAACCCA-CCGACCGCTACCCACTTCTGCTGATTCACGTGGGAACG 776
+
+  SPOS01000251.      23400 GGTAATGCTGATGAGAGAAGCCTGAGGGCTATCAGAAATGACTTCAGGAG 23449
+                           ii i ii v viiii    i    iiivvi   vvv i      iiiiiv
+  L3#LINE/CR1          777 AATGACACAGTCAGAAGAAACCTGGAATGCATCTCTAGTGACTTTGAAGT 826
+
+  SPOS01000251.      23450 ACTGGGAAGCTATTTGATGGAG-CAGGCGTGCAGGTGGTCTTCT-ATCCC 23497
+                           v     v  vv vi   v   v-ii  v ii        v  i -   i 
+  L3#LINE/CR1          827 CCTGGGCAGGAAACTGAAGGACTTGGGGGCACAGGTGGTGTTTTCATCTC 876
+
+  SPOS01000251.      23498 TT----CAGTGGCAGGGAAGGACACTGAGAGGATCAAAAAAAACCTCCTC 23543
+                             ----    v v   vviv   vi  -  i  vv  ii ii iv vvvv
+  L3#LINE/CR1          877 TTCTTCCAGTTGAAGGTCGTGACTTTG-GAAGAGAAAGGAGGATATGGGA 925
+
+  SPOS01000251.      23544 A-TAAATAAATGGCT---TAGAGGTTGGTGCAGGCACAGAATTTTGGTTT 23589
+                            - i  i iv     ---    v v  vi - i v    i -     -  
+  L3#LINE/CR1          926 AGTGAACAGCTGGCTACGTAGATGGTGTCG-AAGAACAGGA-TTTGG-TT 972
+
+  SPOS01000251.      23590 TTTTTGACCATGGGGCAATTTAC--------TCGGCTCCTGGCGTGACGG 23631
+                             i v        vvi ?vv   -------- v          ?v ----
+  L3#LINE/CR1          973 TTCTGGACCATGGCTTANGATACCAGAACGATGGGCTCCTGGCNAG---- 1018
+
+  SPOS01000251.      23632 CTGCAGATGGAGCTCACCTATCTGCAAGGGGTAAAAGGATCCTAGCCCAG 23681
+                           ----i  i    iv  i  vv vivi vv  v  i ivi vi v ? ?i 
+  L3#LINE/CR1         1019 ----GGACGGAGTGCATCTCACGAAGACCGGGAAGAACGTGTTTGNCNGG 1064
+
+  SPOS01000251.      23682 GAACAGGAGGGACTCATTGAAAGGTCTTTAAACTAGGTAA--GAAGGGAG 23729
+                           ii  vv vv iv  v  ii i   v         -- v  --vi     -
+  L3#LINE/CR1         1065 AGACTCGCCGACCTGATCAAGAGGACTTTAAACT--GAAATTTGAGGGA- 1111
+
+  SPOS01000251.      23730 AAGGGGACAAAATG 23743
+                               ii v      
+  L3#LINE/CR1         1112 AAGGAAAAAAAATG 1125
+
+Matrix = 25p39g.matrix
+Kimura (with divCpGMod) = 52.62
+Transitions / transversions = 1.28 (114/89)
+Gap_init rate = 0.06 (31 / 536), avg. gap size = 1.52 (47 / 31)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps26');">+</a><b> 2939   34.6  2.4  2.2  SPOS01000251.1:268700-306610  23858 26688 (11223) + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1          733   3569    (4)  26  </b></pre><div id="hsps26" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+ 2939  34.57 2.44 2.22  SPOS01000251.1:268700-306610  23858 26688   11165 + <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1          733   3569      4    
+2939 34.57 2.44 2.22 SPOS01000251.1:268700-306610 23858 26688 (11165) Plat_L3#LINE/CR1 733 3569 (4) m_b1s551i10
+
+  SPOS01000251.      23858 TGTATACTAATGCGCACAGTATGAGAAATAAACAGGAAGAGCTGGAGATT 23907
+                               ii v     iviv  i   i             i  i      i i
+  Plat_L3#LINE/        733 TGTACGCAAATGCAAGGAGCATGGGAAATAAACAGGAGGAACTGGAGGTC 782
+
+  SPOS01000251.      23908 T--GTGTATGGTCACACGGCTATGATCTCATTGCAATCACGGAGATGTGG 23955
+                            -- ivi v ii    -- i      v v i  v   v  v    i    
+  Plat_L3#LINE/        783 TTAGCTCAGGACCACA--GTTATGATGTAACTGGAATAACTGAGACGTGG 830
+
+  SPOS01000251.      23956 TAGGACAGCTTGCATGACTGGAATGTCGTCATGGAGGGCTATGTGCTTTT 24005
+                            i       viv          i  ii vvv i  i  v   vv i v  
+  Plat_L3#LINE/        831 TGGGACAGCACTCATGACTGGAGTGCTGGACTAGAAGGGTATCGGTTGTT 880
+
+  SPOS01000251.      24006 TAGGAAAGATCAGCTGGGGAG---GCGAGGTGGTGGAATTGCTCATTATG 24052
+                           i         vi  v   i i--- v         ---    iivv  ii
+  Plat_L3#LINE/        881 CAGGAAAGATAGGCAGGGAAAAAAGGGAGGTGGTG---TTGCCTTGTACA 927
+
+  SPOS01000251.      24053 TGAGAGAGCAGCTAGA-ATGTATTGAACTGCACCTGGGG----GAGAGCG 24097
+                            v ii  -i ?   v -   iviv  i----i  ii  i----  ii v 
+  Plat_L3#LINE/        928 TCAAGGA-TANCTACACATGCTCAGAG----GCCCAGGAAACAGAAGGAG 972
+
+  SPOS01000251.      24098 GTGTAGCAG-TGGAGAGCTTGTGGGTGAGAATCAAGGGGTGGGCTGG-TG 24145
+                            i-i i   - i      v v     v -  v i ii    iivv i- i
+  Plat_L3#LINE/        973 GC-CAACAGGTAGAGAGCGTCTGGGTTA-AAGCGAAAGGTGAAAAGAATA 1020
+
+  SPOS01000251.      24146 TGGCTGACACTGTTGTGGATGTGTACTGCTGGCC-CCTGATCAGGAGGAG 24194
+                           v  vi   iiii v  i iv  v  i iiv i  -  vi i     i   
+  Plat_L3#LINE/       1021 AGGGCGACGTCATGGTAGGAGTCTATTATAGACCTCCAAACCAGGAAGAG 1070
+
+  SPOS01000251.      24195 GATGTTGATGAGGACTTCCACAAGCAACTGG--AAAATAGTGTCAAGATT 24242
+                           i v  v       v    iviiiv     vi--   iii iv  ii ---
+  Plat_L3#LINE/       1071 AAGGTGGATGAGGCCTTCTTTGGTCAACTCACCAAAGCGGCTTCGGG--- 1117
+
+  SPOS01000251.      24243 CCAGGCGCTGGTGCTTATGGGAGACTTCAATTATCCAGATATTTGCTGGA 24292
+                           i    vv      v v           i  i  i        i       
+  Plat_L3#LINE/       1118 TCAGGATCTGGTGGTGATGGGAGACTTTAACTACCCAGATATCTGCTGGA 1167
+
+  SPOS01000251.      24293 AAAGCAATGTGGCCAGGCACGCACAGTCCAGAC-GGTTCCTGCAATGTGT 24341
+                                   vii  vi v   iv iv   - i  -    ii  v v  ii 
+  Plat_L3#LINE/       1168 AAAGCAATTCAGCGGGCCACAGATCGTC-AAACAGGTTTTTGGATTGCAT 1216
+
+  SPOS01000251.      24342 TGAAGACAACTTCCTGACGCAGGTGGTGGAGGAACTGACGAGGGGAGGGG 24391
+                             ii     i     iii    ivi  i      iii  v    v  iv 
+  Plat_L3#LINE/       1217 TGGGGACAATTTCCTAGTGCAGAAAGTAGAGGAATCAACTAGGGCAGATG 1266
+
+  SPOS01000251.      24392 TACTGCTGGACCTTATTCTCATTAATAAGGAAAGGCTTGTCAAGGAAGTA 24441
+                           iv  v  v  ii v     i i   iii    iiii v   i    vv  
+  Plat_L3#LINE/       1267 CCCTTCTTGATTTGATTCTTACTAACGGGGAAGAATTAGTCGAGGATCTA 1316
+
+  SPOS01000251.      24442 AGGGCCGG-GGCAACTTGGGTTGTAGTGACCACAAGATGGTGAAGTTCAA 24490
+                            i  iv i-  v   i v   v v  i  i         i vivi     
+  Plat_L3#LINE/       1317 AAGGTGGATGGAAACCTTGGTGGAAGCGATCACAAGATGATCGTATTCAA 1366
+
+  SPOS01000251.      24491 GATCTTGAGTGGAAGAAGTAAAGCGAAAAGTAGGATTGCTATCCTGGACT 24540
+                               i i  v i i i  v i  viivv  i i   vivv vvv  i   
+  Plat_L3#LINE/       1367 GATCCTAAGGGAAGGGAGGAGAGAAGTCAGCAAGATAAAGAAAATGAACT 1416
+
+  SPOS01000251.      24541 TTAGGAGAGCCAACTTTGAT-CTCTTCCAGGAC-CTAGTTGGAGCTATCC 24588
+                                 i   v  i   i i-vv   --   i -     v   ivv i  
+  Plat_L3#LINE/       1417 TTAGGAAAGCAAATTTTAACAGGCTT--AGGGCACTAGTAGGAAGGACCC 1464
+
+  SPOS01000251.      24589 CATAGGCTAGGTA---TTAGAAGGTAAGGG--TCTGTGAGAGCTGGTTGG 24633
+                           v  i i--   v ---i  ii   i  i  --  iiv  i      i  v
+  Plat_L3#LINE/       1465 GATGGA--AGGAAAGCCTAAGAGGCAAAGGAGTCCAAGAAAGCTGGCTGT 1512
+
+  SPOS01000251.      24634 CATTGAAGCAGCTCTTCTTCCAAGCTCAGGATCGTG-TGTCCCTGTG--- 24679
+                           iv  v  iv  vivv ii v  i        v ivi- i v  v   ---
+  Plat_L3#LINE/       1513 TCTTCAAAAAGACAGTTCTGCAGGCTCAGGAACAAACTATACCAGTGCAN 1562
+
+  SPOS01000251.      24680 AGGAAGAAATTGGGAAAGGGTGGCAGGAGACCTGTGTGGATGAGCAAGGA 24729
+                                 i v---iii      ii  i  vi  vivv   v i i vvi  
+  Plat_L3#LINE/       1563 AGGAAGGAC---AAGAAGGGTAACAAGATGCCAAGTTGGCTAAACCCAGA 1609
+
+  SPOS01000251.      24730 GCTCATGTGCAAACTCAAAGG--AAAGAAGAAGGCCCATGAAATGTGGAA 24777
+                           i   - ?iiv i  iii    --   vii   i  i- ii   v      
+  Plat_L3#LINE/       1610 ACTC-TNCAGAGACCTGAAGGGCAAATGGGAAAGCT-ACAAAAAGTGGAA 1657
+
+  SPOS01000251.      24778 AA-AGGCTCTGACCACTTGGGAAGAATACAGGAATGTTGTCAGGGCT-TG 24825
+                            v-    - v  i    vii     i  i iii vi v -  v ii -  
+  Plat_L3#LINE/       1658 ATTAGGC-CAGATCACTAAAGAAGAGTATAAAGAAATAG-CACGATTGTG 1705
+
+  SPOS01000251.      24826 CAGAGGTGCAACGAGGAAGGCTAAAGTTCGCCTGGAATTGAATCTGGCAA 24875
+                           i  i iiivi iv  i  i  ?    iiv vvv   iv  v v  i   v
+  Plat_L3#LINE/       1706 TAGGGACAAGATTAGAAAAGCNAAAGCCGGAAAGGAGATGCAACTAGCAC 1755
+
+  SPOS01000251.      24876 AGGTGATAAAGGATA-CAAAAAAAGGCTTTTTTAAGTACGTTAA-CAGTA 24923
+                           ii vv     i i  -        vi-  i  i  v  ii   i-  i- 
+  Plat_L3#LINE/       1756 GAGACATAAAAGGTAACAAAAAAACA-TTCTTCAATTATATTAGGCAA-A 1803
+
+  SPOS01000251.      24924 AAAGGAAGACTAGGGAGAATGTGGCACCCCTACTAAGT-GACGGGGTGTT 24972
+                            i    i   i     i     v  v    iiv  iii- ivi   vivv
+  Plat_L3#LINE/       1804 AGAGGAGGACCAGGGAAAATGTCGCTCCCCCGGTAGACAGGAAGGGAAAG 1853
+
+  SPOS01000251.      24973 CTGGTAACAGGGGATGCTGAGAAGGCAGAGATACTGAATGCCTTCTTTGC 25022
+                              i      iv  ivv   i     i   iivi v ?vvii  i  ii 
+  Plat_L3#LINE/       1854 CTGATAACAGATGACTGTGAAAAGGCGGAGGCTTTTANATTTTTTTTCAC 1903
+
+  SPOS01000251.      25023 CTCTGTCTTCAGTGAAAAAGCTCCACCTTGGGAATTCGAGACCCTAGAGG 25072
+                           i        i -i       v  v v--  v   ivvvv    --  -  
+  Plat_L3#LINE/       1904 TTCTGTCTTTA-CGAAAAAGATCAAA--TGTGAACAGCTGACC--AG-GG 1947
+
+  SPOS01000251.      25073 CTAGTGAGA---GGGTATGGGGAATGGGAGA-CCTTCCTTCAGTCAGGGA 25118
+                            v   vvv --- ? -    iiii v   i -  vvv  vv i vi  i 
+  Plat_L3#LINE/       1948 CAAGTCCCACTTGNG-ATGGAAGGTTGGAAAGCCAAACTAGAATAGGGAA 1996
+
+  SPOS01000251.      25119 AGAGGCGGTCCAAGAGCA-CTTAGGCAACACCAATGTTCATAAATCCATG 25167
+                              ii i  iv     i -  ? iiv   - vi    viv      viii
+  Plat_L3#LINE/       1997 AGAAACAGTTAAAGAGTATCTNAAAAAAC-CGGATGTATTTAAATCAGCA 2045
+
+  SPOS01000251.      25168 GGACCCAATGGGATGCATCCATGGGAGCTGAGGCAGCTGGCAGAGGTGAT 25217
+                             i  ii   iv        vv   vi  v i v ii    i  v  v  
+  Plat_L3#LINE/       2046 GGGCCTGATGACATGCATCCTAGGGTACTTAAGGAATTGGCGGATGTTAT 2095
+
+  SPOS01000251.      25218 TGCTGAACTGCTCTCTGTCATCTTTGAGAGGTCTTGGAGGACAGGGGAGG 25267
+                              v  i ii  vv  i i  i       iv  vi       i  i  i 
+  Plat_L3#LINE/       2096 TGCAGAGCCACTAGCTATTATTTTTGAGAACTCGCGGAGGACGGGAGAAG 2145
+
+  SPOS01000251.      25268 TGCCTGAAGACTGGAGGATAGCCAATGTCACTCCGGTCTTCAAAAAGGGC 25317
+                            v     i  i    ii vi  v  i  iiiv  vi    i     i  v
+  Plat_L3#LINE/       2146 TCCCTGAGGATTGGAAAAGGGCAAACGTTGTGCCCATCTTTAAAAAAGGG 2195
+
+  SPOS01000251.      25318 AAGAAGGAAGATCCAGGCAATTACAGGCCAGTCAGCCTCACCTCTGTCCC 25367
+                             i     v  i  v  i        i  i      i v  v  vi v  
+  Plat_L3#LINE/       2196 AAAAAGGACGACCCTGGTAATTACAGACCGGTCAGCTTAACATCGATACC 2245
+
+  SPOS01000251.      25368 TGGAAAGGCGATGGAACAGCTTGTGCTGGATG-TCA-TCTCCAGACAACT 25415
+                              i   iiiv i     iv ii --iii ii-   - i v  iv  v  
+  Plat_L3#LINE/       2246 TGGGAAGATACTAGAACAAATCAT--CAAACAATCAATTTGCAACCACCT 2293
+
+  SPOS01000251.      25416 GGAAGAAAAGGAGGTTATCAGAAGTAGTCAGCATGGGTTCACCAGGGGGA 25465
+                           i     iv vi  i vv vi    i ii  i i   v  iiiv i i v 
+  Plat_L3#LINE/       2294 AGAAGAGCATAAGATACTAGGAAGCAACCAACGTGGCTTTGTGAAGAGCA 2343
+
+  SPOS01000251.      25466 GGTTGTGTTTGACCAACCTTGGTAGCCTTCTGTGATGTTGTCTCTGGCTG 25515
+                           ii i   iiv   ?  i-  ii vv      i    ivv  vv v   ii
+  Plat_L3#LINE/       2344 AATCGTGCCAGACNAAT-TTAATTTCCTTCTATGATAGAGTGACAGGCCA 2392
+
+  SPOS01000251.      25516 GGTGGATGGGGGGAGAGCAGTGGATGTAGTCTACCTTGATTTCAGCAAGG 25565
+                           v  i  iii    ii    i i      i    i  v  i     i    
+  Plat_L3#LINE/       2393 CGTAGACAAGGGGGAAGCAATAGATGTAATCTATCTAGACTTCAGTAAGG 2442
+
+  SPOS01000251.      25566 CTTT-GATACTGTCTCCCATGACATCCTTAT-AACAAAGATGAGGAAGTC 25613
+                               -   v i   i v           i  -i  -   v  i i    v
+  Plat_L3#LINE/       2443 CTTTTGATTCCGTCCCACATGACATCCTCATCGAC-AAGCTGGGAAAGTA 2491
+
+  SPOS01000251.      25614 TGGGATAGATGAGTGGACAGTGAGGTGAGTTGAGAACTGGCTGACTGGCA 25663
+                              vv v  iv vvvv  v  v     i  vv v i      vivv  iv
+  Plat_L3#LINE/       2492 TGGTCTTGACCATACTACCGTTAGGTGGGTGCACAGCTGGCTCGAGGGTC 2541
+
+  SPOS01000251.      25664 GAGCACAGAGGGTCGTCGTTGGCAGTGCAGAGTCAGGCTGGAGACTTGTA 25713
+                            vi v  i     v   i iiiii iv i v    iv      ivv?i  
+  Plat_L3#LINE/       2542 GCACCCAAAGGGTAGTCATCAATGGCTCGGTGTCAACCTGGAGGGANATA 2591
+
+  SPOS01000251.      25714 ACTAGTGGTGTTCCTCAGGGGTCAGTGCTGGGTCTGTTCTTGTTCAACAT 25763
+                           v v        i  v     i  i  v     v i v ii i     i  
+  Plat_L3#LINE/       2592 TCGAGTGGTGTCCCACAGGGATCGGTCCTGGGACCGGTTCTATTCAATAT 2641
+
+  SPOS01000251.      25764 CTTCATCAATGACCTTGACGAGGGGATAGTGGCCACCCTCAGCAAGTTTG 25813
+                              i   i       v     i  i  v v iv  iv    v   i    
+  Plat_L3#LINE/       2642 CTTTATCGATGACCTGGACGAAGGAATCGAGAGCATGCTCATCAAATTTG 2691
+
+  SPOS01000251.      25814 CTGATGATGCAAAGTTGGGAAGATTGGCTGACATGCCTGAAGGCCGTGCT 25863
+                            v      i v  i     vi iv v   i   iviiv    i v viv 
+  Plat_L3#LINE/       2692 CAGATGATACTAAATTGGGCGGGGTTGCTAACACTTTGGAAGACAGGAAT 2741
+
+  SPOS01000251.      25864 GCCATTCAGCAAGACCTGGACAGGCTGGAGAGCTGGGCAGAAAAAAACCG 25913
+                           ivv     iviv     ?    iii    i iv   v vv?v      v 
+  Plat_L3#LINE/       2742 AAAATTCAAAGTGACCTNGACAAATTGGAAAAATGGTCCTNCAAAAACAG 2791
+
+  SPOS01000251.      25914 GATGAGGTTCAACAAAAGCAAGTGTAGAGTCTTGCATCT-GGGAGGAATA 25962
+                                ii     i iiii      i ii  vv    ii -    v   v 
+  Plat_L3#LINE/       2792 GATGAAATTCAATAGGGACAAGTGCAAGGTAGTGCACTTAGGGACGAAAA 2841
+
+  SPOS01000251.      25963 ATTGCATGCACGAATACAGGTTTGGGGACGAGCTGCTGGAGGGGAGCTCT 26012
+                            ivivvi    i        v v   i v  viv   i ivivi  iv v
+  Plat_L3#LINE/       2842 ACAAACCGCACAAATACAGGATGGGGAAAGACTGGCTAGGCACAAGTACA 2891
+
+  SPOS01000251.      26013 GCAGAGAGGAACCTGGGTGTCCTGGTGGA--ACAGGTCGGCCATGAGCCA 26060
+                                i iii       v   v i  v  -- ? i ii ivi     i  
+  Plat_L3#LINE/       2892 GCAGAAAAAGACCTGGGGGTCATAGTCGACCANAAGCTGAATATGAGTCA 2941
+
+  SPOS01000251.      26061 GCAGT---GTGCCCTTGTGGCCAAGAGGGCCAACGGCATCCTGGGGTGCA 26107
+                              i ---     v  i ---i  i ii       vvi v     i  i 
+  Plat_L3#LINE/       2942 GCAATGTAGTGCCGTTAT---TAAAAAAGCCAACGTGGTACTGGGATGTA 2988
+
+  SPOS01000251.      26108 TTAAAAAGAGCATGGCCAGCA--GGTCGAGGAGGTGATCCTCCCCCTCTA 26155
+                               v i   i   i vv   --i    -   i  i     i  v  v  
+  Plat_L3#LINE/       2989 TTAACAGGAGTATGACATGCAAGAGTCG-GGAAGTAATCCTTCCGCTATA 3037
+
+  SPOS01000251.      26156 CTCTGCCCTGCTAAGG-CCTCATCTGGAGTACTGCGTCCAGTGCTGGGCT 26204
+                                 v   v v  i-   i  - i        i       vi   v v
+  Plat_L3#LINE/       3038 CTCTGCACTGGTCAGACCCTTAT-TAGAGTACTGTGTCCAGTTTTGGTCA 3086
+
+  SPOS01000251.      26205 CCCCAGTACAAAAAAGACAGGGATCTCTTGGAAAGAGTCCAGCAGAGGGC 26254
+                             v  v vi     i  iiv   vvvvi    i  i      vii  i  
+  Plat_L3#LINE/       3087 CCGCACTTTAAAAAGGATGTGGAGAAACTGGAGAGGGTCCAGAGAAGAGC 3136
+
+  SPOS01000251.      26255 --CAAAGATGGTGAAGGGCCTGGAGCATCTG--CTATGAGGAAAGGCTGA 26300
+                           --    i   i v  i  vv    iv  vv --             i i 
+  Plat_L3#LINE/       3137 GACAAAAATGATTAAAGGGATGGAAAATAGGTCCTATGAGGAAAGGTTAA 3186
+
+  SPOS01000251.      26301 GTGAACTGGGTCTGTTCAGCCTTGAGAAAAGAAGACTGATATAGACCTTA 26350
+                           iv   i    vi    i     v     i     i  i viviviv    
+  Plat_L3#LINE/       3187 AGGAATTGGGGTTGTTTAGCCTGGAGAAGAGAAGGCTAAGGGGTGACTTA 3236
+
+  SPOS01000251.      26351 TAGACATGATCCAGGTCTATAAATATCTGAGG------TGTGGGGGGCAG 26394
+                           -----  i ii---    vi  i   v   i ------ i     i ---
+  Plat_L3#LINE/       3237 -----ATAACT---GTCTTCAAGTATATGAAGGGTTTTTATGGGGAG--- 3275
+
+  SPOS01000251.      26395 AGGGGCAAGGCCAGACTCTTTTCAGCTGTATGTGGA-GACAGGAAAAGGG 26443
+                           - iv  -v i    vivi i i  --   viii?  -   v i v   i 
+  Plat_L3#LINE/       3276 -GATGC-TGACCAGTTGTTCTCCA--TGTCCACNGAGGACCGAACAAGAG 3321
+
+  SPOS01000251.      26444 GAAACAGCCAGAAAATGCAGCATAGGAAGTTTTGCACAAATGTGCGCAAG 26493
+                               ii v vv   v iv    vii  ii   i vviii ii iv v   
+  Plat_L3#LINE/       3322 GAAATGGGCTTAAATTAAAGCAGGAGAGATTTCGGTTGGACATAAGGAAG 3371
+
+  SPOS01000251.      26494 AACTTCTTTACAGTGAGGGTGATGGAGCACTGGAACAGGCTGCCCAGGGA 26543
+                                   v  v  v        ii i         i    i  v     
+  Plat_L3#LINE/       3372 AACTTCTTGACTGTCAGGGTGATAAAACACTGGAACGGGCTACCGAGGGA 3421
+
+  SPOS01000251.      26544 GGTGGTGGAGTCTCCTTCTCTGGAGATGTTCCAGACCTGCCTGGATGCCT 26593
+                              v           v  i        v  iv   vvv vv i  ii? i
+  Plat_L3#LINE/       3422 GGTTGTGGAGTCTCCATCCCTGGAGATCTTTAAGAAAAGAATAGACANCC 3471
+
+  SPOS01000251.      26594 ACCTGTGTGACCTGCTGTAGGGA---ACCTGCTTT--GGCAGTGGGATTG 26638
+                            i    vivivv  v v   vv ---      i v--     -   ii  
+  Plat_L3#LINE/       3472 ATCTGTCCTGGATGGTTTAGTCATTCACCTGCCTGGAGGCAG-GGGGCTG 3520
+
+  SPOS01000251.      26639 GACTCGATGAACTCTGGAGCTCCCTTCCAACCCCTATGATTCTGTGACTC 26688
+                              iv     v    v   v         i- i   ?      i   i  
+  Plat_L3#LINE/       3521 GACCAGATGACCTCTCGAGGTCCCTTCCAG-CTCTANGATTCTATGATTC 3569
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 46.15
+Transitions / transversions = 1.45 (566/391)
+Gap_init rate = 0.04 (103 / 2830), avg. gap size = 1.28 (132 / 103)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps27');">+</a><b>  236   21.1  0.0  1.8  SPOS01000251.1:268700-306610  26737 26794 (11117) + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-3_Croc'>CR1-3_Croc </a> LINE/CR1         3549   3605    (0)  27  </b></pre><div id="hsps27" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  236  21.06 0.00 1.75  SPOS01000251.1:268700-306610  26737 26794   11059 + <a class='nound' href='/cgi-bin/ViewRepeat?id=CR1-3_Croc'>CR1-3_Croc </a> LINE/CR1         3549   3605      0    
+236 21.06 0.00 1.75 SPOS01000251.1:268700-306610 26737 26794 (11059) CR1-3_Croc#LINE/CR1 3549 3605 (0) m_b1s551i11
+
+  SPOS01000251.      26737 GTTGGACTTGATGATCTCTGGAAGCCTCTTCCAACCCCTACAATTCTGTG 26786
+                                   v     i       i i i      i-      vvi   i  
+  CR1-3_Croc#LI       3549 GTTGGACTAGATGACCTCTGGAGGTCCCTTCCAG-CCCTACTTCTCTATG 3597
+
+  SPOS01000251.      26787 TTTCTCTG 26794
+                           v    v  
+  CR1-3_Croc#LI       3598 ATTCTATG 3605
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 25.10
+Transitions / transversions = 1.40 (7/5)
+Gap_init rate = 0.02 (1 / 57), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps28');">+</a><b>   42    1.8  3.4  3.4  SPOS01000251.1:268700-306610  27193 27251 (10660) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(AAAAT)n'>(AAAAT)n   </a> Simple_repeat       1     59    (0)  28  </b></pre><div id="hsps28" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   42   1.84 3.39 3.39  SPOS01000251.1:268700-306610  27193 27251   10660 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(AAAAT)n'>(AAAAT)n   </a> Simple_repeat       1     59      0    
+42 1.84 3.39 3.39 SPOS01000251.1:268700-306610 27193 27251 (10660) (AAAAT)n#Simple_repeat 1 59 (0) c_b1s251i2
+
+  SPOS01000251.      27193 AAAAT-AAAT-AAATAAAATAAAATAAAATAAAATAAAATAAAAAAAAAT 27240
+                                -    -                                 v     
+  (AAAAT)n#Simp          1 AAAATAAAATAAAATAAAATAAAATAAAATAAAATAAAATAAAATAAAAT 50
+
+  SPOS01000251.      27241 CAACAATAAAA 27251
+                           -  -       
+  (AAAAT)n#Simp         51 -AA-AATAAAA 59
+
+Matrix = Unknown
+Transitions / transversions = 0.00 (0/1)
+Gap_init rate = 0.07 (4 / 58), avg. gap size = 1.00 (4 / 4)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps29');">+</a><b>   14   17.5  0.0  0.0  SPOS01000251.1:268700-306610  27735 27766 (10145) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(CTCTTC)n'>(CTCTTC)n  </a> Simple_repeat       1     32    (0)  29  </b></pre><div id="hsps29" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   14  17.53 0.00 0.00  SPOS01000251.1:268700-306610  27735 27766   10145 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(CTCTTC)n'>(CTCTTC)n  </a> Simple_repeat       1     32      0    
+14 17.53 0.00 0.00 SPOS01000251.1:268700-306610 27735 27766 (10145) (CTCTTC)n#Simple_repeat 1 32 (0) m_b1s252i11
+
+  SPOS01000251.      27735 CTGTTCCTCTTGCTTTTCCACTTCTTCTTCCT 27766
+                             v        v  i    v    i       
+  (CTCTTC)n#Sim          1 CTCTTCCTCTTCCTCTTCCTCTTCCTCTTCCT 32
+
+Matrix = Unknown
+Transitions / transversions = 0.67 (2/3)
+Gap_init rate = 0.00 (0 / 31), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps30');">+</a><b>   27    0.0  0.0  0.0  SPOS01000251.1:268700-306610  28809 28837  (9074) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     29    (0)  30  </b></pre><div id="hsps30" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   27   0.00 0.00 0.00  SPOS01000251.1:268700-306610  28809 28837    9074 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     29      0    
+27 0.00 0.00 0.00 SPOS01000251.1:268700-306610 28809 28837 (9074) (A)n#Simple_repeat 1 29 (0) m_b1s252i12
+
+  SPOS01000251.      28809 AAAAAAAAAAAAAAAAAAAAAAAAAAAAA 28837
+                                                        
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAAAAAAAAAAAAA 29
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (0/0)
+Gap_init rate = 0.00 (0 / 28), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps31');">+</a><b>   12   13.6  2.8  5.7  SPOS01000251.1:268700-306610  31630 31665  (6246) + <a class='nound' href='/cgi-bin/ViewRepeat?id=GA-rich'>GA-rich    </a> Low_complexity      1     35    (0)  31  </b></pre><div id="hsps31" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   12  13.59 2.78 5.71  SPOS01000251.1:268700-306610  31630 31665    6246 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(AGA)n'>(AGA)n     </a> Simple_repeat       1     35      0    
+12 13.59 2.78 5.71 SPOS01000251.1:268700-306610 31630 31665 (6246) (AGA)n#Simple_repeat 1 35 (0) m_b1s252i13
+
+  SPOS01000251.      31630 AGAAGAAGAAG-TGATGAATAATGAGGAAGAAGCAAG 31665
+                                      -v  v   v  -  i       -   
+  (AGA)n#Simple          1 AGAAGAAGAAGAAGAAGAAGAA-GAAGAAGAAG-AAG 35
+
+Matrix = Unknown
+Transitions / transversions = 0.33 (1/3)
+Gap_init rate = 0.09 (3 / 35), avg. gap size = 1.00 (3 / 3)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps32');">+</a><b>   16    0.0  0.0  0.0  SPOS01000251.1:268700-306610  31899 31916  (5995) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     18    (0)  32  </b></pre><div id="hsps32" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   16   0.00 0.00 0.00  SPOS01000251.1:268700-306610  31899 31916    5995 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(A)n'>(A)n       </a> Simple_repeat       1     18      0    
+16 0.00 0.00 0.00 SPOS01000251.1:268700-306610 31899 31916 (5995) (A)n#Simple_repeat 1 18 (0) m_b1s252i14
+
+  SPOS01000251.      31899 AAAAAAAAAAAAAAAAAA 31916
+                                             
+  (A)n#Simple_r          1 AAAAAAAAAAAAAAAAAA 18
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (0/0)
+Gap_init rate = 0.00 (0 / 17), avg. gap size = 0.0 (0 / 0)
+
+</pre>
+</div>
+</div>
+</div>
+<div class="annotSet">
+<pre><a href="javascript:;" onmousedown="toggleDiv('hsps33');">+</a><b>  746   30.8  3.0  2.0  SPOS01000251.1:268700-306610  34780 35213  (2698) C <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1          (3)   3570   3133  33  </b></pre><div id="hsps33" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+  746  30.81 3.00 2.05  SPOS01000251.1:268700-306610  34780 35213    2698 C <a class='nound' href='/cgi-bin/ViewRepeat?id=Plat_L3'>Plat_L3    </a> LINE/CR1         3133   3570      3    
+746 30.81 3.00 2.05 SPOS01000251.1:268700-306610 34780 35213 (2698) C Plat_L3#LINE/CR1 (3) 3570 3133 m_b1s551i12
+
+  SPOS01000251.      34780 AGAATCACAGAATTGTAGGGGTTGGAAGGGACCTCCAGAGATCATCGAGT 34829
+                                  i     i?   i -i             v    i     vi  
+C Plat_L3#LINE/       3570 AGAATCATAGAATCNTAGAG-CTGGAAGGGACCTCGAGAGGTCATCTGGT 3522
+
+  SPOS01000251.      34830 CCAACCCCCCTGCC--AAAGCAGGT---TCCCTACAGTAGGTCGCACAGG 34874
+                              i     -    --v i      --- vv   v vi vviv v    i
+C Plat_L3#LINE/       3521 CCAGCCCCC-TGCCTCCAGGCAGGTGAATGACTAAACCATCCAGGACAGA 3473
+
+  SPOS01000251.      34875 TAGGCATCCAGGCAGGTCTGGAACATCTCCAGAGAAGGAGACTCCACCAC 34924
+                            i ?ii  i vv vvv   vi  v        i  v           v  
+C Plat_L3#LINE/       3472 TGGNTGTCTATTCTTTTCTTAAAGATCTCCAGGGATGGAGACTCCACAAC 3423
+
+  SPOS01000251.      34925 CTCCCTGGGCAGCCTGTTCCAGTGCTCCGTCA-CCTCACTGTAAAGAAGT 34973
+                                 v  i    i         i iii   -   v  v  v       
+C Plat_L3#LINE/       3422 CTCCCTCGGTAGCCCGTTCCAGTGTTTTATCACCCTGACAGTCAAGAAGT 3373
+
+  SPOS01000251.      34974 TCTTGCGCACATTTGTGCAAAACTTCCTATGCTGCATTTTCTGGCTGTTT 35023
+                               v vi ii iiivv i   ii  iiv    vi v   vv v ii   
+C Plat_L3#LINE/       3372 TCTTCCTTATGTCCAACCGAAATCTCTCCTGCTTTAATTTAAGCCCATTT 3323
+
+  SPOS01000251.      35024 CCCCTTTTCCTGT-CTCCACATACAGCTGAAAAGAGTCCGGCCTTGCCCC 35072
+                             i   v i v  -   ?iiiv   --  i i iviv i  i -v  vi 
+C Plat_L3#LINE/       3322 CCTCTTGTTCGGTCCTCNGTGGACA--TGGAGAACAACTGGTC-AGCATC 3276
+
+  SPOS01000251.      35073 TCTGCCCCCCACA------CCTCAGATATTTATAGACCTGGATCAGGTCC 35116
+                           ---- i     i ------ i   v   i  iv    vvvv  i i   v
+C Plat_L3#LINE/       3275 ----CTCCCCATAAAAACCCTTCATATACTTGAAGACAGTTATTAAGTCA 3230
+
+  SPOS01000251.      35117 TCTCTCAGTCTTCTTTTCTCAAGGCTGAACAGACCCAGTTCACTCAGCCT 35166
+                           i i  i  i     i     v     i    iv    i   vi i i   
+C Plat_L3#LINE/       3229 CCCCTTAGCCTTCTCTTCTCCAGGCTAAACAACCCCAATTCCTTTAACCT 3180
+
+  SPOS01000251.      35167 TTCTTCATAGGGGCAATACTCCAGGCCCTTCACCATCTTTGTGGCTC 35213
+                              i       iv v  vi    vv  i  v i   i     v    
+C Plat_L3#LINE/       3179 TTCCTCATAGGACCTATTTTCCATCCCTTTAATCATTTTTGTCGCTC 3133
+
+Matrix = 20p39g.matrix
+Kimura (with divCpGMod) = 40.24
+Transitions / transversions = 1.26 (73/58)
+Gap_init rate = 0.03 (14 / 433), avg. gap size = 1.57 (22 / 14)
+
+</pre>
+</div>
+
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre><a href="javascript:;" onmousedown="toggleDiv('hsps34');">+</a><b>   17    3.9  3.7  0.0  SPOS01000251.1:268700-306610  36186 36212  (1699) + <a class='nound' href='/cgi-bin/ViewRepeat?id=(CAAA)n'>(CAAA)n    </a> Simple_repeat       1     28    (0)  34  </b></pre><div id="hsps34" style="display:none; padding: 10px">
+<pre>
+<b>ANNOTATION EVIDENCE:</b>
+   17   3.85 3.70 0.00  SPOS01000251.1:268700-306610  36186 36212    1699 + <a class='nound' href='/cgi-bin/ViewRepeat?id=(CAAA)n'>(CAAA)n    </a> Simple_repeat       1     28      0    
+17 3.85 3.70 0.00 SPOS01000251.1:268700-306610 36186 36212 (1699) (CAAA)n#Simple_repeat 1 28 (0) m_b1s252i15
+
+  SPOS01000251.      36186 CAAA-AAACAAACAAACGAACAAACAAA 36212
+                               -            i          
+  (CAAA)n#Simpl          1 CAAACAAACAAACAAACAAACAAACAAA 28
+
+Matrix = Unknown
+Transitions / transversions = 1.00 (1/0)
+Gap_init rate = 0.04 (1 / 26), avg. gap size = 1.00 (1 / 1)
+
+</pre>
+</div>
+</div>
+</div>
