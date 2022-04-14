@@ -10,6 +10,38 @@ Ashutosh Sharma1, Saumya Gupta1, Ajinkya Bharatraj Patil1, Nagarjun Vijay1*
 
 Data is organised into the following folders:
 
+Alignment_and_Species_tree:
+
+C9_synteny_Screenshots:
+ 
+CLANS_results:
+ 
+Chicken_10X_linked_read_screenshot:
+ 
+Chicken_PacBio_screenshot:
+ 
+Chicken_optical_mapping_data_screenshot:
+ 
+IGV_RNAseq_screenshots:
+ 
+PAML_branch_model:
+ 
+PAML_site_model:
+ 
+RELAX:
+ 
+Repeatmasker_results:
+ 
+Sequence_saturation_test:
+ 
+Subsetted_bam_files:
+ 
+aBSREL:
+ 
+blastn_results:
+ 
+gBGC:
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Prerequisites:
 PAML (4.9f)
