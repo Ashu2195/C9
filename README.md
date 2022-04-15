@@ -10,21 +10,21 @@ Ashutosh Sharma1, Saumya Gupta1, Ajinkya Bharatraj Patil1, Nagarjun Vijay1*
 
 Data is organised into the following folders:
 
-Alignment_and_Species_tree:
+Alignment_and_Species_tree: Contains MSA of all the 22 orders under study along with their time calibrated species tree downloaded from TimeTree. 
 
-C9_synteny_Screenshots:
+C9_synteny_Screenshots: Contains NCBI and Ensembl screenshots depicting synteny of C9. 
  
-CLANS_results:
+CLANS_results: Contains input flies used to run CLANS and screenshots of their subsequent results. 
  
 Chicken_10X_linked_read_screenshot:
  
-Chicken_PacBio_screenshot:
+Chicken_PacBio_screenshot: Contains the bed files; bam files of appropriate and/or available tissues; and screenshots taken from UCSC genome browser using reads >10kb in length.
  
 Chicken_optical_mapping_data_screenshot:
  
-IGV_RNAseq_screenshots:
+IGV_RNAseq_screenshots: Contains screenshots showing RNA-seq expression in appropriate/available tisuees, visualized in IGV 2.5.2
  
-PAML_branch_model:
+PAML_branch_model: 
  
 PAML_site_model:
  
