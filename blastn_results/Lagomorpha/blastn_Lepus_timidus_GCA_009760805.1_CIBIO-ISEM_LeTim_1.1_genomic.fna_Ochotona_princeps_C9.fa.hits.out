@@ -1,0 +1,344 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_009760805.1_CIBIO-ISEM_LeTim_1.1_genomic.fna
+           4,205 sequences; 2,703,257,108 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019679.1 Lepus timidus isolate LTM.BIO.3104 ecotype Ireland c...  107     5e-22
+
+
+
+Query_1  1         ATGGCCACCAGGCACAGCCTCGCCTTTGTGGTCTGCATTTTAGAAATCAGTGCCCTGTCA  60
+10       55700751  ......G....C......T.............................G........A.G  55700692
+
+Query_1  61        GGAGGACCCACTCCCAG  77
+10       55700691  .C...............  55700675
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 129750487824
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019679.1 Lepus timidus isolate LTM.BIO.3104 ecotype Ireland c...  105     3e-21
+
+
+
+Query_2  19        ACAAAGGAGTGACTCTCTGATGCCCATAGACTGCAGGATGAGCCCCTGGAGTTCATGGTC  78
+10       55676412  .............C.C...CA........................A......GA......  55676353
+
+Query_2  79        ACAATGTGATCCTTGTCTCAAACAGATG  106
+10       55676352  G..C................GG..A...  55676325
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 205437952808
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019679.1 Lepus timidus isolate LTM.BIO.3104 ecotype Ireland c...  116     2e-24
+
+
+
+Query_3  1         TTTCGTTCAAGAAGCATTGAGGTTTTTGGACAATATAAAGGGAAAAGCTGCACGGACGCT  60
+10       55675764  ...........G.....C..A..C..........T.C.C........T..TGT...T...  55675705
+
+Query_3  61        CTAGGAGACAGGCAATCGTGCGTGCCCACGGAGGTATGTGAGGATGCCGAAGTGGACTGT  120
+10       55675704  ..G..C.......G.G....TT.A..T..A....C......A..C..T..G.A.......  55675645
+
+Query_3  121       GGAAATGAATTTCAATGTGGCACAG  145
+10       55675644  .A...C..............G....  55675617
+                       \                    
+                       |                    
+                     AAG
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 310860060170
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019679.1 Lepus timidus isolate LTM.BIO.3104 ecotype Ireland c...  129     4e-28
+
+
+
+Query_4  3         AGATGCATACCGAGGCGACTCCTGTGTAATGGTGACAATGACTGTGAAGACTTTTCAGAT  62
+10       55675379  ..G......AA.........G...........G...........C.G......C..G...  55675320
+
+Query_4  63        GAGGAGGACTGTGAGAAGGATCCCCGGCCCCCCTGCCGTGATCGTGAGGTCGAAGAGTCA  122
+10       55675319  .....T.....C..A.CA..G.....C.TTA....T..CA.C........GC.G.....C  55675260
+
+Query_4  123       GAGCTGGCCCGGACAGCAGGCTATGG  148
+10       55675259  ........A........G.....C..  55675234
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 318969453044
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019679.1 Lepus timidus isolate LTM.BIO.3104 ecotype Ireland c...  147     1e-33
+
+
+
+Query_5  1         GATCAACATTTTAGGGATGGACCCCCTAACCTCGCCTTTCGACAATGAGTTCTACAATGG  60
+10       55667217  .....................T.........A.A.....T.....C....A....C.C..  55667158
+
+Query_5  61        ATTGTGTTTCCGGGTTCGGGATGGAAATACTTTGACGTACTATCGAAGACCCTGGAATGT  120
+10       55667157  .C.C...GA...T...T.......G..C........A.......................  55667098
+
+Query_5  121       GCAGTCATTGGCCTATGAA  139
+10       55667097  .GCTG.T....T.......  55667079
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 294641274422
+
+
+Query= exon6
+
+Length=261
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019679.1 Lepus timidus isolate LTM.BIO.3104 ecotype Ireland c...  194     2e-47
+
+
+
+Query_6  6         AATTGAAAGAAATTTCAGAACTGAAGATTATGAAGAACAGGTTCAAGCATTCCAACATGT  65
+10       55657062  ......T.A................T..............A.G..G...C..A..AG.A.  55657003
+
+Query_6  66        CATTGAAGAAGAGACATCAAATTTTAATACAAAATTCACTCTAAAATTTTCACCAACTGA  125
+10       55657002  ............................G....T..AG...........A....C.....  55656943
+
+Query_6  126       AGCAAAGGCATTGAAGAGTGAAAAAGCTTCCCAGGAAACAAACTCCTCAAGTCATAAAGG  185
+10       55656942  ......A...AAT...GC....G..AT......AA.G..-..G..T....-.G.....A.  55656877
+                                                 \                \            
+                                                 |                |            
+                                                 T          TGGATGA
+
+Query_6  186       TTCCTGGGGTGACTTGAAATTTTCATACTCTAAAAATAAAACCTACCAACTATTTTTGTC  245
+10       55656876  ..T..CAA..A.A..TC.....CTG..T..C......G....T...........C.....  55656817
+
+Query_6  246       ATATTCTTCCCAGA  259
+10       55656816  .........A....  55656803
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 621719153190
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019679.1 Lepus timidus isolate LTM.BIO.3104 ecotype Ireland c...  300     2e-79
+
+
+
+Query_7  1         GAGAAAATCTTTCTGCGTGTGAGAGGAGTAGTTCAACTGGGAAGGTTTATGATGAGAAAC  60
+10       55654325  ..A.....G.......T.....A.......A.............A...G......A...T  55654266
+
+Query_7  61        CGTGACGTTATGCTGACAACCACCTTCTTGAATGACATCAGAGCTCTGCCAGCTACCTAT  120
+10       55654265  ..G.GT.............A..........G....T..A.A.T........A.C......  55654206
+
+Query_7  121       GAAAAGGGAGAATATTTTGCATTTCTGGAAACCTATGGAACCCACTACAGTAGCTCTGGG  180
+10       55654205  .....A..................T......................T............  55654146
+
+Query_7  181       TCTCTGGGAGGACGCTATGAGCTAATATACGTTCTGGATAAAGCTTCCATG  231
+10       55654145  ..........................C..T...T.................  55654095
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 567656618130
+
+
+Query= exon8
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019679.1 Lepus timidus isolate LTM.BIO.3104 ecotype Ireland c...  131     1e-28
+  CM019680.1 Lepus timidus isolate LTM.BIO.3104 ecotype Ireland c...  48.2    0.001
+
+
+
+Query_8  3          ATTGAACTAAATGATGTAAAGAAATGCCTTGGATTTGGTTTGGATTTATCCCTCAATATC  62
+10       55650585   .....G..G.....CA.............G..G....A............T..G......  55650526
+
+Query_8  63         CATGGAAAATCTAATGGGATTTCACTCACAGGACAAATTAATAAAAACAATTGCTTGAAG  122
+10       55650525   .C..........GC....C....G............GCGGC...............A...  55650466
+11       147302961                    .....T..........................            147302929
+                                                 \                              
+                                                 |                              
+                                                 C
+
+Query_8  123        AG  124
+10       55650465   ..  55650464
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 300047536338
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019679.1 Lepus timidus isolate LTM.BIO.3104 ecotype Ireland c...  224     8e-57
+
+
+
+Query_9  1         TAAACATCACCAGAGCTAACCTCATAGATGATGTGATTTCGCTCATAAAAGGAGGAACTC  60
+10       55649291  ............AG..........................A.......G.........C.  55649232
+
+Query_9  61        AAAAACACGCCTTGGAACTGAAAGAAAAATTGCTCACAAGAGCCAAGATGATTGATGTGA  120
+10       55649231  .....TTT..A..T...T..........GC.T.....C.A..........G....C....  55649172
+
+Query_9  121       CAGACTTTGCCAACTGGGCCTCTTCCTTAAGTGATGCTCCAGTGCTCATCAGTCAAAAA  179
+10       55649171  ........AT...T.....................................A.......  55649113
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 400062759444
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019679.1 Lepus timidus isolate LTM.BIO.3104 ecotype Ireland c...  235     6e-60
+  CM019683.1 Lepus timidus isolate LTM.BIO.3104 ecotype Ireland c...  46.4    0.006
+
+
+
+Query_10  1         CTCTCCCCCATTTATAACCTGATTCCAGTGAAAGAAAAAGATGCACACCTAAAGAAACAA  60
+10        55634806  ..G.....T..A.....T........T......AT..............A.....G...G  55634747
+14        25480074                       ...................T..A...GGA.G.A...G.G  25480036
+
+Query_10  61        AATCTAGAAAGAGCAATTGGAGATTATATCAATGAATACAGCACCAGAAAGTGCTTGCCC  120
+10        55634746  .....G..G....G.....A......C..........T......A..........CC...  55634687
+14        25480035  ...-.........                                                 25480024
+
+Query_10  121       TGCCACAATGGGGGGACTGTGATTCTGATGGATGGAGAGTGTTTGTGTTCCTGCCCAGTT  180
+10        55634686  .....A.....A..C......C..........A..CCG..........A........T..  55634627
+
+Query_10  181       ATGTTCAACGGGATTGCCTGTGAAAGCAAGAAGCAAAAAATGGGTTAA  228
+10        55634626  ........G................T.TCC..A.G..G.C...C....  55634579
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 532515970341
+
+
+  Database: GCA_009760805.1_CIBIO-ISEM_LeTim_1.1_genomic.fna
+    Posted date:  Nov 24, 2021  4:12 PM
+  Number of letters in database: 2,703,257,108
+  Number of sequences in database:  4,205
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

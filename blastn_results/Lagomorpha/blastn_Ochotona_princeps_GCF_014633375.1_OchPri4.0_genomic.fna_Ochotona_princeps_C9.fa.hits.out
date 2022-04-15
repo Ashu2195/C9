@@ -1,0 +1,344 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_014633375.1_OchPri4.0_genomic.fna
+           9,351 sequences; 2,231,492,728 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_050546.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  140     7e-32
+
+
+
+Query_1  1         ATGGCCACCAGGCACAGCCTCGCCTTTGTGGTCTGCATTTTAGAAATCAGTGCCCTGTCA  60
+10       18355812  ............................................................  18355871
+
+Query_1  61        GGAGGACCCACTCCCAG  77
+10       18355872  .................  18355888
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 107098634352
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_050546.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  192     2e-47
+
+
+
+Query_2  1         CTATGATCAGGCACCAGCACAAAGGAGTGACTCTCTGATGCCCATAGACTGCAGGATGAG  60
+10       18364920  ............................................................  18364979
+
+Query_2  61        CCCCTGGAGTTCATGGTCACAATGTGATCCTTGTCTCAAACAGATG  106
+10       18364980  ..............................................  18365025
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 171804059273
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_050546.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  262     2e-68
+
+
+
+Query_3  1         TTTCGTTCAAGAAGCATTGAGGTTTTTGGACAATATAAAGGGAAAAGCTGCACGGACGCT  60
+10       18365593  ............................................................  18365652
+
+Query_3  61        CTAGGAGACAGGCAATCGTGCGTGCCCACGGAGGTATGTGAGGATGCCGAAGTGGACTGT  120
+10       18365653  ............................................................  18365712
+
+Query_3  121       GGAAATGAATTTCAATGTGGCACAG  145
+10       18365713  .........................  18365737
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 256589402770
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_050546.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  268     5e-70
+  NC_050539.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  51.8    7e-05
+  NC_050548.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  48.2    8e-04
+  NC_050542.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  46.4    0.003
+
+
+
+Query_4  1         GTAGATGCATACCGAGGCGACTCCTGTGTAATGGTGACAATGACTGTGAAGACTTTTCAG  60
+10       18366012  ............................................................  18366071
+3        18390119                          ....CG....C...........C..G...AAC....  18390154
+12       46849491                      ..T..T..C.....A.............G....CAA....  46849452
+6        29583102                            ...G....A..T.TC...........TCAA....  29583069
+6        55217035                                     .............G....AAC....  55217011
+
+Query_4  61        ATGAGGAGGACTGTGAGAAGGATCCCCGGCCCCCCTGCCGTGATCGTGAGGTCGAAGAGT  120
+10       18366072  ............................................................  18366131
+3        18390155  ........A....C...                                             18390171
+12       46849451  ......                                                        46849446
+6        29583068  .......A........                                              29583053
+6        55217010  .....CG........                                               55216996
+
+Query_4  121       CAGAGCTGGCCCGGACAGCAGGCTATGG  148
+10       18366132  ............................  18366159
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 263283039364
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_050546.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  251     3e-65
+
+
+
+Query_5  1         GATCAACATTTTAGGGATGGACCCCCTAACCTCGCCTTTCGACAATGAGTTCTACAATGG  60
+10       18372869  ............................................................  18372928
+
+Query_5  61        ATTGTGTTTCCGGGTTCGGGATGGAAATACTTTGACGTACTATCGAAGACCCTGGAATGT  120
+10       18372929  ............................................................  18372988
+
+Query_5  121       GCAGTCATTGGCCTATGAA  139
+10       18372989  ...................  18373007
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 243202129582
+
+
+Query= exon6
+
+Length=261
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_050546.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  471     4e-131
+
+
+
+Query_6  1         ACCATAATTGAAAGAAATTTCAGAACTGAAGATTATGAAGAACAGGTTCAAGCATTCCAA  60
+10       18376851  ............................................................  18376910
+
+Query_6  61        CATGTCATTGAAGAAGAGACATCAAATTTTAATACAAAATTCACTCTAAAATTTTCACCA  120
+10       18376911  ............................................................  18376970
+
+Query_6  121       ACTGAAGCAAAGGCATTGAAGAGTGAAAAAGCTTCCCAGGAAACAAACTCCTCAAGTCAT  180
+10       18376971  ............................................................  18377030
+
+Query_6  181       AAAGGTTCCTGGGGTGACTTGAAATTTTCATACTCTAAAAATAAAACCTACCAACTATTT  240
+10       18377031  ............................................................  18377090
+
+Query_6  241       TTGTCATATTCTTCCCAGACG  261
+10       18377091  .....................  18377111
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 513176654810
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_050546.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  435     3e-120
+
+
+
+Query_7  1         GAGAAAATCTTTCTGCGTGTGAGAGGAGTAGTTCAACTGGGAAGGTTTATGATGAGAAAC  60
+10       18378732  ............................................................  18378791
+
+Query_7  61        CGTGACGTTATGCTGACAACCACCTTCTTGAATGACATCAGAGCTCTGCCAGCTACCTAT  120
+10       18378792  ............................................................  18378851
+
+Query_7  121       GAAAAGGGAGAATATTTTGCATTTCTGGAAACCTATGGAACCCACTACAGTAGCTCTGGG  180
+10       18378852  ............................................................  18378911
+
+Query_7  181       TCTCTGGGAGGACGCTATGAGCTAATATACGTTCTGGATAAAGCTTCCATGGGTCAGCAA  240
+10       18378912  ............................................................  18378971
+
+Query_7  241       G  241
+10       18378972  .  18378972
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 468552597870
+
+
+Query= exon8
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_050546.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  255     3e-66
+
+
+
+Query_8  1         GTATTGAACTAAATGATGTAAAGAAATGCCTTGGATTTGGTTTGGATTTATCCCTCAATA  60
+10       18380740  ............................................................  18380799
+
+Query_8  61        TCCATGGAAAATCTAATGGGATTTCACTCACAGGACAAATTAATAAAAACAATTGCTTGA  120
+10       18380800  ............................................................  18380859
+
+Query_8  121       AGAGAGATGGTGGGAAAGTTG  141
+10       18380860  .....................  18380880
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 247664553978
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_050546.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  324     9e-87
+
+
+
+Query_9  1         TAAACATCACCAGAGCTAACCTCATAGATGATGTGATTTCGCTCATAAAAGGAGGAACTC  60
+10       18382379  ............................................................  18382438
+
+Query_9  61        AAAAACACGCCTTGGAACTGAAAGAAAAATTGCTCACAAGAGCCAAGATGATTGATGTGA  120
+10       18382439  ............................................................  18382498
+
+Query_9  121       CAGACTTTGCCAACTGGGCCTCTTCCTTAAGTGATGCTCCAGTGCTCATCAGTCAAAAA  179
+10       18382499  ...........................................................  18382557
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 332450617502
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_050546.1 Ochotona princeps isolate UAM:Mamm:113957 chromosom...  412     3e-113
+
+
+
+Query_10  1         CTCTCCCCCATTTATAACCTGATTCCAGTGAAAGAAAAAGATGCACACCTAAAGAAACAA  60
+10        18392822  ............................................................  18392881
+
+Query_10  61        AATCTAGAAAGAGCAATTGGAGATTATATCAATGAATACAGCACCAGAAAGTGCTTGCCC  120
+10        18392882  ............................................................  18392941
+
+Query_10  121       TGCCACAATGGGGGGACTGTGATTCTGATGGATGGAGAGTGTTTGTGTTCCTGCCCAGTT  180
+10        18392942  ............................................................  18393001
+
+Query_10  181       ATGTTCAACGGGATTGCCTGTGAAAGCAAGAAGCAAAAAATGGGTTAA  228
+10        18393002  ................................................  18393049
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 439546960859
+
+
+  Database: GCF_014633375.1_OchPri4.0_genomic.fna
+    Posted date:  Nov 24, 2021  4:14 PM
+  Number of letters in database: 2,231,492,728
+  Number of sequences in database:  9,351
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

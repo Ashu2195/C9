@@ -1,0 +1,342 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Oryctolagus_cuniculus.OryCun2.0.dna_sm.toplevel.fa
+           3,242 sequences; 2,737,490,501 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  11 dna_sm:chromosome chromosome:OryCun2.0:11:1:87554214:1 REF       140     9e-32
+
+
+
+Query_1  1         ATGGCCGCCAGCCACAGCTTCGCCTTTGTGGTCTGCGTTTTAGAAATCGGTGCCCTGACG  60
+10       60387618  ............................................................  60387559
+
+Query_1  61        GCAGGACCCACTCCCAG  77
+10       60387558  .................  60387542
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 131395031184
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  11 dna_sm:chromosome chromosome:OryCun2.0:11:1:87554214:1 REF       192     2e-47
+
+
+
+Query_2  1         CTATGTCCACGAGCCGATACAAAGGAGTGACCCTCTGCAGCCCATAGACTGCAGGATGAG  60
+10       60371241  ............................................................  60371182
+
+Query_2  61        CCCATGGAGTGAATGGTCGCACTGTGATCCTTGTCTCAGGCAAATG  106
+10       60371181  ..............................................  60371136
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 208041886316
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  11 dna_sm:chromosome chromosome:OryCun2.0:11:1:87554214:1 REF       268     6e-70
+
+
+
+Query_3  1         TTTCGTTCAAGGAGCATCGAAGTCTTTGGACAATTTCATGGGAAAAGTTGTGTGGATGCT  60
+10       60370495  ............................................................  60370436
+
+Query_3  61        CTGGGCGACAGGCGAGCGTGTATACCTACGGAGGCATGCGAAGACGCTGAGGAGGACTGT  120
+10       60370435  ............................................................  60370376
+
+Query_3  121       GAAAAAGACGAATTTCACTGTGGGACAG  148
+10       60370375  ............................  60370348
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 323012402438
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  11 dna_sm:chromosome chromosome:OryCun2.0:11:1:87554214:1 REF       268     6e-70
+  13 dna_sm:chromosome chromosome:OryCun2.0:13:1:143360832:1 REF      48.2    0.001
+
+
+
+Query_4  1          GCAGGTGCATAAAGAGGCGACTGCTGTGTAATGGGGACAATGACTGCGGAGACTTTTCAG  60
+10       60370109   ............................................................  60370050
+12       109922145                      ..T..T..C.................T......CAG..C.  109922184
+
+Query_4  61         ATGAGGATGACTGCGAAACGGAGCCCCGTCTTACCTGTCGCAACCGCGAGGTCCAAGAGT  120
+10       60370049   ............................................................  60369990
+12       109922185  ......CCA.....                                                109922198
+
+Query_4  121        CGGAGCTGGCACGGACAGCGGGCTATGG  148
+10       60369989   ............................  60369962
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 323012402438
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  11 dna_sm:chromosome chromosome:OryCun2.0:11:1:87554214:1 REF       246     2e-63
+
+
+
+Query_5  1         GATCAACATTTTAGGGATGGATCCCCTAGCCACACCTTTTGACAACGAGTACTACCACGG  60
+10       60360748  ............................A...............................  60360689
+
+Query_5  61        ACTCTGTGACCGTGTTTGGGATGGGAACACTTTGACACACTATCGAAAACCCTGGAATGT  120
+10       60360688  ............................................................  60360629
+
+Query_5  121       GGCTGTTTTGGCCTATGAA  139
+10       60360628  ...................  60360610
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 298375863269
+
+
+Query= exon6
+
+Length=267
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  11 dna_sm:chromosome chromosome:OryCun2.0:11:1:87554214:1 REF       450     2e-124
+  X dna_sm:chromosome chromosome:OryCun2.0:X:1:111700775:1 REF        51.8    2e-04 
+
+
+
+Query_6  1         ACAAAAATTGATAAAAATTTCAGAACTGAATACTATGAAGAACAGATGCAGGCATTCAAA  60
+10       60350129  ......................A.....................................  60350070
+21       22277138                                             ....TA...........  22277122
+
+Query_6  61        AGTATCATTGAAGAAGAGACATCAAATTTTAATGCAAATTTAGCTCTAAAATTTACACCC  120
+10       60350069  ............................................................  60350010
+21       22277121  .........T.......T...............                             22277085
+                        \     \         \                                      
+                        |     |         |                                      
+                        C     C        TT
+
+Query_6  121       ACCGAAGCAAAAGCAAGTAAGGCTGAAGAAGCTTCTCCAAAAAACAAGTCTTTGGATGAT  180
+10       60350009  ..T.............A....A....................G.................  60349950
+
+Query_6  181       AATGATAAAGGTTTCTCGAGTAAATTTCAATTTTCGTATTCCAAAAATGAAACTTACCAA  240
+10       60349949  ............................G.....T.........................  60349890
+
+Query_6  241       CTATTCTTGTCATATTCTTCACAGAAG  267
+10       60349889  ...........................  60349863
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 646024039764
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  11 dna_sm:chromosome chromosome:OryCun2.0:11:1:87554214:1 REF       426     2e-117
+
+
+
+Query_7  1         GAAAAAATGTTTCTGCTTGTGAAAGGAATAATTCAACTGGGAAGATTTGTGATGAAAAAT  60
+10       60346504  ...........................G....................C...........  60346445
+
+Query_7  61        CGGGGTGTTATGCTGACAAATACCTTCTTGGATGATATAAAATCTCTGCCAACTACCTAT  120
+10       60346444  ............................................................  60346385
+
+Query_7  121       GAAAAAGGAGAATATTTTGCATTTTTGGAAACCTATGGAACCCACTATAGTAGCTCTGGG  180
+10       60346384  ............................................................  60346325
+
+Query_7  181       TCTCTGGGAGGACGCTATGAGCTAATTTATGTTTTGGATAAAGCTTCCATGAAGGAGAAA  240
+10       60346324  ............................................................  60346265
+
+Query_7  241       G  241
+10       60346264  .  60346264
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 574851899790
+
+
+Query= exon8
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  11 dna_sm:chromosome chromosome:OryCun2.0:11:1:87554214:1 REF       250     2e-64
+
+
+
+Query_8  1         GGATTGAGCTGAATGACATAAAGAAATGCCTTGGGTTTGACTTAGATTTATCTCTGAATA  60
+10       60343063  ........................................T...................  60343004
+
+Query_8  61        TCCCTGGAAAATCTGCTGGGCTTTCGCTCACAGGACAAGCAAATAAAAACAATTGCTTAA  120
+10       60343003  ............................................................  60342944
+
+Query_8  121       AGAGTGGTCATGGTAATGCTG  141
+10       60342943  .....................  60342923
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 303850649751
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  11 dna_sm:chromosome chromosome:OryCun2.0:11:1:87554214:1 REF       324     1e-86
+
+
+
+Query_9  1         TAAACATCACCAGGGCTAACCTCATAGATGATGTGATTTCACTCATAAGAGGAGGAACCC  60
+10       60340291  ............................................................  60340232
+
+Query_9  61        AAAAATTTGCGTTTGAATTGAAAGAAAAGCTTCTCACCAAAGCCAAGATGGTTGACGTGA  120
+10       60340231  ............................................................  60340172
+
+Query_9  121       CGGACTTTATCAATTGGGCCTCTTCCTTAAGTGATGCTCCAGTGCTCATCAATCAAAAA  179
+10       60340171  ...........................................................  60340113
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 405133719852
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  11 dna_sm:chromosome chromosome:OryCun2.0:11:1:87554214:1 REF       407     2e-111
+
+
+
+Query_10  1         CTGTCCCCTATATATAATCTGATTCCTGTGAAAATAAAAGATGCGCACCAAAAGAGACAG  60
+10        60329842  ............................................................  60329783
+
+Query_10  61        AATCTGGAGAGAGGAATTGAAGATTACATCAATGAATTCAGCACGAAAAAGTGCTCCCCC  120
+10        60329782  ............................................................  60329723
+
+Query_10  121       TGCCAAAACGGAGGCACTGCACTTCTGATGGATGGCCAGTGTTTGTGTACCTGCCCGTTT  180
+10        60329722  ............................................................  60329663
+
+Query_10  181       ATGTTCGAGGGGATTGCCTGTGAAATCTCCAAACGAAAACTGGCTTAA  228
+10        60329662  ......A.........................................  60329615
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 539265829803
+
+
+  Database: Oryctolagus_cuniculus.OryCun2.0.dna_sm.toplevel.fa
+    Posted date:  Nov 24, 2021  4:16 PM
+  Number of letters in database: 2,737,490,501
+  Number of sequences in database:  3,242
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

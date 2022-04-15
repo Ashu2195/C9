@@ -1,0 +1,347 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_015711505.1_Sylvilagus_bachmani_HiC_genomic.fna
+           524,013 sequences; 2,686,383,908 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027409.1 Sylvilagus bachmani isolate Sample2420 chromosome 24...  104     6e-21
+
+
+
+Query_1  1         ATGGCCACCAGGCACAGCCTCGCCTTTGTGGTCTGCATTTTAGAAATCAGTGCCCTGTCA  60
+23       57353318  ......G....C......T............................TG........A.G  57353377
+
+Query_1  61        GGAGGACCCACTCCCAG  77
+23       57353378  .C...............  57353394
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 128217001488
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027409.1 Sylvilagus bachmani isolate Sample2420 chromosome 24...  104     9e-21
+
+
+
+Query_2  20        CAAAGGAGTGACTCTCTGATGCCCATAGACTGCAGGATGAGCCCCTGGAGTTCATGGTCA  79
+23       57368800  ............C.....CA........................A......GAG.....G  57368859
+
+Query_2  80        CAATGTGATCCTTGTCTCAAACAGATG  106
+23       57368860  ..C................GG..A...  57368886
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 202970427368
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027409.1 Sylvilagus bachmani isolate Sample2420 chromosome 24...  122     5e-26
+
+
+
+Query_3  1         TTTCGTTCAAGAAGCATTGAGGTTTTTGGACAATATAAAGGGAAAAGCTGCACGGACGCT  60
+23       57369447  ...........G.....C..A..C..........T.C.T........T..TGT...T...  57369506
+
+Query_3  61        CTAGGAGACAGGCAATCGTGCGTGCCCACGGAGGTATGTGAGGATGCCGAAGTGGACTGT  120
+23       57369507  ..G..C.......G.G....TA.A..T.......C...C..A..C.....G.A.......  57369566
+
+Query_3  121       GGAAATGAATTTCAATGTGGCACAG  145
+23       57369567  .....C........G.....G....  57369594
+                       \                    
+                       |                    
+                     AAG
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 307126304570
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027409.1 Sylvilagus bachmani isolate Sample2420 chromosome 24...  141     6e-32
+  CM027394.1 Sylvilagus bachmani isolate Sample2420 chromosome 9,...  51.8    8e-05
+
+
+
+Query_4  3         AGATGCATACCGAGGCGACTCCTGTGTAATGGTGACAATGACTGTGAAGACTTTTCAGAT  62
+23       57369835  ..G......AA.........G...........G.............G.............  57369894
+8        57108532                        ....CG.........GC...........TAAC..G...  57108495
+
+Query_4  63        GAGGAGGACTGTGAGAAGGATCCCCGGCCCCCCTGCCGTGATCGTGAGGTCGAAGAGTCA  122
+23       57369895  .....T.....C..A.CA..G.....T.TTA....T..CA.C..C.....GC.......C  57369954
+8        57108494  ......A........                                               57108480
+
+Query_4  123       GAGCTGGCCCGGACAGCAGGCTATGG  148
+23       57369955  ........A........G.....C..  57369980
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 315138295124
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027409.1 Sylvilagus bachmani isolate Sample2420 chromosome 24...  138     7e-31
+
+
+
+Query_5  1         GATCAACATTTTAGGGATGGACCCCCTAACCTCGCCTTTCGACAATGAGTTCTACAATGG  60
+23       57378181  ............G........T.........A.A.....T.....C....A....C.C..  57378240
+
+Query_5  61        ATTGTGTTTCCGGGTTCGGGATGGAAATACTTTGACGTACTATCGAAGACCCTGGAATGT  120
+23       57378241  .C.C...GA...T...T.......G..C........AC.........A............  57378300
+
+Query_5  121       GCAGTCATTGGCCTATGAA  139
+23       57378301  .GCTA.T............  57378319
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 291102323462
+
+
+Query= exon6
+
+Length=261
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027409.1 Sylvilagus bachmani isolate Sample2420 chromosome 24...  214     2e-53
+
+
+
+Query_6  6         AATTGAAAGAAATTTCAGAACTGAAGATTATGAAGAACAGGTTCAAGCATTCCAACATGT  65
+23       57386896  ...C..T.A................T..............A.G..G......A..AG...  57386955
+
+Query_6  66        CATTGAAGAAGAGACATCAAATTTTAATACAAAATTCACTCTAAAATTTTCACCAACTGA  125
+23       57386956  ............................G....T..AG...........A....C..C..  57387015
+
+Query_6  126       AGCAAAGGCATTGAAGAGTGAAAAAGCTTCCCAGGAAACAAACTCCTCAAGTCATAAAGG  185
+23       57387016  ......A...AAT...GC....G..A......TAA.........TTGG..A.G.......  57387081
+                                                 \           \      \          
+                                                 |           |      |          
+                                                 T           T   TGAT
+
+Query_6  186       TTCCTGGGGTGACTTGAAATTTTCATACTCTAAAAATAAAACCTACCAACTATTTTTGTC  245
+23       57387082  ..T..C.A..A.A..TC......TG..T..C......G....T...........C.....  57387141
+
+Query_6  246       ATATTCTTCCCAGA  259
+23       57387142  .........A....  57387155
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 614132086150
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027409.1 Sylvilagus bachmani isolate Sample2420 chromosome 24...  295     7e-78
+
+
+
+Query_7  1         GAGAAAATCTTTCTGCGTGTGAGAGGAGTAGTTCAACTGGGAAGGTTTATGATGAGAAAC  60
+23       57389652  ..A.....G.......T.....A.......A.............A...G......A...T  57389711
+
+Query_7  61        CGTGACGTTATGCTGACAACCACCTTCTTGAATGACATCAGAGCTCTGCCAGCTACCTAT  120
+23       57389712  ..G.GT.............A..........G....T..A.A.T........AA.......  57389771
+
+Query_7  121       GAAAAGGGAGAATATTTTGCATTTCTGGAAACCTATGGAACCCACTACAGTAGCTCTGGG  180
+23       57389772  .....A............T.....T......................T............  57389831
+
+Query_7  181       TCTCTGGGAGGACGCTATGAGCTAATATACGTTCTGGATAAAGCTTCCATG  231
+23       57389832  ..........................T..T...T.................  57389882
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 560729296050
+
+
+Query= exon8
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027409.1 Sylvilagus bachmani isolate Sample2420 chromosome 24...  140     2e-31
+  CM027390.1 Sylvilagus bachmani isolate Sample2420 chromosome 5,...  48.2    0.001
+
+
+
+Query_8  3         ATTGAACTAAATGATGTAAAGAAATGCCTTGGATTTGGTTTGGATTTATCCCTCAATATC  62
+23       57393101  .....G..G.....CA................G....A............T..G......  57393160
+
+Query_8  63        CATGGAAAATCTAATGGGATTTCACTCACAGGACAAATTAATAAAAACAATTGCTTGAAG  122
+23       57393161  .C..........GC....T....G............GCG...............G.A...  57393220
+4        9062559                     .....T..........................            9062591
+                                                \                              
+                                                |                              
+                                                C
+
+Query_8  123       AG  124
+23       57393221  ..  57393222
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 296443650498
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027409.1 Sylvilagus bachmani isolate Sample2420 chromosome 24...  219     3e-55
+
+
+
+Query_9  1         TAAACATCACCAGAGCTAACCTCATAGATGATGTGATTTCGCTCATAAAAGGAGGAACTC  60
+23       57394387  .........G...G..........................A.......G.........C.  57394446
+
+Query_9  61        AAAAACACGCCTTGGAACTGAAAGAAAAATTGCTCACAAGAGCCAAGATGATTGATGTGA  120
+23       57394447  .....TTT..A..T...T..........GC.T.....C.A..........G....C....  57394506
+
+Query_9  121       CAGACTTTGCCAACTGGGCCTCTTCCTTAAGTGATGCTCCAGTGCTCATCAGTCAAAAA  179
+23       57394507  .T......AT...T.....................................A.......  57394565
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 395180646740
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027409.1 Sylvilagus bachmani isolate Sample2420 chromosome 24...  232     7e-59
+  CM027404.1 Sylvilagus bachmani isolate Sample2420 chromosome 19...  48.2    0.002
+
+
+
+Query_10  1         CTCTCCCCCATTTATAACCTGATTCCAGTGAAAGAAAAAGATGCACACCTAAAGAAACAA  60
+23        57403947  ..G.....T..A.....T........T......AT.........T....A.....G...G  57404006
+18        16619832                               ....C.....T.--......-..........  16619859
+
+Query_10  61        AATCTAGAAAGAGCAATTGGAGATTATATCAATGAATACAGCACCAGAAAGTGCTTGCCC  120
+23        57404007  .....G..G....G.....A......C..........T......A.A........CC...  57404066
+18        16619860  ..A.........-T.....T...                                       16619881
+
+Query_10  121       TGCCACAATGGGGGGACTGTGATTCTGATGGATGGAGAGTGTTTGTGTTCCTGCCCAGTT  180
+23        57404067  .....A.....A..C....................CC...........A.......GT..  57404126
+
+Query_10  181       ATGTTCAACGGGATTGCCTGTGAAAGCAAGAAGCAAAAAATGGGTTAA  228
+23        57404127  ........G..C.............T.TCC..A.G...GC...C....  57404174
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 526017482485
+
+
+  Database: GCA_015711505.1_Sylvilagus_bachmani_HiC_genomic.fna
+    Posted date:  Nov 24, 2021  4:17 PM
+  Number of letters in database: 2,686,383,908
+  Number of sequences in database:  524,013
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

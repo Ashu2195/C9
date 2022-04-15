@@ -1,0 +1,357 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004026855.1_LepAme_v1_BIUU_genomic.fna
+           1,592,829 sequences; 3,123,271,264 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJM010000539.1 Lepus americanus isolate BS55 LepAme_scaffold_1...  131     5e-29
+
+
+
+Query_1  1      ATGGCCGCCAGCCACAGCTTCGCCTTTGTGGTCTGCGTTTTAGAAATCGGTGCCCTGACG  60
+538      65490  ....................................A......................A  65431
+
+Query_1  61     GCAGGACCCACTCCCAG  77
+538      65430  .................  65414
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 147699802704
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJM010000539.1 Lepus americanus isolate BS55 LepAme_scaffold_1...  174     7e-42
+
+
+
+Query_2  1      CTATGTCCACGAGCCGATACAAAGGAGTGACCCTCTGCAGCCCATAGACTGCAGGATGAG  60
+538      51668  .........T.....C.................C..........................  51609
+
+Query_2  61     CCCATGGAGTGAATGGTCGCACTGTGATCCTTGTCTCAGGCAAATG  106
+538      51608  ...........................................G..  51563
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 233736965944
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJM010000539.1 Lepus americanus isolate BS55 LepAme_scaffold_1...  241     9e-62
+
+
+
+Query_3  1      TTTCGTTCAAGGAGCATCGAAGTCTTTGGACAATTTCATGGGAAAAGTTGTGTGGATGCT  60
+538      51001  ......................................C.....................  50942
+
+Query_3  61     CTGGGCGACAGGCGAGCGTGTATACCTACGGAGGCATGCGAAGACGCTGAGGAGGACTGT  120
+538      50941  .....................G................T......A...G..........  50882
+
+Query_3  121    GAAAAAGACGAATTTCACTGTGGGACAG  148
+538      50881  .................A..........  50854
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 362907394492
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJM010000539.1 Lepus americanus isolate BS55 LepAme_scaffold_1...  235     4e-60
+  PVJM010060431.1 Lepus americanus isolate BS55 LepAme_scaffold_1...  48.2    0.001
+
+
+
+Query_4  1      GCAGGTGCATAAAGAGGCGACTGCTGTGTAATGGGGACAATGACTGCGGAGACTTTTCAG  60
+538      50619  .......................................................C..G.  50560
+60430    519                        ..T..T..C.................T......CAG..C.  558
+
+Query_4  61     ATGAGGATGACTGCGAAACGGAGCCCCGTCTTACCTGTCGCAACCGCGAGGTCCAAGAGT  120
+538      50559  ...................A..........................T.....G..G....  50500
+60430    559    ......CCA.....                                                572
+
+Query_4  121    CGGAGCTGGCACGGACAGCGGGCTATGG  148
+538      50499  .C..........................  50472
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 362907394492
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJM010000539.1 Lepus americanus isolate BS55 LepAme_scaffold_1...  228     5e-58
+
+
+
+Query_5  1      GATCAACATTTTAGGGATGGATCCCCTAGCCACACCTTTTGACAACGAGTACTACCACGG  60
+538      42363  ............................A...............................  42304
+
+Query_5  61     ACTCTGTGACCGTGTTTGGGATGGGAACACTTTGACACACTATCGAAAACCCTGGAATGT  120
+538      42303  .....................................T.........G............  42244
+
+Query_5  121    GGCTGTTTTGGCCTATGAA  139
+538      42243  .....C.....T.......  42225
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 335228016946
+
+
+Query= exon6
+
+Length=267
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJM010000539.1 Lepus americanus isolate BS55 LepAme_scaffold_1...  432     5e-119
+  PVJM010362594.1 Lepus americanus isolate BS55 LepAme_scaffold_7...  48.2    0.002 
+  PVJM010346436.1 Lepus americanus isolate BS55 LepAme_scaffold_6...  48.2    0.002 
+  PVJM010148930.1 Lepus americanus isolate BS55 LepAme_scaffold_2...  48.2    0.002 
+
+
+
+Query_6  1      ACAAAAATTGATAAAAATTTCAGAACTGAATACTATGAAGAACAGATGCAGGCATTCAAA  60
+538      32188  ................................T.....................C.....  32129
+362593   867                                               ....TA...........  883
+346435   929                                               ....TA...........  945
+148929   133                                               ....TA...........  149
+
+Query_6  61     AGTATCATTGAAGAAGAGACATCAAATTTTAATGCAAATTTAGCTCTAAAATTTACACCC  120
+538      32128  ............................................................  32069
+362593   884    ..A......T.......T...............                             920
+                     \     \         \                                      
+                     |     |         |                                      
+                     C     C        TT
+346435   946    ..A......T.......T...............                             982
+                     \     \         \                                      
+                     |     |         |                                      
+                     C     C        TT
+148929   150    ..A......T.......T...............                             186
+                     \     \         \                                      
+                     |     |         |                                      
+                     C     C        TT
+
+Query_6  121    ACCGAAGCAAAAGCAAGTAAGGCTGAAGAAGCTTCTCCAAAAAACAAGTCTTTGGATGAT  180
+538      32068  ..T.............A..............T..T.......G.................  32009
+
+Query_6  181    AATGATAAAGGTTTCTCGAGTAAATTTCAATTTTCGTATTCCAAAAATGAAACTTACCAA  240
+538      32008  .........A.......A...............CT.........................  31949
+
+Query_6  241    CTATTCTTGTCATATTCTTCACAGAAG  267
+538      31948  ...........................  31922
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 725438881340
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJM010000539.1 Lepus americanus isolate BS55 LepAme_scaffold_1...  417     1e-114
+
+
+
+Query_7  1      GAAAAAATGTTTCTGCTTGTGAAAGGAATAATTCAACTGGGAAGATTTGTGATGAAAAAT  60
+538      29443  ...........................G................................  29384
+
+Query_7  61     CGGGGTGTTATGCTGACAAATACCTTCTTGGATGATATAAAATCTCTGCCAACTACCTAT  120
+538      29383  ....................C................................C......  29324
+
+Query_7  121    GAAAAAGGAGAATATTTTGCATTTTTGGAAACCTATGGAACCCACTATAGTAGCTCTGGG  180
+538      29323  ............................................................  29264
+
+Query_7  181    TCTCTGGGAGGACGCTATGAGCTAATTTATGTTTTGGATAAAGCTTCCATGAAGGAGAAA  240
+538      29263  ..........................C.................................  29204
+
+Query_7  241    G  241
+538      29203  .  29203
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 645517648650
+
+
+Query= exon8
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJM010000539.1 Lepus americanus isolate BS55 LepAme_scaffold_1...  232     5e-59
+
+
+
+Query_8  1      GGATTGAGCTGAATGACATAAAGAAATGCCTTGGGTTTGACTTAGATTTATCTCTGAATA  60
+538      25586  ........................................T..G................  25527
+
+Query_8  61     TCCCTGGAAAATCTGCTGGGCTTTCGCTCACAGGACAAGCAAATAAAAACAATTGCTTAA  120
+538      25526  .......................................TGG..................  25467
+
+Query_8  121    AGAGTGGTCATGGTAATGCTG  141
+538      25466  .....................  25446
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 341378989734
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJM010000539.1 Lepus americanus isolate BS55 LepAme_scaffold_1...  309     3e-82
+  PVJM010004393.1 Lepus americanus isolate BS55 LepAme_scaffold_8...  46.4    0.005
+
+
+
+Query_9  1      TAAACATCACCAGGGCTAACCTCATAGATGATGTGATTTCACTCATAAGAGGAGGAACCC  60
+538      24292  ............A...............................................  24233
+4392     18866           ..........G.A..G....AT.C.C.A....G.A...........TT...  18916
+
+Query_9  61     AAAAATTTGCGTTTGAATTGAAAGAAAAGCTTCTCACCAAAGCCAAGATGGTTGACGTGA  120
+538      24232  ..........A.................................................  24173
+4392     18917  ....G..                                                       18923
+
+Query_9  121    CGGACTTTATCAATTGGGCCTCTTCCTTAAGTGATGCTCCAGTGCTCATCAATCAAAAA  179
+538      24172  .A.........................................................  24114
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 454936247620
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJM010000539.1 Lepus americanus isolate BS55 LepAme_scaffold_1...  361     7e-98
+
+
+
+Query_10  1      CTGTCCCCTATATATAATCTGATTCCTGTGAAAATAAAAGATGCGCACCAAAAGAGACAG  60
+538       13324  ............................................A...............  13265
+
+Query_10  61     AATCTGGAGAGAGGAATTGAAGATTACATCAATGAATTCAGCACGAAAAAGTGCTCCCCC  120
+538       13264  ............................................A.G.............  13205
+
+Query_10  121    TGCCAAAACGGAGGCACTGCACTTCTGATGGATGGCCAGTGTTTGTGTACCTGCCCGTTT  180
+538       13204  ........T..........TG...........C....G..................A...  13145
+
+Query_10  181    ATGTTCGAGGGGATTGCCTGTGAAATCTCCAAACGAAAACTGGCTTAA  228
+538       13144  ......A..............................G..........  13097
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 605557032305
+
+
+  Database: GCA_004026855.1_LepAme_v1_BIUU_genomic.fna
+    Posted date:  Nov 24, 2021  4:09 PM
+  Number of letters in database: 3,123,271,264
+  Number of sequences in database:  1,592,829
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

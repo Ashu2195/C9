@@ -1,0 +1,342 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_017591425.1_NIBS_Ocur_1.0_genomic.fna
+           2,214 sequences; 2,086,129,077 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024465582.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  125     1e-27
+
+
+
+Query_1  1         ATGGCCACCAGGCACAGCCTCGCCTTTGTGGTCTGCATTTTAGAAATCAGTGCCCTGTCA  60
+664      18391352  .....................AT..................................G..  18391293
+
+Query_1  61        GGAGGACCCACTCCCAG  77
+664      18391292  .................  18391276
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 100131113808
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024465582.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  174     5e-42
+  NW_024467106.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  44.6    0.006
+
+
+
+Query_2  1         CTATGATCAGGCACCAGCACAAAGGAGTGACTCTCTGATGCCCATAGACTGCAGGATGAG  60
+664      18383929  .....G......................................G.........A.....  18383870
+2188     30130431                                  ..G.....G...GCAG............  30130404
+
+Query_2  61        CCCCTGGAGTTCATGGTCACAATGTGATCCTTGTCTCAAACAGATG  106
+664      18383869  .......................................G......  18383824
+2188     30130403  .A.......C...A..C....                           30130383
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 160626995067
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024465582.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  239     2e-61
+
+
+
+Query_3  1         TTTCGTTCAAGAAGCATTGAGGTTTTTGGACAATATAAAGGGAAAAGCTGCACGGACGCT  60
+664      18383314  .........................................................T..  18383255
+
+Query_3  61        CTAGGAGACAGGCAATCGTGCGTGCCCACGGAGGTATGTGAGGATGCCGAAGTGGACTGT  120
+664      18383254  ..G.........................................C...............  18383195
+
+Query_3  121       GGAAATGAATTTCAATGTGGCACAG  145
+664      18383194  ........G.....G..........  18383170
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 239897205555
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024465582.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  241     6e-62
+  NW_024464920.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  51.8    6e-05
+  NW_024465369.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  46.4    0.003
+
+
+
+Query_4  3         AGATGCATACCGAGGCGACTCCTGTGTAATGGTGACAATGACTGTGAAGACTTTTCAGAT  62
+664      18382901  ..G..........................C..............................  18382842
+2        36477028                        .....G....C...........C..G...AAC.....C  36476991
+451      7927150                           ...G....A..T.TC...........TCAA......  7927115
+
+Query_4  63        GAGGAGGACTGTGAGAAGGATCCCCGGCCCCCCTGCCGTGATCGTGAGGTCGAAGAGTCA  122
+664      18382841  ..........................C.................C...............  18382782
+2        36476990  ......A....C...                                               36476976
+451      7927114   .....A........                                                7927101
+
+Query_4  123       GAGCTGGCCCGGACAGCAGGCTATGG  148
+664      18382781  ........A.................  18382756
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 246155393526
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024465582.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  237     7e-61
+
+
+
+Query_5  1         GATCAACATTTTAGGGATGGACCCCCTAACCTCGCCTTTCGACAATGAGTTCTACAATGG  60
+664      18376637  .........C.....................A............................  18376578
+
+Query_5  61        ATTGTGTTTCCGGGTTCGGGATGGAAATACTTTGACGTACTATCGAAGACCCTGGAATGT  120
+664      18376577  ..............................A.............................  18376518
+
+Query_5  121       GCAGTCATTGGCCTATGAA  139
+664      18376517  ...................  18376499
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 227380829613
+
+
+Query= exon6
+
+Length=261
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024465582.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  412     3e-113
+
+
+
+Query_6  1         ACCATAATTGAAAGAAATTTCAGAACTGAAGATTATGAAGAACAGGTTCAAGCATTCCAA  60
+664      18374394  ....A......................................................G  18374335
+
+Query_6  61        CATGTCATTGAAGAAGAGACATCAAATTTTAATACAAAATTCACTCTAAAATTTTCACCA  120
+664      18374334  ...........................A..............G...........G.....  18374275
+
+Query_6  121       ACTGAAGCAAAGGCATTGAAGAGTGAAAAAGCTTCCCAGGAAACAAACTCCTCAAGTCAT  180
+664      18374274  ...............A.....CC.....................................  18374215
+
+Query_6  181       AAAGGTTCCTGGGGTGACTTGAAATTTTCATACTCTAAAAATAAAACCTACCAACTATTT  240
+664      18374214  .............C.......C..........T.............T.............  18374155
+
+Query_6  241       TTGTCATATTCTTCCCAGACG  261
+664      18374154  ..............A......  18374134
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 479793901890
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024465582.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  367     1e-99
+  NW_024465859.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  46.4    0.005
+
+
+
+Query_7  1         GAGAAAATCTTTCTGCGTGTGAGAGGAGTAGTTCAACTGGGAAGGTTTATGATGAGAAAC  60
+664      18372508  ................A.....A..C.................................T  18372449
+
+Query_7  61        CGTGACGTTATGCTGACAACCACCTTCTTGAATGACATCAGAGCTCTGCCAGCTACCTAT  120
+664      18372448  .....T...G............................A.A...................  18372389
+941      131761                                                               .  131761
+
+Query_7  121       GAAAAGGGAGAATATTTTGCATTTCTGGAAACCTATGGAACCCACTACAGTAGCTCTGGG  180
+664      18372388  ........................T.........................C.........  18372329
+941      131762    .......C............T........                                 131790
+
+Query_7  181       TCTCTGGGAGGACGCTATGAGCTAATATACGTTCTGGATAAAGCTTCCATGGGTCA  236
+664      18372328  .............................T.................T...A....  18372273
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 438072693030
+
+
+Query= exon8
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024465582.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  246     1e-63
+
+
+
+Query_8  1         GTATTGAACTAAATGATGTAAAGAAATGCCTTGGATTTGGTTTGGATTTATCCCTCAATA  60
+664      18370514  ........................G...................................  18370455
+
+Query_8  61        TCCATGGAAAATCTAATGGGATTTCACTCACAGGACAAATTAATAAAAACAATTGCTTGA  120
+664      18370454  ............................................................  18370395
+
+Query_8  121       AGAGAGATGGTGGGAAAGTTG  141
+664      18370394  .....A...............  18370374
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 231552954927
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024465582.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  297     1e-78
+
+
+
+Query_9  1         TAAACATCACCAGAGCTAACCTCATAGATGATGTGATTTCGCTCATAAAAGGAGGAACTC  60
+664      18368869  ............................C...........A...G...............  18368810
+
+Query_9  61        AAAAACACGCCTTGGAACTGAAAGAAAAATTGCTCACAAGAGCCAAGATGATTGATGTGA  120
+664      18368809  ..........................................A.......G.........  18368750
+
+Query_9  121       CAGACTTTGCCAACTGGGCCTCTTCCTTAAGTGATGCTCCAGTGCTCATCAGTCAAAAA  179
+664      18368749  .T.........................................................  18368691
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 310823335893
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024465582.1 Ochotona curzoniae isolate NIBS_2020 unplaced ge...  379     2e-103
+
+
+
+Query_10  1         CTCTCCCCCATTTATAACCTGATTCCAGTGAAAGAAAAAGATGCACACCTAAAGAAACAA  60
+664       18358401  .................T..........................................  18358342
+
+Query_10  61        AATCTAGAAAGAGCAATTGGAGATTATATCAATGAATACAGCACCAGAAAGTGCTTGCCC  120
+664       18358341  ...................A........................................  18358282
+
+Query_10  121       TGCCACAATGGGGGGACTGTGATTCTGATGGATGGAGAGTGTTTGTGTTCCTGCCCAGTT  180
+664       18358281  ...........A.................C..C.........G.................  18358222
+
+Query_10  181       ATGTTCAACGGGATTGCCTGTGAAAGCAAGAAGCAAAAAATGGGTTAA  228
+664       18358221  ........................................A.......  18358174
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 410953907271
+
+
+  Database: GCF_017591425.1_NIBS_Ocur_1.0_genomic.fna
+    Posted date:  Nov 24, 2021  4:14 PM
+  Number of letters in database: 2,086,129,077
+  Number of sequences in database:  2,214
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
