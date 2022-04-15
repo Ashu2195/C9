@@ -1,0 +1,319 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_016545835.1_ASM1654583v1_genomic.fna
+           4,228 sequences; 1,612,002,213 total letters
+
+
+
+Query= exon1
+
+Length=92
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101548414863
+
+
+Query= exon2
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 143457284489
+
+
+Query= exon3
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024100510.1 Crotalus tigris isolate CLP2741 ecotype Arizona ...  44.6    0.008
+
+
+
+Query_3  12       AAGTGTCTTGAAATATGGACAGTT  35
+4050     4267373  ........................  4267350
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 199872546252
+
+
+Query= exon4
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024096824.1 Crotalus tigris isolate CLP2741 ecotype Arizona ...  107     7e-22
+  NW_024096572.1 Crotalus tigris isolate CLP2741 ecotype Arizona ...  50.0    2e-04
+
+
+
+Query_4  18       AGATTGGTGTGTAACACAGACAATGACTGTGGAGATTTCTCTGATGAAGCTAACTGTAAT  77
+364      2052754  ..G.................AG....T.....T.....T..........A.GGT...G..  2052695
+364      2080457  ..G........C........A...........T..C..T..........A.G.T...G.A  2080398
+112      1542219                   ..................C...AG.......A....ACCA...  1542177
+
+Query_4  78       GACACCAAATCCCGCCCGCCCTGTCGTGGTCGCATTGTTGGCATATCAAAAATTGGAAGA  137
+364      2052694  ..A......---.....A........G.A........AG.---.....G..T.G......  2052638
+                                                  \                           
+                                                  |                           
+                                                TGA
+364      2080397  ..A......---.....A......G.G.A........AA.---.....G..C........  2080341
+                                                  \                           
+                                                  |                           
+                                                TGA
+112      1542176  TG.......                                                     1542168
+
+Query_4  138      AAAGCTGGCCAAGG  151
+364      2052637  .C............  2052624
+364      2080340  .C......A.....  2080327
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195036920133
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024096824.1 Crotalus tigris isolate CLP2741 ecotype Arizona ...  64.4    7e-09
+  NW_024096804.1 Crotalus tigris isolate CLP2741 ecotype Arizona ...  44.6    0.007
+
+
+
+Query_5  2        CTCAACATTCTAGGAATGAGACCAAAGGGTACTCCATTTTACAATGAATTTTATAATGGT  61
+364      2078519                                ...G.....C.......G..C..C.....C  2078490
+364      2050472                                    ..C..........G..C..C.....C  2050447
+344      104379   .....-.............A...........-........                      104340
+                                             \                                
+                                             |                                
+                                            AA
+
+Query_5  62       TTTTGCAACCGGGAACGTGATAGGAATACAGGGATCTATTATCGTACACCATGGAATGTT  121
+364      2078489  A.C..TG..A.A.TC......G....C....CC.CT.....C..C.AG...........G  2078430
+364      2050446  A.C..TG..A.A.TC......G....C....CC.CT.....C..C.AG...........G  2050387
+
+Query_5  122      GCAGTTATCAATTAT  136
+364      2078429  ..T..CC........  2078415
+364      2050386  ..T..CC........  2050372
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 175694415657
+
+
+Query= exon6
+
+Length=219
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 304644445497
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024096824.1 Crotalus tigris isolate CLP2741 ecotype Arizona ...  120     2e-25
+
+
+
+Query_7  31       ATAGAAGTGGGAACGTACATAATGCGAAACCGTGACGTTCGGCTGACTGACACGTTCCTT  90
+364      2046600  ...C..C.......T.T.CA.T.A.....A..CA.TT.G..CT...G...G..A..TT.G  2046541
+364      2074059         .......T.T.CA.........A.....TT.G..CT...G...G..A.....G  2074007
+
+Query_7  91       GAGGATTTAAAAAATCTGCCCAGCAACTACGACATGGGAGAATATTTTAGATTTCTGGAA  150
+364      2046540  ..A...C....GCT.T.......T.G...T..G.A......G.......C..........  2046481
+364      2074006  ..A...C....GTT.T....A..T.CT..T..G.A...........G..A......T...  2073947
+
+Query_7  151      ACATACGGAACTCACTATACAGAAAAGGGAAAGGTCGGGGGAATATATGAACTACTGTAT  210
+364      2046480  .....T........T...T..C.T.GA....TCA.T..C....A..........A.A...  2046421
+364      2073946  .....T........T...G..C.G.......CCA.T..A....A......G...A....C  2073887
+
+Query_7  211      GTCCTGGACAAGCGGAATATGA  232
+364      2046420  ..GT....T..C.AA.C.....  2046399
+364      2073886  ..GT....T..             2073876
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 340105703703
+
+
+Query= exon8
+
+Length=66
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 61251585502
+
+
+Query= exon9
+
+Length=182
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 245005056696
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024096824.1 Crotalus tigris isolate CLP2741 ecotype Arizona ...  95.1    8e-18
+
+
+
+Query_10  51       AAAGAAACAAAATCTGGAGCAAGCCGTGGAGGACTATGTTGCTGAATACAATGTGTGCAA  110
+364       2068491  .......G..........CAG...T..A.....T.....G..........GC..A.....  2068432
+
+Query_10  111      ATGCCAGCCCTGCCCAAACGGAGGGACTGTGATACTGGTGAACGGAGAGTGCATTTGTGC  170
+364       2068431  .........T..T.T.C.T..T.....A.CA..G...A.AG.A...A.....GAA.....  2068372
+
+Query_10  171      GTGTTCACCCTATTTTAAAGGAATGGCCTGCCAGATACCCAA  212
+364       2068371  C..CA.T..G.T..AC..G...GAA.....TG.A........  2068330
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 320763199227
+
+
+Query= exon11
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024096824.1 Crotalus tigris isolate CLP2741 ecotype Arizona ...  82.4    3e-14
+
+
+
+Query_11  2        ACAGACATTCACTGACGGAGGCTGGAGCTGCTGGTCTAGCTGGTCCCCTTGTGTGCAAGG  61
+364       2067893           ..T...T..GA................C.A......TG.C...CA.A.T..  2067843
+364       2037881  ....C......-..--....-.........................A.C...CA......  2037826
+
+Query_11  62       AGAACGCACTCGGACACGGGAATGTAATAATCCAGCACCTAAATCAAGGGGCA  114
+364       2067842  ......TCAG..AG..A.A..G...........T......GG...TG......  2067790
+364       2037825  .C.....CGG..A...A.AA.....G.......T.TC...GG..TT.......  2037773
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 206320047744
+
+
+  Database: GCF_016545835.1_ASM1654583v1_genomic.fna
+    Posted date:  Dec 24, 2021  4:06 PM
+  Number of letters in database: 1,612,002,213
+  Number of sequences in database:  4,228
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,386 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_015471245.1_latCor_2.0_genomic.fna
+           20,583 sequences; 2,038,820,311 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BLBF01000010.1 Laticauda colubrina DNA, scaffold10, whole genom...  125     1e-27
+
+
+
+Query_1  1         ATGTCTACTTCTTTGCTTCTTATAGGAGCTCTCTGCATTTTAGGAGCAAATAGTTTTGTC  60
+9        17585812  ............................T.............................C.  17585753
+9        17520438  ......T..G..G.C.............T......................G......C.  17520379
+
+Query_1  61        TCAGCAGGGAAAGCAAG  77
+9        17585752  ....T............  17585736
+9        17520378  ..T.A............  17520362
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 97834723392
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BLBF01000010.1 Laticauda colubrina DNA, scaffold10, whole genom...  123     7e-27
+
+
+
+Query_2  1         GGTGACACGAGAATCTAATGCCCCAGAGCCCATTGACTGTTTGCTGACTACCTGGAGTGA  60
+9        17584362  ......C......C.......T.................C.C.......G......C...  17584303
+9        17519279    ...A.A.G...C.A.....T....CA...........C...................T  17519222
+
+Query_2  61        TTGGGGACCATGTAGTCCATGCTCAAATGAAAGA  94
+9        17584302  ..............A..........G.A.....   17584270
+9        17519221  ..................G........A......  17519188
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 132484521260
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BLBF01000010.1 Laticauda colubrina DNA, scaffold10, whole genom...  122     4e-26
+
+
+
+Query_3  1         TACCGCTCAAGAGATGTCCTGAAGTTTGGACAGTTCGGGGGGAAACCATGCACTGCAGCT  60
+9        17518567  ...........GAGCA.T.................T..A..A..G.......T..T...C  17518508
+9        17579882   ...........AG.A.TGA...............T..A..A..G.......T..TG...  17579824
+
+Query_3  61        CTGAGTGATAGAGAGCACTGTGAACCAGAAAGTGATTGTCCTGAAGAGGGAAATCAATGT  120
+9        17518507  .....C....A.C...C......GA..AG..T.CCA..C..G..CAT.A..GG...T...  17518448
+9        17579823  ............C..........GA..A.....CCC.....A..T...A..GG.......  17579764
+
+Query_3  121       GCGCAGAGAGAGTTTGAATGTGCAAATG  148
+9        17518447  .G.A..CA..............A.....  17518420
+9        17579763  AA.G.TCA..............A.....  17579736
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 240507932878
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BLBF01000010.1 Laticauda colubrina DNA, scaffold10, whole genom...  217     7e-55
+
+
+
+Query_4  1         GATATTGTCTAAAGGATAGGTTGGTGTGTAACACAGAAAATGACTGTGGTGACTTCTCTG  60
+9        17516930  ...............G......................G.....................  17516871
+9        17578808  ..............AC....C.A..A.................T..........A.....  17578749
+
+Query_4  61        ATGAAGATGGTTGTGAGGAGACCAAACGCCCACCCTGTGGGGACCGTGACATTGAGGTAT  120
+9        17516870  ........AAC.....T..A.......................T...........CT...  17516811
+9        17578748  ........AA.........A.TT......T....T..C.....T...........C....  17578689
+
+Query_4  121       CAGAACTTGGAAGAACAGCTGGCCAAGG  148
+9        17516810  ......................A.....  17516783
+9        17578688  ......................A.....  17578661
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 240507932878
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BLBF01000010.1 Laticauda colubrina DNA, scaffold10, whole genom...  183     1e-44
+
+
+
+Query_5  3         TGAACGTGCTGGGAATGAAACCGGCTCAAACTGCATTTTACAACGAGTACTTCAATGGCA  62
+9        17515184  ....T.................A.......AA..CC.......T....T..A........  17515125
+9        17576736  ....T.............C...A.........C.....C.A..T..A.T..A........  17576677
+
+Query_5  63        TCTGTGATAGGGTCCGCGATGGGAACACAGCCACTTATTATCGCAAGCCATGGAATGTTG  122
+9        17515124  .......C..A.....T.......................C.................G.  17515065
+9        17576676  .......C..A..A..T.........T.............C...............C.G.  17576617
+
+Query_5  123       CTTTCCTCAGTTATGA  138
+9        17515064  ................  17515049
+9        17576616  ..G.............  17576601
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 222164107489
+
+
+Query= exon6
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BLBF01000010.1 Laticauda colubrina DNA, scaffold10, whole genom...  194     1e-47
+
+
+
+Query_6  1         ACAAGAGGAGACAAACGCTTTACAAGTGAATTCTACAGTGACCAAGTATCAACAATGAGA  60
+9        17513617  ...............AAAA...................C.......G.AA.......GA.  17513558
+9        17572582   ...............A......................A......C...........A.  17572524
+
+Query_6  61        GAAATGTTCAGTGGAAAAACAGAGTCTTTTGATATGAGCTTTTCTGTTAAACTGAAACCT  120
+9        17513557  A....AG...A.AC....T..C.C..CC.A...G.......C...C..C..........G  17513498
+9        17572523  .....A......AC....T..CT........G.G...A.C...................A  17572464
+
+Query_6  121       ACTGAGTCTAAAGAAACAGTTGATATTGAGGGAGGCTTTAATACTGCCACAACCTCCAAA  180
+9        17513497  C..TT..TCCCT.T.T...G..G.T.....AC....A.A...TT.....A.T.A....GC  17513438
+9        17572463  ........C.GT.T.T...C.AC.....G..A.A....C...TT.AG..A.T.A.....C  17572404
+
+Query_6  181       GTGAGTGCCTTCTTGAAGAAAGCCAAAGGAA  211
+9        17513437  C......A......AG.....A.........  17513407
+9        17572403  A.....CAA........A..........A..  17572373
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 372991116243
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BLBF01000010.1 Laticauda colubrina DNA, scaffold10, whole genom...  298     5e-79
+
+
+
+Query_7  5         CCATCTATTTACATGTAAAATCTAATATACAACTGGGAATTTTCCAAATGCGAAAGCGCG  64
+9        17568243  ................C.................A....A...............A..T.  17568184
+9        17509563       ...........C......................C.......T.......A..TA  17509509
+
+Query_7  65        ATTTGCGCTTGTCTGAGACATTCCTGGGAGATATAAAGATCTTGCCCAATACCTATGAGA  124
+9        17568183  ...........AG...T..........A...A..C...G.T.....A.G......C....  17568124
+9        17509508  ...........AG............T.A....C....T..G.......G...........  17509449
+
+Query_7  125       AGGGAGAATATTTTAAATTTGTGGAAACATATGGAACTCATTATTCACAGGGGGGAACCA  184
+9        17568123  .......G............C.T...........................A.A..G...G  17568064
+9        17509448  .......G.......C....C......T......................A.A.......  17509389
+
+Query_7  185       TTGGAGGAAAATATGAACTAATATACGTGTTGGATAACCAAACTCTGTCAGCACATG  241
+9        17568063  .........................TT.A.....C...........T..CT......  17568007
+9        17509388  .................T...........C.........G....A..A..T....    17509334
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 428018269980
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BLBF01000010.1 Laticauda colubrina DNA, scaffold10, whole genom...  51.8    5e-05
+
+
+
+Query_8  1         GGCTCACTGCACGAGATGTAAATGAATGCCTAGGTTTTAATTT  43
+9        17507289  ..A.....AT.AA.....................C........  17507247
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195667470816
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BLBF01000010.1 Laticauda colubrina DNA, scaffold10, whole genom...  192     4e-47
+
+
+
+Query_9  5         TGAAGTGAGAAGGAGTGGGGTTATCCAAGATGTGGTCTCTCTAGTTCAAGGTGGGACAAC  64
+9        17554290  ....A.....GA..............G......A........GA................  17554231
+9        17344780                      .............AA.......GA..........A.....  17344741
+
+Query_9  65        CGCTACTTTAACAAAGTTGAATGAAGCACTTTCATCAAATGTCAGGGTAGTTGATATAGA  124
+9        17554230  A.....C..................TTG........C......CATC..A.....GC...  17554171
+9        17344740  A........................ATG..C..T..........ATTC.......G.T..  17344681
+
+Query_9  125       ACAATATGTTGAATGGGCTGCTACACTACCTCAAGCTCCTACAGTGATCAGTCA  178
+9        17554170  ...C...TC...............................GT......A..A..  17554117
+9        17344680  ...G..............C......T..............G.T.......      17344631
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 309806828792
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BLBF01000010.1 Laticauda colubrina DNA, scaffold10, whole genom...  269     2e-70
+
+
+
+Query_10  6         CCCAATTTCTGAACTTATACCACTGAAAATCCAAGACTCCCGAATAAAGAAAGAAAATCT  65
+9         17552849  ...G.....G......G...............C...T................T...C..  17552790
+9         17343410   ..G..............C........T....C....................T......  17343352
+
+Query_10  66        GGACAGAGCTATAGAAGATTATGTGGCTGAATACAGTGCATGCAAATGCCAGCCTTGTCT  125
+9         17552789  ..........G....G....................C............A.A........  17552730
+9         17343351  ..........G....G.....C..............C.T..........A.A........  17343292
+
+Query_10  126       AAATGGCGGGACAGCAATGCTGCTGGATGGAAAGTGTGAATGTGTATGCACCCCATATTA  185
+9         17552729  .C....T.....G.TG....A.A.A..A..G.............CC....AT....T...  17552670
+9         17343291  .C....T..A....TG..C...A.A..A..G.............CT.....T....T...  17343232
+
+Query_10  186       CAAGGGAGAAGCCTGTGAAATACCCAAGTCAGTTTTCATACCAG  229
+9         17552669  .........T.....................AG...........  17552626
+9         17343231  ..........................CT....A...G.A.....  17343188
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 403560083124
+
+
+Query= exon11
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BLBF01000010.1 Laticauda colubrina DNA, scaffold10, whole genom...  178     6e-43
+  BLBF01000020.1 Laticauda colubrina DNA, scaffold20, whole genom...  44.6    0.010
+  BLBF01000002.1 Laticauda colubrina DNA, scaffold2, whole genome...  44.6    0.010
+
+
+
+Query_11  5         AGCCATTCATGGGAGCTGGAGCTGCTGGTCCAGCTGGTCCACGTGTGAGCAAGGAAAACG  64
+9         17342273  ..............................T.A.........C...C........CG...  17342214
+9         17548779   ....C.G......A.....A.........T..T.......T....C..A.TA..G....  17548721
+19        37224399          ....A.A......T...............A....                    37224432
+1         6667872                 ........................                        6667849
+
+Query_11  65        CCATCGAACAAGACAGTGTAATAATCCTGAACCTGGATTCGGGGGCAAGTCATGTCCTGG  124
+9         17342213  ...G.........A.A............ACC.......ATA......G............  17342154
+9         17548720  T..G..G......G...............C........CT.AT.....A...........  17548661
+
+Query_11  125       AGCAAACTCAGAACCAGGCTATTGTTAA  152
+9         17342153  T.....T.T..........C........  17342126
+9         17548660  .A...GTGT.....AG...C........  17548633
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 248660744162
+
+
+  Database: GCA_015471245.1_latCor_2.0_genomic.fna
+    Posted date:  Dec 24, 2021  5:16 PM
+  Number of letters in database: 2,038,820,311
+  Number of sequences in database:  20,583
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

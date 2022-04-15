@@ -1,0 +1,274 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_020711275.1_ASM2071127v1_genomic.fna
+           1,818,006 sequences; 1,334,025,125 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 62872926893
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAIOUR010986282.1 Calotes versicolor isolate BHU-M1 flattened_l...  48.2    3e-04
+
+
+
+Query_2  13    ACCTAATGCTCCAGAGCCCATTGACTGCTTGTTGACTACTTGGAGTGCTTGGGGGCCATG  72
+986281   1164  .........A..TCCT..............AC...G.GAC.......AA.....A..C..  1223
+
+Query_2  73    TAGTCCATGCTCAAAAGAAAG  93
+986281   1224  .GACT....TG...G......  1244
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 83284691815
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAIOUR010754934.1 Calotes versicolor isolate BHU-M1 flattened_l...  60.8    8e-08
+
+
+
+Query_3  1     TACCGCTCAAGGAGTATTGTGAAGTTTGGACAGTTTGGAGGAA  43
+754933   1201  ...............G.CC...G....................  1159
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 152475051169
+
+
+Query= exon4
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 152475051169
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAIOUR010647598.1 Calotes versicolor isolate BHU-M1 flattened_l...  107     5e-22
+
+
+
+Query_5  5     AATATGCTGGGAATGAAACCGGCTCAAAAAGCACTTTACAATGAGTTCTACAATGGCATC  64
+647597   1318  ..C..T..C..G....G.A...GAGC...CC..T..C....C.....T.T...C.....G  1377
+
+Query_5  65    TGTGACAGAGTCCGTGATGGGAACACAGCCACTTATTACCGCAAGCCATGGAATGTGGCT  124
+647597   1378  .......................T..C.G..TC.....T........G.....C..C...  1437
+
+Query_5  125   GTCCTCAATTATGA  138
+647597   1438  ..G........C..  1451
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 140943324610
+
+
+Query= exon6
+
+Length=213
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 234145744935
+
+
+Query= exon7
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 269971323395
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124286386247
+
+
+Query= exon9
+
+Length=182
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 194481711640
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAIOUR011526554.1 Calotes versicolor isolate BHU-M1 flattened_l...  111     8e-23
+
+
+
+Query_10  7    CCAATTTCCGAACTTATCCCACTGAATATCCCAGACTCCCGATTAAAGAAAGAAAATCTG  66
+1526553   382  ........AAC...CG.....TC...G..G.....-.G....G.C.........C..-..  322
+                                                          \       \        
+                                                          |       |        
+                                                          A      CG
+
+Query_10  67   AACAGAGCTGCAGAAGATTATGTGGCTGAATACAGCGTATGCAAATGTCGGCCTTGTTTA  126
+1526553   321  .-..A...A.TG..G..C..C.....C.......A...G........C.A.......CA.  263
+
+Query_10  127  CATGGTGGAACAGCAATGCTGATAGAAGGAAAGTGTGAATGTGCCTGCACTCCATTTTAC  186
+1526553   262  A....C..G..C.TTT.....C.GA.T.....A..........GA.....C..T.A..T.  203
+
+Query_10  187  AAGGGAGAAGCCTGTGAAATACCTGCTTCAACTTT  221
+1526553   202  ..A...........CC.G.....GA.A...T....  168
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 254617504055
+
+
+Query= exon11
+
+Length=155
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 161444171826
+
+
+  Database: GCA_020711275.1_ASM2071127v1_genomic.fna
+    Posted date:  Dec 24, 2021  3:52 PM
+  Number of letters in database: 1,334,025,125
+  Number of sequences in database:  1,818,006
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

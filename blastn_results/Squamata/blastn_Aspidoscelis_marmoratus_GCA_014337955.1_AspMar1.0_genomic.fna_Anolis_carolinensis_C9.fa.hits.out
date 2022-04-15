@@ -1,0 +1,313 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_014337955.1_AspMar1.0_genomic.fna
+           3,826 sequences; 1,639,530,780 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 80331758948
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MTQE01001208.1 Aspidoscelis marmoratus isolate SIMRID8450 Scpiz...  55.4    2e-06
+
+
+
+Query_2  33        TTGAGTGCTTGCTGAGCAACTGGAGTGAATGGGGACCATGCAACCCCTGT  82
+517      20252498  ....C.....C......CCA...............T.......T..A...  20252449
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 106562288690
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MTQE01001208.1 Aspidoscelis marmoratus isolate SIMRID8450 Scpiz...  91.5    6e-17
+
+
+
+Query_3  1         TATCGTTCAAGGAGTGTCCTGAAGTATGGGCAGTTTGGAGGAAAGGCATGCCTGGAACCT  60
+517      20251800  .....C............G.A.G......A...........G..A........C....GC  20251741
+
+Query_3  61        CTAGGACACAGAGAAAGCTGTGAGCCAGATGTCCCTTGCCGTGAGGAGGAAGTTGACTGT  120
+517      20251740  ..CA.TG...A.C..CC...CAGAA......CTAT.....CC..A.TTCC......T...  20251681
+
+Query_3  121       GGCAAAGACTTCCAGTGTGAAAATG  145
+517      20251680  .....T......AG...........  20251656
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 188532840000
+
+
+Query= exon4
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 193451088000
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MTQE01001208.1 Aspidoscelis marmoratus isolate SIMRID8450 Scpiz...  125     3e-27
+
+
+
+Query_5  3         TCAACGTTCTAGGTATGAGACCACAGGCAAGCCCATTTTACAATGAGTTTTACAATGGGG  62
+517      20249071  .....A.C.....A...GA.A..A.A.AG.............................A.  20249012
+
+Query_5  63        TATGTGACAGAGTCCGCGATGGGAATAGTGGCATTTATTATCGCAAGCCATGGAATGTCG  122
+517      20249011  .G..............T......C.C.....A..A..C.....T.....T........T.  20248952
+
+Query_5  123       CTGTGCTAAATTATGAG  139
+517      20248951  .AAGT..C.T.......  20248935
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 178696344000
+
+
+Query= exon6
+
+Length=228
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 324604368000
+
+
+Query= exon7
+
+Length=224
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MTQE01001208.1 Aspidoscelis marmoratus isolate SIMRID8450 Scpiz...  163     2e-38
+
+
+
+Query_7  49        TCTTCGTCTAAATGACTGGTTCCTTGATGACTTAAAAAATTTGCCCACTACATATGACAG  108
+517      20245647  ......C..G.C....AC...............G...T.CC......G..T........A  20245588
+
+Query_7  109       GGGAGAGTATTTCAAATTTCTTGAAACACATGGAACTCATTATGCACGGAAGGGAACTTT  168
+517      20245587  ..C.C.A.......C...C..G.....C.....G..............A...........  20245528
+
+Query_7  169       TGGAGGAAAATATGAACTACTATATGTATTGGACAGTGAAACCATGAAAAAAGAAG  224
+517      20245527  .........G.T....G....G....C.C.......A....--......C......  20245472
+                                                    \  \                   
+                                                    |  |                   
+                                                    C  C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 318046704000
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 159023723122
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MTQE01001208.1 Aspidoscelis marmoratus isolate SIMRID8450 Scpiz...  95.1    6e-18
+
+
+
+Query_9  27        ATCAATGATGTGGTCTCTATAGTTCAAGGAGGGAAGATTACTGTTTTAATCAAGTTGAAG  86
+517      20241120  .................AT.....G.......A....G.GA...C..G..T.GAC.A...  20241061
+
+Query_9  87        GAACAATTGTCTAAAGGTAACAAGGTTACTAATATTGAAGACTATGTCGAATGGGCAGCT  146
+517      20241060  ...ATGC....ACGC.....A...A...T.G..G.A..G.........C.G.........  20241001
+
+Query_9  147       ACACTCCCTGATGCTCCTGT  166
+517      20241000  ..G..A.....G.....C..  20240981
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 249191232000
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MTQE01001208.1 Aspidoscelis marmoratus isolate SIMRID8450 Scpiz...  159     2e-37
+
+
+
+Query_10  6         TCCAATCTCTGACCTTGTTCCATTGAAAATGCCTGACTCTACAATAAAGAAACGAAATCT  65
+517       20240004  ......T...............C...CT....AC......T.C........G.AC..CA.  20239945
+
+Query_10  66        TGACAGAGGAGTTGAAGACTATATTGCTGAATACAATGTGTGCAAGTGTCAGCCCTGTCA  125
+517       20239944  ....C...CT..G..G..A...G.......T.....C..A.....A..-...A....C..  20239885
+                                                                            \   
+                                                                            |   
+                                                                            T
+
+Query_10  126       AAATGGTGGGACTGTTCTACTGATCAATGGAAATTGCGAGTGTGGATGCACTCCTTATTT  185
+517       20239884  ...............CA..T..T.G........G..T..A........TC.A..CC....  20239825
+
+Query_10  186       CAAAGGAGATGTCTGTCAGACACCCACATCAACTTTTGTACCAG  229
+517       20239824  ......G..A.C...C....TC..T.....CCAA....C.....  20239781
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 326243784000
+
+
+Query= exon11
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MTQE01001208.1 Aspidoscelis marmoratus isolate SIMRID8450 Scpiz...  87.8    8e-16
+
+
+
+Query_11  3         CAGGTGGCCACTAATGGGGGATGGAGCTGCTGGTCTAACTGGTCTCCATGTAAAGAAGGA  62
+517       20238551  ..A..T.G....G....A...........T......G.T.....C..G...GTGC.....  20238492
+
+Query_11  63        CAGCGCACTCGAACAAGACAGTGCGACAATCCTGAACCTACAGCTGGGGGAAATCCATGT  122
+517       20238491  G.A..GGT...............TA.T.......C...C.GTAA.........A.....C  20238432
+
+Query_11  123       GCAGGA  128
+517       20238431  C.....  20238426
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 224599992000
+
+
+  Database: GCA_014337955.1_AspMar1.0_genomic.fna
+    Posted date:  Dec 24, 2021  3:38 PM
+  Number of letters in database: 1,639,530,780
+  Number of sequences in database:  3,826
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

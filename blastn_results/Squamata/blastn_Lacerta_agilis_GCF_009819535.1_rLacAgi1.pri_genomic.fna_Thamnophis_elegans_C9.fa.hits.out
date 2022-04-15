@@ -1,0 +1,299 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_009819535.1_rLacAgi1.pri_genomic.fna
+           29 sequences; 1,391,404,169 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_046322.1 Lacerta agilis isolate rLacAgi1 chromosome 11, rLac...  53.6    5e-06
+
+
+
+Query_1  14        TGCGTCTTATAGGAGTTCTCTGCATTTTAGGAGCAAATGGTTTTGCCTCTGCAGGGA  70
+10       17739488  ...C........CG.CG..G.....C............A.C........AC......  17739432
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 68178764493
+
+
+Query= exon2
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 90441216320
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 165576996032
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_046322.1 Lacerta agilis isolate rLacAgi1 chromosome 11, rLac...  93.3    1e-17
+  NC_046312.1 Lacerta agilis isolate rLacAgi1 chromosome 1, rLacA...  50.0    1e-04
+
+
+
+Query_4  6         TGTCTGAAGAATAGGCTGGTATGTAACACAGAAAATGACTGTGGTGACTTTTCTGATGAA  65
+10       17735212  ...A.A.....A...T....G.....T......G..........A.....C..C..C...  17735153
+0        96408228                                 .......T.........AA..........  96408200
+
+Query_4  66        GATAATTGTGATGAAATCAAACGCTCTCCCTGTGGGGATCGTGACATTGATGAATCAGAA  125
+10       17735152  ..C.....C..A.GT...CT-..TG.A.....CC.T..C...ATA.......T......G  17735093
+                                  \                                            
+                                  |                                            
+                                  G
+0        96408199  .....C..                                                      96408192
+
+Query_4  126       CTTGGAAGAACAGCTGG  142
+10       17735092  G................  17735076
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 165576996032
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_046322.1 Lacerta agilis isolate rLacAgi1 chromosome 11, rLac...  91.5    5e-17
+
+
+
+Query_5  36        CATTTCAAAATGAGTTCTACAATGGCCTCTGTGACAGAGTCCGTGATGGGAACACAGCCA  95
+10       17734786  .....T.C........T.....C..AG....C...........C..C.....T..T.GA.  17734727
+
+Query_5  96        CTTATTACCGCAAGCCATGGAACGTGGCTGTCCTCAGTTATGA  138
+10       17734726  TA..C..T..............T..T.....G....A......  17734684
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 153054366080
+
+
+Query= exon6
+
+Length=213
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 254626803717
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_046322.1 Lacerta agilis isolate rLacAgi1 chromosome 11, rLac...  140     2e-31
+
+
+
+Query_7  28        AATATACAACTGGGAACTTTCCAAATGCGAAAACGTGATTTGCGCTTGAGTGAGACTTTC  87
+10       17730907  ..C..C...........C..T..........GG.....CG.C...C...CC..C..G...  17730848
+
+Query_7  88        CTGGAAGAGCTAAAGGTTTTGCCAAGTACCTATGAGAAGGGAGAGTATTTTAAATTTCTG  147
+10       17730847  ..C.....TG....ATA.C....C...G.A..C..C........A............T..  17730788
+
+Query_7  148       GAAACATATGGAACTCATTACTCACATAGAGGAATCATTGGCGGACAATATGAGCTACTA  207
+10       17730787  ....TGC.C..........TTG....G.AG....CGG.......GA.......A...G.G  17730728
+
+Query_7  208       TATGTGTTGGATAACCAAAC  227
+10       17730727  .....AC....C........  17730708
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 293586096089
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 134966122816
+
+
+Query= exon9
+
+Length=182
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 211493301448
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_046322.1 Lacerta agilis isolate rLacAgi1 chromosome 11, rLac...  105     4e-21
+
+
+
+Query_10  61        AATCTGGATTTAGCTGTAGAGGATTTCGTGGCTGAATACAGCGTATGCAAATGCCAGCCT  120
+10        17726920  .....C..CAG......G.....C.A...T........T..T..T..............C  17726861
+
+Query_10  121       TGTCTGCATGGTGGGACAGTGATGCTGATAGAAGGGAAGTGTGAATGTGCCTGCACTCCA  180
+10        17726860  ....AAA.......C..T..C......-.T...C.............C.GA...C.C..T  17726801
+                                                          \                     
+                                                          |                     
+                                                          G
+
+Query_10  181       TTGTACAAGGGGGATGCCTGTGAAATACCCAAGTCACCTTTCATACCAG  229
+10        17726800  .AC.T......A..A.....CC.G.......CA..GG....TTC.....  17726752
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 276889256501
+
+
+Query= exon11
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_046322.1 Lacerta agilis isolate rLacAgi1 chromosome 11, rLac...  59.0    3e-07
+
+
+
+Query_11  15        GATGGGAGCTGGAACTGCTGGTCTAACTGGTCCACATGTGAGAATAAAGAACGTCGGCGA  74
+10        17725596  .....CG......G...........C......GG......CTC.AGG......CACT..G  17725537
+
+Query_11  75        ACAAGACAGTGTAATAATCCTG  96
+10        17725536  .G.........C.....C....  17725515
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 175316819328
+
+
+  Database: GCF_009819535.1_rLacAgi1.pri_genomic.fna
+    Posted date:  Dec 24, 2021  5:27 PM
+  Number of letters in database: 1,391,404,169
+  Number of sequences in database:  29
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

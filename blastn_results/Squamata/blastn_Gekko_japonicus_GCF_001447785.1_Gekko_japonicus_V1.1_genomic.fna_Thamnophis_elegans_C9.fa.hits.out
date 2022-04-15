@@ -1,0 +1,312 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001447785.1_Gekko_japonicus_V1.1_genomic.fna
+           191,500 sequences; 2,490,274,461 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119266606128
+
+
+Query= exon2
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 161506862465
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 293174476398
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  100     2e-19
+  NW_015166480.1 Gekko japonicus isolate JY-2015 unplaced genomic...  46.4    0.003
+
+
+
+Query_4  22       TGGTATGTAACACAGAAAATGACTGTGGTGACTTTTCTGATGAAGATAATTGTGATGAAA  81
+12294    1851260  ....G...........C...........A..T..C..........C...C...A....C.  1851201
+6769     284841       ....G...GCC.......T.........AA............A..C..          284888
+
+Query_4  82       TCAAACGCTCTCCCTGTGGGGATCGTGACATTGATGAATCAGAACTTGGAAGAACAGCTG  141
+12294    1851200  C.......C.G......C.T.G...---.....T..T....A..A.........A.....  1851138
+                       \                              \                       
+                       |                              |                       
+                     TCC                            GCA
+
+Query_4  142      GACAAGG  148
+12294    1851137  .C.....  1851131
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 293174476398
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 270813711249
+
+
+Query= exon6
+
+Length=213
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 452149508902
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  114     1e-23
+
+
+
+Query_7  31       ATACAACTGGGAACTTTCCAAATGCGAAAACGTGATTTGCGCTTGAGTGAGACTTTCCTG  90
+12294    1843157  ...G..G.......G.A.AT.........C.....CG.T..GC...C...C..G.....T  1843098
+
+Query_7  91       GAAGAGCTAAAGGTTTTGCCAAGTACCTATGAGAAGGGAGAGTATTTTAAATTTCTGGAA  150
+12294    1843097  ..G..TT....AAA.C....C..C.A...C..C.T......A.......G..........  1843038
+
+Query_7  151      ACATATGGAACTCATTACTCACATAGAGGAATCATTGGCGGACAATATGAGCTACTATAT  210
+12294    1843037  .....C........C..TA..G.A.AG....AGG.C..G...AT......A.....G...  1842978
+
+Query_7  211      GTGTTGGATAA  221
+12294    1842977  ..CC....C..  1842967
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 521710971810
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 238514828256
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015165236.1 Gekko japonicus isolate JY-2015 unplaced genomic...  46.4    0.004
+
+
+
+Query_9  146     TACACTACCTCAAGCTCCCACAGTGATAAGACAAGA  181
+5525     784792  ................T......A.........T..  784828
+                      \                              
+                      |                              
+                      A
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 377648478072
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015220147.1 Gekko japonicus isolate JY-2015 unplaced genomic...  82.4    8e-14
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  82.4    8e-14
+  NW_015174303.1 Gekko japonicus isolate JY-2015 unplaced genomic...  46.4    0.005
+
+
+
+Query_10  51       AAAGAAAGAAAATCTGGATTTAGCTGTAGAGGATTTCGTGGCTGAATACAGCGTATGCAA  110
+60436     766      .......C..........GCA...C..G.....C.AT..T..........AT..G.....  707
+12294     1833476  .......C..........GCA...C..G.....C.AT..T..........AT..G.....  1833417
+14592     518835                                                  ...........TG  518823
+
+Query_10  111      ATGCCAGCCTTGTCTGCATGGTGGGACAGTGATGCTGATAGAAGGGAAGTGTGAATGTGC  170
+60436     706      .........C..C.CAA.C..A.....T.....A...G.-...C.......CATT.....  647
+                                                                  \            
+                                                                  |            
+                                                                  G
+12294     1833416  .........C..C.CAA.C..A.....T.....A...G.-...C.......CATT.....  1833357
+                                                                  \            
+                                                                  |            
+                                                                  G
+14592     518822   .........C...G........                                        518801
+
+Query_10  171      CTGCACTCCATTGTACAAGGGGGATGCCTGTGAAATACCCAA  212
+60436     646      G.....C.T...T..A.---..A.......CC.G........  605
+                      \                     \                
+                      |                     |                
+                     TT                     G
+12294     1833356  G.....C.T...T..A.---..A.......CC.G........  1833315
+                      \                     \                
+                      |                     |                
+                     TT                     G
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 491898916278
+
+
+Query= exon11
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015184069.1 Gekko japonicus isolate JY-2015 unplaced genomic...  62.6    4e-08
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  62.6    4e-08
+
+
+
+Query_11  11       CATTGATGGGAGCTGGAACTGCTGGTCTAACTGGTCCACATGTGAGAATAAAGAACGTCG  70
+24358     1108     ..C...C..AG......G...........G.......C.T....T.C.AGG......CAC  1167
+12294     1831775  ..C...C..AG......G...........G.......C.T....T.C.AGG......CAC  1831716
+
+Query_11  71       GCGAACAAGACAGTGTAATAATCCTGCACCTGGATCTGGGGG  112
+24358     1168     T..G...C.GG.A...........A......AA...AA....  1209
+12294     1831715  T..G...C.GG.A...........A......AA...AA....  1831674
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 310566182625
+
+
+  Database: GCF_001447785.1_Gekko_japonicus_V1.1_genomic.fna
+    Posted date:  Dec 24, 2021  5:26 PM
+  Number of letters in database: 2,490,274,461
+  Number of sequences in database:  191,500
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,332 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_019457695.1_c.ornata.1_genomic.fna
+           1,119,672 sequences; 1,334,265,196 total letters
+
+
+
+Query= exon1
+
+Length=92
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82013066604
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHWGE010827788.1 Chrysopelea ornata isolate DD17 jcf7180007784...  44.6    0.004
+  JAHWGE010677461.1 Chrysopelea ornata isolate DD17 jcf7180007549...  44.6    0.004
+
+
+
+Query_2  43    TGCTCCACCCCCCATCAATTGTTTGCTTAGCCACTGGAGTGAATGGGGATCATGTAATCC  102
+827787   279                                 ..C....T.....---....A.A.......  305
+677460   1102  .......GAG.....TG.C..C.....G.CTAC....G....T.....GC..........  1161
+
+Query_2  103   ATGCGGCAAAGAAAG  117
+827787   306   ...........G...  320
+677460   1162  ....             1165
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 115859729012
+
+
+Query= exon3
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHWGE010374182.1 Chrysopelea ornata isolate DD17 jcf7180008033...  50.0    1e-04
+
+
+
+Query_3  2    ATCGCTCAAGAAGTGTCTTGAAATATGGACAGTTCAGAGGGAAGCCATGCTTTGAACCTC  61
+374181   464  .......G..GG..A.TC....G.T.........TG..............A...TGG...  523
+
+Query_3  62   TG  63
+374181   524  ..  525
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 162724338500
+
+
+Query= exon4
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHWGE010110265.1 Chrysopelea ornata isolate DD17 jcf7180008317...  104     7e-21
+  JAHWGE010325897.1 Chrysopelea ornata isolate DD17 jcf7180008259...  89.7    2e-16
+  JAHWGE010197846.1 Chrysopelea ornata isolate DD17 jcf7180007618...  50.0    1e-04
+
+
+
+Query_4  18    AGATTGGTGTGTAACACAGACAATGACTGTGGAGATTTCTCTGATGAAGCTAACTGTAAT  77
+110264   1291           ...........A...........T..C..T..........A...T...G..  1241
+325896   303   ..G.............TG..AG.....A....T..C........C....A...T...G..  362
+197845   1431                   ..................C...AG.......A....ACCA...  1473
+
+Query_4  78    GACACCAAATCCCGCCCGCCCTGTCGTGGTCGCATTGTTGGCATATCAAAAATTGGAAGA  137
+110264   1240  ..A......---............G.G.A........A..---....GG..C.......G  1184
+                                               \                           
+                                               |                           
+                                             TGA
+325896   363   ..A......---.....A......G.A.A........AG.---....GG..C........  419
+                                               \                           
+                                               |                           
+                                             TGA
+197845   1474  TG.......                                                     1482
+
+Query_4  138   AAAGCTGGCCAAGG  151
+110264   1183  .C......A.....  1170
+325896   420   .C......A...    431
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 158818954376
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHWGE011052618.1 Chrysopelea ornata isolate DD17 jcf7180008203...  59.0    2e-07
+
+
+
+Query_5  35   CCATTTTACAATGAATTTTATAATGGTTTTTGCAACCGGGAACGTGATAGGAATACAGGG  94
+1052617  202  ..............G..C..C.....CA.C..TG..A.A.TC......G....C....CC  143
+
+Query_5  95   ATCTATTATCGTACACCATGGAATGTTGCAGTTATCAATTAT  136
+1052617  142  .CT.....C..C.AG...........G..TT.CC...G....  101
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 143197417880
+
+
+Query= exon6
+
+Length=219
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 245827581804
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHWGE011068518.1 Chrysopelea ornata isolate DD17 jcf7180007859...  131     9e-29
+
+
+
+Query_7  31   ATAGAAGTGGGAACGTACATAATGCGAAACCGTGACGTTCGGCTGACTGACACGTTCCTT  90
+1068517  90   ...C..C.......T.T.CA.T.......A..C..TT.G..CT...G...G..A......  149
+
+Query_7  91   GAGGATTTAAAAAATCTGCCCAGCAACTACGACATGGGAGAATATTTTAGATTTCTGGAA  150
+1068517  150  ..C...C....G.TGT.......T.C...T..G.A..............T..........  209
+
+Query_7  151  ACATACGGAACTCACTATACAGAAAAGGGAAAGGTCGGGGGAATATATGAACTACTGTAT  210
+1068517  210  .....T........T...T..C.G.GA....CCA.T..A....A......G..GA.A...  269
+
+Query_7  211  GTCCTGGACAAGCGGAATATGA  232
+1068517  270  ..GT....T....AA..A....  291
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 274442432596
+
+
+Query= exon8
+
+Length=66
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 49510746440
+
+
+Query= exon9
+
+Length=182
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197702605472
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHWGE010167556.1 Chrysopelea ornata isolate DD17 jcf7180007501...  102     4e-20
+
+
+
+Query_10  18   TCTCGTACCTGTGAAGATGCCCAATGCCCATACAAAGAAACAAAATCTGGAGCAAGCCGT  77
+167555    194  ...T.....GC....A..C..AG.CT...GAG........TT.........CAG...T..  253
+
+Query_10  78   GGAGGACTATGTTGCTGAATACAATGTGTGCAAATGCCAGCCCTGCCCAAACGGAGGGAC  137
+167555    254  ......T.....G..........GC..A..............T..T.T.C.T..T.....  313
+
+Query_10  138  TGTGATACTGGTGAACGGAGAGTGCATTTGTGCGTGTTCACCCTATTTTAAAGGAATGGC  197
+167555    314  A.....G...A....G...-....--.GAA....CC.G...T.C.......G...GAC..  373
+                           \                                    \          
+                           |                                    |          
+                           A                                   AC
+
+Query_10  198  CTGCCAGATACCCAA  212
+167555    374  ...TG.A........  388
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 258834332164
+
+
+Query= exon11
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHWGE010838865.1 Chrysopelea ornata isolate DD17 jcf7180008404...  86.0    2e-15
+  JAHWGE010130373.1 Chrysopelea ornata isolate DD17 jcf7180007911...  68.0    6e-10
+  JAHWGE011040520.1 Chrysopelea ornata isolate DD17 jcf7180008246...  50.0    2e-04
+
+
+
+Query_11  2    ACAGACATTCACTGACGGAGGCTGGAGCTGCTGGTCTAGCTGGTCCCCTTGTGTGCAAGG  61
+838864    959  ....C......-..--....-.................A.......A.C...CA......  904
+130372    279                       .....A...................T.G...CA.A.TA.  317
+1040519   455               ..T...AA...............C......A..A.AA.....G..-.  409
+                                                                   \       
+                                                                   |       
+                                                                   A
+
+Query_11  62   AGAACGCACTCGGACACGGGAATGTAATAATCCAGCACCTAAATCAAGGGGCA  114
+838864    903  .C.....CAG..A...A.AA.....G..........C...GG..AT.......  851
+130372    318  ......TCAG..A.G.A.A..G...........T......GG...TG......  370
+1040519   408  .C..AAAT..A.A.GC...........C......C.T...C..            366
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 167931517332
+
+
+  Database: GCA_019457695.1_c.ornata.1_genomic.fna
+    Posted date:  Dec 24, 2021  4:05 PM
+  Number of letters in database: 1,334,265,196
+  Number of sequences in database:  1,119,672
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

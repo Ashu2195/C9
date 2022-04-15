@@ -1,0 +1,329 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000090745.1_AnoCar2.0_genomic.fna
+           6,457 sequences; 1,799,143,587 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 86349904032
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_014777.1 Anolis carolinensis chromosome 2, AnoCar2.0, whole ...  78.8    2e-13
+
+
+
+Query_2  7        AAGAGAACCGAATGCACCTACTCCCATCGATTGCTTGCTGAGCGCCTGGAGTGAATGGGG  66
+1        7613316  .......T.......C..GC.A..TG.T..G............AA...............  7613375
+1        7589135                        ..T...A..............AG...............  7589172
+
+Query_2  67       ACCCTGTAACCCATGTGCAAGAGAAAGG  94
+1        7613376  ...A..C.....C....TT.A....C..  7613403
+1        7589173  ...A..C..T..C.....C.A.......  7589200
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116932161710
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_014777.1 Anolis carolinensis chromosome 2, AnoCar2.0, whole ...  127     8e-28
+
+
+
+Query_3  1        TATCGCTCACGAAGCGTCCTGCGTTATGGACAGTTTGGAGGAAGAATGTGCCATGAATCT  60
+1        7590902  .....T...A.G..T......A.G...................AGGCA....TG...C..  7590961
+1        7615039  .....T...A.G..T......AAG.....G.............AGGCA....TG...C..  7615098
+
+Query_3  61       CTGGGGCACAGAGAAAGCTGCGTGCCAGATACCCCTTGCCTTGAAGAGCAACCAGACTGT  120
+1        7590962  ..A..A....A.........T.A.......GT........A...G...G..GTT......  7591021
+1        7615099  ..A..A..............T.A.......GT........G...G...G..GTT......  7615158
+
+Query_3  121      GGCAAAGATTTCCAGTGTGA  140
+1        7591022  ........C...........  7591041
+1        7615159  ........C...........  7615178
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 206879235855
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_014777.1 Anolis carolinensis chromosome 2, AnoCar2.0, whole ...  123     1e-26
+
+
+
+Query_4  1        GACAATGCATAAAGTCACGGTTGGTGTGTAACACGGAAGATGACTGTGGCGATCTCTCCG  60
+1        7617216  ....G..T.....AA..A.A........C..T..A..G...........A..CA.G..T.  7617275
+1        7593207  .......T......G..A..C.T.....C..T..A..............A...GCT....  7593266
+
+Query_4  61       ACGAAGCTGAGTGTGAAAATGAGCGCCCTCCCCCCTGCCGTGATCGGATCATTGATGTAT  120
+1        7617276  .T........T.....GG.CA.C......G..........G.....T..TC....C....  7617335
+1        7593267  .T....T...T.....C..CT.C......G.......T..CA.C..T..TC.G..C....  7593326
+
+Query_4  121      CAGAGCTCGGAAGAATTGCTGGACGTGG  148
+1        7617336  ....A..T..............T.A...  7617363
+1        7593327  .......T..G....C......        7593348
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 212276085486
+
+
+Query= exon5
+
+Length=235
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_014777.1 Anolis carolinensis chromosome 2, AnoCar2.0, whole ...  170     1e-40
+
+
+
+Query_5  1        TATCAACATTCTAGGAATGCAACCGAGGGCAAATGCATTTCACAATGAGTTTTTCAATGG  60
+1        7594810  ......T........T...A....ACA......CC.....T............A......  7594869
+1        7618683   ......G.......T...AG...ACA.....GCC.....T............A......  7618741
+
+Query_5  61       AATGTGTGACAGAGTCCGTGATGGGAATACCGGCATATATTATCGCAAGCCGTGGAATGT  120
+1        7594870  GG.....A.......G.............G.................T...A........  7594929
+1        7618742  GG.A..............C..........GT.....T..............A........  7618801
+
+Query_5  121      GGCTGTGCTCAATTACGAGGTAAG  144
+1        7594930  C........A.....T........  7594953
+1        7618802  C........A.....T......    7618823
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 368784724785
+
+
+Query= exon6
+
+Length=316
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_014777.1 Anolis carolinensis chromosome 2, AnoCar2.0, whole ...  197     1e-48
+
+
+
+Query_6  70       TTGCAGaaaaaaaCGTTTTTGCACGTAAAATCAAGCATCCAGCTGGGATCTTTCATAATG  129
+1        7599543  ..A......C..CTA...C.A..T..G......C....TG....T...A.G....G....  7599602
+1        7624134                 ...C.A..T..T...........TG....A.....A..T..T...  7624178
+
+Query_6  130      CGGACACGTGACGTCCGCCTGAATGACGTGTTCCTTGAAGATTTAAAGTATCTGCCCACC  189
+1        7599603  A.A........TC.T..T.........TG.........T........AG.AT.....CTT  7599662
+1        7624179  ..A........TC.T..T..A......TG.........T..C.....AA..T.......T  7624238
+
+Query_6  190      GAATATGAAAAGGGAGAATATTTCAAATTTCTGGAAACATATGGAACACATTATGCACGG  249
+1        7599663  ACG.....C..A.....G.....T.............TG........T.....C......  7599722
+1        7624239  AC......C.G......G..............T......C.......T............  7624298
+
+Query_6  250      AGGGGGGTTTACGGAGGAATATATGAACTACTCTACATTTTGGACGATGAAACAATGTCA  309
+1        7599723  ..T..AAC..TT.......A..........T.A..TG.A......AG......C...AA.  7599782
+1        7624299  .A...AAC..TT.......A............A..TG.A......AG......C...AA.  7624358
+
+Query_6  310      AAGGAAG  316
+1        7599783  ..A....  7599789
+1        7624359  ..A....  7624365
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 512698874700
+
+
+Query= exon7
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 174498764398
+
+
+Query= exon8
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_014777.1 Anolis carolinensis chromosome 2, AnoCar2.0, whole ...  116     2e-24
+
+
+
+Query_8  28       TCAACGGTGTGCTCTCACAAGTTAAAGGCGGGAAGACAGATGTTTTAGTGAGGCTGAAGG  87
+1        7603926  ....T.A....G..A.TAT....C....A........T.C.........T.A........  7603985
+
+Query_8  88       AAATGCTGTCAACTGGCCAAAAGGTTATTGATGTTGAGAACTACGTCCAGTGGGCTGCTA  147
+1        7603986  ...A.T.A..C..A..TAGC.G...............AG.T..T.....A.....A....  7604045
+
+Query_8  148      CGCTTCCAGATGCTCCCGCGGTGATATCACAAGA  181
+1        7604046  .A..C..T........T..AA.A...........  7604079
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 273440381304
+
+
+Query= exon9
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_014777.1 Anolis carolinensis chromosome 2, AnoCar2.0, whole ...  196     3e-48
+
+
+
+Query_9  6        CCCAATTTCAACGCTTGTCCCGTCGAAGATGCCCGACGCCGAGATAAAGAAACGGAACCT  65
+1        7630790               .....T..A.T...A.....T...T.TACA...........A..T..  7630836
+1        7605869  ......C..TGA......A..C.T...A.....T...T..ACA..............T..  7605928
+
+Query_9  66       CGACAGAGCAGTGGAAGACTATGTTGCGGAATACAGTGTGTGCAAATGCCAGCCCTGTCA  125
+1        7630837  T.......G...T.........A....T.......A.........G..T...........  7630896
+1        7605929  T..G........TA........A....T...A...A...AC....G..T...........  7605988
+
+Query_9  126      AAATGGTGGGACTGTCATGCTGCTGAATGGAAAGTGTGAATGCGGATGCACGGCTTATTT  185
+1        7630897  ...............TC.A...A.C........T..C..G..T........TC.......  7630956
+1        7605989  ................C.....A.C......C.A.....G..T........CC.......  7606048
+
+Query_9  186      CAAAGGAGACGCCTGCGAGATCCCAGCAGAAACTCTTG  223
+1        7630957  .........T.T...TC...CA..CA..TC....T...  7630994
+1        7606049  .........A......C....                   7606069
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 357991025523
+
+
+Query= exon10
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_014777.1 Anolis carolinensis chromosome 2, AnoCar2.0, whole ...  134     7e-30
+
+
+
+Query_10  18       GCTACTGATGGGAGTTGGAGCTGCTGGTCTAGCTGGTCTGCATGTCAACAGGGAAAACGC  77
+1         7632414  ..C...A.....G.A................A.......C.....A..G.A...C.G...  7632473
+
+Query_10  78       ACTCGAACAAGACTGTGTAATAATCCTGCACCTGGAAATGGAGGCAAGCCATGCGCAGGA  137
+1         7632474  .............A...CG.C.......A....AC.GC...G..A..T.....T......  7632533
+1         6871289                 .....C...........CCT..................T.A...   6871332
+
+Query_10  138      GCAAACTCGGAACCAGGCTATTGCTCT  164
+1         7632534  T.......A...AT.........T...  7632560
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 268043531673
+
+
+  Database: GCF_000090745.1_AnoCar2.0_genomic.fna
+    Posted date:  Dec 24, 2021  4:38 PM
+  Number of letters in database: 1,799,143,587
+  Number of sequences in database:  6,457
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

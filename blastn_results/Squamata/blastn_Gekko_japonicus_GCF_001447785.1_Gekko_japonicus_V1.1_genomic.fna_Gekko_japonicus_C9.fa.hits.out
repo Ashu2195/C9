@@ -1,0 +1,588 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001447785.1_Gekko_japonicus_V1.1_genomic.fna
+           191,500 sequences; 2,490,274,461 total letters
+
+
+
+Query= exon1
+
+Length=92
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  167     7e-40
+  NW_015174883.1 Gekko japonicus isolate JY-2015 unplaced genomic...  82.4    2e-14
+  NW_015168055.1 Gekko japonicus isolate JY-2015 unplaced genomic...  71.6    4e-11
+  NW_015160326.1 Gekko japonicus isolate JY-2015 unplaced genomic...  69.8    2e-10
+  NW_015176486.1 Gekko japonicus isolate JY-2015 unplaced genomic...  66.2    2e-09
+  NW_015161414.1 Gekko japonicus isolate JY-2015 unplaced genomic...  66.2    2e-09
+  NW_015176002.1 Gekko japonicus isolate JY-2015 unplaced genomic...  60.8    8e-08
+  NW_015173703.1 Gekko japonicus isolate JY-2015 unplaced genomic...  59.0    3e-07
+  NW_015287344.1 Gekko japonicus isolate JY-2015 unplaced genomic...  57.2    1e-06
+  NW_015170337.1 Gekko japonicus isolate JY-2015 unplaced genomic...  57.2    1e-06
+  NW_015169810.1 Gekko japonicus isolate JY-2015 unplaced genomic...  57.2    1e-06
+  NW_015176593.1 Gekko japonicus isolate JY-2015 unplaced genomic...  53.6    1e-05
+  NW_015162616.1 Gekko japonicus isolate JY-2015 unplaced genomic...  53.6    1e-05
+  NW_015175358.1 Gekko japonicus isolate JY-2015 unplaced genomic...  51.8    4e-05
+  NW_015168078.1 Gekko japonicus isolate JY-2015 unplaced genomic...  51.8    4e-05
+  NW_015167582.1 Gekko japonicus isolate JY-2015 unplaced genomic...  51.8    4e-05
+  NW_015166426.1 Gekko japonicus isolate JY-2015 unplaced genomic...  51.8    4e-05
+  NW_015165234.1 Gekko japonicus isolate JY-2015 unplaced genomic...  51.8    4e-05
+  NW_015167092.1 Gekko japonicus isolate JY-2015 unplaced genomic...  50.0    1e-04
+  NW_015165845.1 Gekko japonicus isolate JY-2015 unplaced genomic...  50.0    1e-04
+  NW_015174305.1 Gekko japonicus isolate JY-2015 unplaced genomic...  48.2    5e-04
+  NW_015171516.1 Gekko japonicus isolate JY-2015 unplaced genomic...  48.2    5e-04
+  NW_015164678.1 Gekko japonicus isolate JY-2015 unplaced genomic...  48.2    5e-04
+  NW_015162533.1 Gekko japonicus isolate JY-2015 unplaced genomic...  48.2    5e-04
+  NW_015161473.1 Gekko japonicus isolate JY-2015 unplaced genomic...  48.2    5e-04
+  NW_015175364.1 Gekko japonicus isolate JY-2015 unplaced genomic...  46.4    0.002
+  NW_015173717.1 Gekko japonicus isolate JY-2015 unplaced genomic...  46.4    0.002
+  NW_015172006.1 Gekko japonicus isolate JY-2015 unplaced genomic...  46.4    0.002
+  NW_015169259.1 Gekko japonicus isolate JY-2015 unplaced genomic...  46.4    0.002
+  NW_015176505.1 Gekko japonicus isolate JY-2015 unplaced genomic...  44.6    0.006
+  NW_015176078.1 Gekko japonicus isolate JY-2015 unplaced genomic...  44.6    0.006
+  NW_015170912.1 Gekko japonicus isolate JY-2015 unplaced genomic...  44.6    0.006
+  NW_015170292.1 Gekko japonicus isolate JY-2015 unplaced genomic...  44.6    0.006
+  NW_015169809.1 Gekko japonicus isolate JY-2015 unplaced genomic...  44.6    0.006
+  NW_015165251.1 Gekko japonicus isolate JY-2015 unplaced genomic...  44.6    0.006
+  NW_015163096.1 Gekko japonicus isolate JY-2015 unplaced genomic...  44.6    0.006
+  NW_015163094.1 Gekko japonicus isolate JY-2015 unplaced genomic...  44.6    0.006
+  NW_015161404.1 Gekko japonicus isolate JY-2015 unplaced genomic...  44.6    0.006
+
+
+
+Query_1  1        ATGGCACAATCAGATATCAAGAAGTATGGAGTGAAACCACAGATGCCTGATCAGACTTTC  60
+12294    1861014  ............................................................  1860955
+15172    476188   ......TG......C...GG.........G.......AGTGA.....C...-........  476125
+                                                                  \           
+                                                                  |           
+                                                              ATAAA
+8344     1196466     ....G......C..TC..........G....C.ATG.T....T......G.......  1196405
+                                                                   \          
+                                                                   |          
+                                                               TTAAG
+615      124184                               ..........G.......GC..C........T  124220
+                                                                   \          
+                                                                   |          
+                                                               TAAAG
+16775    60735       ..G........C..TGG....G....G.......TGTG..C...C..C.........  60674
+                                                                  \           
+                                                                  |           
+                                                              ATAAA
+1703     606021      ..G......C..G.TTG......C..G..AG...TG......T.C..C.G.......  605960
+                                                                  \           
+                                                                  |           
+                                                              ATAAG
+16291    470071           ......C....G......CA.G.......TG....CT..C..CTG......T  470127
+                                                                  \           
+                                                                  |           
+                                                              ACAAA
+13992    129574   ....TG........C..TGG......C..G.......TGTG.....ACATAA........  129511
+                                                                           \  
+                                                                           |  
+                                                                        GGAC
+127633   176      ..A..G........C...C................TG.TG.C..T.G...CTG.......  240
+                                                   \              \           
+                                                   |              |           
+                                                  AC            TAA
+10626    57470                                                         ......T  57476
+10099    220833   ..A..G........C...C................TG.TG.C..T.G...CTG.......  220769
+                                                   \              \           
+                                                   |              |           
+                                                  AC            TAA
+16882    37439                                                         .......  37445
+2905     60296    ..............C...CG....C.C..G....C.A...T..C.T....C.........  60232
+                                                                  \           
+                                                                  |           
+                                                              GTTAA
+15647    3185170           .....C...C....A.T..........G...T...AT..A.A.........  3185225
+                                                                 \     \      
+                                                                 |     |      
+                                                                CA   CCG
+8367     152151           ......C...C....AC....G........G..--.........GA......  152095
+                                                                \ \           
+                                                                | |           
+                                                                A AGGAAG
+7871     51529            ......C.C.C....A.G...G...........TGCA..A..C.........  51585
+                                                                   \          
+                                                                   |          
+                                                               GAAAG
+6715     910009   ...A...T......C..TGG......CATT.........TG....G.CATAA.....G..  910073
+                                                                            \ 
+                                                                            | 
+                                                                        GATTG
+5523     1537112           .........C....A.G..........G.G..C..C.A.A.AG........  1537057
+                                                          \            \      
+                                                          |            |      
+                                                         CA          CAG
+7381     145748            .....C....G....ATCA.....G..G...T...A.G.............  145693
+                                                            \     \           
+                                                            |     |           
+                                                           GC   AAA
+6134     130493                                                  .............  130481
+14594    503594           ......C...C....A.G...G.......TG.T...C.A...C.........  503650
+                                                             \    \           
+                                                             |    |           
+                                                            CA  AAA
+11805    554892   ..............C...TG......-....G...TG.TG.C..C.....C.........  554956
+                                                   \            \ \           
+                                                   |            | |           
+                                                 GAC            A AA
+4967     155283                                                   ..C.........  155272
+2822     219475           ......C...C....A.G...G..........T...C.A...C..C......  219419
+                                                            \     \           
+                                                            |     |           
+                                                           TT   AAA
+1762     51879            ......C...C....A.G...G..A........TGCA..A..C.........  51935
+                                                                   \          
+                                                                   |          
+                                                               GAAGG
+15653    330403        .............C...TA.GC..G...........T..C.G.A.C.........  330462
+                                                          \         \         
+                                                          |         |         
+                                                         TT       ACC
+14006    264116            .....C...C.A..A.G...G...........CGCA..A..C.........  264061
+                                                                   \          
+                                                                   |          
+                                                               GAGGG
+12295    131616            .....C...C....A.G..........GTG.T...AT.C..........C.  131561
+                                                                   \          
+                                                                   |          
+                                                               TAAAC
+9548     123786          .......C...TG...A.G...............C..C.A...C.G.......  123843
+                                                          \       \           
+                                                          |       |           
+                                                         TT     AAA
+16794    45910             .....C...C....A.G...G.........G.C..C.A.............  45855
+                                                          \       \           
+                                                          |       |           
+                                                         TT     AGA
+16367    6310               ....C...C....A.G..........G...T...AT.C..C.G.T.....  6364
+                                                                   \          
+                                                                   |          
+                                                               TAAAC
+11201    213785           ......C...C....A.G............TG.C..C.A...C..A......  213729
+                                                       \          \           
+                                                       |          |           
+                                                      TG        TAA
+10581    780078                                                        .......  780084
+10098    287246                                 ......G......CAT....C.........  287280
+                                                                   \          
+                                                                   |          
+                                                               CAAAG
+5540     877004                       ...A.G...G........C..TG.A..A..C.........  876960
+                                                                  \           
+                                                                  |           
+                                                              AGAAG
+3385     1504552           .....C...C....A.G...G......G...T...TTT...C.........  1504497
+                                                                   \          
+                                                                   |          
+                                                               CAAAC
+3383     343538           ......C...C....A.G...G..........T...C.G.A.A.........  343482
+                                                             \         \      
+                                                             |         |      
+                                                            CA       CCG
+1693     1356144          ......C...TGA....G...G......A...T...C.A...C.........  1356200
+                                                             \    \           
+                                                             |    |           
+                                                            CA  AAA
+
+Query_1  61       CCCAGTGCCTGGAAACTCCTGCTCCAAGATGG  92
+12294    1860954  ................................  1860923
+15172    476124   ...G.................A..........  476093
+8344     1196404  ...G...G..AA.......A............  1196373
+615      124221   ...G.........................     124249
+16775    60673    ...G.............TG..........     60645
+1703     605959   .....................T.......C..  605928
+16291    470128   ..TG.........................     470156
+13992    129510   ...T............C...............  129478
+                       \                          
+                       |                          
+                       G
+127633   241      .......G..AA.T.....G.........     269
+10626    57477    ......T......................     57505
+10099    220768   .......G..AA.T.....G.........     220740
+16882    37446    .G.G......A..................C..  37477
+2905     60231    .TTG...G..AA.T.....A.......       60205
+15647    3185226  ...........ATT.....ACT.....       3185252
+8367     152094   .....G...AAAT......A....A.......  152063
+7871     51586    ..........AAT......AT...A....     51614
+6715     910074   .......................           910096
+5523     1537056  .......T....T....-.....T...       1537031
+7381     145692   .......T...C.......               145674
+6134     130480   ..........AA.T.....G.T.....       130454
+14594    503651   ...G...T.A.AT......GA...G.......  503682
+11805    554957   ...G...G..AA.T.....A.A.......C..  554988
+4967     155271   ...........A.......AAT..G...G...  155240
+2822     219418   .......T.AAAT....T..A..GG.......  219387
+1762     51936    .........AAAC......A...TG....     51964
+15653    330463   .T.....T.A.A......                330480
+14006    264060   .........AAAT....T.A....G....     264032
+12295    131560   ...........ATT...-.........       131534
+                                        \         
+                                        |         
+                                        T
+9548     123844   .......                           123850
+16794    45854    ...G...-T......                   45841
+16367    6365     ...........ATT..-..........       6391
+                                        \         
+                                        |         
+                                        T
+11201    213728   ...G.....AAAT..T...AA...G.......  213697
+10581    780085   .......T.G.C.......ACT..........  780116
+10098    287281   ...........AT......               287299
+5540     876959   .........AAAT......A....A....     876931
+3385     1504496  ..TG.......ATT.....ACT..........  1504464
+                                           \      
+                                           |      
+                                           A
+3383     343481   .......                           343475
+1693     1356201  ...G..TT.AAAT......G....A.......  1356232
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 156537420543
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  214     8e-54
+
+
+
+Query_2  1        CTTTTCAGAGCAAGTGCTACACCGGGTAAAAGGAGAGTCTGGTGCTCCACCCCCCATCAA  60
+12294    1857904  ............................................................  1857845
+
+Query_2  61       TTGTTTGCTTAGCCACTGGAGTGAATGGGGATCATGTAATCCATGCGGCAAAGAAAGT  118
+12294    1857844  ..........................................................  1857787
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 218638592568
+
+
+Query= exon3
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  279     3e-73
+
+
+
+Query_3  1        TATCGCTCAAGAAGTGTCTTGAAATATGGACAGTTCAGAGGGAAGCCATGCTTTGAACCT  60
+12294    1854944  ............................................................  1854885
+
+Query_3  61       CTGGGTGACAAACAGAGCTGTGTAACAGACCAAGTTTGCCCTGAAGAAGAAATTGACTGT  120
+12294    1854884  ............................................................  1854825
+
+Query_3  121      GGAGAGGAGGAGGATAACTTCCAATGTGCTAATG  154
+12294    1854824  ..................................  1854791
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 308081653164
+
+
+Query= exon4
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  273     1e-71
+
+
+
+Query_4  1        GAGTCTGCATCAAACAAAGATTGGTGTGTAACACAGACAATGACTGTGGAGATTTCTCTG  60
+12294    1851281  ............................................................  1851222
+
+Query_4  61       ATGAAGCTAACTGTAATGACACCAAATCCCGCCCGCCCTGTCGTGGTCGCATTGTTGGCA  120
+12294    1851221  ............................................................  1851162
+
+Query_4  121      TATCAAAAATTGGAAGAAAAGCTGGCCAAGG  151
+12294    1851161  ...............................  1851131
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 300628064781
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  251     4e-65
+
+
+
+Query_5  1        ACTCAACATTCTAGGAATGAGACCAAAGGGTACTCCATTTTACAATGAATTTTATAATGG  60
+12294    1847681  ............................................................  1847622
+
+Query_5  61       TTTTTGCAACCGGGAACGTGATAGGAATACAGGGATCTATTATCGTACACCATGGAATGT  120
+12294    1847621  ............................................................  1847562
+
+Query_5  121      TGCAGTTATCAATTATAGA  139
+12294    1847561  ...................  1847543
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 270813711249
+
+
+Query= exon6
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  396     2e-108
+
+
+
+Query_6  1        ACGAATGAAGACAGACGATTCTCATCTGGGGAGTATTCAGACAAGGTGGCTGCAATGAGA  60
+12294    1847017  ............................................................  1846958
+
+Query_6  61       AAGATGTTCACAGAGGGAAAACAGGATTTTCAGTCTAGCCTTTCTCTGAAATTCATCCCT  120
+12294    1846957  ............................................................  1846898
+
+Query_6  121      ACTGAGACTCAGACTAGTACATCAATAGAACTCAGTCCTGGTTTGAGTGCTTCCACAAAC  180
+12294    1846897  ............................................................  1846838
+
+Query_6  181      ACAAACATCAGTCGCTTCTTGGAAGTGTCTAGTGAAAGG  219
+12294    1846837  .......................................  1846799
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 467055536668
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  435     3e-120
+
+
+
+Query_7  1        GAGCAAACCTTTCTATACCTGAAAGGAACCATAGAAGTGGGAACGTACATAATGCGAAAC  60
+12294    1843187  ............................................................  1843128
+
+Query_7  61       CGTGACGTTCGGCTGACTGACACGTTCCTTGAGGATTTAAAAAATCTGCCCAGCAACTAC  120
+12294    1843127  ............................................................  1843068
+
+Query_7  121      GACATGGGAGAATATTTTAGATTTCTGGAAACATACGGAACTCACTATACAGAAAAGGGA  180
+12294    1843067  ............................................................  1843008
+
+Query_7  181      AAGGTCGGGGGAATATATGAACTACTGTATGTCCTGGACAAGCGGAATATGAGAGAGGAA  240
+12294    1843007  ............................................................  1842948
+
+Query_7  241      G  241
+12294    1842947  .  1842947
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 521710971810
+
+
+Query= exon8
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  120     6e-26
+
+
+
+Query_8  1        GAGTCACAGTAGAGAATGTAAAGGCCTGCCTGGGATATGATGACATGGTCCGTTTTGCAA  60
+12294    1841315  ............................................................  1841256
+
+Query_8  61       TGCAAA  66
+12294    1841255  ......  1841250
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91934675557
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  329     2e-88
+
+
+
+Query_9  1        TGAACAACTCAACTGGACGAGCCATTATCCACAGTGTGATCGCTCGAGTTCAAGGAGGGA  60
+12294    1838929  ............................................................  1838870
+
+Query_9  61       TGAGTGTTATCTTAGCAGAGCTGGAGGAAAAGTTATCAAGAGGTGCCAAGCTTGTCAATG  120
+12294    1838869  ............................................................  1838810
+
+Query_9  121      CAAAGGACTTCATACGGTGGGCTGCTACCCTCACCAAAGCTCCAGCCCTCATAGACTATA  180
+12294    1838809  ............................................................  1838750
+
+Query_9  181      TA  182
+12294    1838749  ..  1838748
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 377648478072
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015220147.1 Gekko japonicus isolate JY-2015 unplaced genomic...  414     1e-113
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  414     1e-113
+
+
+
+Query_10  1        CCACATCCAATCTATACTCTCGTACCTGTGAAGATGCCCAATGCCCATACAAAGAAACAA  60
+60436     816      ............................................................  757
+12294     1833526  ............................................................  1833467
+
+Query_10  61       AATCTGGAGCAAGCCGTGGAGGACTATGTTGCTGAATACAATGTGTGCAAATGCCAGCCC  120
+60436     756      ............................................................  697
+12294     1833466  ............................................................  1833407
+
+Query_10  121      TGCCCAAACGGAGGGACTGTGATACTGGTGAACGGAGAGTGCATTTGTGCGTGTTCACCC  180
+60436     696      ............................................................  637
+12294     1833406  ............................................................  1833347
+
+Query_10  181      TATTTTAAAGGAATGGCCTGCCAGATACCCAAATATGAGCAAATAACAG  229
+60436     636      .................................................  588
+12294     1833346  .................................................  1833298
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 491898916278
+
+
+Query= exon11
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015184069.1 Gekko japonicus isolate JY-2015 unplaced genomic...  286     2e-75
+  NW_015172005.1 Gekko japonicus isolate JY-2015 unplaced genomic...  286     2e-75
+
+
+
+Query_11  1        CACAGACATTCACTGACGGAGGCTGGAGCTGCTGGTCTAGCTGGTCCCCTTGTGTGCAAG  60
+24358     1098     ............................................................  1157
+12294     1831785  ............................................................  1831726
+
+Query_11  61       GAGAACGCACTCGGACACGGGAATGTAATAATCCAGCACCTAAATCAAGGGGCAGGCACT  120
+24358     1158     ............................................................  1217
+12294     1831725  ............................................................  1831666
+
+Query_11  121      GTGAAGGCGCTGCCTTAGAAAGACGACGCTGCACCTAG  158
+24358     1218     ......................................  1255
+12294     1831665  ......................................  1831628
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 318019771008
+
+
+  Database: GCF_001447785.1_Gekko_japonicus_V1.1_genomic.fna
+    Posted date:  Dec 24, 2021  4:06 PM
+  Number of letters in database: 2,490,274,461
+  Number of sequences in database:  191,500
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

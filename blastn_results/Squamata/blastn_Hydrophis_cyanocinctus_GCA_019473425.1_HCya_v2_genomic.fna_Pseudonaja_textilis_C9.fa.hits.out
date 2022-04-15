@@ -1,0 +1,393 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_019473425.1_HCya_v2_genomic.fna
+           1,163 sequences; 1,980,712,740 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM033585.1 Hydrophis cyanocinctus isolate QH_4 chromosome 2, wh...  134     3e-30
+
+
+
+Query_1  1          ATGTCTTCTGCTGTGCTTCTTATAGGAGTTCTCTGCATTTTAGGAGCAAATGGTTTTGCC  60
+1        308098503  .....................................................C......  308098562
+1        308037288        ...T..T......................................A........  308037341
+
+Query_1  61         TCTGAAGGGAAAGCAAG  77
+1        308098563  .................  308098579
+1        308037342  C.A.T............  308037358
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 95072592624
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM033585.1 Hydrophis cyanocinctus isolate QH_4 chromosome 2, wh...  165     2e-39
+
+
+
+Query_2  1          GTTGAAAAGGGAACCTAATGCTCCAGCACCCATTGACTGCTTGCTGACTACCTGGAGTGC  60
+1        308099642  .........A..................................................  308099701
+1        308038560            .............T..AG.............C.......G......C..A  308038609
+
+Query_2  61         TTGGGGACCATGTAGTCCGTGCTCAAAAGAAAGA  94
+1        308099702  ..................................  308099735
+1        308038610  ......G.......A...A......G.......   308038642
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 128744135845
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM033585.1 Hydrophis cyanocinctus isolate QH_4 chromosome 2, wh...  253     1e-65
+
+
+
+Query_3  1          TACCGCTCAAGGAGCATTCTGAAGTTTGGACAGTTTGGAGGAAAGCCATGCATTGTAGCC  60
+1        308100355  ............................................................  308100414
+1        308049591   .............T...GA....................................GT.T  308049649
+
+Query_3  61         CTGAGCGATAAACAGACCTGTGAGACAAGAATTCCATGCCCGGACAAGAGAGGTCATTGT  120
+1        308100415  ...............T.....................................C......  308100474
+1        308049650  .....T....G....CA.......C...A..G...C..T..A..TG.........GA...  308049709
+
+Query_3  121        GGGAAGCAAGAGTTCGAATGTGAAAATG  148
+1        308100475  ..............T.............  308100502
+1        308049710  AA.G.T........T.............  308049737
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 233719986300
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM033585.1 Hydrophis cyanocinctus isolate QH_4 chromosome 2, wh...  253     1e-65
+
+
+
+Query_4  1          GATATTGTCTAAAGGGTAGGCTGGTGTGTAACACAGAAAATGACTGTGGTGACTTCTCTG  60
+1        308101994  ....................T.................G.....................  308102053
+1        308050657  ..............AA.........A..................................  308050716
+
+Query_4  61         ATGAAGATAATTGTGATGAAACCAAACGCCCACCCTGTGGGGATCGTGACATTGACGTAT  120
+1        308102054  .......................................................T....  308102113
+1        308050717  ..................................T.........................  308050776
+
+Query_4  121        CAGAACTTGGAAGAACAGCTGGACAAGG  148
+1        308102114  ............................  308102141
+1        308050777  ............................  308050804
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 233719986300
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM033585.1 Hydrophis cyanocinctus isolate QH_4 chromosome 2, wh...  246     1e-63
+
+
+
+Query_5  1          TATGAATGTGCTGGGAATGAAACCGGCTCAAAAAGCCCTTTACAATGAGTTCTACAATGG  60
+1        308103696  ...T........................................................  308103755
+1        308054555    ..................C...A.......CT..AT..C.A.....A..G.....C..  308054612
+
+Query_5  61         CATCTGTGACAGAGTCCGTGATGGGAACACAGCCACTTATTACCGCAAGCCATGGAATGT  120
+1        308103756  ............................................................  308103815
+1        308054613  ...T..C..T..................T......T......................C.  308054672
+
+Query_5  121        GGCTTTCCTCAGTTATGAA  139
+1        308103816  ...................  308103834
+1        308054673  ....G......A......   308054690
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 215893885650
+
+
+Query= exon6
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM033585.1 Hydrophis cyanocinctus isolate QH_4 chromosome 2, wh...  352     2e-95
+
+
+
+Query_6  1          ACAAGAGGAGACAAAAAATTTACAAGTGAATTCTACAGTGACCAAGGAAAAACAATGGAA  60
+1        308105280  ......................................C.....................  308105339
+1        308056775  ...............C.C...........................AC.TC.......A..  308056834
+
+Query_6  61         AAAATAGTCAGTACAAAATCACACACCCTAGATGTGAGCTTCTCTCTTCAACTGAAACCG  120
+1        308105340  ........................T..T...............................A  308105399
+1        308056835  G.....T...............TGT.TT.T.G.....A.C.T...G..A..........A  308056894
+
+Query_6  121        CCTTTGCTCCCTGTATCGGGTGGTTTTGAGACAGGCATAAATTTTGCCAAATCATCCAGC  180
+1        308105400  ......T..........A..........................................  308105459
+1        308056895  A..GA.TC.AA......A.C.AC.A...G.GG.............AG...G.......A.  308056954
+
+Query_6  181        CTGAGTGACTTCTTAGAGAAAACCAAAGGAAAG  213
+1        308105460  ......A..........................  308105492
+1        308056955  A.......A.....GA.A...G.........    308056985
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 362464046550
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM033585.1 Hydrophis cyanocinctus isolate QH_4 chromosome 2, wh...  423     2e-116
+
+
+
+Query_7  3          TTATATGTATTTACATGTCAAATCTAATATACAACTGGGAACTTTCCAATTGCGAAAACG  62
+1        308109635  ....G.......................................................  308109694
+1        308064735      ..C.............................A....T.......A..........  308064790
+
+Query_7  63         TAATTTGCGCTTGAGTGAGACATTCCTTGAAGATCTAAATATGTTGCCCAGTACCTATGA  122
+1        308109695  .....................G......................................  308109754
+1        308064791  .G................T........G.....AA....G..T.....A...........  308064850
+
+Query_7  123        GAAGGGAGAGTATTTTACATTTCTGGAAATATATGGAACTCATTATTCACAGAGAGGAAC  182
+1        308109755  ............................................................  308109814
+1        308064851  A................A......T....C...........................G..  308064910
+
+Query_7  183        CATTGGAGGAAAATATGAATTAATATACGTGCTGGATAACCGAACTATGACATCACAAC  241
+1        308109815  ...........................................................  308109873
+1        308064911  ..................GC....G..T..AT....C....A....C.TT.......    308064967
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 415942104270
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM033585.1 Hydrophis cyanocinctus isolate QH_4 chromosome 2, wh...  212     2e-53
+
+
+
+Query_8  1          GGATCACTACAAAAGATGTAAATGAATGTCTAGGCTTTAATTTAAATATTGAGGCCAACA  60
+1        308112062  ............................C...............G......G........  308112121
+1        308071479  ..C.....G..G.G........CTC...C...............                  308071522
+
+Query_8  61         TATTTTTCGCAGAAGTCAAAACGAAGATTAAAAATGAAAAATGTAAAAGGTTACAGTCAG  120
+1        308112122  ............................................................  308112181
+
+Query_8  121        AAAAC  125
+1        308112182  .....  308112186
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 190145073600
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM033585.1 Hydrophis cyanocinctus isolate QH_4 chromosome 2, wh...  302     3e-80
+
+
+
+Query_9  1          GTTCTGCGAATGaaaaaaaaGGCATTATCCAAGATATAGTCTCTCTGATTCAAGGTGGAA  60
+1        308119722  ......A..............A......................................  308119781
+1        308073152                          ..G...G....G........A..G..........G.  308073187
+
+Query_9  61         CAACAGCTACTCTAACAAAGTTGAATGAAATGCTTTCTTCAAATGTCAATTCTGTTGATG  120
+1        308119782  ...........T...................................C....A.......  308119841
+1        308073188  ..........CT.................T.......A............CTAA......  308073247
+
+Query_9  121        TTGAACAGTATGTTGAATGGGCTGCTACATTACCTCAAGCTCCTGCTCTGATCAAACAAG  180
+1        308119842  ..........C.................................................  308119901
+1        308073248  CA.....C...T.................C...............TAG....A.GG....  308073307
+
+Query_9  181        AG  182
+1        308119902  ..  308119903
+1        308073308  ..  308073309
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 301063033200
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM033585.1 Hydrophis cyanocinctus isolate QH_4 chromosome 2, wh...  387     1e-105
+
+
+
+Query_10  1          ATGGCCCCGATTTCTGAACTTATCCCACTGAATATCCCAGACTCCCGAATAAAGAAAGTA  60
+1         308121119  ..............................................A.C...........  308121178
+1         308074411      ..........A......G.A..G.....................C...........  308074466
+
+Query_10  61         AATCTGGACAGAGCTGTAGAGGATTACGTGGCTGAATACAGCGTATGCAAATGCAAACCT  120
+1         308121179  ..........................T.................................  308121238
+1         308074467  ..........................T................C................  308074526
+
+Query_10  121        TGTCTGCATGGTGGAACGGTGATCCTGATAGAAGGGAAGTGTGAATGTGCTTGCACTCCA  180
+1         308121239  .....C......................................................  308121298
+1         308074527  ..C..A........G....C...G..........................C....A....  308074586
+
+Query_10  181        TTTTACAAGGGAGAAGCCTGCGAAATACCCACTTCAGATTTGATACCAG  229
+1         308121299  ....................T......................G.....  308121347
+1         308074587  ..............T.....T......T...AG...C....C.......  308074635
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 392173984026
+
+
+Query= exon11
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM033585.1 Hydrophis cyanocinctus isolate QH_4 chromosome 2, wh...  280     7e-74
+
+
+
+Query_11  1          CTGATACAGCCATTCATGGGAGCTGGAGCTGCTGGTCTAACTGGTCCACCTGTCAGCAAG  60
+1         308122268  ............................................................  308122327
+1         308076202            ....G......A.....A...........G........TG......A.TA  308076251
+
+Query_11  61         GACGACGCCAGCGAACAAGAAAATGTAATAATCCTGCCCCTGGATATAGGGGCAGGTCAT  120
+1         308122328  ............................................................  308122387
+1         308076252  ..GA...T.....G......C.G..............A.......C.GAT....AA....  308076311
+
+Query_11  121        GTCCTGGCGCAAATTTAGAACCAGGCCATTGTTAA  155
+1         308122388  ...................................  308122422
+1         308076312  .......AA...G.G......AG............  308076346
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 247584731250
+
+
+  Database: GCA_019473425.1_HCya_v2_genomic.fna
+    Posted date:  Dec 24, 2021  5:04 PM
+  Number of letters in database: 1,980,712,740
+  Number of sequences in database:  1,163
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

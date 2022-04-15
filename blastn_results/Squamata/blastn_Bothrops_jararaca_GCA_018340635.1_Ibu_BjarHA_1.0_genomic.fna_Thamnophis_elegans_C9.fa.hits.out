@@ -1,0 +1,417 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_018340635.1_Ibu_BjarHA_1.0_genomic.fna
+           27,698 sequences; 1,672,323,932 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAGTXL010020792.1 Bothrops jararaca isolate BSP84406 BJARHA_002...  116     6e-25
+
+
+
+Query_1  1      ATGTCTATCTCTTTGCGTCTTATAGGAGTTCTCTGCATTTTAGGAGCAAATGGTTTTGCC  60
+20791    80376  ......TCT......AT...........................................  80435
+20791    50468  .......CT......TT............C.....................A........  50527
+
+Query_1  61     TCTGCAGGGAAAGCAAG  77
+20791    80436  .................  80452
+20791    50528  ..A.T...A...A....  50544
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81905871012
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAGTXL010020792.1 Bothrops jararaca isolate BSP84406 BJARHA_002...  113     1e-23
+
+
+
+Query_2  1      GGTGACCCGAGAACCTAATTCTCCAGAGCCCATTGACTGCTTTCTGACTAACTGGAGTGA  60
+20791    51789  .......A..A...T....G.C.....A...G.........CA.......C.....C...  51848
+20791    81284              .......G......................GT......CT.......C  81331
+
+Query_2  61     TTGGGGGCCATGTAGTCCATGCTCAGAAGAAAGA  94
+20791    51849  C........................A........  51882
+20791    81332  ............C............A........  81365
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 108648844850
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAGTXL010020792.1 Bothrops jararaca isolate BSP84406 BJARHA_002...  187     1e-45
+
+
+
+Query_3  1      TACCGCTCAAGGAGTATTGTGAAGTTTGGACAGTTTGGAGGAAAGCCATGCACTGTCCCT  60
+20791    82066  .........C...........................................A.CAG.C  82125
+20791    52604  ................................A..C........A..........CAG.C  52663
+
+Query_3  61     CTGAGTGACAGAGAGTCCTGTGAGCCAACAACTCCATGCCCAGATGAGAGAGGTCAATGT  120
+20791    82126  ........T......C........A...A..G..TG..T.................T...  82185
+20791    52664  ........T...AG.CA.......A..GA..G.TTG..T.................T...  52723
+
+Query_3  121    AAGGATCAAGAGTTTGAATGTGAAAATG  148
+20791    82186  GG.A........................  82213
+20791    52724  GG.A.......A................  52751
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197236173056
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAGTXL010020792.1 Bothrops jararaca isolate BSP84406 BJARHA_002...  205     4e-51
+  JAGTXL010000629.1 Bothrops jararaca isolate BSP84406 BJARHA_000...  48.2    6e-04
+  JAGTXL010020165.1 Bothrops jararaca isolate BSP84406 BJARHA_002...  46.4    0.002
+  JAGTXL010000335.1 Bothrops jararaca isolate BSP84406 BJARHA_000...  44.6    0.008
+  JAGTXL010000039.1 Bothrops jararaca isolate BSP84406 BJARHA_000...  44.6    0.008
+
+
+
+Query_4  1       GATATTGTCTGAAGAATAGGCTGGTATGTAACACAGAAAATGACTGTGGTGACTTTTCTG  60
+20791    53757   ...T....A.A....T....T....G..C...............................  53816
+20791    83665   ..........A.........T....G............G....T........T.......  83724
+628      573751                           ......TGG...............A...AA...A.  573717
+334      277066                                      .......T.........AA.....  277043
+38       732519                                    ...C.....T....AG...AA.....  732544
+
+Query_4  61      ATGAAGATAATTGTGATGAAATCAAACGCTCTCCCTGTGGGGATCGTGACATTGATGAAT  120
+20791    53817   ........G.......A....A.......C.A.......................G.T..  53876
+20791    83725   ........G............C.......C.A......C................G.T..  83784
+628      573716  .....C.A......                                                573703
+20164    144136                                                         ....G  144132
+334      277042  .......A..C..                                                 277030
+38       732545  .......G........                                              732560
+
+Query_4  121     CAGAACTTGGAAGAACAGCTGGACAAGG  148
+20791    53877   ............................  53904
+20791    83785   .....T.G..............C.....  83812
+20164    144131  ..............G..........     144107
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197236173056
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAGTXL010020792.1 Bothrops jararaca isolate BSP84406 BJARHA_002...  208     3e-52
+
+
+
+Query_5  1      TGTGAATGTGTTGGGAATGACACCGGCTCTAACTGCATTTCAAAATGAGTTCTACAATGG  60
+20791    55765  ..........C.........A........A............C.................  55824
+20791    85872  ...A...A..C.........A........A..AA...C..T.C.................  85931
+
+Query_5  61     CCTCTGTGACAGAGTCCGTGATGGGAACACAGCCACTTATTACCGCAAGCCATGGAACGT  120
+20791    55825  .A.......................................................TAC  55884
+20791    85932  .A.......................................................T..  85991
+
+Query_5  121    GGCTGTCCTCAGTTATGA  138
+20791    55885  ...........A......  55902
+20791    85992  ...........A......  86009
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 182192736128
+
+
+Query= exon6
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAGTXL010020792.1 Bothrops jararaca isolate BSP84406 BJARHA_002...  237     1e-60
+
+
+
+Query_6  1      ACAAGAGGAGACAAACGCTTTACACATGAATTCTACAGCGACCAAGGATCAGCAATGAAA  60
+20791    57592  ................A.......AG............T......AT....A........  57651
+20791    87318  ...............AAA......AG......................A..A.....G..  87377
+
+Query_6  61     CAAATATTCAAAACAAAAACACAGTCTTTCTCTGCAAGCTTCTCTACTAAACTGACACCA  120
+20791    57652  G.................T..........TGA..TG.....A...GT........A....  57711
+20791    87378  A.....A...GT...G..T....A..CC.TGA..TG.....G...CT.C......A.T.G  87437
+
+Query_6  121    ACTGAGTCCAAAGAAATAGCTACTATTGGGGGAAGCTTCAATGCTAGCAAATCATCCAAC  180
+20791    57712  ...........T.T..C....GA................C.....G........A.....  57771
+20791    87438  ...TC..T.CCT.C.TCC.G.GG.G...A....G.TG.A...TT.GC...........GT  87497
+
+Query_6  181    ATGAGTGCATTCTTAAAACAAGCCAAAGAAA  211
+20791    57772  .C.....AT.....G...A.........G..  57802
+20791    87498  C.....AAC......G.GA..A......G..  87528
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 305883217536
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAGTXL010020792.1 Bothrops jararaca isolate BSP84406 BJARHA_002...  322     3e-86
+
+
+
+Query_7  1      AATCCCATCTACTTACATGTCAAATCTAATATACAACTGGGAACTTTCCAAATGCGAAAA  60
+20791    60297  ......G....T.....................T.T........................  60356
+20791    89931           ..T.......................................T.A......  89981
+
+Query_7  61     CGTGATTTGCGCTTGAGTGAGACTTTCCTGGAAGAGCTAAAGGTTTTGCCAAGTACCTAT  120
+20791    60357  .................C.....G...........T......T.............T...  60416
+20791    89982  ..CA...................A..TT.......T......C.......C....G....  90041
+
+Query_7  121    GAGAAGGGAGAGTATTTTAAATTTCTGGAAACATATGGAACTCATTACTCACATAGAGGA  180
+20791    60417  ...........A....G.........T....................TG....G.AG...  60476
+20791    90042  ...........A.......C...........................T............  90101
+
+Query_7  181    ATCATTGGCGGACAATATGAGCTACTATATGTGTTGGATAACCAAACTCTTTTAGCACAT  240
+20791    60477  .C......A...A...........A.G..C......................C.T.....  60536
+20791    90102  ........T...A.......A...A.............C.........              90149
+
+Query_7  241    G  241
+20791    60537  .  60537
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 352685021312
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAGTXL010020792.1 Bothrops jararaca isolate BSP84406 BJARHA_002...  136     1e-30
+
+
+
+Query_8  5      CACTGCAGAGGATGTAAACGAATGCTTAGGCTTTAATTTAGGAGCTACTGTCACTGCAGA  64
+20791    63080  ....A...GT........T......C.................CT....A....C.....  63139
+20791    92729  ....A..A.A..A.....T......C...............                     92769
+
+Query_8  65     TACTGCAGAAGCCAAAGAGCATATTAAAGCTAACCAATGTAAAGCCAGTGGATTTCAAAA  124
+20791    63140  ..T.............TC.G.G...........A.........A.T.........A....  63199
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 162137506930
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAGTXL010020792.1 Bothrops jararaca isolate BSP84406 BJARHA_002...  230     1e-58
+
+
+
+Query_9  1      TTGATGAAGTGAAACGGAGTGGGATTATCCAAGATATAGTCTCTATGGTTCAAGGTGGGA  60
+20791    67429  .......CA.....A........G.......C...G........C..A............  67488
+20791    95901                  ......A............G.......CT.AA............  95944
+
+Query_9  61     CAACAGCTGCCTTAACCAAGTTGAACGAGTTGCTTTCATCAAATGTAAGGCTAATTGATG  120
+20791    67489  ........A.T.....A........T..A.................C.A....G......  67548
+20791    95945  .......CA.T.....A........T..A........T.............-.G......  96004
+                                                              \             
+                                                              |             
+                                                              C
+
+Query_9  121    TAGAAAACTATGTCGAATGGGCTGCTACACTACCTCAAGCTCCCACAGTGATAAGACAAG  180
+20791    67549  .....C.G...............A................A..T..T.............  67608
+20791    96005  .....C.G.....T.......................G.....T........C..T....  96064
+
+Query_9  181    AG  182
+20791    67609  ..  67610
+20791    96065  ..  96066
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 254066934784
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAGTXL010020792.1 Bothrops jararaca isolate BSP84406 BJARHA_002...  304     9e-81
+  JAGTXL010003666.1 Bothrops jararaca isolate BSP84406 BJARHA_000...  253     1e-65
+
+
+
+Query_10  2      TAACCTCAATCTCGGAACTTGTACCGCTGAAAATCCCAGACTCTCGAAAAAAGAAAGAAA  61
+20791     69030  ..G..C....T..............A..C......A.......C....T...........  69089
+20791     97112     ..C....T..C......A.C..A.....T...........C...TT...........  97168
+3665      3324      ..C....T..C......A.C..A.....T...........C...TT...........  3380
+
+Query_10  62     ATCTGGATTTAGCTGTAGAGGATTTCGTGGCTGAATACAGCGTATGCAAATGCCAGCCTT  121
+20791     69090  .......CAG..............AT..................................  69149
+20791     97169  .....A.CAG..............AT..............T...........T.G.....  97228
+3665      3381   .....A.CAG..............AT..............T...........T.G.....  3440
+
+Query_10  122    GTCTGCATGGTGGGACAGTGATGCTGATAGAAGGGAAGTGTGAATGTGCCTGCACTCCAT  181
+20791     69150  ....A...........G.CA..............A.......................G.  69209
+20791     97229  ..T.A...........G.CA..............A.............G...........  97288
+3665      3441   ..T.A...........G.CA..............A.............G...........  3500
+
+Query_10  182    TGTACAAGGGGGATGCCTGTGAAATACCCAAGTCACCTTTCATACCAG  229
+20791     69210  .T........A..A.....................AG...........  69257
+20791     97289  .T........A..A..............TGCT...A............  97336
+3665      3501   .T........A..A..............TGCT...A............  3548
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 332627105408
+
+
+Query= exon11
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAGTXL010020792.1 Bothrops jararaca isolate BSP84406 BJARHA_002...  176     2e-42
+  JAGTXL010003666.1 Bothrops jararaca isolate BSP84406 BJARHA_000...  145     3e-33
+
+
+
+Query_11  1      CTCAAATCGCCATTGATGGGAGCTGGAACTGCTGGTCTAACTGGTCCACATGTGAGAATA  60
+20791     69674  ......CT...................G.........C..T.....TG.C...C.....G  69733
+20791     97886  ..G...GA......C............G.....................C...C..C.AG  97945
+3665      4098   ..G...GA......C............G.....................C...C..C.AG  4157
+
+Query_11  61     AAGAACGTCGGCGAACAAGACAGTGTAATAATCCTGCACCTGGATCTGGGGGAAAACCAT  120
+20791     69734  G........A....G.....G...............................C...T...  69793
+20791     97946  G.C....C............A.A...G..........T.......T.A....C..GT...  98005
+3665      4158   G.C....C............A.A...G..........T.......T.A....C..GT...  4217
+
+Query_11  121    GTCCTGGAACGAGTGTAGAACAAGGCCATTGTTAA  155
+20791     69794  ....A...G.A.CC.......C....T........  69828
+20791     98006  ........G.A.ACT....G.C....T........  98040
+3665      4218   ........G.A.ACT....G.C....T........  4252
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 208936624000
+
+
+  Database: GCA_018340635.1_Ibu_BjarHA_1.0_genomic.fna
+    Posted date:  Dec 24, 2021  5:24 PM
+  Number of letters in database: 1,672,323,932
+  Number of sequences in database:  27,698
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
