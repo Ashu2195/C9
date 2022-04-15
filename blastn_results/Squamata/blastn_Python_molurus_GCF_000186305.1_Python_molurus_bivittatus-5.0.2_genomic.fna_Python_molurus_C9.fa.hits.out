@@ -1,0 +1,365 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000186305.1_Python_molurus_bivittatus-5.0.2_genomic.fna
+           39,113 sequences; 1,435,052,152 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006537962.1 Python bivittatus unplaced genomic scaffold, Pyt...  140     5e-32
+
+
+
+Query_1  1      ATGTCTACTTCTTTGCTTCTTATAGGAGCTCTCTGCATTTTAGGAGCAAATAGTTTTGTC  60
+5948     70209  ............................................................  70268
+
+Query_1  61     TCAGCAGGGAAAGCAAG  77
+5948     70269  .................  70285
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 70263892412
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006536677.1 Python bivittatus unplaced genomic scaffold, Pyt...  170     4e-41
+
+
+
+Query_2  1       GGTGACACGAGAATCTAATGCCCCAGAGCCCATTGACTGTTTGCTGACTACCTGGAGTGA  60
+4663     100457  ............................................................  100398
+
+Query_2  61      TTGGGGACCATGTAGTCCATGCTCAAATGAAAGA  94
+4663     100397  ..................................  100364
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 93204661875
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006536677.1 Python bivittatus unplaced genomic scaffold, Pyt...  268     3e-70
+
+
+
+Query_3  1      TACCGCTCAAGAGATGTCCTGAAGTTTGGACAGTTCGGGGGGAAACCATGCACTGCAGCT  60
+4663     99519  ............................................................  99460
+
+Query_3  61     CTGAGTGATAGAGAGCACTGTGAACCAGAAAGTGATTGTCCTGAAGAGGGAAATCAATGT  120
+4663     99459  ............................................................  99400
+
+Query_3  121    GCGCAGAGAGAGTTTGAATGTGCAAATG  148
+4663     99399  ............................  99372
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 170636227125
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006536677.1 Python bivittatus unplaced genomic scaffold, Pyt...  268     3e-70
+
+
+
+Query_4  1      GATATTGTCTAAAGGATAGGTTGGTGTGTAACACAGAAAATGACTGTGGTGACTTCTCTG  60
+4663     98475  ............................................................  98416
+
+Query_4  61     ATGAAGATGGTTGTGAGGAGACCAAACGCCCACCCTGTGGGGACCGTGACATTGAGGTAT  120
+4663     98415  ............................................................  98356
+
+Query_4  121    CAGAACTTGGAAGAACAGCTGGCCAAGG  148
+4663     98355  ............................  98328
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 170636227125
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006536677.1 Python bivittatus unplaced genomic scaffold, Pyt...  251     2e-65
+
+
+
+Query_5  1      TCTGAACGTGCTGGGAATGAAACCGGCTCAAACTGCATTTTACAACGAGTACTTCAATGG  60
+4663     96548  ............................................................  96489
+
+Query_5  61     CATCTGTGATAGGGTCCGCGATGGGAACACAGCCACTTATTATCGCAAGCCATGGAATGT  120
+4663     96488  ............................................................  96429
+
+Query_5  121    TGCTTTCCTCAGTTATGAC  139
+4663     96428  ...................  96410
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 157730966250
+
+
+Query= exon6
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006536677.1 Python bivittatus unplaced genomic scaffold, Pyt...  385     3e-105
+
+
+
+Query_6  1      ACAAGAGGAGACAAACGCTTTACAAGTGAATTCTACAGTGACCAAGTATCAACAATGAGA  60
+4663     95077  ............................................................  95018
+
+Query_6  61     GAAATGTTCAGTGGAAAAACAGAGTCTTTTGATATGAGCTTTTCTGTTAAACTGAAACCT  120
+4663     95017  ............................................................  94958
+
+Query_6  121    ACTGAGTCTAAAGAAACAGTTGATATTGAGGGAGGCTTTAATACTGCCACAACCTCCAAA  180
+4663     94957  ............................................................  94898
+
+Query_6  181    GTGAGTGCCTTCTTGAAGAAAGCCAAAGGAATG  213
+4663     94897  .................................  94865
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 262399813446
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006536677.1 Python bivittatus unplaced genomic scaffold, Pyt...  435     2e-120
+
+
+
+Query_7  1      GATCCCATCTATTTACATGTAAAATCTAATATACAACTGGGAATTTTCCAAATGCGAAAG  60
+4663     92568  ............................................................  92509
+
+Query_7  61     CGCGATTTGCGCTTGTCTGAGACATTCCTGGGAGATATAAAGATCTTGCCCAATACCTAT  120
+4663     92508  ............................................................  92449
+
+Query_7  121    GAGAAGGGAGAATATTTTAAATTTGTGGAAACATATGGAACTCATTATTCACAGGGGGGA  180
+4663     92448  ............................................................  92389
+
+Query_7  181    ACCATTGGAGGAAAATATGAACTAATATACGTGTTGGATAACCAAACTCTGTCAGCACAT  240
+4663     92388  ............................................................  92329
+
+Query_7  241    G  241
+4663     92328  .  92328
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 302548418782
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006536677.1 Python bivittatus unplaced genomic scaffold, Pyt...  228     2e-58
+
+
+
+Query_8  1      GGCTCACTGCACGAGATGTAAATGAATGCCTAGGTTTTAATTTAGGTGTTACTTCCACCA  60
+4663     87922  ............................................................  87863
+
+Query_8  61     TAGATAAGGCAGACACCAAGGCAGAGATTAAAGCTAAGCAATGTAAAAACAATAAGTTTA  120
+4663     87862  ............................................................  87803
+
+Query_8  121    AAGATG  126
+4663     87802  ......  87797
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 139090033875
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006536677.1 Python bivittatus unplaced genomic scaffold, Pyt...  329     1e-88
+
+
+
+Query_9  1      TTGATGAAGTGAGAAGGAGTGGGGTTATCCAAGATGTGGTCTCTCTAGTTCAAGGTGGGA  60
+4663     86915  ............................................................  86856
+
+Query_9  61     CAACCGCTACTTTAACAAAGTTGAATGAAGCACTTTCATCAAATGTCAGGGTAGTTGATA  120
+4663     86855  ............................................................  86796
+
+Query_9  121    TAGAACAATATGTTGAATGGGCTGCTACACTACCTCAAGCTCCTACAGTGATCAGTCATC  180
+4663     86795  ............................................................  86736
+
+Query_9  181    AG  182
+4663     86735  ..  86734
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 217949571824
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006536677.1 Python bivittatus unplaced genomic scaffold, Pyt...  414     6e-114
+
+
+
+Query_10  1      GTACTCCCAATTTCTGAACTTATACCACTGAAAATCCAAGACTCCCGAATAAAGAAAGAA  60
+4663      85149  ............................................................  85090
+
+Query_10  61     AATCTGGACAGAGCTATAGAAGATTATGTGGCTGAATACAGTGCATGCAAATGCCAGCCT  120
+4663      85089  ............................................................  85030
+
+Query_10  121    TGTCTAAATGGCGGGACAGCAATGCTGCTGGATGGAAAGTGTGAATGTGTATGCACCCCA  180
+4663      85029  ............................................................  84970
+
+Query_10  181    TATTACAAGGGAGAAGCCTGTGAAATACCCAAGTCAGTTTTCATACCAG  229
+4663      84969  .................................................  84921
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 285341873638
+
+
+Query= exon11
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006536677.1 Python bivittatus unplaced genomic scaffold, Pyt...  275     2e-72
+  NW_006537519.1 Python bivittatus unplaced genomic scaffold, Pyt...  44.6    0.007
+
+
+
+Query_11  1      CTCAAGCCATTCATGGGAGCTGGAGCTGCTGGTCCAGCTGGTCCACGTGTGAGCAAGGAA  60
+4663      83524  ............................................................  83465
+5505      1887               ....A.A......................                     1859
+
+Query_11  61     AACGCCATCGAACAAGACAGTGTAATAATCCTGAACCTGGATTCGGGGGCAAGTCATGTC  120
+4663      83464  ............................................................  83405
+
+Query_11  121    CTGGAGCAAACTCAGAACCAGGCTATTGTTAA  152
+4663      83404  ................................  83373
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 176371898625
+
+
+  Database: GCF_000186305.1_Python_molurus_bivittatus-5.0.2_genomic.fna
+    Posted date:  Dec 24, 2021  5:21 PM
+  Number of letters in database: 1,435,052,152
+  Number of sequences in database:  39,113
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

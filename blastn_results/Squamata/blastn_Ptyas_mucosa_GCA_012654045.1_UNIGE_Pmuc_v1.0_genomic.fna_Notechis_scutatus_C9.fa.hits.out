@@ -1,0 +1,396 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_012654045.1_UNIGE_Pmuc_v1.0_genomic.fna
+           21,198 sequences; 1,721,466,642 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WNWU01000002.1 Ptyas mucosa isolate Pmuc001 1, whole genome sho...  131     3e-29
+
+
+
+Query_1  1         ATGTCTACTTCTTTGCTTCTTATAGGAGTTCTCTGCATTTTAGGAGCAAATAGTTTTGCC  60
+1        55857087  ...........................................A................  55857146
+1        55893459  ...................................................G........  55893518
+
+Query_1  61        TCAGTAGGGAAAGCAAG  77
+1        55857147  .....T...........  55857163
+1        55893519  ..T.C............  55893535
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82600891200
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WNWU01000002.1 Ptyas mucosa isolate Pmuc001 1, whole genome sho...  120     7e-26
+
+
+
+Query_2  11        GAACCTAATGCTCCAGCGCCCATTGATTGCTTGCTGACTACCTGGAGTGCTTGGGGACCA  70
+1        55859513  ................A.........C............G.........A......G...  55859572
+1        55894743   ..T............A.........C..T..C............G.C.A..........  55894801
+
+Query_2  71        TGTAGTCCGTGCTCAAAAGAAAGA  94
+1        55859573  ........A......G........  55859596
+1        55894802  ........A.......          55894817
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 111855373500
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WNWU01000002.1 Ptyas mucosa isolate Pmuc001 1, whole genome sho...  205     4e-51
+
+
+
+Query_3  1         TACCGCTCAAGGAGCATTCTGAAGTTTGGACAGTTTGGAGGAAAGCCTTGCATTGTAGCC  60
+1        55895898  ............G.T..........................G.....A.......A....  55895957
+1        55861431   .............T..........................G.....A......AA....  55861489
+
+Query_3  61        CTGAGCGATAAACAGTCCTGTGAGACAAGAATTCCATGCCCGGACAAGAGAGGTCATTGT  120
+1        55895958  .....T....G.G..................C...G.....A..TG.A............  55896017
+1        55861490  .....T....G.G.A......A....G.C..G..TG..T..A..TG..............  55861549
+
+Query_3  121       GGGAAGCAAGAGTTTGAATGTGAAAATG  148
+1        55896018  ............................  55896045
+1        55861550  AA.G.T......................  55861577
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 203058022836
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WNWU01000002.1 Ptyas mucosa isolate Pmuc001 1, whole genome sho...  241     5e-62
+
+
+
+Query_4  1         GATATTGTCTAAAGGGTAGGTTGGTGTGTAACACAGAAGATGACTGTGGTGACTTCTCTG  60
+1        55900795  ............................................................  55900854
+1        55862654  ..............AA....C....A............A................T....  55862713
+
+Query_4  61        ATGAAGATAATTGTGACGAAACCAAACGCCCACCCTGTGGGGATCGTGACATTGACGTAT  120
+1        55900855  ................T.......T.......................TT..C.......  55900914
+1        55862714  .C..............T.......................A..............T....  55862773
+
+Query_4  121       CAGAACTTGGAAGAACAGCTGGACAAGG  148
+1        55900915  ....G.......................  55900942
+1        55862774  ............................  55862801
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 203058022836
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WNWU01000002.1 Ptyas mucosa isolate Pmuc001 1, whole genome sho...  212     2e-53
+
+
+
+Query_5  3         TGAATGTGCTGGGAATGAAACCGGCTCAAAAAGCCCTTTACAATGAGTTCTACAATGGCA  62
+1        55902748  ......................A.........C.AT........................  55902807
+1        55864927  ..................CC..........CTA.AT..C.A...................  55864986
+
+Query_5  63        TCTGTGACAGAGTCCGTGATGGGAACACAGCCACTTATTACCGCAAGCCATGGAATGTGG  122
+1        55902808  ................A...........G..G........................A...  55902867
+1        55864987  .............T................G..T....C.................AC..  55865046
+
+Query_5  123       CTTTCCTCAGTTATGAA  139
+1        55902868  .................  55902884
+1        55865047  ................   55865062
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 187570546518
+
+
+Query= exon6
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WNWU01000002.1 Ptyas mucosa isolate Pmuc001 1, whole genome sho...  280     9e-74
+
+
+
+Query_6  1         ACAAGAGGAGACAAAAAATTTACAAGTGAATTCTACAGCGACCAAGGAAAAACAATGGAA  60
+1        55906064  ..............................................C.TC.......A..  55906123
+1        55866629  ...............CGC..............T.....T.......C.TC......TA..  55866688
+
+Query_6  61        AAAATAGTCAGTACAAAATCACACTCCCTAGATGTGAGCTTCTCTCTTCAACTGAAACCG  120
+1        55906124  C.....T...AA..............T.......CA.................AC..T.A  55906183
+1        55866689  GT....T...AA......A....GA.TT.T....CA.A...G...G..A.......G..A  55866748
+
+Query_6  121       CCTTTGTTCCCTGTATCGGGTGGTTTTGAGACAGGCATAAATTTTGCCAAATCATCCAGC  180
+1        55906184  A...C.......C....A...............A......T....T............A.  55906243
+1        55866749  A..GAACA.GA.A....A.T.AC.G...G.GG....T.C...GC..G..G........A.  55866808
+
+Query_6  181       CTGAGTGACTTCTTAGAGAAAACCAAAGGAAAG  213
+1        55906244  .................................  55906276
+1        55866809  A.......A.....GA.A.............    55866839
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 314912018466
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WNWU01000002.1 Ptyas mucosa isolate Pmuc001 1, whole genome sho...  385     3e-105
+
+
+
+Query_7  1         AGTTATATGTATTTACATGTCAAATCTAATATACAACTGGGAACTTTCCAATTGCGAAAA  60
+1        55908454  ......GA....................................................  55908513
+1        55869099           ..........................................A.......T  55869149
+
+Query_7  61        CGTAATTTGCGCTTGAGTGAGACATTCCTTGAAGATCTAAATATGTTGCCCAGTACCTAT  120
+1        55908514  ..C..........................G...........G..................  55908573
+1        55869150  ...G.........................G...........GT.T.....A.........  55869209
+
+Query_7  121       GAGAAGGGAGAGTATTTTACATTTCTGGAAATATATGGAACTCATTATTCACAGAGAGGA  180
+1        55908574  ...................T...........C............................  55908633
+1        55869210  ...................A......T....C..................C.........  55869269
+
+Query_7  181       ACCATTGGAGGAAAATATGAATTAATATACGTGCTGGATAACCGAACTATGACATCACAA  240
+1        55908634  ....................GC.......T...T..........................  55908693
+1        55869270  ...G..........T.....GC.......T...T.........A....C.TT.......   55869328
+
+Query_7  241       C  241
+1        55908694  .  55908694
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 363095278122
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WNWU01000002.1 Ptyas mucosa isolate Pmuc001 1, whole genome sho...  140     1e-31
+
+
+
+Query_8  1         GGATCACTACAAAAGATGTAAATGAATGCCTAGGCTTTAATTTAAATATTGAGGCCAACA  60
+1        55873349  ..C.....G..G.G........C.G....T..............GGA...TTT.T.G...  55873408
+1        55910403  .........G............C.....................G..C...CA.....T.  55910462
+
+Query_8  61        TATTTTTCGCAGAAGTCAAAACGAAGATTAAAAATGAAAAATGTAAAA  108
+1        55873409  C.GA.G.T.......C....G..G..T.....GC.A..C.........  55873456
+1        55910463  ...C..C.A.............A....................C...   55910509
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 166922634300
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WNWU01000002.1 Ptyas mucosa isolate Pmuc001 1, whole genome sho...  246     2e-63
+
+
+
+Query_9  2         TTCTGAGAATGaaaaaaaaGGCATTATCCAAGATATAGTCTCTCTGATTCAAGGTGGAAC  61
+1        55911976  ....AT..G........GCC.G............G......................G..  55912035
+1        55877405                         ...........G...........G..........G..  55877441
+
+Query_9  62        AACAGCTACTTTAACAAAGCTGAATGAAATGCTTTCTTCAAATGTCAATTCAGTTGATGT  121
+1        55912036  ...................T..................................C.....  55912095
+1        55877442  .........C.......G.T........T.......A.......C..GGCT.A......C  55877501
+
+Query_9  122       TGAACAGTATGTTGAATGGGCTGCTACATTACCTCAAGCTCCTGCTTTGATCAAACAAGA  181
+1        55912096  C........C.....................T.............AG.......G...C.  55912155
+1        55877502  A.....C...T.C...............C...............TAG....A.G......  55877561
+
+Query_9  182       G  182
+1        55912156  .  55912156
+1        55877562  .  55877562
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 261566266704
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WNWU01000002.1 Ptyas mucosa isolate Pmuc001 1, whole genome sho...  315     5e-84
+
+
+
+Query_10  1         ATGGCCCCGATTTCTGAACTTATCCCACTGAATATCCCAGACTCCCGACTAAAGAAAGTA  60
+1         55913617  .......T........................................A.G.........  55913676
+1         55879513      ....A.....G......G.A..G.....A...............AC........A.  55879568
+
+Query_10  61        AATCTGGACAGAGCTGTAGAGGATTACGTGGCTGAATACAGCGTATGCAAATGCAAACCT  120
+1         55913677  ..........................T.............A......T............  55913736
+1         55879569  ..........C....A..........T...A.......................C.G...  55879628
+
+Query_10  121       TGTCTACACGGTGGAACGGTGATCCTGATAGAAGGGAAGTGTGAATGTGCTTGCACTCCA  180
+1         55913737  ........T..C..G........G...C....T..A...........C..C.........  55913796
+1         55879629  ........T.....G........G..........................C.........  55879688
+
+Query_10  181       TTTTACAAAGGAGAAGCCTGTGAAATACCCACTTCAGATTTGAGACCAG  229
+1         55913797  ........G.....C.GT...........GG............T.....  55913845
+1         55879689  ........G.....T................AG...AC...C.T.....  55879737
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 342445309698
+
+
+Query= exon11
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WNWU01000002.1 Ptyas mucosa isolate Pmuc001 1, whole genome sho...  244     5e-63
+  WNWU01000004.1 Ptyas mucosa isolate Pmuc001 3, whole genome sho...  44.6    0.008
+
+
+
+Query_11  1         CTGATACAGCCATTCATGGGAGCTGGAGCTGCTGGTCTAACTGGTCCACCTGTCAGCAAG  60
+1         55914696  .....C................................G.....................  55914755
+1         55881328       ..T......G............A...........G......TC.G......A.CA  55881382
+3         27745161                 ....A.A.................G....A....             27745128
+
+Query_11  61        GACGACGCCAGCGAACAAGAAAATGTAATAATCCTGCCCCTGGATATAGGGGCAGGTCAT  120
+1         55914756  ..........................G...........................A.....  55914815
+1         55881383  ..GA...T............G.G..............A......CC.G......AA....  55881442
+
+Query_11  121       GTCCTGGCGCAAATTTAGAACCAGGCCATTGTTAA  155
+1         55914816  .C.....A.....C............T........  55914850
+1         55881443  ...T...AA...G.G....................  55881477
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 215103837750
+
+
+  Database: GCA_012654045.1_UNIGE_Pmuc_v1.0_genomic.fna
+    Posted date:  Dec 24, 2021  4:23 PM
+  Number of letters in database: 1,721,466,642
+  Number of sequences in database:  21,198
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

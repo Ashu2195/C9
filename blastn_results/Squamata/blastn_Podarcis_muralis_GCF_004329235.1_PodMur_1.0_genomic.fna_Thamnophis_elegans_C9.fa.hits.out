@@ -1,0 +1,316 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_004329235.1_PodMur_1.0_genomic.fna
+           2,161 sequences; 1,511,020,169 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_041322.1 Podarcis muralis ecotype yellow chromosome 11, PodM...  53.6    5e-06
+
+
+
+Query_1  14        TGCGTCTTATAGGAGTTCTCTGCATTTTAGGAGCAAATGGTTTTGCCTCTGCAGGGA  70
+10       19626769  ...C........CG.CA..G.....C..............C....T...AC......  19626713
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 74037023389
+
+
+Query= exon2
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 98212237500
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 178292730002
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_041322.1 Podarcis muralis ecotype yellow chromosome 11, PodM...  98.7    4e-19
+  NC_041317.1 Podarcis muralis ecotype yellow chromosome 6, PodMu...  46.4    0.002
+  NC_041312.1 Podarcis muralis ecotype yellow chromosome 1, PodMu...  44.6    0.007
+
+
+
+Query_4  6          TGTCTGAAGAATAGGCTGGTATGTAACACAGAAAATGACTGTGGTGACTTTTCTGATGAA  65
+10       19622846   ...A.A.....A...T..........T..G...G.C..T.....A.....C..C......  19622787
+5        40409473                                    ................G..........  40409499
+0        100823756                                 .......T.........AA..........  100823728
+
+Query_4  66         GATAATTGTGATGAAATCAAACGCTCTCCCTGTGGGGATCGTGACATTGATGAATCAGAA  125
+10       19622786   ..C........A.GT...CT-..TG.A......C.T..C...ATA.......T......G  19622727
+                                   \                                            
+                                   |                                            
+                                   G
+5        40409500   .                                                             40409500
+0        100823727  ..A..C..                                                      100823720
+
+Query_4  126        CTTGGAAGAACAGCTGG  142
+10       19622726   G................  19622710
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 178292730002
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_041322.1 Podarcis muralis ecotype yellow chromosome 11, PodM...  96.9    1e-18
+
+
+
+Query_5  38        TTTCAAAATGAGTTCTACAATGGCCTCTGTGACAGAGTCCGTGATGGGAACACAGCCACT  97
+10       19622082  ...T.C........T.....C..AG....C...........C........T..T.GA.TA  19622023
+
+Query_5  98        TATTACCGCAAGCCATGGAACGTGGCTGTCCTCAGTTATGA  138
+10       19622022  ..C..T.................T.....G....A......  19621982
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 166205325000
+
+
+Query= exon6
+
+Length=213
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 276504827037
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_041322.1 Podarcis muralis ecotype yellow chromosome 11, PodM...  125     5e-27
+  NC_041315.1 Podarcis muralis ecotype yellow chromosome 4, PodMu...  50.0    3e-04
+
+
+
+Query_7  35        AACTGGGAACTTTCCAAATGCGAAAACGTGATTTGCGCTTGAGTGAGACTTTCCTGGAAG  94
+10       19617428  ..........C..T..........GG.....CG.C...C...CC..C..G.....T....  19617368
+                                                          \                    
+                                                          |                    
+                                                          C
+3        65512632                                                  ............  65512643
+
+Query_7  95        AGCTAAAGGTTTTGCCAAGTACCTATGAGAAGGGAGAGTATTTTAAATTTCTGGAAACAT  154
+10       19617367  .TG....ATA.C....C...G.A..C..C........A............T......TGC  19617308
+3        65512644  ....GT..A......A.T.C.AA............A.TA.......                65512690
+                                                   \                           
+                                                   |                           
+                                                   A
+
+Query_7  155       ATGGAACTCATTACTCACATAGAGGAATCATTGGCGGACAATATGAGCTACTATATGTGT  214
+10       19617307  .C..........TTG....G.AG....CGG....T..GA.......A...A.G.....AC  19617248
+
+Query_7  215       TGGATAACCAAAC  227
+10       19617247  ....C........  19617235
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 318811576529
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 146562877500
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_041322.1 Podarcis muralis ecotype yellow chromosome 11, PodM...  57.2    1e-06
+
+
+
+Query_9  115       TTGATGTAGAAAACTATGTCGAATGGGCTGCTACACTACCTCAAGCTCCCACAGTGATA  173
+10       19614960  .......G...G........C.G.....A..G..G..CT..G.T...............  19614902
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 229665211528
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_041322.1 Podarcis muralis ecotype yellow chromosome 11, PodM...  104     1e-20
+
+
+
+Query_10  61        AATCTGGATTTAGCTGTAGAGGATTTCGTGGCTGAATACAGCGTATGCAAATGCCAGCCT  120
+10        19613686  .....C..CCG......G.....C.A...T........T..T..T..............C  19613627
+
+Query_10  121       TGTCTGCATGGTGGGACAGTGATGCTGATAGAAGGGAAGTGTGAATGTGCCTGCACTCCA  180
+10        19613626  ....AAA.......C..T..C......-.T...C.............C.GA.....C..T  19613567
+                                                          \                     
+                                                          |                     
+                                                          G
+
+Query_10  181       TTGTACAAGGGGGATGCCTG  200
+10        19613566  .AC.T......A..A.....  19613547
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 300680112461
+
+
+Query= exon11
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_041322.1 Podarcis muralis ecotype yellow chromosome 11, PodM...  62.6    3e-08
+
+
+
+Query_11  15        GATGGGAGCTGGAACTGCTGGTCTAACTGGTCCACATGTGAGAATAAAGAACGTCGGCGA  74
+10        19612016  ......G......G...........C......GG.T....T.C.AGG......CACT..G  19611957
+
+Query_11  75        ACAAGACAGTGTAATAATCCTG  96
+10        19611956  .G...G.....C..........  19611935
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 188869417375
+
+
+  Database: GCF_004329235.1_PodMur_1.0_genomic.fna
+    Posted date:  Dec 24, 2021  5:31 PM
+  Number of letters in database: 1,511,020,169
+  Number of sequences in database:  2,161
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

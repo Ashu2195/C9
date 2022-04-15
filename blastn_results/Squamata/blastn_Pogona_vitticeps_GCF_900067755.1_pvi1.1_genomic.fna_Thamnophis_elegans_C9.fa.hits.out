@@ -1,0 +1,300 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_900067755.1_pvi1.1_genomic.fna
+           13,749 sequences; 1,716,675,060 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82381264272
+
+
+Query= exon2
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 111557962035
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 202518985620
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_018150751.1 Pogona vitticeps unplaced genomic scaffold, pvi1...  46.4    0.002
+  NW_018150733.1 Pogona vitticeps unplaced genomic scaffold, pvi1...  44.6    0.008
+
+
+
+Query_4  26       ATGTAACACAGAAAATGACTGTGGTGACTTTTCTGATGAAGATAATTGTGATGAAATCAA  85
+57       289466   ....G...GTC.......T.........AA............A..C..              289419
+
+Query_4  86       ACGCTCTCCCTGTGGGGATCGTGACATTGATGAATCAGAACTTGGAAGAACAGCTGGAC  144
+39       2907185                                ....A........A...............  2907213
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 202518985620
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_018150885.1 Pogona vitticeps unplaced genomic scaffold, pvi1...  114     5e-24
+
+
+
+Query_5  31      AACTGCATTTCAAAATGAGTTCTACAATGGCCTCTGTGACAGAGTCCGTGATGGGAACAC  90
+191      191142  ..A.........C........T.T......AA.G.......................T..  191201
+
+Query_5  91      AGCCACTTATTACCGCAAGCCATGGAACGTGGCTGTCCTCAGTTATGA  138
+191      191202  C.G..TA.....T........G.....T........G....A...C..  191249
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 187072622310
+
+
+Query= exon6
+
+Length=213
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 314076053970
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_018150885.1 Pogona vitticeps unplaced genomic scaffold, pvi1...  114     9e-24
+
+
+
+Query_7  13      TTACATGTCAAATCTAATATACAACTGGGAACTTTCCAAATGCGAAAACGTGATTTGCGC  72
+191      193214  ..G..C..A.....A.GC..C..G......T.....AT......G.C......CG.C...  193273
+
+Query_7  73      TTGAGTGAGACTTTCCTGGAAGAGCTAAAGGTTTTGCCAAGTACCTATGAGAAGGGAGAG  132
+191      193274  C...A...CGTG.....T.....TT.....TA.C....C.CCGAA.....A........A  193333
+
+Query_7  133     TATTTTAAATTTCTGGAAACATATGGAACTCATTACTCACATAGAGGAATCATTGGCGGA  192
+191      193334  .....C.......................A.....TG...GG..G..GG.TTAC..A...  193393
+
+Query_7  193     CAATATGAGCTACTATATGTGTTGGA  218
+191      193394  AT......A.....C..CA.T.....  193419
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 362131406490
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 166478804883
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_018150885.1 Pogona vitticeps unplaced genomic scaffold, pvi1...  62.6    4e-08
+
+
+
+Query_9  48      GTTCAAGGTGGGACAACAGCTGCCTTAACCAAGTTGAACGAGTTGCTTTCATCAAATGTA  107
+191      198781  ...A....C....AG....A..TT...GTG.G.C....G..AA....G...A.TGGCCA.  198840
+
+Query_9  108     AGGCTAATTGATGTAGAAAACTATGTCGAATGGGCTGCTACACTACCTCAAGCTCCCACA  167
+191      198841  .A.G.T........T..G.....C...C.G...........G..T..AG.T......G.G  198900
+
+Query_9  168     GTGATAAGACAAGA  181
+191      198901  ......TC......  198914
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 260871913680
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_018150885.1 Pogona vitticeps unplaced genomic scaffold, pvi1...  96.9    2e-18
+
+
+
+Query_10  19      CTTGTACCGCTGAAAATCCCAGACTCTCGAAAAAAGAAAGAAAATCTGGATTTAGCTGTA  78
+191       201053  .....C...TC...G..G..C...G.-...G........CGG..C..C..CAG...A..G  201112
+                                                  \                           
+                                                  |                           
+                                                  T
+
+Query_10  79      GAGGATTTCGTGGCTGAATACAGCGTATGCAAATGCCAGCCTTGTCTGCATGGTGGGACA  138
+191       201113  ..A..C.AT..T..G........T..G..............C....AAA..........T  201172
+
+Query_10  139     GTGATGCTGATAGAAGGGAAGTGTGAATGTGCCTGCACTCCATTGTACAAGGGGGATGCC  198
+191       201173  ..C......C.GA.T..A...........C.GA.....GG.T.AT.T...A..A..C...  201232
+
+Query_10  199     TGTGAAATACC  209
+191       201233  ..C..G..C..  201243
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 341536255410
+
+
+Query= exon11
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_018150885.1 Pogona vitticeps unplaced genomic scaffold, pvi1...  96.9    1e-18
+
+
+
+Query_11  14      TGATGGGAGCTGGAACTGCTGGTCTAACTGGTCCACATGTGAGAATAAAGAACGTCGGCG  73
+191       204966  .........T....G...........G......TG.....C.AC.GGG.A....CACT..  205025
+
+Query_11  74      AACAAGACAGTGTAATAATCCTGCACCTGGATCTGGGGGAAAACCATG  121
+191       205026  ........T......................AA...A..C..G.....  205073
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 214532823750
+
+
+  Database: GCF_900067755.1_pvi1.1_genomic.fna
+    Posted date:  Dec 24, 2021  5:31 PM
+  Number of letters in database: 1,716,675,060
+  Number of sequences in database:  13,749
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,334 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_900518735.1_EBS10Xv2-PRI_genomic.fna
+           28,550 sequences; 1,590,035,073 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020769310.1 Pseudonaja textilis unplaced genomic scaffold, E...  46.4    9e-04
+
+
+
+Query_1  1         ATGTCTAGGTTGTTGCTTCTCACAGGGGTGCTCTTCACTTTTGGAATAAATAGTTTTGTC  60
+2        11189196  .......CT.CTC.......T.T...A..T....G..T...A...GC...........C.  11189137
+
+Query_1  61        TCA  63
+2        11189136  ...  11189134
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 77872547977
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020769310.1 Pseudonaja textilis unplaced genomic scaffold, E...  59.0    2e-07
+
+
+
+Query_2  1         GTTGCCAAGAGAATCGAATGCCCCGCCACCTGTTGAGTGCTTGCTGAGCAACTGGAGTGA  60
+2        11149252  ....AA...G...C.T.....T..AG....CA....C..........CT.C........C  11149193
+
+Query_2  61        ATGGGGACCATG  72
+2        11149192  T...........  11149181
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 103298462995
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020769310.1 Pseudonaja textilis unplaced genomic scaffold, E...  62.6    3e-08
+
+
+
+Query_3  1         TATCGTTCAAGGAGTGTCCTGAAGTATGGGCAGTTTGGAGGAAAGGCATGCCTGGAACCT  60
+2        11148534  ..C..C........CA.T.......T...A...............C.....A.T.T.G.C  11148475
+2        11183965     ..C.........A..GA.....T...A...............C.....A.T.TGT..  11183909
+
+Query_3  61        CTAGGACACAGAGAAAGCTGTGAGCCAGATGTCCCTTGCCGTGAGGAGGAAGTTGACTGT  120
+2        11148474  ..GA.CG.T.A.C.G.C.......A..AGAA.T..A....CG..CA..AG..G.C.T...  11148415
+2        11183908  ..GA.TG.T...C.GCA..........A.A.....-..T.C...T...AG..G.C.A...  11183849
+                                             \                                 
+                                             |                                 
+                                             A
+
+Query_3  121       GGCAAAGACTTCCAGTGTGAAAATG  145
+2        11148414  ..G.....G...G.A..........  11148387
+                       \                    
+                       |                    
+                     AGC
+2        11183845  .ATC....G..TG.A..........  11183821
+                   \                        
+                   |                        
+                   AAG
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 182755535895
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020769310.1 Pseudonaja textilis unplaced genomic scaffold, E...  105     3e-21
+  NW_020769342.1 Pseudonaja textilis unplaced genomic scaffold, E...  51.8    5e-05
+
+
+
+Query_4  6         TGTATAAAAACAAGATTGGTGTGCAATACAGAGGATGACTGTGGAGACATGTCTGATGAA  65
+2        11182892  ...C....G.AT..GC....A..T..C.....AA..........T...T.C.........  11182833
+2        11146890                  .......T..C.....AA..........T...T.C.........  11146847
+34       11152071                       ......GG...T..............TCAA..A......  11152033
+
+Query_4  66        GCTGATTGTGAGGACAACCGCCCTGCCCCCTGCCGGGATCGTATTCTTGACGTATCAGAA  125
+2        11182832  .A.A.......A.....A.....A---.....TG........GACA..............  11182773
+                                 \                                             
+                                 |                                             
+                               AAC
+2        11146846  .A.A.......T.....A.....A---.....TG........GACA..............  11146787
+                                 \                                             
+                                 |                                             
+                               AAC
+34       11152032  .........A..                                                  11152021
+
+Query_4  126       CTTGGAAGAATTGCTGGTCATGG  148
+2        11182772  ..........CA.....A..A..  11182750
+2        11146786  ..........CA.....A..A..  11146764
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 187523071614
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020769310.1 Pseudonaja textilis unplaced genomic scaffold, E...  111     6e-23
+
+
+
+Query_5  31        AAGCCCATTTTACAATGAGTTTTACAATGGGGTATGTGACAGAGTCCGCGATGGGAATAG  90
+2        11180159       .....C.A.....A..C.....C..CA.T..............T........CTC  11180105
+2        11145173  ......--.............C........CA.C..............T........C.C  11145116
+
+Query_5  91        TGGCATTTATTATCGCAAGCCATGGAATGTCGCTGTGCTAAATTATGA  138
+2        11180104  A.C..C......C...............C.G.....C..C........  11180057
+2        11145115  A.C..C......C.................G...T.C..C.G......  11145068
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 174812783530
+
+
+Query= exon6
+
+Length=228
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 314657357454
+
+
+Query= exon7
+
+Length=224
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020769310.1 Pseudonaja textilis unplaced genomic scaffold, E...  154     9e-36
+
+
+
+Query_7  1         TGTTAAATCAAGCATTGAGCTAGGATCATTTATTATGCGAACACGTGATCTTCGTCTAAA  60
+2        11171538  ...C.....T.AT..AC.A......A.T..CCAA.......A.......T.G..CT.G.G  11171479
+2        11138242                                     ......A....A..T.G..CT.G.G  11138218
+
+Query_7  61        TGACTGGTTCCTTGATGACTTAAAAAATTTGCCCACTACATATGACAGGGGAGAGTATTT  120
+2        11171478  ...TACA.....G..A..AA....GGT......A.G...C.....G.A............  11171419
+2        11138217  ...GACA........A..TC....T.TG.......G...C.....G.A............  11138158
+
+Query_7  121       CAAATTTCTTGAAACACATGGAACTCATTATGCACGGAAGGGAACTTTTGGAGGAAAATA  180
+2        11171418  T...............T..............T...A..GA..G..CG.............  11171359
+2        11138157  T.C......G....T.T..............T...A..GA.....CA.............  11138098
+
+Query_7  181       TGAACTACTATATGTATTGGACA  203
+2        11171358  ...G...A...............  11171336
+2        11138097  ....T..A....C..GC....    11138077
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 308300643162
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 154153090931
+
+
+Query= exon9
+
+Length=182
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 241555143096
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 316246536027
+
+
+Query= exon11
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020769310.1 Pseudonaja textilis unplaced genomic scaffold, E...  82.4    3e-14
+
+
+
+Query_11  9         GCCACTAATGGGGGATGGAGCTGCTGGTCTAACTGGTCTCCATGTAAAGAAGGACAGCGC  68
+2         11130961  ....T.C.....A.C.......................CA.C...C.GC......GA...  11130902
+
+Query_11  69        ACTCGAACAAGACAGTGCGACAATCCTGAACCTACAGCTGGGGGAAATCCATGTGCAGGA  128
+2         11130901  CAG.........A.A..TA.T.......CC...GG.TA.A....C.GGT.....C.T..C  11130842
+
+Query_11  129       TCAAACTCAGAAATAGGCTATTGTT  153
+2         11130841  G....T.T....CC....C......  11130817
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 217717464501
+
+
+  Database: GCF_900518735.1_EBS10Xv2-PRI_genomic.fna
+    Posted date:  Dec 24, 2021  3:47 PM
+  Number of letters in database: 1,590,035,073
+  Number of sequences in database:  28,550
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

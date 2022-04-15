@@ -1,0 +1,390 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001527695.2_P.Mucros_1.0_genomic.fna
+           52,280 sequences; 1,673,876,332 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015386198.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  140     5e-32
+
+
+
+Query_1  1       ATGTCTACTTCTTTGTTTCTTATAGGAGTCCTCTGCATTTTAGAAGCAAATAGTTTTGCC  60
+121      321403  ............................................................  321462
+
+Query_1  61      TCAGCAGGAAAAACAAG  77
+121      321463  .................  321479
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81948212108
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015386198.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  170     4e-41
+
+
+
+Query_2  1       GGTGACCAGAAACCTTAATGCCCCAGAACCCATTGACTGCTTACTGACTACCTGGACTGA  60
+121      322705  ............................................................  322764
+
+Query_2  61      TTGGGGGCCATGTAGTCCATGCTCAAAAGAAAGA  94
+121      322765  ..................................  322798
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 108703413780
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015386198.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  268     4e-70
+
+
+
+Query_3  1       TACCGCTCAAGGAATATTGTGAAGTTTGGACAATTCGGAGGAAAACCATGCACTGCAGCC  60
+121      323519  ............................................................  323578
+
+Query_3  61      CTGAGTGATAGAGCGTACTGTGAGACAGAAAGTTTGTGTCCAGATGAGAGAGGTCATTGT  120
+121      323579  ............................................................  323638
+
+Query_3  121     GGGAATCAAGAGTTTGAATGTGAAAATG  148
+121      323639  ............................  323666
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197332335976
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015386198.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  268     4e-70
+  NW_015386397.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  48.2    6e-04
+  NW_015387291.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  44.6    0.008
+  NW_015386754.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  44.6    0.008
+
+
+
+Query_4  1       GATTTTGTCTAAAGAATAGGTTGGTGTGCAACAAGGAAAATGACTGTGGTGACTTTTCTG  60
+121      324838  ............................................................  324897
+320      404948                                                       .......  404942
+1214     172506                                     ..............A...AA...A.  172530
+677      894085                                      .......T.........AA.....  894108
+
+Query_4  61      ATGAAGATAATTGTGAAGAAACCAAACGCCCACCCTGTGGGGATCGTGACATTGAGGTAT  120
+121      324898  ............................................................  324957
+320      404941  .......C..........C..A.....                                   404915
+1214     172531  .....C.A......                                                172544
+677      894109  .......A..C..                                                 894121
+
+Query_4  121     CAGAACTTGGAAGAACAGCTGGACAAGG  148
+121      324958  ............................  324985
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197332335976
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015386198.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  251     3e-65
+
+
+
+Query_5  1       TGTGAATGTGCTGGGAATGAAACCGGCTCAAACTGCATTTCACAATGAGTTCTACAATGG  60
+121      326682  ............................................................  326741
+
+Query_5  61      CATCTGTGACAGAGTCCGTGATGGGAACACAGCCACTTATTACCGCAAGCCATGGAATAC  120
+121      326742  ............................................................  326801
+
+Query_5  121     GGCTGTCCTCAATTATGAC  139
+121      326802  ...................  326820
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 182281564588
+
+
+Query= exon6
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015386198.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  385     3e-105
+  NW_015386496.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  50.0    3e-04 
+
+
+
+Query_6  1       ACAAGAGGAGACAAACACTTTACAAGTGAATTCTATAGTGACCAAATATCAACAATGAAA  60
+121      328506  ............................................................  328565
+419      424024                                                   ...G..A....  424034
+
+Query_6  61      GAAATATACAAAACAAAATCACAGTCTTTTGATGTGAGCTTATCTGTTAAACTGAAACCG  120
+121      328566  ............................................................  328625
+419      424035  ...................A....A.....                                424065
+                                        \                                    
+                                        |                                    
+                                        T
+
+Query_6  121     ACTGAGTCCAATATAACAGTTGATATTGGGGGAAGCTTCCATGCTGGCAAATCAACCAAC  180
+121      328626  ............................................................  328685
+
+Query_6  181     ATGAGTGATTTCTTGAAAAAAGCCAAAGGAACG  213
+121      328686  .................................  328718
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 306032351556
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015386198.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  435     2e-120
+
+
+
+Query_7  1       AATCCCATCTATTTACATGTCAAATCTAATATAAATCTGGGAACTTTCCAAATGCGAAAA  60
+121      331583  ............................................................  331642
+
+Query_7  61      CGTGATTTGCGCTTGAGCGAGACATTCCTGGAAGATCTAAAGTTTTTGCCAAGTACTTAT  120
+121      331643  ............................................................  331702
+
+Query_7  121     GAGAAGGGAGAATATTGTAAATTTCTTGAAACATATGGAACTCATTATGCACAGAAGGGA  180
+121      331703  ............................................................  331762
+
+Query_7  181     ACCATTGGAGGAAAATATGAGCTAATGTATGTGTTGGATAACCAAACTCTTTCATCACAT  240
+121      331763  ............................................................  331822
+
+Query_7  241     G  241
+121      331823  .  331823
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 352856973652
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015386198.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  228     3e-58
+
+
+
+Query_8  1       GGCTCACTAAAGGTGATGTCAATGAATGCCTAGGCTTTAATTTAGGACTTACTATCACCG  60
+121      334052  ............................................................  334111
+121      349739     ......C.AAA..A..A.........................                 349780
+
+Query_8  61      CAGATATTGCAGAAGCCAAATCGGAGATTAAAGCTAAACAATGTAAATCTGGTGGATTTA  120
+121      334112  ............................................................  334171
+
+Query_8  121     AAAATA  126
+121      334172  ......  334177
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 162218940564
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015386198.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  329     2e-88
+
+
+
+Query_9  1       CTGATGACATGAAAAAGATTGAGGTTATCCAAGATGTAGTCTCTCTGATTCAAGGTGGGA  60
+121      338375  ............................................................  338434
+121      353233                          ..............A....CT.A.............  353268
+
+Query_9  61      CAACAGCTACTTTAACAAAGTTGAATGAATTGCTTTCATCAAATGTCAAGGTAGTTGATG  120
+121      338435  ............................................................  338494
+121      353269  .....................................T.............C........  353328
+
+Query_9  121     TAGAACAGTACGTCGAATGGGCTGCTACACTACCTCAAGCACCTACTGTTATAAGACAAG  180
+121      338495  ............................................................  338554
+121      353329  ..........T.GT.......................G..T.....A..G..C..T....  353388
+
+Query_9  181     AG  182
+121      338555  ..  338556
+121      353389  ..  353390
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 254190805664
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015386198.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  414     7e-114
+
+
+
+Query_10  1       ATAGCCCCAATTTCGGAACTCGTACCACTCAAAATCCCAGACTCCCGAATAAAGAAAGAA  60
+121       340005  ............................................................  340064
+121       354501      ..........C.....TA.T.....G..T...............T...........  354556
+
+Query_10  61      AATCTGGACAGAGCTGTAGAGGATTATGTGGCTGAATACAGCGTATGCAAATGCCAGCCT  120
+121       340065  ............................................................  340124
+121       354557  ......A.........C....................................T.G....  354616
+
+Query_10  121     TGTCTACATGGTGGGACGGCAATGCTGATAGAAGGACAATGCGAATGTGCCTGCACTCCG  180
+121       340125  ............................................................  340184
+121       354617  ...T.............A..................A.G..T.................A  354676
+
+Query_10  181     TTTTACAAGGGAGAAGCCTGTGAAATACCCAAGTCAAGTTTCATACCAG  229
+121       340185  .................................................  340233
+121       354677  ........A...................TTGCT....C...........  354725
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 332789278468
+
+
+Query= exon11
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_015386198.1 Protobothrops mucrosquamatus isolate PMUCROS unp...  280     6e-74
+
+
+
+Query_11  1       CTCAAACTGCCATTGATGGGAGCTGGAGCTGCTGGTCTAACTGGTCCGCCTGTCAGAGTG  60
+121       341263  ............................................................  341322
+121       355339  ..G....A......C...............................TA........CAA.  355398
+
+Query_11  61      GAGAACGTCAGCGAACAAGAGAGTGTAATAATCCTGCACCTGGATCTGGGGGCAAATCAT  120
+121       341323  ............................................................  341382
+121       355399  ..C....C.G.....T....A.A...G..........C..A....T.A.......G....  355458
+
+Query_11  121     GTCCAGGAGCAACCGTAGAACCAGGCTATTGTTAA  155
+121       341383  ...................................  341417
+121       355459  ....C....A..A.T....................  355493
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 209038491500
+
+
+  Database: GCF_001527695.2_P.Mucros_1.0_genomic.fna
+    Posted date:  Dec 24, 2021  4:58 PM
+  Number of letters in database: 1,673,876,332
+  Number of sequences in database:  52,280
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
