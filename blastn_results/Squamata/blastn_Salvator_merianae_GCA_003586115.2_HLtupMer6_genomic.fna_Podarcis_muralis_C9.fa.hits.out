@@ -1,0 +1,328 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003586115.2_HLtupMer6_genomic.fna
+           4,512 sequences; 2,068,170,046 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 99265881504
+
+
+Query= exon2
+
+Length=91
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 128218430276
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QVOM02000021.1 Salvator merianae strain LG2117 Scaffold_21, who...  95.1    6e-18
+
+
+
+Query_3  1         TATCGCTCGAGGAGTGTTGTGAGATTCGGACAATATGGAGGGAAGCCATGTATTGAAGCT  60
+1223     23530488  ........A....C...CC.A..G.AT.....G.T............-..C.C...C...  23530547
+                                                              \                
+                                                              |                
+                                                              G
+
+Query_3  61        CTGGGAGACAGACAGTTCTGCCAGCCAGACACCCCCTGCCCTGAAGAGCTACCAGATTGT  120
+1223     23530548  .....T........AC.....ATA.....TG.T..T..T......A.T.C.GTC..C...  23530607
+
+Query_3  121       GGCAATGACTTCATGTGTGAAAATG  145
+1223     23530608  ............CA.....G.....  23530632
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 237823988890
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QVOM02000021.1 Salvator merianae strain LG2117 Scaffold_21, who...  134     7e-30
+
+
+
+Query_4  3         CACTGTATAAAGAAAAGGTTGGTATGTAATACGGAAGACGATTGTGGAGACTTCTCCGAT  62
+1223     23533839  ..G..C......CG......................A.T..C........T.....T...  23533898
+
+Query_4  63        GAAGACAATTGTGAAGGTGATCCTCGTGCACCCTGTCGTGACCGTATAATTGATGTATCA  122
+1223     23533899  ......G.......---...CA...AAC....T........T.....C..C.....T..G  23533958
+                                          \                                    
+                                          |                                    
+                                        CAG
+
+Query_4  123       GAGGTTGGAAGAACAGCTGGCCGTGG  148
+1223     23533959  ....C...............G.....  23533984
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 244028092948
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QVOM02000021.1 Salvator merianae strain LG2117 Scaffold_21, who...  129     3e-28
+
+
+
+Query_5  3         TCAACATTCTGGGCATGGAACCGAAGGAAAGCCCGTTTTACAATGAGTTTTACAACGGAG  62
+1223     23535429  .......CT.A..A........A..A........A.................T..T...C  23535488
+
+Query_5  63        TCTGCGACAGAGTCCGCGATGGGAATACTGGAATATACTATCGCAAGCCATGGAACGTTG  122
+1223     23535489  .G..T........T..T.....AC.A.....C.C...............T.....T..A.  23535548
+
+Query_5  123       CTGTGCTCAATTATGA  138
+1223     23535549  .A.GA....T......  23535564
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 225415780774
+
+
+Query= exon6
+
+Length=225
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 401197853756
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QVOM02000021.1 Salvator merianae strain LG2117 Scaffold_21, who...  199     3e-49
+
+
+
+Query_7  12        TTTTCACGTGAAAGGAAACATCGAACTGGGAACCTTTCAAATGCGAAGGCGTGACGTCCG  71
+1223     23541622  ......T..............T..........GA..C..C........T..CTC.C...A  23541681
+
+Query_7  72        CCTGACCGACACGTTCCTTGAAGATGTAAAATATCTGCCCAGTGCATACGACAAGGGAGA  131
+1223     23541682  ......T.....A...........CT.......C.........AT...T.......C...  23541741
+
+Query_7  132       ATATTTTAAATTTTTGGAAATGCACGGAACTCATTTTGCACAGAAGGGAACGGTTGGTGG  191
+1223     23541742  G...........CC......CC.....G.......A......A.......TTT....A..  23541801
+
+Query_7  192       GAAATATGAACTAATGTATGTACTGGACAACCAAACAATGAGAAGTGAAG  241
+1223     23541802  A..G.T....G..C.......G.....T.TTG...AT....A..AA....  23541851
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 434286336540
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 198531329856
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QVOM02000021.1 Salvator merianae strain LG2117 Scaffold_21, who...  111     1e-22
+
+
+
+Query_9  24        ATTATCCACAATGTGATATCTCTCGTCCATGGAGGGAAGACTGAAGTTCTGGTTAGGCTG  83
+1223     23548407  ........TG.......C..AT.A..TG.A..........G...C..CT.AA........  23548466
+
+Query_9  84        AAGGAAAAGCTGTCACAAGGTCACAGCATCGTTGATGTGGAAGACTATGTCCAGTGGGCA  143
+1223     23548467  .......T........GT..GGGA.AGG.TA.....A.A..G..................  23548526
+
+Query_9  144       GCGACGCTCTCTGATGCTCCCACAGTGATACAATACGAA  182
+1223     23548527  ..T..C..AC....A.....AGT......T.........  23548565
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 314341272272
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QVOM02000021.1 Salvator merianae strain LG2117 Scaffold_21, who...  167     2e-39
+
+
+
+Query_10  1         CCGTACCCAATTTCTACTCTCATACCGGTGACGATACCCAACTCCACCGTAAAGAGGCAG  60
+1223      23550516  ..A..T..............TG.T...C....T..T..TG....TTA.A......A...A  23550575
+
+Query_10  61        AATCTCGACCGAGCTGTGGAGGACTACGTTGCTGAATATAGTGTTTGCAAATGCCAGCCC  120
+1223      23550576  ...A.T....................TA..T.......C.AC..A........T..A..T  23550635
+
+Query_10  121       TGTCAAAATGGTGGCACTGTCATGCTGTTGAACGGAAGGTGTGAATGCGGATGCACCCCT  180
+1223      23550636  ..............G...........AC....T....A.....TG..T...........-  23550696
+                                                                         \      
+                                                                         |      
+                                                                        TC
+
+Query_10  181       TACTTCAAGGGAGAAGCCTGCCAGAT  206
+1223      23550697  -.T....GA..G.........G....  23550721
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 409469974452
+
+
+Query= exon11
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QVOM02000021.1 Salvator merianae strain LG2117 Scaffold_21, who...  84.2    1e-14
+
+
+
+Query_11  7         CTGGCACAGATGGGGGCTGGAGCTGCTGGTCTACCTGGTCGGCTTGTGTGCAAGGAGAAC  66
+1223      23551684  ......TT.....A.................GGA......TC.A......A.T.....G.  23551743
+
+Query_11  67        GCACTCGGAGAAGGCAGTGCAATAATCCTGAGGCTCATGGGGGCAAGGACTGCGCAGGAG  126
+1223      23551744  .TGT...A.CG...GC...T..........CAA..A...........CCG....T.....  23551806
+                                                       \                        
+                                                       |                        
+                                                     AGC
+
+Query_11  127       CTGACTC  133
+1223      23551807  A......  23551813
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 283320751982
+
+
+  Database: GCA_003586115.2_HLtupMer6_genomic.fna
+    Posted date:  Dec 24, 2021  4:36 PM
+  Number of letters in database: 2,068,170,046
+  Number of sequences in database:  4,512
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,308 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_009769535.1_rThaEle1.pri_genomic.fna
+           365 sequences; 1,672,190,305 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81936824165
+
+
+Query= exon2
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 108691681800
+
+
+Query= exon3
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 192300625825
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_045543.1 Thamnophis elegans isolate rThaEle1 chromosome 3, r...  73.4    2e-11
+
+
+
+Query_4  6          TGCATAAAGTCACGGTTGGTGTGTAACACGGAAGATGACTGTGGCGATCTCTCCGACGAA  65
+2        127830733  ..T......GGTA................A........G.....T..CT....T..T...  127830792
+
+Query_4  66         GCTGAGTGTGAAAATGAGCGCCCTCCCCCCTGCCGTGATCGGATCATTGATGTATCAGAG  125
+2        127830793  .A.A.T.......CCA.A...---..A..T..TG.GA....TGA......C........A  127830852
+                            \                                                   
+                            |                                                   
+                          TGA
+
+Query_4  126        CTCGGAAGAATTGCTGG  142
+2        127830853  ..T.......CA.....  127830869
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197317163890
+
+
+Query= exon5
+
+Length=235
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_045543.1 Thamnophis elegans isolate rThaEle1 chromosome 3, r...  123     2e-26
+
+
+
+Query_5  11         CTAGGAATGCAACCGAGGGCAAATGCATTTCACAATGAGTTTTTCAATGGAATGTGTGAC  70
+2        127802020                      ..C.........A........C.A......CC.C......  127802059
+2        127835384  ..G......A.....-.CT....A......T..........C.A......CC.C......  127835443
+                                              \                                 
+                                              |                                 
+                                              C
+
+Query_5  71         AGAGTCCGTGATGGGAATACCGGCATATATTATCGCAAGCCGTGGAATGTGGCTGTGCTC  130
+2        127802060  .................C..A.C..CT.....C........A.....C........C...  127802119
+2        127835444  .................C..A.C..CT.....C........A.....C........C...  127835503
+
+Query_5  131        AATTACGAGGTAAG  144
+2        127802120  .G...T..A.....  127802133
+2        127835504  .G...T..A.....  127835517
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 342796767775
+
+
+Query= exon6
+
+Length=316
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_045543.1 Thamnophis elegans isolate rThaEle1 chromosome 3, r...  134     1e-29
+
+
+
+Query_6  87         TTTGCACGTAAAATCAAGCATCCAGCTGGGATCTTTCATAATGCGGACACGTGACGTCCG  146
+2        127839935  ...A..T..C.....T..T..A..A......A.....C.......A.A.....GTT.G..  127839994
+2        127804837   ..A..T..C.....T.AT..A..A......A.....CA......A.A......TT.G..  127804895
+
+Query_6  147        CCTGAATGACGTGTTCCTTGAAGATTTAAAGTATCTGCCCACCGAATATGAAAAGGGAGA  206
+2        127839995  .T...G...G.CA.....G......C.....ATGT......GTTCC.....G........  127840054
+2        127804896  .T...G...GACT.....G.....GC.....GT.T....A.GTACC.....G........  127804955
+
+Query_6  207        ATATTTCAAATTTCTGGAAACATATGGAACACATTATGCACGGAGGGGGGTTTACGGAGG  266
+2        127840055  G.....TGC.....................T......T...A...A..AA.CATT.....  127840114
+2        127804956  G.....T.......................T.....CT...AT..A..AA.CATT..C..  127805015
+
+Query_6  267        AATATATGAACTACTCTACATTTTGGA  293
+2        127840115  ..A......GT..A.A...G.G.....  127840141
+2        127805016  .CA......G.....A..TG.G.....  127805042
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 476571012150
+
+
+Query= exon7
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 162201432840
+
+
+Query= exon8
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_045543.1 Thamnophis elegans isolate rThaEle1 chromosome 3, r...  62.6    4e-08
+
+
+
+Query_8  48         GTTAAAGGCGGGAAGACAGATGTTTTAGTGAGGCTGAAGGAAATGCTGTCAACTGGCCAA  107
+2        127810675  ...C....T....CA....C..CC...ACC.A.T....C..GT....T...T.AAATGT.  127810734
+
+Query_8  108        AAGGTTATTGATGTTGAGAACTACGTCCAGTGGGCTGCTACGCTTCCAGATGCTCCCGCG  167
+2        127810735  .G.C.A........A..A.....T...G.A...........A..A..TC.A......A.A  127810794
+
+Query_8  168        GTGATATCACAAGA  181
+2        127810795  ......AG......  127810808
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 254171261960
+
+
+Query= exon9
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_045543.1 Thamnophis elegans isolate rThaEle1 chromosome 3, r...  145     5e-33
+
+
+
+Query_9  6          CCCAATTTCAACGCTTGTCCCGTCGAAGATGCCCGACGCCGAGATAAAGAAACGGAACCT  65
+2        127848239  ...G......GAT...A.....A....T..C..A...T..CGA.GT......GTA..T..  127848298
+2        127812628               .....A...CT...A..C..A...T....A.-.......GAA..T..  127812674
+                                                           \                    
+                                                           |                    
+                                                           T
+
+Query_9  66         CGACAGAGCAGTGGAAGACTATGTTGCGGAATACAGTGTGTGCAAATGCCAGCCCTGTCA  125
+2        127848299  G........T..A..G..T.....G..T.......A...A.........A.A..T....T  127848358
+2        127812675  G..TTT...T..A..G..T.TC..G..T........C..A..............T....T  127812734
+
+Query_9  126        AAATGGTGGGACTGTCATGCTGCTGAATGGAAAGTGTGAATGCGGATGCACGGCTTATTT  185
+2        127848359  GC..........A..G......A.AG..................CC.....TC.A....A  127848418
+2        127812735  GC..........A..G......A.AG.A..G...........T.CC.....TC.A.TG.A  127812794
+
+Query_9  186        CAAAGGAGACGCCTGCGAGATCCC  209
+2        127848419  ...G...........T..        127848436
+2        127812795  ...G..G..T.....T..A..A..  127812818
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 332763691645
+
+
+Query= exon10
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_045543.1 Thamnophis elegans isolate rThaEle1 chromosome 3, r...  136     2e-30
+
+
+
+Query_10  13         ATACAGCTACTGATGGGAGTTGGAGCTGCTGGTCTAGCTGGTCTGCATGTCAACAGGGAA  72
+2         127849368  .......CGT.C....A..C..........................C.....G..A...C  127849427
+2         127814374            .........C....A...........A......CA.....G.GA.TAA.G  127814423
+
+Query_10  73         AACGCACTCGAACAAGACTGTGTAATAATCCTGCACCTGGAAATGGAGGCAAGCCATGCG  132
+2         127849428  .....CGG.........AAA...G..........C......T..A.G....G.T....TC  127849487
+2         127814424  ....TCGG..........A......................TC...G..A..A.....    127814481
+
+Query_10  133        CAGGAGCAAACTCGGAACCAGGCTATTG  160
+2         127849488  .T.........ATA..............  127849515
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 249154723895
+
+
+  Database: GCF_009769535.1_rThaEle1.pri_genomic.fna
+    Posted date:  Dec 24, 2021  4:48 PM
+  Number of letters in database: 1,672,190,305
+  Number of sequences in database:  365
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

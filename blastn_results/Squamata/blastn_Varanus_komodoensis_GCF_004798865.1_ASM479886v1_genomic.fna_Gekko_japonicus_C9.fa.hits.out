@@ -1,0 +1,304 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_004798865.1_ASM479886v1_genomic.fna
+           1,411 sequences; 1,507,945,839 total letters
+
+
+
+Query= exon1
+
+Length=92
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94998009960
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_025335606.1 Varanus komodoensis strain SLA01 unplaced genomi...  68.0    5e-10
+
+
+
+Query_2  24        GGGTAAAAGGAGAGTCTGGTGCTCCACCCCCCATCAATTGTTTGCTTAGCCACTGGAGTG  83
+338      16667951  ....G.C.A....AC...C...A...GAA......G.C..C.G...G...AC........  16667892
+
+Query_2  84        AATGGGGATCATGTAATCCATGCGGCAAAGAAAGT  118
+338      16667891  .......GC....C.....C...AC..........  16667857
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 134203537880
+
+
+Query= exon3
+
+Length=154
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 186980035116
+
+
+Query= exon4
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_025335606.1 Varanus komodoensis strain SLA01 unplaced genomi...  62.6    3e-08
+
+
+
+Query_4  6         TGCATCAAACAAAGATTGGTGTGTAACACAGACAATGACTGTGGAGATTTCTCTGATGAA  65
+338      16660510  .....A..GA....GC..C.T.....T..T..AG..........T..CA.G.........  16660451
+
+Query_4  66        GCTAACTGTAATGACACCAAATCCCGCCCGCCCTGTCGTGGTCGCATTGTTGGCATATCA  125
+338      16660450  ..AG.A...G.A....TG..---..TAG.T..........AC.....CA...ATG.G...  16660394
+
+Query_4  126       AAAATTGGAAGAAAAGCTGG  145
+338      16660393  G.G..A.......C...A..  16660374
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 182456324589
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_025335606.1 Varanus komodoensis strain SLA01 unplaced genomi...  95.1    4e-18
+
+
+
+Query_5  2         CTCAACATTCTAGGAATGAGACCAAAGGGTACTCCATTTTACAATGAATTTTATAATGGT  61
+338      16658582  ..............TT..GA.....G..AA.GC.......T......G.....C..C..A  16658523
+
+Query_5  62        TTTTGCAACCGGGAACGTGATAGGAATACAGGGATCTATTATCGTACACCATGGAATGTT  121
+338      16658522  A.G...G..A.A.TC......G......GT..C..A....T...C.AG............  16658463
+
+Query_5  122       GCAGTTATCAATTAT  136
+338      16658462  ..C..GC........  16658448
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 165869541200
+
+
+Query= exon6
+
+Length=219
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 284993763201
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_025335606.1 Varanus komodoensis strain SLA01 unplaced genomi...  158     8e-37
+
+
+
+Query_7  10        TTTCTATACCTGAAAGGAACCATAGAAGTGGGAACGTACATAATGCGAAACCGTGACGTT  69
+338      16652014  .....CC..G......C..A.C.T..GC.......A.TT..C...A...GA.....TC..  16651955
+
+Query_7  70        CGGCTGACTGACACGTTCCTTGAGGATTTAAAAAATCTGCCCAGCAACTACGACATGGGA  129
+338      16651954  ..C..C.....A..A........C....................TC.A..T..G.AA...  16651895
+
+Query_7  130       GAATATTTTAGATTTCTGGAAACATACGGAACTCACTATACAGAAAAGGGAAAGGTCGGG  189
+338      16651894  .........TC............TC.T.....G......G..C.G.......CA..T..A  16651835
+
+Query_7  190       GGAATATATGAACTACTGTATGTCCTGGACAA  221
+338      16651834  ....A......G..CA.T...A.A........  16651803
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 318167640399
+
+
+Query= exon8
+
+Length=66
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 57300440578
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_025336481.1 Varanus komodoensis strain SLA01 unplaced genomi...  44.6    0.009
+
+
+
+Query_9  61       TGAGTGTTATCTTAGCAGAGCTGGAGGAAAAG  92
+1213     9030592  ........C.....C....T............  9030561
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 229201333368
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_025335606.1 Varanus komodoensis strain SLA01 unplaced genomi...  147     1e-33
+
+
+
+Query_10  1         CCACATCCAATCTATACTCTCGTACCTGTGAAGATGCCCAATGCCCATACAAAGAAACAA  60
+338       16645364  ....-........C.G.......T..AC....T....TTG....TG.C.TC.........  16645306
+
+Query_10  61        AATCTGGAGCAAGCCGTGGAGGACTATGTTGCTGAATACAATGTGTGCAAATGCCAGCCC  120
+338       16645305  ..C.....C.....A...........C..G..C........C............A.....  16645246
+
+Query_10  121       TGCCCAAACGGAGGGACTGTGATACTGGTGAACGGAGAGTGCATTTGTGCGTGTTCACCC  180
+338       16645245  ..T.T...T..C.......C.C.T........T........A.--..C.GA..C..GT..  16645186
+                                                       \  \                     
+                                                       |  |                     
+                                                       A  T
+
+Query_10  181       TATTTTAAAGGAATGGCCTGCCAGATACCCAAAT  214
+338       16645185  ..C..C..G...GAA......G....T....C..  16645152
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 300072798291
+
+
+Query= exon11
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_025335606.1 Varanus komodoensis strain SLA01 unplaced genomi...  50.0    2e-04
+
+
+
+Query_11  11        CACTGACGGAGGCTGGAGCTGCTGGTCTAGCTGGTCCCCTTGTGTGCAAGGAGAACG  67
+338       16643458  ..T...T..G..T.................T.....TT.C....AA..G...C....  16643402
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 193011649152
+
+
+  Database: GCF_004798865.1_ASM479886v1_genomic.fna
+    Posted date:  Dec 24, 2021  4:14 PM
+  Number of letters in database: 1,507,945,839
+  Number of sequences in database:  1,411
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

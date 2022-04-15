@@ -1,0 +1,306 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_019175285.1_SceUnd_v1.1_genomic.fna
+           45,012 sequences; 1,905,484,175 total letters
+
+
+
+Query= exon1
+
+Length=92
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119963266101
+
+
+Query= exon2
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 169471915603
+
+
+Query= exon3
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_056523.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Al...  69.8    2e-10
+
+
+
+Query_3  1          TATCGCTCAAGAAGTGTCTTGAAATATGGACAGTTCAGAGGGAAGCCATGCTTTGAACCT  60
+1        307809165  ........C..G...........G.....G.....TG....A...G.....A.G.....C  307809224
+
+Query_3  61         CTGGGTGACAAACAGAGCTGT  81
+1        307809225  .....AC...G.G.A.A....  307809245
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 236112593060
+
+
+Query= exon4
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_056523.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Al...  55.4    5e-06
+  NC_056525.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Al...  44.6    0.009
+
+
+
+Query_4  17         AAGATTGGTGTGTAACACAGACAATGACTGTGGAGATTTCTCTGATGAAGCTAACTGTAA  76
+1        307810530  ...G.....T.....T.....GG.............CA.G..C........AG.T...G.  307810589
+3        83031312                        ...............C.G...........            83031284
+
+Query_4  77         TGACACCAAATCCCGCCCGCCCTGTCGTGGTCGCATTGTTGGCATATCAAAAATTGGAAG  136
+1        307810590  .------.CT.A....A.A..........A...T...C...ATG....CG.GC.....CT  307810646
+                                      \                                         
+                                      |                                         
+                                    TGA
+
+Query_4  137        AAAAGCTGGC  146
+1        307810647  ..TT......  307810656
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 230400191615
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_056523.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Al...  75.2    5e-12
+
+
+
+Query_5  5          AACATTCTAGGAATGAGACCAAAGGGTACTCCATTTTACAATGAATTTTATAATGGTTTT  64
+1        307812338  ................A....C...CA.GC......A....C..GC...TC.....AA.G  307812397
+
+Query_5  65         TGCAACCGGGAACGTGATAGGAATACAGGGATCTATTATCGTACACCATGGAATGTTGC  123
+1        307812398  ..T...A.A.TC..C...G.T....GT..C.CA........C.T...T...........  307812456
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 207550585835
+
+
+Query= exon6
+
+Length=219
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 359881291035
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_056523.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Al...  158     1e-36
+
+
+
+Query_7  4          CAAACCTTTCTATACCTGAAAGGAACCATAGAAGTGGGAACGTACATAATGCGAAACCGT  63
+1        307821581  ...G.T...T..C.TG.....TC..A...T...C.A...T...T...C......TCA..C  307821640
+
+Query_7  64         GACGTTCGGCTGACTGACACGTTCCTTGAGGATTTAAAAAATCTGCCCAGCAACTACGAC  123
+1        307821641  ..TC....T.........TT.........T.........T.........CT.CA..T...  307821700
+
+Query_7  124        ATGGGAGAATATTTTAGATTTCTGGAAACATACGGAACTCACTATACAGAAAAGGGAAAG  183
+1        307821701  .AA..........A..A...............T........T...G..CGG.G.....CT  307821760
+
+Query_7  184        GTCGGGGGAATATATGAACTACTGTATGTCCTGGACA  220
+1        307821761  T.T..A....A.......T....A.....GT......  307821797
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 399858648630
+
+
+Query= exon8
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_056522.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Al...  44.6    0.003
+
+
+
+Query_8  35         ATATGATGACATGGTCCGTTTTGCAATGC  63
+0        138936302  ................TA...........  138936330
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 72360505882
+
+
+Query= exon9
+
+Length=182
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 289428339880
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_056523.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Al...  140     2e-31
+
+
+
+Query_10  2          CACATCCAATCTATACTCTCGTACCTGTGAAGATGCCCAATGCCCATACAAAGAAACAAA  61
+1         307830119  ..A.........C.GAG..TA....AC..........TG.CT..AGG.T...A....G..  307830178
+
+Query_10  62         ATCTGGAGCAAGCCGTGGAGGACTATGTTGCTGAATACAATGTGTGCAAATGCCAGCCCT  121
+1         307830179  ....T..CAG...A..A..A......A............G...A........T.......  307830238
+
+Query_10  122        GCCCAAACGGAGGGACTGTGATACTGGTGAACGGAGAGTGCATTTGTGCGTGTTCACCCT  181
+1         307830239  ...A...T..T..A.....AC.G..CC....T...A....TGAA....GA...A..G.T.  307830298
+
+Query_10  182        ATTTTAAAGGAATGGCCTGCCAGATACCCA  211
+1         307830299  ....C.......AA................  307830328
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 378922629185
+
+
+Query= exon11
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_056523.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Al...  86.0    3e-15
+
+
+
+Query_11  11         CACTGACGGAGGCTGGAGCTGCTGGTCTAGCTGGTCCCCTTGTGTGCAAGGAGAACGCAC  70
+1         307833070  ..T...T.....A...............GA......TG.A...AA.GG..A.A.G.....  307833129
+
+Query_11  71         TCGGACACGGGAATGTAATAATCCAGCACCTAAATCAAGGGGCAGGCACTGTGAAGG  127
+1         307833130  ......CA..C.............T......GC...TG....A.A..CA....C...  307833186
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 243729128320
+
+
+  Database: GCF_019175285.1_SceUnd_v1.1_genomic.fna
+    Posted date:  Dec 24, 2021  4:13 PM
+  Number of letters in database: 1,905,484,175
+  Number of sequences in database:  45,012
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

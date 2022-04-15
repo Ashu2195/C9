@@ -1,0 +1,363 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011800845.1_UG_Zviv_1_genomic.fna
+           25,252 sequences; 1,464,300,591 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_048623.1 Zootoca vivipara isolate ELT05324 linkage group LG1...  116     5e-25
+
+
+
+Query_1  1         ATGAAAATCTTACTGCCTCTTATAGCGGCACTGTGCATCTTAGGAGCAAATGGCTTTGTC  60
+18       17113422  .......CT....................C.....................A........  17113363
+
+Query_1  61        TCACCAGGGAGGAAAAG  77
+18       17113362  ..G..............  17113346
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 71716083215
+
+
+Query= exon2
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_048623.1 Zootoca vivipara isolate ELT05324 linkage group LG1...  141     2e-32
+
+
+
+Query_2  1         AGAGCGAAGAGAAGTGGACGTCAGGCCCATCGATTGCTTGCTGAGCCGCTGGAGCGAATG  60
+18       17112377  ..........C.................G.......T.................T.....  17112318
+
+Query_2  61        GGGACCGTGCAATGCATGTGCGAAGGAAAGA  91
+18       17112317  ............................C..  17112287
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 90741233546
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_048623.1 Zootoca vivipara isolate ELT05324 linkage group LG1...  235     2e-60
+
+
+
+Query_3  1         TATCGCTCGAGGAGTGTTGTGAGATTCGGACAATATGGAGGGAAGCCATGTATTGAAGCT  60
+18       17110208  .......................G...........C...............T.G......  17110149
+
+Query_3  61        CTGGGAGACAGACAGTTCTGCCAGCCAGACACCCCCTGCCCTGAAGAGCTACCAGATTGT  120
+18       17110148  .................................................A..........  17110089
+
+Query_3  121       GGCAATGACTTCATGTGTGAAAA  143
+18       17110088  .......................  17110066
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 169773920828
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_048623.1 Zootoca vivipara isolate ELT05324 linkage group LG1...  250     9e-65
+
+
+
+Query_4  1         GACACTGTATAAAGAAAAGGTTGGTATGTAATACGGAAGACGATTGTGGAGACTTCTCCG  60
+18       17109329  ........G.............A..G..................................  17109270
+
+Query_4  61        ATGAAGACAATTGTGAAGGTGATCCTCGTGCACCCTGTCGTGACCGTATAATTGATGTAT  120
+18       17109269  .............C..............................................  17109210
+
+Query_4  121       CAGAGGTTGGAAGAACAGCTGGCCGTGG  148
+18       17109209  ............................  17109182
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 174164625677
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_048623.1 Zootoca vivipara isolate ELT05324 linkage group LG1...  233     6e-60
+
+
+
+Query_5  2         GTCAACATTCTGGGCATGGAACCGAAGGAAAGCCCGTTTTACAATGAGTTTTACAACGGA  61
+18       17108046  .......................A....................................  17107987
+
+Query_5  62        GTCTGCGACAGAGTCCGCGATGGGAATACTGGAATATACTATCGCAAGCCATGGAACGTT  121
+18       17107986  .........C..............................................T...  17107927
+
+Query_5  122       GCTGTGCTCAATTATGA  138
+18       17107926  .................  17107910
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 160992511130
+
+
+Query= exon6
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_048623.1 Zootoca vivipara isolate ELT05324 linkage group LG1...  325     2e-87
+
+
+
+Query_6  1         ACAAAAGGAGACAAAAGATTTAGAAATGAAGTCTACGAGGACCAGGTGTCGGCAGTAAAG  60
+18       17106047  .....G.....T.........................................G....G.  17105988
+
+Query_6  61        GAAATGTTCAGCGAAAGGCATAGTTCTGCTCACTCTAGCTTTTCTCTCAAATTGACGCCT  120
+18       17105987  .......................G........G...........................  17105928
+
+Query_6  121       ACAGAGGTAGGAAATGGCACATCCGTCGACTTCAGTTTGAGCACGAACACAGATGCATCC  180
+18       17105927  ......A.................A...G.C.......C...CA......T...T...T.  17105868
+
+Query_6  181       TCCAATGAAACTCTACATAAATTCTTAAAGGATTCTAAAGGAAAG  225
+18       17105867  G......G.....................................  17105823
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 285390891045
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_048623.1 Zootoca vivipara isolate ELT05324 linkage group LG1...  399     1e-109
+
+
+
+Query_7  1         CATCAAATATTTTTTCACGTGAAAGGAAACATCGAACTGGGAACCTTTCAAATGCGAAGG  60
+18       17103065  .......C........................TC.......G..................  17103006
+
+Query_7  61        CGTGACGTCCGCCTGACCGACACGTTCCTTGAAGATGTAAAATATCTGCCCAGTGCATAC  120
+18       17103005  .............................C..............................  17102946
+
+Query_7  121       GACAAGGGAGAATATTTTAAATTTTTGGAAATGCACGGAACTCATTTTGCACAGAAGGGA  180
+18       17102945  ...................................T..............T.........  17102886
+
+Query_7  181       ACGGTTGGTGGGAAATATGAACTAATGTATGTACTGGACAACCAAACAATGAGAAGTGAA  240
+18       17102885  ........C...................................................  17102826
+
+Query_7  241       G  241
+18       17102825  .  17102825
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 308807579541
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_048623.1 Zootoca vivipara isolate ELT05324 linkage group LG1...  201     3e-50
+
+
+
+Query_8  1         GAGTCACCGTCGAAGACGTAAAAGCTTGCCTGGGTTACAATACAGATTTTGGTTTAACAG  60
+18       17102254  ................T...........................................  17102195
+
+Query_8  61        CTGGCACATTTGATGTCAAGCATACCGGCAAAGGAGCTGATTGCAAAAGTAACAAGATTA  120
+18       17102194  .............A......................G...C.........G.........  17102135
+
+Query_8  121       GGAATG  126
+18       17102134  .A....  17102129
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 141966123451
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_048623.1 Zootoca vivipara isolate ELT05324 linkage group LG1...  259     2e-67
+
+
+
+Query_9  2         GGGCAACACCAATAACAACGGAATTATCCACAATGTGATATCTCTCGTCCATGGAGGGAA  61
+18       17101393  .......G..CC...G.G.............G................T...........  17101334
+
+Query_9  62        GACTGAAGTTCTGGTTAGGCTGAAGGAAAAGCTGTCACAAGGTCACAGCATCGTTGATGT  121
+18       17101333  ..G.................................G...........TG.......C..  17101274
+
+Query_9  122       GGAAGACTATGTCCAGTGGGCAGCGACGCTCTCTGATGCTCCCACAGTGATACAATACGA  181
+18       17101273  ........................A.....AC............................  17101214
+
+Query_9  182       A  182
+18       17101213  .  17101213
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 222458540712
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_048623.1 Zootoca vivipara isolate ELT05324 linkage group LG1...  369     2e-100
+
+
+
+Query_10  1         CCGTACCCAATTTCTACTCTCATACCGGTGACGATACCCAACTCCACCGTAAAGAGGCAG  60
+18        17099177  ............................................................  17099118
+
+Query_10  61        AATCTCGACCGAGCTGTGGAGGACTACGTTGCTGAATATAGTGTTTGCAAATGCCAGCCC  120
+18        17099117  .........A.................................................T  17099058
+
+Query_10  121       TGTCAAAATGGTGGCACTGTCATGCTGTTGAACGGAAGGTGTGAATGCGGATGCACCCCT  180
+18        17099057  ................................T..............T..G...C.....  17098998
+
+Query_10  181       TACTTCAAGGGAGAAGCCTGCCAGATATCCTCAGCGtttttttCACCAG  229
+18        17098997  ...........................C..A..T...C...........  17098949
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 291245063169
+
+
+Query= exon11
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_048623.1 Zootoca vivipara isolate ELT05324 linkage group LG1...  244     4e-63
+
+
+
+Query_11  6         ACTGGCACAGATGGGGGCTGGAGCTGCTGGTCTACCTGGTCGGCTTGTGTGCAAGGAGAA  65
+18        17097862  ........C...................................A....C..........  17097803
+
+Query_11  66        CGCACTCGGAGAAGGCAGTGCAATAATCCTGAGGCTCATGGGGGCAAGGACTGCGCAGGA  125
+18        17097802  ........C...........T................G...............T......  17097743
+
+Query_11  126       GCTGACTCGGAAACGGGCTACTGCGCTGCTGACATTAAAT  165
+18        17097742  ............T.......T..T................  17097703
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 200505395247
+
+
+  Database: GCF_011800845.1_UG_Zviv_1_genomic.fna
+    Posted date:  Dec 24, 2021  4:38 PM
+  Number of letters in database: 1,464,300,591
+  Number of sequences in database:  25,252
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,394 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_000800605.1_Vber.be_1.0_genomic.fna
+           28,883 sequences; 1,532,390,814 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KN627867.1 Vipera berus berus isolate VBER.BE-female unplaced g...  131     3e-29
+
+
+
+Query_1  1       ATGTCTTCTTCTTTGATTCTTATAGGAGTTCTCTGCATTTTAGGAGCAAATGGTTTTGCT  60
+15502    144179  ...............C...........................................C  144238
+15502    109082  ......A........T.............C.......G.............A.......C  109141
+
+Query_1  61      TCTGCAGGGAAAGCAAG  77
+15502    144239  .................  144255
+15502    109142  ..A.T...A........  109158
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 75047522410
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KN627867.1 Vipera berus berus isolate VBER.BE-female unplaced g...  149     1e-34
+
+
+
+Query_2  3       TGAAACAGGTACCTAATGCTCCAGAGCCCATTGACTGCTTGTTGACTACTTGGAGTGCTT  62
+15502    145040  ......G.................T................C...............G..  145099
+15502    110741            ..T............A..............AC.......C.......A..  110790
+
+Query_2  63      GGGGGCCATGTAGTCCATGCTCAAAAGAAAGA  94
+15502    145100  ................................  145131
+15502    110791  .........................C....    110820
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 99550958455
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KN627867.1 Vipera berus berus isolate VBER.BE-female unplaced g...  253     7e-66
+
+
+
+Query_3  1       TACCGCTCAAGGAGTATTGTGAAGTTTGGACAGTTTGGAGGAAAGCCATGCACAGCAGCC  60
+15502    145427  .........................................................T..  145486
+15502    111734  ...................................C.................T.T....  111793
+
+Query_3  61      CTGAGTGATAGAGAGCCCTGTGAGACAAAAACTCTGTGTCCAGATGAGAGAGGTCATTGT  120
+15502    145487  ........C......................G............................  145546
+15502    111794  ........C.......G.......G..G..GG............................  111853
+
+Query_3  121     GGGAATCAAGAGTTTGAATGTGAAAATG  148
+15502    145547  ............................  145574
+15502    111854  ............................  111881
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 180719870232
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KN627867.1 Vipera berus berus isolate VBER.BE-female unplaced g...  250     9e-65
+  KN616837.1 Vipera berus berus isolate VBER.BE-female unplaced g...  44.6    0.007
+
+
+
+Query_4  1       GATATTGTCTAAAGAATAGGTTGGTGTGTAACACAGAAGATGATTGTGGTGATTTTTCTG  60
+15502    146694  .......................A.A.................C................  146753
+15502    113554  ...T........................C.........A....C........C.......  113613
+3438     26091                                      ..........T..A.......GA..  26115
+
+Query_4  61      ATGAAGATGGTTGTGATGAAACCAAACGCCCACCCTGTCGGGATCGTGACATTGAGGTAT  120
+15502    146754  ..........................................................T.  146813
+15502    113614  .........A......A....TG......G........G.....................  113673
+3438     26116   .........                                                     26124
+
+Query_4  121     CAGAATTGGGAAGAACAGCTGGCCAAGG  148
+15502    146814  ............................  146841
+15502    113674  .....C.T..............A.....  113701
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 180719870232
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KN627867.1 Vipera berus berus isolate VBER.BE-female unplaced g...  237     5e-61
+
+
+
+Query_5  1       TGTGAATATGCTGGGAATGAAACCGGCTCAAAAAGCACTTTACAATGAGTTCTACAATGG  60
+15502    148998  ..............................G..............C..............  149057
+15502    115422  .........A..............A.......CT...T..C...................  115481
+
+Query_5  61      CATCTGTGACAGAGTCCGTGATGGGAACACAGCCACTTATTACCGCAAGCCATGGAATGT  120
+15502    149058  ........................A...................................  149117
+15502    115482  ..........................................................AC  115541
+
+Query_5  121     GGCTGTCCTCAATTATGAC  139
+15502    149118  ...................  149136
+15502    115542  ...................  115560
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168470852770
+
+
+Query= exon6
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KN627867.1 Vipera berus berus isolate VBER.BE-female unplaced g...  340     1e-91
+  KN631382.1 Vipera berus berus isolate VBER.BE-female unplaced g...  48.2    9e-04
+
+
+
+Query_6  1       ACAAGAGCAGACAAAAAATTTACAAGTGAATTCTACAGCGACCAAGGAACAACAATGACA  60
+15502    150441  .......G..............................T...................A.  150500
+15502    116785  .......G.......CGC....................T.......T.T.........A.  116844
+21081    90239                                                  .............  90227
+
+Query_6  61      AAAATAATCAGTACAGAATCACAATCTCTTGATGTGAGCTGGTCTCTTCAACTGAAATCA  120
+15502    150501  ......G........A........................T..................G  150560
+15502    116845  G.....T...AA...A.......G...T.C.......A..TA......A........C..  116904
+21081    90226   .............                                                 90214
+
+Query_6  121     ACTTCGTTCCCTGCATCCGGTGGTGTTGAGGGAGGTGTAAATTTTGCCAAATCATCAAGT  180
+15502    150561  .................T...........A..........................C...  150620
+15502    116905  ...GA..C.AA..T.A.A.C..ACA..A.......CT.CC...C..G.......G.C.AC  116964
+
+Query_6  181     CTGAGTGACTTCTTAGAGAAAACCAAAGGAAAG  213
+15502    150621  .................................  150653
+15502    116965  A.......G.....GA.A...G.........    116995
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 280268951292
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KN615231.1 Vipera berus berus isolate VBER.BE-female unplaced g...  385     3e-105
+  KN627867.1 Vipera berus berus isolate VBER.BE-female unplaced g...  269     2e-70 
+
+
+
+Query_7  1       AGTTATGTATATTTACATGTCAAATCTAATATACAACTGGGAACTTTCCAATTACGAAAA  60
+1798     32648   .....CA.C............................................G......  32589
+15502    121611           ........................T.T......T........A.G......  121661
+
+Query_7  61      CGCAATTTGCGCTTGAGTGAGACATTTTTGGAAGATCTAAAGCTTTTGCCCAGTAGCTAT  120
+1798     32588   ..........................C.................................  32529
+15502    121662  ..TG.............C........CC..............T.......A.C..CT...  121721
+
+Query_7  121     GAGAAGGGAGAGTATTTTACATTTCTGGAAACATATGGAACTCATTATTCACATAGAGGA  180
+1798     32528   ...........A....................................G....G......  32469
+15502    121722  ...........A....G..A......T..........................G.AG...  121781
+
+Query_7  181     ATCATTGGCGGAAAATATGAACTAATATATGTGTTGGATAACCAAACTATGACAACAAAT  240
+1798     32468   .C......A..................................G................  32409
+15502    121782  .C......A...........G.....G..C..............T...              121829
+
+Query_7  241     A  241
+1798     32408   .  32408
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 323151632364
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KN627867.1 Vipera berus berus isolate VBER.BE-female unplaced g...  57.2    9e-07
+
+
+
+Query_8  2       GGTCACTACAAAAGAAGTAAATGAATGCCTAGGCTTTAATTTAG  45
+15502    125563  .......G..GGT..T............................  125606
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 148560661079
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KN615231.1 Vipera berus berus isolate VBER.BE-female unplaced g...  269     1e-70
+  KN627867.1 Vipera berus berus isolate VBER.BE-female unplaced g...  226     1e-57
+
+
+
+Query_9  1       GTTCTACTGATGACAAGAGTGGAATTATCCAAGATGTAGTCTCCTTAATTCAAGGTGGGA  60
+1798     24139   .....CAG..........AC.......................T................  24080
+15502    130217                ........GG...................TC.G.............  130262
+
+Query_9  61      CAACAGCCACTTTAACAAAGTTGAATGAATTGCTTTCTTCAAATGTCAAGGCCGTTGATG  120
+1798     24079   ....................C..............................AA.......  24020
+15502    130263  .......T.............................A.......C....CTA.......  130322
+
+Query_9  121     TAGAACAGTATGTTGAATGGGCTGCTACACTACCTCAGGCTCCTACAGTGATCAGTCAAG  180
+1798     24019   .............C.......................A..A.....T.............  23960
+15502    130323  .............C.......................A..A.....T.....A..A....  130382
+
+Query_9  181     AG  182
+1798     23959   ..  23958
+15502    130383  ..  130384
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 232791697248
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KN627867.1 Vipera berus berus isolate VBER.BE-female unplaced g...  316     1e-84
+
+
+
+Query_10  5       CCCCAATTTCCGAACTTATCCCACTGAATATCCCAGACTCCCGATTAAAGAAAGAAAATC  64
+15502     131796  ..........G......G.A..C..C..A........T......A...............  131855
+
+Query_10  65      TGAACAGAGCTGCAGAAGATTATGTGGCTGAATACAGCGTATGCAAATGTCGGCCTTGTT  124
+15502     131856  ..G.........T...G......A.............T............A.........  131915
+
+Query_10  125     TACATGGTGGAACAGCAATGCTGATAGAAGGAAAGTGTGAATGTGCCTGCACTCCATTTT  184
+15502     131916  ..........G.................................................  131975
+
+Query_10  185     ACAAGGGAGAAGCCTGTGAAATACCTGCTTCAACTTTCATACCAG  229
+15502     131976  .........................CAAG....G...........  132020
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 304773340476
+
+
+Query= exon11
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KN615231.1 Vipera berus berus isolate VBER.BE-female unplaced g...  266     1e-69
+  KN627867.1 Vipera berus berus isolate VBER.BE-female unplaced g...  163     1e-38
+
+
+
+Query_11  1       CTGAAACAGCCATTCATGGGAGCTGGAGCTGCTGGTCTAGCTGGTCCACCTGTCAGCAAG  60
+1798      21771   ............................................................  21712
+15502     133045  ..C....T......G.C...........T..........C......TG........A.T.  133104
+
+Query_11  61      GACAACGCCGGCGAACAAGAAAATGTGATAATCCTGTCCCTGGATTTAGGGGCAAGTCAT  120
+1798      21711   ...G................................C.......................  21652
+15502     133105  ..G....T.A....GA....G.G...A.C.......CA.........G.......A....  133164
+
+Query_11  121     GTCCTGGAGCAAACTTAGAACCAGGCTATTGTTAA  155
+1798      21651   .............T.....................  21617
+15502     133165  ....A.......G.A....................  133199
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 191440540500
+
+
+  Database: GCA_000800605.1_Vber.be_1.0_genomic.fna
+    Posted date:  Dec 24, 2021  4:02 PM
+  Number of letters in database: 1,532,390,814
+  Number of sequences in database:  28,883
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
