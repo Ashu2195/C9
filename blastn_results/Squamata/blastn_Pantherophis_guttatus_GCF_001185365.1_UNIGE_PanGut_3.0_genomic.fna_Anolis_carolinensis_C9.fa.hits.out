@@ -1,0 +1,360 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001185365.1_UNIGE_PanGut_3.0_genomic.fna
+           34,268 sequences; 1,706,961,544 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81886453056
+
+
+Query= exon2
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 110887905180
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_023010881.1 Pantherophis guttatus isolate EG266 unplaced gen...  66.2    2e-09
+
+
+
+Query_3  1       TATCGTTCAAGGAGTGTCCTGAAGTATGGGCAGTTTGGAGGAAAGGCATGCCTGGAACCT  60
+194      959900  .....C.........A.T.......T...A...........G..AC.....A.T.TGA..  959841
+194      941499  ..C..C.........A.T.......T...A...........G...C.....A.T..GG.C  941440
+194      997007     ..C.........A.T.......T...A...........G...C.....A.T..GG..  996951
+
+Query_3  61      CTAGGACACAGAGAAAGCTGTGAGCCAGATGTCCCTTGCCGTGAGGAGGAAGTTGACTGT  120
+194      959840  ..GA.TG.T.....GCC........A...AC.-..G....CA..T...AG..G.C.T...  959781
+                                         \                                   
+                                         |                                   
+                                         A
+194      941439  ..GA.CG.T.....GTC........A...AC.-..G....CA..T.G.AG..G.C.T...  941380
+                                         \                                   
+                                         |                                   
+                                         A
+194      996950  ..GA.TG.T.....GTA.......A..                                   996924
+
+Query_3  121     GGCAAAGACTTCCAGTGTGAAAATG  145
+194      959780  ..G.....G..TG.A..........  959753
+                     \                    
+                     |                    
+                   AGC
+194      941379  ..G.....G..TG.A..........  941352
+                     \                    
+                     |                    
+                   AGC
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 196182352960
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_023010881.1 Pantherophis guttatus isolate EG266 unplaced gen...  104     9e-21
+  NW_023010716.1 Pantherophis guttatus isolate EG266 unplaced gen...  55.4    4e-06
+  NW_023010720.1 Pantherophis guttatus isolate EG266 unplaced gen...  48.2    6e-04
+
+
+
+Query_4  6         TGTATAAAAACAAGATTGGTGTGCAATACAGAGGATGACTGTGGAGACATGTCTGATGAA  65
+194      958202    ...C....G.AT..GC....A..T..C.....AA..........T...T.T.....C...  958143
+194      995575    ...C....G.AT..GC....A..T..C.....A...........T...T.C.....C...  995516
+194      939523                ..G........T..C.....A...........T...T.C.....C...  939476
+29       43419960              ...C..C.T......GG...T..............TCAA..A......  43419913
+33       34113363                               ...T...........G...TG..........  34113333
+
+Query_4  66        GCTGATTGTGAGGACAACCGCCCTGCCCCCTGCCGGGATCGTATTCTTGACGTATCAGAA  125
+194      958142    .A.C.G.....T.....A.....A---.....TG..A.....GAGG....T.........  958083
+                                 \                                             
+                                 |                                             
+                               AAC
+194      995515    .A.C.......T.....G.....A---.....TG..T.....GAAG....TA........  995456
+                                 \                                             
+                                 |                                             
+                               AAC
+194      939475    .A.A.......T.....A.....A---.....TG........G.CA.A...........G  939416
+                                 \                                             
+                                 |                                             
+                               AAC
+29       43419912  .........A..                                                  43419901
+33       34113332  T.......                                                      34113325
+
+Query_4  126       CTTGGAAGAATTGCTGGTCATGG  148
+194      958082    ..........CA.....A..A..  958060
+194      995455    .......A..CA.....A..A..  995433
+194      939415    ..........CA.....A..A..  939393
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 201300153472
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_023010881.1 Pantherophis guttatus isolate EG266 unplaced gen...  105     2e-21
+
+
+
+Query_5  2       ATCAACGTTCTAGGTATGAGACCACAGGCAAGCCCATTTTACAATGAGTTTTACAATGGG  61
+194      935685  ..T..T..G..G..A....A....GCTCA..AA.................C........C  935626
+194      991322                                    .....C.A...A....C........C  991297
+
+Query_5  62      GTATGTGACAGAGTCCGCGATGGGAATAGTGGCATTTATTATCGCAAGCCATGGAATGTC  121
+194      935625  A.C..............G........C.CG.CG.C......C...............ACG  935566
+194      991296  A.C..............T........C.CA.C.........C...............ACG  991237
+
+Query_5  122     GCTGTGCTAAATTATGA  138
+194      935565  ...T.C..C.G......  935549
+194      991236  .....C..C........  991220
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 185946751936
+
+
+Query= exon6
+
+Length=228
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 337774833792
+
+
+Query= exon7
+
+Length=224
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_023010881.1 Pantherophis guttatus isolate EG266 unplaced gen...  143     2e-32
+
+
+
+Query_7  35      ATGCGAACACGTGATCTTCGTCTAAATGACTGGTTCCTTGATGACTTAAAAAATTTGCCC  94
+194      985496  .......AT......T.G..CT.G.G...GACA.....G..A...C....GTT......A  985437
+194      930561                                   .....G..A..TC....G.TG......  930535
+
+Query_7  95      ACTACATATGACAGGGGAGAGTATTTCAAATTTCTTGAAACACATGGAACTCATTATGCA  154
+194      985436  .G...C.....G.A............T...............T..............T.C  985377
+194      930534  .G...C.....G.A............T.T......G......T..............T..  930475
+
+Query_7  155     CGGAAGGGAACTTTTGGAGGAAAATATGAACTACTATATGTATTGGA  201
+194      985376  ....GA....ACG................G...A.......G.....  985330
+194      930474  .A..GA.....CA................G...A.......G.....  930428
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 330951099776
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 165478873884
+
+
+Query= exon9
+
+Length=182
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 259301892608
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_023010881.1 Pantherophis guttatus isolate EG266 unplaced gen...  150     1e-34
+
+
+
+Query_10  7       CCAATCTCTGACCTTGTTCCATTGAAAATGCCTGACTCTACAATAAAGAAACGAAATCTT  66
+194       973430  .....T..A..A.....A...C.......C.GA.....CCG..C.......GA......G  973371
+194       956844  .....T..G..A.....A..GC.......C..A.....CCG..C.......GA......G  956785
+194       925432  .....T.....A...A.C...C....T..C..A.....CCG...G......GT......G  925373
+
+Query_10  67      GACAGAGGAGTTGAAGACTATATTGCTGAATACAATGTGTGCAAGTGTCAGCCCTGTCAA  126
+194       973370  .......CT..A..G..T...G.G..........G...A.....A..C.....T....T.  973311
+194       956784  .......CT..A..G..T...G.G...........C..A.....A..C.....T....T.  956725
+194       925372  .......CT..A..G..T...G.G...........C..A..T..A..CA.A..T....T.  925313
+
+Query_10  127     AATGGTGGGACTGTTCTACTGATCAATGGAAATTGCGAGTGTGGATGCACTCCTTATTTC  186
+194       973310  C..........G.CGA.G.....AG.A..G..G..T..A....TC........A.T..A.  973251
+194       956724  C..........A.CGA.G.....AG.A..G.GG..T..A..C.CC......T.ACT..A.  956665
+194       925312  C..........G..GA.G...C.AG.C.....G..T..A..C.CC........A.T..A.  925253
+
+Query_10  187     AAAGGAGATGTCTGTCAGACACCCACATCAACTTTTGTACCAG  229
+194       973250  ..G.....C.C....G.A.T.G...AG....T...........  973208
+194       956664  ..G.....C.C....G.A.T.....AG........CA......  956622
+194       925252  ..G.....C.G....G.A.T...TG.T...GA...GA......  925210
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 339480767296
+
+
+Query= exon11
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_023010881.1 Pantherophis guttatus isolate EG266 unplaced gen...  102     4e-20
+
+
+
+Query_11  9       GCCACTAATGGGGGATGGAGCTGCTGGTCTAACTGGTCTCCATGTAAAGAAGGACAGCGC  68
+194       955006  ....T.G.....A.C....A............G.....CA.....C.GA.T...G.A..T  954947
+194       971643  ....T.G.....AAC....A..................CA.....CGTA.TA..G.A..T  971584
+194       923782         .....A.C.......................CA.C...C.GC.......A...  923730
+
+Query_11  69      ACTCGAACAAGACAGTGCGACAATCCTGAACCTACAGCTGGGGGAAATCCATGTGCAGGA  128
+194       954946  CTG........G.....TA.T.......C....GG.T.......C..AG.....C.T...  954887
+194       971583  CAG.........G....TA.T.......C.....G.T.......C..AT.....C.T...  971524
+194       923729  CGG.........A.A..T..T.......CC...GG.TA.A....C..GT....CC.T...  923670
+
+Query_11  129     TCAAACTCAGAAATAGGCTATTGTTCTAGTGCAGA  163
+194       954886  A...CTGT....C.....C......            954862
+194       971523  A...GTGT....CC....C......-A.T......  971490
+194       923669  G.......G...CC...........-A.T......  923636
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 233712890048
+
+
+  Database: GCF_001185365.1_UNIGE_PanGut_3.0_genomic.fna
+    Posted date:  Dec 24, 2021  3:44 PM
+  Number of letters in database: 1,706,961,544
+  Number of sequences in database:  34,268
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

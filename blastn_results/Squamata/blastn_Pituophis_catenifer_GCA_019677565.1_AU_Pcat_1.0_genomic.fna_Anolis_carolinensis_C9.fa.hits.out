@@ -1,0 +1,354 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_019677565.1_AU_Pcat_1.0_genomic.fna
+           63,678 sequences; 1,516,097,738 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHUAB010000002.1 Pituophis catenifer pumilus isolate PC167 sca...  48.2    2e-04
+
+
+
+Query_1  13         TTGCTTCTCACAGGGGTGCTCTTCACTTTTGGAATAAATAGTTTTGTCTCA  63
+1        13824419   ........T.T...A..T....G..T...A...GC...........C....  13824469
+1        209025980                  ..............A...G.....A....T...    209025948
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 74201422946
+
+
+Query= exon2
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 98426319940
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHUAB010000002.1 Pituophis catenifer pumilus isolate PC167 sca...  62.6    3e-08
+
+
+
+Query_3  1         TATCGTTCAAGGAGTGTCCTGAAGTATGGGCAGTTTGGAGGAAAGGCATGCCTGGAACCT  60
+1        13794872  .....C.........A.T.......T...A...........G...C.....A.T..GG.C  13794813
+1        13829221  .....C.........A.T.......T...A...........G..AC.....A.T.TGG..  13829280
+
+Query_3  61        CTAGGACACAGAGAAAGCTGTGAGCCAGATGTCCCTTGCCGTGAGGAGGAAGTTGACTGT  120
+1        13794812  ..GA.CG.T.....GTC.......A..                                   13794786
+1        13829281  ..GA.TG.T.....GCC......A.A...AC.-..G....CA..T...AG..G.C.T...  13829340
+                                          \                                    
+                                          |                                    
+                                          C
+
+Query_3  121       GGCAAAGACTTCCAGTGTGAAAATG  145
+1        13829341  ..G.....G..TG.A..........  13829368
+                       \                    
+                       |                    
+                     AGC
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 175653124816
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHUAB010000002.1 Pituophis catenifer pumilus isolate PC167 sca...  104     8e-21
+  JAHUAB010000003.1 Pituophis catenifer pumilus isolate PC167 sca...  50.0    2e-04
+  JAHUAB010000001.1 Pituophis catenifer pumilus isolate PC167 sca...  48.2    6e-04
+
+
+
+Query_4  6         TGTATAAAAACAAGATTGGTGTGCAATACAGAGGATGACTGTGGAGACATGTCTGATGAA  65
+1        13855750  ...C....G.AT..GC....A..T..C.....AA..........T...T.T.........  13855691
+1        13820521  ...C....G.AT..GC....A..T..C.....AA..........T...T.C.....CA..  13820462
+1        13792896              ..G........T..C.....A...........T...T.C.....C...  13792849
+2        58990828              ...C..C.T......GGT..T..............TCAA..A......  58990781
+0        67960884                               ...T...........G...TG..........  67960914
+
+Query_4  66        GCTGATTGTGAGGACAACCGCCCTGCCCCCTGCCGGGATCGTATTCTTGACGTATCAGAA  125
+1        13855690  .A.CTG.....T.....A.....A---.....TG........GA.A....TA........  13855631
+                                 \                                             
+                                 |                                             
+                               AAC
+1        13820461  .A.C.......T.....A.....A---.....TG..A.....GAGG....T.........  13820402
+                                 \                                             
+                                 |                                             
+                               AAC
+1        13792848  .A.A.......T.....A.....A---.....TG........G.CA.A...........G  13792789
+                                 \                                             
+                                 |                                             
+                               AAC
+2        58990780  .........A..                                                  58990769
+0        67960915  T.......                                                      67960922
+
+Query_4  126       CTTGGAAGAATTGCTGGTCATGG  148
+1        13855630  ..........CA.....A..A..  13855608
+1        13820401  ..........CA.....A..A..  13820379
+1        13792788  ..........CA.....A..A..  13792766
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 178674112964
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHUAB010000002.1 Pituophis catenifer pumilus isolate PC167 sca...  102     3e-20
+
+
+
+Query_5  35        CCATTTTACAATGAGTTTTACAATGGGGTATGTGACAGAGTCCGCGATGGGAATAGTGGC  94
+1        13788875  .................C........CA.C..............G........C.CA.CA  13788816
+1        13859050   .....C.A........C........TA.C..............T........C.CG.CG  13859108
+
+Query_5  95        ATTTATTATCGCAAGCCATGGAATGTCGCTGTGCTAAATTATGA  138
+1        13788815  .C......C...............ACG...T.C..C.G......  13788772
+1        13859109  .C......C...............ACG...T.C..C.G......  13859152
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 166567618360
+
+
+Query= exon6
+
+Length=228
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 299809104804
+
+
+Query= exon7
+
+Length=224
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHUAB010000002.1 Pituophis catenifer pumilus isolate PC167 sca...  134     8e-30
+  JAHUAB010019233.1 Pituophis catenifer pumilus isolate PC167 sca...  48.2    0.001
+
+
+
+Query_7  68        TTCCTTGATGACTTAAAAAATTTGCCCACTACATATGACAGGGGAGAGTATTTCAAATTT  127
+1        13783282  .....G..A..TC....G.TG.......G...T.....G.A............T.T....  13783223
+
+Query_7  128       CTTGAAACACATGGAACTCATTATGCACGGAAGGGAACTTTTGGAGGAAAATATGAACTA  187
+1        13783222  ..G......T..............T...A..GA.....CA................G...  13783163
+19232    2083                                              ................G...  2064
+
+Query_7  188       CTATATGTATTGGA  201
+1        13783162  A.......G.....  13783149
+19232    2063      A.......G.....  2050
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 293752355212
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 146882354372
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHUAB010000002.1 Pituophis catenifer pumilus isolate PC167 sca...  64.4    9e-09
+
+
+
+Query_9  123       GAAGACTATGTCGAATGGGCAGCTACACTCCCTGATGCTCCTGTAATAATATCACAGGAG  182
+1        13805281  ...C................T........A...C.A.........G.G...AG...A...  13805340
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 230156484496
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHUAB010000002.1 Pituophis catenifer pumilus isolate PC167 sca...  159     2e-37
+
+
+
+Query_10  7         CCAATCTCTGACCTTGTTCCATTGAAAATGCCTGACTCTACAATAAAGAAACGAAATCTT  66
+1         13818367  .....T..G..A.....A...C.......C..A.....CCG..C.......GA......G  13818308
+1         13778151  ..G..T.....A...A.C...C....T..C..A.....CCG...G......GT......G  13778092
+
+Query_10  67        GACAGAGGAGTTGAAGACTATATTGCTGAATACAATGTGTGCAAGTGTCAGCCCTGTCAA  126
+1         13818307  .......CT..A..G..T...G.G..........G...A.....A..C.....T....T.  13818248
+1         13778091  .......CT..A..G..T...G.G...........C..A..T..A..CA.A..T....T.  13778032
+
+Query_10  127       AATGGTGGGACTGTTCTACTGATCAATGGAAATTGCGAGTGTGGATGCACTCCTTATTTC  186
+1         13818247  C..........G.CGA.G.....AG.A..G..G..T..A...ACC........A.T..A.  13818188
+1         13778031  C..........G..GA.G...C.AG.C.....G..T..A..C.CC.....C..A.T..A.  13777972
+
+Query_10  187       AAAGGAGATGTCTGTCAGACACCCACATCAACTTTTGTACCAG  229
+1         13818187  ..G.....C.C....G.A.T.....AG................  13818145
+1         13777971  ..G.....C.G....G.A.T...TG.T...GA...GA......  13777929
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 301323292202
+
+
+Query= exon11
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAHUAB010000002.1 Pituophis catenifer pumilus isolate PC167 sca...  109     2e-22
+
+
+
+Query_11  9         GCCACTAATGGGGGATGGAGCTGCTGGTCTAACTGGTCTCCATGTAAAGAAGGACAGCGC  68
+1         13830953  ....T.C.....A.C.......................CA.C...C.GC.......A...  13831012
+1         13816412  ....T.G.....AAC....A...........G......CA.G...C.GA.TA..G.A..T  13816353
+1         13807976  ....T.G.....AAC....A..................CA.G...C.GA.T..TG.A..T  13808035
+
+Query_11  69        ACTCGAACAAGACAGTGCGACAATCCTGAACCTACAGCTGGGGGAAATCCATGTGCAGGA  128
+1         13831013  CGG.........A.A..T..T.......CC...GG.TA.A....C..GT....CC.T...  13831072
+1         13816352  CAG.........G....TA.T.......C....GG.T.......C..AT.....C.T...  13816293
+1         13808036  CAGA........G....TA.T.......C....GG.T.......C..AG.....C.T...  13808095
+
+Query_11  129       TCAAACTCAGAAATAGGCTATTGTTCTAGTGCAGA  163
+1         13831073  G...........CC...........-A.T......  13831106
+1         13816292  A...GTGT.....C....C......-A.T......  13816259
+1         13808096  A...CTGT....CC....C......            13808120
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 207443673526
+
+
+  Database: GCA_019677565.1_AU_Pcat_1.0_genomic.fna
+    Posted date:  Dec 24, 2021  3:45 PM
+  Number of letters in database: 1,516,097,738
+  Number of sequences in database:  63,678
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

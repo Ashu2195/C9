@@ -1,0 +1,307 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_900518725.1_TS10Xv2-PRI_genomic.fna
+           52,414 sequences; 1,665,525,958 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81538859934
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020719678.1 Notechis scutatus unplaced genomic scaffold, TS1...  75.2    2e-12
+
+
+
+Query_2  3     TGAGAAGAGAACCGAATGCACCTACTCCCATCGATTGCTTGCTGAGCGCCTGGAGTGAAT  62
+3067     6901  ...A...G.....T.....T..AG.G.....T.............CTA.........CT.  6842
+
+Query_2  63    GGGGACCCTGTAACCCATGTGCAAGAGAAAG  93
+3067     6841  .......A....GT..G..CT...A......  6811
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 108160386880
+
+
+Query= exon3
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 191354656870
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020719678.1 Notechis scutatus unplaced genomic scaffold, TS1...  89.7    2e-16
+
+
+
+Query_4  19    GGTTGGTGTGTAACACGGAAGATGACTGTGGCGATCTCTCCGACGAAGCTGAGTGTGAAA  78
+3067     4528  ................A..............T..CT....T..T....A.A.T.......  4466
+                                                                       \   
+                                                                       |   
+                                                                     GAC
+
+Query_4  79    ATGAGCGCCCTCCCCCCTGCCGTGATCGGATCATTGATGTATCAGAGCTCGGAAGAATTG  138
+3067     4465  CCA.A...---..A.....TG.G.....TGA......C........A..T.......CA.  4409
+
+Query_4  139   CTGGAC  144
+3067     4408  ......  4403
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 196346517484
+
+
+Query= exon5
+
+Length=235
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020719678.1 Notechis scutatus unplaced genomic scaffold, TS1...  120     2e-25
+  NW_020716626.1 Notechis scutatus unplaced genomic scaffold, TS1...  114     9e-24
+
+
+
+Query_5  11        CTAGGAATGCAACCGAGGGCAAATGCATTTCACAATGAGTTTTTCAATGGAATGTGTGAC  70
+3067     2828      ..G......A.....GCTCA...A..CC..T..........C.A......C..C......  2769
+15       11127713  ..G......AC...-..CT.............A.....A..C.A...C..C..T..C...  11127654
+                                          \                                    
+                                          |                                    
+                                          C
+
+Query_5  71        AGAGTCCGTGATGGGAATACCGGCATATATTATCGCAAGCCGTGGAATGTGGCTGTGCTC  130
+3067     2768      .................C..A.C..CT.....C........A............T.C...  2709
+15       11127653  .................CT.A.C..CT.....C........A......C.......C...  11127594
+
+Query_5  131       AATTACGAGGTAAG  144
+3067     2708      .G...T..A.....  2695
+15       11127593  .....T..T.....  11127580
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 341110475290
+
+
+Query= exon6
+
+Length=316
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020716626.1 Notechis scutatus unplaced genomic scaffold, TS1...  129     6e-28
+
+
+
+Query_6  84        GTTTTTGCACGTAAAATCAAGCATCCAGCTGGGATCTTTCATAATGCGGACACGTGACGT  143
+15       11121187     ...A..T..C.....T.AT..A..A..A...A.....CA......A.A......TT.  11121131
+15       11083108  ..A...A..T..C.....T.AT..A..A......A.....CA.T....A.A....A.TT.  11083049
+
+Query_6  144       CCGCCTGAATGACGTGTTCCTTGAAGATTTAAAGTATCTGCCCACCGAATATGAAAAGGG  203
+15       11121130  G...T...G...TACA.....G.....AA.....GT.T....A.GTACC.....G.....  11121071
+15       11083048  G...T...G...GACA............C....-...G......GTACC.....G.....  11082989
+                                                          \                    
+                                                          |                    
+                                                          T
+
+Query_6  204       AGAATATTTCAAATTTCTGGAAACATATGGAACACATTATGCACGGAGGGGGGTTTACGG  263
+15       11121070  ...G.....T........T..............T......T...A...A...A.CGTT..  11121011
+15       11082988  ...G.....T.C...........T.........T......T...A...A..AACCATT..  11082929
+
+Query_6  264       AGGAATATATGAACTACTCTACATTTTGGACGATGAAAC  302
+15       11121010  .....A......G...A.G..TG.A......A.CC....  11120972
+15       11082928  .....A.......T..A.A...G.GC....           11082899
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 474211820340
+
+
+Query= exon7
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 161408577344
+
+
+Query= exon8
+
+Length=182
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 252920937776
+
+
+Query= exon9
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020716626.1 Notechis scutatus unplaced genomic scaffold, TS1...  116     2e-24
+
+
+
+Query_9  3         AAGCCCAATTTCAACGCTTGTCCCGTCGAAGATGCCCGACGCCGAGATAAAGAAACGGAA  62
+15       11108427  ..C...G.....GGAA.....A...CT...A..C..A...T..CGA.........GTA..  11108368
+15       11075949     ...G.....TGAA...A....ACT...T..C..A...T..CGAC........GTA..  11075893
+
+Query_9  63        CCTCGACAGAGCAGTGGAAGACTATGTTGCGGAATACAGTGTGTGCAAATGCCAGCCCTG  122
+15       11108367  T..G........T..A..G..T.....G..T........C.CA.........A.A..T..  11108308
+15       11075892  T..G........T..A..G..T..C..G..T........C..A.........A.A..T..  11075833
+
+Query_9  123       TCAAAATGGTGGGACTGTCATGCTGCTGAATGGAAAGTGTGAATGCGGATGCACGGCTTA  182
+15       11108307  ..T.C..........G.CG......A.AG.A..G...........T.CC....ATC.A.T  11108248
+15       11075832  ..T.C.C.....A..G..G..C...A.AG.A..G...........T.CT.....TC.A.T  11075773
+
+Query_9  183       TTTCAAAGGAGACGCCTGCGAGATCCC  209
+15       11108247  ..A...G.....T.....T..A..A..  11108221
+15       11075772  ..A.........A.....T..A..A..  11075746
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 331126754062
+
+
+Query= exon10
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_020716626.1 Notechis scutatus unplaced genomic scaffold, TS1...  123     1e-26
+
+
+
+Query_10  13        ATACAGCTACTGATGGGAGTTGGAGCTGCTGGTCTAGCTGGTCTGCATGTCAACAGGGAA  72
+15        11074826  .......C.T.C.......C................A......CA.C.....G..A...C  11074767
+15        11106632            ........AC....A..................CATG.....GA.TA..G  11106583
+
+Query_10  73        AACGCACTCGAACAAGACTGTGTAATAATCCTGCACCTGGAAATGGAGGCAAGCCATGCG  132
+15        11074766  G....CAG.........AAA..............C......T..A.G....G.T....TC  11074707
+15        11106582  ....TCAG..G.......A......................TC..AT.....AT....TC  11106523
+
+Query_10  133       CAGGAGCAAACTCGGAACCAGGCTATTG  160
+15        11074706  .T..C.....T.TA.........C....  11074679
+15        11106522  .T...A...                     11106514
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 247929077162
+
+
+  Database: GCF_900518725.1_TS10Xv2-PRI_genomic.fna
+    Posted date:  Dec 24, 2021  4:43 PM
+  Number of letters in database: 1,665,525,958
+  Number of sequences in database:  52,414
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

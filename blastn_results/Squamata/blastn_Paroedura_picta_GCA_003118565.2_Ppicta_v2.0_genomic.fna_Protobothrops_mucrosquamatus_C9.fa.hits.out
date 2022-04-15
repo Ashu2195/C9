@@ -1,0 +1,297 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003118565.2_Ppicta_v2.0_genomic.fna
+           4,871 sequences; 1,562,175,643 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 76539923495
+
+
+Query= exon2
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101532234960
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 184319482534
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BDOT02000007.1 Paroedura picta DNA, hic_parpi00000007, whole ge...  82.4    3e-14
+  BDOT02000002.1 Paroedura picta DNA, hic_parpi00000002, whole ge...  50.0    2e-04
+
+
+
+Query_4  12        AAGAATAGGTTGGTGTGCAACAAGGAAAATGACTGTGGTGACTTTTCTGATGAAGATAAT  71
+6        87331784  .....-..A........T..T.CA..C...........A..T.CC...............  87331842
+1        44900904                           .......T.........AA............A...  44900938
+
+Query_4  72        TGTGAAGAAACCAAACGCCCACCCTGTGGGGATCGTGACATTGAGGTATCAGAACTTGGA  131
+6        87331843  ...A.C..C...........G......C.T.G...CATTC...GCA.....A..A.....  87331906
+                                  \                                         \  
+                                  |                                         |  
+                                CCC                                         G
+1        44900939  ..                                                            44900940
+
+Query_4  132       AGAACAGCTGG  142
+6        87331907  ....-......  87331916
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 184319482534
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BDOT02000007.1 Paroedura picta DNA, hic_parpi00000007, whole ge...  48.2    5e-04
+
+
+
+Query_5  36        CATTTCACAATGAGTTCTACAATGGCATCTGTGACAGAGTCCGTGATGGGAACACAGCCA  95
+6        87334339  .....T.......A..T..T..C..GT.T..CA..C.G.AA...........T....G..  87334398
+
+Query_5  96        CTTATTACCGCAAGCCATGGAATACGGCTGTCCTCAATTAT  136
+6        87334399  TC.....T..T.CA..G......GTT..A..GG.T......  87334439
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 171823782240
+
+
+Query= exon6
+
+Length=213
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 285851400879
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BDOT02000007.1 Paroedura picta DNA, hic_parpi00000007, whole ge...  113     3e-23
+
+
+
+Query_7  38        TGGGAACTTTCCAAATGCGAAAACGTGATTTGCGCTTGAGCGAGACATTCCTGGAAGATC  97
+6        87337672  .......A.A.AT.........C.....CA....GC...CT.GAG.G.....T......T  87337731
+
+Query_7  98        TAAAGTTTTTGCCAAGTACTTATGAGAAGGGAGAATATTGTAAATTTCTTGAAACATATG  157
+6        87337732  ....ACA.C....C..CGAC.....C.T...........TC.GG.....G.....G..C.  87337791
+
+Query_7  158       GAACTCATTATGCACAGAAGGGAACCATTGGAGGAAAATATGAGCTAATGTATGTGTTGG  217
+6        87337792  .G...........CG.A.......AGG.C.......T......A...C.A......C...  87337851
+
+Query_7  218       ATAACCA  224
+6        87337852  .C..G..  87337858
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 329588227243
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 151517335248
+
+
+Query= exon9
+
+Length=182
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 237428485976
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BDOT02000007.1 Paroedura picta DNA, hic_parpi00000007, whole ge...  116     2e-24
+
+
+
+Query_10  19        CTCGTACCACTCAAAATCCCAGACTCCCGAATAAAGAAAGAAAATCTGGACAGAGCTGTA  78
+6         87341862  ..T.....TGC...G..G..CA..G...A..C.......C..........GC....C..G  87341921
+
+Query_10  79        GAGGATTATGTGGCTGAATACAGCGTATGCAAATGCCAGCCTTGTCTACATGGTGGGACG  138
+6         87341922  ...........T..........AT..G..........G..TC..C.A.A....A......  87341981
+
+Query_10  139       GCAATGCTGATAGAAGGACAATGCGAATGTGCCTGCACTCCGTTTTACAAGGGAGAAGCC  198
+6         87341982  .TG..A...G.GA.T...G.G..TATT.....A...T.G..T....TTC.A....TG...  87342041
+
+Query_10  199       TGTGAAATACCCAA  212
+6         87342042  ...C.G........  87342055
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 310843873087
+
+
+Query= exon11
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BDOT02000007.1 Paroedura picta DNA, hic_parpi00000007, whole ge...  77.0    1e-12
+
+
+
+Query_11  11        CATTGATGGGAGCTGGAGCTGCTGGTCTAACTGGTCCGCCTGTCAGAGTGGAGAACGTCA  70
+6         87343671  ..C...C..AG................C.G.......C.T...GT.CAA.........AC  87343730
+
+Query_11  71        GCGAACAAGAGAGTGTAATAATCCTGCACCTGGATCTGGGGGCAAATCATGTCCAGGAGC  130
+6         87343731  T..G...C.G..A........C..G..T....T...A.......GGC.....GA...CA.  87343790
+
+Query_11  131       AACCGTAGAA  140
+6         87343791  CG..T.....  87343800
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195253689125
+
+
+  Database: GCA_003118565.2_Ppicta_v2.0_genomic.fna
+    Posted date:  Dec 24, 2021  4:56 PM
+  Number of letters in database: 1,562,175,643
+  Number of sequences in database:  4,871
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

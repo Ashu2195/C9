@@ -1,0 +1,381 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_012654085.1_UNIGE_PanObs_1.0_genomic.fna
+           36,795 sequences; 1,692,461,844 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WJSR01000024.1 Pantherophis obsoletus isolate EOBS11 121, whole...  48.2    3e-04
+
+
+
+Query_1  13        TTGCTTCTCACAGGGGTGCTCTTCACTTTTGGAATAAATAGTTTTGTCTCA  63
+23       11648320  ........T.T...A..T....G..T...A...GC...........C....  11648270
+23       11682333  ........T.T...A..T....G..T...A...GC...........C....  11682283
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81186949872
+
+
+Query= exon2
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 109940661285
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WJSR01000024.1 Pantherophis obsoletus isolate EOBS11 121, whole...  66.2    2e-09
+
+
+
+Query_3  1         TATCGTTCAAGGAGTGTCCTGAAGTATGGGCAGTTTGGAGGAAAGGCATGCCTGGAACCT  60
+23       11609510  ..C..C.........A.T.......T...A...........G...C.....A.T..GG..  11609451
+23       11642799  .....C.........A.T.......T...A...........G..AC.....A.T.TGG..  11642740
+23       11675642     ..C.........A.TT......T...A...........G...C.....           11675595
+
+Query_3  61        CTAGGACACAGAGAAAGCTGTGAGCCAGATGTCCCTTGCCGTGAGGAGGAAGTTGACTGT  120
+23       11609450  ..GA.CG.T.....GTC........A...AC.-..G....CA..T.G.AG..G.C.T...  11609391
+                                           \                                   
+                                           |                                   
+                                           A
+23       11642739  ..GA.TG.T.....GCC........A...AC.-.TG....CA..C...AG..G.C.T...  11642680
+                                           \                                   
+                                           |                                   
+                                           A
+
+Query_3  121       GGCAAAGACTTCCAGTGTGAAAATG  145
+23       11609390  ..G.....G..TG.A..........  11609363
+                       \                    
+                       |                    
+                     AGC
+23       11642679  ..G.....G..TG.A..........  11642652
+                       \                    
+                       |                    
+                     AGC
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 194506169310
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WJSR01000024.1 Pantherophis obsoletus isolate EOBS11 121, whole...  104     9e-21
+  WJSR01000070.1 Pantherophis obsoletus isolate EOBS11 205, whole...  55.4    4e-06
+  WJSR01000066.1 Pantherophis obsoletus isolate EOBS11 201, whole...  48.2    6e-04
+
+
+
+Query_4  6         TGTATAAAAACAAGATTGGTGTGCAATACAGAGGATGACTGTGGAGACATGTCTGATGAA  65
+23       11641101  ...C....G.AT..GC....A..T..C.....AA..........T...T.T.....C...  11641042
+23       11673241  ...C....G.AT..GC....A..T..C..G..AA..........T...T.T.....C...  11673182
+23       11607526              ..G........T..C.....A...........T...T.C.....C...  11607479
+69       16330578              ...C..C.T......GG...T..............TCAA..A......  16330625
+65       33524636                               ...T...........G...TG..........  33524606
+
+Query_4  66        GCTGATTGTGAGGACAACCGCCCTGCCCCCTGCCGGGATCGTATTCTTGACGTATCAGAA  125
+23       11641041  .A.C.......T..-....AAA..C.......TG..A.....GAGG....T.........  11640982
+                                              \                                
+                                              |                                
+                                              A
+23       11673181  .A.CTG.....T.....A.....A---.....TG........GA.A....TA........  11673122
+                                 \                                             
+                                 |                                             
+                               AAC
+23       11607478  .A.A.......T.....A.....A---.....TG........G.CA.A...........G  11607419
+                                 \                                             
+                                 |                                             
+                               AAC
+69       16330626  .........A..                                                  16330637
+65       33524605  T.......                                                      33524598
+
+Query_4  126       CTTGGAAGAATTGCTGGTCATGG  148
+23       11640981  ..........CA.....A..A..  11640959
+23       11673121  ..........CA.....A..A..  11673099
+23       11607418  ..........CA.....A..A..  11607396
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 199580243292
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WJSR01000024.1 Pantherophis obsoletus isolate EOBS11 121, whole...  102     3e-20
+
+
+
+Query_5  35        CCATTTTACAATGAGTTTTACAATGGGGTATGTGACAGAGTCCGCGATGGGAATAGTGGC  94
+23       11602942  .................C........CA.C..............G........C.CA.CG  11602883
+23       11639466   .....C.A........C........CA.T.....T........T........C.CA.C.  11639408
+23       11670902   .....C.A........C........TA.C..............T........C.CG.CG  11670844
+
+Query_5  95        ATTTATTATCGCAAGCCATGGAATGTCGCTGTGCTAAATTATGA  138
+23       11602882  .C......C...............ACG...T.C..C.G......  11602839
+23       11639407  ........C...............ACA.....C..C.G......  11639364
+23       11670843  .C......C...............ACG.....C..C.G......  11670800
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 184358021346
+
+
+Query= exon6
+
+Length=228
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 334888882812
+
+
+Query= exon7
+
+Length=224
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WJSR01023848.1 Pantherophis obsoletus isolate EOBS11 152003, wh...  149     4e-34
+  WJSR01000024.1 Pantherophis obsoletus isolate EOBS11 121, whole...  149     4e-34
+
+
+
+Query_7  35        ATGCGAACACGTGATCTTCGTCTAAATGACTGGTTCCTTGATGACTTAAAAAATTTGCCC  94
+23847    176       .......A.......T.G..CT...G...GACA.....G..A..AC....GTT......A  117
+23       11637735  .......A.......T.G..CT...G...GACA.....G..A..AC....GTT......A  11637676
+23       11666650  .......AT......T.G..CT.G.G...GACA.....G..A..AC...CGTT......A  11666591
+23       11597937                                   .....G..A..TC....G.TG......  11597911
+
+Query_7  95        ACTACATATGACAGGGGAGAGTATTTCAAATTTCTTGAAACACATGGAACTCATTATGCA  154
+23847    116       .G...C.....G.A............T...............T..............T.C  57
+23       11637675  .G...C.....G.A............T...............T..............T.C  11637616
+23       11666590  .G...C.....G.A............T...............T..............T.C  11666531
+23       11597910  .G...C.....G.A............T.T......G......T..............T..  11597851
+
+Query_7  155       CGGAAGGGAACTTTTGGAGGAAAATATGAACTACTATATGTATTGGA  201
+23847    56        .A..GA.....CG................G...A.......G.....  10
+23       11637615  .A..GA.....CG................G...A.......G.....  11637569
+23       11666530  ....GA.....CG................G...A.......G.....  11666484
+23       11597850  .A..GA.....CA................G...A.......G.....  11597804
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 328123450836
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 164065294533
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WJSR01015476.1 Pantherophis obsoletus isolate EOBS11 142214, wh...  75.2    6e-12
+  WJSR01000024.1 Pantherophis obsoletus isolate EOBS11 121, whole...  75.2    6e-12
+
+
+
+Query_9  27        ATCAATGATGTGGTCTCTATAGTTCAAGGAGGGAAGATTACTGTTTTAATCAAGTTGAAG  86
+15475    270       .....A.....A......C.GA.......T....CA.CAG..ACC....CA........T  211
+23       11660639  .....A.....A......C.GA.......T....CA.CAG..ACC....CA........T  11660580
+23       11633869  ...G.A.....A......C.GA.......T....CA.CAG..ACC....CA.G......T  11633810
+
+Query_9  87        GAACAATTGTCTAAAGGTAACAAGGTTACTAATATTGAAGACTATGTCGAATGGGCAGCT  146
+15475    210       ...TTGC.T..ATC.AA.GC..G.C.A.T.G..G.A...C................T...  151
+23       11660579  ...TTGC.T..ATC.AA.GC..G.C.A.T.G..G.A...C................T...  11660520
+23       11633809  ...TTGC.T..ATC.AA.GC..G.C.A.T.G..G.A...C................T...  11633750
+
+Query_9  147       ACACTCCCTGATGCTCCTGTAATAATATCACAGGAG  182
+15475    150       .....A...C.A.........G.G...AG...A...  115
+23       11660519  .....A...C.A.........G.G...AG...A...  11660484
+23       11633749  .....A...C.A.........G.G...AG...A...  11633714
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 257086415088
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WJSR01000024.1 Pantherophis obsoletus isolate EOBS11 121, whole...  159     2e-37
+
+
+
+Query_10  7         CCAATCTCTGACCTTGTTCCATTGAAAATGCCTGACTCTACAATAAAGAAACGAAATCTT  66
+23        11659182  .....T..G..A.....A...C.......C..A.....CCG..C.......GA......G  11659123
+23        11592797  ..G..T.....A...A.C...C....T..C..A.....CCG...G......GT......G  11592738
+
+Query_10  67        GACAGAGGAGTTGAAGACTATATTGCTGAATACAATGTGTGCAAGTGTCAGCCCTGTCAA  126
+23        11659122  .......CT..A..G..T...G.G..........G...A.....A..C.....T....T.  11659063
+23        11592737  .......CT..A..G..T...G.G...........C..A..T..A..CA.A..T....T.  11592678
+
+Query_10  127       AATGGTGGGACTGTTCTACTGATCAATGGAAATTGCGAGTGTGGATGCACTCCTTATTTC  186
+23        11659062  C..........G.CGA.G.....AG.A..G..G..T..A...ACC........A.T..A.  11659003
+23        11592677  C..........G..GA.G...C.AG.C.....G..T..A..C.CC........A.T..A.  11592618
+
+Query_10  187       AAAGGAGATGTCTGTCAGACACCCACATCAACTTTTGTACCAG  229
+23        11659002  ..G.....C.C....G.A.T.....AG................  11658960
+23        11592617  ..G.....C.G....G.A.T...TG.T...GA...GA......  11592575
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 336580240806
+
+
+Query= exon11
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WJSR01000024.1 Pantherophis obsoletus isolate EOBS11 121, whole...  102     4e-20
+
+
+
+Query_11  9         GCCACTAATGGGGGATGGAGCTGCTGGTCTAACTGGTCTCCATGTAAAGAAGGACAGCGC  68
+23        11657380  ....T.G.....AAC....A...........G......CA.G...C.GA.TA..G.A..T  11657321
+23        11591149         .....A.C.......................CA.C...C.GC.......A...  11591097
+
+Query_11  69        ACTCGAACAAGACAGTGCGACAATCCTGAACCTACAGCTGGGGGAAATCCATGTGCAGGA  128
+23        11657320  CAG.........G....TA.T.......C....GG.T.......C..AT.....C.T...  11657261
+23        11591096  CGG.........G.A..T..T.......CC...GG.TA.A....C..GT....CC.T...  11591037
+
+Query_11  129       TCAAACTCAGAAATAGGCTATTGTTCTAGTGCAGA  163
+23        11657260  A...GTGT.....C....C......-A.T......  11657227
+23        11591036  G.......G...CC...........-A.T......  11591003
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 231716045178
+
+
+  Database: GCA_012654085.1_UNIGE_PanObs_1.0_genomic.fna
+    Posted date:  Dec 24, 2021  3:44 PM
+  Number of letters in database: 1,692,461,844
+  Number of sequences in database:  36,795
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

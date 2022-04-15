@@ -1,0 +1,338 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_020142125.1_MUOH_PhPlat_1.1_genomic.fna
+           5,291 sequences; 1,901,839,624 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91280936880
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM034703.1 Phrynosoma platyrhinos isolate NK-2021 chromosome 2,...  93.3    1e-17
+
+
+
+Query_2  1         GTTGCCAAGAGAATCGAATGCCCCGCCACCTGTTGAGTGCTTGCTGAGCAACTGGAGTGA  60
+2        24739314  .........G.....TG....T..A.....CA.C..T............G..........  24739255
+
+Query_2  61        ATGGGGACCATGCAACCCCTGTGTTAAAGAA  91
+2        24739254  G............C.T.......CA..T...  24739224
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123609602025
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM034703.1 Phrynosoma platyrhinos isolate NK-2021 chromosome 2,...  149     3e-34
+
+
+
+Query_3  1         TATCGTTCAAGGAGTGTCCTGAAGTATGGGCAGTTTGGAGGAAAGGCATGCCTGGAACCT  60
+2        24737335  .....C..C.........T....C.....A.................G...G........  24737276
+
+Query_3  61        CTAGGACACAGAGAAAGCTGTGAGCCAGATGTCCCTTGCCGTGAGGAGGAAGTTGACTGT  120
+2        24737275  ..G.....G...C...AT........T..CACT..C...AT............GA.....  24737216
+
+Query_3  121       GGCAAAGACTTCCAGTGTGAAAATG  145
+2        24737215  ....G.......A.......C....  24737191
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 218693302810
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM034703.1 Phrynosoma platyrhinos isolate NK-2021 chromosome 2,...  152     2e-35
+  CM034713.1 Phrynosoma platyrhinos isolate NK-2021 chromosome mi...  46.4    0.002
+
+
+
+Query_4  1         GACAGTGTATAAAAACAAGATTGGTGTGCAATACAGAGGATGACTGTGGAGACATGTCTG  60
+2        24735368  ....C........G.....GGC...T..T........A....................C.  24735309
+
+Query_4  61        ATGAAGCTGATTGTGAGGACAACCGCCCTGCCCCCTGCCGGGATCGTATTCTTGACGTAT  120
+2        24735308  .......A........TAC.T.....AA..G......T..T.........A.G..T....  24735249
+14       13328897                                                  ......TT..G.  13328886
+
+Query_4  121       CAGAACTTGGAAGAATTGCTGGTCATGG  148
+2        24735248  .C....................        24735227
+14       13328885  ..........G............-....  13328859
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 224398345492
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM034703.1 Phrynosoma platyrhinos isolate NK-2021 chromosome 2,...  141     4e-32
+
+
+
+Query_5  2         ATCAACGTTCTAGGTATGAGACCACAGGCAAGCCCATTTTACAATGAGTTTTACAATGGG  61
+2        24732645  ..T...A.......A....A...................A........A...T......A  24732586
+
+Query_5  62        GTATGTGACAGAGTCCGCGATGGGAATAGTGGCATTTATTATCGCAAGCCATGGAATGTC  121
+2        24732585  A.G...A..........T...ATT..........CA.....C....TA...........T  24732526
+
+Query_5  122       GCTGTGCTAAATTATGAG  139
+2        24732525  ....CA...C........  24732508
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 207283217446
+
+
+Query= exon6
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM034703.1 Phrynosoma platyrhinos isolate NK-2021 chromosome 2,...  109     4e-22
+
+
+
+Query_6  1         ACACGAGGAGGGAAAAACTTCCGAGCTGAGTACTATGCAGATCAAGTGACAGCCCTGAAA  60
+2        24730267  ..........AC...CG.A..A....C..........AG..C..G.....TT........  24730208
+
+Query_6  61        GAAGTGCTAAGTGAAACACAGCAAACTTTTAAAAGCAGCTTATCTCTAAAAATGAATCCC  120
+2        24730207  ...A..............A....C.A....C.GTCATC.........G...C........  24730148
+
+Query_6  121       ACTGA  125
+2        24730147  .....  24730143
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 376532817012
+
+
+Query= exon7
+
+Length=224
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM034703.1 Phrynosoma platyrhinos isolate NK-2021 chromosome 2,...  279     4e-73
+
+
+
+Query_7  1         TGTTAAATCAAGCATTGAGCTAGGATCATTTATTATGCGAACACGTGATCTTCGTCTAAA  60
+2        24727959  ...........A......A......A....C.........T....C...........G.C  24727900
+
+Query_7  61        TGACTGGTTCCTTGATGACTTAAAAAATTTGCCCACTACATATGACAGGGGAGAGTATTT  120
+2        24727899  ...T.T............T......T..C.............C....A............  24727840
+
+Query_7  121       CAAATTTCTTGAAACACATGGAACTCATTATGCACGGAAGGGAACTTTTGGAGGAAAATA  180
+2        24727839  T........G......T.....................G......C..............  24727780
+
+Query_7  181       TGAACTACTATATGTATTGGACAGTGAAA  209
+2        24727779  ....T........A...............  24727751
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 368926093436
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 182561365824
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM034703.1 Phrynosoma platyrhinos isolate NK-2021 chromosome 2,...  143     2e-32
+
+
+
+Query_9  20        TTCACTCATCAATGATGTGGTCTCTATAGTTCAAGGAGGGAAGATTACTGTTTTAATCAA  79
+2        24720468  ....A.T..T..................................C.G........G.TCG  24720409
+
+Query_9  80        GTTGAAGGAACAATTGTCTAAAGGTAACAAGGTTACTAATATTGAAGACTATGTCGAATG  139
+2        24720408  CC.A........G.....G.CG.......G.A...T.G.......G.........C.G..  24720349
+
+Query_9  140       GGCAGCTACACTCCCTGATGCTCCTGTAATAATA  173
+2        24720348  ...TT....G..T..C...........TG.....  24720315
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 289055495888
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM034703.1 Phrynosoma platyrhinos isolate NK-2021 chromosome 2,...  260     1e-67
+
+
+
+Query_10  3         ATCTCCAATCTCTGACCTTGTTCCATTGAAAATGCCTGACTCTACAATAAAGAAACGAAA  62
+2         24718110  ..A............G.....A...C....G...........CGGG.........GA.T.  24718051
+
+Query_10  63        TCTTGACAGAGGAGTTGAAGACTATATTGCTGAATACAATGTGTGCAAGTGTCAGCCCTG  122
+2         24718050  ...........C...A......................G...A.....A...........  24717991
+
+Query_10  123       TCAAAATGGTGGGACTGTTCTACTGATCAATGGAAATTGCGAGTGTGGATGCACTCCTTA  182
+2         24717990  C...........A.....A..G...C.G........A.................A.....  24717931
+
+Query_10  183       TTTCAAAGGAGATGTCTGTCAGACACCCACATCAACTTTTGT  224
+2         24717930  ..........A.A.C...C....T.......A..........  24717889
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 378434497906
+
+
+Query= exon11
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM034703.1 Phrynosoma platyrhinos isolate NK-2021 chromosome 2,...  176     2e-42
+
+
+
+Query_11  1         GTCAGGTGGCCACTAATGGGGGATGGAGCTGCTGGTCTAACTGGTCTCCATGTAAAGAAG  60
+2         24715780  .......A....T.G................T......G........G.......GA...  24715721
+
+Query_11  61        GACAGCGCACTCGAACAAGACAGTGCGACAATCCTGAACCTACAGCTGGGGGAAATCCAT  120
+2         24715720  A.A.............C........TA.T.......C....G..T..........G....  24715661
+
+Query_11  121       GTGCAGGATCAAACTCAGAAATAGGCTATTGTTCTAGTGCAGAGTAA  167
+2         24715660  ..........C......C...C.AT......C...GA..A....G..  24715614
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 260530282478
+
+
+  Database: GCA_020142125.1_MUOH_PhPlat_1.1_genomic.fna
+    Posted date:  Dec 24, 2021  3:45 PM
+  Number of letters in database: 1,901,839,624
+  Number of sequences in database:  5,291
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

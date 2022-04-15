@@ -1,0 +1,426 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_009733165.1_Nana_v5_genomic.fna
+           1,897 sequences; 1,768,535,092 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019149.1 Naja naja isolate NN01 chromosome 2, whole genome sh...  107     3e-22
+
+
+
+Query_1  1          ATGTCTTCTTCTTTGATTCTTATAGGAGTTCTCTGCATTTTAGGAGCAAATGGTTTTGCT  60
+1        286384917  ......A........C...................................A..A....C  286384976
+1        286437941  .........G..G..C.....G.................................C...C  286438000
+
+Query_1  61         TCTGCAGGGAAAGCAAG  77
+1        286384977  ..A.T............  286384993
+1        286438001  ....A..A.........  286438017
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 84887043792
+
+
+Query= exon2
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019149.1 Naja naja isolate NN01 chromosome 2, whole genome sh...  125     2e-27
+
+
+
+Query_2  3          TGAAACAGGTACCTAATGCTCCAGAGCCCATTGACTGCTTGTTGACTACTTGGAGTGCTT  62
+1        286439098  .....AG..A..............CA...............C.......C...G...T..  286439157
+1        286386214          ...............................C.C.....G.C....C..A..  286386265
+
+Query_2  63         GGGGGCCATGTAGTCCATGCTCAAAAGAAAGA  94
+1        286439158  ................................  286439189
+1        286386266  ............A..........G........  286386297
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 114951205135
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019149.1 Naja naja isolate NN01 chromosome 2, whole genome sh...  187     1e-45
+
+
+
+Query_3  1          TACCGCTCAAGGAGTATTGTGAAGTTTGGACAGTTTGGAGGAAAGCCATGCACAGCAGCC  60
+1        286439792  ..............C...C.................................TT.TG...  286439851
+1        286390069   ..................A.........................G.....TTG.TT..T  286390127
+
+Query_3  61         CTGAGTGATAGAGAGCCCTGTGAGACAAAAACTCTGTGTCCAGATGAGAGAGGTCATTGT  120
+1        286439852  ..........A.C.A.............G.....CA..C..G..CA..............  286439911
+1        286390128  ............C..TA......CC..G.GGA.A.C.............A......A...  286390187
+
+Query_3  121        GGGAATCAAGAGTTTGAATGTGAAAATG  148
+1        286439912  .....G.................T....  286439939
+1        286390188  AA.GC.......................  286390215
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 208680425476
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019149.1 Naja naja isolate NN01 chromosome 2, whole genome sh...  205     4e-51
+
+
+
+Query_4  1          GATATTGTCTAAAGAATAGGTTGGTGTGTAACACAGAAGATGATTGTGGTGATTTTTCTG  60
+1        286441735  ........A.....GG..................G........C........C..C....  286441794
+1        286391146  ........A...........C....A........G........C........CGAC....  286391205
+
+Query_4  61         ATGAAGATGGTTGTGATGAAACCAAACGCCCACCCTGTCGGGATCGTGACATTGAGGTAT  120
+1        286441795  ........AA............................G................C....  286441854
+1        286391206  .....AG.AA............................G.........T.C..A..A...  286391265
+
+Query_4  121        CAGAATTGGGAAGAACAGCTGGCCAAGG  148
+1        286441855  .....C.T..............A.....  286441882
+1        286391266  .....C.T..............A.....  286391293
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 208680425476
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019149.1 Naja naja isolate NN01 chromosome 2, whole genome sh...  223     1e-56
+
+
+
+Query_5  1          TGTGAATATGCTGGGAATGAAACCGGCTCAAAAAGCACTTTACAATGAGTTCTACAATGG  60
+1        286393404  .......G...........GC...........CT...T..G.A.....A...........  286393463
+1        286443482    .....G............................C.......................  286443539
+
+Query_5  61         CATCTGTGACAGAGTCCGTGATGGGAACACAGCCACTTATTACCGCAAGCCATGGAATGT  120
+1        286393464  ...T...........T..........................................C.  286393523
+1        286443540  ............................................................  286443599
+
+Query_5  121        GGCTGTCCTCAATTATGA  138
+1        286393524  ..................  286393541
+1        286443600  A...T......G......  286443617
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 192764121838
+
+
+Query= exon6
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019149.1 Naja naja isolate NN01 chromosome 2, whole genome sh...  277     1e-72
+
+
+
+Query_6  1          ACAAGAGCAGACAAAAAATTTACAAGTGAATTCTACAGCGACCAAGGAACAACAATGACA  60
+1        286445328  .......G..............................T..........A.......GA.  286445387
+1        286395289  .......G.......CGC....................T..A...TTG..........A.  286395348
+
+Query_6  61         AAAATAATCAGTACAGAATCACAATCTCTTGATGTGAGCTGGTCTCTTCAACTGAAATCA  120
+1        286445388  ...............A.......C.....A..........TC........G.....GC.G  286445447
+1        286395349  ......T...AA...A.......G...T.........A.CTT...G..A........C.G  286395408
+
+Query_6  121        ACTTCGTTCCCTGCATCCGGTGGTGTTGAGGGAGGTGTAAATTTTGCCAAATCATCAAGT  180
+1        286445448  C...T........T...A......T.....AC...C....................C..C  286445507
+1        286395409  ...GA..C.AA..T...A.C.AC.....G......CT.C...A...G.........C.AC  286395468
+
+Query_6  181        CTGAGTGACTTCTTAGAGAAAACCAAAGGAAAG  213
+1        286445508  .................................  286445540
+1        286395469  A.......AC.A..GA.AG.T..........    286395499
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 323631507306
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SOZL01000598.1 Naja naja isolate NN01 ScVE01q_601;HRSCAF=696, w...  324     1e-86
+  CM019149.1 Naja naja isolate NN01 chromosome 2, whole genome sh...  306     3e-81
+  CM019150.1 Naja naja isolate NN01 chromosome 3, whole genome sh...  46.4    0.004
+
+
+
+Query_7  1          AGTTATGTATATTTACATGTCAAATCTAATATACAACTGGGAACTTTCCAATTACGAAAA  60
+1461     2523       ........G.T............T.............................G......  2582
+1        286399553           ..................G..........A............A.G......  286399603
+1        286449863  ........G.T............T.............................-.....-  286449920
+
+Query_7  61         CGCAATTTGCGCTTGAGTGAGACATTTTTGGAAGATCTAAAGCTTTTGCCCAGTAGCTAT  120
+1461     2583       ..T.......................CC.T...........TA.G..........C....  2642
+1        286399604  ..TG......................CC.......CA.....T.......A....A....  286399663
+1        286449921  ..T.......--..............CC.T...........TA.G..........C....  286449978
+2        186245452       .....-...........AC............T...T...........          186245502
+                                                  \                             
+                                                  |                             
+                                              AATGA
+
+Query_7  121        GAGAAGGGAGAGTATTTTACATTTCTGGAAACATATGGAACTCATTATTCACATAGAGGA  180
+1461     2643       ...............................TG...................GG......  2702
+1        286399664  ...................A......T.......T..................G.....G  286399723
+1        286449979  ...............................TG....................G......  286450038
+
+Query_7  181        ATCATTGGCGGAAAATATGAACTAATATATGTGTTGGATAACCAAACTATGACAACA  237
+1461     2703       .C......A............T.......C...C.........G..........T..  2759
+1        286399724  .C......A...........G.....C...A.A.....C.........           286399771
+1        286450039  .C......A............T.......C...C.........G..........T..  286450095
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 373148896402
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM019149.1 Naja naja isolate NN01 chromosome 2, whole genome sh...  123     9e-27
+  SOZL01000598.1 Naja naja isolate NN01 ScVE01q_601;HRSCAF=696, w...  113     2e-23
+
+
+
+Query_8  4          TCACTACAAAAGAAGTAAATGAATGCCTAGGCTTTAATTTAGATATTGGTGCCAATATAA  63
+1        286451758  .............T...........................A......AG.....A...T  286451817
+1        286402520        ..G....G.....C......................                    286402555
+1461     4416       .............C...........................A......AG.....A...T  4475
+
+Query_8  64         TGTTCATAGAAGCCAATACAAAGGTTAAACGTGAAAAATGTAAAAATGAAAAGTTGGAAA  123
+1        286451818  .T...GC.....T...A..G...A.....AA..............GGTT.C...C.....  286451877
+1461     4476       .T...--.....T...AG.G...A.....-A..............GGTT.C...C.....  4532
+
+Query_8  124        A  124
+1        286451878  .  286451878
+1461     4533       .  4533
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 171542567663
+
+
+Query= exon9
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SOZL01000598.1 Naja naja isolate NN01 ScVE01q_601;HRSCAF=696, w...  206     1e-51
+  CM019149.1 Naja naja isolate NN01 chromosome 2, whole genome sh...  203     2e-50
+
+
+
+Query_9  1          GTTCTACTGATGACAAGAGTGGAATTATCCAAGATGTAGTCTCCTTAATTCAAGGTGGGA  60
+1461     7774       .....G.GA....A..A.AA..C...........A...A....TC.G...........A.  7833
+1        286453433  .....G.GA....A..A.AA..C...........A...A....TC.G...........A.  286453492
+1        286405582           ....A.........G......G............TC.G.............  286405633
+                                     \                                          
+                                     |                                          
+                                     G
+
+Query_9  61         CAACAGCCACTTTAACAAAGTTGAATGAATTGCTTTCTTCAAATGTCAAGGCCGTTGATG  120
+1461     7834       .......T.....................A...................TT.A.......  7893
+1        286453493  .......T.....................A...................TT.A.....C.  286453552
+1        286405634  .......T..C.C......A.....A...........A...........TCTA.......  286405693
+
+Query_9  121        TAGAACAGTATGTTGAATGGGCTGCTACACTACCTCAGGCTCCTACAGTGATCAGTCAAG  180
+1461     7894       .C...........................T.......A......G.T......CAA....  7953
+1        286453553  .C...........................T.......A......G.T......CAA....  286453612
+1        286405694  .G.....C.....C.......................A......GT......A..A....  286405753
+
+Query_9  181        AG  182
+1461     7954       ..  7955
+1        286453613  ..  286453614
+1        286405754  ..  286405755
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 268808683664
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SOZL01000598.1 Naja naja isolate NN01 ScVE01q_601;HRSCAF=696, w...  316     1e-84
+  CM019149.1 Naja naja isolate NN01 chromosome 2, whole genome sh...  309     2e-82
+
+
+
+Query_10  2          TGTCCCCAATTTCCGAACTTATCCCACTGAATATCCCAGACTCCCGATTAAAGAAAGAAA  61
+1461      9192       ..G....G.....T.................................A.........T..  9251
+1         286407003     ....G.....G......G.A..G.....A...............A.........T..  286407059
+1         286454865  ..G....G.....T.................................A.........T..  286454924
+
+Query_10  62         ATCTGAACAGAGCTGCAGAAGATTATGTGGCTGAATACAGCGTATGCAAATGTCGGCCTT  121
+1461      9252       .....G.........T...G.....C..........................CAAA....  9311
+1         286407060  .....G.........T...G................................CAAA....  286407119
+1         286454925  .....G.........T...G.....C..............T...........CAAA....  286454984
+
+Query_10  122        GTTTACATGGTGGAACAGCAATGCTGATAGAAGGAAAGTGTGAATGTGCCTGCACTCCAT  181
+1461      9312       ..C.............G..G..............G.........................  9371
+1         286407120  .CC..........G..G.................G.....................T...  286407179
+1         286454985  ..C.............G..G..............G.........................  286455044
+
+Query_10  182        TTTACAAGGGAGAAGCCTGTGAAATACCTGCTTCAACTTTCATACCAG  229
+1461      9372       ............................C......GA...G.......  9419
+1         286407180  .............C..............CAAG....G........A..  286407227
+1         286455045  ............................-......GA...G.......  286455091
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 351927158218
+
+
+Query= exon11
+
+Length=155
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SOZL01000598.1 Naja naja isolate NN01 ScVE01q_601;HRSCAF=696, w...  226     1e-57
+  CM019149.1 Naja naja isolate NN01 chromosome 2, whole genome sh...  226     1e-57
+  CM019150.1 Naja naja isolate NN01 chromosome 3, whole genome sh...  44.6    0.008
+
+
+
+Query_11  1          CTGAAACAGCCATTCATGGGAGCTGGAGCTGCTGGTCTAGCTGGTCCACCTGTCAGCAAG  60
+1461      10330      ....T..................................A.........T..........  10389
+1         286455999  ....T..................................A.........T..........  286456058
+1         286408798  .......T......G............A...................G.G......A.TA  286408857
+2         71190172                  ....A.A...............C......A....             71190139
+
+Query_11  61         GACAACGCCGGCGAACAAGAAAATGTGATAATCCTGTCCCTGGATTTAGGGGCAAGTCAT  120
+1461      10390      ...G.....A................A........AG........A........G.....  10449
+1         286456059  ...G.....A................A........AG........A........G.....  286456118
+1         286408858  ..A....T.A...G......G.G...A.........CA.......A.GAT.....A....  286408917
+
+Query_11  121        GTCCTGGAGCAAACTTAGAACCAGGCTATTGTTAA  155
+1461      10450      .......CA..........................  10484
+1         286456119  .......CA..........................  286456153
+1         286408918  ........A...GTG......A..A.C........  286408952
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 221059772750
+
+
+  Database: GCA_009733165.1_Nana_v5_genomic.fna
+    Posted date:  Dec 24, 2021  3:56 PM
+  Number of letters in database: 1,768,535,092
+  Number of sequences in database:  1,897
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

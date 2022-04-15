@@ -1,0 +1,267 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003118565.2_Ppicta_v2.0_genomic.fna
+           4,871 sequences; 1,562,175,643 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 76539923495
+
+
+Query= exon2
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101532234960
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 184319482534
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BDOT02000007.1 Paroedura picta DNA, hic_parpi00000007, whole ge...  75.2    4e-12
+  BDOT02000002.1 Paroedura picta DNA, hic_parpi00000002, whole ge...  50.0    2e-04
+  BDOT02000016.1 Paroedura picta DNA, hic_parpi00000016, whole ge...  46.4    0.002
+
+
+
+Query_4  12        AAGAATAGGCTGGTATGTAACACAGAAAATGACTGTGGTGACTTTTCTGATGAAGATAAT  71
+6        87331784  .....-..AT....G.....T.....C...........A..T.CC...............  87331842
+1        44900904                           .......T.........AA............A...  44900938
+
+Query_4  72        TGTGATGAAATCAAACGCTCTCCCTGTGGGGATCGTGACATTGATGAATCAGAACTTGGA  131
+6        87331843  ...A.C..C.C.......C.G......C.T.G...---....CT..T....A..A.....  87331906
+                                  \                              \          \  
+                                  |                              |          |  
+                                CCC                            GCA          G
+1        44900939  ..                                                            44900940
+15       25094031                                              ....A......C....  25094016
+
+Query_4  132       AGAACAGCTGGACA  145
+6        87331907  ....-......     87331916
+15       25094015  ..............  25094002
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 184319482534
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 171823782240
+
+
+Query= exon6
+
+Length=213
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 285851400879
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BDOT02000007.1 Paroedura picta DNA, hic_parpi00000007, whole ge...  105     4e-21
+
+
+
+Query_7  32        TACAACTGGGAACTTTCCAAATGCGAAAACGTGATTTGCGCTTGAGTGAGACTTTCCTGG  91
+6        87337666  ..G..G.......A.A.AT.........C.....CA....GC...C..GAG.G.....T.  87337725
+
+Query_7  92        AAGAGCTAAAGGTTTTGCCAAGTACCTATGAGAAGGGAGAGTATTTTAAATTTCTGGAAA  151
+6        87337726  ....TT....ACA.C....C..CGA......C.T......A.....C.GG..........  87337785
+
+Query_7  152       CATATGGAACTCATTACTCACATAGAGGAATCATTGGCGGACAATATGAGCTACTATATG  211
+6        87337786  .G..C..G........TG.CG.A.AG....AGG.C..A...AT......A..........  87337845
+
+Query_7  212       TGTTGGATAACCA  224
+6        87337846  ..C....C..G..  87337858
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 329588227243
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 151517335248
+
+
+Query= exon9
+
+Length=182
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 237428485976
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 310843873087
+
+
+Query= exon11
+
+Length=155
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195253689125
+
+
+  Database: GCA_003118565.2_Ppicta_v2.0_genomic.fna
+    Posted date:  Dec 24, 2021  5:30 PM
+  Number of letters in database: 1,562,175,643
+  Number of sequences in database:  4,871
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
