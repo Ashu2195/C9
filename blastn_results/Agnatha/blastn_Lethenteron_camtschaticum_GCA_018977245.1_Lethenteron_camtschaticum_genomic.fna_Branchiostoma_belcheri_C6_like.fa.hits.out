@@ -1,0 +1,328 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_018977245.1_Lethenteron_camtschaticum_genomic.fna
+           3,553 sequences; 1,074,727,531 total letters
+
+
+
+Query= exon1
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MU249598.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  51.8    4e-05
+  MU249631.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  48.2    5e-04
+  WFAB01002646.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  46.4    0.002
+  WFAB01002465.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  46.4    0.002
+  WFAB01002319.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  46.4    0.002
+  WFAB01002138.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  46.4    0.002
+  WFAB01001332.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  46.4    0.002
+  WFAB01001819.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  44.6    0.006
+  MU249592.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  44.6    0.006
+
+
+
+Query_1  20       TGCTGGTGTTGTTTGCGGTGGTGGCGGTCCTGGCCGTGCCGTCTGAGGGCTTGTGGCGGC  79
+25       8886513  ..G.....G..G.G..............GG....G...GT..T..T...G.........T  8886453
+                                                                  \           
+                                                                  |           
+                                                                  T
+58       317259      .....G..G.G..............GG....G...GT.G.G.T..--.G....T...  317313
+58       4479003      ....G..G.G.............--....TG...G..G...C..TG.G........  4478950
+1488     27812    ..A..........G..............GG....G...                        27849
+1309     16500    ..A..........G..............GG....G...                        16537
+1163     6828     ..G..........G..............GG....G...                        6865
+985      18018    ..G..........G..............G....                             18050
+301      103012   ..G..........G..............GG....G...                        102975
+686      14227    ..G..........G..............GG....                            14194
+
+Query_1  80       GGCGCAGGAGGAGACGTGCCCCGCCGCCGCCTCCTCCACCCGTCCAC  126
+25       8886452  ....                                             8886449
+58       317314   ........                                         317321
+58       4478949  ..                                               4478948
+19       6329565                    ...................T..T......  6329537
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 148298180172
+
+
+Query= exon2
+
+Length=181
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 163342923088
+
+
+Query= exon3
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124656441304
+
+
+Query= exon4
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MU249613.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  50.0    1e-04
+
+
+
+Query_4  33       GGCGATAACGACTGCGGAGACTTCTCCGACGAGCGGCGGTGTGA  76
+40       2246588  .....................AA...T.......T......A..  2246633
+                                                    \         
+                                                    |         
+                                                   AG
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124656441304
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118208694340
+
+
+Query= exon6
+
+Length=214
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197730253144
+
+
+Query= exon7
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 95641579966
+
+
+Query= exon8
+
+Length=104
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 80596837050
+
+
+Query= exon9
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101014702436
+
+
+Query= exon10
+
+Length=158
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 138626559726
+
+
+Query= exon11
+
+Length=226
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 210625704436
+
+
+Query= exon12
+
+Length=180
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 162268298594
+
+
+Query= exon13
+
+Length=165
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 146148931184
+
+
+Query= exon14
+
+Length=587
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 597487267728
+
+
+  Database: GCA_018977245.1_Lethenteron_camtschaticum_genomic.fna
+    Posted date:  Nov 25, 2021  11:39 AM
+  Number of letters in database: 1,074,727,531
+  Number of sequences in database:  3,553
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

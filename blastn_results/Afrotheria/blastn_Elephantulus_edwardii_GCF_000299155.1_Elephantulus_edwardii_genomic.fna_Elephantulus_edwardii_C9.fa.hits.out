@@ -1,0 +1,347 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000299155.1_Elephantulus_edwardii_genomic.fna
+           8,768 sequences; 3,843,982,861 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006399829.1 Elephantulus edwardii isolate Elephantulus edwar...  140     1e-31
+
+
+
+Query_1  1        ATGTGGCCTGGCTGGTGGTCTGCCTTTGTGATATGCATTTTACAAATAAAGCTCCTGGCA  60
+78       4038472  ............................................................  4038413
+
+Query_1  61       GCAGGGCCCACTCCAAG  77
+78       4038412  .................  4038396
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 180654831587
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006399829.1 Elephantulus edwardii isolate Elephantulus edwar...  192     3e-47
+
+
+
+Query_2  1        TTATGCTTTGGAGCCAGTACAAGAGAATGGGACTCCATCTCCTGTAGACTGCAGAATGAG  60
+78       3999635  ............................................................  3999576
+
+Query_2  61       CCCCTGGAGTGAATGGTCACAGTGTTACCCTTGCCTCAAACAACAG  106
+78       3999575  ..............................................  3999530
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 292122706396
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006399829.1 Elephantulus edwardii isolate Elephantulus edwar...  262     3e-68
+
+
+
+Query_3  1        TTCCGCTCAAGGAGCATCGAGGCCTTCGGACAATTCAACGGGGAAGCCTGCCATAATTCA  60
+78       3996880  ............................................................  3996821
+
+Query_3  61       GTGGGAGACCGCCAGCACTGTTCACCTGCTGGGCCCTGTGAAGAAGCTGAGGATGACTGT  120
+78       3996820  ............................................................  3996761
+
+Query_3  121      AGGAGTGGCTTTCGATGTGACACAG  145
+78       3996760  .........................  3996736
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 438183060042
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006399829.1 Elephantulus edwardii isolate Elephantulus edwar...  268     8e-70
+  NW_006399755.1 Elephantulus edwardii isolate Elephantulus edwar...  53.6    3e-05
+  NW_006399760.1 Elephantulus edwardii isolate Elephantulus edwar...  48.2    0.001
+
+
+
+Query_4  1         GAAGGTGCATAAATCTCAAGCTCCAGTGTAATGGTGACAATGACTGTGGAGACTTTTCAG  60
+78       3995855   ............................................................  3995796
+4        15419055    .....T.....C.G..GA..T.TT..C.....A..................C.A....  15418998
+9        5134364                             ...........A...............AA...T.  5134331
+
+Query_4  61        ACGAAGATAATTGTGACAATGATCCTCGTCCTCCCTGCCGTGACAGACAGGCAGAAGAGT  120
+78       3995795   ............................................................  3995736
+4        15418997  .T..                                                          15418994
+9        5134330   .T...                                                         5134326
+
+Query_4  121       CTGAAATGGCACGAACTGCAGGCTATGG  148
+78       3995735   ............................  3995708
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 449714193201
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006399829.1 Elephantulus edwardii isolate Elephantulus edwar...  251     6e-65
+
+
+
+Query_5  1        GATCAACATCTTAGGAATGGATCCCCTAAGCACACCTTTTGACAATGAGTTCTTCAATGG  60
+78       3979993  ............................................................  3979934
+
+Query_5  61       CTTCTGTGACCGAGTTCGGGATGGAAACACCTTGACATACTACCGCAAACCCTGGAATGT  120
+78       3979933  ............................................................  3979874
+
+Query_5  121      GGCTTATTTGGGCTTTGAT  139
+78       3979873  ...................  3979855
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 415120793724
+
+
+Query= exon6
+
+Length=270
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006399829.1 Elephantulus edwardii isolate Elephantulus edwar...  488     1e-135
+
+
+
+Query_6  1        GTGAAAGCTGATAAACATTTCAGAACTGAGCATTTTGAAGAACAGACTCAAGCATTCCAA  60
+78       3976340  ............................................................  3976281
+
+Query_6  61       AGTATCATCCAAGAGAAGACATCAACTTTCAAAGCAGAAATCTCTCTAAAATTTGTACCT  120
+78       3976280  ............................................................  3976221
+
+Query_6  121      ACGGAAACTTTTAAAGAATATAAATCTGCACTTGGATTAAGTCCTACTGGAGGACCCATT  180
+78       3976220  ............................................................  3976161
+
+Query_6  181      CCAAATCCTATTGATATCACGGCTGGGTCTAGTTTTACCTACTTCAAAAAGGAAGCTTAC  240
+78       3976160  ............................................................  3976101
+
+Query_6  241      CAGCAATTTTTGTCCTATTTTTCAAAAAAG  270
+78       3976100  ..............................  3976071
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 914801143830
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006399829.1 Elephantulus edwardii isolate Elephantulus edwar...  435     5e-120
+
+
+
+Query_7  1        GAAAAAATGTTTCTGCATGTGAAAGGAGAAATTCAGACTGGAAAATTTGTGATGAGAAAT  60
+78       3969615  ............................................................  3969556
+
+Query_7  61       CGCAATGTCATGCTGACAATGACTTTCGTGGATGACATAAAAGCTCTGCCCATCAACTAC  120
+78       3969555  ............................................................  3969496
+
+Query_7  121      GAAAAGGGGGAATATTATGCCTTTCTGGAAACCTATGGAACACACTACAGTAGCTCTGGG  180
+78       3969495  ............................................................  3969436
+
+Query_7  181      TCTCTAGGAGGACTCTATGAACTAATCTATGTTTTGGATAAAACTGCTATGAAGAAGAAA  240
+78       3969435  ............................................................  3969376
+
+Query_7  241      G  241
+78       3969375  .  3969375
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 807179321130
+
+
+Query= exon8
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006399829.1 Elephantulus edwardii isolate Elephantulus edwar...  244     8e-63
+  NW_006399794.1 Elephantulus edwardii isolate Elephantulus edwar...  46.4    0.004
+
+
+
+Query_8  1        GTATTGAACTAAAAGATGTACAGAGATGCGTCGGATTTAATGCACAGTTTTCTGTTGATG  60
+78       3964642  ............................................................  3964583
+43       7301933                                             .................  7301949
+
+Query_8  61       TTGCAATTTTTGGAACGGAATTGAAAGGAAACGTTGATAGCAATGATTGTTTGAAGAGGG  120
+78       3964582  ............................................................  3964523
+43       7301950  ..C.............                                              7301968
+                       \                                                      
+                       |                                                      
+                     GTC
+
+Query_8  121      GTGAAGGTGGCATTG  135
+78       3964522  ...............  3964508
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 399745949512
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006399829.1 Elephantulus edwardii isolate Elephantulus edwar...  324     2e-86
+  NW_006399886.1 Elephantulus edwardii isolate Elephantulus edwar...  46.4    0.006
+
+
+
+Query_9  1        TAAACATCACGAGTGATAACATCATAGATGATGTTATTTCATTCATAAGAGGAGGGACCA  60
+78       3961309  ............................................................  3961250
+135      6447595              ......T...T...C......A.............               6447629
+
+Query_9  61       GAAAACATGCACTTCAAATAAAAGAAAAGCTTGCCAGAGGAGCCAAGACGATTGATGTGG  120
+78       3961249  ............................................................  3961190
+
+Query_9  121      CTGACTTTGTAAACTGGGCCGGTTCACTGAATGATGCTCCAGTGCTCATAAACCAAAAA  179
+78       3961189  ...........................................................  3961131
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 568869235844
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006399829.1 Elephantulus edwardii isolate Elephantulus edwar...  412     5e-113
+
+
+
+Query_10  1        CTGTCTCCTATCTATAATCTGGTTCCAGTGGATATGAAAGATTCATATCAAAAGAAACAA  60
+78        3944849  ............................................................  3944790
+
+Query_10  61       AACTTGGAGCGATCCATTGAAGAATATATCAATGAATTCAATGTCAAAAAATGCCACCCA  120
+78        3944789  ............................................................  3944730
+
+Query_10  121      TGCCAAAATGGAGGTACTGTGATACTGATGGATGGAAGATGTGTGTGCTCCTGCCCAATA  180
+78        3944729  ............................................................  3944670
+
+Query_10  181      GGAACTGAAGGCATTGCCTGTGAATTTAACAAACTGAGGATCTCCTAA  228
+78        3944669  ................................................  3944622
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 757211077441
+
+
+  Database: GCF_000299155.1_Elephantulus_edwardii_genomic.fna
+    Posted date:  Nov 24, 2021  3:34 PM
+  Number of letters in database: 3,843,982,861
+  Number of sequences in database:  8,768
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,329 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000313985.2_Echinops_telfairi_genomic.fna
+           7,490 sequences; 2,947,119,619 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_022111373.1 Echinops telfairi isolate 266 unplaced genomic s...  62.6    2e-08
+
+
+
+Query_1  1          ATGTCAGCCAGCGGGAGGTTTGCCTTTGTGATATGCATTTTACAAATAAATGTCCTGGTA  60
+7477     111649197  .....T...G.....GC.G.....A.C.CA......G............G.A......C.  111649256
+
+Query_1  61         GCAAATTCTACTCCAAG  77
+7477     111649257  ...C.G....T..T...  111649273
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 141451315632
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_022111373.1 Echinops telfairi isolate 266 unplaced genomic s...  104     1e-20
+
+
+
+Query_2  2          TACTCCCAGCAGACAGTGCAAGGGAGTGGCGCTCCATCTCCCATAGACTGCAGAATGAGC  61
+7477     111664148  .........-.....A.A.....A.....GA.C.TG..CT....................  111664207
+                          \                                                     
+                          |                                                     
+                          T
+
+Query_2  62         ACCTGGAGTGAATGGTCGCAATGTGACCCTTGCCTCAAACAAA  104
+7477     111664208  GA......C........A.C.......................  111664250
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 223964013844
+
+
+Query= exon3
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 338892915685
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_022111373.1 Echinops telfairi isolate 266 unplaced genomic s...  199     3e-49
+
+
+
+Query_4  1          GCAGGTGCATAAAGAGGCAGCTCCTGTGTAATGGTGACAATGACTGCGGAGACTTTTCAG  60
+7477     111665639  ................A.G...G........C.....A....................G.  111665698
+
+Query_4  61         ACGAAGATGATTGTGAAAACGATCCCCGTCTCCCGTGCCGTGACAGAGTGGTGGAAGAGT  120
+7477     111665699  .T..G.................C.......C...T....................G....  111665758
+
+Query_4  121        CTGAGCTGGCACGAACAGCGGGCTATGG  148
+7477     111665759  .............C.....A....C...  111665786
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 347733600442
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_022111373.1 Echinops telfairi isolate 266 unplaced genomic s...  165     5e-39
+
+
+
+Query_5  1          GATCAACATTTTAGGGATGGATCCCCTAAGTACTCCTTTTGACAATGAGTTCTACAATGG  60
+7477     111677638  ............G..A.....G.....G.AC.G......C....................  111677697
+
+Query_5  61         CCTCTGTGACCGGGTTCGAGATGGAAACACCTTGACATACTACCGCAGACCCTGGAATGT  120
+7477     111677698  .......AC......CA.G........T........G.....T........T........  111677757
+
+Query_5  121        GGCTTCTTTGGCCTATGAA  139
+7477     111677758  ...AA..............  111677776
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 321211546171
+
+
+Query= exon6
+
+Length=264
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_022111373.1 Echinops telfairi isolate 266 unplaced genomic s...  145     1e-32
+
+
+
+Query_6  1          GTCAAAGCTGATAAAAATTTCCGAACCGAGCATTTTGAAGAACAGTTTCAAGCATTCACA  60
+7477     111680572  ....G.........G......A.......A..............A.A......T......  111680631
+
+Query_6  61         GGTATCATCCAAGAGAAGACATCAACTTTTAATGCAGATTTCTCTCTAAAATTCACACCC  120
+7477     111680632  AC......G.....T...G.CA.CT....C.........................TG...  111680691
+
+Query_6  121        GTTGAAGCTAACAAGAAAGTTGAAGATAAACCTAAAGAAGATGCTAATGGAAGATCCCAA  180
+7477     111680692  AC....AT..--CT.....--.C....C...........C.G..........          111680743
+                                              \                                 
+                                              |                                 
+                                           CAAG
+7477     111680822                                                         ...C.  111680826
+
+Query_6  181        AATCATAAAAGGGAGGGTAGCTTTCGGTTTAGTTATCTCAAACATGAAACTTACCAACAA  240
+7477     111680827  .G......CC.T...A.C......AA.C...A....GC....AC....G.A....G..G.  111680889
+                                       \                                        
+                                       |                                        
+                                     TTC
+
+Query_6  241        CTCTTGTCATATTCTTCAC  259
+7477     111680890  T....A.............  111680908
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 686624770957
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_022111373.1 Echinops telfairi isolate 266 unplaced genomic s...  306     5e-81
+
+
+
+Query_7  1          GAAAAAATGTTTCTGCATGTGAAAGGAATGATTCAGCTGGGAAGATTTATGATGAGAAAT  60
+7477     111684711  ..G........C................CAG....TA.A.........T...........  111684770
+
+Query_7  61         CGGGGTGTCATGCTGACAACAACTTTTGTGGATGATATAAAATCTCTGCCAAGTAACTAT  120
+7477     111684771  ....A.........AT..........CT.......CG.....G.........C..G....  111684830
+
+Query_7  121        GATAAGGGGGAATATTTCGCATTTTTGGAAACCTATGGAACTCACTACAGTAGCTCTGGG  180
+7477     111684831  ..A......................................G..................  111684890
+
+Query_7  181        TCTCTAGGGGGACTCTATGAACTAATATATGTTTTGAATAAAGCATCCATGAAGGAAAA  239
+7477     111684891  ...T..........T......T..G...........G.......G...........G..  111684949
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 618846360090
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_022111373.1 Echinops telfairi isolate 266 unplaced genomic s...  113     3e-23
+
+
+
+Query_8  4          TTGAACTAAAAGATATACAGAAATGCCTTGGGTTTGATCTGGATTTGTCCATAAACGTTG  63
+7477     111687821  ................................C..A.......C..T..T.....T....  111687880
+
+Query_8  64         GAGCTGAATTCACGGGAAAAATTAAGAAAAATGATTGTTTAAAGAGG  110
+7477     111687881  .G......C....A...C.CC..G.T..G.CG.....C.........  111687927
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 282901912224
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_022111373.1 Echinops telfairi isolate 266 unplaced genomic s...  95.1    1e-17
+
+
+
+Query_9  24         ATAGATGACGTCATTTCACTGATACGAGGAGGAACCAGAAAATACGCATTTGAACTGAAA  83
+7477     111690684  .....A..T..T.....CT.CG..A.......G.......C..TT...CCCA.G.GA...  111690743
+7477     111691876  .....A..T..T.....CT.CG..A.......G.......C..TT...CCCA.G.GA...  111691935
+
+Query_9  84         GAAAAGCTTCTCAAAGGAGCCAAGACGGTTGATGTGACTGACTTTGTAAACTGGGCTGAT  143
+7477     111690744  .....C.G..G....A..T.T..CG.C...........C.....CA....T.....CA..  111690803
+7477     111691936  .....C.G..G....A..T.T..CG.C...........C.....CA....T.....CA..  111691995
+
+Query_9  144        TCCCTAAATGATGCTCCAGTGCTCATAAACCAAAA  178
+7477     111690804  ..AT...G.........T.CT.....G........  111690838
+7477     111691996  ..AT...G.........T.CT.....G........  111692030
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 436139339492
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_022111373.1 Echinops telfairi isolate 266 unplaced genomic s...  208     9e-52
+
+
+
+Query_10  1          CTGTCTCCTATATATAATCTGGTTCCAGTGAAAATAAAAGATGCACACCTAAAGAAACAA  60
+7477      111704456  .....................A.............G..G.....G....A..........  111704515
+
+Query_10  61         AATTTGGAACGCGCCATTGAAGACTATGTCAATGAATTCAGTGTAAGAAAATGCCACCCA  120
+7477      111704516  ............T.T..A.....T...AC...C..G........GC.C..G....G....  111704575
+
+Query_10  121        TGCCAAAATGGAGGTACTGTGATACTGTTGGATGGACAATGTTTGTGTACCTGCCCAATT  180
+7477      111704576  .....C.....T..G..A..CG.C...C..A.C..G......C....C.........C.G  111704635
+
+Query_10  181        TCATTTGAAGGACTTGCCTGTGAAA  205
+7477      111704636  G.....AG.................  111704660
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 580536823513
+
+
+  Database: GCF_000313985.2_Echinops_telfairi_genomic.fna
+    Posted date:  Nov 24, 2021  3:33 PM
+  Number of letters in database: 2,947,119,619
+  Number of sequences in database:  7,490
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,576 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_900186335.2_Eptatretus_burgeri_genomic.fna
+           10,846 sequences; 2,608,383,542 total letters
+
+
+
+Query= exon1
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 299926688630
+
+
+Query= exon2
+
+Length=142
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 292102514144
+
+
+Query= exon3
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 284278339658
+
+
+Query= exon4
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  FYBX02010502.1 Eptatretus burgeri genome assembly, contig: ScVl...  55.4    2e-06
+  FYBX02010142.1 Eptatretus burgeri genome assembly, contig: ScVl...  55.4    2e-06
+  FYBX02010075.1 Eptatretus burgeri genome assembly, contig: ScVl...  55.4    2e-06
+  FYBX02009032.1 Eptatretus burgeri genome assembly, contig: ScVl...  55.4    2e-06
+  FYBX02008222.1 Eptatretus burgeri genome assembly, contig: ScVl...  55.4    2e-06
+  FYBX02006426.1 Eptatretus burgeri genome assembly, contig: ScVl...  55.4    2e-06
+  FYBX02009581.1 Eptatretus burgeri genome assembly, contig: ScVl...  53.6    7e-06
+  FYBX02010842.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010841.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010759.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010713.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010630.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010627.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010598.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010571.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010543.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010530.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010517.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010451.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010432.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010285.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010281.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010179.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010092.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010086.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010062.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010045.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010009.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02009908.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02009905.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02009601.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02009482.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02009422.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02008949.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02004138.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    2e-05
+  FYBX02010574.1 Eptatretus burgeri genome assembly, contig: ScVl...  50.0    8e-05
+  FYBX02010094.1 Eptatretus burgeri genome assembly, contig: ScVl...  50.0    8e-05
+  FYBX02000161.1 Eptatretus burgeri genome assembly, contig: ScVl...  50.0    8e-05
+  FYBX02010727.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02010665.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02010582.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02010506.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02010443.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02010293.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02010277.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02010164.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02010051.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02010020.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02009990.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02009984.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02009790.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02009686.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02009683.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02009607.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02009492.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02009460.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02006081.1 Eptatretus burgeri genome assembly, contig: ScVl...  48.2    3e-04
+  FYBX02010718.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010644.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010633.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010557.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010546.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010533.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010514.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010442.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010380.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010350.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010310.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010140.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010127.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02009971.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02009965.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02009883.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02009855.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02009854.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02008538.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02007601.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02007140.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02007077.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02006969.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02006014.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02000119.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.001
+  FYBX02010806.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02010765.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02010600.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02010406.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02010340.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02010168.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02010007.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02009901.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02009516.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02009513.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02009391.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02007779.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02007566.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02007166.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+  FYBX02000164.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.003
+
+
+
+Query_4  5         ACAGGTCTagagagagagagagagagaAAGAGTGTGAGATTAACTT  50
+10501    615431            ....................C............       615399
+10141    531619            ..............................          531590
+10074    125600            ...................T............C..     125566
+9031     5655500           ...................G....A.A...........  5655537
+8221     5706269           ...................G.............       5706237
+6425     407357            ...................G.............       407325
+9580     3998863            .................T..............       3998894
+10841    671141            ...................G.A...........       671109
+10840    507495            ...................G...........         507525
+10758    1450571           .............A....C..............       1450539
+10712    2221867           ...................G...........         2221837
+10629    644999            ..................GG.............       644967
+10626    3467592           ...................G...........         3467622
+10597    1423582           ...................G...........         1423612
+10570    6759859           ...................G...........         6759889
+10570    5136259              ................G...........         5136232
+10542    409273            ...................G...........         409243
+10542    409599            ...................G...........         409569
+10542    409709            ...................G...........         409679
+10542    409819            ...................G...........         409789
+10542    409929            ...................G...........         409899
+10542    410039            ...................G...........         410009
+10542    410149            ...................G...........         410119
+10542    410259            ...................G...........         410229
+10542    410476            ...................G...........         410446
+10542    410585            ...................G...........         410555
+10542    410695            ...................G...........         410665
+10542    410805            ...................G...........         410775
+10542    410915            ...................G...........         410885
+10542    411025            ...................G...........         410995
+10542    411135            ...................G...........         411105
+10542    411245            ...................G...........         411215
+10542    410369            ...................G...........         410338
+                                    \                            
+                                    |                            
+                                    A
+10529    1011965            ........A........TG.............       1011934
+10529    2833843           ...................G...........         2833873
+10529    2266702           ............C......G...........         2266732
+10516    2621867           ......T.......T....G...........G...     2621901
+10516    2606926           ...................G...........         2606956
+10516    2596779            ..................G...........         2596808
+10450    105758            ...................G...........         105788
+10431    1243238           ...................G...........         1243208
+10284    4448499           ...................G...........         4448469
+10284    1895623               ..............TG.............       1895651
+10280    944634            ...................G...........         944604
+10178    517722            ...................G...........         517752
+10091    573618            ...................G...........         573588
+10085    683679            ..................TC.............       683711
+10061    620706            ...................G...........         620736
+10061    605519             .........T........G...........         605548
+10061    603125                .............A.............         603151
+10044    5247748           ...................G...........         5247718
+10008    120700            ...................G...........         120730
+9907     7611071           ...............T..TG.............       7611039
+9907     13826534          ...................G...........         13826564
+9904     153307            ...................G...........         153337
+9600     2061637           ...................G...........         2061667
+9600     2061726           ...................G...........         2061756
+9600     2062866           ...................G...........         2062896
+9600     2064085           ...................G...........         2064115
+9600     2061375           ...............A...G...........         2061405
+9481     1516069           ...................G...........         1516039
+9421     2486669           ......G............G.............       2486701
+9421     2462346             ........G........G.............       2462376
+8948     4877964           ...................T.T...........       4877996
+4137     4                 ...................G...........         34
+4137     40                  ..T..............G...........         68
+10573    1886208           ...................TT...........        1886177
+10093    375182             ................................       375149
+                                               \                 
+                                               |                 
+                                              TG
+160      2296547            ..................G...........         2296576
+10726    1661850           ......T............G...........         1661820
+10664    2461767           ........T..........G...........         2461737
+10581    1200669           ............T......G...........         1200699
+10505    357726            ..........T........G...........         357756
+10442    2666830             ................TG.............       2666860
+10442    2725892               ..............TG.............       2725920
+10292    908519            ..........T........G...........         908489
+10276    1236901           ........C..........G...........         1236871
+10276    1236977             ..........T......G...........         1236949
+10163    475468           ........T.......T...G.............       475501
+10050    2422254           ..............T....G...........         2422284
+10019    188135            ...........C.......G...........         188165
+10019    188057              .....C...........G...........         188085
+9989     234963            ..........C........G...........         234933
+9983     545417            ........T..........G...........         545447
+9983     545532             .........T........G...........         545561
+9789     287691              ................TG.............       287661
+9685     140471            ....T..............G...........         140501
+9682     529623            ..................TG.A...........       529655
+9682     3006649           ...................T.............       3006615
+                                                 \               
+                                                 |               
+                                                TG
+9606     575311            ............T......G...........         575341
+9491     1052453             ...............................       1052485
+                                                 \               
+                                                 |               
+                                                TA
+9459     297               ............T......G...........         267
+9459     339               ............T......G...........         309
+6080     1252116           ..........G.......G............         1252146
+10717    7035348           ........T.........T.G............       7035380
+10643    514934            ...................G........            514907
+10632    1210896           ...............C..TG.............       1210928
+10556    46231             ...............T..TG.............       46263
+10545    514932            ...............T..TG.............       514900
+10532    448754             .............T....G...........         448725
+10513    4637                 ................G...........         4664
+10441    286982            ..............T.C..G............        286951
+10441    4204976              .........T.....C..............       4204947
+10441    4383403              .........T.....C..............       4383374
+10379    2752275           .............A....TG.............       2752307
+10349    150349             ...............T..G...........         150378
+10309    449844            ...............T..TG.............       449812
+10139    3651270              ................GT............       3651299
+10126    1539184     ....AG...................G...........         1539146
+                               \                                 
+                               |                                 
+                              GT
+9970     654993            ........T......A...G.............       655025
+9964     4702801            .........T........G...........         4702830
+9882     4739566           ...............T..TG.............       4739598
+9854     975120            ...............T..TG.............       975088
+9853     1245230            .....T............G...........         1245259
+8537     463258            ....T...........T.............          463229
+7600     898775             ...........T......G...........         898746
+7139     479956            ...............T..TC.............       479924
+7076     1161225           ...............T..TG.............       1161193
+6968     2976701        ...G......C.....C....TG...............     2976738
+6013     811357            .........T.....T..C..............       811389
+118      244950            ...................G...........         244919
+                                        \                        
+                                        |                        
+                                        C
+10805    3918265   ......AA......T............G...........         3918305
+                                         \                       
+                                         |                       
+                                        GG
+10764    6799515               ..............TG.............       6799487
+10599    2242857             ...............................       2242823
+                                               \                 
+                                               |                 
+                                            GGTG
+10405    377783                  .............G.............       377757
+10339    433405                ..............TC.............       433377
+10167    482760            ........T......................         482792
+                                                   \             
+                                                   |             
+                                                  AG
+10006    811330       .....-.........T.......TG...........         811296
+9900     2616847          ..T.....T..........TG.............       2616880
+9515     837841            ......C...............--.........       837871
+9512     2838498               ...............G...........         2838472
+9390     956181             ..............C..TG.............       956150
+9390     992114            ...................T.............       992078
+                                               \                 
+                                               |                 
+                                            CATG
+7778     2208041            ...........T.....TG.............       2208072
+7565     1039510            ...........G.....TG.............       1039541
+7165     682946            ...............T..TG............        682977
+163      352389                ..............TG.............       352417
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 88674346272
+
+
+Query= exon5
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 547689936360
+
+
+Query= exon6
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 242549409066
+
+
+Query= exon7
+
+Length=167
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 357303968194
+
+
+Query= exon8
+
+Length=226
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 508569226620
+
+
+Query= exon9
+
+Length=172
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 370344259004
+
+
+Query= exon10
+
+Length=124
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 245157467228
+
+
+Query= exon11
+
+Length=133
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 268629990686
+
+
+Query= exon12
+
+Length=192
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 419895617876
+
+
+Query= exon13
+
+Length=91
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 161700278496
+
+
+Query= exon14
+
+Length=239
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 542473841728
+
+
+Query= exon15
+
+Length=176
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 380776491652
+
+
+  Database: GCA_900186335.2_Eptatretus_burgeri_genomic.fna
+    Posted date:  Nov 25, 2021  11:38 AM
+  Number of letters in database: 2,608,383,542
+  Number of sequences in database:  10,846
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,329 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000001905.1_Loxodonta_africana_genomic.fna
+           2,352 sequences; 3,196,738,102 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_003573427.1 Loxodonta africana isolate ISIS603380 unplaced g...  71.6    4e-11
+
+
+
+Query_1  11        GCTGGTGGTCTGCCTTTGTGATATGCATTTTACAAATAAAGCTCCTGGCAGCAGGGCCCA  70
+7        43776351  ..G..A...T..............................TG......T....AATT.T.  43776292
+
+Query_1  71        CTCCAAG  77
+7        43776291  .......  43776285
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 153440154912
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_003573427.1 Loxodonta africana isolate ISIS603380 unplaced g...  113     2e-23
+
+
+
+Query_2  12        AGCCAGTACAAGAGAATGGGACTCCATCTCCTGTAGACTGCAGAATGAGCCCCTGGAGTG  71
+7        43754777  ..A....G....G..G...CG..........CA.................A.........  43754718
+
+Query_2  72        AATGGTCACAGTGTTACCCTTGCCTCAAACAACAG  106
+7        43754717  .......G..A...G.................A..  43754683
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 242946733192
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_003573427.1 Loxodonta africana isolate ISIS603380 unplaced g...  95.1    9e-18
+
+
+
+Query_3  1         TTCCGCTCAAGGAGCATCGAGGCCTTCGGACAATTCAACGGGGAAGCCTGCCATAATTCA  60
+7        43753859  ...........A.CT.......T...T........T..T...C.GAGG....T.G.C..C  43753800
+
+Query_3  61        GTGGGAGACCGCCAGCACTGTTCACCTGCTGGGCCCTGTGAAGAAGCTGAGGATGACTGT  120
+7        43753799  ...........ATG...G...GT...CA.A.A.........G..G.T............C  43753740
+
+Query_3  121       AGGAGTGGCTTTCGATGTGACACAG  145
+7        43753739  G.A.A..A....AA.....G.....  43753715
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 367616767330
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_003573427.1 Loxodonta africana isolate ISIS603380 unplaced g...  165     6e-39
+  NW_003573423.1 Loxodonta africana isolate ISIS603380 unplaced g...  50.0    3e-04
+  NW_003573437.1 Loxodonta africana isolate ISIS603380 unplaced g...  48.2    0.001
+
+
+
+Query_4  3         AGGTGCATAAATCTCAAGCTCCAGTGTAATGGTGACAATGACTGTGGAGACTTTTCAGAC  62
+7        43753473  ...........GAGGC......T.....................C...............  43753414
+3        58105275                        .....G..TA....................A......T  58105312
+17       39107348  .....T.....C.G..GA..T.TT..C.....G..................           39107398
+
+Query_4  63        GAAGATAATTGTGACAATGATCCTCGTCCTCCCTGCCGTGACAGACAGGCAGAAGAGTCT  122
+7        43753413  ......G.......A..C.....C....TC..G............GT..TG.........  43753354
+3        58105313  ..                                                            58105314
+
+Query_4  123       GAAATGGCACGAACTGCAGGCTATGG  148
+7        43753353  ..GC..........A..G........  43753328
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 377206769956
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_003573427.1 Loxodonta africana isolate ISIS603380 unplaced g...  196     3e-48
+
+
+
+Query_5  1         GATCAACATCTTAGGAATGGATCCCCTAAGCACACCTTTTGACAATGAGTTCTTCAATGG  60
+7        43732336  .........T.....G..............T..T...................A......  43732277
+
+Query_5  61        CTTCTGTGACCGAGTTCGGGATGGAAACACCTTGACATACTACCGCAAACCCTGGAATGT  120
+7        43732276  .C..........G.....A............................G............  43732217
+
+Query_5  121       GGCTTATTTGGGCTTTGA  138
+7        43732216  .....C.....C..A...  43732199
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 348436762078
+
+
+Query= exon6
+
+Length=270
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_003573427.1 Loxodonta africana isolate ISIS603380 unplaced g...  145     1e-32
+
+
+
+Query_6  1         GTGAAAGCTGATAAACATTTCAGAACTGAGCATTTTGAAGAACAGACTCAAGCATTCCAA  60
+7        43725122  ..C............A.....C....C..................TT..........AC.  43725063
+
+Query_6  61        AGTATCATCCAAGAGAAGACATCAACTTTCAAAGCAGAAATCTCTCTAAAATT  113
+7        43725062  G............................T..T.....TT.............  43725010
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 764002980410
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_003573427.1 Loxodonta africana isolate ISIS603380 unplaced g...  277     2e-72
+
+
+
+Query_7  1         GAAAAAATGTTTCTGCATGTGAAAGGAGAAATTCAGACTGGAAAATTTGTGATGAGAAAT  60
+7        43720738  ...........................ATG......CTG....G....A...........  43720679
+
+Query_7  61        CGCAATGTCATGCTGACAATGACTTTCGTGGATGACATAAAAGCTCTGCCCATCAACTAC  120
+7        43720678  ..GGG..............CA.....T........T......T.......A.GT.....T  43720619
+
+Query_7  121       GAAAAGGGGGAATATTATGCCTTTCTGGAAACCTATGGAACACACTACAGTAGCTCTGGG  180
+7        43720618  ..T.............TC..A...T................T..................  43720559
+
+Query_7  181       TCTCTAGGAGGACTCTATGAACTAATCTATGTTTTGGATAAAACTGCTATGAAGAAGAAA  240
+7        43720558  ........G.................A.........A.....G.AT.C......G.A...  43720499
+
+Query_7  241       G  241
+7        43720498  .  43720498
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 671299689900
+
+
+Query= exon8
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_003573427.1 Loxodonta africana isolate ISIS603380 unplaced g...  59.0    6e-07
+
+
+
+Query_8  1         GTATTGAACTAAAAGATGTACAGAGATGCGTCGGATTTAATGCACAGTTTTCTGTTGATG  60
+7        43718889  ..G..............A......A....C.T..G...G..---.T.GA..-...CC..-  43718835
+
+Query_8  61        TTGCAATTTTTGGAACGGAATTGAAAGGAAACGTTGATAGCAATGATTGTTTGAAGAGGG  120
+7        43718834  ----..ACG.....G.T.....C.CG.....AA..A.G.AA...........A.......  43718779
+
+Query_8  121       GTGAAGGT  128
+7        43718778  ....G...  43718771
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 335650091910
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_003573427.1 Loxodonta africana isolate ISIS603380 unplaced g...  210     2e-52
+
+
+
+Query_9  1         TAAACATCACGAGTGATAACATCATAGATGATGTTATTTCATTCATAAGAGGAGGGACCA  60
+7        43717107  ..........T.....CG..C..........C..C......C.G...C.......A....  43717048
+
+Query_9  61        GAAAACATGCACTTCAAATAAAAGAAAAGCTTGCCAGAGGAGCCAAGACGATTGATGTGG  120
+7        43717047  .....T.C...T..G..C.G............CT..A.............G........A  43716988
+
+Query_9  121       CTGACTTTGTAAACTGGGCCGGTTCACTGAATGATGCTCCAGTGCTCATAAACCAAAAA  179
+7        43716987  ...................T.A...C..A..............................  43716929
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 473106448120
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_003573427.1 Loxodonta africana isolate ISIS603380 unplaced g...  233     2e-59
+
+
+
+Query_10  1         CTGTCTCCTATCTATAATCTGGTTCCAGTGGATATGAAAGATTCATATCAAAAGAAACAA  60
+7         43704457  ...........A..................A.A..A......G..C.C.T..........  43704398
+
+Query_10  61        AACTTGGAGCGATCCATTGAAGAATATATCAATGAATTCAATGTCAAAAAATGCCACCCA  120
+7         43704397  ..T.....A..CG..........C...G............G...A.G.............  43704338
+
+Query_10  121       TGCCAAAATGGAGGTACTGTGATACTGATGGATGGAAGATGTGTGTGCTCCTGCCCAATA  180
+7         43704337  ...........................T........CA....T....TA..........T  43704278
+
+Query_10  181       GGAACTGAAGGCATTGCCTGTGAA  204
+7         43704277  TC.TT......AC...........  43704254
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 629743042430
+
+
+  Database: GCF_000001905.1_Loxodonta_africana_genomic.fna
+    Posted date:  Nov 29, 2021  1:08 PM
+  Number of letters in database: 3,196,738,102
+  Number of sequences in database:  2,352
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,456 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_014621495.2_Entosphenus_tridentatus_genomic.fna
+           141,124 sequences; 927,744,424 total letters
+
+
+
+Query= exon1
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM025650.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  44.6    0.004
+
+
+
+Query_1  20       TGCGTCCATCTCAGTTTGGGGGTCAGGACTGCACTGAGCAACTTGTAGACTGGA  73
+43       4973029  ...C.T.........G.T.T.....T.......A..T..............A..  4972974
+                            \     \                                     
+                            |     |                                     
+                            G     C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 107143612048
+
+
+Query= exon2
+
+Length=142
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM025658.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  44.6    0.004
+
+
+
+Query_2  42       GATTGTGGAGACAATTCAGATGAAAGGGACTG  73
+51       8795593  ..C.......................CA....  8795562
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 104372656564
+
+
+Query= exon3
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101601701080
+
+
+Query= exon4
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM025660.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  50.0    3e-05
+  JAAXLI020065150.1 Entosphenus tridentatus isolate CRITFC18_GStd...  48.2    1e-04
+  JAAXLI020037624.1 Entosphenus tridentatus isolate CRITFC18_GStd...  48.2    1e-04
+  JAAXLI020033737.1 Entosphenus tridentatus isolate CRITFC18_GStd...  48.2    1e-04
+  JAAXLI020031889.1 Entosphenus tridentatus isolate CRITFC18_GStd...  48.2    1e-04
+  CM025647.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  48.2    1e-04
+  CM025624.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  48.2    1e-04
+  CM025620.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  48.2    1e-04
+  JAAXLI020063538.1 Entosphenus tridentatus isolate CRITFC18_GStd...  46.4    4e-04
+  JAAXLI020016258.1 Entosphenus tridentatus isolate CRITFC18_GStd...  46.4    4e-04
+  CM025658.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  46.4    4e-04
+  JAAXLI020079763.1 Entosphenus tridentatus isolate CRITFC18_GStd...  44.6    0.001
+  JAAXLI020067655.1 Entosphenus tridentatus isolate CRITFC18_GStd...  44.6    0.001
+  JAAXLI020005892.1 Entosphenus tridentatus isolate CRITFC18_GStd...  44.6    0.001
+  JAAXLI020005547.1 Entosphenus tridentatus isolate CRITFC18_GStd...  44.6    0.001
+  JAAXLI020138022.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020132264.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020127973.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020126792.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020120856.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020103287.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020071139.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020064628.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020049039.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020042692.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020042383.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020035637.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020029787.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020024960.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020024566.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020021236.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020019841.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020017037.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020016618.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020012036.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020011329.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020007655.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020006435.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020005984.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020002375.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020002321.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020002005.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  JAAXLI020001676.1 Entosphenus tridentatus isolate CRITFC18_GStd...  42.8    0.004
+  CM025675.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  42.8    0.004
+  CM025665.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  42.8    0.004
+  CM025664.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  42.8    0.004
+  CM025650.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  42.8    0.004
+  CM025631.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  42.8    0.004
+  CM025618.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  42.8    0.004
+  CM025608.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  42.8    0.004
+  CM025607.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  42.8    0.004
+
+
+
+Query_4  13        agagagagagagagagagaAAGAGTGTGAGATTAAC  48
+53       399661     .........C....................       399632
+64013    508       ...........C.......C...........       538
+36487    401       ..........T.T...G..G...........G....  366
+36487    431       ..........T........G...........       401
+36487    542       ..........T........G...........       512
+36487    955       ........T...G..................       925
+36487    1129      ........T...G..................       1099
+36487    528       ..........T.T......G...........       498
+36487    644       ..........T.T......G...........       614
+36487    658       ..........T.T......G...........       628
+36487    672       ..........T.T......G...........       642
+36487    755       ....T.....G........G...........       725
+36487    935       ....T.T............G...........       905
+36487    1102           ..............G...........       1077
+32600    585       ........T.C....................       615
+30752    452       ...............C...G...........       422
+30752    644       ...............C...G...........       614
+30752    1179      ...............C...G...........       1149
+30752    1371      ...............C...G...........       1341
+40       7672530   ................T..G...........       7672560
+17       529926    ............T......G...........       529956
+13       4132911   ..........T........G...........       4132941
+62401    58         .........C........G...........       87
+15121    316       ....T.......T......G...........       286
+15121    213        .............T....G...........       184
+51       4134498      .........T..................       4134525
+51       4134584        .......T..................       4134609
+78626    241       .........C.......C.C...........       211
+78626    457         .........C.......G...........       429
+66518    119       ........T........C.G...........       149
+66518    505         .........C.......G...........       533
+4757     6219             ........................       6196
+4412     3174      ...................G...........       3206
+                                 \                     
+                                 |                     
+                                CC
+136885   68        ......T...T.T..................       38
+131127   112       ............C.T....G...........       82
+126836   126       ............C.T....G...........       96
+125655   236       .....C......C......G...........       206
+119719   118       ......T........C...G...........       88
+102150   57        ............T.T....G...........       27
+70002    241       ........T........C.G...........       271
+70002    573       ........T........C.G...........       603
+63491    46        ..........T.G......G...........       16
+63491    270       ..........T.G......G...........       240
+47902    137       .....C...........C.C...........       167
+41555    975       .........C.......C.C...........       1005
+41246    385       ......T.......T....G...........       415
+34500    408          ...............TG...........       381
+28650    602       ........T.......T..G...........       572
+23823    814          ...........T....G...........       841
+23429    642       ............C.T....G...........       612
+20099    25        ....T..C...........G...........       55
+20099    55        ......T..C.........G...........       85
+20099    155       ....T..C...........G...........       185
+20099    187       ....T..C...........G...........       217
+18704    513       .....C......C......G...........       483
+15900    2625      ............C.T....G...........       2595
+15900    2733      ........C.T........G...........       2703
+15481    879       ............T.T....G...........       909
+10899    3196      ............T.T....G...........       3226
+10192    1156      ............T.T....G...........       1126
+6519     5339      ............T...T..G...........       5369
+5300     4495      ....T...........T..G...........       4465
+4849     3600      ........T.......T..G...........       3630
+1241     6825      ....T.........T....G...........       6855
+1187     9730      ..G...C............G...........       9700
+871      821       ........TT.........G...........       791
+542      7168      ..........C.......TG...........       7198
+68       10698864  .....C..T..........G...........       10698894
+58       337399    ........C......A...G...........       337429
+57       12352381  ..........T.T......G...........       12352351
+57       12352395  ..........T.T......G...........       12352365
+43       13678871  ......GA...........G...........       13678901
+24       5187659   ....T.........T....G...........       5187629
+24       5792688   ......T.......T....G...........       5792658
+11       10546159  ......T.T..........G...........       10546189
+1        21313819     ...........T....G...........       21313846
+0        13031965  ........T.T........G...........       13031995
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 33261626736
+
+
+Query= exon5
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 194860758544
+
+
+Query= exon6
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 86823271832
+
+
+Query= exon7
+
+Length=167
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 127463952264
+
+
+Query= exon8
+
+Length=226
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 181008097984
+
+
+Query= exon9
+
+Length=172
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 132082211404
+
+
+Query= exon10
+
+Length=124
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 87746923660
+
+
+Query= exon11
+
+Length=133
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 96059790112
+
+
+Query= exon12
+
+Length=192
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 150555247964
+
+
+Query= exon13
+
+Length=91
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 58198955976
+
+
+Query= exon14
+
+Length=239
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 193013737136
+
+
+Query= exon15
+
+Length=176
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 135776818716
+
+
+  Database: GCA_014621495.2_Entosphenus_tridentatus_genomic.fna
+    Posted date:  Nov 25, 2021  11:37 AM
+  Number of letters in database: 927,744,424
+  Number of sequences in database:  141,124
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

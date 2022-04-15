@@ -1,0 +1,469 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_018977245.1_Lethenteron_camtschaticum_genomic.fna
+           3,553 sequences; 1,074,727,531 total letters
+
+
+
+Query= exon1
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124656441304
+
+
+Query= exon2
+
+Length=142
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121432567822
+
+
+Query= exon3
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118208694340
+
+
+Query= exon4
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MU249705.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  50.0    3e-05
+  WFAB01001826.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  48.2    1e-04
+  MU249715.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  48.2    1e-04
+  MU249637.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  48.2    1e-04
+  MU249626.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  48.2    1e-04
+  MU249591.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  48.2    1e-04
+  WFAB01003958.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  46.4    4e-04
+  WFAB01003140.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  46.4    4e-04
+  MU249676.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  46.4    4e-04
+  WFAB01001031.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  46.4    4e-04
+  MU249634.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  46.4    4e-04
+  MU249632.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  46.4    4e-04
+  MU249621.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  46.4    4e-04
+  WFAB01001341.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  44.6    0.001
+  MU249668.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  44.6    0.001
+  WFAB01004400.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  42.8    0.005
+  WFAB01002486.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  42.8    0.005
+  WFAB01002399.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  42.8    0.005
+  WFAB01001841.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  42.8    0.005
+  WFAB01001562.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  42.8    0.005
+  MU249706.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249687.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  WFAB01001166.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  42.8    0.005
+  MU249664.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  WFAB01000899.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  42.8    0.005
+  MU249631.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249627.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249625.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249624.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249623.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249622.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249616.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249611.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249606.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249592.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249590.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249584.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249579.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249577.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+  MU249573.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  42.8    0.005
+
+
+
+Query_4  7         AGGTCTagagagagagagagagagaAAGAGTGTGAGATTA  46
+271      249203           ..................G...........     249174
+693      36260           .........C.........G...........     36230
+305      65386           ..........T.T..................     65356
+305      65092           ....C.......T......G...........     65062
+305      65288           ........T.T........G...........     65258
+305      65303            .......T..........G...........     65274
+66       621552          ............T......G...........     621582
+53       1280392         ............T......G...........     1280362
+53       1969608         ......T.....T......G...........     1969638
+53       1969624         ........T.T........G...........     1969654
+53       4516553         ......T.......T.T..............     4516523
+53       4518530         ......T.........T..G...........     4518500
+53       4522901         ......T.........T..G...........     4522871
+53       4526377         ..............T.T..G...........     4526347
+53       4526387         ......T.T..........G...........     4526357
+53       4526601         ....T...........T..G...........     4526571
+53       4998718         ..............T.T..G...........     4998688
+53       4528441            ...............TG...........     4528414
+18       6146559       .....................G...........     6146593
+                                   \                       
+                                   |                       
+                                  CA
+2800     648              ...............T..G...........     677
+1982     5018             ...........T.C................     5047
+172      409772           ...............C..G...........     409801
+172      136312             .............C..G...........     136285
+112      187090      ..G.............T.T....G...........     187124
+112      185705          ..........T.T......G...........     185735
+112      185774          ..........G.T......G...........     185804
+112      185788          ..........T.T......G...........     185818
+112      185802          ..........T.T......G...........     185832
+112      185852          ..........T.T......G...........     185882
+112      185866          ..........T.T......G...........     185896
+112      185880          ..........T.T......G...........     185910
+112      185894          ..........T.T......G...........     185924
+112      185908          ..........T.T......G...........     185938
+112      185922          ..........T.T......G...........     185952
+112      185936          ..........T.T......G...........     185966
+112      185950          ..........T.T......G...........     185980
+112      185964          ..........T.T......G...........     185994
+112      185978          ..........T.T......G...........     186008
+112      186050          ..........T.T......G...........     186080
+112      186215          ..........T.T......G...........     186245
+112      186231          ........T.T........G...........     186261
+112      186243          ............T.T....G...........     186273
+112      186301          ..........T.T......G...........     186331
+112      186343          ........T.T........G...........     186373
+112      186357          ..........T.T......G...........     186387
+112      186407          ........T.T........G...........     186437
+112      186421          ..........T.T......G...........     186451
+112      186435          ..........T.T......G...........     186465
+112      186449          ..........T.T......G...........     186479
+112      186463          ..........T.T......G...........     186493
+112      186479          ........T.T........G...........     186509
+112      186652          ..........T.T......G...........     186682
+112      186875          ..........T.T......G...........     186905
+112      186978          ..........T.T......G...........     187008
+61       183486           .................TG...........     183457
+59       4442917         ............T.T....G...........     4442947
+59       4442738          .......T.T....................     4442767
+48       658993             .........T..................     659020
+308      207356          .....N.N...........G...........     207326
+148      278870    ..A..A.C............T....G...........     278906
+3242     3797            ..............T.T..G...........     3767
+1329     36304           ......T.......T....G...........     36274
+1243     13170           ..............T.T..G...........     13140
+707      80667           ......T.........T..G...........     80697
+471      118581          ...C.............C.G...........     118551
+273      173573          ........T.T........G...........     173603
+221      14507            ...........C...T..G............    14477
+196      352264          ........T.T........G...........     352294
+196      352607          ........T.T........G...........     352637
+196      353058          ............T.T....G...........     353088
+196      353194          ........T.T........G...........     353224
+196      353242          ........T.T........G...........     353272
+196      353460          ......T.......T....G...........     353490
+196      353502          ......T.........T..G...........     353532
+196      353653          ........T.T........G...........     353683
+196      353931          ......T.......T....G...........     353961
+196      353973          ......T.........T..G...........     354003
+196      353410             ...........T....G...........     353437
+196      353881             ...........T....G...........     353908
+143      361482        ..T.....C.T..........G...........     361450
+65       1529492         .....C....T........G...........     1529462
+58       152750          ..T...T............G...........     152720
+58       4121588         ..T.............T..G...........     4121558
+58       6208102         ....T.........T....G...........     6208072
+58       6270598         ....T.........T....G...........     6270568
+58       6208201            .........T......G...........     6208174
+54       5256468         ......T.T..........G...........     5256438
+52       2237936         ..............C.T..G...........     2237966
+51       5212727         ......T.......T....G...........     5212757
+50       5836069         ........T.......T..G...........     5836099
+50       5836734         ........T.......T..G...........     5836764
+50       5837476         ........T.......T..G...........     5837506
+50       5837506         ......T.....T......G...........     5837536
+50       8749678            .......T........G...........     8749651
+50       7897380              .......T..................     7897405
+49       4049093         ......T.........T..G...........     4049123
+49       4049395         ......T.........T..G...........     4049425
+43       9637786         ......T.......T....G...........     9637816
+38       5147898         ......T...T........G...........     5147868
+33       9088138         ..C.........C.C................     9088108
+19       8372748            .......T.......T............     8372775
+17       1856091         ..T.........T......G...........     1856061
+17       1853011            .......T........G...........     1852984
+11       1192059         ....T..C...........G...........     1192029
+6        13434585        ..T...........T....G...........     13434555
+4        10696032         .........T.T......G...........G..  10696064
+4        20856232        ......T.........T..G...........     20856262
+4        20858196        ......T.......T.T..............     20858226
+0        25715880        ........T.......T..G...........     25715850
+0        25716091        ......T...........TG...........     25716061
+0        25716139        ......T.........T..G...........     25716109
+0        25716224        ........T.......T..G...........     25716194
+0        25716282        ......T...........TG...........     25716252
+0        25716400        ....T...........T..G...........     25716370
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37611981645
+
+
+Query= exon5
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 226745018551
+
+
+Query= exon6
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101014702436
+
+
+Query= exon7
+
+Length=167
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 148298180172
+
+
+Query= exon8
+
+Length=226
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 210625704436
+
+
+Query= exon9
+
+Length=172
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 153671302642
+
+
+Query= exon10
+
+Length=124
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 102089326930
+
+
+Query= exon11
+
+Length=133
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 111760947376
+
+
+Query= exon12
+
+Length=192
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 175163792522
+
+
+Query= exon13
+
+Length=91
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 67701566961
+
+
+Query= exon14
+
+Length=239
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 224595776669
+
+
+Query= exon15
+
+Length=176
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 157969800618
+
+
+  Database: GCA_018977245.1_Lethenteron_camtschaticum_genomic.fna
+    Posted date:  Nov 25, 2021  11:39 AM
+  Number of letters in database: 1,074,727,531
+  Number of sequences in database:  3,553
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

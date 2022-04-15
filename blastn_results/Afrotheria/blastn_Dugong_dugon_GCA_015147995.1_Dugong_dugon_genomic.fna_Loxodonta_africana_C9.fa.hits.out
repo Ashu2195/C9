@@ -1,0 +1,333 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_015147995.1_Dugong_dugon_genomic.fna
+           116,852 sequences; 2,620,890,670 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 125640094176
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BMBL01070472.1 Dugong dugon DNA, Dudu_70472, whole genome shotg...  149     2e-34
+
+
+
+Query_2  1      TTACTCCCAGCAGACAGTGCAAGGGAGTGGCGCTCCATCTCCCATAGACTGCAGAATGAG  60
+70471    17184  ..........A.....A.A..........A.A....C.......................  17243
+
+Query_2  61     CACCTGGAGTGAATGGTCGCAATGTGACCCTTGCCTCAAACA  102
+70471    17244  .T.........G..............................  17285
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 198921268360
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BMBL01070472.1 Dugong dugon DNA, Dudu_70472, whole genome shotg...  185     5e-45
+
+
+
+Query_3  1      TTCCGCTCAAGAACTATCGAGGTCTTTGGACAATTTAATGGGCAGAGGTGCCTTGACTCC  60
+70471    18121  ...........G.A..................T..C......A...AA...........T  18180
+
+Query_3  61     GTGGGAGACCGATGGCAGTGTGTACCCACAGAGCCCTGTGAGGAGGTTGAGGATGACTGC  120
+70471    18181  ..........A.A................T...........A....C............T  18240
+
+Query_3  121    GGAAATGACTTTAAATGTGGCACAG  145
+70471    18241  .......G.........CA......  18265
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 300999287650
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BMBL01070472.1 Dugong dugon DNA, Dudu_70472, whole genome shotg...  205     6e-51
+
+
+
+Query_4  1      GCAGGTGCATAAAGAGGCAGCTCCTGTGTAATGGTGACAATGACTGCGGAGACTTTTCAG  60
+70471    18519  ..............CA............................................  18578
+
+Query_4  61     ACGAAGATGATTGTGAAAACGATCCCCGTCTCCCGTGCCGTGACAGAGTGGTGGAAGAGT  120
+70471    18579  .T...........C...G.T..........C...T......A...A..............  18638
+
+Query_4  121    CTGAGCTGGCACGAACAGCGGGCTATGG  148
+70471    18639  .C.............TG..A........  18666
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 308851442980
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BMBL01010516.1 Dugong dugon DNA, Dudu_10516, whole genome shotg...  228     5e-58
+
+
+
+Query_5  1     GATCAACATTTTAGGGATGGATCCCCTAAGTACTCCTTTTGACAATGAGTTCTACAATGG  60
+10515    2597  ..............................C........G....................  2656
+
+Query_5  61    CCTCTGTGACCGGGTTCGAGATGGAAACACCTTGACATACTACCGCAGACCCTGGAATGT  120
+10515    2657  ..........A.......G.........................................  2716
+
+Query_5  121   GGCTTCTTTGGCCTATGAA  139
+10515    2717  .....A.............  2735
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 285294976990
+
+
+Query= exon6
+
+Length=264
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BMBL01074104.1 Dugong dugon DNA, Dudu_74104, whole genome shotg...  253     2e-65
+
+
+
+Query_6  1     GTCAAAGCTGATAAAAATTTCCGAACCGAGCATTTTGAAGAACAGTTTCAAGCATTCACA  60
+74103    4489  ........C............A...T..................T...............  4548
+
+Query_6  61    GGTATCATCCAAGAGAAGACATCAACTTTTAATGCAGATTTCTCTCTAAAATTCACACCC  120
+74103    4549  A.......TG.......A...AA..A........................G.........  4608
+
+Query_6  121   GTTGAAGCTAACAAGAAAGTTGAAGATAAACCTAAAGAAGATGCTAATGGAAGATCCCAA  180
+74103    4609  AC.........T..A..G.A.A..A..G..G..G.....C......GCA...C...T...  4671
+                                                                     \     
+                                                                     |     
+                                                                   GAC
+
+Query_6  181   AATCATAAAAGGGAGGGTAGCTTTCGGTTTAGTTATCTCAAACATGAAACTTACCAACAA  240
+74103    4672  .G......G.TAA...A...G...............TC....A...............T.  4734
+                     \         \                                           
+                     |         |                                           
+                     G        AA
+
+Query_6  241   CTCTTGTCATATTCTTCACTACAG  264
+74103    4735  T.T....T.............A..  4758
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 609823504114
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BMBL01079448.1 Dugong dugon DNA, Dudu_79448, whole genome shotg...  363     2e-98
+
+
+
+Query_7  1     GAAAAAATGTTTCTGCATGTGAAAGGAATGATTCAGCTGGGAAGATTTATGATGAGAAAT  60
+79447    7679  ....................................G...........G...........  7620
+
+Query_7  61    CGGGGTGTCATGCTGACAACAACTTTTGTGGATGATATAAAATCTCTGCCAAGTAACTAT  120
+79447    7619  ..........C........................CG.....G.G.......C.......  7560
+
+Query_7  121   GATAAGGGGGAATATTTCGCATTTTTGGAAACCTATGGAACTCACTACAGTAGCTCTGGG  180
+79447    7559  ..A..............T.......................C..................  7500
+
+Query_7  181   TCTCTAGGGGGACTCTATGAACTAATATATGTTTTGAATAAAGCATCCATGAAGGAAAAA  240
+79447    7499  ............A.......G.......................T.......G...G...  7440
+
+Query_7  241   G  241
+79447    7439  .  7439
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 549626334180
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BMBL01079448.1 Dugong dugon DNA, Dudu_79448, whole genome shotg...  149     3e-34
+
+
+
+Query_8  1     GTGTTGAACTAAAAGATATACAGAAATGCCTTGGGTTTGATCTGGATTTGTCCATAAACG  60
+79447    4524  ........A...G...........G......G......A.............T.....TC  4465
+
+Query_8  61    TTGGAGCTGAATTCACGGGAAAAATTAAGAAAAATGATTGTTTAAAGAGGGGTGAGGGTA  120
+79447    4464  G.....A...GA....A...........T.....G....................A....  4405
+
+Query_8  121   GA  122
+79447    4404  ..  4403
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 251268970560
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BMBL01079448.1 Dugong dugon DNA, Dudu_79448, whole genome shotg...  259     4e-67
+
+
+
+Query_9  1     TAAACATCACTAGTGACGACCTCATAGATGACGTCATTTCACTGATACGAGGAGGAACCA  60
+79447    2764  ................TA..........C.....T........C................  2705
+
+Query_9  61    GAAAATACGCATTTGAACTGAAAGAAAAGCTTCTCAAAGGAGCCAAGACGGTTGATGTGA  120
+79447    2704  ..........C......................................AA....C....  2645
+
+Query_9  121   CTGACTTTGTAAACTGGGCTGATTCCCTAAATGATGCTCCAGTGCTCATAA  171
+79447    2644  .............T.....C...............................  2594
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 387355702184
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BMBL01069343.1 Dugong dugon DNA, Dudu_69343, whole genome shotg...  291     8e-77
+  BMBL01079260.1 Dugong dugon DNA, Dudu_79260, whole genome shotg...  46.4    0.006
+
+
+
+Query_10  1      CTGTCTCCTATATATAATCTGGTTCCAGTGAAAATAAAAGATGCACACCTAAAGAAACAA  60
+69342     13958  .....................A.....C.............C...T...A..........  14017
+
+Query_10  61     AATTTGGAACGCGCCATTGAAGACTATGTCAATGAATTCAGTGTAAGAAAATGCCACCCA  120
+69342     14018  ...........A...............A................C...........T..C  14077
+
+Query_10  121    TGCCAAAATGGAGGTACTGTGATACTGTTGGATGGACAATGTTTGTGTACCTGCCCAATT  180
+69342     14078  ..............C.G..C.......C.......G...........C..........AG  14137
+
+Query_10  181    TCATTTGAAGGACTTGCCTGTGAAAATAGGAAACATAAAATTCTTTAA  228
+69342     14138  A........................C..------.G............  14179
+79259     20345         ......C.A.A.........TA................     20382
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 515601846826
+
+
+  Database: GCA_015147995.1_Dugong_dugon_genomic.fna
+    Posted date:  Nov 24, 2021  3:32 PM
+  Number of letters in database: 2,620,890,670
+  Number of sequences in database:  116,852
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

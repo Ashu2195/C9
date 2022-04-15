@@ -1,0 +1,334 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000243295.1_Trichechus_manatus_genomic.fna
+           6,323 sequences; 3,103,808,406 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004444133.1 Trichechus manatus latirostris isolate Lorelei u...  95.1    4e-18
+
+
+
+Query_1  1        ATGTGGCCTGGCTGGTGGTCTGCCTTTGTGATATGCATTTTACAAATAAAGCTCCTGGCA  60
+196      3007810  ....C.A........A...T.................C.....T..A...TA........  3007751
+
+Query_1  61       GCAGGGCCCACTCCAAG  77
+196      3007750  ........T........  3007734
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 148974001872
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004444133.1 Trichechus manatus latirostris isolate Lorelei u...  107     9e-22
+
+
+
+Query_2  12       AGCCAGTACAAGAGAATGGGACTCCATCTCCTGTAGACTGCAGAATGAGCCCCTGGAGTG  71
+196      2989291  ..A.........G..G..AC.....C.....CA.................T.........  2989232
+
+Query_2  72       AATGGTCACAGTGTTACCCTTGCCTCAAACAA  103
+196      2989231  G......G..A...G.................  2989200
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 235875022416
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004444133.1 Trichechus manatus latirostris isolate Lorelei u...  113     3e-23
+
+
+
+Query_3  1        TTCCGCTCAAGGAGCATCGAGGCCTTCGGACAATTCAACGGGGAAGCCTGCCATAATTCA  60
+196      2988366  .............AT..T....T...T...........T...A.GAAA....T.G.C..T  2988307
+
+Query_3  61       GTGGGAGACCGCCAGCACTGTTCACCTGCTGGGCCCTGTGAAGAAGCTGAGGATGACTGT  120
+196      2988306  ..........AAGG...G....T...CA...A............G...............  2988247
+
+Query_3  121      AGGAGTGGCTTTCGATGTGACACAG  145
+196      2988246  G.A.A..A....AA...C.G.....  2988222
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 356916152340
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004444133.1 Trichechus manatus latirostris isolate Lorelei u...  147     2e-33
+  NW_004443969.1 Trichechus manatus latirostris isolate Lorelei u...  48.2    0.001
+  NW_004443939.1 Trichechus manatus latirostris isolate Lorelei u...  48.2    0.001
+  NW_004443973.1 Trichechus manatus latirostris isolate Lorelei u...  46.4    0.004
+
+
+
+Query_4  3         AGGTGCATAAATCTCAAGCTCCAGTGTAATGGTGACAATGACTGTGGAGACTTTTCAGAC  62
+196      2987972   ...........G.AGC......T.....................C..............T  2987913
+32       15895342                          ...G.........................         15895314
+2        2128038   .....T.....C.G..GA..T.TT..C.....G..................           2127988
+36       15123945                        .....G..CA....................AC.....T  15123982
+
+Query_4  63        GAAGATAATTGTGACAATGATCCTCGTCCTCCCTGCCGTGACAGACAGGCAGAAGAGTCT  122
+196      2987912   ......GT...C..AG.......C.....C..T......A...A.GT..TG........C  2987853
+36       15123983  ..                                                            15123984
+
+Query_4  123       GAAATGGCACGAACTGCAGGCTATGG  148
+196      2987852   ..GC.........TG...........  2987827
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 366227008488
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004444133.1 Trichechus manatus latirostris isolate Lorelei u...  199     3e-49
+
+
+
+Query_5  1        GATCAACATCTTAGGAATGGATCCCCTAAGCACACCTTTTGACAATGAGTTCTTCAATGG  60
+196      2971241  .........T.....G.................T...................A......  2971182
+
+Query_5  61       CTTCTGTGACCGAGTTCGGGATGGAAACACCTTGACATACTACCGCAAACCCTGGAATGT  120
+196      2971181  .C........A.G..................................G............  2971122
+
+Query_5  121      GGCTTATTTGGGCTTTGA  138
+196      2971121  .....C.....C..A...  2971104
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 338294440044
+
+
+Query= exon6
+
+Length=270
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004444133.1 Trichechus manatus latirostris isolate Lorelei u...  125     1e-26
+
+
+
+Query_6  1        GTGAAAGCTGATAAACATTTCAGAACTGAGCATTTTGAAGAACAGACTCAAGCATTCCAA  60
+196      2963393  ..C.....C......A.........TC.................TTT..........AC.  2963334
+
+Query_6  61       AGTATCATCCAAGAGAAGACATCAACTTTCAAAGCAGAAATCTCTCTAAAATTTGTACCT  120
+196      2963333  ........TG...........AA..A...T..T.....TT.............CAC...C  2963274
+
+Query_6  121      ACGGAAACTTTTAAAGAATATAAA  144
+196      2963273  ..T...G..AA....A.GG.....  2963250
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 741763361927
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004444133.1 Trichechus manatus latirostris isolate Lorelei u...  286     5e-75
+
+
+
+Query_7  1        GAAAAAATGTTTCTGCATGTGAAAGGAGAAATTCAGACTGGAAAATTTGTGATGAGAAAT  60
+196      2958409  ...........................ACG......GTG....G................  2958350
+
+Query_7  61       CGCAATGTCATGCTGACAATGACTTTCGTGGATGACATAAAAGCTCTGCCCATCAACTAC  120
+196      2958349  ..GCG..G...........CA.....T.........G.............A.CT.....T  2958290
+
+Query_7  121      GAAAAGGGGGAATATTATGCCTTTCTGGAAACCTATGGAACACACTACAGTAGCTCTGGG  180
+196      2958289  ................T...A...T................C..................  2958230
+
+Query_7  181      TCTCTAGGAGGACTCTATGAACTAATCTATGTTTTGGATAAAACTGCTATGAAGAAGAAA  240
+196      2958229  ........G...A.............A..C............G.CT.C....G.G.....  2958170
+
+Query_7  241      G  241
+196      2958169  .  2958169
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 651758602530
+
+
+Query= exon8
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004444133.1 Trichechus manatus latirostris isolate Lorelei u...  59.0    6e-07
+
+
+
+Query_8  4        TTGAACTAAAAGATGTACAGAGATGCGTCGGATTTAATGCACAGTTTTCTGTTGATGTTG  63
+196      2955178  .....A...G....A...........C....G......CTGG.T..G...A.--------  2955127
+
+Query_8  64       CAATTTTTGGAACGGAATTGAAAGGAAACGTTGATAGCAATGATTGTTTGAAGAGGGGTG  123
+196      2955126  -..A.CG...CG.T...A.C.C..T...AA..A...AA..G........A..........  2955068
+
+Query_8  124      AAGGT  128
+196      2955067  .....  2955063
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 325879965180
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004444133.1 Trichechus manatus latirostris isolate Lorelei u...  201     1e-49
+
+
+
+Query_9  1        TAAACATCACGAGTGATAACATCATAGATGATGTTATTTCATTCATAAGAGGAGGGACCA  60
+196      2953423  ..........T.........C....................C.....C.......A....  2953364
+
+Query_9  61       GAAAACATGCACTTCAAATAAAAGAAAAGCTTGCCAGAGGAGCCAAGACGATTGATGTGG  120
+196      2953363  .....T.C..CT..G..C.G............CT..A............A.....C...A  2953304
+
+Query_9  121      CTGACTTTGTAAACTGGGCCGGTTCACTGAATGATGCTCCAGTGCTCATAA  171
+196      2953303  .............T.....T.A...T..A...........G..........  2953253
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 459334634164
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004444133.1 Trichechus manatus latirostris isolate Lorelei u...  201     1e-49
+
+
+
+Query_10  1        CTGTCTCCTATCTATAATCTGGTTCCAGTGGATATGAAAGATTCATATCAAAAGAAACAA  60
+196       2927100  ...........A........AA.....T....A..C.....CG....C............  2927041
+
+Query_10  61       AACTTGGAGCGATCCATTGAAGAATATATCAATGAATTCAATGTCAAAAAATGCCACCCA  120
+196       2927040  ..T.....A...G.....A....C...G....C.......G...A.G.........T..C  2926981
+
+Query_10  121      TGCCAAAATGGAGGTACTGTGATACTGATGGATGGAAGATGTGTGTGCTCCTGCCCAATA  180
+196       2926980  ..............C.G..C.......C.......GCA....T.....A.........AG  2926921
+
+Query_10  181      GGAACTGAAGGCATTGCCTGTGAATTTAACAAACTG  216
+196       2926920  AC.TT......AC...........AC...G...A..  2926885
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 611411641421
+
+
+  Database: GCF_000243295.1_Trichechus_manatus_genomic.fna
+    Posted date:  Nov 24, 2021  3:42 PM
+  Number of letters in database: 3,103,808,406
+  Number of sequences in database:  6,323
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

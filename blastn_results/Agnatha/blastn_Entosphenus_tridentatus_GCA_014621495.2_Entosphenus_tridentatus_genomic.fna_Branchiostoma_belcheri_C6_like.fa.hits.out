@@ -1,0 +1,355 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_014621495.2_Entosphenus_tridentatus_genomic.fna
+           141,124 sequences; 927,744,424 total letters
+
+
+
+Query= exon1
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAAXLI020087599.1 Entosphenus tridentatus isolate CRITFC18_GStd...  50.0    1e-04
+  JAAXLI020005859.1 Entosphenus tridentatus isolate CRITFC18_GStd...  50.0    1e-04
+  JAAXLI020011710.1 Entosphenus tridentatus isolate CRITFC18_GStd...  48.2    4e-04
+  CM025647.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  48.2    4e-04
+  JAAXLI020058436.1 Entosphenus tridentatus isolate CRITFC18_GStd...  46.4    0.001
+  JAAXLI020050110.1 Entosphenus tridentatus isolate CRITFC18_GStd...  46.4    0.001
+  JAAXLI020026525.1 Entosphenus tridentatus isolate CRITFC18_GStd...  46.4    0.001
+  CM025629.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  46.4    0.001
+  JAAXLI020085945.1 Entosphenus tridentatus isolate CRITFC18_GStd...  44.6    0.005
+  JAAXLI020003536.1 Entosphenus tridentatus isolate CRITFC18_GStd...  44.6    0.005
+
+
+
+Query_1  18       CCTGCTGGTGTTGTTTGCGGTGGTGGCGGTCCTGGCCGTGCCGTCTGAGGGCTTGTGGCG  77
+86462    161                                                               ...  163
+4724     4546          .....G..G.G..............GG....G...GT.-G...C..-........  4598
+10573    3768       ..G.....G..A.G..............GG....G...G..G.G.T...G...C....  3826
+                                                                    \         
+                                                                    |         
+                                                                    T
+40       7540869    ..G...C.G..G................GG....G...G..G.G.T...G.G......  7540927
+                                                                    \         
+                                                                    |         
+                                                                    C
+57299    211        ........G..G............T...G....TG...--..-..C...G........  266
+                                                                    \         
+                                                                    |         
+                                                                    T
+48973    124      ..........G..G.G..............GG....G...                      85
+25388    833        ..G.....G....G..............GG....G...GT.G....T....C......  894
+                                                               \      \       
+                                                               |      |       
+                                                              GG     GG
+22       4529543       .....GC.G.G..............GG....G...G..G.G.T...G.G......  4529598
+                                                                    \         
+                                                                    |         
+                                                                    T
+84808    360            ....G..G.G..............GG....G...GT.G.G.T...G.G......  306
+                                                                    \         
+                                                                    |         
+                                                                    T
+84808    432            ....G..G.G..............GG....G...GT.G.G.T...G.G......  378
+                                                                    \         
+                                                                    |         
+                                                                    T
+2401     4051       ..G.....GC...G...............G....G...G..G.G.T...TCG......  4109
+                                                                    \         
+                                                                    |         
+                                                                    T
+
+Query_1  78       GCGGCGCAGGAGGAGACGTGCCCCGCCGCCGCCTCCTCCAC  118
+86462    164      .....C.C..CA..-.....G....................  203
+4724     4599     ......                                     4604
+10573    3827     ....                                       3830
+40       7540928  ....                                       7540931
+57299    267      .T..                                       270
+25388    895      .T....                                     900
+22       4529599  ......                                     4529604
+84808    305      ......                                     300
+84808    377      ......                                     372
+2401     4110     ..                                         4111
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 127463952264
+
+
+Query= exon2
+
+Length=181
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAAXLI020139835.1 Entosphenus tridentatus isolate CRITFC18_GStd...  44.6    0.005
+
+
+
+Query_2  73   TCCCGGACTCAGCCAATCACGAGCCTGCA  101
+138698   158  ....C.....................C..  130
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 140395077856
+
+
+Query= exon3
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 107143612048
+
+
+Query= exon4
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 107143612048
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101601701080
+
+
+Query= exon6
+
+Length=214
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 170875588180
+
+
+Query= exon7
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82205012692
+
+
+Query= exon8
+
+Length=104
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 70208264352
+
+
+Query= exon9
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 86823271832
+
+
+Query= exon10
+
+Length=158
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119151085812
+
+
+Query= exon11
+
+Length=226
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 181008097984
+
+
+Query= exon12
+
+Length=180
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 139471426028
+
+
+Query= exon13
+
+Length=165
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 125616648608
+
+
+Query= exon14
+
+Length=587
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 513393486480
+
+
+  Database: GCA_014621495.2_Entosphenus_tridentatus_genomic.fna
+    Posted date:  Nov 25, 2021  11:37 AM
+  Number of letters in database: 927,744,424
+  Number of sequences in database:  141,124
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

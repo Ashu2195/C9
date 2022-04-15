@@ -1,0 +1,497 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_900186335.2_Eptatretus_burgeri_genomic.fna
+           10,846 sequences; 2,608,383,542 total letters
+
+
+
+Query= exon1
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  FYBX02010134.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.002
+  FYBX02009882.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.002
+  FYBX02009264.1 Eptatretus burgeri genome assembly, contig: ScVl...  46.4    0.002
+  FYBX02010727.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02010635.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02010420.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02010264.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02010198.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02010194.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02010088.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02010066.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02009982.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02009929.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02009565.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02008147.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02007077.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+  FYBX02005816.1 Eptatretus burgeri genome assembly, contig: ScVl...  44.6    0.009
+
+
+
+Query_1  35       TTGTGATTTGTTTGATTAGTGGTTCAGATGCATGGAGAAGAAGAAGGAGAAGAAGACGTG  94
+10133    1137808                            ........A...........A.........      1137779
+9881     1231245                            ..............G.....A.........      1231274
+9263     229                                     .........................      253
+10726    1404231                          ........A.A...........A.........      1404262
+10634    2933327                                     ...........A.........A.A.  2933352
+                                                                            \ 
+                                                                            | 
+                                                                            A
+10419    284183                           ..T.....A.A...........A...........    284216
+10263    440805                           ....AC................A.........      440774
+10197    57947                            ..T.....A.A.....................      57978
+10193    2337748  ....C....T.....AG..G..C-......A.-.A...........A.........      2337801
+10087    167304                            .....A.........................      167272
+                                                   \                          
+                                                   |                          
+                                                  AA
+10065    1547543                              ......A...........A..........     1547515
+9981     76364                            ........A.A...........A.........      76333
+9928     4245374                            ....................A.........      4245344
+                                                \                             
+                                                |                             
+                                                T
+9564     3121396                           .....A.-.......................      3121367
+9564     3126229                           .....A.-.......................      3126200
+9564     3129711                           .....A.-.......................      3129682
+9564     3129840                           .....A.-.......................      3129811
+8146     1291788                          ........A.A...........A.........      1291757
+7076     515791                            ...A...-.......................      515762
+5815     1306790            ............C-..A.A.....A...........A.........      1306744
+                                   \                                          
+                                   |                                          
+                                  TC
+
+Query_1  95       CACCTGCACCAGTTA  109
+10634    2933353  ..G.A..........  2933367
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 226901060094
+
+
+Query= exon2
+
+Length=159
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 336439502898
+
+
+Query= exon3
+
+Length=165
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 352087851870
+
+
+Query= exon4
+
+Length=159
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 336439502898
+
+
+Query= exon5
+
+Length=165
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 352087851870
+
+
+Query= exon6
+
+Length=159
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 336439502898
+
+
+Query= exon7
+
+Length=165
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 352087851870
+
+
+Query= exon8
+
+Length=159
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 336439502898
+
+
+Query= exon9
+
+Length=165
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 352087851870
+
+
+Query= exon10
+
+Length=159
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 336439502898
+
+
+Query= exon11
+
+Length=165
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 352087851870
+
+
+Query= exon12
+
+Length=159
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 336439502898
+
+
+Query= exon13
+
+Length=165
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 352087851870
+
+
+Query= exon14
+
+Length=159
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 336439502898
+
+
+Query= exon15
+
+Length=206
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 456408280300
+
+
+Query= exon16
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 284278339658
+
+
+Query= exon17
+
+Length=115
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 221684943770
+
+
+Query= exon18
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 276454165172
+
+
+Query= exon19
+
+Length=191
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 417287570560
+
+
+Query= exon20
+
+Length=108
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 203428536636
+
+
+Query= exon21
+
+Length=158
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 333831444736
+
+
+Query= exon22
+
+Length=231
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 521609463200
+
+
+  Database: GCA_900186335.2_Eptatretus_burgeri_genomic.fna
+    Posted date:  Nov 25, 2021  11:38 AM
+  Number of letters in database: 2,608,383,542
+  Number of sequences in database:  10,846
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

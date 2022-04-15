@@ -1,0 +1,309 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000298275.1_Orycteropus_afer_afer_genomic.fna
+           22,509 sequences; 4,444,080,527 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006922789.1 Orycteropus afer afer isolate SDZICR_OR568_19922...  64.4    9e-09
+
+
+
+Query_1  1      ATGTCAGCCAGCGGGAGGTTTGCCTTTGTGATATGCATTTTACAAATAAATGTCCTGG  58
+1201     10730  .....G..T.C.A..T......T...C.......................GA......  10673
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 208840047079
+
+
+Query= exon2
+
+Length=106
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 337698799532
+
+
+Query= exon3
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 506545633272
+
+
+Query= exon4
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 519875781516
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006921887.1 Orycteropus afer afer isolate SDZICR_OR568_19922...  201     1e-49
+
+
+
+Query_5  1        GATCAACATTTTAGGGATGGATCCCCTAAGTACTCCTTTTGACAATGAGTTCTACAATGG  60
+299      4371565  ...............T..............C.............................  4371506
+
+Query_5  61       CCTCTGTGACCGGGTTCGAGATGGAAACACCTTGACATACTACCGCAGACCCTGGAATGT  120
+299      4371505  .A.......G........G.......................T....A..........T.  4371446
+
+Query_5  121      GGCTTCTTTGGCCTATGAA  139
+299      4371445  .......C.CT........  4371427
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 479885336784
+
+
+Query= exon6
+
+Length=264
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006921887.1 Orycteropus afer afer isolate SDZICR_OR568_19922...  190     4e-46
+
+
+
+Query_6  1        GTCAAAGCTGATAAAAATTTCCGAACCGAGCATTTTGAAGAACAGTTTCAAGCATTCACA  60
+299      4357679  ..................A.GA....T............AG..................C  4357620
+
+Query_6  61       GGTATCATCCAAGAGAAGACATCAACTTTTAATGCAGATTTCTCTCTAAAATTCACACCC  120
+299      4357619  AAC................G..............TT.....A.............T...T  4357560
+
+Query_6  121      GTTGAAGCTAACAAGAAAGTTGAAGATAAACCTAAAGAAGATGCTAATGGAAGATCCCAA  180
+299      4357559  AC....A...TT..AG.CC..A..A...C.AT.....G.A.G.A..........G.....  4357496
+                                                                    \     \  \
+                                                                    |     |  |
+                                                                    A     A CT
+
+Query_6  181      AATCATAAAAGGGAGGGTAGCTTTCGGTTTAGTTATCTCAAACATGAAACTTACCAACAA  240
+299      4357495  ..AA......---..AA........AT...CAC...TC....A......G..........  4357434
+                   \                                                          
+                   |                                                          
+                  ACAGG
+
+Query_6  241      CTCTTGTCATATTCTTCA  258
+299      4357433  T............T....  4357416
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1030859575448
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006921887.1 Orycteropus afer afer isolate SDZICR_OR568_19922...  300     3e-79
+
+
+
+Query_7  1        GAAAAAATGTTTCTGCATGTGAAAGGAATGATTCAGCTGGGAAGATTTATGATGAGAAAT  60
+299      4353652  ........A.......T.............G.....A......C....G.A....A..G.  4353593
+
+Query_7  61       CGGGGTGTCATGCTGACAACAACTTTTGTGGATGATATAAAATCTCTGCCAAGTAACTAT  120
+299      4353592  ..AA.............G....G...CA..............G.........C..C....  4353533
+
+Query_7  121      GATAAGGGGGAATATTTCGCATTTTTGGAAACCTATGGAACTCACTACAGTAGCTCTGGG  180
+299      4353532  ..A..............T..............T........C..T...............  4353473
+
+Query_7  181      TCTCTAGGGGGACTCTATGAACTAATATATGTTTTGAATAAAGCATCCATGAAGGAAAAA  240
+299      4353472  ........A.....G.....................G.......TAA.........G...  4353413
+
+Query_7  241      G  241
+299      4353412  .  4353412
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 928662289951
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006921887.1 Orycteropus afer afer isolate SDZICR_OR568_19922...  100     2e-19
+
+
+
+Query_8  1        GTGTTGAACTAAAAGATATACAGAAATGCCTTGGGTTTGATCTGGATTTGTCCATAAACG  60
+299      4349909  ........A.C.TT......A...G......C..A...A.............T.....TA  4349841
+                                                                           \  
+                                                                           |  
+                                                                   GTATTGCAA
+
+Query_8  61       TTGGAGCTGAATTCACGGGAAAAATTAAGAAAAATGATTGTTTAAAGAGGGGTGAGGGTA  120
+299      4349840  ...........A....ACA....G....T...G..AG..................A....  4349781
+
+Query_8  121      GA  122
+299      4349780  ..  4349779
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 422121361060
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006921887.1 Orycteropus afer afer isolate SDZICR_OR568_19922...  192     8e-47
+
+
+
+Query_9  1        TAAACATCACTAGTGACGACCTCATAGATGACGTCATTTCACTGATACGAGGAGGAACCA  60
+299      4347864  ...........CAG..TA.............T..TT.....T.C...A.........A..  4347805
+
+Query_9  61       GAAAATACGCATTTGAACTGAAAGAAAAGCTTCTCAAAGGAGCCAAGACGGTTGATGTGA  120
+299      4347804  A...T..T.TGC........................G.............A.........  4347745
+
+Query_9  121      CTGACTTTGTAAACTGGGCTGATTCCCTAAATGATGCTCCAGTGCTCATAAACCAAAAA  179
+299      4347744  .............T.....CAG....T...G...C.....G..........G.......  4347686
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 657620646704
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006921887.1 Orycteropus afer afer isolate SDZICR_OR568_19922...  289     5e-76
+
+
+
+Query_10  1        CTGTCTCCTATATATAATCTGGTTCCAGTGAAAATAAAAGATGCACACCTAAAGAAACAA  60
+299       4295193  .....................A........C..................G..........  4295134
+
+Query_10  61       AATTTGGAACGCGCCATTGAAGACTATGTCAATGAATTCAGTGTAAGAAAATGCCACCCA  120
+299       4295133  .....A....AA...............A............A...................  4295074
+
+Query_10  121      TGCCAAAATGGAGGTACTGTGATACTGTTGGATGGACAATGTTTGTGTACCTGCCCAATT  180
+299       4295073  .....................G.....C..A....G..............T.......AG  4295014
+
+Query_10  181      TCATTTGAAGGACTTGCCTGTGAAAATAGGAAACATAAAATTCTTTAA  228
+299       4295013  AA..........AC...........TC.TT...GGGC...........  4294966
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 870898606844
+
+
+  Database: GCF_000298275.1_Orycteropus_afer_afer_genomic.fna
+    Posted date:  Nov 24, 2021  3:39 PM
+  Number of letters in database: 4,444,080,527
+  Number of sequences in database:  22,509
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

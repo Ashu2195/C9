@@ -1,0 +1,348 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000296735.1_Chrysochloris_asiatica_genomic.fna
+           20,500 sequences; 4,210,110,458 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006408811.1 Chrysochloris asiatica unplaced genomic scaffold...  68.0    7e-10
+
+
+
+Query_1  8        CTGGCTGGAGGTTTGCCTTTGTGATATGCACTTTACTAAAAAATATCCTGGCAGCAGGGC  67
+292      2843302  ....TG..T......T.A...CT.......T.....A..T...GC.........G.....  2843243
+
+Query_1  68       CTACTCCAAG  77
+292      2843242  ..........  2843233
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197846286526
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006408811.1 Chrysochloris asiatica unplaced genomic scaffold...  104     1e-20
+
+
+
+Query_2  15       CAGTACAAGGGAGTGACACTCCCTCTCCCATAGACTGCAGAATGAGCTCCTGGAGTGGAT  74
+292      2806192  ..A.....AAC....GA.....G........................CAG.......AG.  2806133
+
+Query_2  75       GGTCGCAATGTGACCCTTGCCTCAAACAAATG  106
+292      2806132  ....T..G........................  2806101
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 319921654808
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006408811.1 Chrysochloris asiatica unplaced genomic scaffold...  154     1e-35
+
+
+
+Query_3  1        TTCCGCTCAAGGAATATTGAGGTCTTTGGACAATTCAATGGGAAGAAATGCCTTGACTCT  60
+292      2805349  .............GC..............C..G..TC....A.G...G...T.G.....G  2805290
+
+Query_3  61       GTGGGAGACCAAGGGCAGTGTTTACCCACTGAGCCCTGTGAAGAGGCTGAGGATGACTGT  120
+292      2805289  .........AG.C.A......G..T....G.....T........C...............  2805230
+
+Query_3  121      GGAAATGACTTTAAATGCGGCACAG  145
+292      2805229  ........T........T.C.....  2805205
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 479880145212
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006408811.1 Chrysochloris asiatica unplaced genomic scaffold...  159     3e-37
+  NW_006408544.1 Chrysochloris asiatica unplaced genomic scaffold...  57.2    3e-06
+
+
+
+Query_4  3         AGGTGCATAAAGCAGCAGCTCCTGTGTAATGGTGACAATGACTGCGGAGACTTTTCAGAT  62
+292      2804968   ............AG..G........................T..T.A.........G...  2804909
+25       24552488  .....T.....T.-......T..C..C.....A...........T......CAA......  24552429
+                                     \                                         
+                                     |                                         
+                                     A
+
+Query_4  63        GAAGATGTTTGCGAAGATGATCCCCGTCCCCCTTGCCGTAACAAAGTGGTGGAAGAGTCC  122
+292      2804908   .......AA..T...A....G....AA.T...C......G...................T  2804849
+25       24552428  ....                                                          24552425
+
+Query_4  123       GAGCTGGCACGAATGGCAGGCTATGG  148
+292      2804848   .....A.......CA.....T.C...  2804823
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 492508570086
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006408811.1 Chrysochloris asiatica unplaced genomic scaffold...  156     4e-36
+
+
+
+Query_5  1        GATCAACATTTTAGGGATGGATCCCCTAAGCACTCCTTTTGACAATGAGTTCTACAATGG  60
+292      2785238  ...............A....C........C...A..............A....T...C..  2785179
+
+Query_5  61       CCTCTGTGACAGGGTTCGGGATGGAAACACCTTGACATACTACCGCAGACCCTGGAATGT  120
+292      2785178  ..A....T..C.A...A.A..C..G....................G...........C..  2785119
+
+Query_5  121      GGCTTCTTTGGCCTATGAA  139
+292      2785118  ....GT....A.T......  2785100
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 454623295464
+
+
+Query= exon6
+
+Length=270
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006408811.1 Chrysochloris asiatica unplaced genomic scaffold...  210     4e-52
+
+
+
+Query_6  1        GTCAAAGCCGATAAAAATTTCAGAATCGAGCATTTTGAAGAACATTTTCAAGCATTCACA  60
+292      2783289  ........T................CG.................G.AC............  2783230
+
+Query_6  61       AGTATCATTGAAGAGAAGACAAAAAATTTTAATGCAGATTTCTCTCTAAAATTCACACCC  120
+292      2783229  .C.G....CC..C........TC..C...C.................C.......TG..A  2783170
+
+Query_6  121      ACTGAAGCTAATAAAAAGGATAAAAATGAAGCTAACGAACATGCTAACAGAATAGACTCT  180
+292      2783169  .....GATC.T.GGC...AC......CA..C..G..A..........TG...A.A.TA..  2783110
+
+Query_6  181      CAAAGTCATGAAGATAAAGGAAAAAGGTTTCGGTTTAGTTATTCCAAAAATGAAACTTAC  240
+292      2783109  ....A....---A....T....GG.CC.C..A.....AC...............T.....  2783050
+                                           \                                  
+                                           |                                  
+                                         TTG
+
+Query_6  241      CAACTATTTTTGTTATATTCTTCACTAAAG  270
+292      2783049  ....GG..C....C................  2783020
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1001850161004
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006408811.1 Chrysochloris asiatica unplaced genomic scaffold...  318     1e-84
+
+
+
+Query_7  1        GAAAAAATGTTTCTGCATGTGAAAGGAACGATTCAGGTGGGAAGATTTGTGATGAGAAAT  60
+292      2776624  ........A......T.............A......AC......................  2776565
+
+Query_7  61       CGGCGTGGCATGCTGACAACAACTTTTGTGGATGACGTAAAAGCTCTGCCAACTAACTAT  120
+292      2776564  ...GACAT......T...........CC.......TA.......................  2776505
+
+Query_7  121      GAAAAGGGGGAATATTTTGCATTTTTGGAAACCTATGGAACCCACTACAGTAGCTCTGGG  180
+292      2776504  ....................................................CT.....C  2776445
+
+Query_7  181      TCTCTAGGGGGAATCTATGAACTAATATACGTTTTGGATAAAGCCTCCATGAGGGAGAAA  240
+292      2776444  .T..........G.T.....G.....T..T..............T.......A.......  2776385
+
+Query_7  241      G  241
+292      2776384  .  2776384
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 879775981722
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006408811.1 Chrysochloris asiatica unplaced genomic scaffold...  91.5    1e-16
+  NW_006408555.1 Chrysochloris asiatica unplaced genomic scaffold...  46.4    0.004
+
+
+
+Query_8  2         TGTTGAAATAAGAGATATACAGAGATGCCTCGGGTTTAATCTGGATTTGTCTATAAATCG  61
+292      2773778   .......C...A...........A......T.........A..............T.CAA  2773719
+36       14541498                                                ..............  14541485
+
+Query_8  62        TGGCGCTGAAATCACAGTAAAAATTAATAAAAAGGATTGTTTAAAGAGGGGTGAAGGTAG  121
+292      2773718   G.AA.A..GGC.T....C.C.C...G....G..AA............T..T..G.AA...  2773659
+36       14541484  .--.A..C..T.....A........TT.........                          14541450
+                                         \                                     
+                                         |                                     
+                                         C
+
+Query_8  122       ACTTG  126
+292      2773658   .A...  2773654
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 399900121010
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006408811.1 Chrysochloris asiatica unplaced genomic scaffold...  149     8e-34
+
+
+
+Query_9  1        TAAACATCACTAGTGATAACCTCATAGATGATGTTATTTCACTCATACGAGGAGGAACCA  60
+292      2771923  .......G...CAA..............A.....CG.....T.....A............  2771864
+
+Query_9  61       GAAAATACGCCTTTGAACTGAAAGAAAAGCTTCTCAAAGGAGCCAAGACAATTGACGTGA  120
+292      2771863  C......T..A....C.TCA.............A..GCAC.AT..CT.TG.C...TC...  2771804
+
+Query_9  121      CTGACTTTGTAAATTGGGCTGATTCTCTAAATGATGCTCCGGTGCTCATA  170
+292      2771803  .A...........C.....CA....C........................  2771754
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 623002293784
+
+
+Query= exon10
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_006408811.1 Chrysochloris asiatica unplaced genomic scaffold...  205     1e-50
+
+
+
+Query_10  1        CTGTCTCCTATATATAATCTAATTCCATTGGAAATCAAAGACGCATACCAAAAGAAACAA  60
+292       2754811  ..A..................G....CG..A....G.....T...C...T..........  2754752
+
+Query_10  61       AATTTGGAACGAGCCATTAAAGACTATGTCAACGAATTCAGTGTANAGAAAATGCCATCC  120
+292       2754751  ...C........T.....G........A....T...........-GC.G........C..  2754693
+
+Query_10  121      CTGCCAAAATGGAGGCAGTGCGATACTGCTGGATGGGCAATGTTTGTGCACCTGCCCAAA  180
+292       2754692  A..T........G....C..T..........A....A.....................CT  2754633
+
+Query_10  181      GACATTT  187
+292       2754632  .G.....  2754626
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 665097043364
+
+
+  Database: GCF_000296735.1_Chrysochloris_asiatica_genomic.fna
+    Posted date:  Nov 24, 2021  3:31 PM
+  Number of letters in database: 4,210,110,458
+  Number of sequences in database:  20,500
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

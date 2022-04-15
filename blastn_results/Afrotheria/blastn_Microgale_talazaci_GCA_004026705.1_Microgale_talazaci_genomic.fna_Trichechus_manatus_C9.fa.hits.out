@@ -1,0 +1,314 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004026705.1_Microgale_talazaci_genomic.fna
+           788,895 sequences; 3,236,147,583 total letters
+
+
+
+Query= exon1
+
+Length=77
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 154236942144
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJH01003876.1 Microgale talazaci isolate US118 MicTal_scaffold...  91.5    7e-17
+
+
+
+Query_2  20     CAAGGGAGTGACACTCCCTCTCCCATAGACTGCAGAATGAGCTCCTGGAGTGGATGGTCG  79
+3875     41436  ....AA....GGG...TG.....T.................TG.........A......A  41377
+
+Query_2  80     CAATGTGACCCTTGCCTCAAACAAA  104
+3875     41376  .C......T................  41352
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 244148535708
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJH01003876.1 Microgale talazaci isolate US118 MicTal_scaffold...  156     3e-36
+
+
+
+Query_3  1      TTCCGCTCAAGGAATATTGAGGTCTTTGGACAATTCAATGGGAAGAAATGCCTTGACTCT  60
+3875     40385  .....T.......GC..C....C......T..G..T..........GT............  40326
+
+Query_3  61     GTGGGAGACCAAGGGCAGTGTTTACCCACTGAGCCCTGTGAAGAGGCTGAGGATGACTGT  120
+3875     40325  .............---.A..CG.....CTG..............................  40266
+                         \                                                  
+                         |                                                  
+                       AGC
+
+Query_3  121    GGAAATGACTTTAAATGCGGCACAG  145
+3875     40265  ..............G..T.......  40241
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 369435284295
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJH01003876.1 Microgale talazaci isolate US118 MicTal_scaffold...  163     2e-38
+  PVJH01004565.1 Microgale talazaci isolate US118 MicTal_scaffold...  50.0    3e-04
+
+
+
+Query_4  1      GCAGGTGCATAAAGCAGCAGCTCCTGTGTAATGGTGACAATGACTGCGGAGACTTTTCAG  60
+3875     39983  .......T......AGA.....T.......................T...........C.  39924
+4564     48351     ..........C.-......T..T..C.....G...........T......         48400
+                                    \                                       
+                                    |                                       
+                                    A
+
+Query_4  61     ATGAAGATGTTTGCGAAGATGATCCCCGTCCCCCTTGCCGTAACAAAGTGGTGGAAGAGT  120
+3875     39923  ........AA...T...A....C..A....T..........G...G..............  39864
+
+Query_4  121    CCGAGCTGGCACGAATGGCAGGCTATGG  148
+3875     39863  .T...T.........CA..G..T.C...  39836
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 379072726494
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJH01003876.1 Microgale talazaci isolate US118 MicTal_scaffold...  197     1e-48
+
+
+
+Query_5  1      GATCAACATTTTAGGGATGGATCCCCTAAGCACTCCTTTTGACAATGAGTTCTACAATGG  60
+3875     29224  ..C.........G..A.............A.........C....................  29165
+
+Query_5  61     CCTCTGTGACAGGGTTCGGGATGGAAACACCTTGACATACTACCGCAGACCCTGGAATGT  120
+3875     29164  ..........C....GA.........G.........G.....T.................  29105
+
+Query_5  121    GGCTTCTTTGGCCTATGAA  139
+3875     29104  ...G...............  29086
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 350160399897
+
+
+Query= exon6
+
+Length=270
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJH01003876.1 Microgale talazaci isolate US118 MicTal_scaffold...  105     1e-20
+
+
+
+Query_6  1      GTCAAAGCCGATAAAAATTTCAGAATCGAGCATTTTGAAGAACATTTTCAAGCATTCACA  60
+3875     22914  ......A.T.....G..........C...AA.............A.A......TA.....  22855
+
+Query_6  61     AGTATCATTGAAGAGAAGACAAAAAATTTTAATGCAGATTTCTCTCTAAAATTCACACCC  120
+3875     22854  .C.C..T..C....-......TCC.C...........G.G..........G..A.T....  22795
+                                   \                                        
+                                   |                                        
+                                   G
+
+Query_6  121    ACTGAA  126
+3875     22794  ..G...  22789
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 767594349282
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJH01003876.1 Microgale talazaci isolate US118 MicTal_scaffold...  304     2e-80
+
+
+
+Query_7  4      AAAATGTTTCTGCATGTGAAAGGAACGATTCAGGTGGGAAGATTTGTGATGAGAAATCGG  63
+3875     21891  ..G......................T.G....TA.A........CT.............T  21832
+
+Query_7  64     CGTGGCATGCTGACAACAACTTTTGTGGATGACGTAAAAGCTCTGCCAACTAACTATGAA  123
+3875     21831  G...T......TT..........C.........A..............G...G.......  21772
+
+Query_7  124    AAGGGGGAATATTTTGCATTTTTGGAAACCTATGGAACCCACTACAGTAGCTCTGGGTCT  183
+3875     21771  ..............C.............................................  21712
+
+Query_7  184    CTAGGGGGAATCTATGAACTAATATACGTTTTGGATAAAGCCTCCATGAGGGAGAA  239
+3875     21711  .........C.T......T..G....T...C.........AG.......A......  21656
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 674455285980
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJH01003876.1 Microgale talazaci isolate US118 MicTal_scaffold...  84.2    1e-14
+
+
+
+Query_8  6      GAAATAAGAGATATACAGAGATGCCTCGGGTTTAATCTGGATTTGTCTATAAATCGTGGC  65
+3875     18599  ...C...AT.....C..T.A......T...C..G........C.T...T......T...G  18540
+
+Query_8  66     GCTGAAATCACAGTAAAAATTAATAAAAAGGATTGTTTAAAGAG  109
+3875     18539  .T....C......G.G.GC...G.C.T.................  18496
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 308398150368
+
+
+Query= exon9
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 475330392024
+
+
+Query= exon10
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJH01128140.1 Microgale talazaci isolate US118 MicTal_scaffold...  159     4e-37
+  PVJH01122240.1 Microgale talazaci isolate US118 MicTal_scaffold...  159     4e-37
+
+
+
+Query_10  1    CTGTCTCCTATATATAATCTAATTCCATTGGAAATCAAAGACGCATACCAAAAGAAACAA  60
+128139    721  ..A.................G......G..A....G.....T...C..............  780
+122239    716  ..A.................G......G..A....G.....T...C..............  775
+
+Query_10  61   AATTTGGAACGAGCCATTAAAGACTATGTCAACGAATTCAGTGTANAGAAAATGCCATCC  120
+128139    781  ..C........C..T...G....T..CAC...T..G........-GCTC..G..T..C..  839
+122239    776  ..C........C..T...G....T..CAC...T..G........-GCTC..G..T..C..  834
+
+Query_10  121  CTGCCAAAATGGAGGCAGTGCGATACTGCTGGATGGGCAATGTTTGTGCACCTGCCC  177
+128139    840  G..T........C....CA..C..C......A.......G..C..............  896
+122239    835  G..T........C....CA..C..C......A.......G..C..............  891
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 507447310404
+
+
+  Database: GCA_004026705.1_Microgale_talazaci_genomic.fna
+    Posted date:  Nov 24, 2021  3:38 PM
+  Number of letters in database: 3,236,147,583
+  Number of sequences in database:  788,895
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

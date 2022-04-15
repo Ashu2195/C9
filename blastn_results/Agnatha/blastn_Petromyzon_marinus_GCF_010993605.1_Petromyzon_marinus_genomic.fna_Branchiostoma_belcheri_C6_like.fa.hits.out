@@ -1,0 +1,326 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_010993605.1_Petromyzon_marinus_genomic.fna
+           1,434 sequences; 1,089,050,413 total letters
+
+
+
+Query= exon1
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_022638511.1 Petromyzon marinus isolate kPetMar1 unplaced gen...  44.6    0.006
+  NC_046144.1 Petromyzon marinus isolate kPetMar1 chromosome 76, ...  44.6    0.006
+  NC_046069.1 Petromyzon marinus isolate kPetMar1 chromosome 1, k...  44.6    0.006
+
+
+
+Query_1  19       CTGCTGGTGTTGTTTGCGGTGGTGGCGGTCCTGGCCGTGCCGTCTGAGGGCTTGTGGCGG  78
+493      18338     ..G.....G..G.G..............GG....G...GT.G.G.T...G.G....T..  18400
+                                                                   \          
+                                                                   |          
+                                                                TGGC
+147      464191    ........G..G............T...G....TG...GT.G.G.T..--.G.......  464135
+0        9234236  ............C.G..............                                 9234264
+
+Query_1  79       CGGCGCAGGAGGAG  92
+493      18401    A..A..........  18414
+147      464134   T..T.GT..C....  464121
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 150283218126
+
+
+Query= exon2
+
+Length=181
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 165529341704
+
+
+Query= exon3
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126325023932
+
+
+Query= exon4
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_046075.1 Petromyzon marinus isolate kPetMar1 chromosome 7, k...  46.4    0.001
+
+
+
+Query_4  27        TGTAACGGCGATAACGACTGCGGAGACTTCTCCGACGAGCGGCGGTGTGA  76
+6        14063789  ...G.......C...........C...AA...G.......T......A..  14063738
+                                                           \         
+                                                           |         
+                                                          AG
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126325023932
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119790970970
+
+
+Query= exon6
+
+Length=214
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 200377360312
+
+
+Query= exon7
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 96921785603
+
+
+Query= exon8
+
+Length=104
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81675662025
+
+
+Query= exon9
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_046091.1 Petromyzon marinus isolate kPetMar1 chromosome 23, ...  44.6    0.004
+  NC_046069.1 Petromyzon marinus isolate kPetMar1 chromosome 1, k...  44.6    0.004
+
+
+
+Query_9  65       CTCCGGCAGCAGCAGCGGCAGCAGGTGTAAAGAG  98
+22       1508965  ........................            1508988
+0        919551     ......................CA.C......  919520
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 102366829738
+
+
+Query= exon10
+
+Length=158
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 140482138683
+
+
+Query= exon11
+
+Length=226
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 213445449028
+
+
+Query= exon12
+
+Length=180
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_046121.1 Petromyzon marinus isolate kPetMar1 chromosome 53, ...  44.6    0.006
+
+
+
+Query_12  21       TGGGCGTGCTGGGGATCCTGGGCGCCGTG  49
+60        5984724  ...C........A................  5984696
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 164440332877
+
+
+Query= exon13
+
+Length=165
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 148105200472
+
+
+Query= exon14
+
+Length=587
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 605487313204
+
+
+  Database: GCF_010993605.1_Petromyzon_marinus_genomic.fna
+    Posted date:  Nov 25, 2021  11:40 AM
+  Number of letters in database: 1,089,050,413
+  Number of sequences in database:  1,434
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

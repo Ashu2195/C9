@@ -1,0 +1,455 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_014621495.2_Entosphenus_tridentatus_genomic.fna
+           141,124 sequences; 927,744,424 total letters
+
+
+
+Query= XM_019776791.1:34-
+1641_PREDICTED:_Branchiostoma_belcheri_uncharacterized_LOC109475983_
+(LOC109475983),_mRNA
+
+Length=1608
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1455008046656
+
+
+Query= XM_019776863.1:111-
+830_PREDICTED:_Branchiostoma_belcheri_uncharacterized_LOC109476038_(
+LOC109476038),_mRNA
+
+Length=720
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 636201640620
+
+
+Query= XM_019776792.1_PREDICTED:_Branchiostoma_belcheri_angiopoietin-
+1_receptor-like_(LOC109475984),_mRNA
+
+Length=1821
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1651655707784
+
+
+Query= XM_019776851.1:35-
+1060_PREDICTED:_Branchiostoma_belcheri_uncharacterized_LOC109476033_
+(LOC109476033),_transcript_variant_X1,_mRNA
+
+Length=1026
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 917689085264
+
+
+Query= XM_019776862.1:40-
+978_PREDICTED:_Branchiostoma_belcheri_uncharacterized_LOC109476037_(
+LOC109476037),_mRNA
+
+Length=939
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 838419578640
+
+
+Query= XM_019776857.1:146-
+1087_PREDICTED:_Branchiostoma_belcheri_uncharacterized_LOC109476035_
+(LOC109476035),_transcript_variant_X2,_mRNA
+
+Length=942
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 840137894960
+
+
+Query= XM_019776867.1:1316-3841_PREDICTED:_Branchiostoma_belcheri_receptor-
+type_tyrosine-protein_phosphatase_epsilon-like_(LOC109476042),_mRNA
+
+Length=2526
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM025659.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  98.7    5e-18
+  CM025644.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  96.9    2e-17
+  CM025634.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  93.3    2e-16
+  JAAXLI020018053.1 Entosphenus tridentatus isolate CRITFC18_GStd...  86.0    3e-14
+  CM025675.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  86.0    3e-14
+  CM025608.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  82.4    4e-13
+  JAAXLI020010918.1 Entosphenus tridentatus isolate CRITFC18_GStd...  60.8    1e-06
+  CM025607.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  59.0    4e-06
+  JAAXLI020126689.1 Entosphenus tridentatus isolate CRITFC18_GStd...  57.2    1e-05
+  JAAXLI020001227.1 Entosphenus tridentatus isolate CRITFC18_GStd...  55.4    5e-05
+  CM025655.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  55.4    5e-05
+  CM025647.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  55.4    5e-05
+  CM025674.1 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  53.6    2e-04
+  CM025654.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  51.8    6e-04
+  CM025631.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  48.2    0.007
+
+
+
+Query_7  1006      GACTACATCCACGCTTCCTACATGGACGGCTACAATGTTGCAAGGAAGTTCATAGCAGCA  1065
+37       4090064   .........A....CAA................-----C........C.A...C..CA.G  4090123
+                                                               \  \            
+                                                               |  |            
+                                                              CA CGC
+68       7709163                                                     ...C..CA..  7709154
+1        11651276  .........A....CAAT.....T.........CGG.GCA...C.C-..A.......T..  11651335
+                                                       \                       
+                                                       |                       
+                                                       A
+
+Query_7  1066      CAAGGTCCCCTGCCCAATACGGTGAATGACTTCTGGAGGATGATTTGGGAAACCGAGTCA  1125
+37       4090124   ..G..C..G......G.G..CT.CGCC...............G.G.....            4090173
+68       7709153   ........T..C..TG.A...AC.G.G...............C.......            7709104
+1        11651336  ..G..C..G..CG.GG.C.....CGCC...............G.G.....            11651385
+
+Query_7  1126      AAGGCAATAGTTATGGTGACCAATCTAAAGGAGAACAATAAGCAAAAGTGCACCCAGTAC  1185
+
+Query_7  1186      TGGCCCGACAGTGGGAAACAGTCTTATGGTGATATTGACGTCACCATAGTTGACACCATC  1245
+
+Query_7  1246      CCTATGGTGGACCAATTGACACGGATATTTCTGGTCACAAAGGAAGGCGTCCGTGGGCGT  1305
+
+Query_7  1306      CGTCAGGTCACCCAGTTTCACTTCCTCGGCTGGCCGGACTACGGGCTGCCGCAGAGCCCC  1365
+52       10063880       ............C.....TAC.A............T....G....CTTC.CG...  10063934
+
+Query_7  1366      ATGGGATTGCTCAAGTTCCACAGGACAGTGGTTACCAAGACAACCGCAAAGGACACGCCC  1425
+52       10063935  ..C..CA............                                           10063953
+
+Query_7  1426      ATCGTTGTTCACTGCAGTGCCGGTGTTGGCCGCACGGGGACGTTTCTGACGGTAGACGCC  1485
+27       9137762                 ...C..G..C..G..............C..CA.CGT.A.C......  9137807
+
+Query_7  1486      ATGTTGGAGATGATGCAGGCTGAAGAGAAAGTGGACGTGTTCGGGTTTGTCTCCAGGATG  1545
+27       9137808   ...C....C.....C...A.G..GCGC..G..............C..C..GA.AC.C..C  9137867
+
+Query_7  1546      CGGCAGAACAGGAGCACCATGGTCCAGACAGAGGCCCAGTACGTGTTTATCTACCGGGCT  1605
+52       10067959                                     ............C.......AA..G  10067983
+27       9137868   ....CC.G.-.CT..CAG.....G.....G..CATG.....T.....C.......AA..C  9137927
+                     \                                                         
+                     |                                                         
+                     C
+
+Query_7  1606      CTACTGGAACAGTACCTGTACGGAGACACGGAGGTGGAAGTGGCGAACATCCACCACTAC  1665
+52       10067984  ..G..T..GTTCC.G..................C....G..                     10068024
+27       9137928   ..T.....GTTCC.G..................C.C..G..                     9137968
+
+Query_7  1666      ATGCACAAACTCAGGACCGAGCAGCCGGGCAAAGACAAGACGGGCTTCGAGATAGAATTT  1725
+
+Query_7  1726      GAGAAACTGACACGACTACCAGTGGACCGTGCGAACATGCGCAGTGGCAACCTACCTGCT  1785
+
+Query_7  1786      AACATGAACAAGAATAGAGTGCTGCAGATTCTGCCTTATGACACGAGACGTGTGTTTCTC  1845
+
+Query_7  1846      AAACACAAACCGGGAGTGAAAGGTTCTGACTACATCAACGCCTCTTTCATCGATGGGTAC  1905
+52       10073719                                                        ..C...  10073724
+37       4090064                              ...............AAC.A...G..C..C...  4090096
+27       9140957                                                         ..C..T  9140962
+16916    1777                                 ...............AAC.A...G..C..C...  1745
+68       7737116                              ...............AAC.A...T..C..C...  7737084
+68       7709182                                                             ..  7709181
+1        11651275                            ................AA..A...T..C..C...  11651308
+96       99187                                ...............AGC.....G.....T...  99155
+40       7953262                                                             ..  7953263
+
+Query_7  1906      CGGCAGAAGGATGCATACATCGCTACCCAGGGCCCGCTGGACCGGACTGTGGAGGACTTC  1965
+52       10073725  ..C..A........G.......TG..G..A..G..C...CC..AC..G.CA.....T...  10073784
+37       4090097   ..CA..C..A.C..C........C..G............CC.GA...CT.C.CC......  4090156
+37       4098720    .....C...CA..G........C..G.....T...A...C.GA...GAC..........  4098778
+27       9140963   .....A..A.......TTT.A...GG...A..T..CT..C.G.AA..G..T.....T...  9141022
+16916    1744      ..CA..C.CA.C..C........C..G............CC.GA...CT.C.CC......  1685
+68       7737083   ..CA..C..A....C........C........T......CC.GA...GACCTGC..T...  7737024
+68       7709180   A....AC...GC...........C..A..A..T..T..C--..T...GAC..........  7709121
+                                                                 \             
+                                                                 |             
+                                                                AA
+1        11651309  ...AG.C.CA.C..G.....A..AT.A...........C.--.....G..C.CC......  11651368
+                                                                \              
+                                                                |              
+                                                               AC
+9781     1402                           ..C..G.............C.G.C..C....G.......  1440
+0        13875020                 ........CG.G.....G..C....CGG.C..GAG..........  13875064
+0        16163176                 ........C...........C....C.GA...GCA..GA......  16163132
+125552   198        .....C...G...C....................T....CTGA...CACC.....TC.G  140
+96       99154     AA....C.CA.C..G........C..G.....TA..A...                      99115
+48       9806211               ..C.....A..C........G..C..CA.GG.C..GT.C.........  9806258
+40       7953264   ..........---.C........GG.......A..C..CA.GGCC..GT.T.CC......  7953320
+67       657434                         ..G..G........C..TCC.G.A..GAA...C......  657472
+47       9434200                  ........GG.G........C...CC.A.C..-.....C......  9434156
+                                                                      \        
+                                                                      |        
+                                                                      C
+24       10245732                                .....C...C.GGA...G.C..T......T  10245761
+
+Query_7  1966      TGGAGGATGGTGTGGGAATGGAACTCCTGCTCTATCGTCATGTTGACGGAGCTCAAAGAG  2025
+52       10073785  ...........A.....G.....G.G..T...C.........C....T.....         10073837
+37       4090157   .................GCA.CG.AG..C.A.C.........A.....              4090204
+37       4098779   .........C.......                                             4098795
+27       9141023   ...C.............G...CGA.....T..C.........C....C...           9141073
+16916    1684      .................                                             1668
+68       7737023   ..................G..G.--G.GT.A.G.........A.....CG...GG.G...  7736964
+                                    \                                          
+                                    |                                          
+                                   GC
+68       7709120   .........C.T.....GCA.......AC.ATCG.G......C....TA....T.G....  7709061
+1        11651369  .................                                             11651385
+9781     1441      ...C.C...........                                             1457
+0        13875065  .................                                             13875081
+0        16163131  ...C.A...C.T.....                                             16163115
+125552   139       ...C.....C.T.....                                             123
+48       9806259   .....A...........                                             9806275
+40       7953321   ...........C.....GCA....A.GG..GTC.....G...A.C..CA.T...GTG...  7953380
+67       657473    .................GCA...--.G...A..G........G.....C..           657523
+                                                   \                           
+                                                   |                           
+                                                  AA
+47       9434155   ...C.C...........GCA.G....GC..GTCG....G...C.C...C..TG.GTC...  9434096
+24       10245762  ...............C.GGA...G..G.C.AGC.........G.C...A.T...        10245815
+
+Query_7  2026      AAAGGACGGAGTAAAAGCGCCCATTACTGGCCAGAGGATGAACAGCTCCAGACCTTTGGA  2085
+68       7736963   .GG.C....-....GT....                                          7736945
+68       7709060   .TG......                                                     7709052
+40       7953381   ..G..T...                                                     7953389
+47       9434095   .G.......                                                     9434087
+
+Query_7  2086      GATGTGATCGTCACAGCACAGGGCGTGGAGACCTTCTCTGACTATGACCTGCGGACCTTT  2145
+
+Query_7  2146      CATGTGCGCCACACAAAGGAGGAAGAAAGCCGCACGGTGCAGCAGTTCCACTTCCACGGT  2205
+52       10076135                                            ...........T..A..G  10076152
+27       9143148                                             ........T.....T..C  9143165
+
+Query_7  2206      TGGCCGGAAGTCGGTAGTCCTGACAACGCCTCCGGGATGATCGATCTGATTGGTCAGGTC  2265
+52       10076153  .....A..G..T..C.TC..A...G...G.AAG..C.......GC..C..C.CCG.C..G  10076212
+27       9143166   ........GA.T..C.T...A..AG.T.G.AAG..C......AGC..C....C.GCT..A  9143225
+
+Query_7  2266      CAGAAGCAGCAGCAGCAGTCTGGGAACGGACCAATCACCGTGCACTGCAGTACTGGGTCT  2325
+52       10076213  ....G............A..G..A...CAG..C...GTGA.C........            10076262
+27       9143889                                                ......G.G..CG..  9143903
+27       9143226   .....A..A........TA.C..C...CAT..C.....T...........            9143275
+
+Query_7  2326      GGCCGCACGGGGACGTTCTGTGCCATCAGCACGGTGCTGGAGCGGGTGAAAGCAGAAGGA  2385
+52       10076852  ...A.G.....C........C..GC................A..C..C.....C..G..C  10076911
+27       9143904   ..T.....T..C..A.........C.GT....CA.C........T.....GA.G......  9143963
+
+Query_7  2386      ATCTGTGACGTGTTCCAAGTCGTCAAGGCGCTCCGGCTGCAGCGGCCTCACATGGTGCAG  2445
+52       10076912  ...CTC..T..C.....GAC.A.....AGC..G..CA..........G............  10076971
+27       9143964   ..TCT......A..T..GACG..A...AGT..A..AACA...A....C............  9144023
+
+Query_7  2446      ACACTGGACCAGTACCAGTTCTGTTACCAGGCAGTTTTGGAGTATCTGGACAGCTTTGAC  2505
+52       10076972  ..C....                                                       10076978
+27       9144024   ..                                                            9144025
+68       7703425     ..A.........T........C........G.CCC.......C....G......C...  7703368
+
+Query_7  2506      CACTACGCCA  2515
+68       7703367   ..........  7703358
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2301256718676
+
+
+Query= XM_019776831.1:67-
+1029_PREDICTED:_Branchiostoma_belcheri_tripartite_motif-
+containing_protein_3-like_(LOC109476020),_mRNA
+
+Length=963
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 859525692536
+
+
+Query= XM_019776951.1:98-2875_PREDICTED:_Branchiostoma_belcheri_F-
+BAR_domain_only_protein_2-like_(LOC109476089),
+_transcript_variant_X1,_mRNA
+
+Length=2778
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM025675.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  66.2    3e-08
+  JAAXLI020024317.1 Entosphenus tridentatus isolate CRITFC18_GStd...  53.6    2e-04
+
+
+
+Query_9  27       GGGGGAGAAAAACAATGGTTTTGATGTGGTGTACCATAACATGAAACATGGACAGATCTC  86
+68       6491006  .........G........A.....CA.CC.C..............G..C..C.....A..  6490947
+
+Query_9  87       AGTCAAGGAGATGGTGGAATATCTACGAGAAAGTGCCAGTGTCCAGGAGTTGAACTCCAA  146
+68       6490946  CAC.......G...                                                6490933
+
+Query_9  147      GTCCTGGAACAAGCTGGCCAAGCAAGCTGCTAACAGCAGTCAACAAGGGACGTTCTCTCC  206
+
+Query_9  207      CGTGTGGCAGATCATCCGTATGATGAATGAGAAGATGGCTACCGTGTACACTGAGCTGGT  266
+
+Query_9  267      GCACAGGCTACAGGAGGTGGCCAAGGAACTACAGAAGTACGGCGAGGAACAGCGCAACAA  326
+
+Query_9  327      ACACAAGTCTGTAAAAGAAGAAGTCCAACCTACAGCAGACGTGGTCACAAGTTTCCAGGG  386
+
+Query_9  387      CACAACAGCTGCTGTCCTCAAGGCAAAAGAAAACTACAACACAAGATGTCTTGAGTACGA  446
+
+Query_9  447      GAGGTTAAAGAGAGAAGGAGCTAGTCCAAAGGAAGTAGAGAAGGCAGAGGCGAAGTTTAC  506
+
+Query_9  507      AAAAGCAAAGGAAGACTACACACAACTAGTTGAAAAGTACGAGAACACTAGAGTAGATTT  566
+
+Query_9  567      TACCAAGAAAATGACAGACACAAGCAATCAATTTCAAGAAATAGAAGAAATCCACCTTAG  626
+
+Query_9  627      TTATATGTTTGACATCATCGCAAAATACGCCCAGTGTTTCCACCATGCACACTTCACTAT  686
+
+Query_9  687      AATGCAGATCGAAGAAGACTTTAAAACACAATCAGCAGAACTAGGCATCCAGAAACTCAT  746
+
+Query_9  747      ACAGAACTTTGCTGAAGGCAAAGGAACAGGCACGGAAAAGCCAGCTGCAATAGAGTTTGA  806
+
+Query_9  807      GGAGTGTGACCTGTCCTCCCTCCCACCGGCCATCTCCATGGAGTCTGTAGAGAACAACGG  866
+
+Query_9  867      AAAGGAAACCCCGGTAGTAGAGAAGGCAGTCGACAAACTCACCaagaagaaagaaagttt  926
+
+Query_9  927      cttgaagtccaagaagaaaaaagacaagaagaagaagaagaaagaTCAGACAGATAATGT  986
+
+Query_9  987      GTCCACTGGTTCACCAGACAGAGAAGATGGAGAGGTGGTTCCACCCGATGTGCTGGTTGA  1046
+
+Query_9  1047     TGATGAAGGTTACAGAATCAAACCTTCAGAAGAGCCACAAAATGCAAAGAGAAAGGACAG  1106
+
+Query_9  1107     CTTCTATTCCAGCAGTGATGAAGACTCGGATGAGGAGGGGGTTGGTGGGAAATTCCGCGT  1166
+
+Query_9  1167     GGAAATCAAACCTCCTGTCGTGAAGGACAGACACGCCACGGCCGGAGACTCGCTGGAAGA  1226
+
+Query_9  1227     GCTCAAAGCAACCGTAGGAGGGTTAACTCTCTCACCCTCCCCAGCAGCTTCTGTGAAGCT  1286
+
+Query_9  1287     GCGTAAGGAAGCCAGTAGACAACAGTTACAGAGGTCCAGATCAGAGTCCCAGAGTCAGGA  1346
+
+Query_9  1347     AGACGTGTTTACTTACTTCGACAGTATGAGTACGGCAGGCCTCGGCACCTCCACTCTAAA  1406
+
+Query_9  1407     CAGTAACAGTAAACCCAGCAACGACCTGCTGGGCCTGGACCTGTTCAGCTCACCGCTGGG  1466
+
+Query_9  1467     CACTGCCCCGTCCATCTCCTCAGCCTCCTTCTCACAGTCACATTCAGCATCAGCCTCCCC  1526
+
+Query_9  1527     GGAGCCCTGGGGCCTGCCTTCTCCGTCGTCTGAGCTCCCCCCTGCCCTGCCAGCCAAGCA  1586
+
+Query_9  1587     GCGACAGCTCACCCCCAGTACCCTGCCCGTACGGCCATCAGCCACCCCACCCCCTGGGGC  1646
+
+Query_9  1647     AGGAGATGCCAGCAGTGTCCTTCCAGAGCAAGAGAAGTTGTCCAGAccccccatgccagg  1706
+
+Query_9  1707     ggcccagcctgtcctccccctgccccccaAAACAGCACGAGCAAAACCCATCCCCACACC  1766
+
+Query_9  1767     CAGGCAACAGCCCAGTCCAGACGACATGATCCCAGGCCACGTCAGCCCTCCTATCCACGT  1826
+
+Query_9  1827     CACCAGCGCGGCTCCCCTGGCTCGAGCTGAGAGCCTGTCGTCCATCTCTTCCGGAACGTT  1886
+
+Query_9  1887     CAGCACGGCGGGGACACCCACCGCCGCGACCTCCAGAGGTCCGTCCCCTCTGCCCGCGGG  1946
+
+Query_9  1947     AAGCGGTACGGAGACCGTCATACCGGTGGCCGCGGCCTTCAGCGAGACCGTCAACGCTTT  2006
+23180    965                            ..C........C.......C...............C.A  928
+
+Query_9  2007     CTTC  2010
+23180    927      ....  924
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2533874726340
+
+
+  Database: GCA_014621495.2_Entosphenus_tridentatus_genomic.fna
+    Posted date:  Nov 25, 2021  11:37 AM
+  Number of letters in database: 927,744,424
+  Number of sequences in database:  141,124
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

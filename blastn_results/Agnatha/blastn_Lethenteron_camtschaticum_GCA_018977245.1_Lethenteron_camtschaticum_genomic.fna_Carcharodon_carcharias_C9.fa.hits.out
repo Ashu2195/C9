@@ -1,0 +1,62 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_018977245.1_Lethenteron_camtschaticum_genomic.fna
+           3,553 sequences; 1,074,727,531 total letters
+
+
+
+Query= 
+Length=1737
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MU249635.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  50.0    0.002
+  MU249586.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  50.0    0.002
+  WFAB01003294.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  48.2    0.006
+  WFAB01001785.1 Lethenteron camtschaticum isolate IMCB_JLM_01 co...  48.2    0.006
+  MU249615.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  48.2    0.006
+  MU249612.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  48.2    0.006
+  MU249574.1 Lethenteron camtschaticum isolate IMCB_JLM_01 unplac...  48.2    0.006
+
+
+
+Query_1  325       TGTAATAATGATGATGATTGTGGTGACTACAGTGATGAGGATGACTGTGA  374
+62       4804439   ...G..G...............A...TG.TT.......T.....T.....  4804488
+13       11835574  ...G..G...............A...TG.TT.......T....T......  11835623
+2136     1853           .............G.......TGG.........C.....        1815
+658      82496          .............G.......TGG.........C.....        82458
+42       3846562    ..G..G....................G.T........T......       3846516
+                                      \                              
+                                      |                              
+                                    ATA
+39       9168300   ...G..T..................---.TG...G.........T.....  9168254
+1        6629653       ..G...................TG.TGA......N.....T.....  6629698
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1831135920528
+
+
+  Database: GCA_018977245.1_Lethenteron_camtschaticum_genomic.fna
+    Posted date:  Nov 25, 2021  11:39 AM
+  Number of letters in database: 1,074,727,531
+  Number of sequences in database:  3,553
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,53 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_014621495.2_Entosphenus_tridentatus_genomic.fna
+           141,124 sequences; 927,744,424 total letters
+
+
+
+Query= 
+Length=1737
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAAXLI020009454.1 Entosphenus tridentatus isolate CRITFC18_GStd...  53.6    1e-04
+  CM025636.2 Entosphenus tridentatus isolate CRITFC18_GStd-0006 e...  53.6    1e-04
+  JAAXLI020108032.1 Entosphenus tridentatus isolate CRITFC18_GStd...  48.2    0.005
+  JAAXLI020060564.1 Entosphenus tridentatus isolate CRITFC18_GStd...  48.2    0.005
+
+
+
+Query_1  325      TGTAATAATGATGATGATTGTGGTGACTACAGTGATGAGGATGACTGTGAGTC  377
+8317     5508      ..G..............G.......TG.TG.......T.....T.....     5460
+29       6846463   ..G..G.........G.G.......T..G..............TG....     6846511
+106895   330             ...........G...A....G.T........C.....TG....T..  285
+59427    330      ...G..G...................TG.TT.......T.....           373
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1574104517480
+
+
+  Database: GCA_014621495.2_Entosphenus_tridentatus_genomic.fna
+    Posted date:  Nov 25, 2021  11:37 AM
+  Number of letters in database: 927,744,424
+  Number of sequences in database:  141,124
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,81 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_015708825.1_Lethenteron_reissneri_genomic.fna
+           1,945 sequences; 1,063,012,140 total letters
+
+
+
+Query= 
+Length=1737
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027294.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  53.6    1e-04
+  CM027350.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  51.8    5e-04
+  CM027316.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  50.0    0.002
+  CM027299.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  50.0    0.002
+  JADLOY010000353.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    0.006
+  JADLOY010001688.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    0.006
+  JADLOY010001030.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    0.006
+  JADLOY010001017.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    0.006
+  JADLOY010000542.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    0.006
+  JADLOY010000298.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    0.006
+  JADLOY010000258.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    0.006
+  CM027342.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  48.2    0.006
+  CM027333.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  48.2    0.006
+
+
+
+Query_1  325       TGTAATAATGATGATGATTGTGGTGACTACAGTGATGAGGATGACTGTGA  374
+1        15049412     ...............G..TA.......G.......T......       15049371
+57       4769304          ...........G.......TG..........T.....TG....  4769346
+57       4811242          ...........G.......TG..........T.....TG....  4811284
+57       2741028   ...G..T..................---.TG...G.........T.....  2740982
+23       4370582           .....G.....A......T..T....G...C...........  4370541
+6        6864991   ...G..G...............A...TG.TT.......T....T......  6864942
+822      15748      ..G..G...........A.......TG.T........T.....TA....  15796
+763      1883511    ..G..G...........A.......TG.T........T.....TA....  1883463
+763      1884772    ..G..G...........A.......TG.T........T.....TA....  1884724
+763      1885185    ..G..G...........A.......TG.T........T.....TA....  1885137
+763      1883960    ..G..G...........A.......TG.T........T.....-....   1883914
+690      65080      ..G..G...........A.......TG.T........T.....TA....  65032
+690      66377      ..G..G...........A.......TG.T........T.....TA....  66329
+690      66803      ..G..G...........A.......TG.T........T.....TA....  66755
+676      24602      ..G..G...........A.......TG.T........T.....TA....  24650
+675      4797       ...G.G...........A.......TG.T........T.....TA....  4845
+288      20289      ..G..G...........A.......TG.T........T.....TA....  20241
+203      7672       ..G..G...........A.......TG.T........T.....TA....  7720
+49       7778284    ..G..G....................G.T........T......       7778330
+                                      \                              
+                                      |                              
+                                    ATA
+40       5877933       ..G...............A...TG.TT.......T.....T.....  5877978
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1812329579500
+
+
+  Database: GCA_015708825.1_Lethenteron_reissneri_genomic.fna
+    Posted date:  Nov 25, 2021  11:40 AM
+  Number of letters in database: 1,063,012,140
+  Number of sequences in database:  1,945
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

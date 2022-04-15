@@ -1,0 +1,338 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004026845.1_Heterohyrax_brucei_genomic.fna
+           967,933 sequences; 3,618,151,652 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJQ01001924.1 Heterohyrax brucei isolate US064 HetBruBak_scaff...  68.0    6e-10
+
+
+
+Query_1  1      ATGTCGACTGGCTGGAGGTTTGCCTTTGTGATATGCACTTTACTAAAAAATATCCTGGCA  60
+1923     38392  ......G.CA................G.C........T...G.AG.T..G.G.T......  38451
+
+Query_1  61     GCAGGGCCTACTCCAAG  77
+1923     38452  ....A.T....C.....  38468
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 172323916560
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJQ01001924.1 Heterohyrax brucei isolate US064 HetBruBak_scaff...  116     2e-24
+
+
+
+Query_2  11     CAGACAGTACAAGGGAGTGACACTCCCTCTCCCATAGACTGCAGAATGAGCTCCTGGAGT  70
+1923     59008  ......A.TG..CA.....GTG....A.......................TA........  59067
+
+Query_2  71     GGATGGTCGCAATGTGACCCTTGCCTCAAACAAA  104
+1923     59068  .A................................  59101
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 272772638312
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJQ01001924.1 Heterohyrax brucei isolate US064 HetBruBak_scaff...  185     7e-45
+
+
+
+Query_3  1      TTCCGCTCAAGGAATATTGAGGTCTTTGGACAATTCAATGGGAAGAAATGCCTTGACTCT  60
+1923     59890  .............G...C........C........T..A........G.....G..T...  59949
+
+Query_3  61     GTGGGAGACCAAGGGCAGTGTTTACCCACTGAGCCCTGTGAAGAGGCTGAGGATGACTGT  120
+1923     59950  C.........GGA.C......G......................................  60009
+
+Query_3  121    GGAAATGACTTTAAATGCGGCACAG  145
+1923     60010  .....C...........T.A.....  60034
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 409048613106
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJQ01001924.1 Heterohyrax brucei isolate US064 HetBruBak_scaff...  190     2e-46
+  PVJQ01020505.1 Heterohyrax brucei isolate US064 HetBruBak_scaff...  48.2    0.001
+
+
+
+Query_4  1      GCAGGTGCATAAAGCAGCAGCTCCTGTGTAATGGTGACAATGACTGCGGAGACTTTTCAG  60
+1923     60277  ............G.AG...............C...........T................  60336
+20504    37839    .....T.....C.-......T..T..C.....G...........T......CAA.T..  37782
+                                    \                                       
+                                    |                                       
+                                    A
+
+Query_4  61     ATGAAGATGTTTGCGAAGATGATCCCCGTCCCCCTTGCCGTAACAAAGTGGTGGAAGAGT  120
+1923     60337  ........AA...T...A............T...C......G...G..............  60396
+20504    37781  ....                                                          37778
+
+Query_4  121    CCGAGCTGGCACGAATGGCAGGCTATGG  148
+1923     60397  .T..A..........CA...........  60424
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 419813050293
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJQ01001924.1 Heterohyrax brucei isolate US064 HetBruBak_scaff...  219     3e-55
+
+
+
+Query_5  1      GATCAACATTTTAGGGATGGATCCCCTAAGCACTCCTTTTGACAATGAGTTCTACAATGG  60
+1923     71205  .....................C...T...A...........................C..  71264
+
+Query_5  61     CCTCTGTGACAGGGTTCGGGATGGAAACACCTTGACATACTACCGCAGACCCTGGAATGT  120
+1923     71265  ..........C.................................................  71324
+
+Query_5  121    GGCTTCTTTGGCCTATGAA  139
+1923     71325  A....A.............  71343
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 387519738732
+
+
+Query= exon6
+
+Length=270
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJQ01001924.1 Heterohyrax brucei isolate US064 HetBruBak_scaff...  230     4e-58
+  PVJQ01050121.1 Heterohyrax brucei isolate US064 HetBruBak_scaff...  46.4    0.009
+
+
+
+Query_6  1      GTCAAAGCCGATAAAAATTTCAGAATCGAGCATTTTGAAGAACATTTTCAAGCATTCACA  60
+1923     82710  ....G...T...............G...................G.A..T..TC......  82769
+
+Query_6  61     AGTATCATTGAAGAGAAGACAAAAAATTTTAATGCAGATTTCTCTCTAAAATTCACACCC  120
+1923     82770  ..A...T..........T.T.GT..C.............GCT.....C............  82829
+50120    11177                        ............A.....C.A..T...........     11211
+
+Query_6  121    ACTGAAGCTAATAAAAAGGATAAAAATGAAGCTAACGAACATGCTAACAGAATAGACTCT  180
+1923     82830  ...........A...G..C.G....G....T..G.A....C...G.GTGA..C.A....C  82889
+
+Query_6  181    CAAAGTCATGAAGATAAAGGAAAAAGGTTTCGGTTTAGTTATTCCAAAAATGAAACTTAC  240
+1923     82890  .....G.C.....G.TTT.AG.GC.AC.........CA...CAA................  82949
+
+Query_6  241    CAACTATTTTTGTTATATTCTTCACTAAAG  270
+1923     82950  ...AA...AA....................  82979
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 853748315448
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJQ01001924.1 Heterohyrax brucei isolate US064 HetBruBak_scaff...  318     9e-85
+
+
+
+Query_7  1      GAAAAAATGTTTCTGCATGTGAAAGGAACGATTCAGGTGGGAAGATTTGTGATGAGAAAT  60
+1923     88075  ....................A......GT.......C.T....A....T...........  88134
+
+Query_7  61     CGGCGTGGCATGCTGACAACAACTTTTGTGGATGACGTAAAAGCTCTGCCAACTAACTAT  120
+1923     88135  ...G.A.T..................CC.......TA..............C........  88194
+
+Query_7  121    GAAAAGGGGGAATATTTTGCATTTTTGGAAACCTATGGAACCCACTACAGTAGCTCTGGG  180
+1923     88195  ................................T........T.....T..C.....G..A  88254
+
+Query_7  181    TCTCTAGGGGGAATCTATGAACTAATATACGTTTTGGATAAAGCCTCCATGAGGGAGAA  239
+1923     88255  ............T..........G.....T......................A......  88313
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 753510603090
+
+
+Query= exon8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJQ01001924.1 Heterohyrax brucei isolate US064 HetBruBak_scaff...  122     6e-26
+
+
+
+Query_8  2      TGTTGAAATAAGAGATATACAGAGATGCCTCGGGTTTAATCTGGATTTGTCTATAAATCG  61
+1923     91485  .......C...........A...A......T..A...G..............G.....AT  91544
+
+Query_8  62     TGGCGCTGAAATCACAGTAAAAATTAATAAAAAGGATTGTTTAAAGAGGGGTGAAGGTAG  121
+1923     91545  ...A.T....G...A..G...T.....CT.C..CA.C......................A  91604
+
+Query_8  122    ACTTG  126
+1923     91605  .G...  91609
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 344554911552
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJQ01001924.1 Heterohyrax brucei isolate US064 HetBruBak_scaff...  187     3e-45
+
+
+
+Query_9  1      TAAACATCACTAGTGATAACCTCATAGATGATGTTATTTCACTCATACGAGGAGGAACCA  60
+1923     92682  ........G.C......G.TA...........A..........T....A...........  92741
+
+Query_9  61     GAAAATACGCCTTTGAACTGAAAGAAAAGCTTCTCAAAGGAGCCAAGACAATTGACGTGA  120
+1923     92742  ....G..T..A...C.G...........---A.......A..T....---..........  92795
+
+Query_9  121    CTGACTTTGTAAATTGGGCTGATTCTCTAAATGATGCTCCGGTGCTCATAAGC  173
+1923     92796  .C....................C..C..T...........A............  92848
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 531045567892
+
+
+Query= exon10
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVJQ01001924.1 Heterohyrax brucei isolate US064 HetBruBak_scaff...  197     2e-48
+
+
+
+Query_10  1       CTGTCTCCTATATATAATCTAATTCCATTGGAAATCAAAGACGCATACCAAAAGAAACAA  60
+1923      118695  ..A.................GG.....GC.A....A.....T...C...TG....GG...  118754
+
+Query_10  61      AATTTGGAACGAGCCATTAAAGACTATGTCAACGAATTCAGTGTANAGAAAATGCCATCC  120
+1923      118755  ..........A...T...G.......CA....T............-..............  118813
+
+Query_10  121     CTGCCAAAATGGAGGCAGTGCGATACTGCTGGATGGGCAATGTTTGTGCACCTGCCCAAA  180
+1923      118814  A........C.......C..TA..............C..G...A..............CT  118873
+
+Query_10  181     GACATTTGA  189
+1923      118874  ..A......  118882
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 566927025182
+
+
+  Database: GCA_004026845.1_Heterohyrax_brucei_genomic.fna
+    Posted date:  Nov 24, 2021  3:36 PM
+  Number of letters in database: 3,618,151,652
+  Number of sequences in database:  967,933
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

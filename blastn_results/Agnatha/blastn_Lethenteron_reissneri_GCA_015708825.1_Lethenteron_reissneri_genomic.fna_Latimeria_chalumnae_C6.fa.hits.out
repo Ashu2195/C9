@@ -1,0 +1,429 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_015708825.1_Lethenteron_reissneri_genomic.fna
+           1,945 sequences; 1,063,012,140 total letters
+
+
+
+Query= exon1
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027312.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  44.6    0.005
+
+
+
+Query_1  20        TGCGTCCATCTCAGTTTGGGGGTCAGGACTGCACTGAGCAACTTGTAGACTGGA  73
+19       13892258  ...C.T.........G.T.T.....T.......A..T..............A..  13892203
+                             \     \                                     
+                             |     |                                     
+                             G     C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123302865260
+
+
+Query= exon2
+
+Length=142
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120113998055
+
+
+Query= exon3
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116925130850
+
+
+Query= exon4
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JADLOY010000355.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    1e-04
+  JADLOY010001434.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    1e-04
+  CM027344.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  48.2    1e-04
+  CM027310.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  48.2    1e-04
+  CM027304.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  48.2    1e-04
+  JADLOY010001936.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  46.4    4e-04
+  CM027349.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  46.4    4e-04
+  CM027347.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  46.4    4e-04
+  CM027362.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027360.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027359.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027357.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027355.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027353.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027352.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027345.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027337.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027336.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027334.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027331.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027321.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027318.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027316.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027307.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027305.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027302.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+  CM027295.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  42.8    0.005
+
+
+
+Query_4  11        CTagagagagagagagagagaAAGAGTGTGAGAT  44
+1439     1350        ................T..G...........   1320
+774      254842      ................T..G...........   254872
+51       3455431      ...............C..G............  3455461
+17       577352      ............T......G...........   577322
+11       1941030     ................T..G...........   1941000
+11       1940280     ..........T.....T..G...........   1940250
+772      3793138     .....C.......C.....G...........   3793168
+772      3969897     ....T.........T....G...........   3969867
+772      3970369     ....T.........T....G...........   3970339
+772      3970669     ....T.........T....G...........   3970639
+772      3970985     ....T.........T....G...........   3970955
+772      3971223     ....T.........T....G...........   3971193
+772      4334906     ....T.........T....G...........   4334876
+772      4335956      .......T.......T..............   4335927
+772      4371224        .............T..G...........   4371197
+56       6698572     ....T.T............G...........   6698602
+56       7312963     ......T.......T....G...........   7312933
+56       6697517      .............T....G...........   6697546
+54       789067         .........T..................   789094
+69       139737      ....T.........T....G...........   139767
+67       3939330     ......T.........T..G...........   3939300
+66       6142408     ........T.....G....G...........   6142378
+64       8726806     ........T...T......G...........   8726776
+64       6366026        ......T.........G...........   6365999
+62       3643927     ......T.........T..G...........   3643957
+60       2206909     ..........T...T.T..............   2206879
+60       2210711     ......T.......T....G...........   2210681
+60       2210771     ....T.........T....G...........   2210741
+60       2952184     ....T.G.....T..................   2952214
+59       8977530     ........T.T........G...........   8977560
+59       8977632     ..........T.T......G...........   8977662
+59       8979795     ....T.........T....G...........   8979825
+59       8979694        .........T......G...........   8979721
+52       1027826     ............T.T....G...........   1027796
+52       3640153     ......T.......T....G...........   3640183
+52       3640197     ......T.......T....G...........   3640227
+52       3640381     .......CG..........G...........   3640411
+52       3696449     ......T.........T..G...........   3696419
+52       3696655     ..........T.......TG...........   3696625
+52       3696776     ......T.........T..G...........   3696746
+52       3696981     ......T.........T..G...........   3696951
+52       3697135     ......T.........T..G...........   3697105
+52       3697181     ......T.........T..G...........   3697151
+52       3697227     ......T.........T..G...........   3697197
+52       3697303     ......T.........T..G...........   3697273
+52       3697351     .....CG............G...........   3697321
+52       3697397     .....CG............G...........   3697367
+52       1928889          .......T..................   1928864
+44       6014183     ......T...T........G...........   6014213
+43       7146574   ..........C..........G...........   7146608
+                                 \                   
+                                 |                   
+                                CA
+41       8006063        .......T.......T............   8006036
+38       8378818     ......T.G..........G...........   8378788
+28       1501180        ...........T....G...........   1501153
+25       9476333     ....T.T............G...........   9476303
+25       9476353     ..........T.C......G...........   9476323
+23       19161918    ..........T.T......G...........   19161948
+23       19161932    ..........T.T......G...........   19161962
+23       19161946    ..........T.T......G...........   19161976
+23       19161974    ....T.......T......G...........   19162004
+23       19161994    ....T.T............G...........   19162024
+23       19162006    ............T.T....G...........   19162036
+23       19162034    ........T.T........G...........   19162064
+23       19162048    ..........T.T......G...........   19162078
+23       19162062    ..........T.T......G...........   19162092
+23       19162076    ..........T.T......G...........   19162106
+23       19162090    ..........T.T......G...........   19162120
+23       19162104    ..........T.T......G...........   19162134
+23       19162132    ....T.......T......G...........   19162162
+23       19162160    ........T.T........G...........   19162190
+23       19162172    ............T.T....G...........   19162202
+23       19162202    ........T.T........G...........   19162232
+23       19162216    ..........T.T......G...........   19162246
+23       19162230    ..........T.T......G...........   19162260
+23       19162244    ..........T.T......G...........   19162274
+14       9434992     ..C.........C.C................   9434962
+12       629062      ......T.......T....G...........   629032
+12       629358      ....T.........T....G...........   629328
+9        10415815    ......T.........T..G...........   10415785
+2        1496485          ..............G...........   1496460
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37203518800
+
+
+Query= exon5
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 224283249690
+
+
+Query= exon6
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 99917839090
+
+
+Query= exon7
+
+Length=167
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 146687891430
+
+
+Query= exon8
+
+Length=226
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 208338942840
+
+
+Query= exon9
+
+Length=172
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 152002670105
+
+
+Query= exon10
+
+Length=124
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 100980794825
+
+
+Query= exon11
+
+Length=133
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 110547396440
+
+
+Query= exon12
+
+Length=192
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 173261784805
+
+
+Query= exon13
+
+Length=91
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 66966333840
+
+
+Query= exon14
+
+Length=239
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 222157342110
+
+
+Query= exon15
+
+Length=176
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 156254493045
+
+
+  Database: GCA_015708825.1_Lethenteron_reissneri_genomic.fna
+    Posted date:  Nov 25, 2021  11:40 AM
+  Number of letters in database: 1,063,012,140
+  Number of sequences in database:  1,945
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

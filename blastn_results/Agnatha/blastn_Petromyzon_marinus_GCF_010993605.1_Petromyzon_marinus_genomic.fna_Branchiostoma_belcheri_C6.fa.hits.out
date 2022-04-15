@@ -1,0 +1,815 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_010993605.1_Petromyzon_marinus_genomic.fna
+           1,434 sequences; 1,089,050,413 total letters
+
+
+
+Query= Branchiostoma_belcheri
+
+Length=2766
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_022638967.1 Petromyzon marinus isolate kPetMar1 unplaced gen...  100     2e-18
+  NC_046095.1 Petromyzon marinus isolate kPetMar1 chromosome 27, ...  66.2    3e-08
+  NC_046072.1 Petromyzon marinus isolate kPetMar1 chromosome 4, k...  57.2    2e-05
+  NC_046142.1 Petromyzon marinus isolate kPetMar1 chromosome 74, ...  51.8    8e-04
+  NC_046069.1 Petromyzon marinus isolate kPetMar1 chromosome 1, k...  50.0    0.003
+
+
+
+Query_1  451       TGCAGGGAGAACGAGTTCACCTGCCAAAACAAGCGGTGCATCCCGGAGCTCCAGACATGT  510
+3        11479628  ...C..C.....C...........G.G...GG...C.........CG.A..TTTG.C..C  11479569
+
+Query_1  511       AACGGGGATAACGACTGTGGAGACTTCTCCGACGAGCGGCGGTGTGAGCAGATCTTTGAC  570
+3        11479568  G.T..A..............G...                                      11479545
+
+Query_1  571       GTGTGTGACGGACAGGACTTCGACGCTATCCCCAACATTGAGTTCGCTGGCAGCGGGTAC  630
+
+Query_1  631       AACATCCTGTCGGGAGAGGTTGCTGGGAAGGTTCTGGAGAACAGGCTGTACGGAGGCACG  690
+
+Query_1  691       TGTAACACTGTCTACAGCGGAGACCACGGCAAGAGCTTCCGTCTGCCAGAGAACCTACAA  750
+
+Query_1  751       AACTACCGCTTCCAAGTTCTCGCTGACAACTCCTTCGCCACCACGGCGTACAACAGCGCG  810
+
+Query_1  811       GAGGAATACTACCGCGAGACGAGGTCCAACTCCCAGCGGAACGTCAAGGTCGGCGGGTCG  870
+
+Query_1  871       GGCAGTTTCTTCGTCATCAAGGCGAGCGGCGGCGTGTCGCACAGCCAGTCCCGCATGACT  930
+
+Query_1  931       CACGAAGTCATCGAGTCCGCGCAGAAAATAGACTCCAAGTACTTCAAAGTGATGAACACA  990
+
+Query_1  991       GTTGAGCTGGCTCAGTTCAAGATGCGCAGAAGCGACCTGAACCCATCCGACATCTTCCTG  1050
+
+Query_1  1051      CGGCGCATGAAGGACTTACCTGTCTACTACAACTACCTGGACTACAGTTTCCTTATTGAA  1110
+
+Query_1  1111      GACTTCGGCACGCACTACTTTTCCTCGGGAAGTCTAGGCGGACAGTATGAGTACGTCTAC  1170
+
+Query_1  1171      CGGTACAGCAGAGCCGACCTGTCTCACTCTGGTCTGACCGAGGAGGAACAGAAGTCGTGT  1230
+
+Query_1  1231      CTGAGTGCCGAAGCTAAGGCCTCGTTCTTCAGTTTCTCCGGCAGCAGCAGCGGCAGCAGG  1290
+0        919551                                         ......................C  919529
+
+Query_1  1291      TGCAAAGAGAACGCGCTTTCACAGAGGAACAGCGGAAGTTTCACCCTGTCTGCGTCCGAG  1350
+0        919528    A........                                                     919520
+
+Query_1  1351      TCCTTCTCCCACGTGAAGGGCGGCTCGTCGGAATCCGCCGGCCAGCTGGCCTTCGCCAAC  1410
+
+Query_1  1411      GGACCGAACCCGGAGAAGTACGAGGCGTGGATCCAGGACGTCAAACGGAACCCCGCTATC  1470
+
+Query_1  1471      ATCAGCTACGAGATCACGCCCATTTCTGAGCTTGTGGTCGGCATCCCCTACGCGGACATC  1530
+
+Query_1  1531      AAGCGGCGTAACATGGAGAAGGCTCTGGTGGAATACCTGCACTTCTACCACTCCTGCAAG  1590
+
+Query_1  1591      TGTAACTCCTGTCAGAACAACGGCCAGGCCATCATGATCGGCACGGAGTGCGTCTGCGTC  1650
+
+Query_1  1651      TGCAAGGCGGGAACATACGGCATCTCCTGCGAGCTGGGGACGCAGGTTGACAACGTCGGT  1710
+
+Query_1  1711      ACTGCAGTTCACGGGAACTGGGCGTGTTGGGGCTCCTGGGCGCCGTGCAGTAAGTCCTGC  1770
+
+Query_1  1771      GGGTCAGGACAGCGGGTCCGCCGCCGCACCTGCAGCAACCCCACCCCCCGGAACAACGGC  1830
+
+Query_1  1831      CAGACCTGCCCCGGACAGGACTCCGAGACCGAGACCTGTAACTCACACCCATGCCTCACG  1890
+
+Query_1  1891      CAATGCCAGCCGGGGTACTACTCCCGTACAGGGTACGCACCGTGCAGGGCATGTCCGCCG  1950
+
+Query_1  1951      GGCGCCTTCCAGACCCTGCCCGGCCAGAAGACCTGCCTGGACTGCCCCCGCGGAAAAACC  2010
+
+Query_1  2011      ACCGGCCGCTCCGCAACGATCCTGTTCGAACACTGTGTTGAAGATGAAGAGCCTGTTGAA  2070
+
+Query_1  2071      TCAGACGCCGGCGTCCTCGGTACGGGTGGTTCCTCTGGATCAGCGACAGGGTCAAGAACA  2130
+
+Query_1  2131      GGGTCCAGGCCAGATAGGCCGAGATTCTTCGGCTCCAGAGGCACTAATGCTAGCTATAGT  2190
+
+Query_1  2191      GACGGGGCAACTGCGGTATCCAGTGGCTCGTCAGCTGGTAGAGTAGGGGTTGAAACAGAC  2250
+
+Query_1  2251      AGAGTTAGGGACACGATTATGATACCAGTCGAACCGACAGTTGAAGAGGACGATGATCAA  2310
+
+Query_1  2311      ACAGAGCCGCCGTCCGCCAATCCGCGCCGACACCACCACGGAACATCTTCGGCATCCTCC  2370
+
+Query_1  2371      GGAGGCGGTCGGCACGGTGCCGAGGAGGATCCGGAAACTACCGACGGCGGAACCGATATA  2430
+
+Query_1  2431      TCTGATGAGAGAAGCACCGATGCTCCGACGGACAGTGGATCGGATGTTGCTGCTGCTTTC  2490
+
+Query_1  2491      CCAGGTGGTCCTGATGCTGACACGTCACCAGGAGATGCTGACACGTCACCAGGAGATGCT  2550
+949      172242                       ...............G.A.CT...............G.A.C  172284
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      172435                       ...............G.T.CT......A........G.T.C  172477
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      173489                       ...............G.T.CT......A........G.T.C  173531
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      176429                       ...............G.T.CTG.....A........G.A.C  176471
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      175482                       ......A........G.A.CT...............G.T.C  175524
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      174321                       ...............G.T.CT...............G.T..  174363
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      174256                       ......A........G.A.CT...............G.T..  174298
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      172089                       ...............G.A.CT...............G.A.C  172131
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      172155                       ...............G.T.CT...............G.T..  172197
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      174190                       ...............G.T.CT...............G.A.C  174232
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      172501                       ......A...T....G.T..-...............G.T..  172542
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      169720                       ...............G.A.CT...............G.A.C  169762
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      173619                       ......A........G.T.CT...............G.T.C  173660
+                                          \                                    
+                                          |                                    
+                                          A
+949      167792                       ...............G.A.CT...............G.T..  167834
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      169852                       ...............G.A.CT....AGT........G.A.C  169893
+                                          \                                    
+                                          |                                    
+                                          A
+949      170291                       ...............G.A.CT...............G.T..  170333
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      176495                       ......A..........C..-...............G.T..  176537
+                                          \          \         \               
+                                          |          |         |               
+                                          A          G         A
+949      178042                       ...............G.A.CT......A........G.A.C  178084
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      175548                       ......A........G....-...............G.T..  175590
+                                          \            \       \               
+                                          |            |       |               
+                                          A            A       A
+949      167854                       ......A........G.A.CT...............G.T..  167896
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      170353                       ......A........G.A.CT...............G.T..  170395
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      172308                       ...............G.T..-.........A.....G.T..  172349
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      177779                       ......A........G.A.CT...............G.T.C  177821
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      177845                       ......A........G.T.CT......A........G.T..  177887
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      178108                       ...............G.T.CT...............G.T..  178150
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      173555                       ...............G.T.CT...............G.T.C  173598
+                                          \                    \             \ 
+                                          |                    |             | 
+                                          A                    A             A
+949      166033                       ...............G.T.CT.............---.A.C  166072
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      168514                       ...............G.T.CT.............---.A.C  168553
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      166096                       ......A........G.T..-...-...........G.T..  166135
+                                          \                                    
+                                          |                                    
+                                          A
+949      168577                       ......A........G.T..-...-...........G.T..  168616
+                                          \                                    
+                                          |                                    
+                                          A
+949      172198                       .........A.....G.A.CT......A........G.T.C  172240
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      172964                       ......A........G.A.CT...............G.A.C  173006
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      175400    .....A........CTG...---..A........G.T.CT......A........G.T.C  175458
+                            \                                  \               
+                            |                                  |               
+                            T                                  A
+949      177976                       ......A........G.A.CT......A........G.A.C  178018
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      167726                       ...............G.A.CT......A........G.A.C  167768
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      170225                       ...............G.A.CT......A........G.A.C  170267
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      174127                       ...............G.T.CT.............---.A.C  174166
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      173250                       ...............G.T.CT...............G.T..  173292
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      165964                       ......A........G.T.CT...............G.T..  166007
+                                          \                    \              \
+                                          |                    |              |
+                                          A                    A              C
+949      168445                       ......A........G.T.CT...............G.T..  168488
+                                          \                    \              \
+                                          |                    |              |
+                                          A                    A              C
+949      173029                       ......A........G.A.CT......A........G.T..  173071
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      173162                       ......A........G.T.CT...............G.T.C  173204
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+949      173118                       ......A........G.A.CT......A........G.A.C  173160
+                                          \                    \               
+                                          |                    |               
+                                          A                    A
+26       5722288                                        ............AG..G.T....  5722265
+                                                                              \
+                                                                              |
+                                                                              C
+26       5722140                   ............AT..-.T.........A....AT..-.T....  5722097
+                                                         \                    \
+                                                         |                    |
+                                                         C                    C
+26       5722161                   ............AT..-.T..............AT..-.T....  5722118
+                                                         \                    \
+                                                         |                    |
+                                                         C                    C
+26       5722056                   ............AC..-.C.........C....AC..-.C....  5722013
+                                                         \                    \
+                                                         |                    |
+                                                         C                    C
+26       5722222                     .....A....AT..-.T..................C--....  5722181
+                                                         \          \         \
+                                                         |          |         |
+                                                         C          A         C
+
+Query_1  2551      GAAACGTCACCAGGAGATGCTGACACGTCACCAGGAGATGCTGAAACGTCACCAGGAGAT  2610
+949      172285    T.C.............G.T.CT...............G.T..AC.CA.....A.....G.  172346
+                        \                    \                                 
+                        |                    |                                 
+                        A                    A
+949      172478    T.C.............G.A.CT......A...T....G.T..AC.CA...........G.  172539
+                        \                    \                                 
+                        |                    |                                 
+                        A                    A
+949      173532    T.C.............G.T.CT...............G.T.CT.C.............G.  173594
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      176472    T.C....A........G.A.CT......A..........C..AC.CA...........G.  176534
+                        \                    \          \                      
+                        |                    |          |                      
+                        A                    A          G
+949      175525    T.C.............G.T.CT......A........G....AC.CA...........G.  175587
+                        \                    \            \                    
+                        |                    |            |                    
+                        A                    A            A
+949      174364    AC.CA...........G.T.CT...............G.T.CT.C.............G.  174425
+                                             \                    \            
+                                             |                    |            
+                                             A                    A
+949      174299    AC.CA...........G.T.CT...............G.T.CT.C.............G.  174360
+                                             \                    \            
+                                             |                    |            
+                                             A                    A
+949      172132    T.C.............G.A.CT...............G.T.CT.C.............G.  172194
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      172198    AC.CA.....A.....G.A.CT......A........G.T.CT.C.............G.  172259
+                                             \                    \            
+                                             |                    |            
+                                             A                    A
+949      174233    T.C....A.T......G.A.CT......A........G.A.CT.C.............G.  174295
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      172543    AC.CA..A........G.T.CT...............G.A.CT.C.............G.  172604
+                                             \                    \            
+                                             |                    |            
+                                             A                    A
+949      169763    T.C....A........G.A.CT...............G.T.CT.C....A........G.  169825
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      173661    T.C.............G.T.CT...............G.A.CT.C.............G.  173724
+                        \                    \       \            \            
+                        |                    |       |            |            
+                        A                    A       T            A
+949      167835    AC.CA.........---.A.CT......A........G.A.CT.C.............G.  167893
+                                             \                    \            
+                                             |                    |            
+                                             A                    A
+949      169894    T.C.............G.A.CT...............G.A.CT.C....A........G.  169956
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      170334    AC.CA.........---.A.CT......A........G.A.CT.C.............G.  170392
+                                             \                    \            
+                                             |                    |            
+                                             A                    A
+949      176538    AC.CA..A........G.T.CT......A........G.T..AC.CA..A........G.  176598
+                                             \                                 
+                                             |                                 
+                                             A
+949      178085    T.C....A........G.T.CT...............G.T.CT.C.............G.  178147
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      175591    AC.CA...........G.T.CT......A........G.T.CT.C.............G.  175652
+                                             \                    \            
+                                             |                    |            
+                                             A                    A
+949      167897    AC.CA..A........G.A.CT...............G.T.CT.C.............G.  167958
+                                             \                    \            
+                                             |                    |            
+                                             A                    A
+949      170396    AC.CA..A........G.A.CT...............G.T.CT.C.............G.  170457
+                                             \                    \            
+                                             |                    |            
+                                             A                    A
+949      172350    AC.CA...........G.T.CT................AC..AC.CA.........---.  172408
+                                             \         \                       
+                                             |         |                       
+                                             A         G
+949      177822    T.C....A........G.T.CT......A........G.T.CT.C....A........G.  177884
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      177888    AC.CA...........G.T.CT......A........G.T.CT.C....A........G.  177949
+                                             \                    \            
+                                             |                    |            
+                                             A                    A
+949      178151    AC.CA...........G.T.CT......A........G.A.CT.C....A........G.  178212
+                                             \                    \            
+                                             |                    |            
+                                             A                    A
+949      173599    T.C..AGA.....-..T.C..-......A........G.T.CT.C.............G.  173657
+                                             \                                 
+                                             |                                 
+                                             A
+949      166073    T.C....A........G.T.CT......A........G.T..AC.--...........G.  166132
+                        \                    \                                 
+                        |                    |                                 
+                        A                    A
+949      168554    T.C....A........G.T.CT......A........G.T..AC.--...........G.  168613
+                        \                    \                                 
+                        |                    |                                 
+                        A                    A
+949      166136    AC.CA...........G.T.CT......A.....--.T.C..AC.CA..A........G.  166194
+                                             \                                 
+                                             |                                 
+                                             A
+949      168617    AC.CA...........G.T.CT......A.....--.T.C..AC.CA..A........G.  168675
+                                             \                                 
+                                             |                                 
+                                             A
+949      172241    T.C.............G.A.CT...............G.A.CT.C.............G.  172303
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      173007    T.C....A........G.T..-......A........G.A.CT.C....A........G.  173068
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      175459    T.C.............G.A.CT......A........G.A.CT.C.............G.  175521
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      178019    T.C.............G.T.CT...............G.A.CT.C....A........G.  178081
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      167769    T.C.............G.A.CT...............G.A.CT.C.............G.  167831
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      170268    T.C.............G.A.CT...............G.A.CT.C.............G.  170330
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      174167    T.C.............G.T.CT...............G.T.CT.C.............G.  174229
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      173293    AC.CA.........---.A.CT......A.......TG.A.CT.C.......T.....T.  173352
+                                             \                    \         \  
+                                             |                    |         |  
+                                             A                    A         C
+949      166008    ..CTG..A........G.A.CT...............G.T.CT.C...........---.  166069
+                        \                    \                    \            
+                        |                    |                    |            
+                      TGA                    A                    A
+949      168489    ..CTG..A........G.A.CT...............G.T.CT.C...........---.  168550
+                        \                    \                    \            
+                        |                    |                    |            
+                      TGA                    A                    A
+949      173072    AC.CA...........T.A.CT......A........G.C..AC.CA..A........G.  173135
+                                  \          \            \                    
+                                  |          |            |                    
+                                  G          A           TA
+949      173205    T.C.............G.A.CT...............G.A.CT.C.............G.  173267
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+949      173161    T.C....A........G.T.CT...............G.T.CT.C.............G.  173223
+                        \                    \                    \            
+                        |                    |                    |            
+                        A                    A                    A
+26       5722264   .....A....-..AG.T.........A....AT..-.T...C..C..A....AT..-.T.  5722206
+                                      \                      \                 
+                                      |                      |                 
+                                      T                      C
+26       5722096   ..C.......AC..-.C.........C....AC..-.T......C.......AC..-.C.  5722038
+                                       \                    \                  
+                                       |                    |                  
+                                       C                    C
+26       5722117   ..C..A....AT..-.T.............-..C.G.C......C..C...-..C.G.T.  5722059
+                                       \                   \                   
+                                       |                   |                   
+                                       C                   C
+26       5722012   .....A....AT..-.T.............-..C.G.C......C.......          5721961
+                                       \                   \                   
+                                       |                   |                   
+                                       C                   C
+26       5722180   .....A....-...G.T.............-..T.G.T......C......-..T.G.T.  5722122
+                                       \                   \                   
+                                       |                   |                   
+                                       C                   C
+129      798478                                .....CC....C..AC...AC.....CC....  798447
+
+Query_1  2611      GCTGAAACGTCACCAGGAGATGCTGAAACGTCACCAGGAGATGCTGACACGTCACCAGGA  2670
+949      172347    T..AC.CA...........G.T.CT.C.............GAA.CT.............   172407
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      172540    T..AC.CA..A........G.T.CT.C.............G.A.CT..............  172601
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      173595    T.CT.C..AGA.....-..T.C..AC.CA..A........G.T.CT..............  173654
+                    \                                                          
+                    |                                                          
+                    A
+949      176535    T..AC.CA..A........G.T.CT.C....A........G.T..-......A.......  176595
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      175588    T..AC.CA...........G.T.CT.C....A........G.T.CT..............  175649
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      174426    T.CT.C....A........G.A.CT.C.............G.T.CT..............  174488
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      174361    T..AC.CA...........G.T.CT.C.............G.T.CT..............  174422
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      172195    T..AC.CA.....A.....G.A.CT.C....A........G.T.CT..............  172256
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      172260    A.CT.C.............G.A.CT.C.............G.T.CT..............  172322
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      174296    T..AC.CA...........G.T.CT.C.............G.T.CT..............  174357
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      172605    A.CT.C.............G.T.CT.C.............G.T.CT..............  172667
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      169826    A.CT.C.............G.A.CT.C.............G.A.CT....AGT.......  169887
+                           \                    \                              
+                           |                    |                              
+                           A                    A
+949      173725    T.CT.CC............G.A.CT.C.............G.T.CT......A.......  173787
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      167894    T..AC.CA..A........G.A.CT.C.............G.T.CT..............  167955
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      169957    A.CT.C.............G.A.CT.C....A........G.A.CT..............  170019
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      170393    T..AC.CA..A........G.A.CT.C.............G.T.CT..............  170454
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      176599    A.CT.C.............G.T.CT.C.............G.T.CT..............  176661
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      178148    T..AC.CA...........G.T.CT.C....A........G.A.CT......A.......  178209
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      175653    A.CT.C....A........G.A.CT.C....A........G.T.CT..............  175715
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      167959    T.CT.C....A........G.T.CT.C....A........G.T.CT......A.......  168021
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      170458    T.CT.C....A........G.T.CT.C....A........G.T.CT......A.......  170520
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      172409    A.CT.C....A........G.A.CT.C.............G.T.CT......A.......  172471
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      177885    T..AC.CA...........G.T.CT.C....A........G.T.CT......A.......  177946
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      177950    A.CT.C.............G.A.CT.C....A........G.A.CT......A.......  178012
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      178213    T.CT.C....A........G.T.CT.C....A........G.A.CT......A.......  178275
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      173658    T.CT.C.............G.T.CT.C.............G.A.CT..............  173721
+                           \                    \       \            \         
+                           |                    |       |            |         
+                           A                    A       T            A
+949      166133    T..AC.CA...........G.T.CT.C....A......---.T.CT......A.......  166191
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      168614    T..AC.CA...........G.T.CT.C....A......---.T.CT......A.......  168672
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      166195    A.CT.C.............G.T.CT.C...CA......---.A.CT......A.......  166254
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      168676    A.CT.C.............G.T.CT.C...CA......---.A.CT......A.......  168735
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      172304    T.CT.C.............G.T..AC.CA.....A.....G.T..-..............  172364
+                           \                                         \         
+                           |                                         |         
+                           A                                         A
+949      173069    T..AC.CA...........G.C..AC.CA..A........T.A.CT......A.......  173132
+                                        \                 \          \         
+                                        |                 |          |         
+                                       TA                 G          A
+949      175522    T.CT.C.............G.T.CT.C....A........G....-..............  175584
+                           \                    \            \       \         
+                           |                    |            |       |         
+                           A                    A            A       A
+949      178082    A.CT.C....A........G.T.CT.C.............G.T.CT..............  178144
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      167832    T..AC.CA.........---.A.CT.C....A........G.A.CT..............  167890
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      170331    T..AC.CA.........---.A.CT.C....A........G.A.CT..............  170389
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      174230    A.CT.C....A.T......G.A.CT.C....A........G.A.CT..............  174292
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      173353    C..AC.CA..A........G.T.CT.C.............G.A.CT..............  173414
+                                                \                    \         
+                                                |                    |         
+                                                A                    A
+949      166070    A.CT.C....A........G.T.CT.C....A........G.T..-...-..........  166129
+                           \                    \                              
+                           |                    |                              
+                           A                    A
+949      168551    A.CT.C....A........G.T.CT.C....A........G.T..-...-..........  168610
+                           \                    \                              
+                           |                    |                              
+                           A                    A
+949      173136    A.CT.C....A........G.A.CT.C....A........G.T.CT..............  173198
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+949      173268    T.CT.C.............G.T..AC.CA.........                        173306
+                           \                                                   
+                           |                                                   
+                           A
+949      173224    A.CT.C.............G.A.CT.C.............G.T.CT..............  173286
+                           \                    \                    \         
+                           |                    |                    |         
+                           A                    A                    A
+26       5722205   .....C...........C--.........A....-...G.T.............-..T.G  5722146
+                     \          \         \                    \               
+                     |          |         |                    |               
+                     C          A         C                    C
+26       5722037   .....C..C....AC..-.C.........A....AT..-.T.............-..C.G  5721978
+                     \                    \                    \               
+                     |                    |                    |               
+                     C                    C                    C
+26       5722058   .....C......-..C.G.C......C..C...-..C.G.C......A..A...-..T.G  5721999
+                    \                    \                    \                
+                    |                    |                    |                
+                    C                    C                    C
+26       5722121   .....C..A...-..T.G.T......C......-..C.G.C.........C...-..C.G  5722062
+                    \                    \                    \                
+                    |                    |                    |                
+                    C                    C                    C
+129      798446    C..AC....C.....CC....C..AC....CT....CC...AT.CT.....C.....CC.  798386
+                                                                    \          
+                                                                    |          
+                                                                    A
+
+Query_1  2671      GATGCTGAAACGTCACCAGCAGATCCT  2697
+949      172602    .G.A.CT.C..........G..       172624
+                              \               
+                              |               
+                              A
+949      173655    .G.T.CT.C..........G..       173677
+                              \               
+                              |               
+                              A
+949      176596    .G.A.CT.C..........G..       176618
+                              \               
+                              |               
+                              A
+949      175650    .                            175650
+949      174489    .G.T.CT.C..........G..       174511
+                              \               
+                              |               
+                              A
+949      174423    .                            174423
+949      172257    .G.A.CT.C..........G..       172279
+                              \               
+                              |               
+                              A
+949      172323    .G.T..AC.CA.....A..G..       172344
+949      174358    .G.T..AC.CA........G..       174379
+949      172668    .G.T.CT.C..........G..       172690
+                              \               
+                              |               
+                              A
+949      169888    .G.A.CT.C..........G..       169910
+                              \               
+                              |               
+                              A
+949      173788    .                            173788
+949      167956    .                            167956
+949      170020    .                            170020
+949      170455    .                            170455
+949      176662    .                            176662
+949      178210    .                            178210
+949      175716    .                            175716
+949      168022    .                            168022
+949      170521    .                            170521
+949      172472    .G.T.CT.C..........G..       172494
+                              \               
+                              |               
+                              A
+949      177947    .G.A.CT.C..........G..       177969
+                              \               
+                              |               
+                              A
+949      178013    .G.A.CT.C..........G..       178035
+                              \               
+                              |               
+                              A
+949      178276    .                            178276
+949      173722    .                            173722
+949      166192    .G.A.CT.C..........G..       166214
+                              \               
+                              |               
+                              A
+949      168673    .G.A.CT.C..........G..       168695
+                              \               
+                              |               
+                              A
+949      166255    .G.A.CT.C..........          166274
+                              \               
+                              |               
+                              A
+949      168736    .G.A.CT.C..........          168755
+                              \               
+                              |               
+                              A
+949      172365    .G.T.CT.C..........G..       172387
+                              \               
+                              |               
+                              A
+949      173133    .                            173133
+949      175585    .G.T..AC.CA........G..       175606
+949      178145    .G.T..AC.CA........G..       178166
+949      167891    .G.T..AC.CA..A.....G..       167912
+949      170390    .G.T..AC.CA..A.....G..       170411
+949      174293    .G.T..AC.CA........G..       174314
+949      173415    .G.T.CT.C..........G..       173437
+                              \               
+                              |               
+                              A
+949      166130    .G.T..AC.CA........G..       166151
+949      168611    .G.T..AC.CA........G..       168632
+949      173199    .G.T.CT.C..........G..       173221
+                              \               
+                              |               
+                              A
+949      173287    .G.T..AC.CA........          173305
+26       5722145   .T......C.......             5722129
+                       \                      
+                       |                      
+                       C
+26       5721977   .C......C.......             5721961
+                       \                      
+                       |                      
+                       C
+26       5721998   .T......C.......             5721982
+                       \                      
+                       |                      
+                       C
+26       5722061   .T......C.......             5722045
+                       \                      
+                       |                      
+                       C
+129      798385    .C.C.AAC....C..............  798359
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2976245447703
+
+
+  Database: GCF_010993605.1_Petromyzon_marinus_genomic.fna
+    Posted date:  Nov 25, 2021  11:40 AM
+  Number of letters in database: 1,089,050,413
+  Number of sequences in database:  1,434
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

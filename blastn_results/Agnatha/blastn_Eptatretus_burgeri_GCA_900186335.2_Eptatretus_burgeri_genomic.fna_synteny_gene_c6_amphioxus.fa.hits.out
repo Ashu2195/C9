@@ -1,0 +1,306 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_900186335.2_Eptatretus_burgeri_genomic.fna
+           10,846 sequences; 2,608,383,542 total letters
+
+
+
+Query= XM_019776791.1:34-
+1641_PREDICTED:_Branchiostoma_belcheri_uncharacterized_LOC109475983_
+(LOC109475983),_mRNA
+
+Length=1608
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4105015260572
+
+
+Query= XM_019776863.1:111-
+830_PREDICTED:_Branchiostoma_belcheri_uncharacterized_LOC109476038_(
+LOC109476038),_mRNA
+
+Length=720
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1794329091360
+
+
+Query= XM_019776792.1_PREDICTED:_Branchiostoma_belcheri_angiopoietin-
+1_receptor-like_(LOC109475984),_mRNA
+
+Length=1821
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4660522408286
+
+
+Query= XM_019776851.1:35-
+1060_PREDICTED:_Branchiostoma_belcheri_uncharacterized_LOC109476033_
+(LOC109476033),_transcript_variant_X1,_mRNA
+
+Length=1026
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2589769444632
+
+
+Query= XM_019776862.1:40-
+978_PREDICTED:_Branchiostoma_belcheri_uncharacterized_LOC109476037_(
+LOC109476037),_mRNA
+
+Length=939
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2362871215344
+
+
+Query= XM_019776857.1:146-
+1087_PREDICTED:_Branchiostoma_belcheri_uncharacterized_LOC109476035_
+(LOC109476035),_transcript_variant_X2,_mRNA
+
+Length=942
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2370695292216
+
+
+Query= XM_019776867.1:1316-3841_PREDICTED:_Branchiostoma_belcheri_receptor-
+type_tyrosine-protein_phosphatase_epsilon-like_(LOC109476042),_mRNA
+
+Length=2526
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  FYBX02000142.1 Eptatretus burgeri genome assembly, contig: ScVl...  84.2    3e-13
+  FYBX02010068.1 Eptatretus burgeri genome assembly, contig: ScVl...  64.4    3e-07
+  FYBX02010320.1 Eptatretus burgeri genome assembly, contig: ScVl...  57.2    4e-05
+  FYBX02010598.1 Eptatretus burgeri genome assembly, contig: ScVl...  55.4    1e-04
+  FYBX02010304.1 Eptatretus burgeri genome assembly, contig: ScVl...  55.4    1e-04
+  FYBX02007713.1 Eptatretus burgeri genome assembly, contig: ScVl...  51.8    0.002
+
+
+
+Query_7  1052     AGTTCATAGCAGCACAAGGTCCCCTGCCCAATACGGTGAATGACTTCTGGAGGATGATTT  1111
+7712     1374828  ...A...C.....T..G.....A..T.....C..A...C.-...............G.G.  1374769
+                                                     \                        
+                                                     |                        
+                                                     T
+
+Query_7  1112     GGGAAACCGAGTCAAAGGCAATAGTTATGGTGACCAATCTAAAGGAGAACAATAAGCAAA  1171
+7712     1374768  ....                                                          1374765
+
+Query_7  1172     AGTGCACCCAGTACTGGCCCGACAGTGGGAAACAGTCTTATGGTGATATTGACGTCACCA  1231
+
+Query_7  1232     TAGTTGACACCATCCCTATGGTGGACCAATTGACACGGATATTTCTGGTCACAAAGGAAG  1291
+
+Query_7  1292     GCGTCCGTGGGCGTCGTCAGGTCACCCAGTTTCACTTCCTCGGCTGGCCGGACTACGGGC  1351
+
+Query_7  1352     TGCCGCAGAGCCCCATGGGATTGCTCAAGTTCCACAGGACAGTGGTTACCAAGACAACCG  1411
+
+Query_7  1412     CAAAGGACACGCCCATCGTTGTTCACTGCAGTGCCGGTGTTGGCCGCACGGGGACGTTTC  1471
+141      470924                                .....T........T..T..T..A..C..CA  470954
+
+Query_7  1472     TGACGGTAGACGCCATGTTGGAGATGATGCAGGCTGAAGAGAAAGTGGACGTGTTCGGGT  1531
+141      470955   .AGTCA.C..T......C.T..C.....C.....A..GC.C..G.....T.....T..C.  471014
+
+Query_7  1532     TTGTCTCCAGGATGCGGCAGAACAGGAGCACCATGGTCCAGACAGAGGCCCAGTACGTGT  1591
+141      471015   .C..T..AC.T..C.....C.G.-.CT..CAA.....G........CATG..........  471074
+                                  \                                           
+                                  |                                           
+                                  T
+
+Query_7  1592     TTATCTACCGGGCTCTACTGGAACAGTACCTGTACGGAGACACGGAGGTGGAAGTGGCGA  1651
+141      471075   .C.....T.A...A..C..T..GT.CA.......T..G..T......C.C..G...      471130
+
+Query_7  1652     ACATCCACCACTACATGCACAAACTCAGGACCGAGCAGCCGGGCAAAGACAAGACGGGCT  1711
+
+Query_7  1712     TCGAGATAGAATTTGAGAAACTGACACGACTACCAGTGGACCGTGCGAACATGCGCAGTG  1771
+
+Query_7  1772     GCAACCTACCTGCTAACATGAACAAGAATAGAGTGCTGCAGATTCTGCCTTATGACACGA  1831
+
+Query_7  1832     GACGTGTGTTTCTCAAACACAAACCGGGAGTGAAAGGTTCTGACTACATCAACGCCTCTT  1891
+
+Query_7  1892     TCATCGATGGGTACCGGCAGAAGGATGCATACATCGCTACCCAGGGCCCGCTGGACCGGA  1951
+141      477236           ..C...A.A...........T.T...T...GGT..A.....T..CTCA.AC.  477287
+10597    2460962                            ...........C..A..A.....T..T.CAGAC.  2460995
+10303    1544866                           ...T.....T..C..G.....T..C...CCAG.C.  1544900
+
+Query_7  1952     CTGTGGAGGACTTCTGGAGGATGGTGTGGGAATGGAACTCCTGCTCTATCGTCATGTTGA  2011
+141      477288   .AC.T..A..T..T...C.......T.....G...CGT..A..T..C.....A...C...  477347
+10597    2460996  .......T..T..T.........T.......                               2461026
+10303    1544901  .A...C...........T.......T.......                             1544933
+
+Query_7  2012     CGGAGCTCAAAGAGAAAGGACGGAGTAAAAGCGCCCATTACTGGCCAGAGGATGAACAGC  2071
+141      477348   .T.....GG.G....GG....                                         477368
+
+Query_7  2072     TCCAGACCTTTGGAGATGTGATCGTCACAGCACAGGGCGTGGAGACCTTCTCTGACTATG  2131
+
+Query_7  2132     ACCTGCGGACCTTTCATGTGCGCCACACAAAGGAGGAAGAAAGCCGCACGGTGCAGCAGT  2191
+141      483206                                                           ....  483209
+
+Query_7  2192     TCCACTTCCACGGTTGGCCGGAAGTCGGTAGTCCTGACAACGCCTCCGGGATGATCGATC  2251
+141      483210   ....T.....G..A.....T..G..G..A.TC......G.T.GGAAG..C.......GC.  483269
+
+Query_7  2252     TGATTGGTCAGGTCCAGAAGCAGCAGCAGCAGTCTGGGAACGGACCAATCACCGTGCACT  2311
+141      483270   .C....C.GCT.....A.....A...........G..C...CAT..C..T.T......T.  483329
+
+Query_7  2312     GCAGTACTGGGTCTGGCCGCACGGGGACGTTCTGTGCCATCAGCACGGTGCTGGAGCGGG  2371
+141      483573    ....G.G...G.A..T..T..T..C..T........TC.TT....TA.T........T.  483631
+141      483330   ....                                                          483333
+
+Query_7  2372     TGAAAGCAGAAGGAATCTGTGACGTGTTCCAAGTCGTCAAGGCGCTCCGGCTGCAGCGGC  2431
+141      483632   ....GA.C.........CTC..T..C..T..GACT..G...AGCT.A..CACA...A...  483691
+
+Query_7  2432     CTCACATGGTGCAGACACTGGACCAGTACCAGTTCTGTTACCAGGCAGTTTTGGAGTATC  2491
+141      483692   ...............                                               483706
+10067    1617883                     .........T.............GT....C.C....A..C.  1617843
+10319    17232                    ..A...A.....T..A.....C....G.....CAC.C.....CT  17189
+
+Query_7  2492     TGGACAGCTTTGACCACTACGC  2513
+10067    1617842  ...GA..T...........T..  1617821
+10319    17188    ...G...............T..  17167
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 6499172826776
+
+
+Query= XM_019776831.1:67-
+1029_PREDICTED:_Branchiostoma_belcheri_tripartite_motif-
+containing_protein_3-like_(LOC109476020),_mRNA
+
+Length=963
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2425463830320
+
+
+Query= XM_019776951.1:98-2875_PREDICTED:_Branchiostoma_belcheri_F-
+BAR_domain_only_protein_2-like_(LOC109476089),
+_transcript_variant_X1,_mRNA
+
+Length=2778
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  FYBX02000091.1 Eptatretus burgeri genome assembly, contig: ScVl...  78.8    1e-11
+
+
+
+Query_9  27       GGGGGAGAAAAACAATGGTTTTGATGTGGTGTACCATAACATGAAACATGGACAGATCTC  86
+90       1876918  ...A..............C.........C....T..C........G.....C....C...  1876859
+
+Query_9  87       AGTCAAGGAGATGGTGGA  104
+90       1876858  CACG..A...T.......  1876841
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 7156392550832
+
+
+  Database: GCA_900186335.2_Eptatretus_burgeri_genomic.fna
+    Posted date:  Nov 25, 2021  11:38 AM
+  Number of letters in database: 2,608,383,542
+  Number of sequences in database:  10,846
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

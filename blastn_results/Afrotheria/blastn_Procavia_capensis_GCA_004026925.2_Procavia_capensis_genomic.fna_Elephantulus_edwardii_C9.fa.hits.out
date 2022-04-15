@@ -1,0 +1,346 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004026925.2_Procavia_capensis_genomic.fna
+           826,553 sequences; 3,897,621,025 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVIO02826024.1 Procavia capensis isolate US060 ScHvXvP_827306;H...  57.2    1e-06
+
+
+
+Query_1  12       CTGGTGGTCTGCCTTTGTGATATGCATTTTACAAATAAAGCTCCTGGCAGCAGGGCCCAC  71
+826023   4466011  ....G...T......G.C............G..G....GTG.T..........A.T.T..  4466070
+
+Query_1  72       TCCAAG  77
+826023   4466071  C.....  4466076
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 182022748445
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVIO02826024.1 Procavia capensis isolate US060 ScHvXvP_827306;H...  102     5e-20
+
+
+
+Query_2  21       AAGAGAATGGGACTCCATCTCCTGTAGACTGCAGAATGAGCCCCTGGAGTGAATGGTCAC  80
+826023   4489132  ..C...G...TG..........CA................TG................G.  4489191
+826023   4494498  ..C...G...TG..........CA................TG................G.  4494557
+
+Query_2  81       AGTGTTACCCTTGCCTCAAACAACAG  106
+826023   4489192  .A...G.................A..  4489217
+826023   4494558  .A...G.................A..  4494583
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 294334657060
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVIO02826024.1 Procavia capensis isolate US060 ScHvXvP_827306;H...  111     1e-22
+
+
+
+Query_3  1        TTCCGCTCAAGGAGCATCGAGGCCTTCGGACAATTCAACGGGGAAGCCTGCCATAATTCA  60
+826023   4495370  ..............T..T....T............T..A.......--....TGG....T  4495429
+                                                            \                 
+                                                            |                 
+                                                           AA
+826023   4490004  ..............T..T....T......G.....T..A.......--....TGG....T  4490063
+                                                            \                 
+                                                            |                 
+                                                           AA
+
+Query_3  61       GTGGGAGACCGCCAGCACTGTTCACCTGCTGGGCCCTGTGAAGAAGCTGAGGATGACTGT  120
+826023   4495430  C..........GAGC..G...GT...CA...A............G...............  4495489
+826023   4490064  C..........GAGC..G...GT...CA...A............G...............  4490123
+
+Query_3  121      AGGAGTGGCTTTCGATGTGACACAG  145
+826023   4495490  G.A.ACAA....AA...........  4495514
+826023   4490124  G.A.ACAA....AA...........  4490148
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 441407758548
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVIO02826024.1 Procavia capensis isolate US060 ScHvXvP_827306;H...  159     3e-37
+  PVIO02826336.1 Procavia capensis isolate US060 ScHvXvP_827616;H...  48.2    0.001
+  PVIO02825860.1 Procavia capensis isolate US060 ScHvXvP_827143;H...  46.4    0.005
+  PVIO02825859.1 Procavia capensis isolate US060 ScHvXvP_827142;H...  46.4    0.005
+
+
+
+Query_4  3         AGGTGCATAAATCTCAAGCTCCAGTGTAATGGTGACAATGACTGTGGAGACTTTTCAGAC  62
+826023   4499755   ..........GGAGGC......T......C...........T..C..............T  4499814
+826023   4490392   ..........GGAGGC......T......C...........T..C..............T  4490451
+826023   4495759   ..........GGAGGC......T......C...........T..C..............T  4495818
+826335   10996769  .....T.....C.G..GA..T.TT..C.....G..................           10996719
+825859   1332631                               .........................         1332607
+825858   22097877                        .....G..TA....................AC.....T  22097840
+
+Query_4  63        GAAGATAATTGTGACAATGATCCTCGTCCTCCCTGCCGTGACAGACAGGCAGAAGAGTCT  122
+826023   4499815   ..............A........C....TC.......A.......GT..TG.........  4499874
+826023   4490452   ..............A........                                       4490474
+826023   4495819   ..............A........                                       4495841
+825858   22097839  ..                                                            22097838
+
+Query_4  123       GAAATGGCACGAACTGCAGGCTATGG  148
+826023   4499875   ..GC..........A...........  4499900
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 453023752194
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVIO02826024.1 Procavia capensis isolate US060 ScHvXvP_827306;H...  190     2e-46
+
+
+
+Query_5  1        GATCAACATCTTAGGAATGGATCCCCTAAGCACACCTTTTGACAATGAGTTCTTCAATGG  60
+826023   4510650  .........T.....G.....C...T...A...T...................A...C..  4510709
+
+Query_5  61       CTTCTGTGACCGAGTTCGGGATGGAAACACCTTGACATACTACCGCAAACCCTGGAATGT  120
+826023   4510710  .C..........G..................................G............  4510769
+
+Query_5  121      GGCTTATTTGGGCTTTGA  138
+826023   4510770  ...........C..A...  4510787
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 418175771256
+
+
+Query= exon6
+
+Length=270
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVIO02826024.1 Procavia capensis isolate US060 ScHvXvP_827306;H...  80.6    5e-13
+
+
+
+Query_6  6        AGCTGATAAACATTTCAGAACTGAGCATTTTGAAGAACAGACTCAAGCATTCCAAAGTAT  65
+826023   4522134  ..........A........GTC..................TA..T..TC...AC...A..  4522193
+
+Query_6  66       CATCCAAGAGAAGACATCAACTTTCAAAGCAGAAATCTCTCTAAAATTTGTACCTACGGA  125
+826023   4522194  .T.TG.......T.T.GT......T..T.....TGCT.....C.....CAC...C..T..  4522253
+
+Query_6  126      AACTTTTAAAGA  137
+826023   4522254  .G..AAA.....  4522265
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 921338776302
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVIO02826024.1 Procavia capensis isolate US060 ScHvXvP_827306;H...  269     4e-70
+
+
+
+Query_7  1        GAAAAAATGTTTCTGCATGTGAAAGGAGAAATTCAGACTGGAAAATTTGTGATGAGAAAT  60
+826023   4527514  ....................A.......TG......CT..........T...........  4527573
+
+Query_7  61       CGCAATGTCATGCTGACAATGACTTTCGTGGATGACATAAAAGCTCTGCCCATCAACTAC  120
+826023   4527574  ..GGGA.............CA......C.......T..............ACCT.....T  4527633
+
+Query_7  121      GAAAAGGGGGAATATTATGCCTTTCTGGAAACCTATGGAACACACTACAGTAGCTCTGGG  180
+826023   4527634  ................T...A...T.......T........T.....T..C........A  4527693
+
+Query_7  181      TCTCTAGGAGGACTCTATGAACTAATCTATGTTTTGGATAAAACTGCTATGAAGAAGAA  239
+826023   4527694  ........G...T..........G..A...............G.CT.C......G....  4527752
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 813119555220
+
+
+Query= exon8
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVIO02826024.1 Procavia capensis isolate US060 ScHvXvP_827306;H...  55.4    9e-06
+
+
+
+Query_8  1        GTATTGAACTAAAAGATGTACAGAGATGCGTCGGATTTAATGCACAGTTTTCTGTTGATG  60
+826023   4530932  ..G.........G....A..A...A....C........G..CTGG.T..G.....AA..A  4530991
+
+Query_8  61       TTGCAATTTTTGGAACGGAATTGAAAGGAAACGTTGATAGCAATGATTGTTTGAAGAGGG  120
+826023   4530992  C..G.G..---------...G.C........TA..A.CTA...CA.C.....A.......  4531042
+
+Query_8  121      GTGAAGGT  128
+826023   4531043  ........  4531050
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 402687779728
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVIO02826024.1 Procavia capensis isolate US060 ScHvXvP_827306;H...  167     3e-39
+
+
+
+Query_9  1        TAAACATCACGAGTGATAACATCATAGATGATGTTATTTCATTCATAAGAGGAGGGACCA  60
+826023   4532129  ........G.C........T...........CA........C.T...CA......A....  4532188
+
+Query_9  61       GAAAACATGCACTTCAAATAAAAGAAAAGCTTGCCAGAGGAGCCAAGACGATTGATGTGG  120
+826023   4532189  ....GT.....T....GC.G........A..---..A..A..T.....---........A  4532242
+
+Query_9  121      CTGACTTTGTAAACTGGGCCGGTTCACTGAATGATGCTCCAGTGCTCATAAACCAAAAA  179
+826023   4532243  .C.................T.AC..C..T......................G.......  4532301
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 573055686536
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PVIO02826024.1 Procavia capensis isolate US060 ScHvXvP_827306;H...  190     3e-46
+
+
+
+Query_10  1        CTGTCTCCTATCTATAATCTGGTTCCAGTGGATATGAAAGATTCATATCAAAAGAAACAA  60
+826023    4559811  ..A........A..................A.A..A......G..C.C.TG....GG...  4559870
+
+Query_10  61       AACTTGGAGCGATCCATTGAAGAATATATCAATGAATTCAATGTCAAAAAATGCCACCCA  120
+826023    4559871  ..T.....A.A.G..........C..C.............G...A.G.........T...  4559930
+
+Query_10  121      TGCCAAAATGGAGGTACTGTGATACTGATGGATGGAAGATGTGTGTGCTCCTGCCCAATA  180
+826023    4559931  ........C.....C.....A......C.......CCAG...A.....A........C.G  4559990
+
+Query_10  181      GGAACTGAAGGCATTGCCTGTGAATTTAACAAA  213
+826023    4559991  AA.TT......AC...........AC...G...  4560023
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 762783582754
+
+
+  Database: GCA_004026925.2_Procavia_capensis_genomic.fna
+    Posted date:  Nov 24, 2021  3:41 PM
+  Number of letters in database: 3,897,621,025
+  Number of sequences in database:  826,553
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

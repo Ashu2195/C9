@@ -1,0 +1,83 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_010993605.1_Petromyzon_marinus_genomic.fna
+           1,434 sequences; 1,089,050,413 total letters
+
+
+
+Query= 
+Length=1737
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NC_046100.1 Petromyzon marinus isolate kPetMar1 chromosome 32, ...  55.4    4e-05
+  NW_022639187.1 Petromyzon marinus isolate kPetMar1 unplaced gen...  51.8    5e-04
+  NC_046127.1 Petromyzon marinus isolate kPetMar1 chromosome 59, ...  51.8    5e-04
+  NC_046119.1 Petromyzon marinus isolate kPetMar1 chromosome 51, ...  51.8    5e-04
+  NC_046085.1 Petromyzon marinus isolate kPetMar1 chromosome 17, ...  51.8    5e-04
+  NC_046129.1 Petromyzon marinus isolate kPetMar1 chromosome 61, ...  50.0    0.002
+  NC_046083.1 Petromyzon marinus isolate kPetMar1 chromosome 15, ...  50.0    0.002
+  NC_046069.1 Petromyzon marinus isolate kPetMar1 chromosome 1, k...  50.0    0.002
+  NW_022639073.1 Petromyzon marinus isolate kPetMar1 unplaced gen...  48.2    0.006
+  NW_022638939.1 Petromyzon marinus isolate kPetMar1 unplaced gen...  48.2    0.006
+  NW_022638545.1 Petromyzon marinus isolate kPetMar1 unplaced gen...  48.2    0.006
+  NC_046142.1 Petromyzon marinus isolate kPetMar1 chromosome 74, ...  48.2    0.006
+  NC_046120.1 Petromyzon marinus isolate kPetMar1 chromosome 52, ...  48.2    0.006
+  NC_046107.1 Petromyzon marinus isolate kPetMar1 chromosome 39, ...  48.2    0.006
+  NC_046075.1 Petromyzon marinus isolate kPetMar1 chromosome 7, k...  48.2    0.006
+
+
+
+Query_1  323       GGTGTAATAATGATGATGATTGTGGTGACTACAGTGATGAGGATGACTGTGA  374
+31       9129228            ...........A...A...TA..........T...........  9129186
+1169     4000               ...........G.......TG..G.......T......G....  3958
+66       6146605            ..........C....A...TG..T.......T...........  6146563
+66       6146445             ..............A...TG..T.......T....T......  6146404
+58       7424457            .......C..C........TG..T.......T...........  7424415
+16       7922998      ..G..G.........G.GT......T..G..............TG....  7923046
+16       12730947    ..................G.......TG......GC..T....         12730905
+69       7829509            ...........G........C..G.......T.....        7829545
+14       4925621            ...................TG.TGT......T..........   4925662
+0        12733976      ....G...........G........G...A.T....C.....        12733935
+1055     480587    ........TG.....G...C....A...TG..T.......T...........  480535
+                       \                                               
+                       |                                               
+                       A
+921      211097          ..............A...A...TG.T........T.....TA....  211142
+527      12476        .....G...............A...TG.TG.......T.....TG....  12524
+129      1178876              .....C...G...A...............C..C...G....  1178836
+59       2755890        ...................A...GA...A......T....GT.....  2755843
+                                              \                        
+                                              |                        
+                                              T
+42       11497494           ...........G.......TG..........T....         11497529
+6        14715613        ..G...........G..........---............        14715577
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1855661267064
+
+
+  Database: GCF_010993605.1_Petromyzon_marinus_genomic.fna
+    Posted date:  Nov 25, 2021  11:40 AM
+  Number of letters in database: 1,089,050,413
+  Number of sequences in database:  1,434
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

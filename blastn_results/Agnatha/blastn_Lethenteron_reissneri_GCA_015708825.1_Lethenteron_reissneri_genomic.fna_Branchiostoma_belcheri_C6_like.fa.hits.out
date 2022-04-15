@@ -1,0 +1,351 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_015708825.1_Lethenteron_reissneri_genomic.fna
+           1,945 sequences; 1,063,012,140 total letters
+
+
+
+Query= exon1
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027297.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  55.4    3e-06
+  JADLOY010001280.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    5e-04
+  JADLOY010001169.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    5e-04
+  JADLOY010000183.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    5e-04
+  JADLOY010000007.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    5e-04
+  JADLOY010001616.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  48.2    5e-04
+  JADLOY010001938.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  46.4    0.002
+  CM027353.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  46.4    0.002
+  JADLOY010000994.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  44.6    0.006
+  JADLOY010000190.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  44.6    0.006
+  JADLOY010001805.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  44.6    0.006
+  JADLOY010001263.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  44.6    0.006
+  JADLOY010000176.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  44.6    0.006
+  JADLOY010000164.1 Lethenteron reissneri isolate LAM-NWPU_2019-0...  44.6    0.006
+  CM027343.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  44.6    0.006
+  CM027342.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  44.6    0.006
+  CM027298.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  44.6    0.006
+
+
+
+Query_1  20        TGCTGGTGTTGTTTGCGGTGGTGGCGGTCCTGGCCGTGCCGTCTGAGGGCTTGTGGCGGC  79
+4        3079038      .....G..G.G..............GG....G...G....G.T...G.G........  3078981
+                                                                   \           
+                                                                   |           
+                                                                   C
+1912     8948      ..G..........G..............GG....G....                       8910
+546      164066    ..G..........G..............GG....G....                       164028
+546      164153    ..G..........G..............GG....G...                        164116
+512      169088    ..G..........G..............GG....A....                       169126
+428      106166    ..G..........G..............GG....G....                       106204
+423      54839     ..G..........G..............GG....G....                       54801
+627      66072     ..A..........G..............GG....G...                        66035
+60       780567    ........G..G.G..............G.....G...                        780604
+1564     2630      ..G..........G..............GG....                            2597
+800      22373              ...................GG........                        22401
+799      16761              ...................GG........                        16733
+704      97008     ..G..........G..............GG....                            97041
+518      100397    ..G..........G..............GG....                            100364
+349      4442      ..G..........G..............GG....                            4409
+50       12356260     .....G..GCG..............GG........G..G.G.T..--.G.......T  12356206
+50       12400229     .....G..GCG..............GG........G..G.G.T..--.G.......T  12400283
+49       2021105            ...................GG........                        2021133
+5        4719245                  ...C.........GG....G...G..G.G.T...GCG........  4719200
+                                                                   \           
+                                                                   |           
+                                                                   T
+
+Query_1  80        GGCGCAGGAGGAG  92
+4        3078980   ....           3078977
+50       12356205  ....           12356202
+50       12400284  ....           12400287
+5        4719199   ....G........  4719187
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 146687891430
+
+
+Query= exon2
+
+Length=181
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 161569271720
+
+
+Query= exon3
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123302865260
+
+
+Query= exon4
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CM027325.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  48.2    4e-04
+  CM027313.1 Lethenteron reissneri isolate LAM-NWPU_2019-01 chrom...  48.2    4e-04
+
+
+
+Query_4  31        ACGGCGATAACGACTGCGGAGACTTCTCCGACGAGCGGCGGTGTGA  76
+32       2448335   .......C...............AA...T.......T......A..  2448382
+                                                       \         
+                                                       |         
+                                                      AG
+20       15191869  ..C.....G..............GG...........            15191904
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123302865260
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116925130850
+
+
+Query= exon6
+
+Length=214
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195583497360
+
+
+Query= exon7
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94603060415
+
+
+Query= exon8
+
+Length=104
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 80784783680
+
+
+Query= exon9
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 99917839090
+
+
+Query= exon10
+
+Length=158
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 137121289815
+
+
+Query= exon11
+
+Length=226
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 208338942840
+
+
+Query= exon12
+
+Length=180
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 160506315985
+
+
+Query= exon13
+
+Length=165
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 144561979960
+
+
+Query= exon14
+
+Length=587
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 591001225820
+
+
+  Database: GCA_015708825.1_Lethenteron_reissneri_genomic.fna
+    Posted date:  Nov 25, 2021  11:40 AM
+  Number of letters in database: 1,063,012,140
+  Number of sequences in database:  1,945
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

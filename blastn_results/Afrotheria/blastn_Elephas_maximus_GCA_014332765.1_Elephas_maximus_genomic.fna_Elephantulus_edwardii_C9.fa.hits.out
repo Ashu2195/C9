@@ -1,0 +1,329 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_014332765.1_Elephas_maximus_genomic.fna
+           6,948 sequences; 3,128,770,357 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JABTCH010005909.1 Elephas maximus isolate Icky scaffold_738, wh...  71.6    4e-11
+
+
+
+Query_1  11      GCTGGTGGTCTGCCTTTGTGATATGCATTTTACAAATAAAGCTCCTGGCAGCAGGGCCCA  70
+5908     582791  ..G..A...T..............................TG......T....AATT.T.  582850
+
+Query_1  71      CTCCAAG  77
+5908     582851  .......  582857
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 150171305520
+
+
+Query= exon2
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JABTCH010005909.1 Elephas maximus isolate Icky scaffold_738, wh...  113     2e-23
+
+
+
+Query_2  12      AGCCAGTACAAGAGAATGGGACTCCATCTCCTGTAGACTGCAGAATGAGCCCCTGGAGTG  71
+5908     604442  ..A....G....G..G...CG..........CA.................A.........  604501
+
+Query_2  72      AATGGTCACAGTGTTACCCTTGCCTCAAACAACAG  106
+5908     604502  .......G..A...G.................A..  604536
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 237770705692
+
+
+Query= exon3
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JABTCH010005909.1 Elephas maximus isolate Icky scaffold_738, wh...  95.1    9e-18
+
+
+
+Query_3  1       TTCCGCTCAAGGAGCATCGAGGCCTTCGGACAATTCAACGGGGAAGCCTGCCATAATTCA  60
+5908     605364  ...........A.CT.......T...T........T..T...C.GAGG....T.G.C..C  605423
+
+Query_3  61      GTGGGAGACCGCCAGCACTGTTCACCTGCTGGGCCCTGTGAAGAAGCTGAGGATGACTGT  120
+5908     605424  ...........ATG...G...GT...CA.A.A.........G..G.T............C  605483
+
+Query_3  121     AGGAGTGGCTTTCGATGTGACACAG  145
+5908     605484  G.A.A..A....AA.....G.....  605508
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 359784620455
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JABTCH010005909.1 Elephas maximus isolate Icky scaffold_738, wh...  168     5e-40
+  JABTCH010006935.1 Elephas maximus isolate Icky scaffold_6, whol...  50.0    3e-04
+  JABTCH010003167.1 Elephas maximus isolate Icky scaffold_791, wh...  48.2    0.001
+
+
+
+Query_4  3        AGGTGCATAAATCTCAAGCTCCAGTGTAATGGTGACAATGACTGTGGAGACTTTTCAGAC  62
+5908     605750   ...........GAGGC......T.....................C...............  605809
+6934     9730298                        .....G..TA....................A......T  9730261
+3166     1197812  .....T.....C.G..GA..T.TT..C.....G..................           1197862
+
+Query_4  63       GAAGATAATTGTGACAATGATCCTCGTCCTCCCTGCCGTGACAGACAGGCAGAAGAGTCT  122
+5908     605810   ......G.......A..C.....C....TC...............GT..TG.........  605869
+6934     9730260  ..                                                            9730259
+
+Query_4  123      GAAATGGCACGAACTGCAGGCTATGG  148
+5908     605870   ..GC..........A..G........  605895
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 369170306206
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JABTCH010005909.1 Elephas maximus isolate Icky scaffold_738, wh...  196     3e-48
+
+
+
+Query_5  1       GATCAACATCTTAGGAATGGATCCCCTAAGCACACCTTTTGACAATGAGTTCTTCAATGG  60
+5908     627049  .........T.....G..............T..T...................A......  627108
+
+Query_5  61      CTTCTGTGACCGAGTTCGGGATGGAAACACCTTGACATACTACCGCAAACCCTGGAATGT  120
+5908     627109  .C..........G.....A............................G............  627168
+
+Query_5  121     GGCTTATTTGGGCTTTGA  138
+5908     627169  .....C.....C..A...  627186
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 341013248953
+
+
+Query= exon6
+
+Length=270
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JABTCH010005909.1 Elephas maximus isolate Icky scaffold_738, wh...  145     1e-32
+
+
+
+Query_6  1       GTGAAAGCTGATAAACATTTCAGAACTGAGCATTTTGAAGAACAGACTCAAGCATTCCAA  60
+5908     634506  ..C............A.....C....C..................TT..........AC.  634565
+
+Query_6  61      AGTATCATCCAAGAGAAGACATCAACTTTCAAAGCAGAAATCTCTCTAAAATT  113
+5908     634566  G............................T..T.....TT.............  634618
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 747724637591
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JABTCH010005909.1 Elephas maximus isolate Icky scaffold_738, wh...  277     2e-72
+
+
+
+Query_7  1       GAAAAAATGTTTCTGCATGTGAAAGGAGAAATTCAGACTGGAAAATTTGTGATGAGAAAT  60
+5908     638925  ...........................ATG......CTG....G....A...........  638984
+
+Query_7  61      CGCAATGTCATGCTGACAATGACTTTCGTGGATGACATAAAAGCTCTGCCCATCAACTAC  120
+5908     638985  ..GGG..............CA.....T........T......T.......A.GT.....T  639044
+
+Query_7  121     GAAAAGGGGGAATATTATGCCTTTCTGGAAACCTATGGAACACACTACAGTAGCTCTGGG  180
+5908     639045  ..T.............TC..A...T................T..................  639104
+
+Query_7  181     TCTCTAGGAGGACTCTATGAACTAATCTATGTTTTGGATAAAACTGCTATGAAGAAGAAA  240
+5908     639105  ........G.................A.........A.....G.AT.C......G.A...  639164
+
+Query_7  241     G  241
+5908     639165  .  639165
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 656996543490
+
+
+Query= exon8
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JABTCH010005909.1 Elephas maximus isolate Icky scaffold_738, wh...  64.4    1e-08
+
+
+
+Query_8  1       GTATTGAACTAAAAGATGTACAGAGATGCGTCGGATTTAATGCACAGTTTTCTGTTGATG  60
+5908     640774  ..G..............A......A....C.T..G...G..---.T.GA..-...CC..-  640828
+
+Query_8  61      TTGCAATTTTTGGAACGGAATTGAAAGGAAACGTTGATAGCAATGATTGTTTGAAGAGGG  120
+5908     640829  ----..ACG.....G.T.....C.C......AA..A.G.AA...........A.......  640884
+
+Query_8  121     GTGAAGGT  128
+5908     640885  ....G...  640892
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 328499001285
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JABTCH010005909.1 Elephas maximus isolate Icky scaffold_738, wh...  206     2e-51
+
+
+
+Query_9  1       TAAACATCACGAGTGATAACATCATAGATGATGTTATTTCATTCATAAGAGGAGGGACCA  60
+5908     642557  ........G.T......G..C..........C..C......C.G...C.......A....  642616
+
+Query_9  61      GAAAACATGCACTTCAAATAAAAGAAAAGCTTGCCAGAGGAGCCAAGACGATTGATGTGG  120
+5908     642617  .....T.C...T..G..C.G............CT..A............AG........A  642676
+
+Query_9  121     CTGACTTTGTAAACTGGGCCGGTTCACTGAATGATGCTCCAGTGCTCATAAACCAAAAA  179
+5908     642677  ...................T.A...C..A..............................  642735
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 463026135412
+
+
+Query= exon10
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JABTCH010005909.1 Elephas maximus isolate Icky scaffold_738, wh...  233     2e-59
+
+
+
+Query_10  1       CTGTCTCCTATCTATAATCTGGTTCCAGTGGATATGAAAGATTCATATCAAAAGAAACAA  60
+5908      657410  ...........A..................A.A..A......G..C.C.T..........  657469
+
+Query_10  61      AACTTGGAGCGATCCATTGAAGAATATATCAATGAATTCAATGTCAAAAAATGCCACCCA  120
+5908      657470  ..T.....A..CG..........C...G............G...A.G.............  657529
+
+Query_10  121     TGCCAAAATGGAGGTACTGTGATACTGATGGATGGAAGATGTGTGTGCTCCTGCCCAATA  180
+5908      657530  ...........................T........CA....T....TA..........T  657589
+
+Query_10  181     GGAACTGAAGGCATTGCCTGTGAA  204
+5908      657590  TC.TT......AC...........  657613
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 616325328893
+
+
+  Database: GCA_014332765.1_Elephas_maximus_genomic.fna
+    Posted date:  Nov 24, 2021  3:35 PM
+  Number of letters in database: 3,128,770,357
+  Number of sequences in database:  6,948
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
