@@ -16,27 +16,27 @@ C9_synteny_Screenshots: Contains NCBI and Ensembl screenshots depicting synteny 
  
 CLANS_results: Contains input flies used to run CLANS and screenshots of the results. 
  
-Chicken_10X_linked_read_screenshot:
+Chicken_10X_linked_read_screenshot: Contains subsetted bam files and IGV screenshots of Chromium 10x linked-read data.
  
-Chicken_PacBio_screenshot: Contains the bed files; bam files of appropriate and/or available tissues; and screenshots taken from UCSC genome browser using reads >10kb in length.
+Chicken_PacBio_screenshot: Contains the bed files; bam files,and screenshots taken from UCSC genome browser using reads >10kb in length.
  
-Chicken_optical_mapping_data_screenshot:Contains mapped optical files to chromozome Z of chicken used as a reference and screenshots of the results obtained from optical mapping of chicken genome.
+Chicken_optical_mapping_data_screenshot:Contains .OMD files of mapped optical mapping data to chromozome Z of chicken used as a reference and screenshots of the results obtained from optical mapping of chicken genome.
  
-IGV_RNAseq_screenshots: Contains screenshots showing RNA expression in appropriate/available tissues, visualized in IGV 2.5.2
+IGV_RNAseq_screenshots: Contains screenshots showing RNA expression in appropriate/available tissues, visualized in IGV 2.5.2.
  
 PAML_branch_model: Contains input, output and config files for codeml program in PAML using branch models.
  
 PAML_site_model: Contains input, output and config files for codeml program PAML using site models.
  
-RELAX: Contains input and output files for RELAX program implemented in the HYPHY package
+RELAX: Contains input and output files for RELAX program implemented in the HYPHY package.
  
 Repeatmasker_results:Contains Input output for the entire C9 region and only exon3
  
-Sequence_saturation_test:DAMBE results
+Sequence_saturation_test: Contains output files of DAMBE program.
  
-Subsetted_bam_files:Contains bam files subsetted for the C9 region of appropriate/available tissues of all galliformes, anseriformes and representative species from each order 
+Subsetted_bam_files:Contains bam files subsetted for the C9 region of appropriate/available tissues of all galliformes, anseriformes and representative species from each order.
  
-aBSREL:
+aBSREL: Contains input and output files for aBSREL program implemented in the HYPHY package
  
 blastn_results:Contains genome and SRA blast results performed in this study.
  
