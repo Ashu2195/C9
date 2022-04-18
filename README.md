@@ -1,3 +1,9 @@
+**Complement component 9 (C9)***
+
+________________________________________________________________________________________________________________________________________________
+Complement component 9 (C9) also known as ARMD15 is a part of membrane attack complex (MAC) of complement system, which is part of innate immune system. C9 play an important role in pore formation on bacterial cells during infection.The supplementary data and information provided in this project are part of the below manuscript.
+________________________________________________________________________________________________________________________________________________
+
 **Birth and Death in Terminal Complement Pathway**
 
 Ashutosh Sharma1, Saumya Gupta1, Ajinkya Bharatraj Patil1, Nagarjun Vijay1*
