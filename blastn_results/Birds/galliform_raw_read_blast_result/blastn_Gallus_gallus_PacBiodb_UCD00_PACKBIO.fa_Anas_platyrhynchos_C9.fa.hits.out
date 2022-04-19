@@ -1,0 +1,459 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: UCD00_PACKBIO.fa
+           24,650,573 sequences; 169,833,148,751 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 8787741521988
+
+
+Query= exon2
+
+Length=118
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR5444501.56278 /1                                                   63.5       2e-06
+
+
+
+Query_2   1      CTCTTCAGAAAAAGCTTTCCACAGGGAGACAAGAGAACTGAATGCTCCATACCCTATAGA  60
+22373286  13032  ....G.................G....TGA...T--......G..G---..G..A.C...  12977
+                                                                      \      
+                                                                      |      
+                                                                      T
+
+Query_2   61     CTGTAAACTGACCAGCTGGAGTGAGTGGGGGCCCTGTGACCCATGCAC  108
+22373286  12976  G..A.GGA...G...........CA....C..A........T......  12929
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 14024541431768
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19093652792648
+
+
+Query= exon4
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR2028168.70887 /1                                                   67.1       2e-07
+SRR2028221.24429 /3                                                   59.0       3e-05
+
+
+
+Query_4   42    GACTGTGGAGATTTTTCTGATGAAGATAACTGTGAATCTGAACCACGATCACCATGCCGT  101
+5426880   5584  ......A...........A......GC..A...A...T..T.....AG..........T.  5644
+                                                                          \ 
+                                                                          | 
+                                                                          A
+14797521  4561  ......A...........A......GC..A...A...-..T.....AG........----  4615
+
+Query_4   102   AACCATGATATTGATGTGTCTGAAGTTGGCAGGA  135
+5426880   5645  ..TG..C.A......AG.CAG.........      5674
+14797521  4616  ..TA...........AG.CAG........A....  4651
+                         \                        
+                         |                        
+                        CA
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19093652792648
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17572919384384
+
+
+Query= exon6
+
+Length=216
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR5444500.51567 /1                                                   104        1e-18
+SRR2028220.120331 /1                                                  80.6       2e-11
+SRR5444497.59019 /1                                                   71.6       8e-09
+SRR5444501.56180 /1                                                   70.7       3e-08
+SRR5444498.72117 /1                                                   70.7       3e-08
+SRR5444511.79979 /5                                                   68.9       1e-07
+SRR2028154.152008 /3                                                  65.3       1e-06
+SRR2028173.153884 /1                                                  64.4       1e-06
+SRR5444511.79979 /3                                                   60.8       2e-05
+SRR5444511.158809 /1                                                  59.9       5e-05
+SRR5444511.158809 /3                                                  59.0       5e-05
+SRR2028221.24429 /3                                                   59.0       5e-05
+SRR5444511.79979 /1                                                   57.2       2e-04
+SRR5444483.3112 /3                                                    55.4       6e-04
+
+
+
+Query_6   5      AAGCAGGCAAAACCTTCACATCTGAGTTCTATCGTGATCATCTAAAAATGATACGAGAGG  64
+22169459  3688   ..A...A.....T..................G.A.......AA.......C..T......  3628
+                                                             \               
+                                                             |               
+                                                             C
+14718783  8101           ....T..................G.A.......AA.......C..T......  8154
+                                      \                \                     
+                                      |                |                     
+                                      A                T
+21600590  14789         .....T..................G.A..T....-A.......C..T......  14736
+                                        \     \                              
+                                        |     |                              
+                                        G     G
+22373171  12286  ..A...A.....T..................G.A.T.....AA.......C..T......  12349
+                                   \                 \                       
+                                   |                 |                       
+                                   A               GCC
+21808089  10683  ..A...A.....AA.................G.........AA.......C..T......  10744
+                                \                 \                          
+                                |                 |                          
+                                C                 A
+24210680  8471      ...A.....T..-...............G.A.......-A.......C..T.....-  8417
+                                                  \                          
+                                                  |                          
+                                                  T
+3029010   799    ..A...A.....T....G......-.......TC.......A-.......C..T......  860
+                                   \               \   \                     
+                                   |               |   |                     
+                                   G              AA   G
+6406585   9259   ..A...A.....T.....-............G.A.......A-.......C..T......  9197
+                          \              \   \         \                     
+                          |              |   |         |                     
+                          T             CA   T         T
+24210679  12360          ....T......-...........G.A.......AA.C.....C..T......  12411
+                                                              \              
+                                                              |              
+                                                              C
+24295700  28607         .....T................--.GA...-...AA.......C..T......  28558
+24295701  2550                 .................G.-.......-A.......T.--......  2591
+14797521  8129      ...A...C.T........TA.....-..G.A.-.G...A-.......C..T..-...  8181
+24210678  8446      ...A.....T-...............AGCAT.......AA.......C..T......  8391
+18848914  1980      ...A.....T..................GGA......ATA.......C..T..T...  2039
+                                                                     \   \   
+                                                                     |   |   
+                                                                     A  AG
+
+Query_6   65     TGTACATGGACAAACAAAAAAGCTTCAACATTGGCCTGTCTCTGAAATATATGCCTACTT  124
+22169459  3627   .C....CA.......C............AG....AA.............             3576
+                                       \                                     
+                                       |                                     
+                                     CCT
+14718783  8155   .C-...CA...........GCT......AG...AA-.............C.CA.....    8210
+21600590  14735  .A....CA......-.C...........AGA.T.AA...............CA......G  14666
+                  \                    \                          \          
+                  |                    |                          |          
+                  C                  CCT                    CACACCC
+22373171  12350  .C.C..CA......-.C...........AG..T.AA.............C.CA.....C.  12412
+                         \              \                                    
+                         |              |                                    
+                         A            CTC
+21808089  10745  .C...CA.--.........CCT......-.G.T.AA...............-C......G  10810
+                                    \                     \       \          
+                                    |                     |       |          
+                                    G                     G ACCACACC
+24210680  8416   -C....CA..........GCCT......-.G.T.AA.............             8370
+3029010   861    .C....CA...........GC.......A.G.TTGA.............C.CA.....    920
+                                       \                                     
+                                       |                                     
+                                      CT
+6406585   9196   .C....CA...........GCCT.....AG...CAA.............             9148
+24210679  12412  .C....CA.C....AC....GC......AG...AA-...........               12458
+                                         \                                   
+                                         |                                   
+                                         C
+24295700  28557  .-C...-CA......C....CT......-.G.T.AA.............C.CA......A  28496
+                                     \                                    \  
+                                     |                                    |  
+                                    GC                                  CAC
+24295701  2592   .C....CA...C.......                                           2610
+14797521  8182   .-....CA..-........GCT......G.G.T.AA.............C.CA.....A.  8243
+                                                                           \ 
+                                                                           | 
+                                                                        ACCT
+24210678  8390   .-C...CA...........CT.......-.G.T.AA.............             8340
+                            \       \                   \                    
+                            |       |                   |                    
+                            A      GC                   C
+18848914  2040   .C...-CA.......-....GC.....--.G.T.AAG............             2084
+
+Query_6   125    CAGAAAGTAACAAAACTGCAGGAGGAAACTTGAAGTTTTACTATAGCAAGGGTAAAAATT  184
+21600590  14665  ...-T....G....C..T..........T..A.....CC........T..AC.GT..G..  14601
+                             \ \           \                                 
+                             | |           |                                 
+                           GGG TG          T
+22373171  12413  .                                                             12413
+21808089  10811  ...GG....G..G..A...TTC......T..A.....CC........T..AC.GT..G..  10873
+                             \             \                                 
+                             |             |                                 
+                             G            AT
+24295700  28495  .GC.G....G..GG.A...TTC....G.AA.A......C........T..            28445
+                                                       \                     
+                                                       |                     
+                                                       C
+14797521  8244   G..GG....G..GG.A...........TT..A.....CC........T..T....GTT..  8309
+                                   \      \                        \         
+                                   |      |                        |         
+                                  CT     AT                       AC
+
+Query_6   185    TAGGATCTATGTTGACTAGATTCA  208
+21600590  14600  .CAAT........T..          14585
+21808089  10874  C.--.........             10884
+14797521  8310   C.A.T........A..-..C....  8332
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 30410231062140
+
+
+Query= exon7
+
+Length=241
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR5444497.59019 /1                                                   80.6       2e-11
+SRR5444511.79979 /1                                                   76.1       8e-10
+SRR2028193.125338 /3                                                  62.6       5e-06
+SRR5444500.51567 /1                                                   60.8       2e-05
+SRR2028218.9562 /1                                                    60.8       2e-05
+SRR5444483.47372 /1                                                   59.9       6e-05
+SRR2028221.49394 /1                                                   59.9       6e-05
+SRR2028221.24429 /5                                                   58.1       2e-04
+SRR5444511.79979 /3                                                   56.3       7e-04
+SRR5444511.158809 /3                                                  54.5       0.003
+SRR5444492.34541 /1                                                   52.7       0.009
+
+
+
+Query_7   2      ACCAAACCTTTCTACATGTAAAAGGAAAGATTCAGCTGGGAAGATTCCAAATGCGGAGTC  61
+21600590  13528     ..........T...A......-...T.....C..T.C..A...........A....T  13473
+24210678  7187   ............GT...A..........T.....C..T.C..A...........A....T  7128
+9810370   17975  .............T...A..........T.....C..A....A.A.........A....T  18039
+                                            \             \            \     
+                                            |             |            |     
+                                            T           TTC            A
+22169459  2406   .............T...A.....-....T.....C..T.A..A...........A....T  2346
+                                                        \                    
+                                                        |                    
+                                                       CA
+14206644  1960   .............T...A.......-..T.....C....C..A...........A....G  2021
+                                                     \                     \ 
+                                                     |                     | 
+                                                     T                    GT
+18900628  9654     ........-..T...A........T.--....C..T.C..A...........A....T  9708
+14828742  4553   .............T...A.....A....T.....C...CT..A..--.C.....A....-  4609
+14797522  552       ..........TA..A..........T.....C..T.C..A...........A....T  494
+                                 \         \                                 
+                                 |         |                                 
+                                 C         C
+24210679  13621      .........T...A....G.--..T.....C...CA..--..........A....T  13672
+24295701  3745   .............T...A..........T-....-..T.C..A...........A....T  3803
+                             \                                               
+                             |                                               
+                             C
+20604798  11644  .............C.C.A.....-....T.....T..T.C..A.........-.A....T  11704
+                             \                     \                       \ 
+                             |                     |                       | 
+                             T                     C                       T
+
+Query_7   62     GTGATATCCGTCTCACAGATACTTTCCTTGACGATCTAAATTTTCTGCCT  111
+21600590  13472  ...G.....A.....T.....G..                            13449
+24210678  7127   ...--....A.....T.-...G...                           7106
+9810370   18040  ..TG.....A.....A.....G...                           18065
+                         \                                         
+                         |                                         
+                         T
+22169459  2345   .C.G.....A.....T.....G...                           2318
+                  \            \                                   
+                  |            |                                   
+                 AT            A
+14206644  2022   T..G.....A...                                       2034
+18900628  9709   ...G.....A.....T.....G...                           9735
+                   \           \                                   
+                   |           |                                   
+                   G           G
+14828742  4610   ---G.....A.....T.....T..A.---....-.AA......C..T...  4652
+14797522  493    ..TTA....A.....T...                                 475
+24210679  13673  ...G.....A.....                                     13687
+24295701  3804   ..                                                  3805
+20604798  11705  ...G.....A.....-.....G...                           11728
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 34633874265215
+
+
+Query= exon8
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 15883215597424
+
+
+Query= exon9
+
+Length=179
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR2028230.105807 /1                                                  52.7       0.006
+
+
+
+Query_9   60     GTTGATTTTTCAGTTAAAATAAAAGAAATGT  90
+16684780  21691  ...............C...............  21661
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 24159239121589
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 32606525527739
+
+
+Query= exon11
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19090867277899
+
+
+  Database: UCD00_PACKBIO.fa
+    Posted date:  Aug 21, 2021  12:17 AM
+  Number of letters in database: 169,833,148,751
+  Number of sequences in database:  24,650,573
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

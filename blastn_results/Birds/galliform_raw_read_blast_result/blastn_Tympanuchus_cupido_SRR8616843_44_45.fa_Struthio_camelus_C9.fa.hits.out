@@ -1,0 +1,368 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: SRR8616843_44_45.fa
+           342,505,564 sequences; 34,482,532,030 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1270207115028
+
+
+Query= exon2
+
+Length=118
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR8616843.10828606 10828606/2                                        55.4       4e-05
+SRR8616843.16208702 16208702/1                                        55.4       4e-05
+SRR8616843.10776631 10776631/1                                        55.4       4e-05
+
+
+
+Query_2   1    CTCTTCCGAGAAAGCTTTCCAGAGGGGGACAAGAGAACTGAATGCTCCATCCCCGATAGA  60
+61261517  140  ......A..A........T.TC.......TG....T..CA..G...GT...T..A.C..G  81
+16208701  109  ......A..A........T.TC.......TG....T..CA..G...GT...T..A.C..G  50
+10776630  141  ......A..A........T.TC.......TG....T..CA..G...GT...T..A.C..G  82
+
+Query_2   61   TTGTAAGCTGAGCAGCTGGAGTGAATGGGGGCCCTGTGACCCATGCA  107
+61261517  80   A-.A...G............AC.C..C.TT..A....A....C....  35
+16208701  49   A-.A...G............AC.C..C.TT..A....A....C....  4
+10776630  81   A-.A...G............AC.C..C.TT..A....A....C....  36
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1970287115530
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2665682568070
+
+
+Query= exon4
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR8616845.49846506 49846506/2                                        55.4       6e-05
+SRR8616845.19168288 19168288/2                                        55.4       6e-05
+SRR8616845.60127085 60127085/1                                        55.4       6e-05
+SRR8616845.51187405 51187405/1                                        55.4       6e-05
+SRR8616845.45127831 45127831/1                                        55.4       6e-05
+SRR8616845.29747113 29747113/1                                        55.4       6e-05
+SRR8616845.4740918 4740918/1                                          55.4       6e-05
+SRR8616843.48993709 48993709/2                                        55.4       6e-05
+SRR8616843.25355668 25355668/2                                        55.4       6e-05
+SRR8616843.14501584 14501584/2                                        55.4       6e-05
+SRR8616843.45810670 45810670/1                                        55.4       6e-05
+SRR8616843.29486480 29486480/1                                        55.4       6e-05
+SRR8616843.28943180 28943180/1                                        55.4       6e-05
+SRR8616843.27353845 27353845/1                                        55.4       6e-05
+SRR8616843.19158226 19158226/1                                        55.4       6e-05
+SRR8616843.8844150 8844150/1                                          55.4       6e-05
+SRR8616843.5141438 5141438/1                                          55.4       6e-05
+SRR8616843.1789295 1789295/1                                          55.4       6e-05
+SRR8616843.1788944 1788944/1                                          55.4       6e-05
+SRR8616843.1788349 1788349/1                                          55.4       6e-05
+SRR8616845.84732445 84732445/1                                        54.5       2e-04
+SRR8616845.98340702 98340702/2                                        53.6       2e-04
+SRR8616845.8881802 8881802/2                                          53.6       2e-04
+SRR8616845.100003462 100003462/1                                      53.6       2e-04
+SRR8616845.15881845 15881845/1                                        53.6       2e-04
+SRR8616843.24905394 24905394/2                                        53.6       2e-04
+SRR8616843.24176974 24176974/2                                        53.6       2e-04
+SRR8616843.10948603 10948603/2                                        53.6       2e-04
+SRR8616843.38165120 38165120/1                                        53.6       2e-04
+SRR8616843.32896084 32896084/1                                        53.6       2e-04
+SRR8616843.23899517 23899517/1                                        53.6       2e-04
+
+
+
+Query_4    1    GTCGATGTATAAAGCAACGTCTTGTGTGTAACGTAGATAATGACTGTGGAGACTTTTCTG  60
+273680122  70   ..T....C..G...TG..AAT...........AA....G........T....T......A  11
+243001904  3    ..T....C..G...TG..AAT...........AA....G........T....T......A  62
+165288754  69   ..T....C..G...TG..AAT...........AA....G........T....T......A  10
+156349074  67   ..T....C..G...TG..AAT...........AA....G........T....T......A  8
+150289500  4    ..T....C..G...TG..AAT...........AA....G........T....T......A  63
+134908782  7    ..T....C..G...TG..AAT...........AA....G........T....T......A  66
+109902587  6    ..T....C..G...TG..AAT...........AA....G........T....T......A  65
+99426620   80   ..T....C..G...TG..AAT...........AA....G........T....T......A  21
+75788579   7    ..T....C..G...TG..AAT...........AA....G........T....T......A  66
+64934495   124  ..T....C..G...TG..AAT...........AA....G........T....T......A  65
+45810669   124  ..T....C..G...TG..AAT...........AA....G........T....T......A  65
+29486479   105  ..T....C..G...TG..AAT...........AA....G........T....T......A  46
+28943179   121  ..T....C..G...TG..AAT...........AA....G........T....T......A  62
+27353844   146  ..T....C..G...TG..AAT...........AA....G........T....T......A  87
+19158225   138  ..T....C..G...TG..AAT...........AA....G........T....T......A  79
+8844149    103  ..T....C..G...TG..AAT...........AA....G........T....T......A  44
+5141437    18   ..T....C..G...TG..AAT...........AA....G........T....T......A  77
+1789294    26   ..T....C..G...TG..AAT...........AA....G........T....T......A  85
+1788943    26   ..T....C..G...TG..AAT...........AA....G........T....T......A  85
+1788348    26   ..T....C..G...TG..AAT...........AA....G........T....T......A  85
+189894114  2       ....C..G...TG..AAT...........AA....G........T....T......A  58
+322174318  66                        ...........AA....G........T....T......A  28
+232715418  9                         ...........AA....G........T....T......A  47
+205165131  76                        ...........AA....G........T....T......A  38
+121043514  18                        ...........AA....G........T....T......A  56
+75338305   8                         ...........AA....G........T....T......A  46
+74609885   148                       ...........AA....G........T....T......A  110
+61381514   142                       ...........AA....G........T....T......A  104
+38165119   147  ..T....C..G...TG..AAT...........AA....G.....G..T....T......A  88
+32896083   138                       ...........AA....G........T....T......A  100
+23899516   2                         ...........AA....G........T....T......A  40
+
+Query_4    61   ATGAAGATAACTGTGAGTCAGACCCACGATCACCATGCCGTTATCATGATATTGATGTGT  120
+273680122  10   .....                                                         6
+243001904  63   .....                                                         67
+165288754  9    .....                                                         5
+156349074  7    .....                                                         3
+150289500  64   .....                                                         68
+134908782  67   .....                                                         71
+109902587  66   .....                                                         70
+99426620   20   .....                                                         16
+75788579   67   .....                                                         71
+64934495   64   .....                                                         60
+45810669   64   .....                                                         60
+29486479   45   .....                                                         41
+28943179   61   .....                                                         57
+27353844   86   .....                                                         82
+19158225   78   .....                                                         74
+8844149    43   .....                                                         39
+5141437    78   .....                                                         82
+1789294    86   .....                                                         90
+1788943    86   .....                                                         90
+1788348    86   .....                                                         90
+189894114  59   .....                                                         63
+322174318  27   .....                                                         23
+232715418  48   .....                                                         52
+205165131  37   .....                                                         33
+121043514  57   .....                                                         61
+75338305   47   .....                                                         51
+74609885   109  .....                                                         105
+61381514   103  .....                                                         99
+38165119   87   ...-----......A.A.TT.TA....AG.TG.......A.A..G.....C..--.....  34
+                                                               \            
+                                                               |            
+                                                               C
+32896083   99   .....                                                         95
+23899516   41   .....                                                         45
+
+Query_4    121  CAGA  124
+38165119   33   ....  30
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2665682568070
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2457063932308
+
+
+Query= exon6
+
+Length=219
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR8616843.29597046 29597046/2                                        72.5       1e-09
+SRR8616843.5969193 5969193/1                                          72.5       1e-09
+
+
+
+Query_6   5    AAGCAGACAAAACCTTCACAGCTGAGTACTATCATGATCGTGCAGAAATGATCCTAGAGG  64
+80029957  36   ..A.........T.......T......T.C.G.......A.AA.A.....T.ATG.....  95
+5969192   36   ..A.........T.......T......T.C.G.......A.AA.A.....T.ATG.....  95
+
+Query_6   65   TTTACATAGAAAAAGAAAGAAAATTTAAGGCTGATCTGTCTGTGAAATACACACC  119
+80029957  96   .CG...C...G...C...A.CCTC....A.T...-......C.............  150
+                                         \                            
+                                         |                            
+                                         C
+5969192   96   .CG...C...G...C...A.CCTC....A.T...-......C.............  150
+                                         \                            
+                                         |                            
+                                         C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4224908427990
+
+
+Query= exon7
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4727329970778
+
+
+Query= exon8
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2225265448128
+
+
+Query= exon9
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 3384257869028
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4453281856530
+
+
+Query= exon11
+
+Length=161
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2967020597504
+
+
+  Database: SRR8616843_44_45.fa
+    Posted date:  Oct 8, 2020  5:35 PM
+  Number of letters in database: 34,482,532,030
+  Number of sequences in database:  342,505,564
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
