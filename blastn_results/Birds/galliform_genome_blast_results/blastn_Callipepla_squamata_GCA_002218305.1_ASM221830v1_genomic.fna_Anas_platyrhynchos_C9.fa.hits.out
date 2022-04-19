@@ -1,0 +1,318 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_002218305.1_ASM221830v1_genomic.fna
+           34,302 sequences; 1,045,281,893 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 60570643346
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MCFN01000324.1 Callipepla squamata strain Texas jcf718000523102...  87.8    3e-16
+
+
+
+Query_2  1       CTCTTCAGAAAAAGCTTTCCACAGGGAGACAAGAGAACTGAATGCTCCATACCCTATAGA  60
+323      777267  ..G....................A..T.CTG....T......G...GG..CT..A.....  777208
+
+Query_2  61      CTGTAAACTGACCAGCTGGAGTGAGTGGGGGCCCTGTGACCCATGCAC  108
+323      777207  G..A..GA...G..........CCA....T..A...G...........  777160
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 92941555015
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MCFN01000324.1 Callipepla squamata strain Texas jcf718000523102...  73.4    1e-11
+
+
+
+Query_3  69      TACACAGAACTGTGAAAGTGACCAAGTCTGTCCTGAAGAAATAGAACCAGACTGTGGTGC  128
+323      775806  ....T.A..A......GC.A....T........CA.....CC...........A...C..  775747
+
+Query_3  129     TGACTTTCAATGCAA  143
+323      775746  ............T..  775732
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124270169065
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MCFN01000324.1 Callipepla squamata strain Texas jcf718000523102...  53.6    9e-06
+
+
+
+Query_4  4       GATGCATAAAGCGACGGCTTGTGTGTAACGTGGATAACGACTGTGGAGATTTTTCTGATG  63
+323      774511  ........G..T...AAT......T...T.AA...G.TA....--.........A.A...  774454
+
+Query_4  64      AAGATAACTGTGAATCTGAACCACGATCACCATGCC  99
+323      774453  ...GC......A..CA..T..T..AG.......A..  774418
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124270169065
+
+
+Query= exon5
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MCFN01000324.1 Callipepla squamata strain Texas jcf718000523102...  109     1e-22
+
+
+
+Query_5  9       TTTTAGGGATGCAGCCAATGGCCAGCCCATTTGACAATGAGTTTTTCAATGGTCTTTGTG  68
+323      772157  .....CA....-...T..........A.....A.A....GC...C....A..........  772099
+
+Query_5  69      AAAGGGTGCGTGATGGGAACACACAGACATATTACCGCAAGCCGTGGAATGTTGGTGTTC  128
+323      772098  .......CT.---.....--......G.....G...A...AG.AA...............  772044
+
+Query_5  129     TCAATTATGA  138
+323      772043  .......A..  772034
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 114871584850
+
+
+Query= exon6
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MCFN01000324.1 Callipepla squamata strain Texas jcf718000523102...  84.2    8e-15
+
+
+
+Query_6  1       ACAAAAGCAGGCAAAACCTTCACATCTGAGTTCTATCGTGATCATCTAAAAATGATACGA  60
+323      768450  ...G..A...A.T...T.......C............A....A..AA...T...T..T..  768390
+                                     \                                       
+                                     |                                       
+                                     T
+
+Query_6  61      GAGGTGTACATGGACAAACAAAAAAGCTTCAACATTGGCCTGTCTCTGAAATATATGCCT  120
+323      768389  ...T.C....CA......T.....CT......-.G.T.A...C....A.......CA...  768324
+                                         \                            \      
+                                         |                            |      
+                                         C                       CATACC
+
+Query_6  121     ACTTCAGAAAGTAACAAAACTGCAGGAGGAAACTTGAAGTTTTACTATAGCAAGGGTAAA  180
+323      768323  ...GG..GG....G...TG..T......C...TA.AG.....C.....T..T..AT.GT.  768261
+                                \                                            
+                                |                                            
+                              AGG
+
+Query_6  181     AATTTAGGATCTATGTTGACTAGATTCACA  210
+323      768260  .G...CA.T........-.....C......  768231
+                                      \        
+                                      |        
+                                      C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 194231026938
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MCFN01000324.1 Callipepla squamata strain Texas jcf718000523102...  71.6    6e-11
+
+
+
+Query_7  1       AACCAAACCTTTCTACATGTAAAAGGAAAGATTCAGCTGGGAAGATTCCAAATG  54
+323      767245  ..............G...TC.....A.........C..T...............  767192
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 220337347763
+
+
+Query= exon8
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 104428713500
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MCFN01000324.1 Callipepla squamata strain Texas jcf718000523102...  60.8    8e-08
+
+
+
+Query_9  97      GAAGATCCAAAATGGTTGACGTAGAAGATTACATAGAGTGGGCTAAGTCCTTGGTTGATG  156
+323      766768  ...............C..T.A....---......GC......TA...............T  766712
+
+Query_9  157     CACCAGT  163
+323      766711  AT.....  766705
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 156643070250
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 207806313767
+
+
+Query= exon11
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MCFN01000324.1 Callipepla squamata strain Texas jcf718000523102...  96.9    9e-19
+
+
+
+Query_11  4       TCACTGATGGAGGCTGGAGCTGTTGGAGTACCTGGTCCACCTGCATCAATGGTGAAAGCA  63
+323       765706  .....A.C....A.........ACA..TC.......T...----.C............T.  765651
+
+Query_11  64      CTCGAACTCGCCAGTGTAATAATCCTACACCACAAGATGGAGGCAGACCATGCCAAGGAG  123
+323       765650  T.T.....T....T....G.T..............CT...TCAG......C....T..CA  765591
+
+Query_11  124     AAGCCATTGAAAAACGTCCCT  144
+323       765590  ..TT..........TA.....  765570
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 125314456200
+
+
+  Database: GCA_002218305.1_ASM221830v1_genomic.fna
+    Posted date:  Nov 24, 2021  4:02 PM
+  Number of letters in database: 1,045,281,893
+  Number of sequences in database:  34,302
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

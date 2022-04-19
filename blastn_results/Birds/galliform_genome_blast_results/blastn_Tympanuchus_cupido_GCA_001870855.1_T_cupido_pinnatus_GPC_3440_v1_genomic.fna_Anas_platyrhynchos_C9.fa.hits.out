@@ -1,0 +1,269 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_001870855.1_T_cupido_pinnatus_GPC_3440_v1_genomic.fna
+           12,186 sequences; 983,776,544 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 57039249488
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MOXI01007018.1 Tympanuchus cupido pinnatus isolate GPC 3440 ScW...  46.4    0.001
+
+
+
+Query_2  1         CTCTTCAGAAAAAGCTTTCCACAGGGAGACAAGAGAACTGAATGCTCCATACCCTATAGA  60
+7017     14332180  ..................T.T.....G..TG....T..CA..G...GT..CT..A.C..-  14332238
+
+Query_2  61        CTGTAAACTGACCAGCTGGAGTGAGTGGGGGCCCTGTGACCCATGCA  107
+7017     14332239  GA.A..GG...G........AC.CA.C.TT..A....A....C....  14332285
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 87524660350
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 117027354850
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MOXI01007018.1 Tympanuchus cupido pinnatus isolate GPC 3440 ScW...  82.4    2e-14
+
+
+
+Query_4  1         GTCGATGCATAAAGCGACGGCTTGTGTGTAACGTGGATAACGACTGTGGAGATTTTTCTG  60
+7017     14334995  ..T.......G...T...AAT...........AAA...G.T......T...........A  14335054
+
+Query_4  61        ATGAAGATAACTGTGAATCTGAACCACGATCACCATGCCGTAACCATGATATTGATGTGT  120
+7017     14335055  ...-----......A...T..T.....AG.TG.......A...TG..C.C.....CAG.C  14335109
+
+Query_4  121       CTGAAGTTGGCAGGA  135
+7017     14335110  AG.............  14335124
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 117027354850
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 108176546500
+
+
+Query= exon6
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MOXI01007018.1 Tympanuchus cupido pinnatus isolate GPC 3440 ScW...  109     2e-22
+
+
+
+Query_6  5         AAGCAGGCAAAACCTTCACATCTGAGTTCTATCGTGATCATCTAAAAATGATACGAGAGG  64
+7017     14338598  ..A...A.....T................C.G.A.......AA.......T..T......  14338657
+
+Query_6  65        TGTACATGGACAAACAAAAAAGCTTCAACATTGGCCTGTCTCTGAAATATATGCCTACTT  124
+7017     14338658  .CG...CA..G.........CT......-.G.T.A................CAT.....G  14338723
+                                       \                            \          
+                                       |                            |          
+                                       C                       CACACC
+
+Query_6  125       CAGAAAGTAACAAAACTGCAGGAGGAAACTTGAAGTTTTACTATAGC  171
+7017     14338724  ...GG....G....G..T......CT..T..A......C........  14338773
+                              \                                   
+                              |                                   
+                            AGA
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 182914439304
+
+
+Query= exon7
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 207499713404
+
+
+Query= exon8
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 98342315000
+
+
+Query= exon9
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 147513472500
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195698781836
+
+
+Query= exon11
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118010778000
+
+
+  Database: GCA_001870855.1_T_cupido_pinnatus_GPC_3440_v1_genomic.fna
+    Posted date:  Nov 24, 2021  4:31 PM
+  Number of letters in database: 983,776,544
+  Number of sequences in database:  12,186
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

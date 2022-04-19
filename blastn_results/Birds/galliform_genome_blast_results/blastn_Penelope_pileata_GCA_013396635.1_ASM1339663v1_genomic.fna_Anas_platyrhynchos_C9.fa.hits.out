@@ -1,0 +1,264 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013396635.1_ASM1339663v1_genomic.fna
+           12,091 sequences; 1,027,970,763 total letters
+
+
+
+Query= exon1
+
+Length=86
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WBMW01004438.1 Penelope pileata isolate B10K-DU-001-08 scaffold...  96.9    4e-19
+
+
+
+Query_1  1       ATGAGAAGCATGCATGTTATCCTGCAGCTAATATTCATATTATGCAGTTTAGAGGTGTCT  60
+4437     130475  ......G.T...G..............T.....C....GC.T...............GT.  130534
+
+Query_1  61      GCCTCACTTTCGGGAGAAAGCAGAAG  86
+4437     130535  ..........T.A..A..........  130560
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 59602668470
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WBMW01004438.1 Penelope pileata isolate B10K-DU-001-08 scaffold...  95.1    2e-18
+
+
+
+Query_2  4       TTCAGAAAAAGCTTTCCACAGGGAGACAAGAGAACTGAATGCTCCATACCCTATAGACTG  63
+4437     132918  .......................G............-....-..T..CT..G........  132975
+
+Query_2  64      TAAACTGACCAGCTGGAGTGAGTGGGGGCCCTGTGACCCATGCACC  109
+4437     132976  AC.G....GTGT........CA.-.....A......T.........  133020
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91458191036
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122286794756
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WBMW01005871.1 Penelope pileata isolate B10K-DU-001-08 scaffold...  50.0    1e-04
+
+
+
+Query_4  36       GATAACGACTGTGGAGATTTTTCTGATGAAGA  67
+5870     1875975  ..................GA............  1875944
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122286794756
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113038213640
+
+
+Query= exon6
+
+Length=216
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 191135094138
+
+
+Query= exon7
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 216825294963
+
+
+Query= exon8
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 102762012400
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WBMW01003772.1 Penelope pileata isolate B10K-DU-001-08 scaffold...  44.6    0.006
+
+
+
+Query_9  60      GTTGATTTTTCAGTTAAAATAAAAGAAATGTTACTGC  96
+3771     479712  ...T.......T..G.......T...........A..  479676
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 154143018600
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WBMW01004174.1 Penelope pileata isolate B10K-DU-001-08 scaffold...  53.6    2e-05
+
+
+
+Query_10  181  TACTTTAAGGGAATTGCTTGTCAGATTCCCAAATCTACA  219
+4173      35   .....C...A......T..........T...........  73
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 204493998567
+
+
+Query= exon11
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123314414880
+
+
+  Database: GCA_013396635.1_ASM1339663v1_genomic.fna
+    Posted date:  Nov 24, 2021  4:25 PM
+  Number of letters in database: 1,027,970,763
+  Number of sequences in database:  12,091
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

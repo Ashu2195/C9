@@ -1,0 +1,261 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013399715.1_ASM1339971v1_genomic.fna
+           37,168 sequences; 1,043,215,352 total letters
+
+
+
+Query= exon1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAV01007031.1 Alectura lathami isolate B10K-DU-001-39 scaffold...  42.8    0.007
+
+
+
+Query_1  4      TCTAGGTTGTTGCTTCTCACAGGGGTGCTCTTCACTTTT  42
+7030     81720  .............A...A.T..T.C..............  81681
+                         \                             
+                         |                             
+                         C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 51066557752
+
+
+Query= exon2
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 68783526768
+
+
+Query= exon3
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120887947680
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAV01008281.1 Alectura lathami isolate B10K-DU-001-39 scaffold...  46.4    0.001
+  VXAV01004186.1 Alectura lathami isolate B10K-DU-001-39 scaffold...  44.6    0.005
+
+
+
+Query_4  24      GTGTGCAATACAGAGGATGACTGTGGAGACATGTCTGATGAAGCTG  69
+8280     53765              ............C.....T.AC.............  53731
+4185     142926  .....--...G...............T....AC..G.......     142966
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124014360120
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 114635122800
+
+
+Query= exon6
+
+Length=228
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 206335861776
+
+
+Query= exon7
+
+Length=224
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 202167460528
+
+
+Query= exon8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101087335560
+
+
+Query= exon9
+
+Length=182
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 159447034440
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAV01010169.1 Alectura lathami isolate B10K-DU-001-39 scaffold...  51.8    5e-05
+
+
+
+Query_10  77     TTGAAGACTATATTGCTGAATACAATGTGTGCAAGTGTCAGCCCTGTCAAAATGGTGG  134
+10168     38988  .......A.....G......A.TG..CCC..............A..C..G.....G..  39045
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 207377962088
+
+
+Query= exon11
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAV01006442.1 Alectura lathami isolate B10K-DU-001-39 scaffold...  44.6    0.006
+
+
+
+Query_11  24      TGGAGCTGCTGGTCTAACTGGTCTCCATGTAAAGAAGGACAGCGCACTCGAACAAGACAG  83
+6441      203014  ...G.T......G.C.G............CTC..G...T..A..A..AA.G.G...G...  203073
+
+Query_11  84      TGCGACAATCCTGAACC  100
+6441      203074  ...A....C..C.C...  203090
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 143814972240
+
+
+  Database: GCA_013399715.1_ASM1339971v1_genomic.fna
+    Posted date:  Nov 24, 2021  3:57 PM
+  Number of letters in database: 1,043,215,352
+  Number of sequences in database:  37,168
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

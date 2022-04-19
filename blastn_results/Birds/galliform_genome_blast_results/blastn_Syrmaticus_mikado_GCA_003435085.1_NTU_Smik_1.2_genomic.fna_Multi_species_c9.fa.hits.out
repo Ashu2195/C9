@@ -1,0 +1,422 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003435085.1_NTU_Smik_1.2_genomic.fna
+           71,281 sequences; 1,066,426,119 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 61736954558
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000031.1 Syrmaticus mikado isolate TWDZ01 scaffold31, who...  107     3e-22
+
+
+
+Query_2  1        CTCTGCAGAAAAAGCTTTCCACGGGGATGAAAGTACTGAAGGCTGTAGCTTCAACAGAGT  60
+30       6926962  ....T.............T.T.........G................T..C...T....A  6926901
+                                        \                                     
+                                        |                                     
+                                       AG
+
+Query_2  61       GAAGGATGAGCAGCTGGAGTGCATGGGCGCACTGTGACCTATGCACCTA  109
+30       6926900  ...A...............CA...CA.T..T........CC..T.....  6926852
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 85148717600
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000031.1 Syrmaticus mikado isolate TWDZ01 scaffold31, who...  149     1e-34
+
+
+
+Query_3  1        CTCTTCAGAAAAAGCTTTTCTCAGGGGGATGAGAGTACCAAAGGCTGTATCTCCAACAGG  60
+30       6926962  ......................................TG................T...  6926902
+                                                                             \
+                                                                             |
+                                                                             A
+
+Query_3  61       AGAAAGGTGAGCAGCTGGAACGCATCGTTGCACTGTAACCCCTGCATCTAGAAGAAGG  118
+30       6926901  ......A............G.A....AG...T....G.......T.C......A....  6926844
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94727948330
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94727948330
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000031.1 Syrmaticus mikado isolate TWDZ01 scaffold31, who...  102     2e-20
+
+
+
+Query_5  2        TTCATACTAGAAGTGTTGAAGGTTTCAGATAGTTTGGCAGAAAAACATGACTGGATTCTA  61
+30       6924470                                                        ....A.  6924465
+30       6926216  .......C......A.......................................        6926163
+
+Query_5  62       TGATATATGTAGAGCTGAGAAATTGACCATGTCCGCCTCAAAGAACTGCAACCAGACTGG  121
+30       6924464  .......C.........T...............T.T....C.A...CAG...........  6924402
+                        \                                                     
+                        |                                                     
+                      GCT
+
+Query_5  122      CACTGACTTTCAGTGTAAATCTG  144
+30       6924401  ............A..........  6924379
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122401281550
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000031.1 Syrmaticus mikado isolate TWDZ01 scaffold31, who...  176     1e-42
+
+
+
+Query_6  1        GTTAATGTGTGAAGTGACAATTTGTGTGTAACAAAGATGGTGACTGTAGAGATTTTTCTA  60
+30       6923066  ...G...CA.......C......................A.....A.T............  6923007
+
+Query_6  61       ATGAAGGCAAATGTAAATTTGTACCACAGTCACCATGCCATAATGATCACATTGATAGGC  120
+30       6923006  .....C-----...................TG.....T.................C....  6922952
+
+Query_6  121      AGGAAGTTGGCAGGAAGGGCAA  142
+30       6922951  ...................G..  6922930
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122401281550
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000024.1 Syrmaticus mikado isolate TWDZ01 scaffold24, who...  44.6    0.004
+
+
+
+Query_7  55        CAATGGTCTTTGTGAAAGTGTGTGTGATG  83
+23       10331045  ..T..T.......................  10331073
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 117079486700
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000031.1 Syrmaticus mikado isolate TWDZ01 scaffold31, who...  307     4e-82
+
+
+
+Query_8  1        ATAGAAACAGACAAAATCTTCACATCTGAGTTCTAGCATGATCATaaaaaaaTGCTATGA  60
+30       6919487  ......G...................................G.......T...T.....  6919428
+
+Query_8  61       GAGGTCTACACAGACAAACAAAAGCCTCTTCAAAGTTGAATGTCTCTGAAATACACACCT  120
+30       6919427  ..A..T...G.............A.-..C..........C....................  6919369
+
+Query_8  121      ACACCTACTGCAGGGAGTAGCAGGAATGCTTCAGGAGATAATTTAAAGTTCCACTATAGC  180
+30       6919368  ............A........................C............T....G....  6919309
+
+Query_8  181      TAGACTGTAAGTTTCAATTCTATGTTACACAGCTTCATAAGAACA  225
+30       6919308  .G..T..........TG............T.......C.......  6919264
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 207536099355
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000031.1 Syrmaticus mikado isolate TWDZ01 scaffold31, who...  152     2e-35
+  QGNR01000029.1 Syrmaticus mikado isolate TWDZ01 scaffold29, who...  44.6    0.008
+
+
+
+Query_9  1        ATAAAAGGACATAAAACCCTCATATCTAAGTTCTATCATAATTAGTTAAAAAAGTTATGA  60
+30       6919487  ...G...C.G.C....T.T...C....G.......G...G..G.TAA...T.T.......  6919428
+
+Query_9  61       GAGGTTTACACAGACATATAAAAACACATTAAATTTGACACATCTCTGAAATACAAACCT  120
+30       6919427  ..A......G......A.C......T.C.C...G.....TG-.............C....  6919369
+28       9769778                ............G..G...G..T...........              9769811
+
+Query_9  121      ACTATGGGAAGTAAGAGGAATGCTTCAGGAGCAAATTCAAAGTTTCCCTATGGTAAGACT  180
+30       6919368  ....CT.C...G....................T....T........A..G.A.CTG..T.  6919303
+                    \          \ \                                            
+                    |          | |                                            
+                  ACC         GT C
+
+Query_9  181      GCAAGTTTCAGTTCTGTGTTGCATAGCTTCAAAGAA  216
+30       6919302  .T.......T.....A....A...............  6919266
+                                                 \    
+                                                 |    
+                                                 C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 201150373221
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 224564702379
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 177736044063
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 100049743180
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000013.1 Syrmaticus mikado isolate TWDZ01 scaffold13, who...  46.4    0.002
+
+
+
+Query_13  47        TGATGGAGGAAATGTTGATTTTTCAGTTAAAATAA  81
+12        12234477  .....C..A.................G.....C..  12234511
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 154332050650
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 211793250111
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 125594358460
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123465640520
+
+
+  Database: GCA_003435085.1_NTU_Smik_1.2_genomic.fna
+    Posted date:  Nov 24, 2021  4:29 PM
+  Number of letters in database: 1,066,426,119
+  Number of sequences in database:  71,281
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,411 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_001870855.1_T_cupido_pinnatus_GPC_3440_v1_genomic.fna
+           12,186 sequences; 983,776,544 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 57039249488
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MOXI01007018.1 Tympanuchus cupido pinnatus isolate GPC 3440 ScW...  91.5    2e-17
+
+
+
+Query_2  1         CTCTGCAGAAAAAGCTTTCCACGGGGATGAAAGTACTGAAGGCTGTAGCTTCAACAGAGT  60
+7017     14332180  ....T.............T.T.........G.....CA.........T..C......-.A  14332240
+                                         \                                     
+                                         |                                     
+                                        AG
+
+Query_2  61        GAAGGATGAGCAGCTGGAGTGCATGGGCGCACTGTGACCTATGCACCTA  109
+7017     14332241  ...A.G............AC....C.TT.......A...CC....T...  14332289
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 79658262216
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MOXI01007018.1 Tympanuchus cupido pinnatus isolate GPC 3440 ScW...  214     3e-54
+
+
+
+Query_3  1         CTCTTCAGAAAAAGCTTTTCTCAGGGGGATGAGAGTACCAAAGGCTGTATCTCCAACAGG  60
+7017     14332180  ............................................................  14332239
+
+Query_3  61        AGAAAGGTGAGCAGCTGGAACGCATCGTTGCACTGTAACCCCTGCATCTAGAAGAAGG  118
+7017     14332240  ..........................................................  14332297
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 87524660350
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MOXI01000002.1 Tympanuchus cupido pinnatus isolate GPC 3440 Scf...  48.2    3e-04
+
+
+
+Query_4  10        AAAAGCTTTCCACAGGTGGATGAAAGAACTGAAT  43
+1        18861206  ......AG.T........................  18861239
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 87524660350
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MOXI01007018.1 Tympanuchus cupido pinnatus isolate GPC 3440 ScW...  84.2    5e-15
+
+
+
+Query_5  2         TTCATACTAGAAGTGTTGAAGGTTTCAGATAGTTTGGCAGAAAAACATGACTGG  55
+7017     14332938  .......C.....................CG.......................  14332991
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113093662250
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MOXI01007018.1 Tympanuchus cupido pinnatus isolate GPC 3440 ScW...  192     1e-47
+  MOXI01000017.1 Tympanuchus cupido pinnatus isolate GPC 3440 Scf...  44.6    0.004
+
+
+
+Query_6  1         GTTAATGTGTGAAGTGACAATTTGTGTGTAACAAAGATGGTGACTGTAGAGATTTTTCTA  60
+7017     14334995  ...G...CA..............................A.......T............  14335054
+
+Query_6  61        ATGAAGGCAAATGTAAATTTGTACCACAGTCACCATGCCATAATGATCACATTGATAGGC  120
+7017     14335055  .....C-----...................TG.......................C....  14335109
+16       14683969                 .......T.............-.........                14683940
+
+Query_6  121       AGGAAGTTGGCAGGAAGGGCAAGA  144
+7017     14335110  ...................G....  14335133
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113093662250
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MOXI01000031.1 Tympanuchus cupido pinnatus isolate GPC 3440 Scf...  44.6    0.004
+
+
+
+Query_7  55       CAATGGTCTTTGTGAAAGTGTGTGTGATG  83
+30       9322104  ..T..T.......................  9322132
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 108176546500
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MOXI01007018.1 Tympanuchus cupido pinnatus isolate GPC 3440 ScW...  316     8e-85
+
+
+
+Query_8  1         ATAGAAACAGACAAAATCTTCACATCTGAGTTCTAGCATGATCATaaaaaaaTGCTATGA  60
+7017     14338594  .................................C....................T.....  14338653
+
+Query_8  61        GAGGTCTACACAGACAAACAAAAGCCTCTTCAAAGTTGAATGTCTCTGAAATACACACCT  120
+7017     14338654  ......G.......G........A...............C....................  14338713
+
+Query_8  121       ACACCTACTGCAGGGAGTAGCAGGAATGCTTCAGGAGATAATTTAAAGTTCCACTATAGC  180
+7017     14338714  ...T...................A..A..........C............T.........  14338773
+
+Query_8  181       TAGACTGTAAGTTTCAATTCTATGTTACACAGCTTCATAAGAACA  225
+7017     14338774  .G.......T...C.TG............T.....TGC.......  14338818
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 191765137980
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MOXI01007018.1 Tympanuchus cupido pinnatus isolate GPC 3440 ScW...  127     8e-28
+
+
+
+Query_9  13        AAAACCCTCATATCTAAGTTCTATCATAATTAGTTAAAAAAGTTATGAGAGGTTTACACA  72
+7017     14338606  ....T.T...C....G.....C.G...G..C.TAA.....T............CG.....  14338665
+
+Query_9  73        GACATATAAAAACACATTAAATTTGACACATCTCTGAAATACAAACCTACTATGGGAAGT  132
+7017     14338666  ..G.A.C......CTC.....G.....TG-.............C............G...  14338731
+                                     \                               \ \ \     
+                                     |                               | | |     
+                                     C                             ATC C CA
+
+Query_9  133       AAGAGGAATGCTTCAGGAGCAAATTCAAAGTTTCCCTATGGTAAGACTGCAAGTTTCAGT  192
+7017     14338732  .GC..A..A...........T....T........A....A.CTG.....T.T...C.T..  14338791
+
+Query_9  193       TCTGTGTTGCATAGCTT  209
+7017     14338792  ...A....A........  14338808
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 185864672196
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 207499713404
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 165215089200
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 92441776100
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  MOXI01000112.1 Tympanuchus cupido pinnatus isolate GPC 3440 Scf...  46.4    0.002
+
+
+
+Query_13  47      TGATGGAGGAAATGTTGATTTTTCAGTTAAAATAA  81
+111       211143  .....C..A.................G.....C..  211109
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 142596356750
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195698781836
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116043931700
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 114077085400
+
+
+  Database: GCA_001870855.1_T_cupido_pinnatus_GPC_3440_v1_genomic.fna
+    Posted date:  Nov 24, 2021  4:31 PM
+  Number of letters in database: 983,776,544
+  Number of sequences in database:  12,186
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

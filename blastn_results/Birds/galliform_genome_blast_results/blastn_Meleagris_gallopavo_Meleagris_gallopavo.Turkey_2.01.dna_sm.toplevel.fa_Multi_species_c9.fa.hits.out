@@ -1,0 +1,396 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Meleagris_gallopavo.Turkey_2.01.dna_sm.toplevel.fa
+           5,891 sequences; 1,061,817,103 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 61575824990
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 84931701120
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94486517496
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  2 dna_sm:chromosome chromosome:Turkey_2.01:2:1:116965580:1 REF      48.2    3e-04
+
+
+
+Query_4  10        AAAAGCTTTCCACAGGTGGATGAAAGAACTGAAT  43
+1        82726434  ......AG.T........................  82726401
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94486517496
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:chromosome chromosome:Turkey_2.01:Z:1:81011772:1 REF       93.3    1e-17
+
+
+
+Query_5  56        ATTCTATGATATATGTAGAGCTGAGAAATTGACCATGTCCGCCTCAAAGAACTGCAACCA  115
+31       13061713  .........C.............T.........A.....T.T....C.A...CAG.....  13061775
+                               \                                               
+                               |                                               
+                             GAT
+
+Query_5  116       GACTGGCACTGACTTTCAGTGTAAATCTG  144
+31       13061776  ..................ACA........  13061804
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122089320360
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:chromosome chromosome:Turkey_2.01:Z:1:81011772:1 REF       174     4e-42
+  10 dna_sm:chromosome chromosome:Turkey_2.01:10:1:31125776:1 REF     44.6    0.005
+
+
+
+Query_6  1         GTTAATGTGTGAAGTGACAATTTGTGTGTAACAAAGATGGTGACTGTAGAGATTTTTCTA  60
+31       13060852  ...G...CA..............C...............A......CT............  13060793
+
+Query_6  61        ATGAAGGCAAATGTAAATTTGTACCACAGTCACCATGCCATAATGATCACATTGATAGGC  120
+31       13060792  .....C-----...................TG................G......C....  13060738
+9        18158669                 .......T..............-........                18158640
+
+Query_6  121       AGGAAGTTGGCAGGAAGGGCAAGA  144
+31       13060737  C..................G....  13060714
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122089320360
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  12 dna_sm:chromosome chromosome:Turkey_2.01:12:1:20663262:1 REF     44.6    0.004
+
+
+
+Query_7  55       CAATGGTCTTTGTGAAAGTGTGTGTGATG  83
+11       9971243  ..T..T.......................  9971215
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116781089040
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:chromosome chromosome:Turkey_2.01:Z:1:81011772:1 REF       313     1e-83
+
+
+
+Query_8  3         AGAAACAGACAAAATCTTCACATCTGAGTTCTAGCATGATCATaaaaaaaTGCTATGAGA  62
+31       13057181  ............................A........A..........T-..T.......  13057123
+
+Query_8  63        GGTCTACACAGACAAACAAAAGCCTCTTCAAAGTTGAATGTCTCTGAAATACACACCTAC  122
+31       13057122  .....................A..........C....C....................T.  13057063
+
+Query_8  123       ACCTACTGCAGGGAGTAGCAGGAATGCTTCAGGAGATAATTTAAAGTTCCACTATAGCTA  182
+31       13057062  ..........................T........C............T.....C....G  13057003
+
+Query_8  183       GACTGTAAGTTTCAATTCTATGTTACACAGCTTCATAAGAACA  225
+31       13057002  .............TG............T..T....C.......  13056960
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 207019872735
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:chromosome chromosome:Turkey_2.01:Z:1:81011772:1 REF       143     1e-32
+
+
+
+Query_9  13        AAAACCCTCATATCTAAGTTCTATCATAATTAGTTAAAAAAGTTATGAGAGGTTTACACA  72
+31       13057171  ....T.T...C....G..A....G......C.-.A....TT............C......  13057113
+
+Query_9  73        GACATATAAAAACACATTAAATTTGACACATCTCTGAAATACAAACCTACTATGGGAAGT  132
+31       13057112  ....A.C......T.T.C...C.....-TG.............C.......GCA..G...  13057047
+                               \                              \                
+                               |                              |                
+                               C                         CACCTT
+
+Query_9  133       AAGAGGAATGCTTCAGGAGCAAATTCAAAGTTTCCCTATGGTAAGACTGCAAGTTTCAGT  192
+31       13057046  .GC.......T.........T....T........A...CA.CTG.....T.......T..  13056987
+
+Query_9  193       TCTGTGTTGCATAGCTTCAAAGAA  216
+31       13056986  ...A....A.....T.........  13056962
+                                      \    
+                                      |    
+                                      C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 200650030497
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 224006118703
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 177293942291
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 99794748816
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 153938708280
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 211266434227
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 125274259152
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123150966624
+
+
+  Database: Meleagris_gallopavo.Turkey_2.01.dna_sm.toplevel.fa
+    Posted date:  Nov 24, 2021  4:20 PM
+  Number of letters in database: 1,061,817,103
+  Number of sequences in database:  5,891
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

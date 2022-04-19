@@ -1,0 +1,426 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_019232065.1_USGS_Curo_1.0_genomic.fna
+           1,502 sequences; 1,010,657,860 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 58615716632
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024884811.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  86.0    1e-15
+
+
+
+Query_2  1         CTCTGCAGAAAAAGCTTTCCACGGGGATGAAAGTACTGAAGGCTGTAGCTTCAACAGAGT  60
+670      14622394  ....T.............T.T.........G.....A.C...A....T..C......-.A  14622454
+                                         \                                     
+                                         |                                     
+                                        AG
+
+Query_2  61        GAAGGATGAGCAGCTGGAGTGCATGGGCGCACTGTGACCTATGCACCTA  109
+670      14622455  ...A.G............AC....C.TT.......A...CC....T...  14622503
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 80849144160
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024884811.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  196     9e-49
+
+
+
+Query_3  1         CTCTTCAGAAAAAGCTTTTCTCAGGGGGATGAGAGTACCAAAGGCTGTATCTCCAACAGG  60
+670      14622394  ......................................AGC...A...............  14622453
+
+Query_3  61        AGAAAGGTGAGCAGCTGGAACGCATCGTTGCACTGTAACCCCTGCATCTAGAAGAAGG  118
+670      14622454  ..........................................................  14622511
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 89944672878
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024884142.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  48.2    3e-04
+
+
+
+Query_4  10        AAAAGCTTTCCACAGGTGGATGAAAGAACTGAAT  43
+1        25697922  ......AG.T........................  25697955
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 89944672878
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024884811.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  80.6    6e-14
+
+
+
+Query_5  2         TTCATACTAGAAGTGTTGAAGGTTTCAGATAGTTTGGCAGAAAAACATGACTGGATTCTA  61
+670      14623145  .......C.....................C....C...........G.......        14623198
+670      14623842                                                        ......  14623847
+
+Query_5  62        TGATATATGTAGAGCTGAGAAATTGACCATGTCCGCCTCAAAGAACTGCAACCAGACTGG  121
+670      14623848  .................T..............T.AT....C.....CAG......-----  14623905
+                        \                                                      
+                        |                                                      
+                      CAA
+
+Query_5  122       CACTGACTTTCAGTGTAAATCTG  144
+670      14623906  -.........G.AC.........  14623927
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116220644730
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024884811.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  188     2e-46
+  NW_024884733.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  44.6    0.004
+
+
+
+Query_6  1         GTTAATGTGTGAAGTGACAATTTGTGTGTAACAAAGATGGTGACTGTAGAGATTTTTCTA  60
+670      14625232  ...G...CA.......G......................A.......T............  14625291
+
+Query_6  61        ATGAAGGCAAATGTAAATTTGTACCACAGTCACCATGCCATAATGATCACATTGATAGGC  120
+670      14625292  .....C-----...................TG.......................C....  14625346
+592      16777392                 .......T.............-.........                16777363
+
+Query_6  121       AGGAAGTTGGCAGGAAGGGCAAGA  144
+670      14625347  ...................G....  14625370
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116220644730
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024884789.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  44.6    0.004
+
+
+
+Query_7  55       CAATGGTCTTTGTGAAAGTGTGTGTGATG  83
+648      9795214  ..T..T.......................  9795242
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 111167573220
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024884811.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  320     7e-86
+
+
+
+Query_8  1         ATAGAAACAGACAAAATCTTCACATCTGAGTTCTAGCATGATCATaaaaaaaTGCTATGA  60
+670      14628834  .........A............T..........C....................T.....  14628893
+
+Query_8  61        GAGGTCTACACAGACAAACAAAAGCCTCTTCAAAGTTGAATGTCTCTGAAATACACACCT  120
+670      14628894  .......................A...............C....................  14628953
+
+Query_8  121       ACACCTACTGCAGGGAGTAGCAGGAATGCTTCAGGAGATAATTTAAAGTTCCACTATAGC  180
+670      14628954  ...T......................A..........C............T.........  14629013
+
+Query_8  181       TAGACTGTAAGTTTCAATTCTATGTTACACAGCTTCATAAGAACA  225
+670      14629014  .G.......T...C.TG............T.....TGC.......  14629058
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197069496000
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024884811.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  145     3e-33
+
+
+
+Query_9  13        AAAACCCTCATATCTAAGTTCTATCATAATTAGTTAAAAAAGTTATGAGAGGTTTACACA  72
+670      14628846  ....T.T........G.....C.G...G..C.TAA.....T............C......  14628905
+
+Query_9  73        GACATATAAAAACACATTAAATTTGACACATCTCTGAAATACAAACCTACTATGGGAAGT  132
+670      14628906  ....A.C......CTC.....G.....TG-.............C............G...  14628971
+                                     \                               \ \ \     
+                                     |                               | | |     
+                                     C                             ATC C CA
+
+Query_9  133       AAGAGGAATGCTTCAGGAGCAAATTCAAAGTTTCCCTATGGTAAGACTGCAAGTTTCAGT  192
+670      14628972  .GC.....A...........T....T........A....A.CTG.....T.T...C.T..  14629031
+
+Query_9  193       TCTGTGTTGCATAGCTT  209
+670      14629032  ...A....A........  14629048
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 191005819200
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 213239300800
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 169783202736
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94997744388
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024884844.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  46.4    0.002
+  NW_024885344.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  44.6    0.006
+
+
+
+Query_13  47       TGATGGAGGAAATGTTGATTTTTCAGTTAAAATAAATGTT  86
+703       5742676  .....C..A.................G.....C..       5742710
+1203      8229214            ...T..........................  8229244
+                                               \           
+                                               |           
+                                               A
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 146539073790
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 201111947200
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119252487636
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 117231259032
+
+
+  Database: GCF_019232065.1_USGS_Curo_1.0_genomic.fna
+    Posted date:  Nov 24, 2021  4:04 PM
+  Number of letters in database: 1,010,657,860
+  Number of sequences in database:  1,502
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

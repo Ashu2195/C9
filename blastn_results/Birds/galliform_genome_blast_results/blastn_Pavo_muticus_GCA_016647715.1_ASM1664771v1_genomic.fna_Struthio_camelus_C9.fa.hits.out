@@ -1,0 +1,276 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_016647715.1_ASM1664771v1_genomic.fna
+           2,446 sequences; 1,061,110,005 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 61540407986
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JACDJE010000321.1 Pavo muticus isolate YNLC101 scaffold40, whol...  77.0    6e-13
+
+
+
+Query_2  1        CTCTTCCGAGAAAGCTTTCCAGAGGGGGACAAGAGAACTGAATGCTCCATCCCCGATAGA  60
+1781     1893765  ......A..A...........C.....T.TG....T..C...G...GT...T..AG....  1893704
+                                                                           \  
+                                                                           |  
+                                                                          GT
+
+Query_2  61       TTGTAAGCTGAGCAGCTGGAGTGAATGGGGGCCCTGTGACCCATGCAC  108
+1781     1893703  A---...AA.....A........C.....T..A...............  1893659
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94432477319
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JACDJE010000321.1 Pavo muticus isolate YNLC101 scaffold40, whol...  46.4    0.001
+
+
+
+Query_3  105      AGAACCAGAACCAGACTGTGGTACTGACTTTCAATGCAATTCTG  148
+1781     1882261  .........G........--.C..............TT.A....  1882220
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126263649449
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JACDJE010000321.1 Pavo muticus isolate YNLC101 scaffold40, whol...  71.6    3e-11
+  JACDJE010000449.1 Pavo muticus isolate YNLC101 scaffold497, who...  44.6    0.005
+
+
+
+Query_4  1        GTCGATGTATAAAGCAACGTCTTGTGTGTAACGTAGATAATGACTGTGGAGACTTTTCTG  60
+1781     1880884  ..T....C..G...TG..AAT...........AA....GG.......A....T......A  1880825
+1888     347076                        ....T...G.T.G.T..G..............C..AGC.  347114
+
+Query_4  61       ATGAAGATAACTGTGAGTCAGACCCACGATCACCATGCCGTTATCATGATATTGATGTGT  120
+1781     1880824  ......GC...C..A.A.TT.TA....AG..........A.A..G..C.C.....CAG.C  1880765
+1888     347115   .....C.G.......                                               347129
+
+Query_4  121      CAGAAATTGGCAGGACTGCAGGGCAGG  147
+1781     1880764  AG...GC........----........  1880742
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126263649449
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116714297810
+
+
+Query= exon6
+
+Length=219
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 200535922125
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JACDJE010000321.1 Pavo muticus isolate YNLC101 scaffold40, whol...  95.1    5e-18
+
+
+
+Query_7  1        AAACAAACCTTCCTGCATGTAAAAGGAAAAATTCAGCTTGGAAGATTCCAAATGCGAAGT  60
+1781     1886009  ..C........T......A..........G.....C...................--...  1885952
+
+Query_7  61       CGTGATGTCCGTCTCACAGACAGTTT  86
+1781     1885951  T...G.A...A.....T...T.....  1885926
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 223878727875
+
+
+Query= exon8
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JACDJE010000167.1 Pavo muticus isolate YNLC101 scaffold17, whol...  44.6    0.004
+
+
+
+Query_8  20       aaaaaaaTGTCTTGGCTATCATTT  43
+778      3185314  ........................  3185337
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 106103907100
+
+
+Query= exon9
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 159155860650
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 211146288375
+
+
+Query= exon11
+
+Length=161
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 140057157372
+
+
+  Database: GCA_016647715.1_ASM1664771v1_genomic.fna
+    Posted date:  Nov 24, 2021  4:25 PM
+  Number of letters in database: 1,061,110,005
+  Number of sequences in database:  2,446
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,311 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Numida_meleagris.NumMel1.0.dna_sm.toplevel.fa
+           2,466 sequences; 1,043,264,150 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 60505315916
+
+
+Query= exon2
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 92844144604
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  118     3e-25
+
+
+
+Query_3  1         TTTCGCTCTAGAAGTATTGAAAAATTTGGACAGTTTGGAGGAAAATCATGCCTGGAGGCT  60
+29       12548096  ....A.A........G.....GGGC.CA..........CA.....A..............  12548037
+
+Query_3  61        TTGAGAGATACACAAAGCTGTAAAACTAGTCGAGTCTGTCCTGAAGAACCAGAACCAGAC  120
+29       12548036  ..A........GA.G......G.....GAC.ACA..C...TCA...........A.....  12547977
+
+Query_3  121       TGTGGTACTGACTTTCAATGCAATTCTG  148
+29       12547976  .....C.........TG...T..G....  12547949
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124139923684
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  69.8    1e-10
+  4 dna_sm:primary_assembly primary_assembly:NumMel1.0:4:1:974848...  48.2    4e-04
+  7 dna_sm:primary_assembly primary_assembly:NumMel1.0:7:1:301848...  44.6    0.005
+
+
+
+Query_4  1         GTCGATGTATAAAGCAACGTCTTGTGTGTAACGTAGATAATGACTGTGGAGACTTTTCTG  60
+29       12546631  ..A....C..G...TG..AA..C.........AA....G.............T......A  12546561
+                                                                   \           
+                                                                   |           
+                                                         AGATGATGACT
+3        72772897                       ....T...G.T.G.T..G..............C..AG..  72772935
+6        25972611                            .....T.G....G..............CAG..A.  25972578
+
+Query_4  61        ATGAAGATAACTGTGAGTCAGACCCACGATCACCATGCCGTTATCATGATATTGATGTGT  120
+29       12546560  ......TC.G...CA.A.TT.TA....A..T........A.A..G..C.C.C...CAG.-  12546502
+3        72772936  .....C.G.......                                               72772950
+6        25972577  .....A.A.....                                                 25972565
+
+Query_4  121       CAGAAATTGGCAGGACTGCAGGGCA  145
+29       12546501  .........................  12546476
+                         \                  
+                         |                  
+                         G
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124139923684
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 114751189960
+
+
+Query= exon6
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  82.4    3e-14
+
+
+
+Query_6  8         CAGACAAAACCTTCACAGCTGAGTACTATCATGATCGTGCAGAAATGATCCTAGAGGTTT  67
+29       12543171  .......T.TG......T......T...........T.AA.A.....T.ATG....A.C.  12543112
+
+Query_6  68        ACATAGAAAAAGAAAGAAAATTTAAGGCTGATCTGTCTGTGAAATACACACCTACTGAAG  127
+29       12543111  .T.C...C...C...A.CTC..C..A.T...-...C..C......G...........C..  12543049
+                                    \                                    \     
+                                    |                                    |     
+                                    C                                  CAC
+
+Query_6  128       GAAGTGACAAAGATACTGTAAAAGGAAACTTCAAGTATCATTATAGCAAGAATTCAAATT  187
+29       12543048  .G..GA...GGA..G..TC.GG..C...T..A....T...C......T...C.GT..G..  12542989
+
+Query_6  188       TAAGTTCGGTCCTGCAAAGCACCACAGAAAGG  219
+29       12542988  .C........--.A..T...TT.....G....  12542957
+                          \                        
+                          |                        
+                         TA
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197162942130
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  80.6    1e-13
+
+
+
+Query_7  1         AAACAAACCTTCCTGCATGTAAAAGGAAAAATTCAGCTTGGAAGATTCCAAATGCGAAGT  60
+29       12541935  ..C..G.....T..A...A....-.....G.....C..............G...T.G...  12541877
+
+Query_7  61        CGTGATGTCCGTCTCACAGACAGTTT  86
+29       12541876  T...G.....A.....T...T.....  12541851
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 220113125870
+
+
+Query= exon8
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 104319263600
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  77.0    1e-12
+
+
+
+Query_9  123       GATTACATACAGTGGGCTAAGTCATTGGTTGATGCTCCAGTAGTGATACAGCAACGG  179
+29       12541425  ................T.....TC..............T.....A.........A..  12541369
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 156478895400
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 207594843830
+
+
+Query= exon11
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  113     1e-23
+
+
+
+Query_11  2         TGTCACGGATGGAGGCTGGAGCTGTTGGAGTGCCTGGTCCACCTGCATGAGTGGAGAAAG  61
+29        12540790  ......TA..A..AA.........ACAA.TA.T.....T.........C.A...T.....  12540731
+
+Query_11  62        CACTCGAACTCGTCAGTGTAACAACCCTGCCCCAGAACCTGGTGGCAGACCATGCCAAGG  121
+29        12540730  ....T.....T.C..A.....T..T...A.A...C...T................A....  12540671
+
+Query_11  122       AGAAAGCATTGAAAAACGGCCCTGT  146
+29        12540670  CA..CT..........T.T......  12540646
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 137701427952
+
+
+  Database: Numida_meleagris.NumMel1.0.dna_sm.toplevel.fa
+    Posted date:  Nov 24, 2021  4:23 PM
+  Number of letters in database: 1,043,264,150
+  Number of sequences in database:  2,466
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

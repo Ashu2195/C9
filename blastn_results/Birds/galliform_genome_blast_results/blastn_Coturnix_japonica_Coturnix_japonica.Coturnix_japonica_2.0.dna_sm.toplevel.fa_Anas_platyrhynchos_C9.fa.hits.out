@@ -1,0 +1,259 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Coturnix_japonica.Coturnix_japonica_2.0.dna_sm.toplevel.fa
+           2,012 sequences; 927,656,957 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 53800836018
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  60.8    4e-08
+
+
+
+Query_2  1         CTCTTCAGAAAAAGCTTTCCACAGGGAGACAAGAGAACTGAATGCT  46
+31       11295254  ......................G...G..T.....T......G...  11295209
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82556276201
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 110384234471
+
+
+Query= exon4
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 110384234471
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 102035846990
+
+
+Query= exon6
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  64.4    7e-09
+
+
+
+Query_6  5         AAGCAGGCAAAACCTTCACATCTGAGTTCTATCGTGATCATCTAAAAATGATACGAGAGG  64
+31       11290055  ......A.....T........T.A.......G.A....T.-.A...T.A.T..T......  11289997
+
+Query_6  65        TGTACATGGACAAACAAAAA  84
+31       11289996  .C..A.CA............  11289977
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 173460939883
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  62.6    3e-08
+
+
+
+Query_7  1         AACCAAACCTTTCTACATGTAAAAGGAAAGATTCAGCTGGGAAGATTCCAAATGCGGAGT  60
+31       11288852  ........A...T.GT..A......-...T.....C..T.C...............A...  11288794
+
+Query_7  61        CGTGATATCCGTCTCACAG  79
+31       11288793  T...G...T.AG....T..  11288775
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195722881967
+
+
+Query= exon8
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3 dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  46.4    0.001
+
+
+
+Query_8  1         ATATCAGTGTAGAAGATGTGAAGAAATGTCTTGGCTAT  38
+2        73511931  ....A...........G..T..T..T............  73511894
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 92759860900
+
+
+Query= exon9
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 139139791350
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 184591722803
+
+
+Query= exon11
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 111311833080
+
+
+  Database: Coturnix_japonica.Coturnix_japonica_2.0.dna_sm.toplevel.fa
+    Posted date:  Nov 24, 2021  4:08 PM
+  Number of letters in database: 927,656,957
+  Number of sequences in database:  2,012
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

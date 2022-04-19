@@ -1,0 +1,276 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_021513735.1_PavCris_1.0_genomic.fna
+           726 sequences; 1,046,718,240 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 60708478896
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAIFWW010000607.1 Pavo cristatus isolate JXP scaffold_606, whol...  82.4    1e-14
+
+
+
+Query_2  1        CTCTTCCGAGAAAGCTTTCCAGAGGGGGACAAGAGAACTGAATGCTCCATCCCCGATAGA  60
+563      1743130  ......A..A...........C.....T.TG....T..C...G...GT...T..A.....  1743069
+                                                                           \  
+                                                                           |  
+                                                                          GT
+
+Query_2  61       TTGTAAGCTGAGCAGCTGGAGTGAATGGGGGCCCTGTGACCCATGCAC  108
+563      1743068  A---...AA.....A........C.....T..A...............  1743024
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 93156049554
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAIFWW010000607.1 Pavo cristatus isolate JXP scaffold_606, whol...  50.0    1e-04
+
+
+
+Query_3  105      AGAACCAGAACCAGACTGTGGTACTGACTTTCAATGCAATTCTG  148
+563      1741627  ................--...C..............TT.A....  1741586
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124556965134
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAIFWW010000607.1 Pavo cristatus isolate JXP scaffold_606, whol...  71.6    3e-11
+  JAIFWW010000098.1 Pavo cristatus isolate JXP scaffold_97, whole...  48.2    4e-04
+
+
+
+Query_4  1         GTCGATGTATAAAGCAACGTCTTGTGTGTAACGTAGATAATGACTGTGGAGACTTTTCTG  60
+563      1740245   ..T....C..G...TG..AAT...........AA....GG.......A....T......A  1740186
+722      11420020                       ....T...G.T.G.T..G..............C..AG..  11419982
+
+Query_4  61        ATGAAGATAACTGTGAGTCAGACCCACGATCACCATGCCGTTATCATGATATTGATGTGT  120
+563      1740185   ......GC...C..A.A.TT.TA....AG..........A.A..G..C.C.....CAG.C  1740126
+722      11419981  .....C.G.......                                               11419967
+
+Query_4  121       CAGAAATTGGCAGGACTGCAGGGCAGG  147
+563      1740125   AG...GC........----........  1740103
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124556965134
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 115136690460
+
+
+Query= exon6
+
+Length=219
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197825630940
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAIFWW010000607.1 Pavo cristatus isolate JXP scaffold_606, whol...  89.7    2e-16
+
+
+
+Query_7  1        AAACAAACCTTCCTGCATGTAAAAGGAAAAATTCAGCTTGGAAGATTCCAAATGCGAAGT  60
+563      1735367  ..C....A...T......A..........G.....C...................--...  1735310
+
+Query_7  61       CGTGATGTCCGTCTCACAGACAGTTT  86
+563      1735309  T...G.A...A.....T...T.....  1735284
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 220852953060
+
+
+Query= exon8
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JAIFWW010000217.1 Pavo cristatus isolate JXP scaffold_216, whol...  44.6    0.004
+
+
+
+Query_8  20      aaaaaaaTGTCTTGGCTATCATTT  43
+131      508047  ........................  508070
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 104669718600
+
+
+Query= exon9
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 157004577900
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 208292595540
+
+
+Query= exon11
+
+Length=161
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 138164028552
+
+
+  Database: GCA_021513735.1_PavCris_1.0_genomic.fna
+    Posted date:  Apr 4, 2022  7:42 PM
+  Number of letters in database: 1,046,718,240
+  Number of sequences in database:  726
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

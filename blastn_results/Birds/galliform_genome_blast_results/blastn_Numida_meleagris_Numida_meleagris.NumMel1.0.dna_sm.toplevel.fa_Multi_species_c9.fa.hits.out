@@ -1,0 +1,471 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Numida_meleagris.NumMel1.0.dna_sm.toplevel.fa
+           2,466 sequences; 1,043,264,150 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  7 dna_sm:primary_assembly primary_assembly:NumMel1.0:7:1:301848...  42.8    0.008
+
+
+
+Query_1  40        CTTTGCAGTTTAGAGGTGGTTGCCTCACTTTTGAGAAA  77
+6        23887856  ....T..T....C..........TA.T...........  23887819
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 60505315916
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 83455410880
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 92844144604
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 92844144604
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  134     3e-30
+
+
+
+Query_5  2         TTCATACTAGAAGTGTTGAAGGTTTCAGATAGTTTGGCAGAAAAACATGACTGGATTCTA  61
+29       12548095  ....C.................GC.....C...................C.....C.T..  12548034
+                                                                          \    
+                                                                          |    
+                                                                         GG
+
+Query_5  62        TGATATATGTAGAGCTGAGAAATTGACCATGTCCGCCTCAAAGAACTGCAACCAGACTGG  121
+29       12548033  A..G...C.A.......T....C......CA....T..........CAG..A........  12547972
+                                                                            \  
+                                                                            |  
+                                                                           TG
+
+Query_5  122       CACTGACTTTCAGTGTAAATCTG  144
+29       12547971  ..........TGA.....G....  12547949
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119967153140
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  149     2e-34
+
+
+
+Query_6  10        TGAAGTGACAATTTGTGTGTAACAAAGATGGTGACTGTAGAGATTTTTCTAATGAAGGCA  69
+29       12546622  ...........C.C................A.......G..................T..  12546552
+                                                          \                    
+                                                          |                    
+                                                AGATGATGACT
+
+Query_6  70        AATGTAAATTTGTACCACAGTCACCATGCCATAATGATCACATTGATAGGCAGGAAGTTG  129
+29       12546551  GC..C..............A.T....................C...C......A......  12546492
+
+Query_6  130       GCAGGAAGGGCAAGA  144
+29       12546491  ...............  12546473
+                         \        
+                         |        
+                      CTGC
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119967153140
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  9 dna_sm:primary_assembly primary_assembly:NumMel1.0:9:1:201925...  44.6    0.004
+
+
+
+Query_7  55       CAATGGTCTTTGTGAAAGTGTGTGTGATG  83
+8        9642962  ..T..T.......................  9642934
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 114751189960
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  282     2e-74
+
+
+
+Query_8  7         ACAGACAAAATCTTCACATCTGAGTTCTAGCATGATCATaaaaaaaTGCTATGAGAGGTC  66
+29       12543172  ........T..G.................T.......T..........T........A..  12543113
+
+Query_8  67        TACACAGACAAACAAAAGCCTCTTCAAAGTTGAATGTCTCTGAAATACACACCTACACCT  126
+29       12543112  ..T..............A...............C..C.........G...........--  12543055
+
+Query_8  127       ACTGCAGGGAGTAGCAGGAATGCTTCAGGAGATAATTTAAAGTTCCACTATAGCTAGACT  186
+29       12543054  -..........G.A.................CA...........T...............  12542996
+
+Query_8  187       GTAAGTTTCAATTCTATGTTACACAGCTTCATAAGAA  223
+29       12542995  ..........G.....G......T.......C.G...  12542959
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 203422083150
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  159     1e-37
+
+
+
+Query_9  20        TCATATCTAAGTTCTATCATAATTAGTTAAAAAAGTTATGAGAGGTTTACACAGACATAT  79
+29       12543159  ...C....G...........G..C--..................A.C..T.......A.C  12543100
+                                                     \                         
+                                                     |                         
+                                                    AT
+
+Query_9  80        AAAAACACATTAAATTTGACACATCTCTGAAATACAAACCTACTATGGGAAGTAAGAGGA  139
+29       12543099  ......CTC.....G.....TGC-.........G..C......AC....G..G..C....  12543037
+                              \                                 \ \            
+                              |                                 | |            
+                              C                                 C CA
+
+Query_9  140       ATGCTTCAGGAGCAAATTCAAAGTTTCCCTATGGTAAGACTGCAAGTTTCAGTTCTGTGT  199
+29       12543036  ..................T........A....A.CT......T.............AG..  12542977
+
+Query_9  200       TGCATAGCTTCAAAGAAAGG  219
+29       12542976  .A..........C..G....  12542957
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197162942130
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  73.4    2e-11
+
+
+
+Query_10  1         AACCAAGTCTTTCTGCATGTAAAAGGAAAGATTTGGCTGGGAATATTCCAGATGGAGAAT  60
+29        12541935  .....GAC......A...A....-.........CAC..T....G..........TG..G.  12541877
+
+Query_10  61        CATGGTGTCCATCTCACAGATAGTT  85
+29        12541876  TG..............T........  12541852
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 220113125870
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  196     2e-48
+  3 dna_sm:primary_assembly primary_assembly:NumMel1.0:3:1:112045...  44.6    0.007
+
+
+
+Query_11  1         ACCAAACCTTTCTTCATATAAAAGGAAATATTCACCTTGCAAAATTCCAAATGCAGAGTT  60
+29        12541934  ....G........A........-.....G..........G..G......G...TG.....  12541876
+
+Query_11  61        GTGGTATCCATCTCATAGATAGTTTACAGTAAAAATTTCCTTACTTTGGTTAAGATAGGA  120
+29        12541875  .....G......................C.GG............................  12541816
+2         33377836            ...........T......T........G.T...A...               33377872
+
+Query_11  121       TAGTGTTGATGTAATATTCGCTCATGAAGTTGAGA  155
+29        12541815  .....G.A..T........C......T........  12541781
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 175256362848
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  131     3e-29
+
+
+
+Query_12  1         TTACTATGAAGATCCAAAATGGCTGTCATAGGCTACGTACAGTGGGTAAAGTCCTTGGTT  60
+29        12541455  .....G...............AT..A.....AT...A..........T....T.......  12541396
+
+Query_12  61        GATGCTCCAACAAAGGGTCAGTACAACCTCTTCACAGCTGCAGCTCTTACGGTTTCAAAG  120
+29        12541395  .........G.............T.G........................A....G....  12541325
+                           \                                                    
+                           |                                                    
+                    CTGTAGTAATA
+
+Query_12  121       C  121
+29        12541324  .  12541324
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 98060107784
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  102     2e-20
+
+
+
+Query_13  85        TTACTGTGAAGATCCAAAATGTTTGACATAGAAGATTACATAAATTGGGCTAAGTACTTG  144
+29        12541455  .....................A.......---..........C.G....T.....T....  12541399
+
+Query_13  145       GCTGATGATCCTTTAGTAATTAAGCAAAGG  174
+29        12541398  .T.....C....G.......AC........  12541369
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 151262932220
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  44.6    0.008
+
+
+
+Query_14  20        ATGTTTCAGTTAAGATAAGAAATCTATACTTAAAGCAACAGAATTTGCA  68
+29        23531095  ..............CA.....G..A.........TG..A.......C..  23531045
+                                                            \        
+                                                            |        
+                                                           AT
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 207594843830
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123096731048
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:NumMel1.0:Z:1:752532...  154     4e-36
+
+
+
+Query_16  1         CTATCACTGACGGAGACTGGAGCTGACAGATCACCTGGTTCACATCAATGGTGAAAGTAT  60
+29        12540791  ..G.....A.TA..A.............A..AGT.......................C.C  12540728
+                                                               \                
+                                                               |                
+                                                            CTGC
+
+Query_16  61        TTGAACTTGCCAGTGTAATTATCCTACACCACAACTTGGTCAGAGACCATGCCATGGTAA  120
+29        12540727  ............A......A....................GGC.........A.A..C..  12540668
+
+Query_16  121       ATTCATTGAAAAATGTCCCTGT  142
+29        12540667  .C....................  12540646
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121010345776
+
+
+  Database: Numida_meleagris.NumMel1.0.dna_sm.toplevel.fa
+    Posted date:  Nov 24, 2021  4:23 PM
+  Number of letters in database: 1,043,264,150
+  Number of sequences in database:  2,466
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

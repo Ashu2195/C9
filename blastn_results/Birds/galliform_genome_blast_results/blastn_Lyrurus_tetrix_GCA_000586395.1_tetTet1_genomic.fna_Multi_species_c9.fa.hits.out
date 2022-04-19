@@ -1,0 +1,383 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_000586395.1_tetTet1_genomic.fna
+           971,998 sequences; 657,025,294 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37216099532
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 51014557350
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 56682841500
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 56682841500
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 73057884600
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JDSL01869657.1 Lyrurus tetrix tetrix chr8contig46736, whole gen...  44.6    0.003
+
+
+
+Query_6  76   AATTTGTACCACAGTCACCATGCCATAATGA  106
+869656   817  .......T.............-.........  788
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 73057884600
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JDSL01198531.1 Lyrurus tetrix tetrix chr10contig29292, whole ge...  44.6    0.003
+
+
+
+Query_7  55   CAATGGTCTTTGTGAAAGTGTGTGTGATG  83
+198530   379  ..T..T.......................  351
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 69908837850
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JDSL01920736.1 Lyrurus tetrix tetrix chrZcontig39620, whole gen...  370     3e-101
+
+
+
+Query_8  1    ATAGAAACAGACAAAATCTTCACATCTGAGTTCTAGCATGATCATaaaaaaaTGCTATGA  60
+920735   344  ............................................................  285
+
+Query_8  61   GAGGTCTACACAGACAAACAAAAGCCTCTTCAAAGTTGAATGTCTCTGAAATACACACCT  120
+920735   284  ...................................C...C....A...............  225
+
+Query_8  121  ACACCTACTGCAGGGAGTAGCAGGAATGCTTCAGGAGATAATTTAAAGTTCCACTATAGC  180
+920735   224  ...T........A.............A..........C......................  165
+
+Query_8  181  TAGACTGTAAGTTTCAATTCTATGTTACACAGCTTCATAAGAACA  225
+920735   164  .............................T...............  120
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123252120992
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JDSL01920736.1 Lyrurus tetrix tetrix chrZcontig39620, whole gen...  138     3e-31
+  JDSL01414400.1 Lyrurus tetrix tetrix chr2contig259732, whole ge...  44.6    0.005
+
+
+
+Query_9  13   AAAACCCTCATATCTAAGTTCTATCATAATTAGTTAAAAAAGTTATGAGAGGTTTACACA  72
+920735   332  ....T.T...C....G.......G...G..C.TAA.....T.C..........C......  273
+414399   80                                                    ...A..T....  90
+
+Query_9  73   GACATATAAAAACACATTAAATTTGACACATCTCTGAAATACAAACCTACTATGGGAAGT  132
+920735   272  ....A.C....G.CTC.....GC....TG-..A..........C........CT.C...G  210
+                                \                               \         
+                                |                               |         
+                                C                             ATC
+414399   91   .G............TTG...........                                  118
+
+Query_9  133  AAGAGGAATGCTTCAGGAGCAAATTCAAAGTTTCCCTATGGTAAGACTGCAAGTTTCAGT  192
+920735   209  ........A...........T....T......C.A....A.CT......T........A.  147
+               \ \                                                        
+               | |                                                        
+              GT C
+
+Query_9  193  TCTGTGTTGCATAGCTTCAAAGAA  216
+920735   146  ...A....A...............  122
+                                 \    
+                                 |    
+                                 T
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119479096880
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 133313518624
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 105644675136
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 59831888250
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JDSL01845686.1 Lyrurus tetrix tetrix chr7contig82714, whole gen...  46.4    0.001
+
+
+
+Query_13  47    TGATGGAGGAAATGTTGATTTTTCAGTTAAAATAA  81
+845685    1313  .....C..A.................G.....C..  1347
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91181416040
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 125767470400
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 74947312650
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 73687693950
+
+
+  Database: GCA_000586395.1_tetTet1_genomic.fna
+    Posted date:  Nov 24, 2021  4:19 PM
+  Number of letters in database: 657,025,294
+  Number of sequences in database:  971,998
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

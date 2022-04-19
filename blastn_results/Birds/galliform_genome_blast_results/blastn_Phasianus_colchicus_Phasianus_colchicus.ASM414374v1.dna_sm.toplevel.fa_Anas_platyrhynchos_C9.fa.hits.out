@@ -1,0 +1,288 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Phasianus_colchicus.ASM414374v1.dna_sm.toplevel.fa
+           39,677 sequences; 1,017,507,340 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 58950990272
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QCWP01000059.1 dna_sm:primary_assembly primary_assembly:ASM4143...  59.0    2e-07
+
+
+
+Query_2  1       CTCTTCAGAAAAAGCTTTCCACAGGGAGACAAGAGAACTGAATGCTCCATACCCTATAGA  60
+105      873983  ..T...............T.T.....G..TG....T......G...GT.CCT..A.....  873924
+
+Query_2  61      CTGTAAACTGACCAGCTGGAGTGAGTGGGGGCCCTGTGACCCATG  105
+105      873923  GA.A..GA...G.........CACA.C..T..AT........C..  873879
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 90455746923
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QCWP01000059.1 dna_sm:primary_assembly primary_assembly:ASM4143...  60.8    6e-08
+
+
+
+Query_3  69      TACACAGAACTGTGAAAGTGACCAAGTCTGTCCTGAAGAAATAGAACCAGACTGTGGTGC  128
+105      872532  ...G....G........T......T...C...TCAC.A..CC..........--...CA.  872475
+
+Query_3  129     TGACTTTCAATGCAATTCTG  148
+105      872474  ............T..A....  872455
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120946448133
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QCWP01000059.1 dna_sm:primary_assembly primary_assembly:ASM4143...  64.4    5e-09
+  QCWP01000044.1 dna_sm:primary_assembly primary_assembly:ASM4143...  48.2    4e-04
+
+
+
+Query_4  1        GTCGATGCATAAAGCGACGGCTTGTGTGTAACGTGGATAACGACTGTGGAGATTTTTCTG  60
+105      871133   ..T.......G...T.C.AAT..........GAAA...G.T....A.T...........A  871074
+17       9755905                                        ...........T...AA.....  9755884
+
+Query_4  61       ATGAAGATAACTGTGAATCTGAACCACGATCACCATGCCGTAACCATGATATTGATGTGT  120
+105      871073   ...-----......A...T..T.....AG.TG.....T.A...TG..C.C.....CAG.C  871019
+17       9755883  .......A......                                                9755870
+
+Query_4  121      CTGAAGTTGGCAGGA  135
+105      871018   AG.............  871004
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120946448133
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 111799237770
+
+
+Query= exon6
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QCWP01000059.1 dna_sm:primary_assembly primary_assembly:ASM4143...  109     2e-22
+
+
+
+Query_6  5       AAGCAGGCAAAACCTTCACATCTGAGTTCTATCGTGATCATCTAAAAATGATACGAGAGG  64
+105      867336  ......A.....T..................G.A....G..AA...T..AT..T....A.  867277
+
+Query_6  65      TGTACATGGACAAACAAAAAAGCTTCAACATTGGCCTGTCTCTGAAATATATGCCTACTT  124
+105      867276  .C....CA............CT.C....-.G.T.A................CA......G  867212
+                                                                  \          
+                                                                  |          
+                                                             CACACC
+
+Query_6  125     CAGAAAGTAACAAAACTGCAGGAGGAAACTTGAAGTTTTACTATAGCAAGGGTAAAAATT  184
+105      867211  ..AGG....G...TG..T......CT..T..A......C........TG.AC.GT..G..  867149
+                            \                                                
+                            |                                                
+                          AGG
+
+Query_6  185     TAGGATCTATGTTGACTAGATTCACA  210
+105      867148  .CT.T........ACAC..C......  867123
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 189034967580
+
+
+Query= exon7
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 214442893330
+
+
+Query= exon8
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101635670700
+
+
+Query= exon9
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 152453506050
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QCWP01000174.1 dna_sm:primary_assembly primary_assembly:ASM4143...  48.2    6e-04
+
+
+
+Query_10  34       ATAAGAAATTCATATTTAAAGAAACAAAATTTGGAAAGAGCAATTGAGGA  83
+49        3443755  .........GA.G-......A...A........-...........A....  3443802
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 202247088970
+
+
+Query= exon11
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121962804840
+
+
+  Database: Phasianus_colchicus.ASM414374v1.dna_sm.toplevel.fa
+    Posted date:  Nov 24, 2021  4:26 PM
+  Number of letters in database: 1,017,507,340
+  Number of sequences in database:  39,677
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

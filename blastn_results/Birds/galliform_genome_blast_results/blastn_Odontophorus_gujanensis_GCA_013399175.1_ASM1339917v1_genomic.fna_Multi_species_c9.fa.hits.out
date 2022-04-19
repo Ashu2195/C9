@@ -1,0 +1,488 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013399175.1_ASM1339917v1_genomic.fna
+           26,662 sequences; 977,719,362 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 56664423908
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  122     1e-26
+
+
+
+Query_2  1       CTCTGCAGAAAAAGCTTTCCACGGGGATGAAAGTACTGAAGGCTGTAGCTTCAACAGAGT  60
+12548    358559  ....T.................AA......C..............G.T..C...T.....  358498
+                                          \                                  
+                                          |                                  
+                                         AA
+
+Query_2  61      GAAGGATGAGCAGCTGGAGTGCATGGGCGCACTGTGACCTATGCACCTA  109
+12548    358497  ...A............A...C......TA.....G....C.........  358449
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 79134798906
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  91.5    3e-17
+
+
+
+Query_3  1       CTCTTCAGAAAAAGCTTTTCTCAGGGGGATGAGAGTACCAAAGGCTGTATCTCCAACAGG  60
+12548    358559  ..................C.A..A.AA.....C.....TG.......G........T...  358499
+                                                                            \
+                                                                            |
+                                                                            A
+
+Query_3  61      AGAAAGGTGAGCAGCTGGAACGCATCGTTGCACTGTAACCCCTGCATCTAGAAGAA  116
+12548    358498  T.....A..........A.GTC...G.G.A.....GG....A....C...T..A..  358443
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 86948208596
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  78.8    2e-13
+
+
+
+Query_4  1       CTCTTCATAAAAAGCTTTCCACAGGTGGATGAAAGAACTGAATGCTCTGTCTCCACCAGA  60
+12548    358559  .......G...............A.AA.....C..T......G...GGA......AT...  358500
+
+Query_4  61      CTGAAAACTGAGCTGATAGAGTGTGTGTGGGCACTGTGGCCCATGTACCTATCAAA  116
+12548    358499  G.....GA.....A.C.GA...CCA..G.TA.....G.A......C......A...  358444
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 86948208596
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  66.2    1e-09
+
+
+
+Query_5  2       TTCATACTAGAAGTGTTGAAGGTTTCAGATAGTTTGGCAGAAAAACATGACTGGATTCTA  61
+12548    357786  ....C....A...........AG......C...................             357738
+
+Query_5  62      TGATATATGTAGAGCTGAGAAATTGACCATGTCCGCCTCAAAGAACTGCAACCAGACTGG  121
+12548    357036           ..A..A..T...GC............T.C........CAG...........  356984
+                                                                          \  
+                                                                          |  
+                                                                         TA
+
+Query_5  122     CACTGACTTTCAGTGTAAAT  141
+12548    356983  .....G......A.......  356964
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 112348808860
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  163     6e-39
+  VXAB01011871.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  44.6    0.004
+
+
+
+Query_6  13      AGTGACAATTTGTGTGTAACAAAGATGGTGACTGTAGAGATTTTTCTAATGAAGGCAAAT  72
+12548    355745  ...............C...........A.A.....G......................C.  355686
+
+Query_6  73      GTAAATTTGTACCACAGTCACCATGCCATAATGATCACATTGATAGGCAGGAA  125
+12548    355685  .....CC................................C...C.........  355633
+11870    216211     .......T.............-.........                     216182
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 112348808860
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  80.6    6e-14
+  VXAB01002427.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  44.6    0.004
+
+
+
+Query_7  6       ACATTTTAGGGATGCAGCTGACGGCCAGCCCCTTTGACAACGACTTTTTCAATGGTCTTT  65
+12548    353811  ........T.....-....A.T.......A.A...A.A..T.G.........A.......  353753
+2426     118384                                                   ..T..T.....  118374
+
+Query_7  66      GTGAAAGTGTGTGTGATGGGAACATGTGGACGTAGGGCCACAAGCCTCAGAATATTGGTG  125
+12548    353752  .......G..CCA..G........CA.A.GTAC.T.A......AG.AAG....G.....A  353693
+2426     118373  ..................                                            118356
+
+Query_7  126     TTCTTACTTAAGAT  139
+12548    353692  ...AC.G.......  353679
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 107464078040
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  255     2e-66
+  VXAB01003627.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  44.6    0.007
+
+
+
+Query_8  1       ATAGAAACAGACAAAATCTTCACATCTGAGTTCTAGCATGATCATaaaaaaaTGCTATGA  60
+12548    349261  .................T......C..........T......A.....----..T...A.  349205
+                                     \                                       
+                                     |                                       
+                                     T
+
+Query_8  61      GAGGTCTACACAGACAAACAAAAGCCTCTTCAAAGTTGAATGTCTCTGAAATACACACCT  120
+12548    349204  ...T..............T....A..........T....C..C.................  349145
+
+Query_8  121     ACACCTACTGCAGGGAGTAGCAGGAATGCTTCAGGAGATAATTTAAAGTTCCACTATAGC  180
+12548    349144  .T........G..................C.......CA...........T......T..  349085
+3626     49037                     ..G......--....--....G.C.....C..A.........  49074
+
+Query_8  181     TAGACTGTAAGTTTCAATTCTATGTTACACAGCTTCATAAGAA  223
+12548    349084  ....T.T........CG...........TT.......C.G...  349042
+3626     49075   ........                                     49082
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 190499302890
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  138     4e-31
+
+
+
+Query_9  20      TCATATCTAAGTTCTATCATAATTAGTTAAAAAAGTTATGAGAGGTTTACACAGACATAT  79
+12548    349241  ...C.C..G...........G..A.T----...T.....A....T.C..........A..  349186
+
+Query_9  80      AAAAACACATTAAATTTGACACATCTCTGAAATACAAACCTACTATGGGAAGTAAGAGGA  139
+12548    349185  ......CTC...........TGC-............C........CT.......GC....  349120
+                            \                              \       \         
+                            |                              |       |         
+                            C                            TAC     GGG
+
+Query_9  140     ATGCTTCAGGAGCAAATTCAAAGTTTCCCTATGGTAAGACTGCAAGTTTCAGTTCTGTGT  199
+12548    349119  ....C.............T........A....T.CT...T.TT.......C.....A...  349060
+
+Query_9  200     TGCATAGCTTCAAAGAAA  217
+12548    349059  .A.T........C..G..  349042
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 184637785878
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  53.6    2e-05
+
+
+
+Query_10  1       AACCAAGTCTTTCTGCATGTAAAAGGAAAGATTTGGCTGGGAATATTCCAGATGGAGAAT  60
+12548     348150  ......AC......A...AC.....A.......CAC..T....G......A...T..---  348094
+
+Query_10  61      CATGGTGTCCATCTCACAGATAGTT  85
+12548     348093  -----...........T..C.....  348074
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 206130014922
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  165     3e-39
+
+
+
+Query_11  1       ACCAAACCTTTCTTCATATAAAAGGAAATATTCACCTTGCAAAATTCCAAATGCAGAGTT  60
+12548     348149  .............A....C.....A...G..........G..G..........T..T..-  348091
+
+Query_11  61      GTGGTATCCATCTCATAGATAGTTTACAGTAAAAATTTCCTTACTTTGGTTAAGATAGGA  120
+12548     348090  -------...........C.........C.TG............A..............G  348038
+
+Query_11  121     TAGTGTTGATGTAATATTCGCTCATGAAGTTGAGAGTGCTGGCTTTG  167
+12548     348037  .......T..T........CT.....T........-...........  347989
+                                                         \       
+                                                         |       
+                                                       ACA
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 164126955552
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  127     4e-28
+
+
+
+Query_12  1       TTACTATGAAGATCCAAAATGGCTGTCATAGGCTACGTACAGTGGGTAAAGTCCTTGGTT  60
+12548     347699  .....G.........................AT...A.G.....................  347640
+
+Query_12  61      GATGCTCCAACAAAGGGTCAGTACAACCTCTTCACAGCTGCAGCTCTTACGGTTTCAAAG  120
+12548     347639  .........G.............T.G....C.T.T..A.A..........A....G....  347569
+                          \                                                   
+                          |                                                   
+                  AGTAGTAACAT
+
+Query_12  121     C  121
+12548     347568  .  347568
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91832939416
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  75.2    3e-12
+
+
+
+Query_13  85      TTACTGTGAAGATCCAAAATGTTTGACATAGAAGATTACATAAATTGGGCTAAGTACTTG  144
+12548     347699  .....................GC..T...---.........GC.G....TA....C....  347643
+
+Query_13  145     GCTGATGATCCTTTAGTAATTAAGCAAAGG  174
+12548     347642  .T.....C...AG......CAT........  347613
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 141657193780
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 194406980898
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 115279647352
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  VXAB01012549.1 Odontophorus gujanensis isolate B10K-DU-001-53 s...  262     9e-69
+
+
+
+Query_16  1       CTATCACTGACGGAGACTGGAGCTGACAGATCACCTGGTTCACATCAATGGTGAAAGTAT  60
+12548     346632  ............................................................  346573
+
+Query_16  61      TTGAACTTGCCAGTGTAATTATCCTACACCACAACTTGGTCAGAGACCATGCCATGGTAA  120
+12548     346572  ............................................................  346513
+
+Query_16  121     ATTCATTGAAAAATGTCCCTGTGAA  145
+12548     346512  .........................  346488
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113325755024
+
+
+  Database: GCA_013399175.1_ASM1339917v1_genomic.fna
+    Posted date:  Nov 24, 2021  4:23 PM
+  Number of letters in database: 977,719,362
+  Number of sequences in database:  26,662
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

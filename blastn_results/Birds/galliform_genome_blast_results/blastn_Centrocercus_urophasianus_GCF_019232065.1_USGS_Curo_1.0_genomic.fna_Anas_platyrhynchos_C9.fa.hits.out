@@ -1,0 +1,269 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_019232065.1_USGS_Curo_1.0_genomic.fna
+           1,502 sequences; 1,010,657,860 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 58615716632
+
+
+Query= exon2
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 89944672878
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120263101938
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024884811.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  77.0    8e-13
+
+
+
+Query_4  1         GTCGATGCATAAAGCGACGGCTTGTGTGTAACGTGGATAACGACTGTGGAGATTTTTCTG  60
+670      14625232  ..T.......G...T.G.AAT...........AAA...G.T......T...........A  14625291
+
+Query_4  61        ATGAAGATAACTGTGAATCTGAACCACGATCACCATGCCGTAACCATGATATTGATGTGT  120
+670      14625292  ...-----......A...T..T.....AG.TG.......A...TG..C.C.....CAG.C  14625346
+
+Query_4  121       CTGAAGTTGGCAGGA  135
+670      14625347  AG.............  14625361
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120263101938
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 111167573220
+
+
+Query= exon6
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024884811.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  109     2e-22
+
+
+
+Query_6  12        CAAAACCTTCACATCTGAGTTCTATCGTGATCATCTAAAAATGATACGAGAGGTGTACAT  71
+670      14628845  .....T.....T..........C.G.A.......AA.......T..T.......C....C  14628904
+
+Query_6  72        GGACAAACAAAAAAGCTTCAACATTGGCCTGTCTCTGAAATATATGCCTACTTCAGAAAG  131
+670      14628905  A............CT......-.G.T.A................CAT.....G...GG..  14628970
+                                \                            \                 
+                                |                            |                 
+                                C                       CACACC
+
+Query_6  132       TAACAAAACTGCAGGAGGAAACTTGAAGTTTTACTATAGC  171
+670      14628971  ..G....G..T......CT..T..A......C........  14629013
+                       \                                   
+                       |                                   
+                     AGG
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 187973980800
+
+
+Query= exon7
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 213239300800
+
+
+Query= exon8
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101061430200
+
+
+Query= exon9
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 151592145300
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024884586.1 Centrocercus urophasianus isolate 14NV4802_14NV8...  44.6    0.008
+
+
+
+Query_10  23        TTCCAGTTAAGATAAGAAATTCATATTTAAAGAAACAAAA  62
+445       24019870  ......AA......T................A...A....  24019830
+                                      \                     
+                                      |                     
+                                      C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 201111947200
+
+
+Query= exon11
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121273716240
+
+
+  Database: GCF_019232065.1_USGS_Curo_1.0_genomic.fna
+    Posted date:  Nov 24, 2021  4:04 PM
+  Number of letters in database: 1,010,657,860
+  Number of sequences in database:  1,502
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

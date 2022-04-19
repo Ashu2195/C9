@@ -1,0 +1,280 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_002909625.1_Bthov1.0_genomic.fna
+           163,748 sequences; 1,032,295,167 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 59607192934
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01005251.1 Bambusicola thoracicus isolate RTK389 B.A.C_5250...  78.8    2e-13
+
+
+
+Query_2  1      CTCTTCAGAAAAAGCTTTCCACAGGGAGACAAGAGAACTGAATGCTCCATACCCTATAGA  60
+5250     25824  ....G......................TGA...T--......G...GT.GCT..A.C...  25881
+
+Query_2  61     CTGTAAACTGACCAGCTGGAGTGAGTGGGGGCCCTGTGACCCATGCA  107
+5250     25882  G..A..GA...G......C....CA....T..A..............  25928
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91451636275
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122278030525
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01102720.1 Bambusicola thoracicus isolate RTK389 B.A.C_1027...  93.3    1e-17
+
+
+
+Query_4  1     GTCGATGCATAAAGCGACGGCTTGTGTGTAACGTGGATAACGACTGTGGAGATTTTTCTG  60
+102719   1445  ..T...AT..G...T...A.T...........AAA...GGT......A...........A  1504
+
+Query_4  61    ATGAAGATAACTGTGAATCTGAACCACGATCACCATGCCGTAACCATGATATTGATGTGT  120
+102719   1505  .C....GC......A...T..T.....TG..........A...TG..C.C.....CAG.C  1564
+
+Query_4  121   CTGAAGTTGGCAGGACAGCAGGGCAAG  147
+102719   1565  AG.............----........  1587
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122278030525
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113030112250
+
+
+Query= exon6
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01061651.1 Bambusicola thoracicus isolate RTK389 B.A.C_6165...  113     2e-23
+
+
+
+Query_6  5     AAGCAGGCAAAACCTTCACATCTGAGTTCTATCGTGATCATCTAAAAATGATACGAGAGG  64
+61650    1931  ......A.....T..................G.A.......AA....G..C..T......  1872
+
+Query_6  65    TGTACATGGACAAACAAAAAAGCTTCAACATTGGCCTGTCTCTGAAATATATGCCTACTT  124
+61650    1871  .C....CA............CC.....-..G.T.AA...............CA......G  1806
+                                     \                          \          
+                                     |                          |          
+                                     T                     CACACC
+
+Query_6  125   CAGAAAGTAACAAAACTGCAGGAGGAAACTTGAAGTTTTACTATAGCAAGGGTAAAAATT  184
+61650    1805  ...GG....G...TG..T......AT..T..A......C....GC..T..AC.GT..G..  1743
+                          \                                                
+                          |                                                
+                        AGG
+
+Query_6  185   TAGGATCTATGTTG  198
+61650    1742  .CA.T....C....  1729
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 191093187222
+
+
+Query= exon7
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 216777755397
+
+
+Query= exon8
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 102754647500
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01061651.1 Bambusicola thoracicus isolate RTK389 B.A.C_6165...  60.8    8e-08
+
+
+
+Query_9  90   TTACTGCGAAGATCCAAAATGGTTGACGTAGAAGATTACATAGAGTGGGCTAAGTCCTTG  149
+61650    268  .....AT...............C..T.A....C---......C.....TTA.G.......  212
+
+Query_9  150  GTTGATGCACCA  161
+61650    211  ........T...  200
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 154131971250
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 204449162673
+
+
+Query= exon11
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123305577000
+
+
+  Database: GCA_002909625.1_Bthov1.0_genomic.fna
+    Posted date:  Nov 24, 2021  4:01 PM
+  Number of letters in database: 1,032,295,167
+  Number of sequences in database:  163,748
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

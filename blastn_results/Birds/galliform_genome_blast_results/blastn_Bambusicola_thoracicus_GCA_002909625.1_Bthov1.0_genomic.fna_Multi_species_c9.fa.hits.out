@@ -1,0 +1,462 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_002909625.1_Bthov1.0_genomic.fna
+           163,748 sequences; 1,032,295,167 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01000811.1 Bambusicola thoracicus isolate RTK389 B.A.C_810,...  42.8    0.008
+
+
+
+Query_1  40    CTTTGCAGTTTAGAGGTGGTTGCCTCACTTTTGAGAAA  77
+810      9998  ....T..T....T..........TA.T...........  9961
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 59607192934
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01005251.1 Bambusicola thoracicus isolate RTK389 B.A.C_5250...  165     1e-39
+
+
+
+Query_2  1      CTCTGCAGAAAAAGCTTTCCACGGGGATGAAAGTACTGAAGGCTGTAGCTTCAACAGAGT  60
+5250     25824  ......................A...........................C.........  25883
+
+Query_2  61     GAAGGATGAGCAGCTGGAGTGCATGGGCGCACTGTGACCTATGCACCTA  109
+5250     25884  ...A............C..........T...........C.....T...  25932
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82203718000
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01005251.1 Bambusicola thoracicus isolate RTK389 B.A.C_5250...  116     7e-25
+
+
+
+Query_3  1      CTCTTCAGAAAAAGCTTTTCTCAGGGGGATGAGAGTACCAAAGGCTGTATCTCCAACAGG  60
+5250     25824  ....G.............C.A.....--....A.....TG.........G..........  25882
+                                                                           \
+                                                                           |
+                                                                           A
+
+Query_3  61     AGAAAGGTGAGCAGCTGGAACGCATCGTTGCACTGTAACCCCTGCATCTAGAAG  114
+5250     25883  T.....A..........C.GT....G.G........G....A............  25936
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91451636275
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01005251.1 Bambusicola thoracicus isolate RTK389 B.A.C_5250...  89.7    9e-17
+
+
+
+Query_4  1      CTCTTCATAAAAAGCTTTCCACAGGTGGATGAAAGAACTGAATGCTCTGTCTCCACCAGA  60
+5250     25824  ....G..G................--.........T......G...G.AG.....A....  25881
+
+Query_4  61     CTGAAAACTGAGCTGATAGAGTGTGTGTGGGCACTGTGGCCCATGTACCTA  111
+5250     25882  G.....GA.....A.C.GC....CA..G.T........A......C.T...  25932
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91451636275
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01102720.1 Bambusicola thoracicus isolate RTK389 B.A.C_1027...  114     3e-24
+  PPHD01005251.1 Bambusicola thoracicus isolate RTK389 B.A.C_5250...  91.5    3e-17
+
+
+
+Query_5  1      ATTCATACTAGAAGTGTTGAAGGTTTCAGATAGTTTGGCAGAAAAACATGACTGGATTCT  60
+102719   169                                                           .....  173
+5250     26571  ..............................C.....A..................       26625
+
+Query_5  61     ATGATATATGTAGAGCTGAGAAATTGACCATGTCCGCCTCAAAGAACTGCAACCAGACTG  120
+102719   174    G.........G.......T......................C.....C.G..........  233
+
+Query_5  121    GCACTGACTTTCAGTGTAAATCTG  144
+102719   234    ..........---A..........  254
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118167844625
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01102720.1 Bambusicola thoracicus isolate RTK389 B.A.C_1027...  224     2e-57
+  PPHD01027681.1 Bambusicola thoracicus isolate RTK389 B.A.C_2768...  44.6    0.005
+
+
+
+Query_6  1     GTTAATGTGTGAAGTGACAATTTGTGTGTAACAAAGATGGTGACTGTAGAGATTTTTCTA  60
+102719   1445  ...G..A.A..........G........................................  1504
+
+Query_6  61    ATGAAGGCAAATGTAAATTTGTACCACAGTCACCATGCCATAATGATCACATTGATAGGC  120
+102719   1505  .C........C................T...........................C....  1564
+27680    3312                 .......T.............-.........                3283
+
+Query_6  121   AGGAAGTTGGCAGGAAGGGCAAGA  144
+102719   1565  ........................  1588
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118167844625
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113030112250
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01061651.1 Bambusicola thoracicus isolate RTK389 B.A.C_6165...  356     9e-97
+
+
+
+Query_8  1     ATAGAAACAGACAAAATCTTCACATCTGAGTTCTAGCATGATCATaaaaaaaTGCTATGA  60
+61650    1935  ......G............................................G........  1876
+
+Query_8  61    GAGGTCTACACAGACAAACAAAAGCCTCTTCAAAGTTGAATGTCTCTGAAATACACACCT  120
+61650    1875  .......................A........C...........................  1816
+
+Query_8  121   ACACCTACTGCAGGGAGTAGCAGGAATGCTTCAGGAGATAATTTAAAGTTCCACTATAGC  180
+61650    1815  ..................................................T.....GC..  1756
+
+Query_8  181   TAGACTGTAAGTTTCAATTCTATGTTACACAGCTTCATAAGAACA  225
+61650    1755  ................G.....C...G.....T............  1711
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 200339631765
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01061651.1 Bambusicola thoracicus isolate RTK389 B.A.C_6165...  154     6e-36
+
+
+
+Query_9  1     ATAAAAGGACATAAAACCCTCATATCTAAGTTCTATCATAATTAGTTAAAAAAGTTATGA  60
+61650    1935  ...G...C.G.C....T.T...C....G.......G...G..C.--..............  1876
+                                                                      \    
+                                                                      |    
+                                                                     GC
+
+Query_9  61    GAGGTTTACACAGACATATAAAAACACATTAAATTTGACACATCTCTGAAATACAAACCT  120
+61650    1875  .....C..........A.C......CTC..C..G....-.TG.............C....  1816
+                                               \                           
+                                               |                           
+                                               C
+
+Query_9  121   ACTATGGGAAGTAAGAGGAATGCTTCAGGAGCAAATTCAAAGTTTCCCTATGGTAAGACT  180
+61650    1815  ........G....GC................AT....T........A...GC.CT.....  1750
+                 \ \ \                                                     
+                 | | |                                                     
+               ACC C CA
+
+Query_9  181   GCAAGTTTCAGTTCTGTGTTGCATAGCTTCAAAGAA  216
+61650    1749  .T.............AC......C..T.........  1713
+                                              \    
+                                              |    
+                                              T
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 194175335403
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 216777755397
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01061651.1 Bambusicola thoracicus isolate RTK389 B.A.C_6165...  194     6e-48
+  PPHD01051268.1 Bambusicola thoracicus isolate RTK389 B.A.C_5126...  44.6    0.007
+
+
+
+Query_11  31    TTCACCTTGCAAAATTCCAAATGCAGAGTTGTGGTATCCATCTCATAGATAGTTTACAGT  90
+61650     705   ......................A....................................A  646
+51267     2176                                          ...........T......T.  2195
+
+Query_11  91    AAAAATTTCCTTACTTTGGTTAAGATAGGATAGTGTTGATGTAATATTCGCTCATGAAGT  150
+61650     645   GG...................................A..T........C..........  586
+51267     2196  .......G.T...G...                                             2212
+
+Query_11  151   TGAGAGTGCTGGCTTTGAAGGTCAGAATATGTGTACCTTCTGCATGA  197
+61650     585   .....                                            581
+61650     517        ..............................T..G........  476
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 172627807800
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01061651.1 Bambusicola thoracicus isolate RTK389 B.A.C_6165...  174     3e-42
+
+
+
+Query_12  1    TTACTATGAAGATCCAAAATGGCTGTCATAGGCTACGTACAGTGGGTAAAGTCCTTGGTT  60
+61650     268  ...............................A....A........T...G..........  209
+
+Query_12  61   GATGCTCCAACAAAGGGTCAGTACAACCTCTTCACAGCTGCAGCTCTTACGGTTTCAAAG  120
+61650     208  ........................................A.....------........  155
+
+Query_12  121  CCT  123
+61650     154  ...  152
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 96589368650
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  PPHD01061651.1 Bambusicola thoracicus isolate RTK389 B.A.C_6165...  50.0    1e-04
+  PPHD01000539.1 Bambusicola thoracicus isolate RTK389 B.A.C_538,...  46.4    0.002
+
+
+
+Query_13  47     TGATGGAGGAAATGTTGATTTTTCAGTTAAAATAAATGTTACTGTGAAGATCCAAAATGT  106
+61650     268                                          .....A...............G  247
+538       50629  .....C..A.................G.....C..                           50595
+
+Query_13  107    TTGACATAGAAGATTACATAAATTGGGCTAAGTACTTGGCTGATGATCC  155
+61650     246    C..T...---...C......C.G...TTA.G..C.....T.....C...  201
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 148994238875
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 204449162673
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121250484050
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119195391100
+
+
+  Database: GCA_002909625.1_Bthov1.0_genomic.fna
+    Posted date:  Nov 24, 2021  4:01 PM
+  Number of letters in database: 1,032,295,167
+  Number of sequences in database:  163,748
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

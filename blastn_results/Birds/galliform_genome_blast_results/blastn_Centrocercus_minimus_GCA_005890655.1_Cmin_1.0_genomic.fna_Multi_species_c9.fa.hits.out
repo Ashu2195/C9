@@ -1,0 +1,424 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_005890655.1_Cmin_1.0_genomic.fna
+           985 sequences; 1,000,043,310 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 58000912340
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SPOS01000251.1 Centrocercus minimus isolate UT7 scaffold251_siz...  86.0    1e-15
+
+
+
+Query_2  1       CTCTGCAGAAAAAGCTTTCCACGGGGATGAAAGTACTGAAGGCTGTAGCTTCAACAGAGT  60
+167      303028  ....T.............T.T.........G.....AAC........T..C......-.A  302968
+                                       \                                     
+                                       |                                     
+                                      AG
+
+Query_2  61      GAAGGATGAGCAGCTGGAGTGCATGGGCGCACTGTGACCTATGCACCTA  109
+167      302967  ...A.G............AC....C.TT.......A...CC....T...  302919
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81001274130
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SPOS01000251.1 Centrocercus minimus isolate UT7 scaffold251_siz...  205     2e-51
+
+
+
+Query_3  1       CTCTTCAGAAAAAGCTTTTCTCAGGGGGATGAGAGTACCAAAGGCTGTATCTCCAACAGG  60
+167      303028  ......................................A.C...................  302969
+
+Query_3  61      AGAAAGGTGAGCAGCTGGAACGCATCGTTGCACTGTAACCCCTGCATCTAGAAGAAGG  118
+167      302968  ..........................................................  302911
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 89001312305
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SPOS01000002.1 Centrocercus minimus isolate UT7 scaffold2_size1...  48.2    3e-04
+
+
+
+Query_4  10       AAAAGCTTTCCACAGGTGGATGAAAGAACTGAAT  43
+221      2751984  ......AG.T........................  2752017
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 89001312305
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SPOS01000251.1 Centrocercus minimus isolate UT7 scaffold251_siz...  84.2    5e-15
+
+
+
+Query_5  2       TTCATACTAGAAGTGTTGAAGGTTTCAGATAGTTTGGCAGAAAAACATGACTGGATTCTA  61
+167      302278  .......C.....................C................G.......        302225
+167      301584                                                        ......  301579
+
+Query_5  62      TGATATATGTAGAGCTGAGAAATTGACCATGTCCGCCTCAAAGAACTGCAACCAGACTGG  121
+167      301578  .................T..............T.AT....C.....CAG......-----  301521
+                      \                                                      
+                      |                                                      
+                    CGA
+
+Query_5  122     CACTGACTTTCAGTGTAAATCTG  144
+167      301520  -.........G.AC.........  301499
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 115001695675
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SPOS01000251.1 Centrocercus minimus isolate UT7 scaffold251_siz...  179     9e-44
+  SPOS01000034.1 Centrocercus minimus isolate UT7 scaffold34_size...  44.6    0.004
+  SPOS01000129.1 Centrocercus minimus isolate UT7 scaffold129_siz...  44.6    0.004
+
+
+
+Query_6  1        GTTAATGTGTGAAGTGACAATTTGTGTGTAACAAAGATGGTGACTGTAGAGATTTTTCTA  60
+167      300203   ...G...CA.......G......................A.......T........-...  300145
+31       1422692                                                       .......  1422686
+
+Query_6  61       ATGAAGGCAAATGTAAATTTGTACCACAGTCACCATGCCATAATGATCACATTGATAGGC  120
+167      300144   .....C-----...................TG.......................C....  300090
+276      1517368                 .......T.............-.........                1517397
+31       1422685  ............C.......                                          1422666
+
+Query_6  121      AGGAAGTTGGCAGGAAGGGCAAGA  144
+167      300089   ...................G....  300066
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 115001695675
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SPOS01000017.1 Centrocercus minimus isolate UT7 scaffold17_size...  44.6    0.004
+
+
+
+Query_7  55       CAATGGTCTTTGTGAAAGTGTGTGTGATG  83
+87       2902362  ..T..T.......................  2902390
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 110001621950
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SPOS01000251.1 Centrocercus minimus isolate UT7 scaffold251_siz...  325     2e-87
+
+
+
+Query_8  1       ATAGAAACAGACAAAATCTTCACATCTGAGTTCTAGCATGATCATaaaaaaaTGCTATGA  60
+167      296615  .........A.......................C....................T.....  296556
+
+Query_8  61      GAGGTCTACACAGACAAACAAAAGCCTCTTCAAAGTTGAATGTCTCTGAAATACACACCT  120
+167      296555  .......................A...............C....................  296496
+
+Query_8  121     ACACCTACTGCAGGGAGTAGCAGGAATGCTTCAGGAGATAATTTAAAGTTCCACTATAGC  180
+167      296495  ...T......................A..........C............T.........  296436
+
+Query_8  181     TAGACTGTAAGTTTCAATTCTATGTTACACAGCTTCATAAGAACA  225
+167      296435  .G.......T...C.TG............T.....TGC.......  296391
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195002683200
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SPOS01000251.1 Centrocercus minimus isolate UT7 scaffold251_siz...  141     4e-32
+
+
+
+Query_9  13      AAAACCCTCATATCTAAGTTCTATCATAATTAGTTAAAAAAGTTATGAGAGGTTTACACA  72
+167      296603  ....T.T...C....G.....C.G...G..C.TAA.....T............C......  296544
+
+Query_9  73      GACATATAAAAACACATTAAATTTGACACATCTCTGAAATACAAACCTACTATGGGAAGT  132
+167      296543  ....A.C......CTC.....G.....TG-.............C............G...  296478
+                                   \                               \ \ \     
+                                   |                               | | |     
+                                   C                             ATC C CA
+
+Query_9  133     AAGAGGAATGCTTCAGGAGCAAATTCAAAGTTTCCCTATGGTAAGACTGCAAGTTTCAGT  192
+167      296477  .GC.....A...........T....T........A....A.CTG.....T.T...C.T..  296418
+
+Query_9  193     TCTGTGTTGCATAGCTT  209
+167      296417  ...A....A........  296401
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 189002600640
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 211002903360
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168002477160
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94001386030
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SPOS01000107.1 Centrocercus minimus isolate UT7 scaffold107_siz...  46.4    0.002
+
+
+
+Query_13  47       TGATGGAGGAAATGTTGATTTTTCAGTTAAAATAA  81
+7         3046917  .....C..A.................G.....C..  3046951
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 145002138025
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 199002738240
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118001739910
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116001710420
+
+
+  Database: GCA_005890655.1_Cmin_1.0_genomic.fna
+    Posted date:  Nov 24, 2021  4:04 PM
+  Number of letters in database: 1,000,043,310
+  Number of sequences in database:  985
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

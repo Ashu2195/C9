@@ -1,0 +1,259 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Meleagris_gallopavo.Turkey_2.01.dna_sm.toplevel.fa
+           5,891 sequences; 1,061,817,103 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 61575824990
+
+
+Query= exon2
+
+Length=118
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94486517496
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126335905416
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  10 dna_sm:chromosome chromosome:Turkey_2.01:10:1:31125776:1 REF     44.6    0.005
+
+
+
+Query_4  27        TGTAACGTAGATAATGACTGTGGAGACTTTTCTGATGAAGATAACTG  73
+9        26732739  .....T.G....G..............CAG..A......A.A.....  26732693
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126335905416
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116781089040
+
+
+Query= exon6
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:chromosome chromosome:Turkey_2.01:Z:1:81011772:1 REF       64.4    8e-09
+
+
+
+Query_6  1         ACAAAAGCAGACAAAACCTTCACAGCTGAGTACTATCATGATCGTGCAGAAATGATCCTA  60
+31       13057183  ...G..A.........T.......T.....AT...G...A...A.AA.-..T..T.ATG.  13057125
+
+Query_6  61        GAGGTTTACATAGAAAAAGAAAGAAAATTTAAGGCTGATCTGTCTGTGAAATACACACCT  120
+31       13057124  .....C....C...C...C...A.CCTC..C.AA..TGA......C..............  13057065
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 200650030497
+
+
+Query= exon7
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 224006118703
+
+
+Query= exon8
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3 dna_sm:chromosome chromosome:Turkey_2.01:3:1:100405168:1 REF      44.6    0.004
+
+
+
+Query_8  20        aaaaaaaTGTCTTGGCTATCATTT  43
+2        40675357  ........................  40675334
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 106164626400
+
+
+Query= exon9
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 159246939600
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3 dna_sm:chromosome chromosome:Turkey_2.01:3:1:100405168:1 REF      44.6    0.008
+
+
+
+Query_10  52        AAGAAACAAAATTTGGAAAGAGCAATTGAG  81
+2         34360467  ......................A.......  34360437
+                                      \           
+                                      |           
+                                      G
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 211266434227
+
+
+Query= exon11
+
+Length=161
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 140137306848
+
+
+  Database: Meleagris_gallopavo.Turkey_2.01.dna_sm.toplevel.fa
+    Posted date:  Nov 24, 2021  4:20 PM
+  Number of letters in database: 1,061,817,103
+  Number of sequences in database:  5,891
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

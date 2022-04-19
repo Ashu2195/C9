@@ -1,0 +1,395 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004320205.1_Lagopus_muta_japonica_ver1.0_genomic.fna
+           62,806 sequences; 1,002,559,668 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BJCA01003305.1 Lagopus muta japonica DNA, Lamu_3305, cell line:...  42.8    0.008
+
+
+
+Query_1  40      CTTTGCAGTTTAGAGGTGGTTGCCTCACTTTTGAGAAA  77
+3304     191517  ....C..T....T..........TA.T...........  191554
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 58046463800
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BJCA01023309.1 Lagopus muta japonica DNA, Lamu_23309, cell line...  95.1    2e-18
+
+
+
+Query_2  1      CTCTGCAGAAAAAGCTTTCCACGGGGATGAAAGTACTGAAGGCTGTAGCTTCAACAGAGT  60
+23308    28401  ....T.............T.T.A.......G.....A..........T..C......-.A  28461
+                                          \                                 
+                                          |                                 
+                                         GA
+
+Query_2  61     GAAGGATGAGCAGCTGGAGTGCATGGGCGCACTGTGACCTATGCACCTA  109
+23308    28462  ...A..............AC....C.TT.......A...CC....T...  28510
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81064889100
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BJCA01023309.1 Lagopus muta japonica DNA, Lamu_23309, cell line...  196     9e-49
+
+
+
+Query_3  1      CTCTTCAGAAAAAGCTTTTCTCAGGGGGATGAGAGTACCAAAGGCTGTATCTCCAACAGG  60
+23308    28401  ...........................A..........AG....................  28460
+
+Query_3  61     AGAAAGGTGAGCAGCTGGAACGCATCGTTGCACTGTAACCCCTGCATCTAGAAGAAGG  118
+23308    28461  ......A...................................................  28518
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 89065708166
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BJCA01004267.1 Lagopus muta japonica DNA, Lamu_4267, cell line:...  48.2    3e-04
+
+
+
+Query_4  10     AAAAGCTTTCCACAGGTGGATGAAAGAACTGAAT  43
+4266     86988  ......CG.T........................  86955
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 89065708166
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BJCA01023309.1 Lagopus muta japonica DNA, Lamu_23309, cell line...  84.2    5e-15
+
+
+
+Query_5  2      TTCATACTAGAAGTGTTGAAGGTTTCAGATAGTTTGGCAGAAAAACATGACTGGATTCTA  61
+23308    29154  .......C.....................C................G.......        29207
+23308    29836                                                        ......  29841
+
+Query_5  62     TGATATATGTAGAGCTGAGAAATTGACCATGTCCGCCTCAAAGAACTGCAACCAGACTGG  121
+23308    29842  .................T............A.T.AT....C.....CAG......-----  29899
+                     \                                                      
+                     |                                                      
+                   CGA
+
+Query_5  122    CACTGACTTTCAGTGTAAATCTG  144
+23308    29900  -...........AC.........  29921
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 115084903810
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BJCA01023309.1 Lagopus muta japonica DNA, Lamu_23309, cell line...  192     1e-47
+  BJCA01011186.1 Lagopus muta japonica DNA, Lamu_11186, cell line...  44.6    0.004
+
+
+
+Query_6  1      GTTAATGTGTGAAGTGACAATTTGTGTGTAACAAAGATGGTGACTGTAGAGATTTTTCTA  60
+23308    31220  ...G...CA..............................A.......T............  31279
+
+Query_6  61     ATGAAGGCAAATGTAAATTTGTACCACAGTCACCATGCCATAATGATCACATTGATAGGC  120
+23308    31280  .....C-----...................TG.......................C....  31334
+11185    7017                  .......T.............-.........                6988
+
+Query_6  121    AGGAAGTTGGCAGGAAGGGCAAGA  144
+23308    31335  ...................G....  31358
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 115084903810
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BJCA01007484.1 Lagopus muta japonica DNA, Lamu_7484, cell line:...  44.6    0.004
+
+
+
+Query_7  55      CAATGGTCTTTGTGAAAGTGTGTGTGATG  83
+7483     181651  ..T..T.......................  181679
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 110081212340
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195131720160
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 189127667232
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 211142527968
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168124033392
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94069399636
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  BJCA01000573.1 Lagopus muta japonica DNA, Lamu_573, cell line: ...  46.4    0.002
+
+
+
+Query_13  47     TGATGGAGGAAATGTTGATTTTTCAGTTAAAATAA  81
+572       66155  .....C..A.................G.....C..  66189
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 145107052630
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 199134422112
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118087118692
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116085642104
+
+
+  Database: GCA_004320205.1_Lagopus_muta_japonica_ver1.0_genomic.fna
+    Posted date:  Nov 24, 2021  4:17 PM
+  Number of letters in database: 1,002,559,668
+  Number of sequences in database:  62,806
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

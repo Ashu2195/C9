@@ -1,0 +1,260 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_019238085.1_USGS_WTPT01_genomic.fna
+           7,343 sequences; 1,016,020,572 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 58917268144
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024962268.1 Lagopus leucura isolate 7727_CA_CO unplaced geno...  55.4    2e-06
+
+
+
+Query_2  1         CTCTTCCGAGAAAGCTTTCCAGAGGGGGACAAGAGAACTGAATGCTCCATCCCCGATAGA  60
+18       14689642  ......A..A........T.TC.......TG....T..AA..G...GT...T..A.C..G  14689701
+
+Query_2  61        TTGTAAGCTGAGCAGCTGGAGTGAATGGGGGCCCTGTGACCCATGCA  107
+18       14689702  A-.A...A............AC.C..C.TT..A....A....C....  14689747
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 90406878625
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120881107375
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024962268.1 Lagopus leucura isolate 7727_CA_CO unplaced geno...  59.0    2e-07
+  NW_024962266.1 Lagopus leucura isolate 7727_CA_CO unplaced geno...  44.6    0.005
+
+
+
+Query_4  1         GTCGATGTATAAAGCAACGTCTTGTGTGTAACGTAGATAATGACTGTGGAGACTTTTCTG  60
+18       14692460  ..T....C..G...TG..AAT...........AA....G........T....T......A  14692519
+16       25128422                            .....T.G....G..............CAG..A.  25128389
+
+Query_4  61        ATGAAGATAACTGTGAGTCAGACCCACGATCACCATGCCGTTATCATGATATTGATGTGT  120
+18       14692520  ...-----......A.A.TT.TA....AG.TG.......A.A..G..C.C.....CAG.C  14692574
+16       25128388  .....A.A.....                                                 25128376
+
+Query_4  121       CAGAAATTGGCAGGA  135
+18       14692575  AG...G.........  14692589
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120881107375
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 111738838750
+
+
+Query= exon6
+
+Length=219
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 191986253298
+
+
+Query= exon7
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 214333859502
+
+
+Query= exon8
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_024962263.1 Lagopus leucura isolate 7727_CA_CO unplaced geno...  44.6    0.004
+
+
+
+Query_8  20        aaaaaaaTGTCTTGGCTATCATTT  43
+13       34703617  ........................  34703640
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101580762500
+
+
+Query= exon9
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 152371143750
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 202144256118
+
+
+Query= exon11
+
+Length=161
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 134086606500
+
+
+  Database: GCF_019238085.1_USGS_WTPT01_genomic.fna
+    Posted date:  Nov 24, 2021  4:17 PM
+  Number of letters in database: 1,016,020,572
+  Number of sequences in database:  7,343
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

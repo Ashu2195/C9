@@ -1,0 +1,290 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_016647715.1_ASM1664771v1_genomic.fna
+           2,446 sequences; 1,061,110,005 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 61540407986
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JACDJE010000321.1 Pavo muticus isolate YNLC101 scaffold40, whol...  75.2    2e-12
+
+
+
+Query_2  1        CTCTTCAGAAAAAGCTTTCCACAGGGAGACAAGAGAACTGAATGCTCCATACCCTATAGA  60
+1781     1893765  ..........................GT.TG....T..C...G...GT..CT...G....  1893704
+                                                                        \     
+                                                                        |     
+                                                                       AG
+
+Query_2  61       CTGTAAACTGACCAGCTGGAGTGAGTGGGGGCCCTGTGACCCATGCACC  109
+1781     1893703  ---A..GAA..G..A........CA....T..A................  1893658
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94432477319
+
+
+Query= exon3
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126263649449
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JACDJE010000321.1 Pavo muticus isolate YNLC101 scaffold40, whol...  91.5    4e-17
+
+
+
+Query_4  1        GTCGATGCATAAAGCGACGGCTTGTGTGTAACGTGGATAACGACTGTGGAGATTTTTCTG  60
+1781     1880884  ..T.......G...T...AAT...........AAA...GGT......A...........A  1880825
+
+Query_4  61       ATGAAGATAACTGTGAATCTGAACCACGATCACCATGCCGTAACCATGATATTGATGTGT  120
+1781     1880824  ......GC...C..A...T..T.....AG..........A...TG..C.C.....CAG.C  1880765
+
+Query_4  121      CTGAAGTTGGCAGGA  135
+1781     1880764  AG....C........  1880750
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126263649449
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116714297810
+
+
+Query= exon6
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JACDJE010000321.1 Pavo muticus isolate YNLC101 scaffold40, whol...  91.5    6e-17
+
+
+
+Query_6  5        AAGCAGGCAAAACCTTCACATCTGAGTTCTATCGTGATCATCTAAAAATGATACGAGAGG  64
+1781     1887264  ..A...A.....T...T.........C....G.A.......AA.......T..T......  1887205
+
+Query_6  65       TGTACATGGACAAACAAAAAAGCTTCAACATTGGCCTGTCTCTGAAATATATGCCTACTT  124
+1781     1887204  .C...GCA............CTA.....-.G.T.A.........C....A.CA......G  1887139
+                                      \                            \          
+                                      |                            |          
+                                      C                       CACACC
+
+Query_6  125      CAGAAAGTAACAAAACTGCAGGAGGAAACTTGAAGTTTTACTATAGCAAG  174
+1781     1887138  ...GG....G...CG..T......AT..T..A...C..C........T..  1887086
+                             \                                      
+                             |                                      
+                           ACG
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197352812250
+
+
+Query= exon7
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JACDJE010000321.1 Pavo muticus isolate YNLC101 scaffold40, whol...  104     1e-20
+
+
+
+Query_7  1        AACCAAACCTTTCTACATGTAAAAGGAAAGATTCAGCTGGGAAGATTCCAAATGCGGAGT  60
+1781     1886009  ..............G...A................C..T................--...  1885952
+
+Query_7  61       CGTGATATCCGTCTCACAGATACTTT  86
+1781     1885951  T...G.....A.....T.....G...  1885926
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 223878727875
+
+
+Query= exon8
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 106103907100
+
+
+Query= exon9
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JACDJE010000135.1 Pavo muticus isolate YNLC101 scaffold177, who...  44.6    0.006
+
+
+
+Query_9  43      TAGTTGATGGAGGGAAGGTTGATTTTTCAGTT  74
+856      900493  ..T.......G...........G.........  900524
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 159155860650
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JACDJE010000096.1 Pavo muticus isolate YNLC101 scaffold90, whol...  46.4    0.002
+
+
+
+Query_10  29       TTAAGATAAGAAATTCATATTTAAAGAAACAAAAT  63
+2336      1423474  .......C.A...........C.......A.....  1423440
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 211146288375
+
+
+Query= exon11
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 127324688520
+
+
+  Database: GCA_016647715.1_ASM1664771v1_genomic.fna
+    Posted date:  Nov 24, 2021  4:25 PM
+  Number of letters in database: 1,061,110,005
+  Number of sequences in database:  2,446
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

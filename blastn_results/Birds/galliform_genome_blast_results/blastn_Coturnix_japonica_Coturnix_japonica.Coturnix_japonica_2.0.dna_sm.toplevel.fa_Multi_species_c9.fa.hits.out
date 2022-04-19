@@ -1,0 +1,414 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Coturnix_japonica.Coturnix_japonica_2.0.dna_sm.toplevel.fa
+           2,012 sequences; 927,656,957 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  42.8    0.007
+
+
+
+Query_1  21        CCTGCAGTTAATACTCATGCTTTGCAGTTTAGAGGT  56
+31       14958882  ......C..GG...........A.......T.....  14958917
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 53800836018
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  66.2    9e-10
+
+
+
+Query_2  1         CTCTGCAGAAAAAGCTTTCCACGGGGATGAAAGTACTGAAGGCTGTAG  48
+31       11295254  ....T.......................A.G.................  11295205
+                                         \                         
+                                         |                         
+                                        GG
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 75135650301
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  62.6    1e-08
+
+
+
+Query_3  1         CTCTTCAGAAAAAGCTTTTCTCAGGGGGATGAGAGTACCAAAGGCTGTA  49
+31       11295254  ..................C.A.G.......A.......TG.........  11295206
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82556276201
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  51.8    2e-05
+
+
+
+Query_4  1         CTCTTCATAAAAAGCTTTCCACAGGTGGATGAAAGAACTGAATGCT  46
+31       11295254  .......G..............G..G....A.G..T......G...  11295209
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82556276201
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 106673840035
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  158     3e-37
+
+
+
+Query_6  10        TGAAGTGACAATTTGTGTGTAACAAAGATGGTGACTGTAGAGATTTTTCTAATGAAGGCA  69
+31       11293291  ..........G.....A.....T.......A...........G.................  11293228
+                                              \   \                            
+                                              |   |                            
+                                            TCA   A
+
+Query_6  70        AATGTAAATTTGTACCACAGTCACCATGCCATAATGATCACATTGATAGGCAGGAAGTTG  129
+31       11293227  .C.........C..................---........TC...C...........G.  11293171
+
+Query_6  130       GCAGGAAGGGCAAGA  144
+31       11293170  .......A.......  11293156
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 106673840035
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 102035846990
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  185     3e-45
+
+
+
+Query_8  1         ATAGAAACAGACAAAATCTTCACATCTGAGTTCTAGCATGATCATaaaaaaaTGCTATGA  60
+31       11290059  ......G..................T.A..............T.C....T..-.T.....  11290001
+
+Query_8  61        GAGGTCTACACAGACAAACAAAAGCCTCTTCAAAGTTGAATGTCTCTGAAATACACACCT  120
+31       11290000  ........A..............---------------------------------....  11289974
+
+Query_8  121       ACACCTACTGCAGGGAGTAGCAGGAATGCTTCAGGAGATAATTTAAAGTTCCACTATAGC  180
+31       11289973  ..........G.....C..........A....C....C............T.......A.  11289914
+
+Query_8  181       TAGACTGTAAGTTTCAATTCTATGTTACACAGCTTCATAAGAACA  225
+31       11289913  ..T.............G....G.......T........G......  11289869
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 180881336415
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  100     1e-19
+  3 dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  44.6    0.007
+
+
+
+Query_9  1         ATAAAAGGACATAAAACCCTCATATCTAAGTTCTATCATAATTAGTTAAAAAAGTTATGA  60
+31       11290059  ...G...C.G.C....T.T...C..T.........G...G....CA-...T.........  11290001
+
+Query_9  61        GAGGTTTACACAGACATATAAAAACACATTAAATTTGACACATCTCTGAAATACAAACCT  120
+31       11290000  .....C..A.......A.C......C-------------------------....--...  11289968
+2        60900330                                 ....................A......    60900356
+
+Query_9  121       ACTATGGGAAGTAAGAGGAATGCTTCAGGAGCAAATTCAAAGTTTCCCTATGGTAAGACT  180
+31       11289967  ...GGA..G.C..GC......A....C.....T....T........A....AACT.T...  11289908
+
+Query_9  181       GCAAGTTTCAGTTCTGTGTTGCATAGCTTCA  211
+31       11289907  .T..................A..........  11289877
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 176243735710
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195722881967
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  163     9e-39
+
+
+
+Query_11  1         ACCAAACCTTTCTTCATATAAAAGGAAATATTCACCTTGCAAAATTCCAAATGCAGAGTT  60
+31        11288851  .......A...T.GT.........-.................G...........GA....  11288793
+
+Query_11  61        GTGGTATCCATCTCATAGATAGTTTACAGTAAAAATTTCCTTACTTTGGTTAAGATAGGA  120
+31        11288792  .......T..G.......----........GG...............CA...........  11288737
+
+Query_11  121       TAGTGTTGATGTAATATTCGCTCATGAAGTTGAGA  155
+31        11288736  .......A..T........A..T.CAC........  11288702
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 155836566312
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Z dna_sm:primary_assembly primary_assembly:Coturnix_japonica_2....  93.3    7e-18
+
+
+
+Query_12  1         TTACTATGAAGATCCAAAATGGCTGTCATAGGCTACGTACAGTGGGTAAAGTCCTTGGTT  60
+31        11288379  .....G....-....................A....A--------.G.---.G.......  11288332
+
+Query_12  61        GATGCTCCAACAAAGGGTCAGTACAACCTCTTCACAGCTGCAGCTCTT  108
+31        11288331  ...............T.........GTA.................G..  11288284
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 87194269246
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 134501798305
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 184591722803
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 109456635862
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 107601438644
+
+
+  Database: Coturnix_japonica.Coturnix_japonica_2.0.dna_sm.toplevel.fa
+    Posted date:  Nov 24, 2021  4:08 PM
+  Number of letters in database: 927,656,957
+  Number of sequences in database:  2,012
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,462 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_019345075.1_ASM1934507v1_genomic.fna
+           10,598 sequences; 1,027,480,606 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 59576663996
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JADBKV010000010.1 Alectoris rufa isolate MAOLO_4 scaffold10, wh...  131     3e-29
+
+
+
+Query_2  6        CAGAAAAAGCTTTCCACGGGGATGAAAGTACTGAAGGCTGTAGCTTCAACAGAGTGAAGG  65
+9        3307787  .................A.......G................T..C..G.........A.  3307726
+                                       \                                      
+                                       |                                      
+                                      GA
+
+Query_2  66       ATGAGCAGCTGGAGTGCATGGGCGCACTGTGACCTATGCACCTA  109
+9        3307725  ......................T...T......TC...A.....  3307682
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82173861120
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JADBKV010000010.1 Alectoris rufa isolate MAOLO_4 scaffold10, wh...  116     7e-25
+
+
+
+Query_3  1        CTCTTCAGAAAAAGCTTTTCTCAGGGGGATGAGAGTACCAAAGGCTGTATCTCCAACAGG  60
+9        3307792  ..T...............C.A......A..........TG...............G....  3307732
+                                                                             \
+                                                                             |
+                                                                             A
+
+Query_3  61       AGAAAGGTGAGCAGCTGGAACGCATCGTTGCACTGTAACCCCTGCATCTAGAAGAAGG  118
+9        3307731  T.....A............GT....G.G....T...G..T.A..A.C......A....  3307674
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91418420496
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JADBKV010000010.1 Alectoris rufa isolate MAOLO_4 scaffold10, wh...  93.3    8e-18
+
+
+
+Query_4  1        CTCTTCATAAAAAGCTTTCCACAGGTGGATGAAAGAACTGAATGCTCTGTCTCCACCAGA  60
+9        3307792  ..T....G.................G.A....G..T......G...G.A......G....  3307733
+
+Query_4  61       CTGAAAACTGAGCTGATAGAGTGTGTGTGGGCACTGTGGCCCATGTACCTA  111
+9        3307732  G.....GA.....A.C.G.....CA..G.T...T....A.T....A.....  3307682
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91418420496
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JADBKV010000010.1 Alectoris rufa isolate MAOLO_4 scaffold10, wh...  93.3    1e-17
+
+
+
+Query_5  2        TTCATACTAGAAGTGTTGAAGGTTTCAGATAGTTTGGCAGAAAAACATGACTGGATTCTA  61
+9        3307063  .............CAC.............C........................        3307010
+9        3305575                                                        ......  3305570
+
+Query_5  62       TGATATATGTAGAGCTGAGAAATTGACCATGTCCGCCTCAAAGAACTGCAACCAGACTGG  121
+9        3305569  ................AT...............T.T....C..------.......A...  3305513
+                        \                                                     
+                        |                                                     
+                      GAT
+
+Query_5  122      CACTGACTTTCAGTGTAAATCTG  144
+9        3305512  ............A..........  3305490
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118124925360
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JADBKV010000010.1 Alectoris rufa isolate MAOLO_4 scaffold10, wh...  203     8e-51
+
+
+
+Query_6  10       TGAAGTGACAATTTGTGTGTAACAAAGATGGTGACTGTAGAGATTTTTCTAATGAAGGCA  69
+9        3304141  ..........G................TCAA.............................  3304082
+
+Query_6  70       AATGTAAATTTGTACCACAGTCACCATGCCATAATGATCACATTGATAGGCAGGAAGTTG  129
+9        3304081  .C.........................................C..C.....A.......  3304022
+
+Query_6  130      GCAGGAAGGGCAAGA  144
+9        3304021  ...............  3304007
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118124925360
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JADBKV010000021.1 Alectoris rufa isolate MAOLO_4 scaffold21, wh...  44.6    0.004
+
+
+
+Query_7  55       CAATGGTCTTTGTGAAAGTGTGTGTGATG  83
+20       7530642  ..T..T.......................  7530614
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 112989059040
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JADBKV010000010.1 Alectoris rufa isolate MAOLO_4 scaffold10, wh...  300     6e-80
+
+
+
+Query_8  9        AGACAAAATCTTCACATCTGAGTTCTAGCATGATCATaaaaaaaTGCTATGAGAGGTCTA  68
+9        3300532  ....................................C.........T.............  3300470
+                                                        \                     
+                                                        |                     
+                                                      CAA
+
+Query_8  69       CACAGACAAACAAAAGCCTCTTCAAAGTTGAATGTCTCTGAAATACACACCTACACCTAC  128
+9        3300469  ...............A..............TC.............T..............  3300410
+
+Query_8  129      TGCAGGGAGTAGCAGGAATGCTTCAGGAGATAATTTAAAGTTCCACTATAGCTAGACTGT  188
+9        3300409  ...................A.........C.......CT...T.....C...........  3300350
+
+Query_8  189      AAGTTTCAATTCTATGTTACACAGCTTCATAAGAACA  225
+9        3300349  ......A.G....G.......T.A.....C.......  3300313
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 200296719870
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JADBKV010000010.1 Alectoris rufa isolate MAOLO_4 scaffold10, wh...  138     4e-31
+
+
+
+Query_9  13       AAAACCCTCATATCTAAGTTCTATCATAATTAGTTAAAAAAGTTATGAGAGGTTTACACA  72
+9        3300528  ....T.T...C....G.......G...G..C.CAC..................C......  3300466
+                                                           \                  
+                                                           |                  
+                                                         AAT
+
+Query_9  73       GACATATAAAAACACATTAAATTTGACACATCTCTGAAATACAAACCTACTATGGGAAGT  132
+9        3300465  ....A.C......CTC.....G...T.TG-...........T.C............G...  3300400
+                                    \                               \ \ \     
+                                    |                               | | |     
+                                    C                             ACC C CA
+
+Query_9  133      AAGAGGAATGCTTCAGGAGCAAATTCAAAGTTTCCCTATGGTAAGACTGCAAGTTTCAGT  192
+9        3300399  .GC......A..........T....T.CT.....A...CA.CT......T......A...  3300340
+
+Query_9  193      TCTGTGTTGCATAGCTTCAAAGAA  216
+9        3300339  ........A....A..........  3300315
+                                     \    
+                                     |    
+                                     C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 194133743874
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JADBKV010000010.1 Alectoris rufa isolate MAOLO_4 scaffold10, wh...  57.2    1e-06
+
+
+
+Query_10  10       TTTCTGCATGTAAAAGGAAAGATTTGGCTGGGAATATTCCAGATGGAGAATCATGGTGTC  69
+9         3299284  .........A...........C..CAC..T.C..G......A...TG..G.TG....A..  3299225
+
+Query_10  70       CATCTCACAGATAGTT  85
+9         3299224  .TA....T........  3299209
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 216731322526
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JADBKV010000010.1 Alectoris rufa isolate MAOLO_4 scaffold10, wh...  199     1e-49
+
+
+
+Query_11  1        ACCAAACCTTTCTTCATATAAAAGGAAATATTCACCTTGCAAAATTCCAAATGCAGAGTT  60
+9         3299292  ....G..A.....G..............GC............G..........TG.....  3299233
+
+Query_11  61       GTGGTATCCATCTCATAGATAGTTTACAGTAAAAATTTCCTTACTTTGGTTAAGATAGGA  120
+9         3299232  .........TA...................GG...............CA...........  3299173
+
+Query_11  121      TAGTGTTGATGTAATATTCGCTCATGAAGTTGAGAGTGCTGGCTTTGAAGGTCAGAATAT  180
+9         3299172  .......A..T........C......C........                           3299138
+9         3299074                                     .......T.................  3299050
+
+Query_11  181      GTGTACCTTCTGCATGA  197
+9         3299049  A.......G..A.....  3299033
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 172565108352
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  JADBKV010000010.1 Alectoris rufa isolate MAOLO_4 scaffold10, wh...  105     1e-21
+  JADBKV010000002.1 Alectoris rufa isolate MAOLO_4 scaffold2, who...  46.4    0.001
+
+
+
+Query_12  1         TTACTATGAAGATCCAAAATGGCTGTCATAGGCTACGTACAGTGGGTAAAGTCCTTGGTT  60
+9         3298812   .....G........AG...............A....A.GAT.-----------.......  3298764
+
+Query_12  61        GATGCTCCAACAAAGGGTCAGTACAACCTCTTCACAGCTGCAGCTCTTACGGTTTCAAAG  120
+9         3298763   .........G...............GT............T.G........A.A.......  3298704
+1         37746908                      ....G....-...T.....................       37746941
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 96554286816
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 148940123280
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 204405370534
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121206445152
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119152098624
+
+
+  Database: GCA_019345075.1_ASM1934507v1_genomic.fna
+    Posted date:  Nov 24, 2021  3:57 PM
+  Number of letters in database: 1,027,480,606
+  Number of sequences in database:  10,598
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

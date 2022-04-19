@@ -1,0 +1,278 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Chrysolophus_pictus.Chrysolophus_pictus_GenomeV1.0.dna_sm.toplevel.f
+a
+           14,294 sequences; 1,023,990,748 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 59368249928
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ861075.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  46.4    0.001
+
+
+
+Query_2  1        CTCTTCAGAAAAAGCTTTCCACAGGGAGACAAGAGAACTGAATGCTCCATACCCTATAGA  60
+33       1465840  ..............T...T.TT....G..TG....T......G..GGT..CT..A.C...  1465781
+
+Query_2  61       CTGTAAACTGACCAGCTGGA  80
+33       1465780  GA.A..GA...G........  1465761
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91098283758
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ861075.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  57.2    7e-07
+
+
+
+Query_3  74       AGAACTGTGAAAGTGACCAAGTCTGTCCTGAAGAAATAGAACCAGACTGTGGTGCTGACT  133
+33       1464356  ...G........T......T...CA..TCAC.A..CC..........--....A......  1464299
+
+Query_3  134      TTCAATGCAATTCTG  148
+33       1464298  .......T..A....  1464284
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121805570418
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ861075.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  69.8    1e-10
+
+
+
+Query_4  1        GTCGATGCATAAAGCGACGGCTTGTGTGTAACGTGGATAACGACTGTGGAGATTTTTCTG  60
+33       1462929  ..T.......G...T.C.AAT...........AAA...G.T....A.T...........A  1462870
+
+Query_4  61       ATGAAGATAACTGTGAATCTGAACCACGATCACCATGCCGTAACCATGATATTGATGTGT  120
+33       1462869  ...-----......A...T..T.....AG.TG.....T.A...TG..C.C.....CAG.C  1462815
+
+Query_4  121      CTGAAGTTGGCAGGACAG  138
+33       1462814  AG.............A..  1462797
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121805570418
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 112593384420
+
+
+Query= exon6
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ861075.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  66.2    2e-09
+
+
+
+Query_6  5        AAGCAGGCAAAACCTTCACATCTGAGTTCTATCGTGATCATCTAAAAATGATACGAGAGG  64
+33       1459324  .....AA.....T..............G...G.A....G..AA...T...T..T....A.  1459265
+
+Query_6  65       TGTACATGGACAAACAAAAAAGCTTCAACATTGGCCTGTCTC  106
+33       1459264  .C....CA.......T....CT.C....-.G.T.A.......  1459223
+                             \                              
+                             |                              
+                             A
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 190382518608
+
+
+Query= exon7
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 215971566808
+
+
+Query= exon8
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 102357622200
+
+
+Query= exon9
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 153536433300
+
+
+Query= exon10
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ861099.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  44.6    0.008
+
+
+
+Query_10  95      AATATAGTGTGTGCAAATGTGAACCCTGTAAAAATGG  131
+200       324590  ..A..T....A..A..........A............  324554
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 203688823672
+
+
+Query= exon11
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122829146640
+
+
+  Database: Chrysolophus_pictus.Chrysolophus_pictus_GenomeV1.0.dna_sm.toplevel.f
+a
+    Posted date:  Nov 24, 2021  4:05 PM
+  Number of letters in database: 1,023,990,748
+  Number of sequences in database:  14,294
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

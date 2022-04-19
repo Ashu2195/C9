@@ -1,0 +1,277 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003435085.1_NTU_Smik_1.2_genomic.fna
+           71,281 sequences; 1,066,426,119 total letters
+
+
+
+Query= exon1
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 61736954558
+
+
+Query= exon2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000031.1 Syrmaticus mikado isolate TWDZ01 scaffold31, who...  78.8    2e-13
+
+
+
+Query_2  1        CTCTTCCGAGAAAGCTTTCCAGAGGGGGACAAGAGAACTGAATGCTCCATCCCCGATAGA  60
+30       6926962  ......A..A........T.TC.......TG....T......G...GT...T..A.....  6926903
+
+Query_2  61       TTGTAAGCTGAGCAGCTGGAGTGAATGGGGGCCCTGTGACCCATGCACATA  111
+30       6926902  GA.A...A.............CAC..CA.T..T.........C..T..C..  6926852
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94727948330
+
+
+Query= exon3
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000031.1 Syrmaticus mikado isolate TWDZ01 scaffold31, who...  53.6    9e-06
+
+
+
+Query_3  76       AGCTGTAAAACTAGTCGAGTCTGTCCTGAAGAACCAGAACCAGACTGTGGTACTGACTTT  135
+30       6924449  ......G...T.GAC.AT.......TCAC.A................--.C.........  6924392
+
+Query_3  136      CAATGCAATTCTG  148
+30       6924391  .....T..A....  6924379
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126658717430
+
+
+Query= exon4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000031.1 Syrmaticus mikado isolate TWDZ01 scaffold31, who...  48.2    4e-04
+  QGNR01000003.1 Syrmaticus mikado isolate TWDZ01 scaffold3, whol...  44.6    0.005
+
+
+
+Query_4  22       TTGTGTGTAACGTAGATAATGACTGTGGAGACTTTTCTGATGAAGATAACTG  73
+30       6923045  ...........AA....G......A.T....T......A.....          6923002
+2        4107548       .....T.G....G..............CAG..A......A.A.....  4107594
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126658717430
+
+
+Query= exon5
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 117079486700
+
+
+Query= exon6
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000031.1 Syrmaticus mikado isolate TWDZ01 scaffold31, who...  78.8    4e-13
+
+
+
+Query_6  5        AAGCAGACAAAACCTTCACAGCTGAGTACTATCATGATCGTGCAGAAATGATCCTAGAGG  64
+30       6919483  ............T.......T......T...G......GA.AA.A.T...T.ATG...A.  6919424
+
+Query_6  65       TTTACATAGAAAAAGAAAGAAAATTTAAGGCTGATCTGTCTGTGAAATACACACCTAC  122
+30       6919423  .....GC...C...C...A.CTCC.C..A.T...-......C................  6919367
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 201150373221
+
+
+Query= exon7
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 224564702379
+
+
+Query= exon8
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000064.1 Syrmaticus mikado isolate TWDZ01 scaffold64, who...  44.6    0.004
+
+
+
+Query_8  20       aaaaaaaTGTCTTGGCTATCATTT  43
+63       2553096  ........................  2553073
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 106435897000
+
+
+Query= exon9
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 159653845500
+
+
+Query= exon10
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 211793250111
+
+
+Query= exon11
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  QGNR01000039.1 Syrmaticus mikado isolate TWDZ01 scaffold39, who...  44.6    0.005
+
+
+
+Query_11  2         TGTCACGGATGGAGGCTGGAGCTGTTGGAGTGCCTGGTCCACCTGCATGAG  52
+38        13490381  .....T.C...C..C...............A.........T..A...G...  13490433
+                                                  \    \               
+                                                  |    |               
+                                                  A    C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 140495384040
+
+
+  Database: GCA_003435085.1_NTU_Smik_1.2_genomic.fna
+    Posted date:  Nov 24, 2021  4:29 PM
+  Number of letters in database: 1,066,426,119
+  Number of sequences in database:  71,281
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,419 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Chrysolophus_pictus.Chrysolophus_pictus_GenomeV1.0.dna_sm.toplevel.f
+a
+           14,294 sequences; 1,023,990,748 total letters
+
+
+
+Query= exon1_Penelope_pileata
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 59368249928
+
+
+Query= exon2_Gallus_gallus
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ861075.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  98.7    2e-19
+
+
+
+Query_2  1        CTCTGCAGAAAAAGCTTTCCACGGGGATGAAAGTACTGAAGGCTGTAGCTTCAACAGAGT  60
+33       1465840  ....T.........T...T..G........G............G...T..C........A  1465779
+                                      \                                       
+                                      |                                       
+                                     TT
+
+Query_2  61       GAAGGATGAGCAGCTGGAGTGCATGGGCGCACTGTGACCTATGCACCTA  109
+33       1465778  ...A..............ACA...CT.T......C....CC..T.....  1465730
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81886097760
+
+
+Query= exon2_Tympanuchus_cupido
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ861075.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  143     5e-33
+
+
+
+Query_3  1        CTCTTCAGAAAAAGCTTTTCTCAGGGGGATGAGAGTACCAAAGGCTGTATCTCCAACAGG  60
+33       1465840  ..............T......T................TG.....G..............  1465780
+                                                                             \
+                                                                             |
+                                                                             A
+
+Query_3  61       AGAAAGGTGAGCAGCTGGAACGCATCGTTGCACTGTAACCCCTGCATCTAGAAGAAGG  118
+33       1465779  ......A..............A....TG.......CG.......T.C......A....  1465722
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91098283758
+
+
+Query= exon2_Alectura_lathami
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ860831.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  48.2    3e-04
+
+
+
+Query_4  10      AAAAGCTTTCCACAGGTGGATGAAAGAACTGAAT  43
+290      748651  ......AG.T........................  748684
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91098283758
+
+
+Query= exon3_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ861075.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  102     2e-20
+
+
+
+Query_5  2        TTCATACTAGAAGTGTTGAAGGTTTCAGATAGTTTGGCAGAAAAACATGACTGGATTCTA  61
+33       1464375                                                        ....C.  1464370
+33       1465071  .......C.......C.............C......A.................        1465018
+
+Query_5  62       TGATATATGTAGAGCTGAGAAATTGACCATGTCCGCCTCAAAGAACTGCAACCAGACTGG  121
+33       1464369  .................T................AT....C.A...CAG...........  1464307
+                        \                                                     
+                        |                                                     
+                      GCT
+
+Query_5  122      CACTGACTTTCAGTGTAAATCTG  144
+33       1464306  T...........A..........  1464284
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 117711265530
+
+
+Query= exon4_Gallus_gallus
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ861075.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  172     1e-41
+  KZ860715.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  46.4    0.001
+
+
+
+Query_6  1        GTTAATGTGTGAAGTGACAATTTGTGTGTAACAAAGATGGTGACTGTAGAGATTTTTCTA  60
+33       1462929  ...G...CA.......C......................A.....A.T............  1462870
+90       1361784                                                     .........  1361792
+
+Query_6  61       ATGAAGGCAAATGTAAATTTGTACCACAGTCACCATGCCATAATGATCACATTGATAGGC  120
+33       1462869  .....C-----...................TG.....T.................C....  1462815
+90       1361793  ......A.....C.......A...                                      1361816
+
+Query_6  121      AGGAAGTTGGCAGGAAGGGCAAGA  144
+33       1462814  ...................G....  1462790
+                                \         
+                                |         
+                                A
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 117711265530
+
+
+Query= exon5_Alectura_lathami
+
+Length=139
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 112593384420
+
+
+Query= exon6_Gallus_gallus
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ861075.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  183     1e-44
+
+
+
+Query_8  1        ATAGAAACAGACAAAATCTTCACATCTGAGTTCTAGCATGATCATaaaaaaaTGCTATGA  60
+33       1459328  ......G..A.....................G..........G.......T...T.....  1459269
+
+Query_8  61       GAGGTCTACACAGACAAACAAAAGCCTCTTCAAAGTTGAATGTCTCTGAAATACACACCT  120
+33       1459268  ..A...............ACT..AA...C..........C.....----------.CNNN  1459219
+
+Query_8  121      ACACCTACTGCAGGGAGTAGCAGGAATGCTTCAGGAGATAATTTAAAGTTCCACTATAGC  180
+33       1459218  NNNNNNNNNNNNNNNNNNNN.................C............T.........  1459159
+
+Query_8  181      TAGACTGTAAGTTTCAATTCTATGTTACACAGCTTCATAAGAACA  225
+33       1459158  .G.............TG............T.......C.......  1459114
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 199594575960
+
+
+Query= exon6_Alectura_lathami
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ861075.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  91.5    6e-17
+
+
+
+Query_9  136      AGGAATGCTTCAGGAGCAAATTCAAAGTTTCCCTATGGTAAGACTGCAAGTTTCAGTTCT  195
+33       1459197  .................T....T........A....A.CTG.....T.......T.....  1459138
+
+Query_9  196      GTGTTGCATAGCTTCAAAGAA  216
+33       1459137  A....A...............  1459116
+                                  \    
+                                  |    
+                                  C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 193453204392
+
+
+Query= exon7_Alectura_lathami
+
+Length=241
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 215971566808
+
+
+Query= exon7_Gallus_gallus
+
+Length=197
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 171960805296
+
+
+Query= exon9_Gallus_gallus
+
+Length=123
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 96216164868
+
+
+Query= exon9_Alectura_lathami
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  KZ859911.1 dna_sm:primary_assembly primary_assembly:Chrysolophu...  46.4    0.002
+
+
+
+Query_13  47       TGATGGAGGAAATGTTGATTTTTCAGTTAAAATAA  81
+59        2555597  .....C..A.................G.....C..  2555631
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 148418552190
+
+
+Query= exon10_Alectura_lathami
+
+Length=229
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 203688823672
+
+
+Query= exon10_Gallus_gallus
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120781994196
+
+
+Query= exon11_Odontophorus_gujanensis
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118734841752
+
+
+  Database: Chrysolophus_pictus.Chrysolophus_pictus_GenomeV1.0.dna_sm.toplevel.f
+a
+    Posted date:  Nov 24, 2021  4:05 PM
+  Number of letters in database: 1,023,990,748
+  Number of sequences in database:  14,294
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
