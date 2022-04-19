@@ -1,0 +1,58 @@
+BLASTN 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: DRR228555_56_57.fa
+           658,570,536 sequences; 96,185,443,664 total letters
+
+
+
+Query= Branchiostoma_belcheri
+
+Length=2766
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRR228555.19222386 E00443:33:H3FVWALXX:2:1116:3792:31160/1          57.2    0.001
+
+
+
+Query_1   2518  CCAGGAGATGCTGACACGTCACCAGGAGATGCTGAAACGTCACCAGGAGATGCTGACACG  2577
+19222385  81    .............C.C..C.C..........A..TC...C.C..........A..C...   23
+19222385  81                                              .............C.C..  64
+19222385  81                         .............CCC..C.C..........A..T....  43
+
+Query_1   2578  TCACCAGGAGATGCTGAAACGTCACCAGGAGATGCTGAAACGTCACCAGGAGATGCTGAA  2637
+19222385  81                                                 .............CC  67
+19222385  63    C.C..........A..TC...C.C..........A..                         27
+19222385  42    C.C..........A..                                              27
+
+Query_1   2638  ACGTCACCAGGAGATGCTGACACGTCACCAGGAGATGCTG  2677
+19222385  66    C..C.C..........A..T....C.C..........A..  27
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 194123834271488
+
+
+  Database: DRR228555_56_57.fa
+    Posted date:  Feb 12, 2022  3:33 PM
+  Number of letters in database: 96,185,443,664
+  Number of sequences in database:  658,570,536
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
